@@ -147,13 +147,14 @@ async function loadLiveNews(){
       title:item.querySelector('title')?.textContent||'Untitled',
       link:item.querySelector('link')?.textContent||'#',
       pubDate:item.querySelector('pubDate')?.textContent||'',
-      description:item.querySelector('description')?.textContent||''
+      description:item.querySelector('description')?.textContent||'',
+      image:item.querySelector('enclosure')?.getAttribute('url')||item.querySelector('media\\:content')?.getAttribute('url')||item.querySelector('media\\:thumbnail')?.getAttribute('url')||''
     }));
     if(!items.length)throw new Error('No headlines');
     feed.innerHTML=items.map(item=>{
       const date=item.pubDate?new Date(item.pubDate):null;
       const stamp=date&&!Number.isNaN(date.getTime())?date.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'Latest';
-      const esc=v=>String(v).replace(/[&<>\"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[m])); return '<article class="news-item"><div class="news-item-meta"><span>LIVE</span><time>'+stamp+'</time></div><h3><a href="'+encodeURI(item.link)+'" target="_blank" rel="noopener noreferrer">'+esc(item.title)+'</a></h3><p>'+esc((item.description||'').replace(/<[^>]*>/g,'').slice(0,180))+'</p><a class="inline-link" href="'+encodeURI(item.link)+'" target="_blank" rel="noopener noreferrer">Read Source →</a></article>'; 
+      const esc=v=>String(v).replace(/[&<>\"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[m])); const image=item.image||((item.description||'').match(/<img[^>]+src=[\\"']([^\\"']+)[\\"']/i)||[])[1]||''; return '<article class="news-item">'+(image?'<a class="news-item-image" href="'+encodeURI(item.link)+'" target="_blank" rel="noopener noreferrer"><img src="'+encodeURI(image)+'" alt="" loading="lazy" referrerpolicy="no-referrer"></a>':'')+'<div class="news-item-meta"><span>LIVE</span><time>'+stamp+'</time></div><h3><a href="'+encodeURI(item.link)+'" target="_blank" rel="noopener noreferrer">'+esc(item.title)+'</a></h3><p>'+esc((item.description||'').replace(/<[^>]*>/g,'').slice(0,180))+'</p><a class="inline-link" href="'+encodeURI(item.link)+'" target="_blank" rel="noopener noreferrer">Read Source →</a></article>'; 
     }).join('');
   }catch(error){
     feed.innerHTML='<div class="news-error"><strong>Live feed temporarily unavailable.</strong><p>The site is still online. Refresh in a moment to pull the latest headlines.</p></div>';
