@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
 :root {
   --bg: #f4f4f0;
   --panel: #eceae2;
@@ -53,12 +55,6 @@ select {
 ::selection {
   background: rgba(17, 17, 17, 0.12);
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
-
-/* ================================
-   HEADER
-================================ */
 
 .site-header {
   position: sticky;
@@ -130,7 +126,8 @@ select {
   transition: transform 0.24s ease;
 }
 
-.primary-nav a:hover {
+.primary-nav a:hover,
+.primary-nav a:focus-visible {
   opacity: 1;
   color: var(--ink);
 }
@@ -152,10 +149,6 @@ select {
   text-transform: uppercase;
   cursor: pointer;
 }
-
-/* ================================
-   HERO
-================================ */
 
 .hero {
   position: relative;
@@ -249,10 +242,6 @@ select {
   background: rgba(255, 255, 255, 0.04);
 }
 
-/* ================================
-   GENERAL SECTIONS
-================================ */
-
 .section {
   width: min(1200px, 92%);
   margin: auto;
@@ -278,10 +267,6 @@ select {
   margin-bottom: 16px;
   opacity: 0.85;
 }
-
-/* ================================
-   FEATURED STORY
-================================ */
 
 .featured-card {
   display: grid;
@@ -336,7 +321,8 @@ select {
 
 .card-content a,
 .artist-feature a,
-.spotlight-banner-inner a {
+.spotlight-banner-inner a,
+.inline-link {
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -350,13 +336,10 @@ select {
 
 .card-content a:hover,
 .artist-feature a:hover,
-.spotlight-banner-inner a:hover {
+.spotlight-banner-inner a:hover,
+.inline-link:hover {
   transform: translateX(4px);
 }
-
-/* ================================
-   EDITORIAL GRID
-================================ */
 
 .editorial-grid {
   display: grid;
@@ -424,10 +407,6 @@ select {
   font-size: clamp(22px, 2vw, 28px);
 }
 
-/* ================================
-   RELEASES
-================================ */
-
 .release-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -487,10 +466,6 @@ select {
   margin-top: 8px;
 }
 
-/* ================================
-   HIGHLIGHT BANNER
-================================ */
-
 .spotlight-banner {
   width: min(1200px, 92%);
   margin: auto;
@@ -519,10 +494,6 @@ select {
 .spotlight-banner-inner a {
   color: var(--light);
 }
-
-/* ================================
-   ARTISTS
-================================ */
 
 .dark-section {
   width: 100%;
@@ -566,10 +537,6 @@ select {
   white-space: nowrap;
 }
 
-/* ================================
-   CULTURE
-================================ */
-
 .culture-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -598,10 +565,6 @@ select {
   line-height: 0.95;
   letter-spacing: -0.06em;
 }
-
-/* ================================
-   FOOTER
-================================ */
 
 footer {
   background: #111;
@@ -639,15 +602,239 @@ footer {
   letter-spacing: 0.08em;
 }
 
-/* ================================
-   MOBILE
-================================ */
+.page-hero {
+  background: linear-gradient(135deg, rgba(17,17,17,0.96), rgba(17,17,17,0.84)), #111;
+  color: var(--light);
+  padding: 90px 4% 70px;
+}
+
+.page-hero .hero-content {
+  width: min(1200px, 92%);
+}
+
+.page-hero .eyebrow {
+  margin-bottom: 12px;
+}
+
+.page-hero h1 {
+  font-size: clamp(46px, 7vw, 110px);
+  line-height: 0.9;
+  letter-spacing: -0.07em;
+  margin-bottom: 18px;
+}
+
+.page-lead {
+  max-width: 700px;
+  color: rgba(255,255,255,0.75);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.page-shell {
+  width: min(1200px, 92%);
+  margin: auto;
+  padding: 90px 0;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.content-panel,
+.info-panel,
+.artist-card,
+.contact-card,
+.release-item {
+  background: rgba(255,255,255,0.35);
+  border: 1px solid rgba(17,17,17,0.08);
+  border-radius: 18px;
+  box-shadow: 0 18px 35px rgba(17,17,17,0.04);
+}
+
+.content-panel {
+  padding: 34px;
+}
+
+.content-panel h2,
+.info-panel h3,
+.contact-card h3,
+.artist-card h3,
+.release-item h3 {
+  font-size: clamp(28px, 3vw, 42px);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  margin-bottom: 18px;
+}
+
+.content-panel p,
+.info-panel p,
+.contact-card p,
+.artist-card p,
+.release-item p {
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.info-panel {
+  padding: 28px 24px;
+}
+
+.info-panel ul {
+  list-style: none;
+  margin-top: 20px;
+  display: grid;
+  gap: 14px;
+}
+
+.info-panel li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  border-top: 1px solid rgba(17,17,17,0.08);
+  padding-top: 12px;
+  color: var(--muted);
+}
+
+.info-panel strong {
+  color: var(--ink);
+}
+
+.artist-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.artist-card {
+  overflow: hidden;
+}
+
+.artist-photo {
+  min-height: 260px;
+  background-size: cover;
+  background-position: center;
+}
+
+.photo-1 { background-image: linear-gradient(180deg, rgba(17,17,17,0.1), rgba(17,17,17,0.5)), url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80'); }
+.photo-2 { background-image: linear-gradient(180deg, rgba(17,17,17,0.1), rgba(17,17,17,0.5)), url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80'); }
+.photo-3 { background-image: linear-gradient(180deg, rgba(17,17,17,0.1), rgba(17,17,17,0.5)), url('https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80'); }
+
+.artist-card-content {
+  padding: 24px;
+}
+
+.artist-card-content p {
+  margin-top: 10px;
+}
+
+.release-list {
+  display: grid;
+  gap: 20px;
+}
+
+.release-item {
+  padding: 24px;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.release-thumb {
+  min-height: 160px;
+  border-radius: 14px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 16px 26px rgba(17,17,17,0.08);
+}
+
+.release-thumb.one { background-image: url('https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80'); }
+.release-thumb.two { background-image: url('https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=900&q=80'); }
+.release-thumb.three { background-image: url('https://images.unsplash.com/photo-1493225457124-cd7c39b8a4d7?auto=format&fit=crop&w=900&q=80'); }
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  gap: 26px;
+}
+
+.contact-card {
+  padding: 28px 26px;
+}
+
+.contact-form {
+  display: grid;
+  gap: 16px;
+}
+
+.contact-form label {
+  display: grid;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid rgba(17,17,17,0.12);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.4);
+  padding: 14px 16px;
+  color: var(--ink);
+}
+
+.contact-form textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+.submit-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  border: none;
+  background: var(--ink);
+  color: var(--light);
+  padding: 14px 24px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.contact-list {
+  list-style: none;
+  display: grid;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.contact-list li {
+  display: grid;
+  gap: 6px;
+  border-top: 1px solid rgba(17,17,17,0.08);
+  padding-top: 14px;
+}
+
+.contact-list span {
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
 
 @media (max-width: 800px) {
-  .nav-container {
-    min-height: 68px;
-  }
-
   .menu-toggle {
     display: inline-flex;
     align-items: center;
@@ -677,11 +864,6 @@ footer {
     transform: translateY(0);
   }
 
-  nav a {
-    font-size: 9px;
-    letter-spacing: 0.14em;
-  }
-
   .hero {
     min-height: 72vh;
     padding-top: 80px;
@@ -696,14 +878,6 @@ footer {
     padding: 75px 0;
   }
 
-  .section-heading {
-    margin-bottom: 35px;
-  }
-
-  .section-heading h2 {
-    letter-spacing: -0.04em;
-  }
-
   .featured-card {
     grid-template-columns: 1fr;
   }
@@ -716,7 +890,12 @@ footer {
     padding: 35px 0;
   }
 
-  .editorial-grid {
+  .editorial-grid,
+  .artist-grid,
+  .contact-grid,
+  .two-column,
+  .culture-grid,
+  .release-list {
     grid-template-columns: 1fr;
   }
 
@@ -737,14 +916,6 @@ footer {
   .artist-feature {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .artist-feature h3 {
-    letter-spacing: -0.05em;
-  }
-
-  .culture-grid {
-    grid-template-columns: 1fr;
   }
 
   .footer-container {
@@ -776,4 +947,9 @@ footer {
   .hero-button.secondary {
     width: 100%;
   }
+
+  .release-item {
+    grid-template-columns: 1fr;
+  }
 }
+

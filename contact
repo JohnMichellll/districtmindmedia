@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>District Mind Media | Contact</title>
+    <meta name="description" content="Contact District Mind Media for submissions, partnerships, and media inquiries." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="nav-container">
+        <a href="index" class="logo">DISTRICT MIND</a>
+
+        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">
+          Menu
+        </button>
+
+        <nav class="primary-nav" id="primary-nav">
+          <a href="index">Home</a>
+          <a href="index#latest">Latest</a>
+          <a href="index#releases">Releases</a>
+          <a href="artists">Artists</a>
+          <a href="about">About</a>
+          <a href="contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="hero-content">
+          <p class="eyebrow">Contact</p>
+          <h1>Let’s build something real.</h1>
+          <p class="page-lead">
+            Reach out for submissions, collaborations, features, and brand partnerships.
+          </p>
+        </div>
+      </section>
+
+      <section class="page-shell contact-grid">
+        <article class="contact-card">
+          <p class="eyebrow">Send a message</p>
+          <h3>Start a conversation.</h3>
+
+          <form class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" />
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" placeholder="Tell us about your project, release, or inquiry..."></textarea>
+            </label>
+
+            <button type="submit" class="submit-btn">Send inquiry</button>
+          </form>
+        </article>
+
+        <aside class="contact-card">
+          <p class="eyebrow">Connect</p>
+          <h3>District Mind Media</h3>
+          <p>Independent stories, artist features, and culture coverage for the next wave.</p>
+
+          <ul class="contact-list">
+            <li>
+              <span>Email</span>
+              <strong>hello@districtmindmedia.com</strong>
+            </li>
+            <li>
+              <span>Instagram</span>
+              <strong>@districtmindmedia</strong>
+            </li>
+            <li>
+              <span>Location</span>
+              <strong>Independent / Global</strong>
+            </li>
+          </ul>
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div>
+          <h3>District Mind</h3>
+          <p>Media</p>
+        </div>
+        <p>© 2026 District Mind Media. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      const menuToggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('.primary-nav');
+
+      if (menuToggle && nav) {
+        menuToggle.addEventListener('click', () => {
+          const isOpen = nav.classList.toggle('is-open');
+          menuToggle.setAttribute('aria-expanded', String(isOpen));
+        });
+
+        nav.querySelectorAll('a').forEach((link) => {
+          link.addEventListener('click', () => {
+            nav.classList.remove('is-open');
+            menuToggle.setAttribute('aria-expanded', 'false');
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

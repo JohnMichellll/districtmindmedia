@@ -13,17 +13,19 @@
   <body>
     <header class="site-header">
       <div class="nav-container">
-        <a href="#" class="logo">DISTRICT MIND</a>
+        <a href="index" class="logo">DISTRICT MIND</a>
 
         <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">
           Menu
         </button>
 
         <nav class="primary-nav" id="primary-nav">
+          <a href="index">Home</a>
           <a href="#latest">Latest</a>
           <a href="#releases">Releases</a>
-          <a href="#artists">Artists</a>
-          <a href="#culture">Culture</a>
+          <a href="artists">Artists</a>
+          <a href="about">About</a>
+          <a href="contact">Contact</a>
         </nav>
       </div>
     </header>
@@ -41,7 +43,7 @@
 
           <div class="hero-actions">
             <a href="#latest" class="hero-button">Explore Media</a>
-            <a href="#artists" class="hero-button secondary">View Artists</a>
+            <a href="artists" class="hero-button secondary">View Artists</a>
           </div>
         </div>
       </section>
@@ -114,29 +116,29 @@
         <div class="release-grid">
           <article class="release-card">
             <div class="release-image art-one">
-              <span>Coming Soon</span>
+              <span>Maya Sol</span>
             </div>
             <p class="category">New Release</p>
-            <h3>Friday Release</h3>
-            <p>Featured release coming soon.</p>
+            <h3>Afterglow</h3>
+            <p>Warm, intimate production with deep emotional pull.</p>
           </article>
 
           <article class="release-card">
             <div class="release-image art-two">
-              <span>Coming Soon</span>
+              <span>Kairo Lane</span>
             </div>
             <p class="category">New Release</p>
-            <h3>Friday Release</h3>
-            <p>Featured release coming soon.</p>
+            <h3>Pressure</h3>
+            <p>Sharp delivery and cinematic tension built for motion.</p>
           </article>
 
           <article class="release-card">
             <div class="release-image art-three">
-              <span>Coming Soon</span>
+              <span>Vanta Drift</span>
             </div>
             <p class="category">New Release</p>
-            <h3>Friday Release</h3>
-            <p>Featured release coming soon.</p>
+            <h3>Static Hearts</h3>
+            <p>Dark textures and urgent rhythm for late-night listening.</p>
           </article>
         </div>
       </section>
@@ -147,7 +149,7 @@
             <p class="eyebrow">Editors' pick</p>
             <h2>The sound of the city, told through stories.</h2>
           </div>
-          <a href="#culture">Read the story →</a>
+          <a href="about">Read the story →</a>
         </div>
       </section>
 
@@ -167,7 +169,7 @@
             </p>
           </div>
 
-          <a href="#">View Artists →</a>
+          <a href="artists">View Artists →</a>
         </div>
       </section>
 

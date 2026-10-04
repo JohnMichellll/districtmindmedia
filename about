@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>District Mind Media | About</title>
+    <meta name="description" content="Learn about District Mind Media, our mission, and the creatives shaping culture." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="nav-container">
+        <a href="index" class="logo">DISTRICT MIND</a>
+
+        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">
+          Menu
+        </button>
+
+        <nav class="primary-nav" id="primary-nav">
+          <a href="index">Home</a>
+          <a href="index#latest">Latest</a>
+          <a href="index#releases">Releases</a>
+          <a href="artists">Artists</a>
+          <a href="about">About</a>
+          <a href="contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="hero-content">
+          <p class="eyebrow">About</p>
+          <h1>Stories with a point of view.</h1>
+          <p class="page-lead">
+            District Mind Media is a culture platform built to spotlight emerging talent,
+            new releases, real stories, and the creative tension shaping tomorrow.
+          </p>
+        </div>
+      </section>
+
+      <section class="page-shell">
+        <div class="two-column">
+          <article class="content-panel">
+            <p class="eyebrow">Our mission</p>
+            <h2>We cover what moves culture before it becomes mainstream.</h2>
+            <p>
+              We believe music and culture aren’t passive experiences—they’re signals. The artists,
+              scenes, and stories that matter often start outside the spotlight. We’re here to document
+              that energy and give it a platform.
+            </p>
+            <p>
+              Through interviews, artist features, release coverage, and cultural commentary, District Mind
+              Media brings attention to the people and projects shaping the next wave of sound and storytelling.
+            </p>
+          </article>
+
+          <aside class="info-panel">
+            <p class="eyebrow">At a glance</p>
+            <h3>What we focus on</h3>
+            <ul>
+              <li><span>Music</span><strong>Artist features</strong></li>
+              <li><span>Culture</span><strong>Interviews + stories</strong></li>
+              <li><span>Media</span><strong>Releases + editorials</strong></li>
+              <li><span>Community</span><strong>Creative discovery</strong></li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div>
+          <h3>District Mind</h3>
+          <p>Media</p>
+        </div>
+        <p>© 2026 District Mind Media. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      const menuToggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('.primary-nav');
+
+      if (menuToggle && nav) {
+        menuToggle.addEventListener('click', () => {
+          const isOpen = nav.classList.toggle('is-open');
+          menuToggle.setAttribute('aria-expanded', String(isOpen));
+        });
+
+        nav.querySelectorAll('a').forEach((link) => {
+          link.addEventListener('click', () => {
+            nav.classList.remove('is-open');
+            menuToggle.setAttribute('aria-expanded', 'false');
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
