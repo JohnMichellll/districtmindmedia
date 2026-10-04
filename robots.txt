@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://district-mind-media.pages.dev/sitemap.xml
