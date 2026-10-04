@@ -77,6 +77,21 @@
   </div>
 </section>
 
+
+<section class="section live-news-section reveal" id="live-news">
+  <div class="section-heading">
+    <p class="eyebrow">LIVE / News Desk</p>
+    <h2>What’s happening now.</h2>
+  </div>
+  <div class="live-news-toolbar">
+    <p>Automatically refreshed music and culture headlines from the live news feed.</p>
+    <button id="refresh-news" type="button">Refresh Feed</button>
+  </div>
+  <div id="news-feed" class="news-feed" aria-live="polite">
+    <div class="news-loading">Loading the latest headlines…</div>
+  </div>
+</section>
+
 <section class="section dark-section reveal">
   <div class="section-heading"><p class="eyebrow">04 / Artist Watch</p><h2>Names to track.</h2></div>
   <div class="artist-feature">
@@ -106,6 +121,35 @@
 <script>
 const menuToggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.primary-nav');
 if(menuToggle&&nav){menuToggle.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');menuToggle.setAttribute('aria-expanded',String(open));});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('is-open');menuToggle.setAttribute('aria-expanded','false');}));}
+
+async function loadLiveNews(){
+  const feed=document.getElementById('news-feed');
+  const button=document.getElementById('refresh-news');
+  if(!feed)return;
+  feed.innerHTML='<div class="news-loading">Loading the latest headlines…</div>';
+  if(button)button.disabled=true;
+  try{
+    const rss='https://news.google.com/rss/search?q=music%20OR%20hip-hop%20OR%20R%26B%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen';
+    const response=await fetch('https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent(rss));
+    if(!response.ok)throw new Error('Feed request failed');
+    const data=await response.json();
+    const items=(data.items||[]).slice(0,8);
+    if(!items.length)throw new Error('No headlines');
+    feed.innerHTML=items.map(item=>{
+      const date=item.pubDate?new Date(item.pubDate):null;
+      const stamp=date&&!Number.isNaN(date.getTime())?date.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'Latest';
+      return '<article class="news-item"><div class="news-item-meta"><span>LIVE</span><time>'+stamp+'</time></div><h3><a href="'+item.link+'" target="_blank" rel="noopener noreferrer">'+item.title+'</a></h3><p>'+((item.description||'').replace(/<[^>]*>/g,'').slice(0,180))+'</p><a class="inline-link" href="'+item.link+'" target="_blank" rel="noopener noreferrer">Read Source →</a></article>';
+    }).join('');
+  }catch(error){
+    feed.innerHTML='<div class="news-error"><strong>Live feed temporarily unavailable.</strong><p>The site is still online. Refresh in a moment to pull the latest headlines.</p></div>';
+  }finally{
+    if(button)button.disabled=false;
+  }
+}
+loadLiveNews();
+const newsButton=document.getElementById('refresh-news');
+if(newsButton)newsButton.addEventListener('click',loadLiveNews);
+
 document.querySelectorAll('[data-form]').forEach(form=>form.addEventListener('submit',e=>{e.preventDefault();const s=form.querySelector('.form-success');if(s)s.classList.add('is-visible');form.reset();}));
 </script>
 </body>
