@@ -1744,3 +1744,23 @@ footer {
 .article-body h2{font-size:clamp(32px,4vw,54px);line-height:.95;letter-spacing:-.05em;margin:65px 0 25px;}
 .article-source{border-top:1px solid var(--line);margin-top:50px;padding-top:20px;color:var(--muted);font-size:12px;letter-spacing:.06em;}
 @media(max-width:760px){.featured-photo{min-height:320px}.real-release-photo,.live-photo{min-height:270px!important}.article-body{font-size:17px}.article-page h1{font-size:48px}}
+
+
+/* LIVE NEWS FEED */
+.live-news-section{padding-top:40px}
+.live-news-toolbar{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:28px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0}
+.live-news-toolbar p{color:var(--muted);font-size:14px}
+.live-news-toolbar button{appearance:none;border:1px solid rgba(17,17,17,.18);background:transparent;padding:11px 16px;font-size:10px;font-weight:900;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
+.live-news-toolbar button:hover{background:var(--ink);color:var(--light)}
+.live-news-toolbar button:disabled{opacity:.45;cursor:wait}
+.news-feed{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.news-item{border-top:2px solid var(--ink);padding:20px 0 24px}
+.news-item-meta{display:flex;gap:14px;align-items:center;margin-bottom:14px;font-size:9px;font-weight:900;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.news-item-meta span{color:var(--ink)}
+.news-item h3{font-size:clamp(20px,2.2vw,30px);line-height:1.02;letter-spacing:-.045em;margin-bottom:12px}
+.news-item h3 a:hover{text-decoration:underline;text-underline-offset:4px}
+.news-item p{color:var(--muted);font-size:14px;line-height:1.6;max-width:650px;margin-bottom:16px}
+.news-item .inline-link{font-size:9px}
+.news-loading,.news-error{border:1px solid var(--line);padding:28px;color:var(--muted);font-size:14px}
+.news-error strong{display:block;color:var(--ink);margin-bottom:6px}
+@media(max-width:760px){.live-news-toolbar{align-items:flex-start;flex-direction:column}.live-news-toolbar button{width:100%}.news-feed{grid-template-columns:1fr}}
