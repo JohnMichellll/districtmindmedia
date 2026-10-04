@@ -1,0 +1,165 @@
+index.html<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>District Mind Media</title>
+
+  <meta
+    name="description"
+    content="District Mind Media — independent music, artist features, new releases, culture, interviews, and entertainment."
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#" class="logo">DISTRICT MIND</a>
+
+      <nav>
+        <a href="#latest">Latest</a>
+        <a href="#releases">Releases</a>
+        <a href="#artists">Artists</a>
+        <a href="#culture">Culture</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">DISTRICT MIND MEDIA</p>
+
+        <h1>THE CULTURE<br>IN MOTION.</h1>
+
+        <p class="hero-text">
+          Music, artists, releases, and stories worth paying attention to.
+        </p>
+
+        <a href="#latest" class="hero-button">Explore Media</a>
+      </div>
+    </section>
+
+    <section id="latest" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">01 / LATEST</p>
+        <h2>What's happening.</h2>
+      </div>
+
+      <div class="featured-card">
+        <div class="card-placeholder">
+          <span>FEATURED STORY</span>
+        </div>
+
+        <div class="card-content">
+          <p class="category">MUSIC</p>
+          <h3>New music. New artists. New energy.</h3>
+          <p>
+            District Mind Media covers the releases and artists moving
+            culture forward.
+          </p>
+          <a href="#">Read Story →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="releases" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">02 / RELEASES</p>
+        <h2>Coming this Friday.</h2>
+      </div>
+
+      <div class="release-grid">
+
+        <article class="release-card">
+          <div class="release-image">
+            <span>COMING SOON</span>
+          </div>
+
+          <p class="category">NEW RELEASE</p>
+          <h3>Friday Release</h3>
+          <p>Featured release coming soon.</p>
+        </article>
+
+        <article class="release-card">
+          <div class="release-image">
+            <span>COMING SOON</span>
+          </div>
+
+          <p class="category">NEW RELEASE</p>
+          <h3>Friday Release</h3>
+          <p>Featured release coming soon.</p>
+        </article>
+
+        <article class="release-card">
+          <div class="release-image">
+            <span>COMING SOON</span>
+          </div>
+
+          <p class="category">NEW RELEASE</p>
+          <h3>Friday Release</h3>
+          <p>Featured release coming soon.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="artists" class="section dark-section">
+      <div class="section-heading">
+        <p class="eyebrow">03 / ARTISTS</p>
+        <h2>Know the names.</h2>
+      </div>
+
+      <div class="artist-feature">
+        <div>
+          <p class="category">ARTIST SPOTLIGHT</p>
+          <h3>Independent voices deserve a spotlight.</h3>
+          <p>
+            Discover artists creating their own lane and building something
+            bigger than themselves.
+          </p>
+        </div>
+
+        <a href="#">View Artists →</a>
+      </div>
+    </section>
+
+    <section id="culture" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">04 / CULTURE</p>
+        <h2>More than music.</h2>
+      </div>
+
+      <div class="culture-grid">
+        <div class="culture-card">
+          <p class="category">CULTURE</p>
+          <h3>The mindset behind the movement.</h3>
+        </div>
+
+        <div class="culture-card">
+          <p class="category">MEDIA</p>
+          <h3>Stories from the people creating what's next.</h3>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div>
+        <h3>DISTRICT MIND</h3>
+        <p>MEDIA</p>
+      </div>
+
+      <p>© 2026 District Mind Media. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
