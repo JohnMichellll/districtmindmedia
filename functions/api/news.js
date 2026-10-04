@@ -21,7 +21,8 @@ export async function onRequestGet() {
     "hip-hop OR rap OR rapper",
     "R&B OR soul OR singer",
     "new music OR album OR single",
-    "Colorado music OR Denver music OR Denver concerts"
+    "Colorado music OR Denver music OR Denver concerts",
+    "site:nojumper.com hip-hop OR rap OR music"
   ];
 
   try {
