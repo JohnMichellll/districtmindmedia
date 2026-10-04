@@ -46,7 +46,12 @@ export async function onRequestGet() {
         title: decode(getTag(item, "title")),
         link: decode(getTag(item, "link")),
         pubDate: getTag(item, "pubDate"),
-        description: decode(getTag(item, "description"))
+        description: decode(getTag(item, "description")),
+        image: (() => {
+          const d = getTag(item, "description");
+          const m = d.match(/<img[^>]+src=["']([^"']+)/i);
+          return m ? decode(m[1]) : "";
+        })()
       }));
     });
 
@@ -72,7 +77,9 @@ export async function onRequestGet() {
         '<item><title><![CDATA[' + item.title + ']]></title>' +
         '<link>' + item.link + '</link>' +
         '<pubDate>' + item.pubDate + '</pubDate>' +
-        '<description><![CDATA[' + item.description + ']]></description></item>'
+        '<description><![CDATA[' + item.description + ']]></description>' +
+        (item.image ? '<enclosure url="' + item.image + '" type="image/jpeg" />' : '') +
+        '</item>'
       ).join("") +
       '</channel></rss>';
 
