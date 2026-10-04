@@ -4,23 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>District Mind Media | About</title>
-    <meta name="description" content="Learn about District Mind Media, our mission, and the creatives shaping culture." />
+    <meta name="description" content="District Mind Media is an independent music and culture platform spotlighting artists, stories, interviews, and releases." />
+    <meta property="og:title" content="District Mind Media | About" />
+    <meta property="og:description" content="Independent music and culture media focused on artist discovery, release culture, and creative storytelling." />
+    <meta property="og:type" content="website" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="nav-container">
         <a href="index" class="logo">DISTRICT MIND</a>
-
-        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">
-          Menu
-        </button>
-
+        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
         <nav class="primary-nav" id="primary-nav">
-          <a href="index">Home</a>
           <a href="index#latest">Latest</a>
-          <a href="index#releases">Releases</a>
+          <a href="releases">Releases</a>
           <a href="artists">Artists</a>
+          <a href="culture">Culture</a>
           <a href="about">About</a>
           <a href="contact">Contact</a>
         </nav>
@@ -28,31 +27,21 @@
     </header>
 
     <main>
-      <section class="page-hero">
+      <section class="page-hero reveal">
         <div class="hero-content">
           <p class="eyebrow">About</p>
           <h1>Stories with a point of view.</h1>
-          <p class="page-lead">
-            District Mind Media is a culture platform built to spotlight emerging talent,
-            new releases, real stories, and the creative tension shaping tomorrow.
-          </p>
+          <p class="page-lead">District Mind Media is an independent platform built to spotlight artists, music culture, ambition, and the creativity shaping tomorrow.</p>
         </div>
       </section>
 
-      <section class="page-shell">
+      <section class="page-shell reveal">
         <div class="two-column">
           <article class="content-panel">
             <p class="eyebrow">Our mission</p>
             <h2>We cover what moves culture before it becomes mainstream.</h2>
-            <p>
-              We believe music and culture aren’t passive experiences—they’re signals. The artists,
-              scenes, and stories that matter often start outside the spotlight. We’re here to document
-              that energy and give it a platform.
-            </p>
-            <p>
-              Through interviews, artist features, release coverage, and cultural commentary, District Mind
-              Media brings attention to the people and projects shaping the next wave of sound and storytelling.
-            </p>
+            <p>We believe music and culture aren't passive experiences—they're signals. The artists, scenes, and stories that matter often start outside the spotlight. We’re here to document that energy and give it a platform.</p>
+            <p>Through interviews, artist features, release coverage, and cultural commentary, District Mind Media brings attention to the people and projects shaping the next wave of sound and storytelling.</p>
           </article>
 
           <aside class="info-panel">
@@ -82,13 +71,11 @@
     <script>
       const menuToggle = document.querySelector('.menu-toggle');
       const nav = document.querySelector('.primary-nav');
-
       if (menuToggle && nav) {
         menuToggle.addEventListener('click', () => {
-          const isOpen = nav.classList.toggle('is-open');
-          menuToggle.setAttribute('aria-expanded', String(isOpen));
+          const open = nav.classList.toggle('is-open');
+          menuToggle.setAttribute('aria-expanded', String(open));
         });
-
         nav.querySelectorAll('a').forEach((link) => {
           link.addEventListener('click', () => {
             nav.classList.remove('is-open');
@@ -96,6 +83,17 @@
           });
         });
       }
+
+      const revealEls = document.querySelectorAll('.reveal');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      revealEls.forEach((el) => observer.observe(el));
     </script>
   </body>
 </html>
