@@ -16,7 +16,7 @@
     <a href="index.html" class="logo">DISTRICT MIND</a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
     <nav class="primary-nav" id="primary-nav">
-      <a href="#latest">Latest</a><a href="releases.html">Releases</a><a href="artists.html">Artists</a><a href="culture.html">Culture</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+      <a href="newsroom.html">Newsroom</a><a href="releases.html">Releases</a><a href="artists.html">Artists</a><a href="culture.html">Culture</a><a href="about.html">About</a><a href="contact.html">Contact</a>
     </nav>
   </div>
 </header>
@@ -138,13 +138,12 @@ async function loadLiveNews(){
   feed.innerHTML='<div class="news-loading">Loading the latest headlines…</div>';
   if(button)button.disabled=true;
   try{
-    const rss='https://news.google.com/rss/search?q=music%20OR%20hip-hop%20OR%20R%26B%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen';
     const response=await fetch('/api/news');
     if(!response.ok)throw new Error('Feed request failed');
     const xml=await response.text();
     const doc=new DOMParser().parseFromString(xml,'application/xml');
     if(doc.querySelector('parsererror'))throw new Error('Invalid feed');
-    const items=Array.from(doc.querySelectorAll('item')).slice(0,8).map(item=>({
+    const items=Array.from(doc.querySelectorAll('item')).slice(0,12).map(item=>({
       title:item.querySelector('title')?.textContent||'Untitled',
       link:item.querySelector('link')?.textContent||'#',
       pubDate:item.querySelector('pubDate')?.textContent||'',
@@ -154,7 +153,7 @@ async function loadLiveNews(){
     feed.innerHTML=items.map(item=>{
       const date=item.pubDate?new Date(item.pubDate):null;
       const stamp=date&&!Number.isNaN(date.getTime())?date.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'Latest';
-      return '<article class="news-item"><div class="news-item-meta"><span>LIVE</span><time>'+stamp+'</time></div><h3><a href="'+item.link+'" target="_blank" rel="noopener noreferrer">'+item.title+'</a></h3><p>'+((item.description||'').replace(/<[^>]*>/g,'').slice(0,180))+'</p><a class="inline-link" href="'+item.link+'" target="_blank" rel="noopener noreferrer">Read Source →</a></article>';
+      const esc=v=>String(v).replace(/[&<>\"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[m])); return '<article class="news-item"><div class="news-item-meta"><span>LIVE</span><time>'+stamp+'</time></div><h3><a href="'+encodeURI(item.link)+'" target="_blank" rel="noopener noreferrer">'+esc(item.title)+'</a></h3><p>'+esc((item.description||'').replace(/<[^>]*>/g,'').slice(0,180))+'</p><a class="inline-link" href="'+encodeURI(item.link)+'" target="_blank" rel="noopener noreferrer">Read Source →</a></article>'; 
     }).join('');
   }catch(error){
     feed.innerHTML='<div class="news-error"><strong>Live feed temporarily unavailable.</strong><p>The site is still online. Refresh in a moment to pull the latest headlines.</p></div>';
