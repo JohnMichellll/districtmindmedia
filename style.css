@@ -1,0 +1,474 @@
+/* ================================
+   DISTRICT MIND MEDIA
+   Main Stylesheet
+================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f0;
+  color: #111;
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ================================
+   HEADER
+================================ */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(244, 244, 240, 0.95);
+  border-bottom: 1px solid #d7d7d2;
+  backdrop-filter: blur(12px);
+}
+
+.nav-container {
+  width: min(1200px, 92%);
+  margin: auto;
+  min-height: 76px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+nav a {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  transition: opacity 0.2s ease;
+}
+
+nav a:hover {
+  opacity: 0.5;
+}
+
+/* ================================
+   HERO
+================================ */
+
+.hero {
+  min-height: 78vh;
+  display: flex;
+  align-items: flex-end;
+
+  background: #111;
+  color: #f4f4f0;
+
+  padding: 100px 4% 80px;
+}
+
+.hero-content {
+  width: min(1200px, 100%);
+  margin: auto;
+}
+
+.eyebrow {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.hero h1 {
+  font-size: clamp(60px, 10vw, 150px);
+  line-height: 0.82;
+  letter-spacing: -7px;
+  font-weight: 900;
+  margin-bottom: 35px;
+}
+
+.hero-text {
+  max-width: 500px;
+  font-size: 18px;
+  color: #cfcfca;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  display: inline-block;
+  background: #f4f4f0;
+  color: #111;
+  padding: 14px 24px;
+
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.hero-button:hover {
+  transform: translateY(-3px);
+  background: #fff;
+}
+
+/* ================================
+   GENERAL SECTIONS
+================================ */
+
+.section {
+  width: min(1200px, 92%);
+  margin: auto;
+  padding: 110px 0;
+}
+
+.section-heading {
+  margin-bottom: 55px;
+}
+
+.section-heading h2 {
+  font-size: clamp(42px, 7vw, 82px);
+  line-height: 0.95;
+  letter-spacing: -4px;
+  font-weight: 900;
+}
+
+/* ================================
+   FEATURED STORY
+================================ */
+
+.featured-card {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  min-height: 500px;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
+}
+
+.card-placeholder {
+  background: #d8d8d2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.card-content {
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.category {
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.card-content h3 {
+  font-size: clamp(32px, 4vw, 55px);
+  line-height: 0.95;
+  letter-spacing: -2px;
+  margin-bottom: 25px;
+}
+
+.card-content p {
+  color: #555;
+  margin-bottom: 30px;
+  max-width: 430px;
+}
+
+.card-content a,
+.artist-feature a {
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ================================
+   RELEASES
+================================ */
+
+.release-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.release-card {
+  border-top: 1px solid #111;
+  padding-top: 18px;
+}
+
+.release-image {
+  aspect-ratio: 1 / 1;
+  background: #d8d8d2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 22px;
+
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+
+.release-card h3 {
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+
+.release-card > p:last-child {
+  color: #666;
+  font-size: 14px;
+}
+
+/* ================================
+   ARTISTS
+================================ */
+
+.dark-section {
+  width: 100%;
+  max-width: none;
+
+  background: #111;
+  color: #f4f4f0;
+
+  padding-left: max(4%, calc((100% - 1200px) / 2));
+  padding-right: max(4%, calc((100% - 1200px) / 2));
+}
+
+.dark-section .section-heading {
+  border-bottom: 1px solid #333;
+  padding-bottom: 35px;
+}
+
+.artist-feature {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.artist-feature h3 {
+  max-width: 750px;
+
+  font-size: clamp(38px, 6vw, 75px);
+  line-height: 0.95;
+  letter-spacing: -3px;
+
+  margin-bottom: 25px;
+}
+
+.artist-feature p:not(.category) {
+  max-width: 520px;
+  color: #aaa;
+}
+
+.artist-feature a {
+  white-space: nowrap;
+}
+
+/* ================================
+   CULTURE
+================================ */
+
+.culture-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+.culture-card {
+  min-height: 330px;
+
+  padding: 35px;
+
+  background: #deded8;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.culture-card h3 {
+  font-size: clamp(30px, 4vw, 50px);
+  line-height: 0.95;
+  letter-spacing: -2px;
+}
+
+/* ================================
+   FOOTER
+================================ */
+
+footer {
+  background: #111;
+  color: #f4f4f0;
+  border-top: 1px solid #333;
+}
+
+.footer-container {
+  width: min(1200px, 92%);
+  margin: auto;
+  padding: 45px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.footer-container h3 {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.footer-container div p {
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-top: 2px;
+}
+
+.footer-container > p {
+  color: #888;
+  font-size: 11px;
+}
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 800px) {
+
+  .nav-container {
+    min-height: 68px;
+  }
+
+  nav {
+    gap: 14px;
+  }
+
+  nav a {
+    font-size: 10px;
+  }
+
+  .hero {
+    min-height: 72vh;
+    padding-top: 80px;
+    padding-bottom: 55px;
+  }
+
+  .hero h1 {
+    letter-spacing: -4px;
+  }
+
+  .section {
+    padding: 75px 0;
+  }
+
+  .section-heading {
+    margin-bottom: 35px;
+  }
+
+  .section-heading h2 {
+    letter-spacing: -2px;
+  }
+
+  .featured-card {
+    grid-template-columns: 1fr;
+  }
+
+  .card-placeholder {
+    min-height: 320px;
+  }
+
+  .card-content {
+    padding: 35px 0;
+  }
+
+  .release-grid {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+
+  .release-image {
+    aspect-ratio: 16 / 10;
+  }
+
+  .artist-feature {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .artist-feature h3 {
+    letter-spacing: -2px;
+  }
+
+  .culture-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 520px) {
+
+  nav a:nth-child(n+3) {
+    display: none;
+  }
+
+  .logo {
+    font-size: 15px;
+  }
+
+  .hero h1 {
+    font-size: 58px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+  }
+}
