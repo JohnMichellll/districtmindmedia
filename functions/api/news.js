@@ -41,8 +41,7 @@ export async function onRequestGet() {
     );
 
     const items = feeds.flatMap((xml) => {
-      const matches = xml.match(/<item>[\s\S]*?<\\/item>/g) || [];
-
+      const matches = xml.match(/<item>[\s\S]*?<\/item>/g) || [];
       return matches.map((item) => ({
         title: decode(getTag(item, "title")),
         link: decode(getTag(item, "link")),
@@ -69,21 +68,13 @@ export async function onRequestGet() {
       '<title>District Mind Media — Live Music Desk</title>' +
       '<link>https://district-mind-media.pages.dev/</link>' +
       '<description>Fresh hip-hop, R&B, music and Colorado culture headlines.</description>' +
-      clean
-        .map(
-          (item) =>
-            "<item><title><![CDATA[" +
-            item.title +
-            "]]></title><link>" +
-            item.link +
-            "</link><pubDate>" +
-            item.pubDate +
-            "</pubDate><description><![CDATA[" +
-            item.description +
-            "]]></description></item>"
-        )
-        .join("") +
-      "</channel></rss>";
+      clean.map((item) =>
+        '<item><title><![CDATA[' + item.title + ']]></title>' +
+        '<link>' + item.link + '</link>' +
+        '<pubDate>' + item.pubDate + '</pubDate>' +
+        '<description><![CDATA[' + item.description + ']]></description></item>'
+      ).join("") +
+      '</channel></rss>';
 
     return new Response(xml, {
       headers: {
