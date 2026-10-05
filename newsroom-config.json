@@ -1,30 +1,113 @@
 {
-  "name":"District Mind AI Newsroom",
-  "version":"1.0",
-  "principles":{
-    "ai_role":"research, triage, summarization, QA, discovery and recommendations",
-    "human_role":"editorial judgment, publication approval and high-risk decisions",
-    "source_policy":"Use public source metadata and links; never copy full articles or fabricate reporting."
+  "name": "District Mind AI Newsroom",
+  "version": "2.0",
+  "principles": {
+    "ai_role": "research, triage, summarization, QA, discovery and recommendations",
+    "human_role": "editorial judgment, publication approval and high-risk decisions",
+    "source_policy": "Use public source metadata and links; never copy full articles or fabricate reporting.",
+    "speed_policy": "Prefer fast public feeds first, then discovery feeds; time out slow sources and continue.",
+    "failure_policy": "Never hide failures. Record source, workflow, stage, timestamp, latency and error message."
   },
-  "scouts":[
-    {"id":"breaking","label":"Breaking News Scout","queries":["hip-hop OR rap OR rapper","R&B OR soul OR singer","music industry OR music business"]},
-    {"id":"new-music-friday","label":"New Music Friday Scout","queries":["new music OR album OR single OR EP OR mixtape","Friday releases music"]},
-    {"id":"culture","label":"Culture Scout","queries":["hip-hop culture OR music culture OR entertainment"]},
-    {"id":"colorado","label":"Colorado Scout","queries":["Colorado music OR Denver music OR Colorado concerts"]},
-    {"id":"artist-watch","label":"Artist Watch","queries":["artist announcement OR tour OR interview OR music video"]}
+  "scouts": [
+    {
+      "id": "breaking",
+      "label": "Breaking News Scout",
+      "queries": [
+        "hip-hop OR rap OR rapper",
+        "R&B OR soul OR singer",
+        "music industry OR music business"
+      ]
+    },
+    {
+      "id": "new-music-friday",
+      "label": "New Music Friday Scout",
+      "queries": [
+        "new music OR album OR single OR EP OR mixtape",
+        "Friday releases music"
+      ]
+    },
+    {
+      "id": "culture",
+      "label": "Culture Scout",
+      "queries": [
+        "hip-hop culture OR music culture OR entertainment"
+      ]
+    },
+    {
+      "id": "colorado",
+      "label": "Colorado Scout",
+      "queries": [
+        "Colorado music OR Denver music OR Colorado concerts"
+      ]
+    },
+    {
+      "id": "artist-watch",
+      "label": "Artist Watch",
+      "queries": [
+        "artist announcement OR tour OR interview OR music video"
+      ]
+    }
   ],
-  "sources":[
-    {"name":"TMZ","url":"https://www.tmz.com/rss.xml","tier":2},
-    {"name":"HipHopDX","url":"https://hiphopdx.com/rss/news.xml","tier":1},
-    {"name":"AllHipHop","url":"https://allhiphop.com/feed","tier":1},
-    {"name":"No Jumper","url":"https://feeds.megaphone.fm/NJP4856622419","tier":2}
+  "sources": [
+    {
+      "name": "TMZ",
+      "url": "https://www.tmz.com/rss.xml",
+      "tier": 2
+    },
+    {
+      "name": "HipHopDX",
+      "url": "https://hiphopdx.com/rss/news.xml",
+      "tier": 1
+    },
+    {
+      "name": "AllHipHop",
+      "url": "https://allhiphop.com/feed",
+      "tier": 1
+    },
+    {
+      "name": "No Jumper",
+      "url": "https://feeds.megaphone.fm/NJP4856622419",
+      "tier": 2
+    },
+    {
+      "name": "Google News — Hip-Hop",
+      "url": "https://news.google.com/rss/search?q=hip-hop%20OR%20rap%20OR%20rapper&hl=en-US&gl=US&ceid=US:en",
+      "tier": 2
+    },
+    {
+      "name": "Google News — R&B",
+      "url": "https://news.google.com/rss/search?q=R%26B%20OR%20soul%20OR%20singer&hl=en-US&gl=US&ceid=US:en",
+      "tier": 2
+    },
+    {
+      "name": "Google News — New Music",
+      "url": "https://news.google.com/rss/search?q=new%20music%20OR%20album%20OR%20single%20OR%20EP&hl=en-US&gl=US&ceid=US:en",
+      "tier": 2
+    },
+    {
+      "name": "Google News — Colorado Music",
+      "url": "https://news.google.com/rss/search?q=Colorado%20music%20OR%20Denver%20music%20OR%20Colorado%20concerts&hl=en-US&gl=US&ceid=US:en",
+      "tier": 2
+    }
   ],
-  "noise":["casino","betting","odds","coupon","lottery","horoscope"],
-  "qualityGates":{
-    "minimumTitleLength":12,
-    "dedupe":true,
-    "requireSourceUrl":true,
-    "requireSourceDate":true,
-    "publicationRequiresHumanApproval":true
+  "noise": [
+    "casino",
+    "betting",
+    "odds",
+    "coupon",
+    "lottery",
+    "horoscope"
+  ],
+  "qualityGates": {
+    "minimumTitleLength": 12,
+    "dedupe": true,
+    "requireSourceUrl": true,
+    "requireSourceDate": true,
+    "publicationRequiresHumanApproval": true
+  },
+  "runtime": {
+    "sourceTimeoutMs": 8000,
+    "maxStories": 100,
+    "maxReportStories": 30
   }
 }
