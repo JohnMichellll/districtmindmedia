@@ -55,7 +55,7 @@ async function fetchXmlSource(source) {
     const response = await fetch(source.url, { headers: { "User-Agent": "DistrictMindMedia/1.0" } });
     if (!response.ok) return [];
     const xml = await response.text();
-    const blocks = xml.match(/<item\b[\s\S]*?<\/item>/gi) || [];
+    const blocks = [...xml.matchAll(/<(item|entry)\\b[^>]*>([\\s\\S]*?)<\\/\\1>/gi)].map(m => m[0]);
     return blocks.slice(0,25).map(block => {
       const item = {
         title: tag(block,"title"),
@@ -79,7 +79,7 @@ async function fetchGoogle() {
       const response = await fetch(url, { headers: { "User-Agent": "DistrictMindMedia/1.0" } });
       if (!response.ok) return [];
       const xml = await response.text();
-      const blocks = xml.match(/<item\b[\s\S]*?<\/item>/gi) || [];
+      const blocks = [...xml.matchAll(/<(item|entry)\\b[^>]*>([\\s\\S]*?)<\\/\\1>/gi)].map(m => m[0]);
       return blocks.map(block => {
         const item = {
           title: tag(block,"title"),
