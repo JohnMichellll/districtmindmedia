@@ -1,0 +1,61 @@
+import { chromium } from "playwright";
+import fs from "node:fs";
+
+const BASE = "https://district-mind-media.pages.dev";
+const routes = ["/","/newsroom.html","/artists.html","/releases.html","/colorado.html","/culture.html","/about.html","/contact.html","/academy.html","/editorial.html","/editorial-policy.html","/contributors.html","/explore.html"];
+const results = [];
+const browser = await chromium.launch({headless:true});
+const page = await browser.newPage({viewport:{width:390,height:844}, deviceScaleFactor:2});
+
+page.on("console", m => { if (m.type()==="error") results.push({type:"console-error", text:m.text(), url:page.url()}); });
+page.on("pageerror", e => results.push({type:"page-error", text:e.message, url:page.url()}));
+
+for (const route of routes) {
+  const url = BASE + route;
+  const started = Date.now();
+  try {
+    const response = await page.goto(url,{waitUntil:"domcontentloaded",timeout:20000});
+    await page.waitForTimeout(1200);
+    const status = response?.status() ?? 0;
+    const data = await page.evaluate(() => {
+      const text = document.body?.innerText || "";
+      const imgs = [...document.images].map(i=>({src:i.currentSrc||i.src,loaded:i.complete && i.naturalWidth>0,alt:i.alt||""}));
+      const links = [...document.querySelectorAll("a[href]")].map(a=>a.href);
+      const badWords = /(lorem ipsum|coming soon|undefined|null|null|null|TODO|placeholder)/i;
+      return {
+        title: document.title,
+        bodyChars: text.trim().length,
+        hasNav: !!document.querySelector("nav,header"),
+        images: imgs,
+        links,
+        badCopy: badWords.test(text),
+        horizontalOverflow: document.documentElement.scrollWidth > window.innerWidth + 4
+      };
+    });
+    const internalLinks = [...new Set(data.links.filter(h=>h.startsWith(BASE)))];
+    results.push({route,status,ms:Date.now()-started,...data,internalLinkCount:internalLinks.length});
+  } catch (e) {
+    results.push({route,error:e.message,ms:Date.now()-started});
+  }
+}
+await browser.close();
+
+const report = {
+  generatedAt:new Date().toISOString(),
+  target:BASE,
+  viewport:"390x844",
+  routes:results,
+  summary:{
+    routeFailures:results.filter(r=>r.status!==200).length,
+    pageErrors:results.filter(r=>r.type==="page-error").length,
+    consoleErrors:results.filter(r=>r.type==="console-error").length,
+    blankPages:results.filter(r=>r.bodyChars!==undefined && r.bodyChars<200).length,
+    horizontalOverflow:results.filter(r=>r.horizontalOverflow).length,
+    brokenImages:results.reduce((n,r)=>n+(r.images||[]).filter(i=>!i.loaded).length,0),
+    suspiciousCopy:results.filter(r=>r.badCopy).length
+  }
+};
+fs.mkdirSync("reports",{recursive:true});
+fs.writeFileSync("reports/first-impression-qa-latest.json",JSON.stringify(report,null,2));
+console.log(JSON.stringify(report.summary,null,2));
+if (report.summary.routeFailures || report.summary.blankPages || report.summary.horizontalOverflow || report.summary.brokenImages || report.summary.suspiciousCopy || report.summary.pageErrors) process.exitCode=1;
