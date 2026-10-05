@@ -47,7 +47,7 @@ for(const s of cfg.sources){
     const parsed=parse(raw,s.name);
     const sourceCap = Number(cfg.runtime.maxStoriesPerSource || 40);
     out.push(...parsed.slice(0, sourceCap));
-    sourceHealth.push({source:s.name,tier:s.tier,status:"ok",stories:stories.length,bytes:raw.length,hasItemTag:/<item\b/i.test(raw),hasEntryTag:/<entry\b/i.test(raw),head:raw.slice(0,180).replace(/\s+/g," "),latencyMs:Date.now()-started});
+    sourceHealth.push({source:s.name,tier:s.tier,status:"ok",stories:parsed.length,bytes:raw.length,hasItemTag:/<item\b/i.test(raw),hasEntryTag:/<entry\b/i.test(raw),head:raw.slice(0,180).replace(/\s+/g," "),latencyMs:Date.now()-started});
   }catch(e){
     sourceHealth.push({source:s.name,tier:s.tier,status:"error",stories:0,latencyMs:Date.now()-started,error:String(e?.name==="AbortError"?"TIMEOUT":e?.message||e)});
     console.log("SOURCE_ERROR",s.name,e?.message||e);
@@ -72,7 +72,7 @@ const errors=sourceHealth.filter(x=>x.status==="error");
 const report={
  generatedAt:new Date().toISOString(),
  operator:"District Mind AI Newsroom",
- status:stories.length?"READY_FOR_EDITOR":(errors.length?"DEGRADED":"NO_STORIES_AVAILABLE"),
+ status:errors.length===sourceHealth.length?"DEGRADED":(errors.length?"DEGRADED":(stories.length?"READY_FOR_EDITOR":"NO_STORIES_AVAILABLE")),
  storyCount:stories.length,
  stories:stories.slice(0,cfg.runtime.maxStories),
  sources:cfg.sources.map(s=>s.name),
