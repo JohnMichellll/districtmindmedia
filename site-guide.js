@@ -88,6 +88,9 @@
   }
   function closeGuide(){ document.getElementById('dm-guide-modal')?.classList.remove('is-open'); document.body.classList.remove('dm-guide-open'); }
 
+  window.DistrictMindWayfinder = openGuide;
+  document.addEventListener('click',e=>{ const trigger=e.target.closest('[data-open-wayfinder]'); if(trigger){ e.preventDefault(); openGuide(); } });
+
   if(!document.getElementById('dm-guide-trigger')){
     const b=document.createElement('button');
     b.id='dm-guide-trigger'; b.className='dm-guide-trigger'; b.type='button';
