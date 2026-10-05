@@ -1981,3 +1981,9 @@ footer{border-top:8px solid var(--editorial-red);}
   .label-feature{display:block;}
   .label-feature .hero-button{display:inline-block;margin-top:20px;}
 }
+
+/* RELEASE / PHOTO FALLBACKS */
+.photo-pending::before{content:attr(data-photo-label);display:block;padding:28px 22px;font:800 clamp(22px,3vw,38px)/1.05 Arial,sans-serif;letter-spacing:.02em;color:#fff;}
+.release-text-card{display:flex;align-items:flex-end;padding:24px;background:linear-gradient(135deg,#111 0%,#252525 55%,#111 100%)!important;min-height:240px;}
+.release-text-card span{font:900 clamp(26px,3vw,44px)/.95 Arial,sans-serif;letter-spacing:-.03em;color:#fff;}
+[data-photo-key]{background-size:cover!important;background-position:center!important;}
