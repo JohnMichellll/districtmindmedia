@@ -1,76 +1,94 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T00:00:00Z",
+  "generatedAt": "2026-10-05T06:39:04.203Z",
   "policy": "Artist identity is a hard constraint. Automated discovery may search multiple public sources, but publication imagery is used only when the subject is independently matched and rights/permission are documented. Instagram, Meta and Google can be discovery or owner-supplied sources; the system never blindly scrapes and republishes copyrighted social imagery.",
   "photos": {
     "john-michell": {
       "url": "",
       "alt": "John Michell — District Mind Records",
       "credit": "John Michell / District Mind Records — official artist image pending",
-      "license": "owner-supplied only"
+      "license": "owner-supplied only",
+      "subject": "John Michell — District Mind Records",
+      "identity": "owner-supplied-only"
     },
     "john-michell-drivin-crazy": {
       "url": "",
       "alt": "Drivin Crazy by John Michell",
       "credit": "John Michell / District Mind Records — official release artwork pending",
-      "license": "owner-supplied only"
+      "license": "owner-supplied only",
+      "subject": "Drivin Crazy by John Michell",
+      "identity": "owner-supplied-only"
     },
     "john-michell-who-is-you": {
       "url": "",
       "alt": "WHO IS YOU by John Michell",
       "credit": "John Michell / District Mind Records — official release artwork pending",
-      "license": "owner-supplied only"
+      "license": "owner-supplied only",
+      "subject": "WHO IS YOU by John Michell",
+      "identity": "owner-supplied-only"
     },
     "john-michell-u": {
       "url": "",
       "alt": "U by John Michell",
       "credit": "John Michell / District Mind Records — official release artwork pending",
-      "license": "owner-supplied only"
+      "license": "owner-supplied only",
+      "subject": "U by John Michell",
+      "identity": "owner-supplied-only"
     },
     "earl-sweatshirt": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Earl_Sweatshirt.pa.amager.bio.jpg",
-      "alt": "Earl Sweatshirt performing",
-      "credit": "414.Elis / Wikimedia Commons — CC BY 4.0",
-      "license": "CC BY 4.0",
       "subject": "Earl Sweatshirt",
-      "identity": "curated-verified",
-      "source": "Wikimedia Commons"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Earl_Sweatshirt_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Earl Sweatshirt",
+      "credit": "Incase from San Francisco, USA / Wikimedia Commons — CC BY 2.0",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Earl_Sweatshirt_2012.JPG",
+      "identity": "metadata-name-match",
+      "verifiedAt": "2026-10-05T06:39:01.938Z"
     },
     "victoria-monet": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Victoria_Mon%C3%A9t_WHTA_2023.png",
-      "alt": "Victoria Monét",
-      "credit": "HOTSPOTATL / Wikimedia Commons — CC BY 3.0",
-      "license": "CC BY 3.0",
       "subject": "Victoria Monét",
-      "identity": "curated-verified",
-      "source": "Wikimedia Commons"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Victoria_Mon%C3%A9t1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Victoria Monét",
+      "credit": "Emma / Wikimedia Commons — CC BY-SA 2.0",
+      "license": "CC BY-SA 2.0",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Victoria_Mon%C3%A9t1.jpg",
+      "identity": "metadata-name-match",
+      "verifiedAt": "2026-10-05T06:39:02.366Z"
     },
     "quavo": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Quavo_Salute_to_Summer_Concert_2025.jpg",
-      "alt": "Quavo performing",
-      "credit": "Sgt. Elisabeth Tasker / U.S. Army — Public Domain",
-      "license": "Public Domain",
       "subject": "Quavo",
-      "identity": "curated-verified",
-      "source": "Wikimedia Commons"
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Quavo_%2851914439436%29.jpg/1920px-Quavo_%2851914439436%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "alt": "Quavo",
+      "credit": "Erik Drost / Wikimedia Commons — CC BY 2.0",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quavo_(51914439436).jpg",
+      "identity": "metadata-name-match",
+      "verifiedAt": "2026-10-05T06:39:02.869Z"
     },
     "doja-cat": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Doja_Cat_Scarlet_Tour_Austin_2024_%2853333035306%29.jpg",
-      "alt": "Doja Cat performing",
-      "credit": "Clay Junell / Wikimedia Commons — CC BY-SA 2.0",
-      "license": "CC BY-SA 2.0",
       "subject": "Doja Cat",
-      "identity": "curated-verified",
-      "source": "Wikimedia Commons"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Doja_Cat_August_2019.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "Doja Cat",
+      "credit": "Flow Experience / Wikimedia Commons — CC BY 3.0",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doja_Cat_August_2019.png",
+      "identity": "metadata-name-match",
+      "verifiedAt": "2026-10-05T06:39:03.540Z"
     },
     "jpegmafia": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/JPEGMAFIA_%2848548470532%29.jpg",
-      "alt": "JPEGMAFIA performing",
-      "credit": "Levi Manchak / Wikimedia Commons — CC BY 2.0",
-      "license": "CC BY 2.0",
       "subject": "JPEGMAFIA",
-      "identity": "curated-verified",
-      "source": "Wikimedia Commons"
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/JPEGMAFIA_interview_at_NTS_Radio_with_Natalie_James.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "alt": "JPEGMAFIA",
+      "credit": "Christopher O'Quinn / Wikimedia Commons — CC BY-SA 3.0",
+      "license": "CC BY-SA 3.0",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:JPEGMAFIA_interview_at_NTS_Radio_with_Natalie_James.png",
+      "identity": "metadata-name-match",
+      "verifiedAt": "2026-10-05T06:39:04.203Z"
     }
   }
 }
