@@ -71,22 +71,22 @@
     },
     {
       "name": "Google News — Hip-Hop",
-      "url": "https://news.google.com/rss/search?q=hip-hop%20OR%20rap%20OR%20rapper&hl=en-US&gl=US&ceid=US:en",
+      "url": "https://news.google.com/rss/search?q=hip-hop&hl=en-US&gl=US&ceid=US:en",
       "tier": 2
     },
     {
       "name": "Google News — R&B",
-      "url": "https://news.google.com/rss/search?q=R%26B%20OR%20soul%20OR%20singer&hl=en-US&gl=US&ceid=US:en",
+      "url": "https://news.google.com/rss/search?q=R%26B&hl=en-US&gl=US&ceid=US:en",
       "tier": 2
     },
     {
       "name": "Google News — New Music",
-      "url": "https://news.google.com/rss/search?q=new%20music%20OR%20album%20OR%20single%20OR%20EP&hl=en-US&gl=US&ceid=US:en",
+      "url": "https://news.google.com/rss/search?q=new%20music&hl=en-US&gl=US&ceid=US:en",
       "tier": 2
     },
     {
       "name": "Google News — Colorado Music",
-      "url": "https://news.google.com/rss/search?q=Colorado%20music%20OR%20Denver%20music%20OR%20Colorado%20concerts&hl=en-US&gl=US&ceid=US:en",
+      "url": "https://news.google.com/rss/search?q=Colorado%20music&hl=en-US&gl=US&ceid=US:en",
       "tier": 2
     }
   ],
