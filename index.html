@@ -128,7 +128,6 @@
 <footer><div class="footer-container"><div><h3>District Mind</h3><p>Media</p></div><div class="footer-links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="editorial.html">Editorial</a><a href="contributors.html">Contributors</a><a href="editorial-policy.html">Editorial Policy</a><a href="feed.xml">RSS</a></div><p>© 2026 District Mind Media. All rights reserved.</p></div></footer>
 
 <script src="photo-loader.js" defer></script>
-<script src="photo-loader.js" defer></script>
 <script>
 const menuToggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.primary-nav');
 if(menuToggle&&nav){menuToggle.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');menuToggle.setAttribute('aria-expanded',String(open));});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('is-open');menuToggle.setAttribute('aria-expanded','false');}));}
@@ -137,30 +136,37 @@ async function loadLiveNews(){
   const feed=document.getElementById('news-feed');
   const button=document.getElementById('refresh-news');
   if(!feed)return;
-  feed.innerHTML='<div class="news-loading">Loading the latest headlines…</div>';
+  const fallback=[
+    {title:'District Mind Media is live: the newsroom is building its daily music and culture desk.',source:'DISTRICT MIND MEDIA',pubDate:'',description:'Live reporting and source scouting across hip-hop, R&B, releases, tours and Colorado culture.',link:'newsroom.html'},
+    {title:'John Michell — Drivin Crazy',source:'DISTRICT MIND RECORDS',pubDate:'',description:'Drivin Crazy is a John Michell release through District Mind Records. Artist and release identity are kept separate from outside coverage.',link:'john-michell.html'},
+    {title:'Colorado Music Desk',source:'COLORADO DESK',pubDate:'',description:'Tracking concerts, artists, venues and music culture across Colorado.',link:'colorado.html'}
+  ];
+  const esc=v=>String(v??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+  const render=items=>items.map(item=>{
+    const date=item.pubDate?new Date(item.pubDate):null;
+    const stamp=date&&!Number.isNaN(date.getTime())?date.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'Latest';
+    return '<article class="news-item"><div class="news-item-meta"><span>'+esc(item.source||'District Mind Media Desk')+'</span><time>'+esc(stamp)+'</time></div><h3><a href="'+esc(item.link||'#')+'" target="_blank" rel="noopener noreferrer">'+esc(item.title)+'</a></h3><p>'+esc(String(item.description||'').replace(/<[^>]*>/g,'').slice(0,180))+'</p><a class="inline-link" href="'+esc(item.link||'#')+'" target="_blank" rel="noopener noreferrer">Read Source →</a></article>';
+  }).join('');
+  feed.innerHTML=render(fallback);
   if(button)button.disabled=true;
   try{
-    const response=await fetch('/api/news');
+    const response=await fetch('/api/news?ts='+Date.now(),{cache:'no-store'});
     if(!response.ok)throw new Error('Feed request failed');
     const xml=await response.text();
     const doc=new DOMParser().parseFromString(xml,'application/xml');
     if(doc.querySelector('parsererror'))throw new Error('Invalid feed');
     const items=Array.from(doc.querySelectorAll('item')).slice(0,12).map(item=>({
       title:item.querySelector('title')?.textContent||'Untitled',
-      link:item.querySelector('link')?.textContent||'#',
+      link:item.querySelector('link')?.textContent||'newsroom.html',
       pubDate:item.querySelector('pubDate')?.textContent||'',
       description:item.querySelector('description')?.textContent||'',
-      source:item.querySelector('category')?.textContent||'District Mind Media Desk',
-      image:item.querySelector('enclosure')?.getAttribute('url')||item.querySelector('media\\:content')?.getAttribute('url')||item.querySelector('media\\:thumbnail')?.getAttribute('url')||''
+      source:item.querySelector('category')?.textContent||'District Mind Media Desk'
     }));
     if(!items.length)throw new Error('No headlines');
-    feed.innerHTML=items.map(item=>{
-      const date=item.pubDate?new Date(item.pubDate):null;
-      const stamp=date&&!Number.isNaN(date.getTime())?date.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'Latest';
-      const esc=v=>String(v).replace(/[&<>\"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[m])); const image=item.image||((item.description||'').match(/<img[^>]+src=[\\"']([^\\"']+)[\\"']/i)||[])[1]||''; return '<article class="news-item">'+(image?'<a class="news-item-image" href="'+encodeURI(item.link)+'" target="_blank" rel="noopener noreferrer"><img src="'+encodeURI(image)+'" alt="" loading="lazy" referrerpolicy="no-referrer"></a>':'')+'<div class="news-item-meta"><span>'+esc(item.source)+'</span><time>'+stamp+'</time></div><h3><a href="'+encodeURI(item.link)+'" target="_blank" rel="noopener noreferrer">'+esc(item.title)+'</a></h3><p>'+esc((item.description||'').replace(/<[^>]*>/g,'').slice(0,180))+'</p><a class="inline-link" href="'+encodeURI(item.link)+'" target="_blank" rel="noopener noreferrer">Read Source →</a></article>'; 
-    }).join('');
+    feed.innerHTML=render(items);
   }catch(error){
-    feed.innerHTML='<div class="news-error"><strong>Live feed temporarily unavailable.</strong><p>The site is still online. Refresh in a moment to pull the latest headlines.</p></div>';
+    // Keep the newsroom populated. A failed live source must never create a blank page.
+    feed.innerHTML=render(fallback);
   }finally{
     if(button)button.disabled=false;
   }
