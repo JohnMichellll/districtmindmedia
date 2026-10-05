@@ -1,19 +1,10 @@
 {
   "generatedAt": "2026-10-05T02:45:39.774Z",
-  "operator": "District Mind AI Newsroom",
   "status": "NO_STORIES_AVAILABLE",
   "storyCount": 0,
-  "stories": [],
-  "sources": [
-    "TMZ",
-    "HipHopDX",
-    "AllHipHop",
-    "No Jumper",
-    "Google News — Hip-Hop",
-    "Google News — R&B",
-    "Google News — New Music",
-    "Google News — Colorado Music"
-  ],
+  "sourceCount": 8,
+  "healthySources": 8,
+  "failedSources": 0,
   "sourceHealth": [
     {
       "source": "TMZ",
@@ -71,6 +62,5 @@
       "stories": 0,
       "latencyMs": 470
     }
-  ],
-  "errorCount": 0
+  ]
 }
