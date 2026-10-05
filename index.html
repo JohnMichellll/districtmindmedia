@@ -53,19 +53,19 @@
   <div class="section-heading"><p class="eyebrow">02 / New Music Friday</p><h2>Fresh out this week.</h2></div>
   <div class="release-grid">
     <article class="release-card">
-      <div class="release-image real-release-photo one" data-photo-key="victoria-monet"><span>VICTORIA MONÉT</span><small class="photo-credit">Photo: HOTSPOTATL / Wikimedia Commons · CC BY 3.0</small></div>
+      <div class="release-image real-release-photo one release-artwork" data-release-artist="Victoria Monét" data-release-title="Frequency of Love"><span>VICTORIA MONÉT</span><small class="photo-credit">Photo: HOTSPOTATL / Wikimedia Commons · CC BY 3.0</small></div>
       <p class="category">ALBUM / OCT 2</p><h3>FREQUENCY OF LOVE</h3>
       <p>Victoria Monét returns with a 22-track album blending R&B, pop and electronic textures.</p>
       <a class="inline-link" href="releases.html">Release Notes →</a>
     </article>
     <article class="release-card">
-      <div class="release-image real-release-photo two" data-photo-key="quavo"><span>QUAVO</span><small class="photo-credit">Photo: Sgt. Elisabeth Tasker / U.S. Army · Public Domain</small></div>
+      <div class="release-image real-release-photo two release-artwork" data-release-artist="Quavo" data-release-title="QRÖMELIFE"><span>QUAVO</span><small class="photo-credit">Photo: Sgt. Elisabeth Tasker / U.S. Army · Public Domain</small></div>
       <p class="category">HIP-HOP / OCT 2</p><h3>QRÖMELIFE</h3>
       <p>A new Quavo project lands in a busy opening stretch of October releases.</p>
       <a class="inline-link" href="releases.html">Release Notes →</a>
     </article>
     <article class="release-card">
-      <div class="release-image real-release-photo three" data-photo-key="doja-cat"><span>DOJA CAT</span><small class="photo-credit">Photo: Clay Junell / Wikimedia Commons · CC BY-SA 2.0</small></div>
+      <div class="release-image real-release-photo three release-artwork" data-release-artist="Doja Cat" data-release-title="The Next Friday"><span>DOJA CAT</span><small class="photo-credit">Photo: Clay Junell / Wikimedia Commons · CC BY-SA 2.0</small></div>
       <p class="category">UP NEXT</p><h3>THE NEXT FRIDAY</h3>
       <p>Danielle Ponder, Dawn Richard and Joyce Wrice are among the R&B releases currently listed for October 9.</p>
       <a class="inline-link" href="releases.html">Release Calendar →</a>
@@ -139,7 +139,9 @@
 
 <footer><div class="footer-container"><div><h3>District Mind</h3><p>Media</p></div><div class="footer-links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="editorial.html">Editorial</a><a href="contributors.html">Contributors</a><a href="editorial-policy.html">Editorial Policy</a><a href="feed.xml">RSS</a></div><p>© 2026 District Mind Media. All rights reserved.</p></div></footer>
 
-<script src="photo-loader.js" defer></script>
+<script>
+(async()=>{const cards=[...document.querySelectorAll('[data-release-artist][data-release-title]')];for(const card of cards){try{const d=await fetch('/api/artist?q='+encodeURIComponent(card.dataset.releaseArtist),{cache:'no-store'}).then(r=>r.json());const target=card.dataset.releaseTitle.toLowerCase();const songs=(d.artists||[]).flatMap(a=>a.songs||[]);const hit=songs.find(x=>(x.collectionName||'').toLowerCase()===target)||(songs.find(x=>(x.trackName||'').toLowerCase()===target));if(hit?.artworkUrl){card.style.setProperty('background-image','linear-gradient(180deg,rgba(17,17,17,.02),rgba(17,17,17,.28)),url("'+hit.artworkUrl+'")','important');card.classList.add('has-release-art');card.setAttribute('aria-label',card.dataset.releaseTitle+' — '+card.dataset.releaseArtist);const label=card.querySelector('span');if(label)label.style.opacity='.0';}}catch{}}})();
+</script><script src="photo-loader.js" defer></script>
 <script>
 const menuToggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.primary-nav');
 if(menuToggle&&nav){menuToggle.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');menuToggle.setAttribute('aria-expanded',String(open));});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('is-open');menuToggle.setAttribute('aria-expanded','false');}));}
