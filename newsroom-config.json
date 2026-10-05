@@ -1,0 +1,30 @@
+{
+  "name":"District Mind AI Newsroom",
+  "version":"1.0",
+  "principles":{
+    "ai_role":"research, triage, summarization, QA, discovery and recommendations",
+    "human_role":"editorial judgment, publication approval and high-risk decisions",
+    "source_policy":"Use public source metadata and links; never copy full articles or fabricate reporting."
+  },
+  "scouts":[
+    {"id":"breaking","label":"Breaking News Scout","queries":["hip-hop OR rap OR rapper","R&B OR soul OR singer","music industry OR music business"]},
+    {"id":"new-music-friday","label":"New Music Friday Scout","queries":["new music OR album OR single OR EP OR mixtape","Friday releases music"]},
+    {"id":"culture","label":"Culture Scout","queries":["hip-hop culture OR music culture OR entertainment"]},
+    {"id":"colorado","label":"Colorado Scout","queries":["Colorado music OR Denver music OR Colorado concerts"]},
+    {"id":"artist-watch","label":"Artist Watch","queries":["artist announcement OR tour OR interview OR music video"]}
+  ],
+  "sources":[
+    {"name":"TMZ","url":"https://www.tmz.com/rss.xml","tier":2},
+    {"name":"HipHopDX","url":"https://hiphopdx.com/rss/news.xml","tier":1},
+    {"name":"AllHipHop","url":"https://allhiphop.com/feed","tier":1},
+    {"name":"No Jumper","url":"https://feeds.megaphone.fm/NJP4856622419","tier":2}
+  ],
+  "noise":["casino","betting","odds","coupon","lottery","horoscope"],
+  "qualityGates":{
+    "minimumTitleLength":12,
+    "dedupe":true,
+    "requireSourceUrl":true,
+    "requireSourceDate":true,
+    "publicationRequiresHumanApproval":true
+  }
+}
