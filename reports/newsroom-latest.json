@@ -1,9 +1,610 @@
 {
-  "generatedAt": "2026-10-05T03:11:58.462Z",
+  "generatedAt": "2026-10-05T03:28:18.506Z",
   "operator": "District Mind AI Newsroom",
-  "status": "NO_STORIES_AVAILABLE",
-  "storyCount": 0,
-  "stories": [],
+  "status": "READY_FOR_EDITOR",
+  "storyCount": 935,
+  "stories": [
+    {
+      "title": "New Orleans Pelicans Hiring Jamahl Mosley Was Music To Herb Jones' Ears - roundtable.io",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYkVlODl5X0VURUJCUXh0SGoxZDNDM0JJVUoyTG1zV0F0VS0zdk5DTjRUZGxsSXhUN2VPX0lfUVJLVTZCTjVOTl96TGRPUjU5WE82cVpDSk51bDE0RFd3eEZ0eUdVc2NTdjZDSkFJS2dSM1NFa09kd1NQYkN6enpCSGpxMDFqUml2ZXVEVWtnMFJLZml2SzZQSUhJQTBEb1E4UjhyNy1ia1RiNjhYbEQtTVVwVEdhUWtp?oc=5",
+      "date": "Mon, 05 Oct 2026 03:16:52 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Rap of the Week | Sep 29 - Oct 5 - SceneNoise",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rUkk3cEhOVmstU0pXNkoyazBfRldvVUdHSFBvV2VaRkpHM3lYOFQtYnkyZ2hFZVF2ZllLenU3dlh3TnFVS1ZWT0FxY1YwTlhWNTN5Mmptd3RKZFFESnJaM0kwd19xM0d5UlIxV213?oc=5",
+      "date": "Mon, 05 Oct 2026 03:05:22 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Nour Chehab Weaves Melancholy Into Guitar-Driven Single ‘Jaloux' - SceneNoise",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOalpZejlTdnM1dGVneGR3RV9yQmVNUjNrQ3lyczNVdXcyb1RCSGRUc2FmQ0FidjZrb1kxQW02Z0JrSHhNeXpVckJRNUxVMm9sa0tVbUZKbGx0MndURU9jcWY5WmRYTDhXQTFqcHozOERGY19kVFlZTUFvSEJUT3JRQjR2Rlg4Nk1iQmp2ZDhqYnIwam9sMGtYQ2hQOA?oc=5",
+      "date": "Mon, 05 Oct 2026 03:05:21 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Fans Choose Victoria Monét’s ‘Frequency of Love’ as This Week’s Favorite New Music - billboard.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZURQS3dGRjB3anBJTjZ4SlI4THlRUUVENnhhdUh3NUQydktNam92aGM5WHBnYl9VYUowdURzaFJzV0hJdUI2OTlnaFdBQXFoX1UxT2dMUUs1cHg2cmZlQ09wMzlqNTJxQndpcEhFbmJsbXlhdV9SMnQwUGtucVVpQ2tObklhSGRnSVhYT0g0Y0phR3JkeGY0bmRTNFh2ZGlLMlJaQWxERF8zd3FpOVY0?oc=5",
+      "date": "Mon, 05 Oct 2026 02:47:49 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "\"The Music of EPCOT\" Slightly Delayed Due to Overwhelming Popularity - Laughing Place",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUXVnVUJmZi0tcTVfbDVhZUN2NmppaEZWVXkxVTh0ODkwLTlwRXFmZjdIMkdmUzJibWdMdFdFc2FpR3dKQUlNRlRqU1Jnb05Td0NiLW5oelBDcnVjeXpTU1VrWUhCM3RIaWlJbWVjVG1vQzg3X2trS2xRbUVJUHZEV2ZhdEhyUQ?oc=5",
+      "date": "Mon, 05 Oct 2026 02:23:51 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "This Bay Area superstar turned a concert into one big family reunion - San Francisco Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdlE4REpMc05YRGVrbFFwazAyQVJ3NENSbHYtb3l5QWc2T28zZlVGLVZWZlJCUTFrSUFWNFB6bFh4Z1pnM3ZLdEs0T1Z1dDhseGNiMHBKVHpvSGtUS1RQRlZ1MEZ1cUtuZnBXcVRJUHNWZUJDLWdqeEVBT3F0VnJsejR3?oc=5",
+      "date": "Mon, 05 Oct 2026 02:05:46 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "LL Cool J Explains How Grandfather Helped Launch His Career &#038; Grandma&#8217;s Warning Against Pierced Nipples",
+      "url": "https://allhiphop.com/news/ll-cool-j-explains-how-grandfather-helped-launch-his-career-grandmas-warning-against-pierced-nipples/",
+      "date": "Mon, 05 Oct 2026 02:03:42 +0000",
+      "source": "AllHipHop"
+    },
+    {
+      "title": "Inside Indie Tribe’s Plan to Disrupt Christian Hip-Hop - relevantmagazine.com",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcjl1c1RpelNPTEExWXA2N3FCczdWRWV1SXhUSnpjRVEycE5MRDBoWF8wa3BLWjNiYnNERFNxM3JmaUt5RmVmU015QWt4aWxET0Jwd2RyYWlEUWFtX2ZVbUhaNDd2TFhyVzE3bFBzRmRQVWF6SVdnYl9HRzFqT2g0QWlYTWk0c3doUmp4Z3Vn?oc=5",
+      "date": "Mon, 05 Oct 2026 01:09:44 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Lizzo on New Children’s Book, Flute Origin Story, Music Stardom - TODAY.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcnM2Wm92QUh4MERHRVB0eW1kRWNXRUZVbFpsMWNSMVFxdGUyS2V0ZkM1VlA5cHNIaXlOc0l4T095MENqUThEQ0hRT0NWeksxQ3FOaFgwV3gxREhaYTgxNUx4eVdhQl9jWDNpVk1XWkxNOER6Ry14MExBZVJkQVp4YjZwWHFKTVVuNU10dndSZXpQX0x3MmM5SnhaNlVzOVF2VHc?oc=5",
+      "date": "Mon, 05 Oct 2026 01:07:22 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Kojo Funds Opens HELLO IT’S ME AGAIN With “Long Time” 🎧🌍 - Bong Mines Entertainment",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBTkFJMm9XUWVod0dtWm5kb1VmZDlXZGtfZ2dLLTNxWTdiZ2h1NTgzSnoyZ21xSWJRS1R6Z1VXYTF1ZEpQMkhnaGE1X2dvcWtZVGdJZlF6VExXWEhEaGV5ei1COHNycHc?oc=5",
+      "date": "Mon, 05 Oct 2026 00:58:49 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "Taylor Swift skips watching Travis Kelce, Chiefs beat Raiders in Las Vegas - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeHRjWXlXQU9IV1lmemxWeURCdDFVal9hdHBRV19kWEFwRU0wVG01Q0ZFek9WbXNxSHoyRlNmSFdBS09oSFNSZ3oxODBsMWx2aDhSWkV3bUhVNTdKR3ZFTnlMRU1ick5TXzhYUFBmd1ZoRURiZHhYeGNhNTF0a29CLWRvNDhjSHI3cHhmUThRcTdFaEdlS3MyY082dlMzSWkyM3FXZHltUmdfMEJTZWVrX1FFcXAyZXdNR2NFTUJB?oc=5",
+      "date": "Mon, 05 Oct 2026 00:42:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "THÉA Drops Glitchy New Song \"WANTED\" Featuring Changeline - The Nu-Metal Agenda",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdjlIUEFLak9yNVdJVmxoRWd2N1o5QjB3dkxFYlNLVEFTWTFwWExIOGR6THl3WWhUT1ZRU25NTlM0Nk9MTUE2SjBfTGg3WEpUSF9ZNElzeXBMM2RFVElLakFfbG1ueTVIbXdkZjlINFA4dFVPV040amUzM1daSVB0cVlSVFZhQU5Zbnc?oc=5",
+      "date": "Mon, 05 Oct 2026 00:04:07 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Blaq Tuxedo Releases 'No Curfew' Video - antiMusic",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU1dQLXR1U2xHQndfWEZleEIxVUlYVzBaRWttdXotd2cwVmFDQzRraUNNbE01M2VidWxDUGlIaEh5T0NKbU1Tb09PRG5WRWtMVzFndFBXaEJlcXZQME13VFo1QTVrU2Vocms3ZnZrUGYyVmRtZjkxY1hiaUN5Vi1XU0ZfQjc?oc=5",
+      "date": "Mon, 05 Oct 2026 00:01:45 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "EXCLUSIVE: Jay-Z&#8217;s Roc Nation Seeks Permanent End To Megan Thee Stallion Swimwear Battle Over Ads",
+      "url": "https://allhiphop.com/news/exclusive-jay-zs-roc-nation-seeks-permanent-end-to-megan-thee-stallion-swimwear-battle-over-ads/",
+      "date": "Mon, 05 Oct 2026 00:01:00 +0000",
+      "source": "AllHipHop"
+    },
+    {
+      "title": "Kid Rock Faces Questions Over “The Gambler” Similarities On New Christian Song - noise11.com",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTNkx3V2dlRVlFU0t1OXNqX2hwQ0NOTElCSHc3MDFtSDBPMnR1U3dtS05ORS1RUndLa29TZ2lFUUV0TGZsQ0RZeWZwU2pCU2djVl9OZjByLXZnUzI1eDlQTEtzb00?oc=5",
+      "date": "Sun, 04 Oct 2026 23:30:12 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Fans Crown Hilary Duff’s “CATastrophe” Best New Release of the Week - inmusicblog.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdERaRHp4V0lmdGo5YUtIaEtleTdtTzhKVDliUXNTVkJQUmdYNDVDbVY3WG1ZRzd5T3JpN0V6MjMxc3ZpTmtVcXJCeGFLTVdyZ1lxVDJFTVVKRG1ncHQ2VVJzUzY4d0JidllHXzRIRVV3MURiNWotTXlRZ19HXzMzVUhLVVdxZw?oc=5",
+      "date": "Sun, 04 Oct 2026 23:22:54 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Jooselord Turns Grief Into Purpose After Son Dies Of Brain Cancer",
+      "url": "https://allhiphop.com/news/jooselord-turns-grief-into-purpose-after-son-dies-of-brain-cancer/",
+      "date": "Sun, 04 Oct 2026 23:02:10 +0000",
+      "source": "AllHipHop"
+    },
+    {
+      "title": "Quicksand (USA) Announce New Zealand Shows w/ Whores. - Under The Radar NZ",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWlUyT2lrMWxxcGdJZGJFMTFkV3ZIUV9kU0Q3UEs4MTBVZW12Y1R0UnM2RjlUZ3VEc2VwNEN6ak56SXFXd1hJZnM4MGttOFpWNzNPc0lIbndLSDh1dW9UcnpacktndDBWaTk5S0lyb0t6RnVGejN2QkIzNFR2M2FDZ0pUVTduMkI1RXQ5RmZZSnhKVk5TZ2dHSWE3R2Q?oc=5",
+      "date": "Sun, 04 Oct 2026 23:00:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Marco Luka “GOTTA LET YOU GO” Embraces Change - Bong Mines Entertainment",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GZEQ4SG1QVy1Xb09TRnFOTTViSWhmeW5mcVJFdU9Jd3FscVJWd1UyV3NFNmpNN2R0aElhaUlUZ0lLbE1IMFo1eVJJRXNySElpSkZCb0xqNFFpalNUeENERWMzVGFfRGVONWRndURLcWk?oc=5",
+      "date": "Sun, 04 Oct 2026 22:35:38 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "Too $hort Apologizes After Backlash Over Plans To Attend Diddy Party",
+      "url": "https://allhiphop.com/news/too-hort-apologizes-after-backlash-over-plans-to-attend-diddy-party/",
+      "date": "Sun, 04 Oct 2026 22:05:00 +0000",
+      "source": "AllHipHop"
+    },
+    {
+      "title": "Live Review: Raheem DeVaughn w/ Daley @ Pier Six Pavilion — 10/1/26 - Parklife DC",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN3Nrem9QMHpMdTlrNjJhMkp0X1JqYVJsMjVLajFlb0dpdm5RMTdWOXcybDV1QkR6c09ZQVd2cGh0ZUpYZDQyVWp6MFE5V2d1cHpuRnE4dzIzb3NHMi1lNmctM0N3QXQxTFpTMFdacGl5dzZpd0ZBdnczZEcxaFotU25JdDc1Ukh2YXUtZEpiUXJQcW1HMDNGWk9EWHk?oc=5",
+      "date": "Sun, 04 Oct 2026 21:45:40 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "DIIV SHARES NEW SINGLE + MUSIC VIDEO “ TRILLIONS ” OUT NOW - rocknloadmag.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQT1d6ZDZERVhza05TQjI2MlJPTVlYOVVTR2QxZ2haR0kxaXlvMG52SmZ1ZmFMdjZDaEltZTdrXzV6WFk3U3NyVmRJM19XRXByUlM3X3ZvMS1YVUtha1EwNzBrSi1CaEk5WE5GSnRJRm5jM1lheDZVdDdCY1BDYmlpY1lRcDA?oc=5",
+      "date": "Sun, 04 Oct 2026 21:45:19 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Palaye Royale Turn Loss Into A New Beginning With Amsterdamage - noise11.com",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14YWZLZGZlZnc0aDFVUUtPTWNBS3A2VmVhb0lHWm1yRXZkSjZzRklrVUpuYklSQmxGaF8wU0NxYUxVa3JSeU9fRTJqcGs5WEZjSGxqUnIzaENjLTlMWUJjUTVMNFlBR3J2RTNMSWdxTUpaUQ?oc=5",
+      "date": "Sun, 04 Oct 2026 21:45:17 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Anthony Anderson To Return To Chicago To Host Soul Train Awards 2026",
+      "url": "https://allhiphop.com/news/anthony-anderson-to-return-to-chicago-to-host-soul-train-awards-2026/",
+      "date": "Sun, 04 Oct 2026 21:30:00 +0000",
+      "source": "AllHipHop"
+    },
+    {
+      "title": "Taylor Swift’s ‘Encore’ Edition Boosts ‘The Life of a Showgirl’ Back to No. 1 for First Time Since January, Adding a 13th Week on Top - Variety",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN1FGcmtEN2hzN2NGMnVINHU3OU5ma290X1hoVHctZk1xNFhGQTFaY1dCa29fcHpVcGRtcEJ0VUR0S3RjaU12dW5Vdkc1RmViNG9YQy0yN3FGNzJhMldORGNUaDhqRDR4Z29KX3NpNUtlOXVoejdBSE9JaVpPc09jd1hab0dfQUN4eTBhNHNsbU1EVzJiNXJoYkM5V0lvOERO?oc=5",
+      "date": "Sun, 04 Oct 2026 21:17:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "‘The Sirens’: the new record that turned light from the moon into an album - Far Out Magazine",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWGcwN1RnS0FWT0I1cnZpU2RXZzI0ZWtFZUVnZ2NCM3ZNY1B3aEwwQW9HU2N3cUpzSXVTTWFkQ2UzVmdkWmpYV2lza3I1d3Q3dU1tTFh0OUhFZ1VwMEFMTUhtZUdGaHhRV2dKWUhuOTExRFcySDlBblM2elZFU2REc2lHRktjbjA?oc=5",
+      "date": "Sun, 04 Oct 2026 21:00:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Lil Nas X Uses Late Mother’s Final Voicemail in New Song ‘World’s Greatest!’ - The Root",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaGtjN2ZCOHotTFRDT3UyOTBYQU9UMUExN0JvdGpSQlJDZlhHY0FfeXlibnlId21DUDJCempfbWtxTUtKbDlROERIWjg0SFRCdmFEclc4ZGc4RHN4dEpWT1ZjZjVUNlEzSXdjNFIyaWp4MzkydG4zZnM3aXljbGFwUmtGbF9HOVhIckRsY0lBZC1aQVNW?oc=5",
+      "date": "Sun, 04 Oct 2026 20:34:15 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "50 Cent Says Street Fighter Is His Movie; Reveals Intense Boxing Regimen",
+      "url": "https://allhiphop.com/news/50-cent-says-street-fighter-is-his-movie-reveals-intense-boxing-regimen/",
+      "date": "Sun, 04 Oct 2026 20:02:48 +0000",
+      "source": "AllHipHop"
+    },
+    {
+      "title": "On ‘Me me and my BD’, IGGITA turns the chaos of modern life into a groovy, campy pop song - Happy Mag",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBanhmYkFtS1d1YS1hQ3huS1dQVkZkX2ZXWldncTJRTlJzNnF2MFJlcVdMZHE5WWZlZlpIQ0hBX2tqWTFTa1dNZTE1OFhuX0VlV2c?oc=5",
+      "date": "Sun, 04 Oct 2026 20:00:46 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "PJ Morton Brings R&B And Gospel Together On ‘Saturday Night, Sunday Morning’ - That Eric Alper",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUG5EMmVEWnFlTDZMNllUeTVXeVN6blZ0ZmhmZ1FUTDVOUFBiZjBxX2cyUTlWbGxqeVU1Z2tUWElwR2xQTGdUbjNER0JybjNWSlNna0l3N3gwTVhoczcwTTNEaGxNbWRqMGFiQWNjZ3B6TXFDYkNHZENEb2QyT0k3TWljOFAydkttT3U3bGkwZXpPZFFSWHhYdnJUYUNFblVKRjJtOHYyb1FweXA2ZjVHM0NidDZPX0E?oc=5",
+      "date": "Sun, 04 Oct 2026 19:11:28 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "Chance the Rapper Is Considering Changing His Name to Just \"The Rapper\" - Consequence of Sound",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LV3lOSDc2OGdSbDNXSnVxbUx5a191eGhiamJwb1dDRnlLd1RKZURIeV9zU0FGQlNja3B4QWxmRVphUWNETVJaYVFldG5yY0VZZmdVcktJRVF4YTRfYmZiaXQ1UzdJYWpISzZxZmVpZzVuWkY1RkswcmRRUnltdw?oc=5",
+      "date": "Sun, 04 Oct 2026 19:01:11 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Jim Jones Once Again Recalls Passing on Signing Drake and J. Cole - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRG55SURvaVdoYWVIZUYxLTVINXNBYVRIYjVqNjI3c3p1U1U4dWt6VUpzb284REQxZ3AyOGRlTmREUDJTb3BQOENkY21ablpiZERrYkQ0SF9OM2NSTjZJSE5FM2tPTUI0NGZpWWRKSEhxMkxrMGFZMmROdEtxOVpmUzNqeFRuQkc0MXotUGZQX3hFTnJGdldFck1R?oc=5",
+      "date": "Sun, 04 Oct 2026 18:38:59 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Usher performs a high-energy dance sequence during The R&B Tour at Sun Bowl Stadium on Saturday, Oct. 3, 2026, in El Paso, Texas. - The Lufkin Daily News",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPRDN6aVhHcUZqanB6bHo2a1dXbTNLbVpNQk9rdEhKZWgydHFwdFNEVGowU1ZHMk02a2xpRXo0TlIyRk9wVUNWd2Zzbm5hMlM4M282dXdQWjJLNU0zZWVaMzZtcXV6dTd5ejczNzM4czF3ekZxdTJUUXhfcEdiTGhjQnN0RFVtMTJRa3piNGZsd21FSDhWdXFBTUhYLWplZ05OUUpwazdjUDFWSUozcFNzNDdoZHRycnotUWNOOHo5NklXdUJ0Wk1ZZGJiV0Y0UTVFRzVFVGdpWUVMbjVHdjNEa0NZNDlRNnBUcEs3YmpsdE53Zy04c3dGTDFvZERBbE0?oc=5",
+      "date": "Sun, 04 Oct 2026 18:18:16 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "'An incredible show.' Stars Usher, Chris Brown take over Sun Bowl - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSnZ6Y2dicWR4NEg2ZkJfYVRPSHNXemtSRlhEN3EteEd4eThTanJ5TXltZ1FFOWQxZG5fYWZGdjZrM1ZGZFhldTNaOWZSVDNsb18yb1VCMjg4SkJybks0WVZGNXVPSjAyV0UwSVVhNFQtQ0FLQ0ZuR1dFM2lrUS00ZU9oSlVNc0FadFpHVUNQd0gyRTNFWDB6ZEd2S2NkZ1hw?oc=5",
+      "date": "Sun, 04 Oct 2026 18:18:09 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "'An incredible show.' Stars Usher, Chris Brown take over Sun Bowl - El Paso Times",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaGc2d2p6OWhKUVRFSllDVXljblhhc1FWM3hGd3hWWklQYlJqc3lQdzB2Y2lNSFhiVk1sbE5JcjhSZDdPVVRGQ0thYmZkcjJpczY3YlFWQ0RudDZIdS1NNUc0dElhZENuUElJdk5kMDI4Q3RoQ1dIQXdZVnBKd3ZkLV83Z2pZRW0xNUszRlBuUWZYRTVhWlFyQ0JRR01xYXVQRWotdVZXS1RBVnU4OHoyQ1NSQzdZWXdmWUJTNFdkYnJ4eGI4V3F3SkpOVTJaVW8?oc=5",
+      "date": "Sun, 04 Oct 2026 18:18:00 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "BMF Actor Da’Vinchi Angers Black Americans Over &#8220;Lazy &#038; Slavery&#8221; Comments",
+      "url": "https://allhiphop.com/rumors/bmf-actor-davinchi-angers-black-americans-over-lazy-slavery-comments/",
+      "date": "Sun, 04 Oct 2026 18:01:51 +0000",
+      "source": "AllHipHop"
+    },
+    {
+      "title": "Pregnant Ciara Commands Catwalk At Paris Fashion Week in Three Outfits",
+      "url": "https://allhiphop.com/news/pregnant-ciara-commands-catwalk-at-paris-fashion-week-in-three-outfits/",
+      "date": "Sun, 04 Oct 2026 18:01:00 +0000",
+      "source": "AllHipHop"
+    },
+    {
+      "title": "Photos: Usher and Chris Brown pack El Paso’s Sun Bowl - El Paso Times",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWWFSMU9WZEZkSG14c2F4MTgxbDVHeEpGN19yUl85TDF2d05QM0phSWZMX0RGZDBBcVM1OWltbXNiMDlFRWVpbC1vaE9SY3hkTDhaMFNaM09IQm53elRBS2N1c2VsMW11ZGlwSW9XYW5XVFkwMEN5VzNISkRsY3Y1T25oemxGZlBvdVpIRGI1Tm92LUJiZzhpMkh3OVBtUnlmdjhZV1Vxa1RwQ2FRZHhBR1lXUlNwU09HN0gwOG9Hckt6NHNmOU9naG5YZ25IM3RZSXBqOGpwQ0hBdw?oc=5",
+      "date": "Sun, 04 Oct 2026 17:59:00 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "New Orleans music takes center stage in ‘Harmony & Hope’ - The New Orleans 100",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA5eENuV1BxUHBaa2dBbng2SGppbFNpVzViY3A5d0poa2FlY0IxUk9tdUtVZmRQdzRLUWdIRWxma0NfU2tENk9IdkR2SjEwSGtZczhDekRqZ2RDYVpQUndsdlFXakRkWjEydVZUQ3A0LVRzT2ozSWYwWkRaQnk?oc=5",
+      "date": "Sun, 04 Oct 2026 17:45:39 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Drake's \"HABIBTI (FOMO)\" Scores Impressive Sales Projections & First-Day Streams - HotNewHipHop",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTnQ4VzFkQXd3VFRmSkJjWVZjM2RFcmFpb2k3d1RvYTVRUEFhaWxmZG5CamdFV3I5RmVmNlNFTG5NT1UtVzdyLWdSaTRESUZLczNySFAyLUlwRTVYUUZvZnJQN2dSXzM4c1Bwb3JRR2hhWlY0V3UxN21rQ0p2WlBNZVBhX3BiaWpOY05SMUd6UW8xYTBpV2c?oc=5",
+      "date": "Sun, 04 Oct 2026 17:35:35 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Sinatra, Beethoven and hip hop: Orchestra Iowa's new season - KWWL",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd1ZabDg4cVlkTEFBT2d5VkhxbmJtbWFoa0JzWE1PWGk5dC1kWENUUm9QeWRYYzlzd2tuQ2RGN1VqYTlWcktTZkRsQmI2UGdfUnNTR0Q0THdRV0dVYjRyOTBiQmRsSXBDelh4OGF6UWU5bHdaYU42M2VyTEJaSDhUeE1Rd1dQa0hoWkRvTmxVVVdxMHdHclg3ZzJ6dVRjLW5tN0ZEYW4tSVptcWtuaXFaUV9nbUEwMG43cWlpckppWEhKcnpqYTVRSUJIMEo?oc=5",
+      "date": "Sun, 04 Oct 2026 17:33:00 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Do you struggle to keep industrial property surfaces clean and safe?",
+      "url": "https://allhiphop.com/blogs/do-you-struggle-to-keep-industrial-property-surfaces-clean-and-safe/",
+      "date": "Sun, 04 Oct 2026 17:16:04 +0000",
+      "source": "AllHipHop"
+    },
+    {
+      "title": "DIVA exhibition brings two centuries of music, fashion and glamour to Denver Art Museum - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRnhPcU03dEZaT0l5ekZ5U01SdEZQOHJ4LVgxbUZZak1ocThIdHIyc3pLWjAtUTZCdGhFenJuekZMZV9wc2IyQWJJOENhbHVKWXhaTzc1WDI0d0ozSl9SQzR2ZTdXMmpOYWxxU2dQTk9ocEFKbllleXBHZkNLYlV0VHZ6SFlFa3lmT2ZJV0E1ZHJ2SnBqN0xaVHF2ektsdlpaNzlQOWI4bXlLT1VNNHhqaEdtZ0tyUHVYendsTjNwUTNtZldT?oc=5",
+      "date": "Sun, 04 Oct 2026 17:12:00 GMT",
+      "source": "Google News — Colorado Music"
+    },
+    {
+      "title": "Lucki Recovering After Violent ComplexCon Attack As Details Emerge",
+      "url": "https://allhiphop.com/news/lucki-recovering-after-violent-complexcon-attack-as-details-emerge/",
+      "date": "Sun, 04 Oct 2026 17:01:10 +0000",
+      "source": "AllHipHop"
+    },
+    {
+      "title": "Proibidão: the Brazilian hip-hop made illegal in the 1990s - dangerousminds.net",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSVJtWFVOVnd4S0xTei1fQlFzV3ktMF9EMEhxdDNlM3ZSeDVzT09GUUdtSkpSYi1UYTk1QXVVcXlpV2RMUmVBLTRXVzNCdDVXdGZuTzhHN3lxSXI1NkF0am16RnNtLWNrUTdMYjRZSUVRTHZzUUZIVFlqSXBiM2Etaml3Y09UX1J5V0lvcw?oc=5",
+      "date": "Sun, 04 Oct 2026 17:00:00 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "“Cultural Iran” book collection inspires new fusion of music, calligraphy and film - Tehran Times",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV2x4SkF4Z0ViWTFWSEFzWHVweDRTbnlZdlBDUkVZVDItb0pZbmI2OTI4SENSR1JZd2Z3dUF0Sjhzem40a0xIMUN4N1VJWHN1UmRzc1FLTEswbVh0U1lCbk1JdjFXanV3UVd2cWUtWE1QampBYmJIQWZkSTBsZ085UC1HTUZoTGNaOGwxSXFsR0dLMkFLMWtlMUE1NGtocUE?oc=5",
+      "date": "Sun, 04 Oct 2026 16:18:43 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Perform Sharjah 2026: Shows to see, from audience-made theatre to giant puppets - thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORnA2NnRYX2c1U2lZb1c3STZNckV5MEtpTDJsYzBDci1TUFdmZmtUOUxjWGNIQlJROFZDV1BqU0Vjcy1vUm1fUmV4QzlKNTNZSlcwMXgxQTN3RlNPQ1d0SXE3VHlQUzZGZ0dvZ01abnNfZFBNWm5rNEZXZnYtZDVuTEM5aFB0Y010SURtcUNYNkZBX3VVblV2Qm80VHNuOE82VzhwLWNvQUxRM3pQMWM0T1dBYkVQajE1OTNHVEdqcDBSTmN5ZVJiaEZlOVNabmJJcDhpeEtkR3Q0eWs0ZlAw?oc=5",
+      "date": "Sun, 04 Oct 2026 15:14:00 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Nas, Mayor Zohran Mamdani Discuss Past, Present And Future Of Hip-Hop In NYC In New Video - RTTNews",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQelZUVUxVRjIwakZ4MFQ0V1FPVzl3THBtSTY3ejJ2Z3V2cWZaTWhLOVlMQWl2d1Z5YVl1SmlMeGxnLU5YSFRwUVJaLUZJVjEyQjJkMjZxWGt2Tjc4OTlrLWZ2TTVEemxZTERHUDVvREdiNTdrR0ZaLW5YMnFJZnVrWVZmOVc4ZTI0Zy1HeVB4d2k5V1BJM1NoZUYwSnZham85VHhMWm9QcDJ5ZkxFVXRFdk0wcEtmQUFzdjF6TE1IYWR5Zw?oc=5",
+      "date": "Sun, 04 Oct 2026 15:01:00 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "The New Roses release new music video for ‘Saints & Sinners’ - Distorted Sound Magazine -",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU3ZKUXpWdXBaei1UU3BGTU9LQjF1Y0lyOVdLc0lKQnA1TWJFNGcyR3F6SGZrUFIxM041N19zamZLbjZFa3VDV3pQNzlReXZrck9JSTRVbWtzbl9odGI4ZTJzblgxZ0t3TnNna1BWMGMzbTVQLWtfWkVsWGZlYlZsT2tSVWJaSVdYMXZDWHVyTnQ?oc=5",
+      "date": "Sun, 04 Oct 2026 14:58:31 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "10 things to do this week, including Banned Books Week events, a crafting workshop and a new music game - brookline.news",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVllUU211RjBwb20ySV9SYzk4b2ZlV0stQ2N3UTFVd3RTZGJxLWZZZVBQTTVOZjZ2dHZfQ2dIMkQ4cDd2a3c0Z2lBekhyTjZHdFVfWlpkbTBlLS1fSkZKeTRKSzdzQldyaDBOQmxQc0w3b2Jfd0lvYVRaeHVGWWdIdkVaa1MzWmJjUU13YUh6djU1N0dSWEFiR2xqRU53NjNNOW9nS2d1T2xWYy1ubExwVVQxRmJFZHV6ZElXMmFXZTlYMzQ?oc=5",
+      "date": "Sun, 04 Oct 2026 14:11:24 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Mountain Grass Unit Are Lighting a New Bluegrass Fire - Rolling Stone",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMGxnbGFoblJRR1Z5RVNoVFZmX21nejBMbHpOZm9qUWFTcU1peWlfN0Y3T0xMeVVIekFyMGhFS1FCcmM3UGQzN280ck1yWUZxcGpIbkxjbWE5TWFHeFFrcUdPTU9yQnI0S19aVVRLYVpvNjFwZlptLUgtUk14VGpJTTZGeTRkcU1oQmE4S0VUZ1lRa3RGY19PVnAxRF9Zbko0bUNxZ05ISWEtSmVETGU1VQ?oc=5",
+      "date": "Sun, 04 Oct 2026 13:30:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "P.O.D. release new music video for ‘Outbreak’ - Distorted Sound Magazine -",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKUkRvcG5wVHRKdVM2NTJROXg1cHlNeGFDbThrVmdHNHoxZ2RjMWhlTkJJUGZUdFF3VTMzeHVUeXNwOFlzdTQyNEQtcWxKbi00OWpaak9KclRzS0Zld3ZYLTExZ1ZJeTZyUWRHN242VWZLdVZ5VFhlUUpJVW9zQQ?oc=5",
+      "date": "Sun, 04 Oct 2026 12:36:14 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Spotify's algorithm got me stuck in a loop, but these 5 services broke me out - MakeUseOf",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHRUFWb2tVZkhuQk9GVzV1a091ZFVzeU1icHZRYlp4MUFBVmVmbnZSaFhPVVBvajdwR3RqRzJUb0dScmlXV2x2Vk91dmgxRHZ6Y21tTUVMazQ0M2VJdjh6eVF1WVFjcm40MlgxVHUwcjJmeWNMdWduRVhQa3NHdw?oc=5",
+      "date": "Sun, 04 Oct 2026 12:30:16 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Park Jung-hyun's Timeless Beauty Defies 50 Years - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMVg5RG1CMlc4bFFLYVVQdmlnZEtvTWI0VURfTmlFaXRlMnJzTE1qR04wc2Y0SnZJeVRSUVNYWVRPTnRkdUtPSndRbEwwdkkwNVhuTDl2RDA1N0g0Z0FLcnRhWFh2cnJtaVVYUHNLTzU1WnZLTE1SWGhvR041RENtMXVVMGJzZ3g0dGtOX0pB?oc=5",
+      "date": "Sun, 04 Oct 2026 12:21:23 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "Next Week In Music | October 5-11 • 28 New Books (Part 2) - tinnitist.com",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTnphN25DczFPU2QwaWtjYlpuWC1nblpjQ0tPeVA5Sm9fUzZINkhDekpOTGJHd0pTVm9acURLb3hfTGZ4bVhxT1dvRUUzbmtWdXhLWVc2R3FfNkdZWVJRMklPaGxxRy1JOW9wQ2d6ZW1qdkhnQlFsSW9UX0VTaXlZRVlRV19OQURNMlgzcXRn?oc=5",
+      "date": "Sun, 04 Oct 2026 12:20:56 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Quavo discusses his new album 'QRÖMELIFE' - NPR",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWmtEMUF1QTFLak5hSkVFMTZIZTJLOU94T1M5UzBRLXZnWVA4VE44SVFNTldnVlk0UFN2QWVCaElPUmlES0VsVlVzcUR0c1JzYm9ZUHc2Q0VIU2k1LXNIS3Y0RlJTUmc3aXJiQnJHRG1id0FGUFk4ZDRnTEZTODMyajBPOVFVYXhXR0l3Qw?oc=5",
+      "date": "Sun, 04 Oct 2026 12:06:02 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "“Songs In The Key of Life” - Steady | Dan Rather",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1YV19QUm1SV2dIdUhfY29KOVZ5ZTNnMVZfa3dkRXRJT3lTRmtwckVwSWQ5UzFUQmF3RVZJMFRPR2o0VG9uR1Q0SkphcXNlSmRxSW1KU3V3Q3p4Q2pHX1ZHNXBKY3lEV3ZNZmc?oc=5",
+      "date": "Sun, 04 Oct 2026 12:02:19 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "Death Pill release new song ‘Silver Butterfly’ - Distorted Sound Magazine -",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbWNMYm1SN2hhcEduU3dWUUs2RDc1d2FldDZDMU1XUDdWb0RJOHlEQnk0YUxxbmhxSmg3eldyR3B4ZnA1Z2JoOXM0TlR0UzF1d0pQYWtCYzZpOWlJa3NhT1lvckNkV1ZhQ1BKM2h5dnNpUnVib21zdTY2UHBWQlJoVw?oc=5",
+      "date": "Sun, 04 Oct 2026 12:02:04 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Why brands like E.l.f., Wendy's and Gap are branching out into original music - cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIeFZlbVIySVBlYTNnV2dQUkRPOTgyajJESzFjMjFQQjVfemZSYzBWbklpMmhuWjRlN2U1aU95Q29WNGZCeV9aaVVQOGlETUxZNXRQMnBCX3Q4MjZoZmJkSGloNHR3aHZoZEhHT2FUTDNoMlRlSkHSAXtBVV95cUxQZE84TEdWaEJNWUZuc2dNajBHcWp2a21wVkkwelBMM1g4azNsUWZTalRnWmpVMXZKY2R3cGVOUFIyUC1SYTF0U0hxdWFpUFdCRlc1dEhYNG0yVEg0V3Q1QUxsM3dNZnYyc3VER1JVamQzV1VmT3VaOGx6ZE0?oc=5",
+      "date": "Sun, 04 Oct 2026 12:00:01 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "One of nu metal's most underrated bands are making a comeback - Louder",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfQ3QyQjhUaVk0VFF6QUhhNEttMWZoQkRHQTF1aVdFZUJ2ZVMxV1ZELTY4bmFIYlJhbldNZ0FwQVI5dnJPZEcwMk9PMmR4NHpCeHZEUk1aWm9wVy1tT3M3bmMwbF9XYmtwM0V5MGFrbEhDU3BxSV9Xb0FydGxEdw?oc=5",
+      "date": "Sun, 04 Oct 2026 12:00:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "EMNW release new music video for ‘Party Loud’ - Distorted Sound Magazine -",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zNVJDMzh3MzYtRE1SWDZLUEh1VUo2eGFoMGMtSkthQ2htbjFjSkdxY3RMSEZZdjdzWFFXRW5fZExEemlhV2IwNk14U0FIWE91QzNWNjZwWGNIOHRSMVk2Q2x3VVZoV0pDZ01iUW55dkJEaUswUVFvRGhYbEhlQTg?oc=5",
+      "date": "Sun, 04 Oct 2026 11:32:38 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "A nuclear bomb is launched from Iran: Israeli musical faces the apocalypse - Haaretz",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNMXpWc3dnYVpfQ1RYLTVoTy1YZWZTVEt6dkhBUXk1MkxzWlB1QThFaVNuZ2dPSjFQTEhjbWl5RjJVUTFxNnpOUFpYRmlQZjJoeTBKdFNhSDdzcmhWelUyZFhqdl9kQ2RJNnRoaHM3Q2ZGczRZWTdydE5Pc0xWWDFnVE1KUnhNck5BOUU1NzRBYy1yNUNIV0NTNk1BblUtNjQ0Q1lnMzdlSXpsY2c3a0JFbVVfdHR0NTNKRFJlNFo5R09oN2ZKQTdzWmVMbmdocHBQRDNhRmpvSEpWQkdiVFhiTVlQWEt6eGtwVElheHBoMjhOQTB1MV9pQTBSdkxwRjJsMjNoV1piUEM3Y28?oc=5",
+      "date": "Sun, 04 Oct 2026 11:28:00 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Who is Lucki? Hip-hop star who reportedly got stabbed in an altercation; Know Chicago rapper’s career, mus - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQNjJkQTB4eE9vaFE4X3hHYzEtakZoSExXb2I1d2Jla3l3Z2NLdUpTQ3pFeXBsWHhLVjJsT2tTRmk5TUZta3E3RzFUR2c2a2dpWE1nVzBqSVRMRENBdUJUdklPMUtEWXNzbGcxNFZ5eXBLU0NvVm91UVp5U0VGSFdqcHNaX2M1TDl6QUxxMzMwRWNfZWJYVFM1QjU2aFlreGhPWnA2YkZKSEowVFh2NXZ3TngzamNJUmppc3lYSVB2LTVhTDhHNXREdmI3X1NKbFdRc2dRZUFJM3B6cnZNX0xBZllEbnlZcUhfSEhGQmt0U0pyaW9SdWtmbGJhUS1EOHZOZ25DaHhRYWhjZkVkZEYwcXRXRWp5ODdxRUNOVkFyWdIBpAJBVV95cUxOeDFqaGFjekQ2NFByTnFiR2xETkxKTmRzcTh5WldYLWw5aTJjNHF4LThPem94MVo1enpMRFQ4Yi1qN1lDaElRX0xoR1haOThDSUd4Z2tyeUdHVUhadGpzVTYxSldBNmd1eDdXV2w5Z0VYbDB6UnoxYXlpeF8wMW5lV1lYOHpzQ3BqQTFnaDZZQ1l4NFNVUFVabTN4WnVwaXVjRVpxNFRwNkpBclFJNUNLU2RqYnhZbnFWU0Q2V3ZUYXBnWGNmOHFkQk05cGVXYU9wNkJZdjdsYk1EQzNaRzVqdUFiQjVKVUl5WVlOSkJpbXItTVNfOXlkZl8yN3hXTE53cnhndW9EOWRTVG1CVkJHbmViakM5ZUlpS0thS0xXM3hmdTR1?oc=5",
+      "date": "Sun, 04 Oct 2026 10:17:52 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Comeback Kid release new music video for ‘Yesterday’s Gone’ - Distorted Sound Magazine -",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV3lKTDRILXBocEQ3Wm1vU01hTV8xSDZkUjJfX1dlUzdzZXdZaTh0eEJoeXNNYkU3YUItM0pic1cxUnRFTE10QWdKWXFXbW5FWkZwR1ZSTTlXQmUxZ1FxM2VBMVBhMUo1RThUS0pyZW01cnFzcEJZdHBST1g1aEhTeHlpejNFanJQUTRneFA1VUQ?oc=5",
+      "date": "Sun, 04 Oct 2026 10:15:02 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "CRAZY?: earthsignchels Unveils Fascinating Surge of Theatrical Hip-Hop - Stanisland Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VT2tqN0hsR2JrX01pUk9lOFBFUWZ0VlFzTFJSTDBjek5jbjFiTThmNGhjZFdoT1p2WjR0Y0M5STAwWjg3UkR3NlljQ2owUFAtRno4NEhHZw?oc=5",
+      "date": "Sun, 04 Oct 2026 09:16:31 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Book Review: ‘Bad Boy for Life,’ by Cheyenne Roundtree - nytimes.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdEtLeVdCNVEtdUtVUkJVd1JvOEY0WTZiUVROckVzeWFYNUdsMkxsZDZHZ0xDalNKZnVkUlBaT00xamg3RnFUdUFUTzRRUE5hUmlrNWMtTllSQm82dG5TRU1TOTltTi1kbWNiYlNiTjhfeERrbElFaFRfOVNxVjIzbC11QmpDc0dfcWhjSWROMGttQQ?oc=5",
+      "date": "Sun, 04 Oct 2026 09:00:17 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Jon Nørgaard on ‘What Are We Gonna Do’, Australia and finding a new chapter in music - Futuremag Music",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNUw2VDNLbnlUTG9kMzloYXhMNE8yLWsxYzdTc0ttamdwNzBhMHBnTmJHUFAwbE93T2hJdEJaR0pyT05nNkdBdmotRmV5ZWRlampCakMyM2pMVDdLWV9Jc0N1Q0N0UkdfelhlQ1dWc3F2cEZuZEdhR2hjVUxrOVQtTGtscVJJZlZ2ajlJUTd6WFVWQnNnUG5zUlFVWXBTSkY0WldhTThfb0tWMHU3RzhOd0F4cE1GRjM3?oc=5",
+      "date": "Sun, 04 Oct 2026 08:23:35 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "News From Hip Hop To Hollywood! - The Hype Magazine",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSUxJWkFnbHdFN2RqSmR2bjZmVDJubWNJUjlZZklVMDZiNHZ5LXZhYzVOaklNc3B0alVMMnJsdFF2SmZMQVNTM1MxaDNUeHhxMG5uMEJEZ0J5bGdtaTZ2d3Zab0xfczRKd0FFSFl5cFlFVHI1VnQtQ0RWR2UwM29GZG9UaGlIUVd6UVZYZGFqelVVZGRzT0tNbUVCdU9OYWhLM2pIZEhfVDcybnY3YVhKQ2o3WEU1cHBCVXJLME52ZEhvSEtmX1VNbExad2VpcXh2Z00wbGdaN0RDS3c?oc=5",
+      "date": "Sun, 04 Oct 2026 08:09:50 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Pride Of Lions Unbridled - RAMzine",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9xcnFoMU4yTlFfcUZvTmltQ212Y05fdm52UE9LOXVCRkQ3QUNzbVJWa3lmVk92OGVydGtHNDBIdFBoQ0RoZklzMmhBN1hKLWc0SG5wdFRjX1NQUW0tSUdLUTF0cmVNbFBhUGQ4YTlFMA?oc=5",
+      "date": "Sun, 04 Oct 2026 08:02:58 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Phoenix Symphony names new music director - The Foothills Focus",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVlVNV1haZGs5T2pBUHkxZzJNS082a0V6UTNDUjNMNVY3aHZtUU5BWm1aYUk2bFZMdHVWcDRvNlVEeFlEYUJuV0VXcjc0ZFlidGFQbUhqcktGcXU5STVFTXFDVHFuVnVycUVDTFBpdEZUb0p0clc1aDFhNDRRb0M1clF4VlRVZFBiQVA2Ti1xOXlTN0hpd1p6RnNZU0szbjJZWm1lb0dFZTZxeXBuTWFianI2RWIwbnJQWmFMZE9VWFhzNTBUWkYzUkM0UjFWRms?oc=5",
+      "date": "Sun, 04 Oct 2026 07:00:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "‘R&B Tour’ brings Sun Bowl’s third major concert of 2026 - KVIA",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbk9TdS1FTmREUi1jRE1TemZxNnZ5YzNNVXd1dGU4WjR1QmMxTUxpbnVzM3BWTE5nd2V4ZlFHR1BuZ2RpcnF4ZF81dFdRMDRoR3pORGdOcmJmZTlDLW1CbF9NMEQ5amNPRXNQRW1TaExVQmpSQ2I4aUs4TTBpdFlwSWg2eFhuQzB6NWZEVHNzcGNYSWFQTE9mVmFOR0dmc28?oc=5",
+      "date": "Sun, 04 Oct 2026 05:29:51 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "Inside the Sound of Charlie Farmer: Live Shows, New Music, and What’s Next - MUSIC SCENE MEDIA",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ2NvTEpja1lUY3MzZmpuSkJCSGlXbncxNTdicldMeTVzZk9JQmJRX2VhSTNQbGs3RXIyUWVKLU5qTklod1BjUlJ4c3U4TjNXbDF0b2prd05kWDh3NmRnRFhBM1BsRjRDZlJUSmZzWXFaNjVPSWNDdmFNYlQxLU8zRHlvWXNkd3BZVF9ucWtmYldfUmc5YU4tZXRjX0Z4eTJYSWxhVndn?oc=5",
+      "date": "Sun, 04 Oct 2026 02:20:04 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Lucki Stabbed After Alleged Fight With Playboi Carti’s Team - hiphopwired.com",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9jenpzajQ4azZGVW4yQjZURm1OSlZuMFJsTWJDeE9CNGxBWkVPdnZxdU04N3JQaEMxa2MzSWg1d0FTWVRMaTB6RXJqa0NDbWxDbHJJUE43TkJFdDl5V1JBQWlFUQ?oc=5",
+      "date": "Sun, 04 Oct 2026 01:57:56 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "New Music Critique of The Empty Pockets, 6.6/10 - Music Connection Magazine",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBtSnUtaEQwTzdpWHJsWktkNUFvTXd2TVNzdkpLeXNkV2xlaDA4TXNlRjRxQnk5d3E3UEpRS3YybnBPVlAyeHVkOUJ5LWNFb3Vnc2E0S3U3V0w4Y3Ntd1Y0R3ZmS2lyVzRKdS00S2VqV0VIQlBocjRsZWdoVWs?oc=5",
+      "date": "Sun, 04 Oct 2026 01:30:26 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "OutKast’s Waffle House Collabo Is \"Bigger Than Merch\" Says Hip-Hop Historian NuFace - AllHipHop",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZmo3cm1YQ2g1TnRfRThBSXZpa0p2ekt0X2U1bGdfbTBtbjlyLTlKSGhHdkNPRm9EbGh6NUpqajV1S0pwRFl4bHhGdWtHSGNTNGVNMTNyT2liTUh5MXhNUDZUc2ZGUFd6MlFvOTlwZENkS0cyeWsyMGhYU1NMeWRnejhtSXlTRGV0dzNQVVhESUFOc3BMRW9CaVdzcFZzbmpsWGs4Umg0YTlVdFc1?oc=5",
+      "date": "Sun, 04 Oct 2026 01:27:01 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "LIVE! A Music Calendar: War & Treaty return, new music from Abbey Pierce, Record Pharmacy at ONF - Northwest Arkansas Democrat-Gazette",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQ1dReEY0a1hrZGM5VlZQM3FYd1AzdHJvbEE2dEE3YU5CUFFDd0JSVkZkV1U5MTRpd25kM2xUbFdmeC1RdnExV3FTUjBfZnpTbW9ranpGN1NZZWR3RDlIby1INVNfMzRIamJRSHVnVllUUlc3djQtcll5aXZRejBVQjJwZkpMMnNyYlJ6ek9ZRGpZLUpSZGdTaVQ2OG4yYVNRb1JSTms5UnRfSU9LaV9MQ09jZ1JLdVk4R0lRTVZ1S09zamNPQUNqal9wanNBNkk?oc=5",
+      "date": "Sun, 04 Oct 2026 00:00:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Lawrence Rothman on Their New Album, ‘Here Lives Love/Sawdust to Stardust,’ a Growing Legacy Producing Other Artists, and the Talk with Bowie That Changed Everything - Variety",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUEtuWmdCT0FCRFR2cGVpTFU4clNwVTNDSnlIQ2UxS25VSVhnU3Z2anZWVWRmUF9BaVpMd0lYY1h0NkRxbHdtWFFoWWFzQ2ZyN2laYjRUVGRpV2RLZ3hiR3hBRGlNNjUwcERlUUhIanM1TWtneEdYQXFGbjNTYlFEZU43U3ktYW00cGxHY055b1lZNXJHcmUxaDVTSzREQW82Um5mYzBOZw?oc=5",
+      "date": "Sat, 03 Oct 2026 23:50:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "The greatest era in hip-hop history, according to Will Smith: “Objectively and factually true” - Far Out Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUExnd3kteTA4b093NGRFRjNCS045cHU4bndZR0xPTHotNTVvV2M4bm9HUEpqZ2gxZDR6OGUxTXpUSm5WOFBxWmZFUlZ3dGZwUlhJdHZyZF91N1BHRnkyT1lCUFJoUmlNZFc0NHdTbnNVUXB1N0RBYV9NblRfNnZKX1UteVFDNjczLWc?oc=5",
+      "date": "Sat, 03 Oct 2026 23:45:00 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Baton Rouge Parish Library showcases several artists from the city's hip hop scene - WBRZ",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYWI1Q3ZNdGhOM1p6Q1F1NTNlQ3ZUbDZQMGk0SmpPUXloa3hNVFF6QkhHMHhEWW53T0hFTVdvOEhpYnI4NFlKa1p3dXo1NXBFYk9aWEpOOVdGaEI5RXYxRFhIUE9pLVpVTm5zZy1XN1JtSFV2bVMtbjQwYzQzNHRwZjhObzZ2RGdZM3B1TGJ2TlFOd243alJrQTdXNGRQMkNPMDY4R1k5NjJBZDN1?oc=5",
+      "date": "Sat, 03 Oct 2026 23:23:58 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Commissioned - Clean Heart (Extended R&B Version) - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5IbFlfS1dqVFdKWGVFa0ZiZmkzMDNWbkl2QVVZSmItYWkxbmtzYVJ0dGRUSzl0M3dtZnFoc2dpclgzSjJVSXNXaHlEcjhtLUpVRHBiaWltblJYeEd6?oc=5",
+      "date": "Sat, 03 Oct 2026 23:08:28 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "Blair School of Music announces new scholarship - The Vanderbilt Hustler",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQX2t4RVF6WUYxdVZQVGE2ZzlPSzZ3M1ptMGUyVTNKWDM1UHo3cUJIV1JqeFZ4OU5ZSVRNQ3hBNTA4Y1Q5TktoWDJmWk1jX1Q2UDNxQ2pGQ1BGZFdsYjVjTzFxOVlGQTdPeWtUWnRYOV9TYklUeElWLWdpY0JJTXQyeDBYcExDelZSWWRGWVQ0dmpDMnM?oc=5",
+      "date": "Sat, 03 Oct 2026 23:05:59 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Chris Brown, Usher head to Texas. Could there be a guest appearance? - usatoday.com",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbjJDMEJJc0hNZF9DcnpZbkJHYjRIU3lLbnJ2MEVYNHJ2ajVzNUZKZUpPb2R3R3VPd1JjM0pDeG1LZmczTzRiei1VTzRiZTN3N2dSX1BKRXpKVUtNbGhYYTlRcHhkc25ER0FxcWRma1NsbWFjNFZ5OW1CMEJGOXpZZHlfUVE0REdhWFBwMGFDUy1yaUZyX0FyeWJITUsxZGpuNW9UbWZsY1ktQV9NZnBSbkFBUk5WY2prT0tBaER6alZURy1zM3pQQ3JGb0FqZlpCa3c?oc=5",
+      "date": "Sat, 03 Oct 2026 22:11:00 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "BORN FROM PAIN revisit Heerlen's mining history on \"Siege Mentality\", new music coming up in 2027 - IDIOTEQ.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ1lDbHFKejZJbzZmUE94b2hMTE1SdlJBMmFId01vM3luTXVWVmQ0SmYtRXl4T0xaMGJBUGlERjJ3eFhkTFlhbkJmMVJ3NGNIMl96LVhVVHllZVJSV2tDQ19CQmRlek1iMERSbVM0SXpweDNPd3Zqb2drcjh3ZzhkZzdZdHI1UQ?oc=5",
+      "date": "Sat, 03 Oct 2026 21:02:48 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "The Killers frontman Brandon Flowers' new music about faith, Americana praised by conservatives, Christians - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYzVWZ1gzTHd2SG41VHNVQi1QbHpYc2ViVElQMEdXVDk5UWlKa3ZUbHBLZUQ2UDFQWDdDRk9obW9Oay1TUDZWcVVnTGVyd3BFQnU4Y2p1NE9fU3h6MjVNeHJhYW9URlJjbEc0ajJNUnF2dzRINmJ6Ylc3M3hQeTZNdTdJSnNLSy1Fd0lwUFFyTy1KRllvMFFZSVNOaW9VY0ZCRDV4bS1ueFN0ZTRVajB4V3JIWWxwZkFZbks5aHZ30gHDAUFVX3lxTFBEUTZlLTRVUUZ1blRVZFZqZkdfb0dVR0xaOHQzSlIyRDktSUJZS2ZUdUdSa2hzd0ZRZXVnYkpCb1FrSFQxZmFJT2cwTmM1WlU4dGxya1lBbmZ0VnpHSzVlUGdUNUxoS0RERkIxUDdMLXBwc2FnMjUwdEtlS3NwdDBvLWRCRk1GeWpZdmFVQVV2S1FNRk9vdzRUd1BxU2R4TElfMWxvd1ZoZDhKaTJCd09Yam1SZHFWamZnZVNBMTJBZTM5UQ?oc=5",
+      "date": "Sat, 03 Oct 2026 21:00:44 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "7 Questions with Dani Grant: Putting Music Policy Into Action - The Colorado Sound",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa1NLN0VIYlpLUWQ3Y2QwdnU5ZDA5amhERUFUVmJKZkV5MlZsSEFSWmFEUEx0V2M0cG9KdThiQ0VWWjd2LVlsUnpvbzBUXzhfYTJBczFDMWswa0J3SzlxZy1fbHhiUW4yOFpmN0N4V0EwalU3eDhwUG5MMmFlUklIUTVJdS03Rk1ZUjI1cEJOZWo?oc=5",
+      "date": "Sat, 03 Oct 2026 20:19:53 GMT",
+      "source": "Google News — Colorado Music"
+    },
+    {
+      "title": "Hofstra Music Business Earns Eighth Billboard Honor - Hofstra University News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQlF1TnlkU1FKNzZ3ZkhEU3BpXzJ2OUpVWnRHS24xOXViVVZyTzdQVDF2ZUc2dDY5TFEyWDdpTHpuSkZTbGlqVm93Y1B5UTI2S3NWbHFpWGh6QVNfamRWeS1OVHllanVxMlk3YmRLM3lNZW1hUnRyU3cyckdrUGR4REhvQnVZVm1RR0ZNeEplMUhCUQ?oc=5",
+      "date": "Sat, 03 Oct 2026 19:03:55 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "'American Idol' Winner Jamal Roberts Drops Debut Album 'The Journey' - Rated R&B",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90R2NMZHJCVExPQUpRWUNHUVFPTnlnQzFtcnFfQnhLVUVtTk0wZTd0OUh2U3pZaWtmX0psRWNWVkM2aTdPWU1ub0JneXdSaTNXc0h5aVQyUW1YVzVxSU9QdWJVN0E2VnZjanBwTWc3MW9rLVdwQVE?oc=5",
+      "date": "Sat, 03 Oct 2026 18:50:29 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "1990 Hip Hop Appreciation Conversation - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE02SFlVQmdRRWVTT0h2VkJISkZiN1NyMDhKUEFFZG5BRGQ1V0IyX3JxM1FhcjRrdV9zWmc2bi10Vm9fZzZKWWZhR0dFVkp6SV8tWERsTkVYMVpaMWtT?oc=5",
+      "date": "Sat, 03 Oct 2026 18:26:11 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Taylor Swift Takes Fans Inside the Making of ‘Patient Zero’ in New ‘Expanded Video’ - billboard.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNU9IaGdVcmhLaV8tS24xa2x5RTNQb0VycC1YTzRCSHBweVpCUU94U19fQzktM0tJVzZxZHpZRWQwakJDdzY2RlBITDBWUUJzVU9XVnpUSHZjZ3o0VkN1eXgxMEdmVlp5UURiaVF5aDFWbGpJQi1RNDZ5emJDNmlYTVI5T0VZY0ZtblFwZE54UkZtbE1YUGhVSk1DOExSOXlBRVFTSF95bTk?oc=5",
+      "date": "Sat, 03 Oct 2026 17:48:25 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "28 Years Ago, a 17-Year-Old R&B Singer Used a Diana Ross Sample for a Five-Week No. 1 Later Named in a ‘90s Top 100’ List - Men's Journal",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWVAzSGxvbmRhWWxxMDlmQ0Q2UmRHN1JRalc1djNEamZHeDhmTFF5R1lRN1dQaWQ4ak1ieEp4RFFuM1FZQmd0MkhSVUVmZEhVYkVMdUVaTnltd2F6Qk1VUXlQYkpLdENxR2hnTDk4MkVSSjlhLXRRVWFwZmk5emotWDJma1lZX3VOWUxneUxnWG5uckJ6UVpibGVwclRTU05oNFJuc3M3b3kxSURjanhXRUYwcDJCZlV2aWl1Vldjdm1XMmFLa1I0eEdkX3dqMm9pTzJkVFFEZnJPa2d1eFlmQ2xyaw?oc=5",
+      "date": "Sat, 03 Oct 2026 17:35:23 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "From Ma Rainey to AI: New Technology Amplifies an Old Fight over Artist Control - The San Diego Voice & Viewpoint",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zcjNITG50QXdfSVdmUzhaNVlIbUZSbW1pSG9hZ1FSaXRIS2taQndXSnBmOFZ4SGtTUWw4WkZPWDVEbE9Lb05jM3ZkaWFmbkZEa3NwLVZEcW96QmxSQ0JDcnp3d3c?oc=5",
+      "date": "Sat, 03 Oct 2026 17:00:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Usher posts golf video ahead of El Paso stop. Will he tee off here? - El Paso Times",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUXhlT2d0VmhiaDBEN3g3LVNlQUhNeHRDd2pJUk1pZUhqRzIxNTBVbzl0RFdOOThuUE1fbllBWm5PNy1fcTZtTEFwM19Qekt0NjQzel9EQXdwYUVYLVVxOUJ6aGEyM3NiLXlkQXFnWnNzTnRtdmVfZm5CajVwajBqSEJ6Q1M2R1BpNFlZb2N1cHFEVHJTdXk3OEVhUGtUd1NpNjc5SkliTl94TWVZZWVDUnBEbGRHaGN5dlAwT1FheHJuQ0hVTGJVUXY5dnY?oc=5",
+      "date": "Sat, 03 Oct 2026 16:23:00 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "Quavo & Offset’s Migos Reunion Is Already An Uphill Battle - HotNewHipHop",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWVZNM2pNUUFtSWhBdWlEYVYyLTlzV2hOQjdpYTNKWUluZi1nQm1DeTlWOWZKTUNxdjBQczk5UnlxMkFSNXJlTWF4OHdXVHk3c3lZc0doem1kLW5DZjZiNmhRVVR1TXVWVHdvbUd2ZkpiZXNkVXBWR1AzQTBmY2ZnZmRGbw?oc=5",
+      "date": "Sat, 03 Oct 2026 15:43:06 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Willina Rodriguez “U Got Me” Blends R&B & Dancehall - Bong Mines Entertainment",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5UdlJ1RDRXd1BrREhhMVFWdXBTRWk2dmZ4N1BQLUpVX2dwYmNhQU8tbHdzQmxKUHhJRlVuRGxDSUJmUzZ6UHhJWlVYX21FLTRINGVRaGRseUlfWXJXQUJtbFk2eWhnTGMzSjY1cjhuMA?oc=5",
+      "date": "Sat, 03 Oct 2026 15:36:12 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "WATCH: Hip-hop, funk and R&B take center stage at Tiny Stacks Re-imagined - WYSO Public Radio",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSzNoTDRkdlh2MFJHVDhoQXJHUUFzNlFWaTh1QTJETDRIYS1TQUVZb3VjRUdqZ3pjLUJYY2llUUxaeFlpSVRjcEJmWldFLVlmQUVPZExFaFBVVjJEQlFBSVQ5RlNqRjFBR196MHdCTDVFcGRPVzZWWk1tOHRmb1hvaHItdHYzWktFbVAtSEFldUY2d21VTnFUc2JyUWhiMTdZa21qdlRuNmk0aFRfSDBTQmNOSS1iMms?oc=5",
+      "date": "Sat, 03 Oct 2026 15:29:00 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "14 Classic Rap Albums Turning 30 Years Old - The Root",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZEpfM19UTGlDRDNDeHdsYm40RDAyMVhWT1RRVGtDWktndl9jek94a3h1OVZRV2l1ZVZHVm0wdHIxblN4eXFtN0hhSVVwX3ltcHd4VVVZUVB6TklHMUJxZ2pkS25lRmZBU0F2aGx2MWY4clo4Q3lCYm9Ya3ZlakJXeGtsbw?oc=5",
+      "date": "Sat, 03 Oct 2026 14:36:09 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Team Dresch Are Queercore Punk Legends — But They Have Just Begun to Fight - Rolling Stone",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQ1NLTmczSDc2RnVoOEx6NzlYajRDNUtMYTMyNkZlVUpQWnB6X0dNa29qb3hZYjVkempETG1BdVUyQWZ3bURuTjVibGk2TFZjYnFTdUt4VEdwSExlekM1VDdZQklEYW14ZWhzRTRpaW1BSmVHeHdqc01icUJEZGtPXzFzbXJCRlJ1MlFic0lWZFNYUVlmd1laM1RpbHEzTHI5Q20zbE5ETQ?oc=5",
+      "date": "Sat, 03 Oct 2026 14:00:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "The record-breaking, genre-melting, career-redefining evolution of Miranda Lambert - NPR",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaFByVnVvVTdhdERwREpPcjl2XzZ4M2MwdGVNRHQtU2xZTUMxX203QUNHaGxlcU1VVENYN3B1dVYzQ3dpRmh5cFdwUWtNYVJ2YXFiOWp4MWY3d0lMR21mLWlwc1pFcFZNc3l6ZjJZZmFoZ0pGY3Z2Qmg0N1lZOFd2NUZQMkZRaWc1czYzX3Z0YWkwYkR5emc?oc=5",
+      "date": "Sat, 03 Oct 2026 11:44:26 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Paerish release new music video for ‘What You Want’ - Distorted Sound Magazine -",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZko5dWJHVGt2a0szWkp6Q3JPV3ctN09zajFHZkFoYklFU1NmVGhydmZoV0xhaGJyUVc1U0d6anFHT3h2bkJwRWYxdXlJemE1dEQ2VkJ3dkdYbjdCY05SbFBaT0dDSzM5Q1AybnFOYXJlWER2enpCRWQzRkR6ZGxUYVYxS3NCU28?oc=5",
+      "date": "Sat, 03 Oct 2026 11:42:02 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Spanish Love Songs release new music video for ‘Doom Tripping’ - Distorted Sound Magazine -",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcVZvMl9oUGtRTVNaUjNUcW5LZERLY1dib0VRQWFfeGZrd3dRb25vbUJTRFJxSldtX0pkUjlacGJRUHFZX2RuUkZIRUtJT19JX29fSGFmZXI0b0dmbENDTmdVYlZsQlducXVhVFJXWUhlLTBsZ3RRSWdoQmRQY3NfOUlGOGE1RGJRckZIMlNLQWNCUFpyV0E?oc=5",
+      "date": "Sat, 03 Oct 2026 10:47:38 GMT",
+      "source": "Google News — New Music"
+    }
+  ],
   "sources": [
     "TMZ",
     "HipHopDX",
@@ -19,89 +620,89 @@
       "source": "TMZ",
       "tier": 2,
       "status": "ok",
-      "stories": 0,
+      "stories": 20,
       "bytes": 18818,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=21c030e727b944c493b862b64cc4ba16 benchma",
-      "latencyMs": 162
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=cc2ed14256d64af986b940aa52c49489 benchma",
+      "latencyMs": 99
     },
     {
       "source": "HipHopDX",
       "tier": 1,
       "status": "ok",
-      "stories": 0,
+      "stories": 16,
       "bytes": 207614,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 136
+      "latencyMs": 177
     },
     {
       "source": "AllHipHop",
       "tier": 1,
       "status": "ok",
-      "stories": 0,
+      "stories": 10,
       "bytes": 82455,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 942
+      "latencyMs": 886
     },
     {
       "source": "No Jumper",
       "tier": 2,
       "status": "ok",
-      "stories": 0,
+      "stories": 498,
       "bytes": 24315725,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 529
+      "latencyMs": 365
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
-      "stories": 0,
-      "bytes": 123450,
+      "stories": 100,
+      "bytes": 123919,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 473
+      "latencyMs": 456
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
-      "stories": 0,
-      "bytes": 131272,
+      "stories": 100,
+      "bytes": 133455,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 423
+      "latencyMs": 422
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
-      "stories": 0,
-      "bytes": 122630,
+      "stories": 100,
+      "bytes": 122686,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 443
+      "latencyMs": 461
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
-      "stories": 0,
-      "bytes": 124423,
+      "stories": 100,
+      "bytes": 125988,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 504
+      "latencyMs": 457
     }
   ],
   "errorCount": 0
