@@ -1,8 +1,12 @@
 const SOURCES = [
-  { name: "TMZ Music", url: "https://www.tmz.com/rss.xml", weight: 1.25 },
-  { name: "HipHopDX", url: "https://hiphopdx.com/rss/news.xml", weight: 1.2 },
-  { name: "AllHipHop", url: "https://allhiphop.com/feed", weight: 1.1 },
-  { name: "No Jumper", url: "https://feeds.megaphone.fm/NJP4856622419", weight: 1.0 }
+  { name: "HipHopDX", url: "https://hiphopdx.com/rss/news.xml", weight: 1.25 },
+  { name: "AllHipHop", url: "https://allhiphop.com/feed", weight: 1.2 },
+  { name: "Billboard", url: "https://www.billboard.com/feed/", weight: 1.15 },
+  { name: "Pitchfork", url: "https://pitchfork.com/feed/feed-news/rss", weight: 1.1 },
+  { name: "Rolling Stone — Music", url: "https://www.rollingstone.com/music/music-news/feed/", weight: 1.1 },
+  { name: "Variety — Music", url: "https://variety.com/v/music/feed/", weight: 1.05 },
+  { name: "TMZ Music", url: "https://www.tmz.com/rss.xml", weight: 1.0 },
+  { name: "No Jumper", url: "https://feeds.megaphone.fm/NJP4856622419", weight: 0.95 }
 ];
 
 const GOOGLE_QUERIES = [
@@ -56,8 +60,13 @@ const extractBlocks = xml => [
 ].filter(Boolean);
 
 async function fetchXmlSource(source) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 8000);
   try {
-    const response = await fetch(source.url, { headers: { "User-Agent": "DistrictMindMedia/1.0" } });
+    const response = await fetch(source.url, {
+      headers: { "User-Agent": "DistrictMindMedia/1.0" },
+      signal: controller.signal
+    });
     if (!response.ok) return [];
     const xml = await response.text();
     const blocks = extractBlocks(xml);
@@ -74,6 +83,8 @@ async function fetchXmlSource(source) {
     }).filter(item => item.title && item.link);
   } catch {
     return [];
+  } finally {
+    clearTimeout(timeout);
   }
 }
 
