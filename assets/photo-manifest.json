@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-04T00:00:00Z",
+  "policy": "Only use artist-matched, rights-cleared/public-domain/Creative-Commons imagery. Never substitute another artist's photo for a named artist or release.",
+  "photos": {
+    "john-michell": {
+      "url": "",
+      "alt": "John Michell — District Mind Records",
+      "credit": "John Michell / District Mind Records — official artist image pending",
+      "license": "owner-supplied only"
+    },
+    "john-michell-drivin-crazy": {
+      "url": "",
+      "alt": "Drivin Crazy by John Michell",
+      "credit": "John Michell / District Mind Records — official release artwork pending",
+      "license": "owner-supplied only"
+    },
+    "john-michell-who-is-you": {
+      "url": "",
+      "alt": "WHO IS YOU by John Michell",
+      "credit": "John Michell / District Mind Records — official release artwork pending",
+      "license": "owner-supplied only"
+    },
+    "john-michell-u": {
+      "url": "",
+      "alt": "U by John Michell",
+      "credit": "John Michell / District Mind Records — official release artwork pending",
+      "license": "owner-supplied only"
+    },
+    "earl-sweatshirt": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Earl_Sweatshirt.pa.amager.bio.jpg",
+      "alt": "Earl Sweatshirt performing",
+      "credit": "414.Elis / Wikimedia Commons — CC BY 4.0",
+      "license": "CC BY 4.0"
+    },
+    "victoria-monet": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Victoria_Mon%C3%A9t_WHTA_2023.png",
+      "alt": "Victoria Monét",
+      "credit": "HOTSPOTATL / Wikimedia Commons — CC BY 3.0",
+      "license": "CC BY 3.0"
+    },
+    "quavo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Quavo_Salute_to_Summer_Concert_2025.jpg",
+      "alt": "Quavo performing",
+      "credit": "Sgt. Elisabeth Tasker / U.S. Army — Public Domain",
+      "license": "Public Domain"
+    },
+    "doja-cat": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Doja_Cat_Scarlet_Tour_Austin_2024_%2853333035306%29.jpg",
+      "alt": "Doja Cat performing",
+      "credit": "Clay Junell / Wikimedia Commons — CC BY-SA 2.0",
+      "license": "CC BY-SA 2.0"
+    },
+    "jpegmafia": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/JPEGMAFIA_%2848548470532%29.jpg",
+      "alt": "JPEGMAFIA performing",
+      "credit": "Levi Manchak / Wikimedia Commons — CC BY 2.0",
+      "license": "CC BY 2.0"
+    }
+  }
+}
