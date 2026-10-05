@@ -1,0 +1,36 @@
+name: District Mind Media — Site Defense
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: district-mind-site-defense-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  defense:
+    name: Site Defense / Integrity
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run automated defense
+        run: node scripts/site-defense.mjs
+
+      - name: Print production target
+        run: |
+          echo "Production target: https://district-mind-media.pages.dev/"
+          echo "Primary branch: main"
