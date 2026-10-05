@@ -1,12 +1,12 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-05T04:11:06.287Z
+Generated: 2026-10-05T04:13:59.854Z
 
 Status: READY_FOR_EDITOR
 
 Stories discovered: 201
 
-1. **Fans Choose Victoria Monét’s ‘Frequency of Love’ as This Week’s Favorite New Music - Billboard** — Google News — New Music — Mon, 05 Oct 2026 02:47:49 GMT
+1. **Fans Choose Victoria Monét’s ‘Frequency of Love’ as This Week’s Favorite New Music - Billboard** — Google News — New Music — Mon, 05 Oct 2026 03:02:47 GMT
    https://news.google.com/rss/articles/CBMirwFBVV95cUxPZURQS3dGRjB3anBJTjZ4SlI4THlRUUVENnhhdUh3NUQydktNam92aGM5WHBnYl9VYUowdURzaFJzV0hJdUI2OTlnaFdBQXFoX1UxT2dMUUs1cHg2cmZlQ09wMzlqNTJxQndpcEhFbmJsbXlhdV9SMnQwUGtucVVpQ2tObklhSGRnSVhYT0g0Y0phR3JkeGY0bmRTNFh2ZGlLMlJaQWxERF8zd3FpOVY0?oc=5
 2. **"The Music of EPCOT" Slightly Delayed Due to Overwhelming Popularity - Laughing Place** — Google News — New Music — Mon, 05 Oct 2026 02:23:51 GMT
    https://news.google.com/rss/articles/CBMihgFBVV95cUxOUXVnVUJmZi0tcTVfbDVhZUN2NmppaEZWVXkxVTh0ODkwLTlwRXFmZjdIMkdmUzJibWdMdFdFc2FpR3dKQUlNRlRqU1Jnb05Td0NiLW5oelBDcnVjeXpTU1VrWUhCM3RIaWlJbWVjVG1vQzg3X2trS2xRbUVJUHZEV2ZhdEhyUQ?oc=5
@@ -54,11 +54,11 @@ Stories discovered: 201
    https://news.google.com/rss/articles/CBMijAFBVV95cUxPSVJtWFVOVnd4S0xTei1fQlFzV3ktMF9EMEhxdDNlM3ZSeDVzT09GUUdtSkpSYi1UYTk1QXVVcXlpV2RMUmVBLTRXVzNCdDVXdGZuTzhHN3lxSXI1NkF0am16RnNtLWNrUTdMYjRZSUVRTHZzUUZIVFlqSXBiM2Etaml3Y09UX1J5V0lvcw?oc=5
 24. **Nas, Mayor Zohran Mamdani Discuss Past, Present And Future Of Hip-Hop In NYC In New Video - RTTNews** — Google News — Hip-Hop — Sun, 04 Oct 2026 15:01:00 GMT
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxQelZUVUxVRjIwakZ4MFQ0V1FPVzl3THBtSTY3ejJ2Z3V2cWZaTWhLOVlMQWl2d1Z5YVl1SmlMeGxnLU5YSFRwUVJaLUZJVjEyQjJkMjZxWGt2Tjc4OTlrLWZ2TTVEemxZTERHUDVvREdiNTdrR0ZaLW5YMnFJZnVrWVZmOVc4ZTI0Zy1HeVB4d2k5V1BJM1NoZUYwSnZham85VHhMWm9QcDJ5ZkxFVXRFdk0wcEtmQUFzdjF6TE1IYWR5Zw?oc=5
-25. **The New Roses release new music video for ‘Saints & Sinners’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 04 Oct 2026 14:58:31 GMT
+25. **The New Roses release new music video for ‘Saints & Sinners’ - distortedsoundmag.com** — Google News — New Music — Sun, 04 Oct 2026 14:58:31 GMT
    https://news.google.com/rss/articles/CBMikAFBVV95cUxQU3ZKUXpWdXBaei1UU3BGTU9LQjF1Y0lyOVdLc0lKQnA1TWJFNGcyR3F6SGZrUFIxM041N19zamZLbjZFa3VDV3pQNzlReXZrck9JSTRVbWtzbl9odGI4ZTJzblgxZ0t3TnNna1BWMGMzbTVQLWtfWkVsWGZlYlZsT2tSVWJaSVdYMXZDWHVyTnQ?oc=5
 26. **10 things to do this week, including Banned Books Week events, a crafting workshop and a new music game - Brookline.News** — Google News — New Music — Sun, 04 Oct 2026 14:11:24 GMT
    https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVllUU211RjBwb20ySV9SYzk4b2ZlV0stQ2N3UTFVd3RTZGJxLWZZZVBQTTVOZjZ2dHZfQ2dIMkQ4cDd2a3c0Z2lBekhyTjZHdFVfWlpkbTBlLS1fSkZKeTRKSzdzQldyaDBOQmxQc0w3b2Jfd0lvYVRaeHVGWWdIdkVaa1MzWmJjUU13YUh6djU1N0dSWEFiR2xqRU53NjNNOW9nS2d1T2xWYy1ubExwVVQxRmJFZHV6ZElXMmFXZTlYMzQ?oc=5
-27. **P.O.D. release new music video for ‘Outbreak’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 04 Oct 2026 12:36:14 GMT
+27. **P.O.D. release new music video for ‘Outbreak’ - distortedsoundmag.com** — Google News — New Music — Sun, 04 Oct 2026 12:36:14 GMT
    https://news.google.com/rss/articles/CBMifkFVX3lxTFBKUkRvcG5wVHRKdVM2NTJROXg1cHlNeGFDbThrVmdHNHoxZ2RjMWhlTkJJUGZUdFF3VTMzeHVUeXNwOFlzdTQyNEQtcWxKbi00OWpaak9KclRzS0Zld3ZYLTExZ1ZJeTZyUWRHN242VWZLdVZ5VFhlUUpJVW9zQQ?oc=5
 28. **Next Week In Music | October 5-11 • 28 New Books (Part 2) - Tinnitist** — Google News — New Music — Sun, 04 Oct 2026 12:20:56 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxNTnphN25DczFPU2QwaWtjYlpuWC1nblpjQ0tPeVA5Sm9fUzZINkhDekpOTGJHd0pTVm9acURLb3hfTGZ4bVhxT1dvRUUzbmtWdXhLWVc2R3FfNkdZWVJRMklPaGxxRy1JOW9wQ2d6ZW1qdkhnQlFsSW9UX0VTaXlZRVlRV19OQURNMlgzcXRn?oc=5
