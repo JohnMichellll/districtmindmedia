@@ -1,15 +1,1 @@
-async function loadReleaseArtwork(){
- const cards=[...document.querySelectorAll('[data-release-artist][data-release-title]')];
- await Promise.all(cards.map(async card=>{
-  try{
-   const q=new URLSearchParams({artist:card.dataset.releaseArtist,title:card.dataset.releaseTitle});
-   const r=await fetch('/api/release-art?'+q.toString(),{cache:'no-store'}); if(!r.ok)return;
-   const d=await r.json(); if(!d?.artwork)return;
-   card.style.setProperty('background-image','linear-gradient(180deg,rgba(17,17,17,.02),rgba(17,17,17,.28)),url("'+d.artwork.replace(/"/g,'')+'")','important');
-   card.classList.add('has-release-art');
-   card.setAttribute('aria-label',card.dataset.releaseTitle+' by '+card.dataset.releaseArtist);
-   const label=card.querySelector('span'); if(label)label.style.opacity='.0';
-  }catch{}
- }));
-}
-loadReleaseArtwork();
+async function loadReleaseArtwork(){const cards=[...document.querySelectorAll('[data-release-artist][data-release-title]')];await Promise.all(cards.map(async card=>{try{const q=new URLSearchParams({artist:card.dataset.releaseArtist,title:card.dataset.releaseTitle});const r=await fetch('/api/release-art?'+q.toString(),{cache:'no-store'});if(!r.ok)return;const d=await r.json();const image=d?.artwork||d?.artistArtwork;if(!image)return;card.style.setProperty('background-image','linear-gradient(180deg,rgba(17,17,17,.02),rgba(17,17,17,.38)),url("'+image.replace(/"/g,'')+'")','important');card.classList.add('has-release-art');card.classList.remove('release-text-card','photo-pending');card.setAttribute('aria-label',card.dataset.releaseTitle+' by '+card.dataset.releaseArtist);const label=card.querySelector('span');if(label)label.style.opacity='.0';}catch{}}));}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',loadReleaseArtwork);else loadReleaseArtwork();
