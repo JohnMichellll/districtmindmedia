@@ -2289,3 +2289,11 @@ footer{border-top:8px solid var(--editorial-red);}
 .wayfinder-inline-button:hover{transform:translateY(-2px);background:#e9e7e1}
 .explore-actions .hero-button[type="button"]{appearance:none;cursor:pointer}
 @media(max-width:760px){.wayfinder-story-grid{grid-template-columns:1fr;gap:25px}.wayfinder-story{padding-left:5%;padding-right:5%}.wayfinder-story h2{font-size:clamp(52px,16vw,86px)}}
+
+
+/* WAYFINDER LAUNCH PAGE */
+.wayfinder-launch-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.16);margin-top:35px}
+.wayfinder-launch-grid article{padding:30px;background:#111;min-height:220px}
+.wayfinder-launch-grid h3{font-size:clamp(24px,3vw,42px);letter-spacing:-.04em;margin:14px 0}
+.wayfinder-launch-grid p{color:rgba(255,255,255,.62);line-height:1.65}
+@media(max-width:760px){.wayfinder-launch-grid{grid-template-columns:1fr}.wayfinder-launch-grid article{min-height:auto}}
