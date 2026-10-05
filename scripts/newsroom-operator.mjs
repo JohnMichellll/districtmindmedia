@@ -22,9 +22,10 @@ for(const s of cfg.sources){
   try{
     const r=await fetch(s.url,{signal:controller.signal,headers:{"user-agent":"DistrictMindMedia-NewsroomOperator/2.0","accept":"application/rss+xml,application/xml,text/xml,*/*"}});
     if(!r.ok) throw new Error("HTTP "+r.status);
-    const stories=parse(await r.text(),s.name);
+    const raw=await r.text();
+    const stories=parse(raw,s.name);
     out.push(...stories);
-    sourceHealth.push({source:s.name,tier:s.tier,status:"ok",stories:stories.length,latencyMs:Date.now()-started});
+    sourceHealth.push({source:s.name,tier:s.tier,status:"ok",stories:stories.length,bytes:raw.length,hasItemTag:/<item\\b/i.test(raw),hasEntryTag:/<entry\\b/i.test(raw),latencyMs:Date.now()-started});
   }catch(e){
     sourceHealth.push({source:s.name,tier:s.tier,status:"error",stories:0,latencyMs:Date.now()-started,error:String(e?.name==="AbortError"?"TIMEOUT":e?.message||e)});
     console.log("SOURCE_ERROR",s.name,e?.message||e);
