@@ -2059,3 +2059,8 @@ footer{border-top:8px solid var(--editorial-red);}
 .artist-search-copy li{display:flex;justify-content:space-between;gap:18px;border-bottom:1px solid rgba(17,17,17,.08);padding:8px 0;font-size:13px}
 .artist-search-copy li span{color:#777;text-align:right}
 @media(max-width:700px){.artist-search-form{flex-direction:column}.artist-search-card{grid-template-columns:1fr}.artist-search-card>img,.artist-search-placeholder{width:100%;max-width:280px}.artist-search-copy li{display:block}.artist-search-copy li span{display:block;text-align:left;margin-top:2px}}
+
+.artist-news-block{border:1px solid rgba(17,17,17,.1);padding:22px;margin-bottom:26px;background:rgba(255,255,255,.25)}
+.artist-news-block ul{list-style:none;display:grid;gap:10px}
+.artist-news-block li{display:flex;justify-content:space-between;gap:18px;border-bottom:1px solid rgba(17,17,17,.08);padding:9px 0;font-size:13px}
+.artist-news-block li span{color:#777;white-space:nowrap}
