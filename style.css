@@ -1796,7 +1796,7 @@ footer {
 .release-image .photo-credit,.editorial-image .photo-credit{margin:0!important;max-width:90%;}
 
 /* GLOBAL STOCK-IMAGE KILL SWITCH — real artist photography only */
-.hero-media{background-image:linear-gradient(90deg,rgba(17,17,17,.97) 0%,rgba(17,17,17,.72) 55%,rgba(17,17,17,.42) 100%),url('https://upload.wikimedia.org/wikipedia/commons/c/c2/Doja_Cat_Scarlet_Tour_Austin_2024_%2853333035306%29.jpg')!important;background-size:cover;background-position:center 35%;}
+.hero-media{background-image:linear-gradient(90deg,rgba(17,17,17,.96) 0%,rgba(17,17,17,.72) 48%,rgba(17,17,17,.28) 100%),url('https://upload.wikimedia.org/wikipedia/commons/2/2d/Earl_Sweatshirt.pa.amager.bio.jpg')!important;background-size:cover;background-position:center 32%;}
 .photo-1{background-image:linear-gradient(180deg,rgba(17,17,17,.1),rgba(17,17,17,.55)),url('https://upload.wikimedia.org/wikipedia/commons/1/10/Victoria_Mon%C3%A9t_WHTA_2023.png')!important;}
 .photo-2{background-image:linear-gradient(180deg,rgba(17,17,17,.1),rgba(17,17,17,.55)),url('https://upload.wikimedia.org/wikipedia/commons/b/b0/Quavo_Salute_to_Summer_Concert_2025.jpg')!important;}
 .photo-3{background-image:linear-gradient(180deg,rgba(17,17,17,.1),rgba(17,17,17,.55)),url('https://upload.wikimedia.org/wikipedia/commons/c/c2/Doja_Cat_Scarlet_Tour_Austin_2024_%2853333035306%29.jpg')!important;}
@@ -1820,3 +1820,109 @@ footer {
 .photo-pending::after{content:attr(data-photo-sub);position:absolute;left:25px;bottom:22px;color:rgba(255,255,255,.68);font-size:9px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;z-index:2}
 .artist-photo-card{min-height:300px;padding:34px;display:flex;flex-direction:column;justify-content:flex-end;background-size:cover;background-position:center}
 .hero:not(.hero-media){background-image:linear-gradient(120deg,rgba(17,17,17,.98),rgba(17,17,17,.82)),radial-gradient(circle at top right,rgba(255,255,255,.1),transparent 30%),#111!important}
+
+
+/* DISTRICT MIND — BOLD EDITORIAL REDESIGN
+   Inspired by modern music-magazine hierarchy: oversized type, strong photography,
+   modular story cards, hard rules and generous editorial spacing. */
+:root{
+  --editorial-red:#d51f2f;
+  --editorial-black:#0b0b0b;
+  --editorial-paper:#f5f2ec;
+}
+body{background:var(--editorial-paper);}
+.site-header{background:rgba(245,242,236,.94);border-bottom:2px solid #0b0b0b;}
+.nav-container{min-height:70px;}
+.logo{font-size:16px;letter-spacing:.13em;}
+.logo::before{width:10px;height:10px;background:var(--editorial-red);}
+.primary-nav{gap:22px;}
+.primary-nav a{font-size:10px;letter-spacing:.16em;}
+
+.hero-media{
+  min-height:82vh;
+  padding:120px 4% 72px;
+  border-bottom:8px solid var(--editorial-red);
+}
+.hero-media::after{
+  content:"DISTRICT MIND MEDIA";
+  position:absolute;
+  right:4%;
+  top:50%;
+  transform:translateY(-50%) rotate(90deg);
+  transform-origin:center;
+  color:rgba(255,255,255,.18);
+  font-size:clamp(34px,5vw,74px);
+  font-weight:900;
+  letter-spacing:.08em;
+  white-space:nowrap;
+}
+.hero-media .hero-content{max-width:1200px;}
+.hero-media .eyebrow{color:#fff;opacity:.82;}
+.hero-media h1{font-size:clamp(68px,10vw,156px);max-width:1050px;text-shadow:0 8px 35px rgba(0,0,0,.22);}
+.hero-media .hero-text{font-size:19px;max-width:560px;}
+.hero-button{border-radius:0;}
+.hero-button.secondary{border-color:rgba(255,255,255,.5);}
+
+.section{padding:96px 0;}
+.section-heading{border-bottom:2px solid #0b0b0b;padding-bottom:18px;margin-bottom:34px;}
+.section-heading .eyebrow{color:var(--editorial-red);margin-bottom:10px;}
+.section-heading h2{font-size:clamp(46px,6vw,88px);}
+
+.featured-card{border:0;border-top:2px solid #0b0b0b;border-bottom:2px solid #0b0b0b;box-shadow:none;background:transparent;}
+.featured-photo{min-height:570px;}
+.card-content{padding:54px 50px;background:#ebe7df;}
+.card-content h3{font-size:clamp(36px,4.4vw,64px);}
+.card-content .category{color:var(--editorial-red);}
+
+.release-grid{gap:26px;}
+.release-card{border-top:2px solid #0b0b0b;padding-top:14px;}
+.release-image{border-radius:0;aspect-ratio:4/5;min-height:0!important;}
+.release-card h3{font-size:clamp(26px,2.5vw,38px);}
+.release-card > p:last-child{font-size:15px;line-height:1.65;}
+
+.editorial-grid{gap:0;border-top:2px solid #0b0b0b;}
+.editorial-card{border:0;border-right:1px solid rgba(11,11,11,.18);border-bottom:1px solid rgba(11,11,11,.18);border-radius:0;box-shadow:none;}
+.editorial-card:last-child{border-right:0;}
+.editorial-card:hover{transform:none;box-shadow:none;}
+.live-photo{min-height:390px!important;border-radius:0;}
+.editorial-copy{padding:26px 24px 30px;}
+.editorial-copy .category{color:var(--editorial-red);}
+
+.live-news-section{background:#0b0b0b;color:#f5f2ec;width:100%;max-width:none;padding-left:max(4%,calc((100% - 1200px)/2));padding-right:max(4%,calc((100% - 1200px)/2));}
+.live-news-section .section-heading{border-color:rgba(255,255,255,.24);}
+.live-news-section .section-heading .eyebrow{color:#ff4352;}
+.live-news-section .live-news-toolbar{border-color:rgba(255,255,255,.18);}
+.live-news-section .live-news-toolbar p{color:rgba(255,255,255,.64);}
+.live-news-section .live-news-toolbar button{border-color:rgba(255,255,255,.3);color:#fff;}
+.live-news-section .live-news-toolbar button:hover{background:#fff;color:#0b0b0b;}
+.live-news-section .news-item{border-color:#fff;}
+.live-news-section .news-item-meta{color:rgba(255,255,255,.58);}
+.live-news-section .news-item-meta span{color:#fff;}
+.live-news-section .news-item p{color:rgba(255,255,255,.68);}
+.live-news-section .news-item h3 a:hover{color:#ff4352;}
+.live-news-section .inline-link{color:#fff;}
+
+.dark-section{border-top:8px solid var(--editorial-red);}
+.artist-feature{padding-top:34px;}
+.artist-feature h3{font-size:clamp(48px,7vw,96px);}
+
+.culture-grid{gap:0;border-top:2px solid #0b0b0b;}
+.culture-card{border-radius:0;border:0;border-right:1px solid rgba(11,11,11,.2);box-shadow:none;min-height:390px;}
+.culture-card:last-child{border-right:0;}
+
+.newsletter{padding-bottom:96px;}
+.newsletter-inner{border-radius:0;border-top:8px solid var(--editorial-red);}
+
+footer{border-top:8px solid var(--editorial-red);}
+
+@media(max-width:760px){
+  .hero-media{min-height:72vh;padding:100px 5% 55px;}
+  .hero-media::after{display:none;}
+  .hero-media h1{font-size:clamp(54px,16vw,92px);}
+  .featured-photo{min-height:360px;}
+  .card-content{padding:38px 24px;}
+  .editorial-grid{border-top:2px solid #0b0b0b;}
+  .editorial-card{border-right:0;}
+  .live-photo{min-height:300px!important;}
+  .culture-card{border-right:0;border-bottom:1px solid rgba(11,11,11,.2);}
+}
