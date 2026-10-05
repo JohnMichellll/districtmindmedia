@@ -2,6 +2,7 @@ import fs from "node:fs";
 
 const cfg=JSON.parse(fs.readFileSync("newsroom-config.json","utf8"));
 const out=[];
+const sourceHealth=[];
 const clean=s=>String(s||"").replace(/<[^>]+>/g," ").replace(/&amp;/g,"&").replace(/\s+/g," ").trim();
 const parse=(xml,source)=>{
   const items=[...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)];
@@ -14,11 +15,19 @@ const parse=(xml,source)=>{
 const noise=t=>cfg.noise.some(n=>t.toLowerCase().includes(n));
 
 for(const s of cfg.sources){
+  const started=Date.now();
+  const controller=new AbortController();
+  const timer=setTimeout(()=>controller.abort(),cfg.runtime.sourceTimeoutMs);
   try{
-    const r=await fetch(s.url,{headers:{"user-agent":"DistrictMindMedia-NewsroomOperator/1.0"}});
+    const r=await fetch(s.url,{signal:controller.signal,headers:{"user-agent":"DistrictMindMedia-NewsroomOperator/2.0","accept":"application/rss+xml,application/xml,text/xml,*/*"}});
     if(!r.ok) throw new Error("HTTP "+r.status);
-    out.push(...parse(await r.text(),s.name));
-  }catch(e){ console.log("SOURCE_OFFLINE",s.name,e.message); }
+    const stories=parse(await r.text(),s.name);
+    out.push(...stories);
+    sourceHealth.push({source:s.name,tier:s.tier,status:"ok",stories:stories.length,latencyMs:Date.now()-started});
+  }catch(e){
+    sourceHealth.push({source:s.name,tier:s.tier,status:"error",stories:0,latencyMs:Date.now()-started,error:String(e?.name==="AbortError"?"TIMEOUT":e?.message||e)});
+    console.log("SOURCE_ERROR",s.name,e?.message||e);
+  }finally{clearTimeout(timer);}
 }
 
 const seen=new Set();
@@ -31,17 +40,33 @@ const stories=out
  })
  .sort((a,b)=>new Date(b.date||0)-new Date(a.date||0));
 
+const errors=sourceHealth.filter(x=>x.status==="error");
 const report={
  generatedAt:new Date().toISOString(),
  operator:"District Mind AI Newsroom",
- status:stories.length?"READY_FOR_EDITOR":"NO_STORIES_AVAILABLE",
+ status:stories.length?"READY_FOR_EDITOR":(errors.length?"DEGRADED":"NO_STORIES_AVAILABLE"),
  storyCount:stories.length,
  stories:stories.slice(0,100),
- sources:cfg.sources.map(s=>s.name)
+ sources:cfg.sources.map(s=>s.name),
+ sourceHealth,
+ errorCount:errors.length
 };
 
 fs.mkdirSync("reports",{recursive:true});
 fs.writeFileSync("reports/newsroom-latest.json",JSON.stringify(report,null,2));
+fs.writeFileSync("reports/newsroom-health.json",JSON.stringify({
+ generatedAt:report.generatedAt,status:report.status,storyCount:report.storyCount,
+ sourceCount:sourceHealth.length,healthySources:sourceHealth.filter(x=>x.status==="ok").length,
+ failedSources:errors.length,sourceHealth
+},null,2));
+if(errors.length){
+ const ledgerPath="reports/error-ledger.json";
+ let ledger={version:1,updatedAt:report.generatedAt,errors:[]};
+ if(fs.existsSync(ledgerPath)){try{ledger=JSON.parse(fs.readFileSync(ledgerPath,"utf8"));}catch{}}
+ ledger.errors=[...ledger.errors,...errors.map(e=>({...e,workflow:"newsroom-operator"}))].slice(-500);
+ ledger.updatedAt=report.generatedAt;
+ fs.writeFileSync(ledgerPath,JSON.stringify(ledger,null,2));
+}
 fs.writeFileSync(
  "reports/newsroom-latest.md",
  "# District Mind Newsroom Report\n\nGenerated: "+report.generatedAt+
