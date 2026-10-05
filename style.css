@@ -1926,3 +1926,58 @@ footer{border-top:8px solid var(--editorial-red);}
   .live-photo{min-height:300px!important;}
   .culture-card{border-right:0;border-bottom:1px solid rgba(11,11,11,.2);}
 }
+
+/* IDENTITY-SAFE PHOTO SYSTEM — 2026-10-04
+   Generic numbered photo classes are intentionally neutral.
+   Artist faces must come from [data-photo-key] + photo-manifest.json. */
+.photo-1,.photo-2,.photo-3,
+.release-thumb.one,.release-thumb.two,.release-thumb.three,
+.story-image.one,.story-image.two,.story-image.three,
+.editorial-visual.one,.editorial-visual.two,.editorial-visual.three,
+.category-visual.one,.category-visual.two,.category-visual.three,.category-visual.four{
+  background-image:none!important;
+  background-color:#171717!important;
+}
+.artist-photo-key{
+  min-height:360px;
+  background-color:#171717!important;
+  background-size:cover!important;
+  background-position:center!important;
+}
+.artist-photo-key.photo-pending{
+  background-image:linear-gradient(135deg,#111,#292929)!important;
+}
+.artist-roster{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:28px;
+}
+.artist-roster .artist-card{
+  border:0;
+  border-top:2px solid #0b0b0b;
+  border-radius:0;
+  overflow:hidden;
+}
+.artist-roster .artist-card-content{
+  padding:28px 24px 34px;
+}
+.artist-roster .artist-card-content h3{
+  font-size:clamp(28px,3vw,44px);
+}
+.label-feature{
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:40px;
+  padding:38px 0;
+  border-top:2px solid #0b0b0b;
+}
+.label-feature h3{
+  font-size:clamp(48px,7vw,96px);
+  margin:0 0 18px;
+}
+@media(max-width:760px){
+  .artist-roster{grid-template-columns:1fr;}
+  .artist-photo-key{min-height:300px;}
+  .label-feature{display:block;}
+  .label-feature .hero-button{display:inline-block;margin-top:20px;}
+}
