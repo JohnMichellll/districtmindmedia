@@ -5,11 +5,12 @@ const out=[];
 const sourceHealth=[];
 const clean=s=>String(s||"").replace(/<[^>]+>/g," ").replace(/&amp;/g,"&").replace(/\s+/g," ").trim();
 const parse=(xml,source)=>{
-  const items=[...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)];
-  return items.map(m=>{
-    const b=m[1];
-    const get=k=>(b.match(new RegExp("<"+k+"(?: [^>]*)?>([\s\S]*?)</"+k+">","i"))||[])[1]||"";
-    return {title:clean(get("title")),url:clean(get("link")),date:clean(get("pubDate")),source};
+  const blocks=[...xml.matchAll(/<(item|entry)\\b[^>]*>([\\s\\S]*?)<\\/\\1>/gi)].map(m=>m[2]);
+  return blocks.map(b=>{
+    const get=k=>(b.match(new RegExp("<"+k+"(?:\\\\s[^>]*)?>([\\s\\S]*?)</"+k+">","i"))||[])[1]||"";
+    const linkTag=get("link");
+    const href=(linkTag.match(/href=["']([^"']+)["']/i)||[])[1]||linkTag;
+    return {title:clean(get("title")),url:clean(href),date:clean(get("pubDate")||get("published")||get("updated")),source};
   }).filter(x=>x.title&&x.url);
 };
 const noise=t=>cfg.noise.some(n=>t.toLowerCase().includes(n));
