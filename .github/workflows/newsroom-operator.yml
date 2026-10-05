@@ -1,6 +1,11 @@
 name: District Mind — AI Newsroom Operator
 
 on:
+  push:
+    paths:
+      - "newsroom-config.json"
+      - "scripts/newsroom-operator.mjs"
+      - ".github/workflows/newsroom-operator.yml"
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
