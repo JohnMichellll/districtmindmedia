@@ -35,4 +35,4 @@ jobs:
           git add reports/newsroom-latest.json reports/newsroom-latest.md reports/newsroom-health.json reports/error-ledger.json
           git diff --cached --quiet || git commit -m "chore(newsroom): refresh intelligence report"
           git pull --rebase origin main
-git push
+          git push
