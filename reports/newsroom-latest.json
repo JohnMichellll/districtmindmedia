@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T02:45:39.774Z",
+  "generatedAt": "2026-10-05T02:46:53.470Z",
   "operator": "District Mind AI Newsroom",
   "status": "NO_STORIES_AVAILABLE",
   "storyCount": 0,
@@ -20,56 +20,56 @@
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 295
+      "latencyMs": 148
     },
     {
       "source": "HipHopDX",
       "tier": 1,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 249
+      "latencyMs": 128
     },
     {
       "source": "AllHipHop",
       "tier": 1,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 642
+      "latencyMs": 760
     },
     {
       "source": "No Jumper",
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 695
+      "latencyMs": 760
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 571
+      "latencyMs": 393
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 480
+      "latencyMs": 514
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 454
+      "latencyMs": 373
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 470
+      "latencyMs": 488
     }
   ],
   "errorCount": 0
