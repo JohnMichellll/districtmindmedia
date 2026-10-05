@@ -3,6 +3,7 @@
     {title:'Wayfinder', href:'wayfinder.html', type:'WAYFINDER', tags:'navigation search find artist article hometown local state discovery guide concerts shows tickets events'} ,
     {title:'Newsroom', href:'newsroom.html', type:'NEWS', tags:'news headlines live desk current reporting scoop sources'},
     {title:'Artist Intelligence Hub', href:'artists.html', type:'ARTISTS', tags:'artist singer rapper band biography catalog music search artist profile'},
+    {title:'Artist Registry', href:'artist-registry.html', type:'REGISTRY', tags:'artist independent diy distrokit catalog archive inactive profile submit discover music creator'},
     {title:'Releases', href:'releases.html', type:'MUSIC', tags:'new music albums singles release calendar songs listen'},
     {title:'Colorado Music & Culture', href:'colorado.html', type:'COLORADO', tags:'denver colorado concerts venues shows local music'},
     {title:'Concerts Near You', href:'wayfinder.html?find=concerts', type:'LIVE', tags:'concerts shows live music events tickets venue tour'},
@@ -43,7 +44,7 @@
             <button type="submit">Find It →</button>
           </form>
           <div class="dm-guide-quick">
-            <button type="button" data-q="artist">Find an artist</button>
+            <button type="button" data-q="artist">Find an artist</button><button type="button" data-q="artist registry">Artist Registry</button>
             <button type="button" data-q="article">Find an article</button>
             <button type="button" data-q="new music">Find new music</button>
             <button type="button" data-q="concerts">Concerts near you</button>
