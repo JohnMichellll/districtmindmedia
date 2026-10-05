@@ -42,6 +42,8 @@ for(const s of cfg.sources){
 const seen=new Set();
 const stories=out
  .filter(x=>x.title.length>=cfg.qualityGates.minimumTitleLength&&!noise(x.title))
+ .filter(x=>!cfg.qualityGates.requireSourceDate||Boolean(x.date))
+ .filter(x=>!cfg.qualityGates.requireSourceUrl||Boolean(x.url))
  .filter(x=>{
    const k=x.title.toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
    if(seen.has(k)) return false;
@@ -55,7 +57,7 @@ const report={
  operator:"District Mind AI Newsroom",
  status:stories.length?"READY_FOR_EDITOR":(errors.length?"DEGRADED":"NO_STORIES_AVAILABLE"),
  storyCount:stories.length,
- stories:stories.slice(0,100),
+ stories:stories.slice(0,cfg.runtime.maxStories),
  sources:cfg.sources.map(s=>s.name),
  sourceHealth,
  errorCount:errors.length
@@ -80,6 +82,6 @@ fs.writeFileSync(
  "reports/newsroom-latest.md",
  "# District Mind Newsroom Report\n\nGenerated: "+report.generatedAt+
  "\n\nStatus: "+report.status+"\n\nStories discovered: "+report.storyCount+
- "\n\n"+stories.slice(0,30).map((s,i)=>`${i+1}. **${s.title}** — ${s.source} — ${s.date||"undated"}\n   ${s.url}`).join("\n")
+ "\n\n"+stories.slice(0,cfg.runtime.maxReportStories).map((s,i)=>`${i+1}. **${s.title}** — ${s.source} — ${s.date||"undated"}\n   ${s.url}`).join("\n")
 );
 console.log(JSON.stringify({status:report.status,storyCount:report.storyCount}));
