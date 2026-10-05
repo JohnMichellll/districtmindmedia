@@ -3,6 +3,16 @@ name: District Mind Media — Site Defense
 on:
   push:
     branches: [main]
+    paths:
+      - "*.html"
+      - "**/*.html"
+      - "style.css"
+      - "functions/**"
+      - "photo-loader.js"
+      - "release-artwork-loader.js"
+      - "assets/**"
+      - "scripts/site-defense.mjs"
+      - ".github/workflows/site-defense.yml"
   pull_request:
     branches: [main]
   workflow_dispatch:
