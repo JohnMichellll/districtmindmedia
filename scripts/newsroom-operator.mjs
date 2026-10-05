@@ -69,6 +69,7 @@ const stories=out
  .sort((a,b)=>new Date(b.date||0)-new Date(a.date||0));
 
 const errors=sourceHealth.filter(x=>x.status==="error");
+const acceptedBySource=Object.fromEntries(sourceHealth.map(x=>[x.source,out.filter(st=>st.source===x.source).length]));
 const report={
  generatedAt:new Date().toISOString(),
  operator:"District Mind AI Newsroom",
@@ -77,7 +78,8 @@ const report={
  stories:stories.slice(0,cfg.runtime.maxStories),
  sources:cfg.sources.map(s=>s.name),
  sourceHealth,
- errorCount:errors.length
+ errorCount:errors.length,
+acceptedBySource
 };
 
 fs.mkdirSync("reports",{recursive:true});
@@ -85,16 +87,20 @@ fs.writeFileSync("reports/newsroom-latest.json",JSON.stringify(report,null,2));
 fs.writeFileSync("reports/newsroom-health.json",JSON.stringify({
  generatedAt:report.generatedAt,status:report.status,storyCount:report.storyCount,
  sourceCount:sourceHealth.length,healthySources:sourceHealth.filter(x=>x.status==="ok").length,
- failedSources:errors.length,sourceHealth
+ failedSources:errors.length,acceptedStories:out.length,acceptedBySource,sourceHealth
 },null,2));
-if(errors.length){
- const ledgerPath="reports/error-ledger.json";
- let ledger={version:1,updatedAt:report.generatedAt,errors:[]};
- if(fs.existsSync(ledgerPath)){try{ledger=JSON.parse(fs.readFileSync(ledgerPath,"utf8"));}catch{}}
- ledger.errors=[...ledger.errors,...errors.map(e=>({...e,workflow:"newsroom-operator"}))].slice(-500);
- ledger.updatedAt=report.generatedAt;
- fs.writeFileSync(ledgerPath,JSON.stringify(ledger,null,2));
-}
+const ledgerPath="reports/error-ledger.json";
+let ledger={version:1,updatedAt:report.generatedAt,errors:[],resolved:[]};
+if(fs.existsSync(ledgerPath)){try{ledger={...ledger,...JSON.parse(fs.readFileSync(ledgerPath,"utf8"))};}catch{}}
+const activeKeys=new Set(errors.map(e=>e.source+"|"+e.error));
+const previous=Array.isArray(ledger.errors)?ledger.errors:[];
+const resolvedNow=previous.filter(e=>e.workflow==="newsroom-operator"&&!activeKeys.has(e.source+"|"+e.error)).map(e=>({...e,resolvedAt:report.generatedAt,status:"resolved"}));
+ledger.resolved=[...(Array.isArray(ledger.resolved)?ledger.resolved:[]),...resolvedNow].slice(-500);
+ledger.errors=errors.length
+ ? [...previous.filter(e=>activeKeys.has(e.source+"|"+e.error)),...errors.map(e=>({...e,workflow:"newsroom-operator"}))].slice(-500)
+ : [];
+ledger.updatedAt=report.generatedAt;
+fs.writeFileSync(ledgerPath,JSON.stringify(ledger,null,2));
 fs.writeFileSync(
  "reports/newsroom-latest.md",
  "# District Mind Newsroom Report\n\nGenerated: "+report.generatedAt+
