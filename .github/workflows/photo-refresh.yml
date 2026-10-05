@@ -8,9 +8,15 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: district-mind-photo-refresh
+  cancel-in-progress: false
+
 jobs:
   refresh-photos:
     runs-on: ubuntu-latest
+    env:
+      XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,22 +30,32 @@ jobs:
         run: node scripts/photo-refresh.mjs
 
       - name: Optional Grok photo/editor pass
-        if: ${{ secrets.XAI_API_KEY != '' }}
-        env:
-          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-        run: node scripts/grok-photo-pass.mjs
+        shell: bash
+        run: |
+          if [ -n "$XAI_API_KEY" ]; then
+            node scripts/grok-photo-pass.mjs
+          else
+            echo "XAI_API_KEY not configured — skipping Grok photo pass."
+          fi
 
       - name: Run newsroom QA review
-        if: ${{ secrets.XAI_API_KEY != '' }}
-        env:
-          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-        run: node scripts/grok-site-qa.mjs
+        shell: bash
+        run: |
+          if [ -n "$XAI_API_KEY" ]; then
+            node scripts/grok-site-qa.mjs
+          else
+            echo "XAI_API_KEY not configured — skipping Grok QA review."
+          fi
 
-      - name: Commit changed manifest
+      - name: Commit changed photo/QA files
+        shell: bash
         run: |
           git config user.name "District Mind Photo Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/photo-manifest.json reports/grok-site-qa.md
+          git add assets/photo-manifest.json
+          if [ -f reports/grok-site-qa.md ]; then
+            git add reports/grok-site-qa.md
+          fi
           git diff --cached --quiet && exit 0
-          git commit -m "chore: refresh artist photography"
+          git commit -m "chore: refresh artist photography and newsroom QA"
           git push
