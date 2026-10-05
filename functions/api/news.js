@@ -50,13 +50,17 @@ function score(item, weight = 1) {
   return weight + priority.reduce((n, word) => n + (text.includes(word) ? 1 : 0), 0);
 }
 
+const extractBlocks = xml => [
+  ...xml.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/gi),
+  ...xml.matchAll(/<entry\b[^>]*>([\s\S]*?)<\/entry>/gi)
+].map(m => m[1]);
+
 async function fetchXmlSource(source) {
   try {
     const response = await fetch(source.url, { headers: { "User-Agent": "DistrictMindMedia/1.0" } });
     if (!response.ok) return [];
     const xml = await response.text();
-    const blocks = [...xml.matchAll(/<(item|entry)\b[^>]*>([\s\S]*?)<\/\\1>/gi)].map(m => m[0]);
-    return blocks.slice(0,25).map(block => {
+        return blocks.slice(0,25).map(block => {
       const item = {
         title: tag(block,"title"),
         link: tag(block,"link") || attr(block,"link","href"),
@@ -79,8 +83,7 @@ async function fetchGoogle() {
       const response = await fetch(url, { headers: { "User-Agent": "DistrictMindMedia/1.0" } });
       if (!response.ok) return [];
       const xml = await response.text();
-      const blocks = [...xml.matchAll(/<(item|entry)\b[^>]*>([\s\S]*?)<\/\\1>/gi)].map(m => m[0]);
-      return blocks.map(block => {
+            return blocks.map(block => {
         const item = {
           title: tag(block,"title"),
           link: tag(block,"link"),
