@@ -27,7 +27,7 @@ function clean(value = "") {
 
 function tag(block, name) {
   const safe = name.replace(/[:]/g, "\\:");
-  const match = block.match(new RegExp("<" + safe + "(?:\s[^>]*)?>([\s\S]*?)</" + safe + ">", "i"));
+  const match = block.match(new RegExp("<" + safe + "(?:\\s[^>]*)?>([\\s\\S]*?)</" + safe + ">", "i"));
   return match ? clean(match[1]) : "";
 }
 
