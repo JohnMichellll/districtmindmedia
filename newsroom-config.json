@@ -108,6 +108,7 @@
   "runtime": {
     "sourceTimeoutMs": 8000,
     "maxStories": 100,
+    "maxStoriesPerSource": 40,
     "maxReportStories": 30
   }
 }
