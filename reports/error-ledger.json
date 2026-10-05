@@ -1,78 +1,87 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-05T04:10:35.020Z",
-  "errors": [
+  "updatedAt": "2026-10-05T04:16:43.489Z",
+  "errors": [],
+  "resolved": [
     {
       "source": "TMZ",
       "tier": 2,
-      "status": "error",
+      "status": "resolved",
       "stories": 0,
       "latencyMs": 196,
       "error": "Cannot access 'stories' before initialization",
-      "workflow": "newsroom-operator"
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-05T04:16:43.489Z"
     },
     {
       "source": "HipHopDX",
       "tier": 1,
-      "status": "error",
+      "status": "resolved",
       "stories": 0,
       "latencyMs": 189,
       "error": "Cannot access 'stories' before initialization",
-      "workflow": "newsroom-operator"
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-05T04:16:43.489Z"
     },
     {
       "source": "AllHipHop",
       "tier": 1,
-      "status": "error",
+      "status": "resolved",
       "stories": 0,
       "latencyMs": 593,
       "error": "Cannot access 'stories' before initialization",
-      "workflow": "newsroom-operator"
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-05T04:16:43.489Z"
     },
     {
       "source": "No Jumper",
       "tier": 2,
-      "status": "error",
+      "status": "resolved",
       "stories": 0,
       "latencyMs": 993,
       "error": "Cannot access 'stories' before initialization",
-      "workflow": "newsroom-operator"
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-05T04:16:43.489Z"
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
-      "status": "error",
+      "status": "resolved",
       "stories": 0,
       "latencyMs": 513,
       "error": "Cannot access 'stories' before initialization",
-      "workflow": "newsroom-operator"
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-05T04:16:43.489Z"
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
-      "status": "error",
+      "status": "resolved",
       "stories": 0,
       "latencyMs": 420,
       "error": "Cannot access 'stories' before initialization",
-      "workflow": "newsroom-operator"
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-05T04:16:43.489Z"
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
-      "status": "error",
+      "status": "resolved",
       "stories": 0,
       "latencyMs": 464,
       "error": "Cannot access 'stories' before initialization",
-      "workflow": "newsroom-operator"
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-05T04:16:43.489Z"
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
-      "status": "error",
+      "status": "resolved",
       "stories": 0,
       "latencyMs": 504,
       "error": "Cannot access 'stories' before initialization",
-      "workflow": "newsroom-operator"
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-05T04:16:43.489Z"
     }
   ]
 }
