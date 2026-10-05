@@ -7,6 +7,17 @@ export async function onRequestGet({ request }) {
     const r = await fetch(api);
     if (!r.ok) throw new Error("catalog");
     const data = await r.json();
+    let news = [];
+    try {
+      const nr = await fetch("https://news.google.com/rss/search?q=" + encodeURIComponent('"' + q + '" music') + "&hl=en-US&gl=US&ceid=US:en");
+      if (nr.ok) {
+        const xml = await nr.text();
+        news = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].slice(0,8).map(m => {
+          const block=m[1], pick=k => (block.match(new RegExp("<"+k+">([\\s\\S]*?)<\/"+k+">"))||[])[1] || "";
+          return { title: pick("title").replace(/<!\[CDATA\[|\]\]>/g,""), link: pick("link"), pubDate: pick("pubDate") };
+        }).filter(x=>x.title);
+      }
+    } catch {}
     const rows = Array.isArray(data.results) ? data.results : [];
     const artists = [];
     const seen = new Set();
@@ -30,7 +41,7 @@ export async function onRequestGet({ request }) {
         songs
       });
     }
-    return Response.json({ ok: true, query: q, source: "Apple/iTunes Search API", generatedAt: new Date().toISOString(), artists }, { headers: { "Cache-Control": "public, max-age=300, s-maxage=300" } });
+    return Response.json({ ok: true, query: q, source: "Apple/iTunes Search API + Google News", generatedAt: new Date().toISOString(), artists, news }, { headers: { "Cache-Control": "public, max-age=300, s-maxage=300" } });
   } catch {
     return Response.json({ ok: false, error: "Artist search is temporarily unavailable." }, { status: 502 });
   }
