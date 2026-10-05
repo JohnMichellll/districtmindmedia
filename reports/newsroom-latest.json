@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T02:18:02.160Z",
+  "generatedAt": "2026-10-05T02:23:59.267Z",
   "operator": "District Mind AI Newsroom",
   "status": "NO_STORIES_AVAILABLE",
   "storyCount": 0,
@@ -8,6 +8,69 @@
     "TMZ",
     "HipHopDX",
     "AllHipHop",
-    "No Jumper"
-  ]
+    "No Jumper",
+    "Google News — Hip-Hop",
+    "Google News — R&B",
+    "Google News — New Music",
+    "Google News — Colorado Music"
+  ],
+  "sourceHealth": [
+    {
+      "source": "TMZ",
+      "tier": 2,
+      "status": "ok",
+      "stories": 0,
+      "latencyMs": 176
+    },
+    {
+      "source": "HipHopDX",
+      "tier": 1,
+      "status": "ok",
+      "stories": 0,
+      "latencyMs": 246
+    },
+    {
+      "source": "AllHipHop",
+      "tier": 1,
+      "status": "ok",
+      "stories": 0,
+      "latencyMs": 622
+    },
+    {
+      "source": "No Jumper",
+      "tier": 2,
+      "status": "ok",
+      "stories": 0,
+      "latencyMs": 629
+    },
+    {
+      "source": "Google News — Hip-Hop",
+      "tier": 2,
+      "status": "ok",
+      "stories": 0,
+      "latencyMs": 508
+    },
+    {
+      "source": "Google News — R&B",
+      "tier": 2,
+      "status": "ok",
+      "stories": 0,
+      "latencyMs": 1231
+    },
+    {
+      "source": "Google News — New Music",
+      "tier": 2,
+      "status": "ok",
+      "stories": 0,
+      "latencyMs": 469
+    },
+    {
+      "source": "Google News — Colorado Music",
+      "tier": 2,
+      "status": "ok",
+      "stories": 0,
+      "latencyMs": 466
+    }
+  ],
+  "errorCount": 0
 }
