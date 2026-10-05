@@ -1,74 +1,98 @@
 {
-  "generatedAt": "2026-10-05T04:10:35.020Z",
+  "generatedAt": "2026-10-05T04:11:06.287Z",
   "status": "READY_FOR_EDITOR",
   "storyCount": 201,
   "sourceCount": 8,
-  "healthySources": 0,
-  "failedSources": 8,
+  "healthySources": 8,
+  "failedSources": 0,
   "sourceHealth": [
     {
       "source": "TMZ",
       "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 196,
-      "error": "Cannot access 'stories' before initialization"
+      "status": "ok",
+      "stories": 20,
+      "bytes": 18818,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=eb40210440c849f9bef9dfa32831cce6 benchma",
+      "latencyMs": 232
     },
     {
       "source": "HipHopDX",
       "tier": 1,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 189,
-      "error": "Cannot access 'stories' before initialization"
+      "status": "ok",
+      "stories": 16,
+      "bytes": 207614,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
+      "latencyMs": 194
     },
     {
       "source": "AllHipHop",
       "tier": 1,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 593,
-      "error": "Cannot access 'stories' before initialization"
+      "status": "ok",
+      "stories": 10,
+      "bytes": 82455,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
+      "latencyMs": 665
     },
     {
       "source": "No Jumper",
       "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 993,
-      "error": "Cannot access 'stories' before initialization"
+      "status": "ok",
+      "stories": 498,
+      "bytes": 24315725,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
+      "latencyMs": 657
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 513,
-      "error": "Cannot access 'stories' before initialization"
+      "status": "ok",
+      "stories": 100,
+      "bytes": 123345,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
+      "latencyMs": 417
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 420,
-      "error": "Cannot access 'stories' before initialization"
+      "status": "ok",
+      "stories": 100,
+      "bytes": 130897,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
+      "latencyMs": 303
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 464,
-      "error": "Cannot access 'stories' before initialization"
+      "status": "ok",
+      "stories": 100,
+      "bytes": 123114,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
+      "latencyMs": 334
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 504,
-      "error": "Cannot access 'stories' before initialization"
+      "status": "ok",
+      "stories": 100,
+      "bytes": 126066,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
+      "latencyMs": 341
     }
   ]
 }
