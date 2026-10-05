@@ -32,7 +32,7 @@ function tag(block, name) {
 }
 
 function attr(block, tagName, attrName) {
-  const match = block.match(new RegExp("<" + tagName.replace(":","\\:") + "\b[^>]*\b" + attrName + '=["\\\']([^"\\\']+)["\\\']', "i"));
+  const match = block.match(new RegExp("<" + tagName.replace(":","\\:") + "\\b[^>]*\\b" + attrName + '=["\\\']([^"\\\']+)["\\\']', "i"));
   return match ? match[1] : "";
 }
 
