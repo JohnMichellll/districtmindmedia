@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>District Mind Media</title><link>https://district-mind-media.pages.dev/</link><description>Independent music and culture coverage from District Mind Media.</description><language>en-us</language><item><title>Who's Coming to Colorado: The Artists We're Watching</title><link>https://district-mind-media.pages.dev/article.html</link><description>District Mind's October 2026 Colorado live-music watchlist.</description><pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>District Mind Media</title><link>https://district-mind-media.pages.dev/</link>
+<description>Independent music, artist, release, Colorado and culture coverage from District Mind Media.</description><language>en-us</language>
+<lastBuildDate>Sun, 04 Oct 2026 00:00:00 GMT</lastBuildDate>
+<item><title>Who's Coming to Colorado: The Artists We're Watching</title><link>https://district-mind-media.pages.dev/article.html</link><guid isPermaLink="true">https://district-mind-media.pages.dev/article.html</guid><pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate><description>The Colorado live-music dates and artists on the District Mind radar.</description></item>
+<item><title>Friday Radar: October 9</title><link>https://district-mind-media.pages.dev/releases.html</link><guid isPermaLink="true">https://district-mind-media.pages.dev/releases.html</guid><pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate><description>Danielle Ponder, Dawn Richard and Joyce Wrice headline the October 9 release watch.</description></item>
+</channel></rss>
