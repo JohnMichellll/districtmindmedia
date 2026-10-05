@@ -42,3 +42,5 @@ jobs:
           git commit -m "chore(qa): refresh first-impression browser audit"
           git pull --rebase origin main
           git push
+
+# QA trigger: validate current production build
