@@ -2078,3 +2078,39 @@ footer{border-top:8px solid var(--editorial-red);}
 .artist-intel-card>img,.artist-intel-card>.artist-search-placeholder{width:260px;aspect-ratio:1/1;object-fit:cover;background:#dedad2}
 .artist-intel-card h4{font-size:11px;letter-spacing:.15em;margin:24px 0 8px}
 @media(max-width:760px){.artist-search-front-inner,.artist-intel-card{grid-template-columns:1fr}.front-artist-search{flex-direction:column}.artist-intel-card>img,.artist-intel-card>.artist-search-placeholder{width:100%;max-width:320px}}
+
+
+/* DISTRICT MIND ACADEMY */
+.academy-hero{min-height:62vh;display:flex;align-items:flex-end}
+.academy-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:44px;align-items:start}
+.academy-title{font-size:clamp(48px,7vw,92px);line-height:.86;letter-spacing:-.07em;margin:8px 0 18px}
+.academy-lead{max-width:720px;color:var(--muted);font-size:18px;line-height:1.7}
+.academy-roadmap{display:grid;gap:0;margin-top:42px;border-top:1px solid rgba(17,17,17,.14)}
+.academy-roadmap article{display:grid;grid-template-columns:58px 1fr;gap:18px;padding:22px 0;border-bottom:1px solid rgba(17,17,17,.1)}
+.academy-roadmap article>span{font-size:11px;font-weight:900;letter-spacing:.18em}
+.academy-roadmap h3{font-size:24px;line-height:1;margin-bottom:8px;letter-spacing:-.04em}
+.academy-roadmap p{color:var(--muted);font-size:14px;line-height:1.6}
+.academy-access-card{background:#111;color:var(--light);padding:32px;border-radius:24px;box-shadow:var(--shadow);position:sticky;top:105px}
+.academy-access-card h3{font-size:clamp(32px,4vw,52px);line-height:.92;letter-spacing:-.06em;margin:8px 0 16px}
+.academy-access-card>p:not(.category){color:rgba(255,255,255,.72);line-height:1.65}
+.academy-form{display:grid;gap:16px;margin-top:24px}
+.academy-form label{display:grid;gap:8px;font-size:10px;font-weight:900;letter-spacing:.16em;text-transform:uppercase}
+.academy-form input[type=email]{width:100%;padding:14px 15px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);color:#fff;border-radius:10px}
+.academy-check{display:flex!important;grid-template-columns:auto 1fr;display:grid!important;grid-template-columns:18px 1fr;gap:9px!important;align-items:start;color:rgba(255,255,255,.68);line-height:1.5}
+.academy-check input{margin-top:3px}
+.academy-form .submit-btn{width:100%;cursor:pointer}
+.academy-status{margin-top:14px!important;font-size:11px!important;color:rgba(255,255,255,.72)!important}
+.academy-orientation{border-top:1px solid rgba(17,17,17,.12)}
+.academy-checklist{display:grid;gap:0;border-top:1px solid rgba(17,17,17,.12)}
+.academy-checklist label{display:flex;gap:14px;align-items:center;padding:18px 0;border-bottom:1px solid rgba(17,17,17,.1);font-weight:700}
+.academy-checklist input{width:18px;height:18px;accent-color:#111}
+.academy-completion{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:28px 0}
+.academy-completion strong{font-size:14px;letter-spacing:.12em}
+.academy-completion .hero-button{border:0;cursor:pointer}
+.academy-completion .hero-button:disabled{opacity:.35;cursor:not-allowed;transform:none}
+.academy-code{margin-top:10px;background:#111;color:#fff;padding:34px;border-radius:22px}
+.academy-code h3{font-size:clamp(28px,4vw,48px);line-height:.95;letter-spacing:-.05em;margin-bottom:20px}
+.academy-code code{display:block;width:fit-content;background:#fff;color:#111;padding:14px 18px;font-size:18px;font-weight:900;letter-spacing:.16em;margin-bottom:18px}
+.academy-code p:last-child{color:rgba(255,255,255,.7);max-width:650px}
+.academy-next{margin-top:0}
+@media(max-width:820px){.academy-grid{grid-template-columns:1fr}.academy-access-card{position:static}.academy-completion{align-items:flex-start;flex-direction:column}.academy-completion .hero-button{width:100%}}
