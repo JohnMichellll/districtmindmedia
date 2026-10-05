@@ -40,6 +40,18 @@ for(const file of ["functions/api/artist-intel.js","functions/api/news.js","func
 
 try{JSON.parse(fs.readFileSync("assets/photo-manifest.json","utf8"));}catch{failures.push("photo-manifest.json is invalid JSON");}
 
+fs.mkdirSync("reports",{recursive:true});
+const telemetry={
+ generatedAt:new Date().toISOString(),
+ status:failures.length?"FAIL":"PASS",
+ pagesChecked:pages.length,
+ failures,
+ node:process.version,
+ host:os.platform(),
+ checks:["doctype","title","style.css","duplicate-ids","local-links","api-syntax","photo-manifest"]
+};
+fs.writeFileSync("reports/site-defense-latest.json",JSON.stringify(telemetry,null,2));
+
 if(failures.length){
  console.error("DISTRICT MIND SITE DEFENSE: FAIL");
  for(const f of failures) console.error(" - "+f);
