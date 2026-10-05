@@ -86,8 +86,13 @@ for (const artist of ARTISTS) {
       identity: "metadata-name-match",
       verifiedAt: new Date().toISOString()
     };
+  } else if (manifest.photos[artist.key]?.url && manifest.photos[artist.key]?.identity) {
+    // Keep a previously curated/verified photo if today's scout cannot find a replacement.
+    // This prevents a temporary source outage from removing a known-good artist image.
+    manifest.photos[artist.key].subject = artist.name;
+    manifest.photos[artist.key].verifiedAt = manifest.photos[artist.key].verifiedAt || new Date().toISOString();
+    console.log(`No replacement found for ${artist.name}; keeping the existing verified photo.`);
   } else {
-    // Never keep a stale image when today's identity check cannot prove it.
     manifest.photos[artist.key] = {
       ...(manifest.photos[artist.key] || {}),
       subject: artist.name,
