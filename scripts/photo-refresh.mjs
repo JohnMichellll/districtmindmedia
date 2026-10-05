@@ -3,34 +3,43 @@ import fs from "node:fs/promises";
 const manifestPath = "assets/photo-manifest.json";
 const manifest = JSON.parse(await fs.readFile(manifestPath, "utf8"));
 
+/*
+  DISTRICT MIND PHOTO IDENTITY RULE:
+  - The named artist/story is the source of truth.
+  - Automated discovery may search broadly, but publication only accepts
+    rights-cleared imagery whose metadata independently identifies the same artist.
+  - Instagram/Meta/Google may be used for discovery or owner-supplied assets,
+    but this bot does NOT scrape/re-publish copyrighted social images without permission.
+  - If identity or rights are uncertain: leave the image blank.
+*/
 const ARTISTS = [
-  { key: "earl-sweatshirt", query: "Earl Sweatshirt", blocked: ["Doja","Victoria Monét","Quavo"] },
-  { key: "victoria-monet", query: "Victoria Monét", blocked: ["Doja","Quavo","Earl Sweatshirt"] },
-  { key: "quavo", query: "Quavo rapper", blocked: ["Doja","Victoria Monét","Earl Sweatshirt"] },
-  { key: "doja-cat", query: "Doja Cat", blocked: ["Quavo","Victoria Monét","Earl Sweatshirt"] },
-  { key: "jpegmafia", query: "JPEGMAFIA", blocked: ["Doja","Quavo","Victoria Monét","Earl Sweatshirt"] }
+  { key: "earl-sweatshirt", name: "Earl Sweatshirt", query: "Earl Sweatshirt", blocked: ["Doja Cat","Victoria Monét","Quavo","JPEGMAFIA"] },
+  { key: "victoria-monet", name: "Victoria Monét", query: "Victoria Monét", blocked: ["Doja Cat","Quavo","Earl Sweatshirt","JPEGMAFIA"] },
+  { key: "quavo", name: "Quavo", query: "Quavo", blocked: ["Doja Cat","Victoria Monét","Earl Sweatshirt","JPEGMAFIA"] },
+  { key: "doja-cat", name: "Doja Cat", query: "Doja Cat", blocked: ["Quavo","Victoria Monét","Earl Sweatshirt","JPEGMAFIA"] },
+  { key: "jpegmafia", name: "JPEGMAFIA", query: "JPEGMAFIA", blocked: ["Doja Cat","Quavo","Victoria Monét","Earl Sweatshirt"] }
 ];
 
 const esc = s => encodeURIComponent(s);
+const clean = s => String(s || "").replace(/<[^>]+>/g, " ").replace(/&amp;/gi, "&").replace(/\s+/g, " ").trim();
 
 async function commonsSearch(query) {
   const url = "https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=" +
     esc(query) +
-    "&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url|extmetadata&iilimit=8&iiurlwidth=1400&format=json&origin=*";
-  const r = await fetch(url, { headers: { "User-Agent": "DistrictMindMediaPhotoScout/1.0" } });
+    "&gsrnamespace=6&gsrlimit=12&prop=imageinfo&iiprop=url|extmetadata&iilimit=12&iiurlwidth=1600&format=json&origin=*";
+  const r = await fetch(url, { headers: { "User-Agent": "DistrictMindMediaPhotoScout/1.1" } });
   if (!r.ok) return [];
   const data = await r.json();
   return Object.values(data.query?.pages || {}).map(p => {
     const info = p.imageinfo?.[0] || {};
     const meta = info.extmetadata || {};
-    const license = String(meta.LicenseShortName?.value || meta.License?.value || "").replace(/<[^>]+>/g,"").trim();
-    const artist = String(meta.Artist?.value || "").replace(/<[^>]+>/g,"").trim();
     return {
-      title: p.title || "",
+      title: clean(p.title),
       url: info.thumburl || info.url || "",
-      license,
-      artist,
-      description: String(meta.ImageDescription?.value || "").replace(/<[^>]+>/g,"").trim()
+      license: clean(meta.LicenseShortName?.value || meta.License?.value),
+      artist: clean(meta.Artist?.value),
+      description: clean(meta.ImageDescription?.value),
+      sourceUrl: info.descriptionurl || ""
     };
   });
 }
@@ -40,30 +49,64 @@ function isReusable(item) {
   return l.includes("cc by") || l.includes("cc0") || l.includes("public domain");
 }
 
-function matchesArtist(item, artist) {
-  const hay = (item.title + " " + item.description + " " + item.artist).toLowerCase();
-  const tokens = artist.query.toLowerCase().split(/\s+/).filter(Boolean);
-  if (!tokens.every(t => hay.includes(t))) return false;
-  return !artist.blocked.some(b => hay.includes(b.toLowerCase()));
+function identityScore(item, artist) {
+  const title = item.title.toLowerCase();
+  const description = item.description.toLowerCase();
+  const expected = artist.name.toLowerCase();
+  const blocked = artist.blocked.some(b => {
+    const x = b.toLowerCase();
+    return title.includes(x) || description.includes(x);
+  });
+  if (blocked) return -1;
+
+  // Strongest proof: the artist is named in the file title or image description.
+  if (title.includes(expected) || description.includes(expected)) return 3;
+
+  // Metadata photographer/creator fields alone do NOT prove who is pictured.
+  return 0;
 }
 
 for (const artist of ARTISTS) {
   const candidates = await commonsSearch(artist.query);
-  const match = candidates.find(c => isReusable(c) && matchesArtist(c, artist));
+  const match = candidates
+    .filter(c => isReusable(c))
+    .map(c => ({ ...c, score: identityScore(c, artist) }))
+    .filter(c => c.score >= 3)
+    .sort((a,b) => b.score - a.score)[0];
+
   if (match) {
     manifest.photos[artist.key] = {
+      subject: artist.name,
       url: match.url,
-      alt: artist.query,
+      alt: artist.name,
       credit: `${match.artist || "Wikimedia Commons"} / Wikimedia Commons — ${match.license}`,
       license: match.license,
-      source: "Wikimedia Commons"
+      source: "Wikimedia Commons",
+      sourceUrl: match.sourceUrl,
+      identity: "metadata-name-match",
+      verifiedAt: new Date().toISOString()
     };
+  } else {
+    // Never keep a stale image when today's identity check cannot prove it.
+    manifest.photos[artist.key] = {
+      ...(manifest.photos[artist.key] || {}),
+      subject: artist.name,
+      url: "",
+      identity: "unverified",
+      verifiedAt: new Date().toISOString()
+    };
+    console.log(`No safely verified photo for ${artist.name}; keeping branded placeholder.`);
   }
 }
 
-// Never auto-fill John Michell or his releases with another artist.
-// Those keys intentionally remain blank until an official/owner-supplied image is provided,
-// or an AI provider is explicitly configured to create original artwork rather than impersonate a photo.
+// John Michell and his releases remain owner-supplied only.
+// Never auto-fill them with another artist's face.
+for (const key of ["john-michell","john-michell-drivin-crazy","john-michell-who-is-you","john-michell-u"]) {
+  if (manifest.photos[key]) {
+    manifest.photos[key].subject = manifest.photos[key].subject || manifest.photos[key].alt;
+    if (!manifest.photos[key].url) manifest.photos[key].identity = "owner-supplied-only";
+  }
+}
 
 manifest.generatedAt = new Date().toISOString();
 await fs.writeFile(manifestPath, JSON.stringify(manifest, null, 2) + "\n");
