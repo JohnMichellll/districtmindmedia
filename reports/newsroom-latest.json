@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T02:47:23.689Z",
+  "generatedAt": "2026-10-05T02:48:12.920Z",
   "operator": "District Mind AI Newsroom",
   "status": "NO_STORIES_AVAILABLE",
   "storyCount": 0,
@@ -21,9 +21,10 @@
       "status": "ok",
       "stories": 0,
       "bytes": 18818,
-      "hasItemTag": false,
+      "hasItemTag": true,
       "hasEntryTag": false,
-      "latencyMs": 97
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=d16bf8d3450b4f0192cc67fe524e7821 benchma",
+      "latencyMs": 312
     },
     {
       "source": "HipHopDX",
@@ -31,9 +32,10 @@
       "status": "ok",
       "stories": 0,
       "bytes": 207614,
-      "hasItemTag": false,
+      "hasItemTag": true,
       "hasEntryTag": false,
-      "latencyMs": 148
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
+      "latencyMs": 203
     },
     {
       "source": "AllHipHop",
@@ -41,9 +43,10 @@
       "status": "ok",
       "stories": 0,
       "bytes": 82455,
-      "hasItemTag": false,
+      "hasItemTag": true,
       "hasEntryTag": false,
-      "latencyMs": 385
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
+      "latencyMs": 610
     },
     {
       "source": "No Jumper",
@@ -51,49 +54,54 @@
       "status": "ok",
       "stories": 0,
       "bytes": 24315725,
-      "hasItemTag": false,
+      "hasItemTag": true,
       "hasEntryTag": false,
-      "latencyMs": 789
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
+      "latencyMs": 771
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "bytes": 123413,
-      "hasItemTag": false,
+      "bytes": 123760,
+      "hasItemTag": true,
       "hasEntryTag": false,
-      "latencyMs": 394
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
+      "latencyMs": 564
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "bytes": 131449,
-      "hasItemTag": false,
+      "bytes": 131347,
+      "hasItemTag": true,
       "hasEntryTag": false,
-      "latencyMs": 340
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
+      "latencyMs": 394
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "bytes": 122050,
-      "hasItemTag": false,
+      "bytes": 122068,
+      "hasItemTag": true,
       "hasEntryTag": false,
-      "latencyMs": 457
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
+      "latencyMs": 478
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "bytes": 124492,
-      "hasItemTag": false,
+      "bytes": 125934,
+      "hasItemTag": true,
       "hasEntryTag": false,
-      "latencyMs": 405
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
+      "latencyMs": 487
     }
   ],
   "errorCount": 0
