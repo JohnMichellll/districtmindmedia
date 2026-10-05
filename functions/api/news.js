@@ -60,12 +60,13 @@ async function fetchXmlSource(source) {
     const response = await fetch(source.url, { headers: { "User-Agent": "DistrictMindMedia/1.0" } });
     if (!response.ok) return [];
     const xml = await response.text();
-        return blocks.slice(0,25).map(block => {
+    const blocks = extractBlocks(xml);
+    return blocks.slice(0,25).map(block => {
       const item = {
         title: tag(block,"title"),
         link: tag(block,"link") || attr(block,"link","href"),
-        pubDate: tag(block,"pubDate") || tag(block,"dc:date") || new Date().toUTCString(),
-        description: tag(block,"description") || tag(block,"content:encoded"),
+        pubDate: tag(block,"pubDate") || tag(block,"dc:date") || tag(block,"published") || tag(block,"updated") || new Date().toUTCString(),
+        description: tag(block,"description") || tag(block,"content:encoded") || tag(block,"summary"),
         image: image(block),
         source: source.name
       };
@@ -83,17 +84,18 @@ async function fetchGoogle() {
       const response = await fetch(url, { headers: { "User-Agent": "DistrictMindMedia/1.0" } });
       if (!response.ok) return [];
       const xml = await response.text();
-            return blocks.map(block => {
+      const blocks = extractBlocks(xml);
+      return blocks.map(block => {
         const item = {
           title: tag(block,"title"),
-          link: tag(block,"link"),
-          pubDate: tag(block,"pubDate"),
-          description: tag(block,"description"),
+          link: tag(block,"link") || attr(block,"link","href"),
+          pubDate: tag(block,"pubDate") || tag(block,"published") || tag(block,"updated"),
+          description: tag(block,"description") || tag(block,"summary"),
           image: image(block),
           source: "Google News / reported source"
         };
         return { ...item, score: score(item, 0.8) };
-      });
+      }).filter(item => item.title && item.link);
     } catch {
       return [];
     }
