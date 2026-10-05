@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Academy 001 — District Mind</title>
+<meta name="description" content="District Mind Academy 001 — the training room is opening.">
+<link rel="stylesheet" href="style.css">
+<style>
+.dm-launch{min-height:78vh;display:grid;place-items:center;position:relative;overflow:hidden;text-align:center;padding:8rem 1.5rem}
+.dm-launch:before,.dm-launch:after{content:"";position:absolute;border:1px solid currentColor;border-radius:50%;opacity:.14;animation:orbit 8s linear infinite}
+.dm-launch:before{width:70vw;height:70vw}.dm-launch:after{width:42vw;height:42vw;animation-direction:reverse}
+.dm-beacon{display:inline-grid;place-items:center;width:132px;height:132px;border:1px solid currentColor;border-radius:50%;margin:0 auto 2rem;box-shadow:0 0 70px rgba(255,255,255,.12);animation:pulse 3s ease-in-out infinite}
+.dm-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin-top:3rem;background:currentColor;opacity:.98}
+.dm-grid article{padding:2rem;text-align:left;background:var(--background,#fff);min-height:170px;transition:transform .25s ease}
+.dm-grid article:hover{transform:translateY(-6px)}
+.dm-grid span{font-size:.75rem;letter-spacing:.15em}
+@keyframes pulse{50%{transform:scale(1.06);box-shadow:0 0 100px rgba(255,255,255,.22)}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@media(max-width:760px){.dm-grid{grid-template-columns:1fr}.dm-launch{min-height:70vh}.dm-launch:before{width:120vw;height:120vw}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="nav-container"><a href="index.html" class="logo">DISTRICT MIND</a><nav class="primary-nav"><a href="newsroom.html">Newsroom</a><a href="releases.html">Releases</a><a href="artists.html">Artists</a><a href="academy.html">Academy</a></nav></div></header>
+<main>
+<section class="dm-launch"><div style="position:relative;z-index:2;max-width:900px"><div class="dm-beacon" aria-hidden="true"><strong>001</strong></div><p class="eyebrow">DISTRICT MIND ACADEMY</p><h1>THE ROOM IS OPENING.</h1><p class="page-lead">Academy 001 is being built in public. Follow the signal, see what we're building, and be first through the door.</p><div style="margin-top:2rem"><a class="hero-button" href="academy.html#join">GET ON THE LIST →</a></div></div></section>
+<section class="section"><div class="section-heading"><p class="eyebrow">CLASS 001 / LAUNCH MAP</p><h2>WHAT TO EXPECT.</h2></div><div class="dm-grid">
+<article><span>01 / FOUNDATION</span><h3>Build the base.</h3><p>Identity, systems, organization and the first real moves.</p></article>
+<article><span>02 / CRAFT</span><h3>Make the work.</h3><p>Creating, producing, packaging and building a recognizable body of work.</p></article>
+<article><span>03 / RELEASE</span><h3>Put it in motion.</h3><p>Turn ideas into releases, stories, campaigns and moments.</p></article>
+<article><span>04 / MOVEMENT</span><h3>Keep it moving.</h3><p>Audience, consistency, momentum and the next level.</p></article>
+</div></section>
+<section class="section dark-section"><div class="section-heading"><p class="eyebrow">THE LIVE EXAMPLE</p><h2>THE NEWSROOM IS THE CLASSROOM.</h2><p class="page-lead">District Mind Media is the working example. Academy 001 is where we open the process and teach the system behind it.</p></div><div style="text-align:center;margin-top:2rem"><a class="hero-button" href="explore.html">ENTER THE NEWSROOM →</a></div></section>
+</main>
+<footer><div class="footer-container"><div><h3>District Mind</h3><p>Media / Academy</p></div><div class="footer-links"><a href="academy.html">Academy</a><a href="about.html">About</a><a href="contact.html">Contact</a></div><p>© 2026 District Mind Media. All rights reserved.</p></div></footer>
+</body></html>
