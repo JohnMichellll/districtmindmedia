@@ -25,7 +25,7 @@ for(const s of cfg.sources){
     const raw=await r.text();
     const stories=parse(raw,s.name);
     out.push(...stories);
-    sourceHealth.push({source:s.name,tier:s.tier,status:"ok",stories:stories.length,bytes:raw.length,hasItemTag:/<item\\b/i.test(raw),hasEntryTag:/<entry\\b/i.test(raw),latencyMs:Date.now()-started});
+    sourceHealth.push({source:s.name,tier:s.tier,status:"ok",stories:stories.length,bytes:raw.length,hasItemTag:/<item\b/i.test(raw),hasEntryTag:/<entry\b/i.test(raw),head:raw.slice(0,180).replace(/\s+/g," "),latencyMs:Date.now()-started});
   }catch(e){
     sourceHealth.push({source:s.name,tier:s.tier,status:"error",stories:0,latencyMs:Date.now()-started,error:String(e?.name==="AbortError"?"TIMEOUT":e?.message||e)});
     console.log("SOURCE_ERROR",s.name,e?.message||e);
