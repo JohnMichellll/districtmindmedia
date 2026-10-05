@@ -1781,3 +1781,16 @@ footer {
 .category-visual.three{background-image:linear-gradient(180deg,rgba(17,17,17,.05),rgba(17,17,17,.55)),url('https://images.unsplash.com/photo-1493225457124-cd7c39b8a4d7?auto=format&fit=crop&w=1200&q=88')}
 .category-visual.four{background-image:linear-gradient(180deg,rgba(17,17,17,.05),rgba(17,17,17,.55)),url('https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&w=1200&q=88')}
 .category-card .category-visual{min-height:220px;background-size:cover;background-position:center}
+
+/* REAL ARTIST PHOTOGRAPHY — licensed/attributed sources, replacing stock imagery */
+.featured-photo{position:relative;min-height:500px;background:linear-gradient(180deg,rgba(17,17,17,.08),rgba(17,17,17,.65)),url('https://upload.wikimedia.org/wikipedia/commons/2/2d/Earl_Sweatshirt.pa.amager.bio.jpg') center 35%/cover no-repeat!important;}
+.real-release-photo{position:relative;overflow:hidden;}
+.real-release-photo.one{background-image:linear-gradient(180deg,rgba(17,17,17,.04),rgba(17,17,17,.58)),url('https://upload.wikimedia.org/wikipedia/commons/1/10/Victoria_Mon%C3%A9t_WHTA_2023.png')!important;}
+.real-release-photo.two{background-image:linear-gradient(180deg,rgba(17,17,17,.04),rgba(17,17,17,.58)),url('https://upload.wikimedia.org/wikipedia/commons/b/b0/Quavo_Salute_to_Summer_Concert_2025.jpg')!important;}
+.real-release-photo.three{background-image:linear-gradient(180deg,rgba(17,17,17,.04),rgba(17,17,17,.58)),url('https://upload.wikimedia.org/wikipedia/commons/c/c2/Doja_Cat_Scarlet_Tour_Austin_2024_%2853333035306%29.jpg')!important;}
+.live-photo{position:relative;}
+.live-photo.one{background-image:linear-gradient(180deg,rgba(17,17,17,.05),rgba(17,17,17,.68)),url('https://upload.wikimedia.org/wikipedia/commons/2/2d/Earl_Sweatshirt.pa.amager.bio.jpg')!important;}
+.live-photo.two{background-image:linear-gradient(180deg,rgba(17,17,17,.05),rgba(17,17,17,.68)),url('https://upload.wikimedia.org/wikipedia/commons/d/d5/JPEGMAFIA_%2848548470532%29.jpg')!important;}
+.live-photo.three{background-image:linear-gradient(180deg,rgba(17,17,17,.05),rgba(17,17,17,.68)),url('https://upload.wikimedia.org/wikipedia/commons/c/c2/Doja_Cat_Scarlet_Tour_Austin_2024_%2853333035306%29.jpg')!important;}
+.photo-credit{position:absolute;left:14px;bottom:12px;z-index:3;color:rgba(255,255,255,.78)!important;font-size:8px!important;line-height:1.25!important;font-weight:700!important;letter-spacing:.05em!important;text-transform:none!important;text-shadow:0 1px 3px rgba(0,0,0,.75);}
+.release-image .photo-credit,.editorial-image .photo-credit{margin:0!important;max-width:90%;}
