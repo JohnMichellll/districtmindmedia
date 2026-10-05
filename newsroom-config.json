@@ -1,6 +1,6 @@
 {
   "name": "District Mind AI Newsroom",
-  "version": "2.0",
+  "version": "2.0.1",
   "principles": {
     "ai_role": "research, triage, summarization, QA, discovery and recommendations",
     "human_role": "editorial judgment, publication approval and high-risk decisions",
