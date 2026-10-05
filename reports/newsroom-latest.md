@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-05T06:17:36.455Z
+Generated: 2026-10-05T06:53:35.156Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 204
+Stories discovered: 205
 
 1. **Taylor Swift’s ‘The Life of a Showgirl’ Returns to No. 1 After ‘Encore’ Reissue - Billboard** — Google News — New Music — Mon, 05 Oct 2026 06:05:08 GMT
    https://news.google.com/rss/articles/CBMinwFBVV95cUxNNENfcFlibF9yaUlYM3BvR285Sm9vcWRNdTI0Rm1yYnpzaURVaTVwaDlGLXdYYnpKc1JKQjBSRHVLOWY5SGN4SEtZLWhfVjVDZEY5Z1JKaERoc1ZSVE1EU2lQaW91Z0RXN2RwSXQzbmFJeHFhZzFnakZCWW1neFRaWUx0R2lDWmpLbjJyc2NodnRTY0ZrWlFJRkl2NGVHbFk?oc=5
@@ -40,9 +40,9 @@ Stories discovered: 204
    https://allhiphop.com/news/50-cent-says-street-fighter-is-his-movie-reveals-intense-boxing-regimen/
 17. **PJ Morton Brings R&B And Gospel Together On ‘Saturday Night, Sunday Morning’ - That Eric Alper** — Google News — R&B — Sun, 04 Oct 2026 19:11:28 GMT
    https://news.google.com/rss/articles/CBMitwFBVV95cUxPUG5EMmVEWnFlTDZMNllUeTVXeVN6blZ0ZmhmZ1FUTDVOUFBiZjBxX2cyUTlWbGxqeVU1Z2tUWElwR2xQTGdUbjNER0JybjNWSlNna0l3N3gwTVhoczcwTTNEaGxNbWRqMGFiQWNjZ3B6TXFDYkNHZENEb2QyT0k3TWljOFAydkttT3U3bGkwZXpPZFFSWHhYdnJUYUNFblVKRjJtOHYyb1FweXA2ZjVHM0NidDZPX0E?oc=5
-18. **Chance the Rapper Is Considering Changing His Name to Just "The Rapper" - Consequence of Sound** — Google News — Hip-Hop — Sun, 04 Oct 2026 19:01:11 GMT
+18. **Chance the Rapper Is Considering Changing His Name to Just "The Rapper" - consequence.net** — Google News — Hip-Hop — Sun, 04 Oct 2026 19:01:11 GMT
    https://news.google.com/rss/articles/CBMifkFVX3lxTE5LV3lOSDc2OGdSbDNXSnVxbUx5a191eGhiamJwb1dDRnlLd1RKZURIeV9zU0FGQlNja3B4QWxmRVphUWNETVJaYVFldG5yY0VZZmdVcktJRVF4YTRfYmZiaXQ1UzdJYWpISzZxZmVpZzVuWkY1RkswcmRRUnltdw?oc=5
-19. **Usher performs a high-energy dance sequence during The R&B Tour at Sun Bowl Stadium on Saturday, Oct. 3, 2026, in El Paso, Texas. - lufkindailynews.com** — Google News — R&B — Sun, 04 Oct 2026 18:18:16 GMT
+19. **Usher performs a high-energy dance sequence during The R&B Tour at Sun Bowl Stadium on Saturday, Oct. 3, 2026, in El Paso, Texas. - The Lufkin Daily News** — Google News — R&B — Sun, 04 Oct 2026 18:18:16 GMT
    https://news.google.com/rss/articles/CBMi_wFBVV95cUxPRDN6aVhHcUZqanB6bHo2a1dXbTNLbVpNQk9rdEhKZWgydHFwdFNEVGowU1ZHMk02a2xpRXo0TlIyRk9wVUNWd2Zzbm5hMlM4M282dXdQWjJLNU0zZWVaMzZtcXV6dTd5ejczNzM4czF3ekZxdTJUUXhfcEdiTGhjQnN0RFVtMTJRa3piNGZsd21FSDhWdXFBTUhYLWplZ05OUUpwazdjUDFWSUozcFNzNDdoZHRycnotUWNOOHo5NklXdUJ0Wk1ZZGJiV0Y0UTVFRzVFVGdpWUVMbjVHdjNEa0NZNDlRNnBUcEs3YmpsdE53Zy04c3dGTDFvZERBbE0?oc=5
 20. **BMF Actor Da’Vinchi Angers Black Americans Over &#8220;Lazy &#038; Slavery&#8221; Comments** — AllHipHop — Sun, 04 Oct 2026 18:01:51 +0000
    https://allhiphop.com/rumors/bmf-actor-davinchi-angers-black-americans-over-lazy-slavery-comments/
@@ -60,9 +60,9 @@ Stories discovered: 204
    https://news.google.com/rss/articles/CBMijAFBVV95cUxPSVJtWFVOVnd4S0xTei1fQlFzV3ktMF9EMEhxdDNlM3ZSeDVzT09GUUdtSkpSYi1UYTk1QXVVcXlpV2RMUmVBLTRXVzNCdDVXdGZuTzhHN3lxSXI1NkF0am16RnNtLWNrUTdMYjRZSUVRTHZzUUZIVFlqSXBiM2Etaml3Y09UX1J5V0lvcw?oc=5
 27. **Nas, Mayor Zohran Mamdani Discuss Past, Present And Future Of Hip-Hop In NYC In New Video - RTTNews** — Google News — Hip-Hop — Sun, 04 Oct 2026 15:01:00 GMT
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxQelZUVUxVRjIwakZ4MFQ0V1FPVzl3THBtSTY3ejJ2Z3V2cWZaTWhLOVlMQWl2d1Z5YVl1SmlMeGxnLU5YSFRwUVJaLUZJVjEyQjJkMjZxWGt2Tjc4OTlrLWZ2TTVEemxZTERHUDVvREdiNTdrR0ZaLW5YMnFJZnVrWVZmOVc4ZTI0Zy1HeVB4d2k5V1BJM1NoZUYwSnZham85VHhMWm9QcDJ5ZkxFVXRFdk0wcEtmQUFzdjF6TE1IYWR5Zw?oc=5
-28. **10 things to do this week, including Banned Books Week events, a crafting workshop and a new music game - brookline.news** — Google News — New Music — Sun, 04 Oct 2026 14:11:24 GMT
+28. **10 things to do this week, including Banned Books Week events, a crafting workshop and a new music game - Brookline.News** — Google News — New Music — Sun, 04 Oct 2026 14:11:24 GMT
    https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVllUU211RjBwb20ySV9SYzk4b2ZlV0stQ2N3UTFVd3RTZGJxLWZZZVBQTTVOZjZ2dHZfQ2dIMkQ4cDd2a3c0Z2lBekhyTjZHdFVfWlpkbTBlLS1fSkZKeTRKSzdzQldyaDBOQmxQc0w3b2Jfd0lvYVRaeHVGWWdIdkVaa1MzWmJjUU13YUh6djU1N0dSWEFiR2xqRU53NjNNOW9nS2d1T2xWYy1ubExwVVQxRmJFZHV6ZElXMmFXZTlYMzQ?oc=5
-29. **Please don’t send me your robot music - Salon.com** — Google News — New Music — Sun, 04 Oct 2026 14:00:30 GMT
+29. **Please don’t send me your robot music - salon.com** — Google News — New Music — Sun, 04 Oct 2026 14:00:30 GMT
    https://news.google.com/rss/articles/CBMiekFVX3lxTFBreUFzV2xabHdBaGZuZG5oZzZnZ1hQUXFPeE91elZTNGd2TUxPWThhSnlRYVhrMjZhNk5FZ0ZDZ2g3N0RkM1g3NGVwbV81Njl5TUd6b3A3enMxLWdubnBQakJ1TGhSRjFaQTZ1TFd0ZUh3bTFjWTlCSVNB?oc=5
 30. **P.O.D. release new music video for ‘Outbreak’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 04 Oct 2026 12:36:14 GMT
    https://news.google.com/rss/articles/CBMifkFVX3lxTFBKUkRvcG5wVHRKdVM2NTJROXg1cHlNeGFDbThrVmdHNHoxZ2RjMWhlTkJJUGZUdFF3VTMzeHVUeXNwOFlzdTQyNEQtcWxKbi00OWpaak9KclRzS0Zld3ZYLTExZ1ZJeTZyUWRHN242VWZLdVZ5VFhlUUpJVW9zQQ?oc=5
