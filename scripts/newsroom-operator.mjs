@@ -5,9 +5,9 @@ const out=[];
 const sourceHealth=[];
 const clean=s=>String(s||"").replace(/<[^>]+>/g," ").replace(/&amp;/g,"&").replace(/\s+/g," ").trim();
 const parse=(xml,source)=>{
-  const blocks=[...xml.matchAll(/<(item|entry)\\b[^>]*>([\\s\\S]*?)<\\/\\1>/gi)].map(m=>m[2]);
+  const blocks=[...xml.matchAll(/<(item|entry)\b[^>]*>([\s\S]*?)<\/\\1>/gi)].map(m=>m[2]);
   return blocks.map(b=>{
-    const get=k=>(b.match(new RegExp("<"+k+"(?:\\\\s[^>]*)?>([\\s\\S]*?)</"+k+">","i"))||[])[1]||"";
+    const get=k=>(b.match(new RegExp("<"+k+"(?:\\\s[^>]*)?>([\s\S]*?)</"+k+">","i"))||[])[1]||"";
     const linkTag=get("link");
     const href=(linkTag.match(/href=["']([^"']+)["']/i)||[])[1]||linkTag;
     return {title:clean(get("title")),url:clean(href),date:clean(get("pubDate")||get("published")||get("updated")),source};
