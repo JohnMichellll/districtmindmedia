@@ -32,7 +32,7 @@ export async function onRequestGet({request}){
   }
   const best=artists[0]?.artistName||q;
   let news=[];
-  try{const nr=await fetch("https://news.google.com/rss/search?q="+encodeURIComponent('"'+best+'" music')+"&hl=en-US&gl=US&ceid=US:en");if(nr.ok){const xml=await nr.text();news=[...xml.matchAll(/<item>([\s\S]*?)<\\/item>/g)].slice(0,8).map(m=>{const b=m[1],pick=k=>(b.match(new RegExp("<"+k+">([\\s\\S]*?)<\\/"+k+">"))||[])[1]||"";return{title:pick("title").replace(/<[^>]+>/g,"").trim(),link:pick("link").trim(),pubDate:pick("pubDate").trim()}}).filter(x=>x.title)}}catch{}
+  try{const nr=await fetch("https://news.google.com/rss/search?q="+encodeURIComponent('"'+best+'" music')+"&hl=en-US&gl=US&ceid=US:en");if(nr.ok){const xml=await nr.text();news=[...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].slice(0,8).map(m=>{const b=m[1],pick=k=>(b.match(new RegExp("<"+k+">([\\s\\S]*?)<\\/"+k+">"))||[])[1]||"";return{title:pick("title").replace(/<[^>]+>/g,"").trim(),link:pick("link").trim(),pubDate:pick("pubDate").trim()}}).filter(x=>x.title)}}catch{}
   return json({ok:true,query:q,source:"Apple/iTunes Search API + Google News",generatedAt:new Date().toISOString(),artists,news});
  }catch{return json({ok:false,error:"Artist search is temporarily unavailable."},502)}
 }
