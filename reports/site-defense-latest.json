@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-10-05T04:17:05.593Z",
+  "status": "PASS",
+  "pagesChecked": 17,
+  "failures": [],
+  "node": "v22.23.3",
+  "host": "linux",
+  "checks": [
+    "doctype",
+    "title",
+    "style.css",
+    "duplicate-ids",
+    "local-links",
+    "api-syntax",
+    "photo-manifest"
+  ]
+}
