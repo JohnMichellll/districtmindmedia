@@ -5,11 +5,18 @@ const out=[];
 const sourceHealth=[];
 const clean=s=>String(s||"").replace(/<[^>]+>/g," ").replace(/&amp;/g,"&").replace(/\s+/g," ").trim();
 const parse=(xml,source)=>{
-  const blocks=[...xml.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/gi),...xml.matchAll(/<entry\b[^>]*>([\s\S]*?)<\/entry>/gi)].map(m=>m[1]);
+  const blocks = [
+    ...xml.split(/<item\b/i).slice(1).map(part => part.split(/<\/item>/i)[0]),
+    ...xml.split(/<entry\b/i).slice(1).map(part => part.split(/<\/entry>/i)[0])
+  ].filter(Boolean);
   return blocks.map(b=>{
-    const get=k=>(b.match(new RegExp("<"+k+"[^>]*>([\s\S]*?)</"+k+">","i"))||[])[1]||"";
+    const get=k=>{
+      const safe=k.replace(/[:]/g,"\\:");
+      const m=b.match(new RegExp("<"+safe+"\\b[^>]*>([\\s\\S]*?)</"+safe+">","i"));
+      return m ? m[1] : "";
+    };
     const linkTag=get("link");
-    const href=(linkTag.match(/href=["']([^"']+)["']/i)||[])[1]||linkTag;
+    const href=(linkTag.match(/href=["']([^"']+)["']/i)||[])[1]||linkTag.replace(/<!\[CDATA\[/gi,"").replace(/\]\]>/g,"");
     return {title:clean(get("title")),url:clean(href),date:clean(get("pubDate")||get("published")||get("updated")),source};
   }).filter(x=>x.title&&x.url);
 };
