@@ -27,12 +27,12 @@ function clean(value = "") {
 
 function tag(block, name) {
   const safe = name.replace(/[:]/g, "\\:");
-  const match = block.match(new RegExp("<" + safe + "(?:\\s[^>]*)?>([\\s\\S]*?)</" + safe + ">", "i"));
+  const match = block.match(new RegExp("<" + safe + "(?:\s[^>]*)?>([\s\\S]*?)</" + safe + ">", "i"));
   return match ? clean(match[1]) : "";
 }
 
 function attr(block, tagName, attrName) {
-  const match = block.match(new RegExp("<" + tagName.replace(":","\\:") + "\\b[^>]*\\b" + attrName + '=["\\\']([^"\\\']+)["\\\']', "i"));
+  const match = block.match(new RegExp("<" + tagName.replace(":","\\:") + "\b[^>]*\b" + attrName + '=["\\\']([^"\\\']+)["\\\']', "i"));
   return match ? match[1] : "";
 }
 
@@ -55,7 +55,7 @@ async function fetchXmlSource(source) {
     const response = await fetch(source.url, { headers: { "User-Agent": "DistrictMindMedia/1.0" } });
     if (!response.ok) return [];
     const xml = await response.text();
-    const blocks = [...xml.matchAll(/<(item|entry)\\b[^>]*>([\\s\\S]*?)<\\/\\1>/gi)].map(m => m[0]);
+    const blocks = [...xml.matchAll(/<(item|entry)\b[^>]*>([\s\\S]*?)<\/\\1>/gi)].map(m => m[0]);
     return blocks.slice(0,25).map(block => {
       const item = {
         title: tag(block,"title"),
@@ -79,7 +79,7 @@ async function fetchGoogle() {
       const response = await fetch(url, { headers: { "User-Agent": "DistrictMindMedia/1.0" } });
       if (!response.ok) return [];
       const xml = await response.text();
-      const blocks = [...xml.matchAll(/<(item|entry)\\b[^>]*>([\\s\\S]*?)<\\/\\1>/gi)].map(m => m[0]);
+      const blocks = [...xml.matchAll(/<(item|entry)\b[^>]*>([\s\\S]*?)<\/\\1>/gi)].map(m => m[0]);
       return blocks.map(block => {
         const item = {
           title: tag(block,"title"),
