@@ -2025,3 +2025,19 @@ footer{border-top:8px solid var(--editorial-red);}
 .newsroom-lanes strong{font-size:20px;letter-spacing:-.03em}
 .newsroom-lanes small{color:rgba(255,255,255,.55);line-height:1.45}
 @media(max-width:800px){.newsroom-lanes{grid-template-columns:1fr 1fr}.newsroom-lanes a{border-bottom:1px solid rgba(255,255,255,.16)}}
+
+
+/* LAUNCH POLISH — ARTICLE + FRIDAY RADAR */
+.article-page{max-width:980px;margin-left:auto;margin-right:auto;}
+.article-page>h1{font-size:clamp(52px,8vw,112px);line-height:.86;letter-spacing:-.07em;max-width:1050px;margin:18px auto 22px;}
+.article-byline{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:44px;}
+.article-body{max-width:760px;margin:0 auto;font-size:18px;line-height:1.8;}
+.article-body h2{font-size:clamp(30px,4vw,52px);line-height:.95;letter-spacing:-.05em;margin:56px 0 18px;}
+.article-source{max-width:760px;margin-left:auto;margin-right:auto;}
+.article-related{max-width:980px;margin:72px auto 0;padding-top:20px;border-top:2px solid var(--ink);}
+.article-related .section-heading{margin-bottom:24px;}
+.article-related .section-heading h2{font-size:clamp(38px,5vw,68px);}
+.release-list .release-item{transition:transform .2s ease,background .2s ease;}
+.release-list .release-item:hover{transform:translateY(-3px);}
+.release-list .release-meta span:first-child{font-weight:900;}
+@media(max-width:700px){.article-page>h1{font-size:clamp(46px,14vw,76px)}.article-body{font-size:17px;line-height:1.72}.article-byline{line-height:1.5}.article-related{margin-top:52px}}
