@@ -130,5 +130,19 @@
     "maxStories": 100,
     "maxStoriesPerSource": 40,
     "maxReportStories": 30
+  },
+  "eventSources": [
+    {
+      "name": "JamBase",
+      "role": "concert discovery and event metadata",
+      "url": "https://www.jambase.com/",
+      "tier": 1,
+      "notes": "Use event metadata and the event's official ticket destination; never invent ticket URLs."
+    }
+  ],
+  "ticketPolicy": {
+    "rule": "Every concert result should expose a Get Tickets action that sends the reader to the original event or authorized ticket provider for that specific event.",
+    "fallback": "If no verified ticket destination is available, show the event without a ticket button rather than guessing.",
+    "privacy": "Use voluntary city/state or city-level location only; never require an exact address."
   }
 }
