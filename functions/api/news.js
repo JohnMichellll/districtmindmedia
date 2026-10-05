@@ -51,9 +51,9 @@ function score(item, weight = 1) {
 }
 
 const extractBlocks = xml => [
-  ...xml.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/gi),
-  ...xml.matchAll(/<entry\b[^>]*>([\s\S]*?)<\/entry>/gi)
-].map(m => m[1]);
+  ...xml.split(/<item\b/i).slice(1).map(part => part.split(/<\/item>/i)[0]),
+  ...xml.split(/<entry\b/i).slice(1).map(part => part.split(/<\/entry>/i)[0])
+].filter(Boolean);
 
 async function fetchXmlSource(source) {
   try {
