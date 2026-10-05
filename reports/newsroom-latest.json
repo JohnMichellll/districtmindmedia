@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T02:46:53.470Z",
+  "generatedAt": "2026-10-05T02:47:23.689Z",
   "operator": "District Mind AI Newsroom",
   "status": "NO_STORIES_AVAILABLE",
   "storyCount": 0,
@@ -20,56 +20,80 @@
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 148
+      "bytes": 18818,
+      "hasItemTag": false,
+      "hasEntryTag": false,
+      "latencyMs": 97
     },
     {
       "source": "HipHopDX",
       "tier": 1,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 128
+      "bytes": 207614,
+      "hasItemTag": false,
+      "hasEntryTag": false,
+      "latencyMs": 148
     },
     {
       "source": "AllHipHop",
       "tier": 1,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 760
+      "bytes": 82455,
+      "hasItemTag": false,
+      "hasEntryTag": false,
+      "latencyMs": 385
     },
     {
       "source": "No Jumper",
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 760
+      "bytes": 24315725,
+      "hasItemTag": false,
+      "hasEntryTag": false,
+      "latencyMs": 789
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 393
+      "bytes": 123413,
+      "hasItemTag": false,
+      "hasEntryTag": false,
+      "latencyMs": 394
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 514
+      "bytes": 131449,
+      "hasItemTag": false,
+      "hasEntryTag": false,
+      "latencyMs": 340
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 373
+      "bytes": 122050,
+      "hasItemTag": false,
+      "hasEntryTag": false,
+      "latencyMs": 457
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 0,
-      "latencyMs": 488
+      "bytes": 124492,
+      "hasItemTag": false,
+      "hasEntryTag": false,
+      "latencyMs": 405
     }
   ],
   "errorCount": 0
