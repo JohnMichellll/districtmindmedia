@@ -1,68 +1,68 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-05T18:48:47.071Z
+Generated: 2026-10-05T21:32:16.545Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 199
+Stories discovered: 253
 
-1. **Taylor Swift & Her Friends Keep Repeating This Phrase, So Let's Get Theorizing - Elite Daily** — Google News — New Music — Mon, 05 Oct 2026 18:41:33 GMT
-   https://news.google.com/rss/articles/CBMinwFBVV95cUxPVnNkclRoN3F6RWtsNk5LZkRJVi1fQTk5ZFIxeG1LVjJrZWx3NWU1LV9QRVlxaVZMYl8zWVVIbkRhY01rczNaU19mQncwYklZV0V4VEZRX2NKQ3BBTms4VThhRU03eXVQV3RQT09ZM3ZXUVJRTUstaHQ1OVdVQm03Uk9pTjkwa21XRTROMlpYblhHMVhmb0MzLXZicm5nRk0?oc=5
-2. **Chipotle Records New Song, Using Corn, Jalapeños and Lettuce! - TODAY.com** — Google News — New Music — Mon, 05 Oct 2026 18:32:56 GMT
-   https://news.google.com/rss/articles/CBMioAFBVV95cUxPWmp4bU9iQ2pvLW9FX2JUUnM5eHNvTmhkYnZQOVpYUDlUb2hPQi1helk0U1lPLWF1WGx4X29Ka3FqWkMxVTZIVjVCYXQwdFJXQmNvcXR0dl9LZDFxeVJXS2lJdzF3MTdlallPLTZRdTNjMGo1OHhHNkQ1Wm9nVmYxNk1yQ1RWX0ZKcnAwcGs5UjZySnJrdVhOVlZlckFaWkh4?oc=5
-3. **In Living Color Comedian Reggie McFadden Dies at 57 - Hip-Hop Wired** — Google News — Hip-Hop — Mon, 05 Oct 2026 18:24:04 GMT
-   https://news.google.com/rss/articles/CBMijAFBVV95cUxPZlNES3MtcGRLNnAwS19yNlQyTUdEMy1oblNXaGNGZ00zakJwQXN1dk9uRVZMbDA2Y1hlWXBaOXFHd3JNMnozaWRTcnRwaFhsUlhyXzkzSVRPYWphNkFUM2lZN1BFbGVrQXljUEN4NWQyeUlvTk9OWGFTcW12UXp5Q2pKMm9lWHRXSU12WA?oc=5
-4. **Wage War release new music video for ‘God Complex’ - distortedsoundmag.com** — Google News — New Music — Mon, 05 Oct 2026 18:20:50 GMT
-   https://news.google.com/rss/articles/CBMihgFBVV95cUxNb3ZXUGFpM2dsNk4zNEo5TGhLNWxVSGl3VkRJeHJ2T082d01aLTZNTXp2d0FEX2Y5VlNmVVkzSU53dm1fLU90a0hHY01rcXFkY3B4cEhraFFvRVp1akJVT3Fob20wMl9OQ0c1ZEUzeWp4NmFvNEgzNTRTSHhteUdJTVpXMjRtZw?oc=5
-5. **Here Are the Nominees for the 2026 Soul Train Awards (Updating) - Billboard** — Google News — R&B — Mon, 05 Oct 2026 18:10:46 GMT
-   https://news.google.com/rss/articles/CBMickFVX3lxTFBpajVialZpRF80TkZCekVVWV9rNk0tbWZzOGpTaFVVTzhNVEtQRm5GM1l5bTFoSkkxN0NNYVNyU3djOFZ3RHdfeWh6UWdRMEFlTW1TWFBiQXJhVVZtWUl5SFhsNF8yMzRDYktpZGM3eEFRQQ?oc=5
-6. **Chrissie Hynde Praises Taylor Swift’s New Song ‘Cleveland!’: ‘A Girl Who Stays on the Cutting Edge’ - Billboard** — Google News — New Music — Mon, 05 Oct 2026 18:07:23 GMT
-   https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRkNlbEtlOW1EZFAwUmFQRGZ5cEdNYzdfdnNrMEdlU0pIVGZ3QjA0WXUwdTVtek5uMkZPc0FDNURBSkZydG9oa0lfbzNBNEdrcWJOMHQtaG1LX1ZLaDRLZmpxRmwwdHlSQ1V0c3VXZUsybUEwdzFWTVJDdU1KNU5PVHJrcThYdDQwdElHUGR0RXlzcXlGd1JsekpxMzZiNUNnTUVOQkZ6dDk?oc=5
-7. **AKA Assassination Trial Finally Reaches Courtroom After Years As Father Demands Justice** — AllHipHop — Mon, 05 Oct 2026 18:00:32 +0000
-   https://allhiphop.com/news/aka-assassination-trial-finally-reaches-courtroom-after-years-as-father-demands-justice/
-8. **Listen: Wage War Unveils "God Complex" Ahead of New Album Out Friday - metalinjection.net** — Google News — New Music — Mon, 05 Oct 2026 17:49:30 GMT
-   https://news.google.com/rss/articles/CBMipAFBVV95cUxPU1p1b0JzV0twTzZTR1VlbzF2Q3lVd2M2alFYZXN4MmVueDJQLURhbVhMcnB6cXBiOWhEUjN5bHNWLVRrbV9JUHRHeTNUazJQWjVlaDlOTVRRM05YbTN4VURtX0NmUEkwcmp3R0dnZWwxYTR4NWJ5TmNya0JCRFlPODVmTUtvVm9wc3hFWGdjN29wSGRCcDd0OUh2cVlMckstM2J1OA?oc=5
-9. **Could This Rap Remix Trend Bring the Genre Back To the Charts? - Billboard** — Google News — Hip-Hop — Mon, 05 Oct 2026 17:42:49 GMT
-   https://news.google.com/rss/articles/CBMipwFBVV95cUxNSHBGQm5DanpGSWFFVXBkUjhkaFdPd0FRYXZGS1d0V1FETWwxMllLUG00N1JSNWNBZjNLQUxmTDMzZVEtekNaUFNzSzhqdUNMXzJ4QmR2ZVBBTVNoaGl3Y1Q1enFFY1N6QkpteXI0XzNScTFuVGQ3Q1dBY3pxd2lWOUlMV25oTmhpQ2I5X3I3SjdBTGJsZE1ibUdoQm5oRld0cWF4ZW5hZw?oc=5
-10. **Chance the Rapper Says He’s Thinking About Chopping His Stage Name In Half: ‘I Just Really Love the Art Form’ - Billboard** — Google News — Hip-Hop — Mon, 05 Oct 2026 17:42:06 GMT
-   https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdVNKcmludGhoQ2phNkJudGRfaGhFckpRZkY1bmRHenNvQVV5cnlHb29jMTl6UmZ5c2l2ZGtubWRYTHlTTkJJcURJajNYX01jRU1tZ0RuQWRFZ0dzaHNyNVZPYUROaWIwUUhDSDlBa3EzVHRBNjdyaXBjNzZXTFpUaUdKN2ZLdW1mbkp6VGhwdDhuNTdNMW1WZmNCSXFHa0ZzWmZhMjQwZ29LT00?oc=5
-11. **BridgeBio taps Hip Hop Public Health and others up to put a new beat on ATTR-CM awareness - Fierce Pharma** — Google News — Hip-Hop — Mon, 05 Oct 2026 17:41:24 GMT
-   https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRnkzZUVtRndDSU53OWZaeVk1aDRfTXF4TTl0emdoamNudUo1ZHhOMElKdUk4VjBnYU1maUw0QjJaa0tzdlN2YWRfbVlKZDVkcExuZ0FsZ182QWdkaUNSaHNPZzFReGdpeFhsUTRWMEVnUW5WN0kxZWdXQzNjMU1KV094Y1hSSEYzOVI5Mk5vbi1fZkpJMDBhNDBwSF9TQ3RLSUd0MlBDemFYVnEyS2QtU3ZkcE9pZ29D?oc=5
-12. **Jon Park's Rap Sparks AI Speculation Despite Proof - 조선일보** — Google News — Hip-Hop — Mon, 05 Oct 2026 17:32:05 GMT
-   https://news.google.com/rss/articles/CBMijgFBVV95cUxOYmpyb0xSUWxSQnBxeE56M1gwa01rVC1zSnhPNjlNSnBHVEpJUEhKSnppVy1KM1p5X0RiS2JOajY0bm1zVVo1SF96QURtZWVXRC1zMUZoVGxwM0ZodE1ST2dTNkFBeThodkJ2SnJsRGw2T1h2LVhPMy1sd0cxWmUxN3BHNHNac1ltcVp6QWRB?oc=5
-13. **LL Cool J says age limits in Hip Hop are rooted in fear - Revolt TV** — Google News — Hip-Hop — Mon, 05 Oct 2026 17:26:56 GMT
-   https://news.google.com/rss/articles/CBMicEFVX3lxTFAwUnhjUFgxVVhwaTB3c2RIaThLUjFWcFV2YllIeGlOMHE1MWxjNWY0eDlmV1U2YnpMTlVXZUEtcXpGQktIbFlwOUlIQkZVV2xJYVNZaUw5TThxQWtMbVU5NzBDV2lERlBvWU1oQWZzV3k?oc=5
-14. **Without Kendrick Lamar — or Drake — How Will Hip-Hop Show Up In the Grammys’ Biggest Categories? - Billboard** — Google News — Hip-Hop — Mon, 05 Oct 2026 17:17:49 GMT
-   https://news.google.com/rss/articles/CBMimgFBVV95cUxQZnpBV2d5c0VvVFNnWE5ZcklIMmdsTnkwcG04RmNQMHEzamZUY0tzcTRNNl9jNXBnb3ROZnB5VDRaTnFjc0tVUG1Qb092VFJrdFFnWkIwVUlUNFRyZDlmU3M5R0QzTzlkeTdZSXRQMzhNUzFFdXdneVhOdjdxYXJRaE1jV2VHaTVXQTNpeDV0NTE5aXlFenNfMlVB?oc=5
-15. **ComplexCon Chaos: LAPD Investigates Brawl That Left LUCKI Bloodied As Attempted Murder - Hip-Hop Wired** — Google News — Hip-Hop — Mon, 05 Oct 2026 17:07:58 GMT
-   https://news.google.com/rss/articles/CBMidEFVX3lxTE15SnA1UnVhbm52RVRmTmlxb3o4UmlPOXhscWR2NnJqclJxNlFmT0hmMzJXYWpkSEdUNU9FSWZMcVVVbi1iSnRId1IxSzdOc3VNSHV0MUphUmpSejVjZjhoUTRlVURaT2NIUTVOT0ZxdVhrQkJp?oc=5
-16. **Willie D Raises $300K For Nolan Wells Justice Fund** — AllHipHop — Mon, 05 Oct 2026 17:02:00 +0000
-   https://allhiphop.com/news/willie-d-raises-300k-for-nolan-wells-justice-fund/
-17. **MGM+ to Premiere Docuseries on the History of New Wave Music in November (EXCLUSIVE) - Variety** — Google News — New Music — Mon, 05 Oct 2026 17:00:00 GMT
-   https://news.google.com/rss/articles/CBMifkFVX3lxTE1RSjJqdzlRTG85RHhSM1JRVm1rdWhabU9XV2dBOU5BWkFfREhsb2VSbGMyWUY5OTI0LXpVS0Y4Szh6OGY1ckQtNGpoRWZ1YXJTNEtadVVEbWpEV09CWm5FdlA1QVY4UVZlRW0waHJRSUVQaU5Wd2tGMFlLTFJ6QQ?oc=5
-18. **Hypno5e release new music video for ‘Trame Noire’ - distortedsoundmag.com** — Google News — New Music — Mon, 05 Oct 2026 16:52:00 GMT
-   https://news.google.com/rss/articles/CBMihAFBVV95cUxOSUdWbUNzX0ExcVlDU3hGZnQ5SXdEUWdxcGlpRmU2cGpQZ2xfVjV2b1RnZ0xkTC1mSW01d0pqMHBQOGJqTmstT2duc1lkQXdlT2xtM1dhQXlMUDZySllJbTlNYkgxQXlXQlAtREtLVkttWFBqNnA0ckk5YVI0LW44eWdlRXE?oc=5
-19. **Teens In Trouble Share New Single "I Do": Listen - Stereogum** — Google News — New Music — Mon, 05 Oct 2026 16:50:00 GMT
-   https://news.google.com/rss/articles/CBMiaEFVX3lxTFBOZ3RobWFRZXU0aWZDbEwtWW5Ua1lrcUtUM3prRnpJOWRHSUw0SWxUTXFteWpFa1ZjR3JSZnFaV2FLaERQUHZfazBQU2I3Ny1nNHJzQnVtWXhtZjVuaEhnLXJPcndTYkZC?oc=5
-20. **L7 Release New Song “Loma Linda” Ahead of Final World Tour - Consequence of Sound** — Google News — New Music — Mon, 05 Oct 2026 16:09:34 GMT
-   https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZanVRY29WcHA5dmFyR2xILTNYRGc2ZXUxV29lcjlfQU9OVFJkaXFZUmdlQkVnTnc4NEpsZGV5QzhfQ3BiaEg1VDRlZE5Bd1pQbmdCTVB0RGJvNE9WUHU4aExzSGF0Tmx2RkU3V19qdV8?oc=5
-21. **L7 Share New Song "Loma Linda" Ahead Of Final Tour: Listen - Stereogum** — Google News — New Music — Mon, 05 Oct 2026 16:03:00 GMT
-   https://news.google.com/rss/articles/CBMiX0FVX3lxTFBTSTZETHYyTk9Md0pMbnNhMEJwZWxWNlhmMFBUX1dGbmxXaGF5RDJjeVFNWUFaYlpSWjg2Y3p2dU1RRnBuM1c4cXk1LTZ0YS1zNXVmRlRZSU9yWWdZWExF?oc=5
-22. **R&B Singer Queen Naija & Clarence White Announce Pregnancy - HOT 97** — Google News — R&B — Mon, 05 Oct 2026 16:00:00 GMT
-   https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTlZEdnZWS2pzUk9vOU5kenE3MjBUMjg0NGpfRGJRLV9tRVZnQmExVl9wd0gtME0zcU1MdE9CN2c0ZGNCc1IyM3pxZzJXOFJOeWpLWUNCTFc5Z3RMZUthb0x0SERkX1dkeUJscUlKMGVsVC1qTk9DZG9XX0hoc2szd3JDSnBMc3ZRb1N3?oc=5
-23. **Ventriloquist, singer and comedian Terry Fator chats new tour, new book and new music - Click2Houston** — Google News — New Music — Mon, 05 Oct 2026 15:57:58 GMT
-   https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUlVDQ09IV1o2N0ZVUlBmdmVhaml5RnpZcXJyYWtqcV9VX2ZRTlEtWE16QVVjSmcxaGdqV1Y4cnprUXNHSnZpRVFySUpFU0hLbEV2U1FYRFNFbUVXcUJMUzNLYWNQZTlCRWtwaDZRejRXVDZOTnJXQnBFeVpsVnczM2NrZmJILXZ5Mml2NUdNWjNEVHJJa004eGFzRVNaMHhvay02UDQ5UXJ2bWRWZmNjUW9qUHUxU1dxcVZIN1Mtb0Y5VFNvcVh2RW5EZF9vQzR2MUIzSQ?oc=5
-24. **Big Boss Vette On Beating Stage 4 Cancer & Returning To Music - Hip-Hop Wired** — Google News — Hip-Hop — Mon, 05 Oct 2026 15:57:57 GMT
-   https://news.google.com/rss/articles/CBMipAFBVV95cUxOMTlOQjVDOTNfQ1ZxeHZhWjl4MmtkdzZPWkg5SmNrSlI0THRUcy04U1d1Zk15bFF5SFhhaTNzOEFsZ05iY2JtVmM0dHRYdXR0d2xCQlBxTmVCMlRFWUtFRmRNWkVPaDNFbXYwOURWUWlYa0JwVUxJWjc0RlUzZzQ2b3ZFVjI3c1pVUmFlX1dzZFZmN2drd3o0cHRtZjFuRnRWdlliVg?oc=5
-25. **A teen R&B band, a Japanese blues duo, a symphony orchestra: Dozens of performers rock Brookline for Porchfest - Brookline.News** — Google News — R&B — Mon, 05 Oct 2026 15:35:18 GMT
-   https://news.google.com/rss/articles/CBMiygFBVV95cUxPLTVvb2Q5RmNsTUx1a0NJbWF4d0FPLV9PUW5LeWtpOVJVZllTU0ZCazg3Q1hWdHBNTmdqS2FPRXhoNkFZMHowX0swUHppMS1xM3hjNy1IRExrX3ZDd0pYWi1vS3ZLM1pxdVItQl83cjM5SG4tTUExS1B3WUhmc2J0Smd1aDA0TjRMYjItQ3lUT09JUTNfaVdHUHhWNW4waEVhNVpWRnh2Zmc5RjBaV1I2aXB0ZC1jLTB1SFkzN0ZOcDcxY3ZFMjVPcGVn?oc=5
-26. **Matisyahu & Yuval Raphael Release Pop-R&B Single 'Carry On' - BroadwayWorld** — Google News — R&B — Mon, 05 Oct 2026 15:16:07 GMT
-   https://news.google.com/rss/articles/CBMirwFBVV95cUxNV1pqV2tqaHBRUFZyRktRNl9QX2llczE0WFRFeml6NU9PTXVhMlJjemNXR0ZrU3Nuc0NpbzV2d28xM3J4c2dIOHlJalJ4SnNaUVEyVVNVV01NUGl3UzdKWDVrMnB0OGtyMXE2VGlFdUVCcjFsb29WaE1HTldWU2xtV05DMWNQWnhjcmpxeXBKTnVRRGY2Y0cyUWJia1ZWREhBZ0VHUGlMVzZTZDg5SFY4?oc=5
-27. **Sir Louie Finds Strength in Small Steps on “Concrete” - 24Hip-Hop** — Google News — Hip-Hop — Mon, 05 Oct 2026 15:15:21 GMT
-   https://news.google.com/rss/articles/CBMif0FVX3lxTFBjZFItSUJWdXA2VUo5YlpFUHRzRy1WLW9UdG8tYVYyRlQxelBkN051VjVUWXZva1cyX1U2RGxnVjVGanM3MWRkYnU2Y1lUVUZlZTJ6aHo3NG4xOERnanNoUjdoeG5fblp0ZTEtSUxjaTYzUklGY1JSZ1dYNTJFQW8?oc=5
-28. **Knifeplay Announce New Album 'What Is Truth?': Hear "Love Song" - Stereogum** — Google News — New Music — Mon, 05 Oct 2026 15:14:00 GMT
-   https://news.google.com/rss/articles/CBMimAFBVV95cUxNa0NNVXVISmU0OUVfRDlIdUVDY1hQZTE2cTc0dUtCZTk5blBsRm1xQm5aR3QxM2dmM0xQX1JuQm1kVEd5LVB3UmFmWGtXekFHQ1d3dzVpRHFLbk9icEtnMXNMNkVvZEJwb3NNWTZSU3Q0NU90cGkxaE5vMXY3ZFRfOWlVeDZXNzF1Smt0dHZvcTdhOGtFZEZBZA?oc=5
-29. **Talking new Milwaukee music with WUWM’s Lake Effect (September 2026) - Milwaukee Record** — Google News — New Music — Mon, 05 Oct 2026 15:12:15 GMT
+1. **Let Time Do Its Thing: How Tinashe, Kehlani & Jhené Aiko Are Redefining R&B’s Long Game - Billboard** — Google News — R&B — Mon, 05 Oct 2026 21:07:50 GMT
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxQd29yQ1BrNVBGV2JjUko1YTdxa2hjTEtiSFpvS3d4ZGxXR1NLT2dRT3hpMXhSTk53OW5jLUZlb191WmRSYnN2a09rN19DTDQxWGhmYWlxQUpXdURoTXJHMVRIdFZ5QXNwel81RWlYTjg1VUZkUnhSM3h6cUhfWjBWeU9qSkJwVHZ1aFFXNkc5VE40dVh3eHNzMm01MzNlcXpQ?oc=5
+2. **Talking new Milwaukee music with WUWM’s Lake Effect (September 2026) - Milwaukee Record** — Google News — New Music — Mon, 05 Oct 2026 21:07:01 GMT
    https://news.google.com/rss/articles/CBMiogFBVV95cUxNbTA2ZlNXWFNyQldaM2prRkpqZzM1MThleF90bWY2TUZ4dnhuQm9nYjhQbWNiem9oSmZZS2Z3YmJWdmd0QzhPMUx3TWFQLURrdXh6QWphZ3F5dERjTXdubGVkMzNpeDI4QV8wVnh3N2EyNmNaNlpodDlrYnN1dGFhcHV2cVd4SDVHcWwtS1RHNEhaZmZKOFdwbUNUQ1RyTldqd2c?oc=5
-30. **Ne-Yo puts a country spin on the video for ‘Dance Right Now’ - 94.7 KTTS** — Google News — R&B — Mon, 05 Oct 2026 15:05:09 GMT
+3. **Artists With the Most No. 1 Songs on the Hot 100, From The Beatles to Rihanna to Drake &#038;&#160;More** — Billboard — Mon, 05 Oct 2026 21:04:07 +0000
+   https://www.billboard.com/lists/artists-most-number-one-hits-all-time-hot-100/
+4. **Press Play: The Best New Songs Released in September 2026 — If You Love Indie, Alternative & Underground - Grimy Goods** — Google News — New Music — Mon, 05 Oct 2026 21:00:43 GMT
+   https://news.google.com/rss/articles/CBMijwFBVV95cUxQU0hzdmI5RzRGd1ZtSm9vSGpiOEtvM0dWcDFOQnFhR3N5OEgxY1k5YmI1VE9hdE5PUkpJNzI1bmRTcW9DaWdvOUVZRmQxM3MtejYwRmlwWXkxdjBDWk9EazNHMmRJQmc1Wm5XTU1KWVRsbXlLczMxTFJqWEdYZEJQZG16NGFxY1RVbDNueWJZTQ?oc=5
+5. **Chris Brown Addresses &#8220;Bitter&#8221; Baby Mama In Fiery Reply To Death Threat Claims** — AllHipHop — Mon, 05 Oct 2026 21:00:08 +0000
+   https://allhiphop.com/news/chris-brown-addresses-bitter-baby-mama-in-fiery-reply-to-death-threat-claims/
+6. **The Beatles, Taylor Swift, Drake, Mariah Carey &#038; More: Acts With the Most Billboard 200 &#038; Hot 100 No. 1s&#160;Combined** — Billboard — Mon, 05 Oct 2026 21:00:00 +0000
+   https://www.billboard.com/lists/acts-with-most-billboard-200-hot-100-number-ones-combined/
+7. **Billboard Pro Subscribers Can Get a 15% Discount on an ADE 2026 Pro&#160;Pass** — Billboard — Mon, 05 Oct 2026 20:59:24 +0000
+   https://www.billboard.com/pro/ade-2026-billboard-pro-subscribers-discount-pro-pass/
+8. **Lola Young Announces 2027 Everything Begins North American&#160;Tour** — Billboard — Mon, 05 Oct 2026 20:58:08 +0000
+   https://www.billboard.com/music/music-news/lola-young-2027-tour-dates-1236354490/
+9. **&#8216;American Idol&#8217; Contestant Sentenced to Life Without Parole for Murder of Wife** — Rolling Stone — Music — Mon, 05 Oct 2026 20:45:42 +0000
+   https://www.rollingstone.com/music/music-news/american-idol-contestant-sentenced-life-prison-murder-wife-1235636930/
+10. **T-Mobile Rolls Out the New Apple iPhone 18 Pro With ‘On Us’&#160;Deals** — Billboard — Mon, 05 Oct 2026 20:44:36 +0000
+   https://www.billboard.com/culture/product-recommendations/t-mobile-on-us-apple-iphone-18-pro-best-deals-online-1236354432/
+11. **Here Are the Nominees for the 2026 Soul Train Awards (Updating) - Billboard** — Google News — R&B — Mon, 05 Oct 2026 20:42:49 GMT
+   https://news.google.com/rss/articles/CBMickFVX3lxTFBpajVialZpRF80TkZCekVVWV9rNk0tbWZzOGpTaFVVTzhNVEtQRm5GM1l5bTFoSkkxN0NNYVNyU3djOFZ3RHdfeWh6UWdRMEFlTW1TWFBiQXJhVVZtWUl5SFhsNF8yMzRDYktpZGM3eEFRQQ?oc=5
+12. **‘Schmigadoon!’ Creator Cinco Paul to Receive the ASCAP Foundation Richard Rodgers New Horizons&#160;Award** — Billboard — Mon, 05 Oct 2026 20:42:18 +0000
+   https://www.billboard.com/music/awards/cinco-paul-ascap-richard-rodgers-new-horizons-award-1236354478/
+13. **Ne-Yo puts a country spin on the video for ‘Dance Right Now’ - 94.7 KTTS** — Google News — R&B — Mon, 05 Oct 2026 20:36:15 GMT
    https://news.google.com/rss/articles/CBMilgFBVV95cUxNODY1d0pOZnVnZzNzNWtuWFdwQVV3b0g1dnZJMkZ5b003NnpDYlViSVNmcWdWdzRnWU9WMWlZZldTWnY4NzNNbU42b04za01aenJXUmpqUVRqcExYc3p5OHFMY0dyLTM3TThOSVJZcFhpMWFBcVBJaldZU1M5amN1NmxNa3pFbXBvQVpTNVdKaHZxQ1RlTWc?oc=5
+14. **Ciara Walked the Paris Runway Three Times This Weekend — While Pregnant With Baby No.&#160;5** — Billboard — Mon, 05 Oct 2026 20:25:00 +0000
+   https://www.billboard.com/music/music-news/ciara-paris-runway-pregnant-1236354443/
+15. **Anthony Ramos to Headline &#8216;Noches de Familia&#8217; at Nublu in&#160;NYC** — Billboard — Mon, 05 Oct 2026 20:16:14 +0000
+   https://www.billboard.com/music/latin/anthony-ramos-noches-de-familia-nublu-nyc-1236352180/
+16. **An Alabama middle school band is going viral for their performance of a hip-hop classic - AL.com** — Google News — Hip-Hop — Mon, 05 Oct 2026 20:16:00 GMT
+   https://news.google.com/rss/articles/CBMi0AFBVV95cUxNd1ZGQkpWNVRjWEhiQU42bmh5em91dW9jVGUyMkxkSkpsUkUyaUZyV3lOY2hoRko0R1did3pQWDlpMi1lQ1pUU0kyMV95TjQtQ3hTSlBEMGxzdnJzOGltY1F5Z29NenBFeXZ3bXFfU08tZWwwVmZMYWZUaENGX3doV3c3MWhadmNKaDJCd3B0QS1IWVdvbUloRTRWMGcwNTVKd00xa2JvdVRjQjY4Tm9wMnNaMEdRQnZNb0k3dThhZFUycmVVaUlvb2tjMkx3eE1x?oc=5
+17. **Here&#8217;s Everything You Need to Know About Amazon&#8217;s Prime Big Deal&#160;Days** — Billboard — Mon, 05 Oct 2026 20:10:07 +0000
+   https://www.billboard.com/culture/product-recommendations/amazon-prime-big-deal-days-dates-oct-2026-best-discounts-online-1236354096/
+18. **Slayyyter Is Ready to Give &#8216;Wor$t Girl in America&#8217; the &#8216;Brother&#8217; Album it Deserves** — Rolling Stone — Music — Mon, 05 Oct 2026 20:10:07 +0000
+   https://www.rollingstone.com/music/music-news/slayyyter-worst-man-in-america-album-release-date-1235637079/
+19. **The Next Battle Over Songwriter Streaming Royalties Has Begun. Don’t Expect a Quick&#160;Fight** — Billboard — Mon, 05 Oct 2026 20:05:58 +0000
+   https://www.billboard.com/pro/songwriter-streaming-royalties-phono-v-rate-explained/
+20. **Chipotle Records New Song, Using Corn, Jalapeños and Lettuce! - TODAY.com** — Google News — New Music — Mon, 05 Oct 2026 20:03:45 GMT
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxPWmp4bU9iQ2pvLW9FX2JUUnM5eHNvTmhkYnZQOVpYUDlUb2hPQi1helk0U1lPLWF1WGx4X29Ka3FqWkMxVTZIVjVCYXQwdFJXQmNvcXR0dl9LZDFxeVJXS2lJdzF3MTdlallPLTZRdTNjMGo1OHhHNkQ1Wm9nVmYxNk1yQ1RWX0ZKcnAwcGs5UjZySnJrdVhOVlZlckFaWkh4?oc=5
+21. **Chris Brown&#8217;s Eye-Watering Monthly Earnings Revealed In Custody Battle** — AllHipHop — Mon, 05 Oct 2026 20:02:47 +0000
+   https://allhiphop.com/news/chris-browns-eye-watering-monthly-earnings-revealed-in-custody-battle/
+22. **Could This Rap Remix Trend Bring the Genre Back To the Charts? - Billboard** — Google News — Hip-Hop — Mon, 05 Oct 2026 19:55:46 GMT
+   https://news.google.com/rss/articles/CBMipwFBVV95cUxNSHBGQm5DanpGSWFFVXBkUjhkaFdPd0FRYXZGS1d0V1FETWwxMllLUG00N1JSNWNBZjNLQUxmTDMzZVEtekNaUFNzSzhqdUNMXzJ4QmR2ZVBBTVNoaGl3Y1Q1enFFY1N6QkpteXI0XzNScTFuVGQ3Q1dBY3pxd2lWOUlMV25oTmhpQ2I5X3I3SjdBTGJsZE1ibUdoQm5oRld0cWF4ZW5hZw?oc=5
+23. **As Other Minds Festival Turns 30, an Experimental Music Giant Takes a Bow - KQED** — Google News — New Music — Mon, 05 Oct 2026 19:31:01 GMT
+   https://news.google.com/rss/articles/CBMirAFBVV95cUxPcHlUMmVISkFCZXJESWJCS2U2T3Z1bFN6RXRTZlJQZlBPNWRUV09FWVVleXhwT0gtSzhuZ0pobGJSSGk4akxBSVlqbVpTOXBXa2ZubTNQLW9NcjNtLTJGTmYzeHVGUVFPbHlvWkE3T01OWVNGeGRyVFltRmZPUEZ1X0pFeHFMVzZ4Q0c0eEY1WW9Na0RQSEdsaUZHQWNxOHZib0d3Ymw2ZkdIWUFC?oc=5
+24. **Slayyyter Announces New Album 'Wor$t Man In America' - Stereogum** — Google News — New Music — Mon, 05 Oct 2026 19:29:00 GMT
+   https://news.google.com/rss/articles/CBMijgFBVV95cUxPUGo1dTQzR0JRQngwRE9MLXRHZmZCRkNKTlJRYUFUT3RRZ3F1RU1Qa2kySHRPYzlGZTBlaWFCeEY3TUI3al9yalp5c3IyOUhjMlJZakduY1RtajRwak1nekt3SUVjNGdMR05aaV9DUkdhel9CMHd4c1VVTzVXMHVJUVU4NG5kUUxmN1FjYkVB?oc=5
+25. **Tobi's return to R&B, and 4 more songs you need to hear this week - CBC** — Google News — R&B — Mon, 05 Oct 2026 19:28:37 GMT
+   https://news.google.com/rss/articles/CBMiggFBVV95cUxQZXBkazZDYWgxREF6eFFGcm1qNnJ1a2VNV2IxbW9fZWYzeURqWkdXMVM2RTA4eTR0aXlqb25hRmoxaW1HVWtjaUNYVUdOSV9zd3dHZk90RDFuMmFBQmMyRTlsUm9JejhiS0RkcFgzdXZydEtNTFhKOF9NYlZKa2wyeVJR?oc=5
+26. **Johann Leaves the Past in the Feedback on New EP, ‘Allowed To Change’ - buzzmusic** — Google News — New Music — Mon, 05 Oct 2026 19:23:14 GMT
+   https://news.google.com/rss/articles/CBMinwFBVV95cUxPM3U1TEJDZU82dTBQSldlZmd3SFZReHdvRkdycFZDRXZmd29ydjZrbHZVV1p4b3B3WnhuMm91MkVpMzdDN2haQkxMdFV1V1o1blRya0I1YjlFVDZhYldoRm03djRCdWtSZUxpbjNUSEcyMWVZY0NUSWFDbVFBbFJuc2x5MTdLenZBYUNpd240VExfVVRIbVZIbUFJMjNWUWc?oc=5
+27. **Reimagination Underway At Urban One DFW - RAMP - Radio and Music Pros** — Google News — R&B — Mon, 05 Oct 2026 19:18:43 GMT
+   https://news.google.com/rss/articles/CBMifEFVX3lxTFBMV0cwaDBFbERUTC1OVENsSW5pclJMOXk4SnY0QWVkTFZ4Y1FzZlpnZ0tEVngyZmNFSkFUSFhzU1NCRjVTV2Z3X2liX1haVHNfU2RXV2dFQVhsa180bTdxZFpkR3psSTg1QTYzS0puR3JGTWFLUXJrZ0hpNTY?oc=5
+28. **Today In Hip Hop History: Roxanne Shante Dropped Her Pivotal LP ‘The B***h Is Back’ 34 Years Ago - thesource.com** — Google News — Hip-Hop — Mon, 05 Oct 2026 19:08:34 GMT
+   https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWllHLU9weC0yM01QdjRfV2M0UFBCQU1UQXVBSUtFcF9GZG42eTh5Ylc3UzYtU3VGR0s2czdUV2VGZTBZdGJaNl9HN1BXdWNEa1FoWXlGRjlmX3VxZ2g0dWZGRGxpQ2s1QmtSckFIYzZIQnFfLUVudXVRa0VNbFFveDRQTGlHLTV4MGNfdUo3UzE2bzNHZUpndFdmdlo0MXc5bWJjdFphTFVhcktnREpwcGNNT0szdVhfVlpkLXNEU2pNUQ?oc=5
+29. **Today In Hip Hop History: Wu Tang Clan’s Inspectah Deck Dropped His Debut Album ‘Uncontrolled Substance’ 27 Years Ago - thesource.com** — Google News — Hip-Hop — Mon, 05 Oct 2026 19:07:30 GMT
+   https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZUtzcXNOS210ajdkb1NGYkk3bThBd2s2WDJJRS1mZml6ZWtMNEhwTTZ5cWtaa0FDOGc1NW5UbE1JbDJZMzJCZkNZdjRjTXhIcFV6U3N0TlZUQ2R1em1qLWZ3TjRmRU5WcjdNVVpHLUNGd0JfNjFqZVZ6aTktQUNmYUxPQVBzQXhFRzRuT3dJWU5jWENsRERqMFJIVEVpVkltZ1ctS0Z5M2ZEVk53ODIxNV9SN3pyUVlVVDRwN1RiUDM5aThKTW95eHpSZFlzOGFUMXZqQ3dtYmtCaVVEcGxsaA?oc=5
+30. **Who will win 2026 Soul Train Awards' R&B/Soul Song of the Year? - Revolt TV** — Google News — R&B — Mon, 05 Oct 2026 19:01:06 GMT
+   https://news.google.com/rss/articles/CBMikAFBVV95cUxNb3hsNDQ4RVo5M01PdjBNTU5uV3B0Q28yR0hVTmZBeEpiTXROUk9LbkZFb3hxNkpaNlAyN3ktcWNVOVFvQzM4TlREaVdQeXU3aV9lMk5NSjBFTG9GcVhuTENSUjFiclFYNjRoMVg1Y09xRW5PQzd2VTctZDBqR1MtOF9yRHRyNjZycVJuZFBOTkw?oc=5

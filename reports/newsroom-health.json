@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-05T18:48:47.071Z",
+  "generatedAt": "2026-10-05T21:32:16.545Z",
   "status": "READY_FOR_EDITOR",
-  "storyCount": 199,
-  "sourceCount": 8,
-  "healthySources": 8,
+  "storyCount": 253,
+  "sourceCount": 12,
+  "healthySources": 12,
   "failedSources": 0,
-  "acceptedStories": 246,
+  "acceptedStories": 305,
   "acceptedBySource": {
     "TMZ": 20,
     "HipHopDX": 16,
@@ -14,7 +14,11 @@
     "Google News — Hip-Hop": 40,
     "Google News — R&B": 40,
     "Google News — New Music": 40,
-    "Google News — Colorado Music": 40
+    "Google News — Colorado Music": 40,
+    "Billboard": 10,
+    "Pitchfork": 29,
+    "Rolling Stone — Music": 10,
+    "Variety — Music": 10
   },
   "sourceHealth": [
     {
@@ -22,11 +26,11 @@
       "tier": 2,
       "status": "ok",
       "stories": 20,
-      "bytes": 18573,
+      "bytes": 18686,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=6cbd6466f7dd4e9d9b55bad4ef3b2c12 benchma",
-      "latencyMs": 168
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=d16bf8d3450b4f0192cc67fe524e7821 benchma",
+      "latencyMs": 411
     },
     {
       "source": "HipHopDX",
@@ -37,73 +41,117 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 233
+      "latencyMs": 145
     },
     {
       "source": "AllHipHop",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 71660,
+      "bytes": 62218,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 869
+      "latencyMs": 548
     },
     {
       "source": "No Jumper",
       "tier": 2,
       "status": "ok",
       "stories": 498,
-      "bytes": 24315725,
+      "bytes": 24319955,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 599
+      "latencyMs": 537
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 124612,
+      "bytes": 124338,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 544
+      "latencyMs": 539
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 130689,
+      "bytes": 129841,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 437
+      "latencyMs": 486
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 124065,
+      "bytes": 121681,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 539
+      "latencyMs": 442
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 125851,
+      "bytes": 126117,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 401
+      "latencyMs": 564
+    },
+    {
+      "source": "Billboard",
+      "tier": 1,
+      "status": "ok",
+      "stories": 10,
+      "bytes": 123403,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
+      "latencyMs": 88
+    },
+    {
+      "source": "Pitchfork",
+      "tier": 1,
+      "status": "ok",
+      "stories": 29,
+      "bytes": 21404,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
+      "latencyMs": 56
+    },
+    {
+      "source": "Rolling Stone — Music",
+      "tier": 1,
+      "status": "ok",
+      "stories": 10,
+      "bytes": 9718,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
+      "latencyMs": 218
+    },
+    {
+      "source": "Variety — Music",
+      "tier": 1,
+      "status": "ok",
+      "stories": 10,
+      "bytes": 19564,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
+      "latencyMs": 55
     }
   ]
 }
