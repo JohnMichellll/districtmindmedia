@@ -17,6 +17,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+  workflow_run:
+    workflows: ["District Mind — AI Newsroom Operator"]
+    types: [completed]
+
 permissions:
   contents: write
 
