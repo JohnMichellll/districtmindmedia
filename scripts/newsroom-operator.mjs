@@ -21,6 +21,20 @@ const parse=(xml,source)=>{
   }).filter(x=>x.title&&x.url);
 };
 const noise=t=>cfg.noise.some(n=>t.toLowerCase().includes(n));
+const relevanceTerms=[
+  "hip-hop","hip hop","rap","rapper","rappers","r&b","rnb","singer","singers",
+  "album","single","ep","mixtape","music","musician","producer","dj","tour",
+  "concert","festival","video","interview","label","record","records","artist",
+  "artists","grammy","billboard","spotify","apple music","streaming","denver",
+  "colorado","aurora","boulder","fort collins"
+];
+const isRelevant=(title,source)=>{
+  const t=title.toLowerCase();
+  if(source.startsWith("Google News")){
+    return relevanceTerms.some(term=>t.includes(term));
+  }
+  return true;
+};
 
 for(const s of cfg.sources){
   const started=Date.now();
@@ -30,8 +44,9 @@ for(const s of cfg.sources){
     const r=await fetch(s.url,{signal:controller.signal,headers:{"user-agent":"DistrictMindMedia-NewsroomOperator/2.0","accept":"application/rss+xml,application/xml,text/xml,*/*"}});
     if(!r.ok) throw new Error("HTTP "+r.status);
     const raw=await r.text();
-    const stories=parse(raw,s.name);
-    out.push(...stories);
+    const parsed=parse(raw,s.name);
+    const sourceCap = Number(cfg.runtime.maxStoriesPerSource || 40);
+    out.push(...parsed.slice(0, sourceCap));
     sourceHealth.push({source:s.name,tier:s.tier,status:"ok",stories:stories.length,bytes:raw.length,hasItemTag:/<item\b/i.test(raw),hasEntryTag:/<entry\b/i.test(raw),head:raw.slice(0,180).replace(/\s+/g," "),latencyMs:Date.now()-started});
   }catch(e){
     sourceHealth.push({source:s.name,tier:s.tier,status:"error",stories:0,latencyMs:Date.now()-started,error:String(e?.name==="AbortError"?"TIMEOUT":e?.message||e)});
@@ -42,9 +57,11 @@ for(const s of cfg.sources){
 const seen=new Set();
 const stories=out
  .filter(x=>x.title.length>=cfg.qualityGates.minimumTitleLength&&!noise(x.title))
+ .filter(x=>isRelevant(x.title,x.source))
  .filter(x=>!cfg.qualityGates.requireSourceDate||Boolean(x.date))
  .filter(x=>!cfg.qualityGates.requireSourceUrl||Boolean(x.url))
  .filter(x=>{
+   if(!cfg.qualityGates.dedupe) return true;
    const k=x.title.toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
    if(seen.has(k)) return false;
    seen.add(k); return true;
