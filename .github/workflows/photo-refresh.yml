@@ -29,11 +29,17 @@ jobs:
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
         run: node scripts/grok-photo-pass.mjs
 
+      - name: Run newsroom QA review
+        if: ${{ secrets.XAI_API_KEY != '' }}
+        env:
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+        run: node scripts/grok-site-qa.mjs
+
       - name: Commit changed manifest
         run: |
           git config user.name "District Mind Photo Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/photo-manifest.json
+          git add assets/photo-manifest.json reports/grok-site-qa.md
           git diff --cached --quiet && exit 0
           git commit -m "chore: refresh artist photography"
           git push
