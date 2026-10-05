@@ -27,12 +27,12 @@
 <div class="artist-launch-scan"></div>
 <div class="artist-launch-inner">
 <p class="eyebrow">03 / Artist Intelligence Desk <span class="artist-live-label">● LIVE</span></p>
-<div class="artist-launch-kicker">SEARCH / DISCOVER / LISTEN</div>
+<div class="artist-launch-kicker" id="artist-era-kicker">SEARCH / DISCOVER / LISTEN</div>
 <h1>LOOK UP<br><span>ANY ARTIST.</span></h1>
 <p class="artist-launch-lead">One search. Music, releases, current coverage, artwork and where to listen — assembled into one artist intelligence room.</p>
 <div class="artist-launch-actions"><a href="#artist-desk" class="hero-button">Open Artist Desk ↓</a><span class="artist-launch-note">PUBLIC MUSIC INTELLIGENCE / ALWAYS OPEN</span></div>
 </div>
-<div class="artist-launch-index">DM / 03</div>
+<div class="artist-launch-index" id="artist-era-index">DM / 03</div>
 </section>
 
 <section id="artist-desk" class="page-shell artist-search-main">
@@ -70,13 +70,13 @@ if(f)f.addEventListener('submit',async e=>{
  s.textContent='SCOUTING MUSIC + CURRENT COVERAGE…';r.innerHTML='<div class="artist-loading"><strong>SEARCHING THE ARTIST DESK…</strong><span>CATALOG / NEWS / DISCOVERY LINKS</span></div>';
  try{
   const x=await fetch('/api/artist-intel?q='+encodeURIComponent(q)+'&ts='+Date.now(),{cache:'no-store'});if(!x.ok)throw new Error('request');const d=await x.json();
-  if(!d.ok||!d.artists?.length){s.textContent='NO MATCH FOUND YET.';r.innerHTML='<div class="artist-empty"><strong>No artist match yet.</strong><p>Try the artist’s full name or another spelling.</p></div>';return;}
-  s.textContent='ARTIST INTELLIGENCE READY.';const name=d.artist||d.artists[0]?.artistName||q;const artwork=d.music?.[0]?.artwork||null;const art=artwork?'<img class="artist-intel-art" src="'+esc(artwork)+'" alt="'+esc(name)+' artwork" loading="lazy">':'<div class="artist-search-placeholder"><span>'+esc(name)+'</span></div>';const ai=d.ai||{};const links=d.links||{};
+  if(!d.ok||!d.artists?.length){document.body.classList.remove('artist-legacy-mode');s.textContent='NO MATCH FOUND YET.';r.innerHTML='<div class="artist-empty"><strong>No artist match yet.</strong><p>Try the artist’s full name or another spelling.</p></div>';return;}
+  const isLegacy=d.era==='legacy';document.body.classList.toggle('artist-legacy-mode',isLegacy);document.querySelector('.artist-launch-hero')?.setAttribute('data-era',isLegacy?'LEGACY / THE GREATS':'CURRENT / NOW');document.getElementById('artist-era-kicker').textContent=isLegacy?'ARCHIVE / DISCOVER / REMEMBER':'SEARCH / DISCOVER / LISTEN';document.getElementById('artist-era-index').textContent=isLegacy?'DM / 03 / ARCHIVE':'DM / 03';s.textContent=isLegacy?'LEGACY INTELLIGENCE READY — THE GREATS.':'ARTIST INTELLIGENCE READY.';const name=d.artist||d.artists[0]?.artistName||q;const artwork=d.music?.[0]?.artwork||null;const art=artwork?'<img class="artist-intel-art" src="'+esc(artwork)+'" alt="'+esc(name)+' artwork" loading="lazy">':'<div class="artist-search-placeholder"><span>'+esc(name)+'</span></div>';const ai=d.ai||{};const links=d.links||{};
   const btn=(url,label)=>url?'<a class="hero-button" href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+label+'</a>':'';
   const listen='<div class="artist-listen-links">'+btn(links.apple,'Apple Music')+btn(links.spotify,'Spotify')+btn(links.youtube,'YouTube')+btn(links.soundcloud,'SoundCloud')+btn(links.instagram,'Social Search')+'</div>';
   const news=(d.news||[]).slice(0,6).map(n=>'<li><a href="'+esc(n.link||'#')+'" target="_blank" rel="noopener noreferrer">'+esc(n.title)+'</a><span>'+esc(n.date||'Recent')+'</span></li>').join('');
   const songs=(d.music||[]).slice(0,8).map(t=>'<li><a href="'+esc(t.apple||'#')+'" target="_blank" rel="noopener noreferrer">'+esc(t.title)+'</a><span>'+esc(t.album||'Single')+'</span></li>').join('');
-  r.innerHTML='<article class="artist-intel-card artist-intel-card-enhanced">'+art+'<div class="artist-search-copy"><p class="category">ARTIST DESK / '+esc(ai.genre||'MUSIC')+'</p><h3>'+esc(name)+'</h3><p class="artist-intel-summary">'+esc(ai.summary||'Artist intelligence is ready. Explore the catalog and current coverage below.')+'</p>'+listen+(news?'<div class="artist-news-block"><p class="category">WHAT’S MOVING NOW</p><ul>'+news+'</ul></div>':'')+'<div class="artist-list-section"><h4>WHAT TO LISTEN TO</h4><ul>'+songs+'</ul></div></div></article>';
+  r.innerHTML='<article class="artist-intel-card artist-intel-card-enhanced "+(isLegacy?'artist-legacy-card':'')+">'+art+'<div class="artist-search-copy"><p class="category">ARTIST DESK / '+esc(ai.genre||'MUSIC')+'</p><h3>'+esc(name)+'</h3><p class="artist-intel-summary">'+esc(ai.summary||'Artist intelligence is ready. Explore the catalog and current coverage below.')+'</p>'+listen+(news?'<div class="artist-news-block"><p class="category">WHAT’S MOVING NOW</p><ul>'+news+'</ul></div>':'')+'<div class="artist-list-section"><h4>WHAT TO LISTEN TO</h4><ul>'+songs+'</ul></div></div></article>';
  }catch(err){s.textContent='ARTIST DESK TEMPORARILY UNAVAILABLE.';r.innerHTML='<div class="artist-empty"><strong>The search service did not respond.</strong><p>Refresh and try again.</p></div>';}
 });
 const b=document.querySelector('.menu-toggle'),n=document.querySelector('.primary-nav');
