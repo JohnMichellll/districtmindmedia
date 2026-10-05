@@ -1,35 +1,35 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-05T12:14:42.952Z
+Generated: 2026-10-05T12:50:14.995Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 162
+Stories discovered: 200
 
-1. **Jon Park's Rap Sparks AI Speculation Despite Proof - chosun.com** — Google News — Hip-Hop — Mon, 05 Oct 2026 11:48:45 GMT
+1. **Kelsea Ballerini Confirms She's Back In The Studio Working On New Music - holler.country** — Google News — New Music — Mon, 05 Oct 2026 12:35:00 GMT
+   https://news.google.com/rss/articles/CBMirAFBVV95cUxOX1Fod3VTSmVCc1F6M0FmeTlBZUNFWGxSNGJwQzJGdFIwV2ViRWl3X1lKLWVWdUppUFE5TXJyNnZUcjI1WkZJVE1NWVUxaGdXTDZ3R214NkJHSEtEUmJZQVZNb1UwbGRMM2Z3LUM2VTFyOGtwS0tBei1IWVI2WTRtX3d2bzlTaEJFOU1jem0wZW1sWDdTSjlIakJLRlpfVkdJckg2NmZGb1pDZnUz?oc=5
+2. **Country music star sets new attendance record at Gillette Stadium - MassLive.com** — Google News — New Music — Mon, 05 Oct 2026 12:35:00 GMT
+   https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRGdwS0J3Nml4clpvX29SQzd5c3BwZzVzWmpfRVNDb0pWMGx5RmticVhVSTUzenZkcHJYS1hiT3VHYl9PckQxVlJqR0kyWkx0dmlwZnpPel80Qm50bWx3eGMyRDdFck5YdFJzOXNTOXZLcGZSWmpxQ1FkekhFZGw2RzJQZ2ZUTkF2NHpRa0ZHM19vQkRSbGdjUGxmUURfcld6alJaYkJLNXluS1JfZ2RXZk9yNmNUc0x60gHMAUFVX3lxTE9TMlRZQVVsZVF6YlFFR2hIQkRTcEVfdXF6X1V3cWhqS1NJVWNoUW9WVmJSeGJhQ1FoUlM3dTF5a1pXYXRqWEJSMEo2M0pnalIwUDVRTzdWYkpPdGFjSHppZHVsazRQb0lRSlBCOXRFeVhLdlB1dS1Md3htNnJGek1oeHYzNUFnVkFBWkZlQXNFamF3QUZPTk4xOVNKdWk4X1d2Z2NGYmlVdlRxWDh0djVsTXZ3M2ZJdzRoVVdoVFV6WHd0TUNqdFA1bFc5VQ?oc=5
+3. **DJ Akademiks States His Claim for Drake’s ‘Iceman’ As Album of the Year - The Source Magazine** — Google News — Hip-Hop — Mon, 05 Oct 2026 12:25:08 GMT
+   https://news.google.com/rss/articles/CBMipAFBVV95cUxQTjVRR1R2cGhIN203VmJERDU3NldUU1NJTE9aMkoxdGtKbC1mdHEyblAzdWJtejREcl9LNExseGpSUGxDWFo2NkNXUnFiTFVnNlZuQmhobl9STE1CQkVXb0VsSUNpNDBSdmY5Wmt4YkNmSXdTTXBIUU11ckxUZGVvenozdDNyVkphbWFPMUNMUWo0Ql9yWGYzS2wtOS1rZ1Z5U0VTSQ?oc=5
+4. **Jon Park's Rap Sparks AI Speculation Despite Proof - 조선일보** — Google News — Hip-Hop — Mon, 05 Oct 2026 11:48:45 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxOYmpyb0xSUWxSQnBxeE56M1gwa01rVC1zSnhPNjlNSnBHVEpJUEhKSnppVy1KM1p5X0RiS2JOajY0bm1zVVo1SF96QURtZWVXRC1zMUZoVGxwM0ZodE1ST2dTNkFBeThodkJ2SnJsRGw2T1h2LVhPMy1sd0cxWmUxN3BHNHNac1ltcVp6QWRB?oc=5
-2. **Yung Miami Announces Debut Solo Album ‘WATCH DIS’ With Two New Singles - The Source Magazine** — Google News — Hip-Hop — Mon, 05 Oct 2026 11:47:38 GMT
+5. **Yung Miami Announces Debut Solo Album ‘WATCH DIS’ With Two New Singles - The Source Magazine** — Google News — Hip-Hop — Mon, 05 Oct 2026 11:47:38 GMT
    https://news.google.com/rss/articles/CBMidEFVX3lxTE5NeURtanRRc1JReVE2d0hHS2YtRUlYbFYtQjlZRWdWN19SQVlJS1BsN1NWaFBOdHhnRnV5RVlUZDFCNzJWMjU5eE9MR0t5bEZVWnQyeG5hc2RtV0ZaU2FZWkNudmN1NW1TeHMwOFdOclZhYWow?oc=5
-3. **John Park defends hip-hop intro after fans accuse song of sounding like AI - CHOSUNBIZ - biz.chosun.com** — Google News — Hip-Hop — Mon, 05 Oct 2026 11:40:00 GMT
+6. **John Park defends hip-hop intro after fans accuse song of sounding like AI - CHOSUNBIZ - Chosunbiz** — Google News — Hip-Hop — Mon, 05 Oct 2026 11:40:00 GMT
    https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYjVvSFBJeDM0ajVOWmxydi1iMzFuby0wNnM2aVdzYVZXWEhlX2U4WTg1MTE3TmNmX2hwdnZkaFhBUUdJLTJlNnIydEZ3NDJUS0hEbndxNG1iUmpjY3ZndEFnM3E0RHRraGNKb05aSnRuYzVLU3F5amxpa3ByaVZXMFNTZW9aWVFv0gGcAUFVX3lxTE9EblFDQzZWVUZHamFybFBwQWxBUHkxLVd0WDBpdnlKeGZnOE5GOFFpQm42dmczd0ZZVVV4a2VvWEdtZzBvS3dkNXBST3ZaNkpGbk0tZ2NQdUw3ZU5FeWl6MXVPaVhuY1YzWTB2MTRTM1BxSVZhenBHakprOS1ZZGY2LWMyaUNod2ZnZ1Ewa19MWDAzOU1aWFpDQzBVUA?oc=5
-4. **Creepy Nuts brought exhilarating Japanese hip-hop to The Weeknd's Singapore concerts — gig report - bandwagon.asia** — Google News — Hip-Hop — Mon, 05 Oct 2026 11:11:00 GMT
-   https://news.google.com/rss/articles/CBMizgFBVV95cUxQS1J4THVmOS1hbzhneFc2VkZXaE1BQUJ4MTFjdkRZWDQzbXJVSFFSUnhxWmREaHZrZF9jR3Q5WFNzZl9lek5GV3ZMTWtvb0psNjlQV2tLa3R2eVRWRm9BRU40OUNyc2ZReTc5Y191U3A1SUtPN1d5Rkp4Y0RmYXk3ZFBxdXlBbVpyR2FOTmFmc3RHdTZqUjlHT3dvRVhrVi1fd3UyTWFNQ1l2RGJ3dXNEbXBGQnVPRG5HUjhVZVJEZE0zTHVPVjVpdFV6T0RMUQ?oc=5
-5. **Anuv Jain: Rising Indian singer on new music and future hopes - BBC** — Google News — New Music — Mon, 05 Oct 2026 11:10:28 GMT
-   https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CUFVIbHVlTVoyTU9RQWlyZDQtc0otSXBBWXNvRVBsTnBYNmV2V3NlVk5yMjhyVEt5QXFkWWFzOWk0a2lIdTNfdFNneWJuQjR3SWQ1ZW9ISFhfdXM?oc=5
-6. **Fans Choose Victoria Monét’s ‘Frequency of Love’ as This Week’s Favorite New Music - Billboard** — Google News — New Music — Mon, 05 Oct 2026 10:26:47 GMT
+7. **Creepy Nuts brought exhilarating Japanese hip-hop to The Weeknd's Singapore concerts — gig report - bandwagon.asia** — Google News — Hip-Hop — Mon, 05 Oct 2026 11:11:00 GMT
+   https://news.google.com/rss/articles/CBMizwFBVV95cUxPdUo0SVVGR3kzSW5PWmxLd0Y1dkxxQUFKT2QxNDVTdDNaWjJXQU53dUg1NHRpVlFnY0Z3Q3JsdDhqS2EyTlFnd094VHNKUmRMcG1jVE5ReUFlc1oyOVEtbTg1UEFUY1dBZHdGdEs3ZUZheXgyZklrTG5pNWtLWjRTa3pEQVVsUGYtYjdTRGJ4MTFvMUtobFd1VnJtOXIxNzFaM2VxcGdVc2VTTGdyVHpBLTZrOEZneWNGSkhBVm1oc2RqdDVFeTExZHFhUzI0THM?oc=5
+8. **Fans Choose Victoria Monét’s ‘Frequency of Love’ as This Week’s Favorite New Music - Billboard** — Google News — New Music — Mon, 05 Oct 2026 10:26:47 GMT
    https://news.google.com/rss/articles/CBMirwFBVV95cUxPZURQS3dGRjB3anBJTjZ4SlI4THlRUUVENnhhdUh3NUQydktNam92aGM5WHBnYl9VYUowdURzaFJzV0hJdUI2OTlnaFdBQXFoX1UxT2dMUUs1cHg2cmZlQ09wMzlqNTJxQndpcEhFbmJsbXlhdV9SMnQwUGtucVVpQ2tObklhSGRnSVhYT0g0Y0phR3JkeGY0bmRTNFh2ZGlLMlJaQWxERF8zd3FpOVY0?oc=5
-7. **DJ Spanish Fly's pioneering Memphis rap sound goes global | Exclusive - The Commercial Appeal** — Google News — Hip-Hop — Mon, 05 Oct 2026 10:01:00 GMT
+9. **DJ Spanish Fly's pioneering Memphis rap sound goes global | Exclusive - The Commercial Appeal** — Google News — Hip-Hop — Mon, 05 Oct 2026 10:01:00 GMT
    https://news.google.com/rss/articles/CBMisgFBVV95cUxONFZvSGtVTi0tWnRXeklnX0Q1QkM5bmFic0RObEdqTjJwT25ULUtpMV9BSjJWazV1dUhyNzBpX0VPTmVkaHpYWEVhZjVZZm1TQW1wTVAxSU1jd1VXd1FuaWVSblJiVDhXY3BIQkllT1dxOUs3YTdFRTJ2MDFxbk4ybUZjSzg4enQxVFZkTzdobmV3U3ctZXdFWDJtZXhuQkF4MzlhVzE5WkF4VFcwS1BTTGJ3?oc=5
-8. **Ne-Yo puts a country spin on the video for ‘Dance Right Now’ - Big Country News |** — Google News — R&B — Mon, 05 Oct 2026 09:57:27 GMT
+10. **Ne-Yo puts a country spin on the video for ‘Dance Right Now’ - Big Country News |** — Google News — R&B — Mon, 05 Oct 2026 09:57:27 GMT
    https://news.google.com/rss/articles/CBMiogFBVV95cUxPdk1XZmlsZXNBckRLMW1hQ1dWOHRrY29FcjRLZFBDTmg0MVlmYWt6ODFjb0lva3RjSmZPYXl6YkhNRjRUMFBJREZ2UzJGLVRnVXAwNHRnM2gyZGRQTUFFazVQTkppMnozcHFCOHhMSlMzZkk3RlZnVUdvVWNJUnNHQjhYcTc0aHBjQWd3RTFwZkNvYWNHcHRSMzlFdTVENFVaVlE?oc=5
-9. **British Soulstress Phoenix Laoutaris Reclaims Her Sense of Self on R&B Single "Here We Go" - babystepmagazine.com** — Google News — R&B — Mon, 05 Oct 2026 08:48:31 GMT
+11. **British Soulstress Phoenix Laoutaris Reclaims Her Sense of Self on R&B Single "Here We Go" - babystepmagazine.com** — Google News — R&B — Mon, 05 Oct 2026 08:48:31 GMT
    https://news.google.com/rss/articles/CBMizgFBVV95cUxOenFfX1g1Z0pOdVlQZXBoOGFVaE9GS0dBM0VlMEtpcExJVDVIRHB6RDg3SUFMTWdnczA2LTR0d1lJSzlmVUVCaThteHNUalZBX0JWT2NtTV9yX1AzeE5lY05neVNqQm5sMDUzQUtIaGJnOEpBaERtOEdIVVNselZPWGk3UEdoZ0lnbXFmSm16UGRkN2pwYjZhaXVvaWtOSWowQndPR29mWW0wdmtkRGJYU3NnbHBZQ0NSWnRnVTF3ZlVrZ0tPQkpvZGVLaDM2dw?oc=5
-10. **Polaris on Honoring Ryan Siew With ‘Without You’ & Their Good Things Return - Billboard** — Google News — New Music — Mon, 05 Oct 2026 08:21:46 GMT
-   https://news.google.com/rss/articles/CBMikAFBVV95cUxPUHh6VnlETVZDaDlrVEFhTWdYUHk3Zl9UV3Z6eGRUbUloUXFfblh2VWlEakRaYWdHS3ZjZGw3ei1PZkFIQXJ6OElucy1nODBpZm81OEtmUURzcEExSlZ1UkNZbE91emdyR1VfX0RTbFM2X1E3V2Zzd05nYUF6UEloSWZmSnBFWl8zTTZhbFhEbDY?oc=5
-11. **NEW MUSIC DISCOVERY - 05.10.26 - Mystic Sons** — Google News — New Music — Mon, 05 Oct 2026 08:17:05 GMT
+12. **NEW MUSIC DISCOVERY - 05.10.26 - Mystic Sons** — Google News — New Music — Mon, 05 Oct 2026 08:17:05 GMT
    https://news.google.com/rss/articles/CBMibEFVX3lxTE9WT2RVUHlsNkhQN3pKeXhtVFZVaGhmSXo2aGREOXNveDlpUW5faHc4NTJWMFNPaUlnVmRyTENDMTl0Qi1BQ0luUmFmcWJtNDJ1OVNsRjRsMjR0d0ZJNkZsRm4wNFB1U3BpQW5JYg?oc=5
-12. **Taylor Swift’s ‘The Life of a Showgirl’ Returns to No. 1 After ‘Encore’ Reissue - Billboard** — Google News — New Music — Mon, 05 Oct 2026 07:51:25 GMT
-   https://news.google.com/rss/articles/CBMinwFBVV95cUxNNENfcFlibF9yaUlYM3BvR285Sm9vcWRNdTI0Rm1yYnpzaURVaTVwaDlGLXdYYnpKc1JKQjBSRHVLOWY5SGN4SEtZLWhfVjVDZEY5Z1JKaERoc1ZSVE1EU2lQaW91Z0RXN2RwSXQzbmFJeHFhZzFnakZCWW1neFRaWUx0R2lDWmpLbjJyc2NodnRTY0ZrWlFJRkl2NGVHbFk?oc=5
 13. **Peter Gabriel Completes His i/o Story With New Album o\i - noise11.com** — Google News — New Music — Mon, 05 Oct 2026 07:51:16 GMT
    https://news.google.com/rss/articles/CBMibEFVX3lxTE80WFd0YmZYMHlURGw0NjRJQlNPUExHMnJMTDBBdEM5TTd6SmxDcVdqX3ZCY2k1Nkh0Tnp2UEJxUk02WWlZZlphNHlDaDBOTUxEdGsxSWhTTGJIQ1JsOTU4cFdGdUx2ZFZ6c3pFSA?oc=5
 14. **DJ MilkyMike - The Technocracy – Blueprint for Global Enslavement (Album) + 10 Questions - wordplaymagazine.com** — Google News — Hip-Hop — Mon, 05 Oct 2026 07:30:47 GMT
@@ -42,27 +42,27 @@ Stories discovered: 162
    https://news.google.com/rss/articles/CBMiggFBVV95cUxNMU9kdmhrSmduN3VOaVZOWW9xNjBEb0g4MlVvNUFDdjhFc1VPalh1N0p1THI5WHlqNC04Q0hwVlRtWTFHb3dLSUlRQjhLSmlyVE5TOGk2Wjd4bGlkcHd3R1JzZFRkQlJZX0ZQUWJPb2cyX1owU2hNNUpwekR3MFNpdy13?oc=5
 18. **Inside Indie Tribe’s Plan to Disrupt Christian Hip-Hop - relevantmagazine.com** — Google News — Hip-Hop — Mon, 05 Oct 2026 06:56:35 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxOcjl1c1RpelNPTEExWXA2N3FCczdWRWV1SXhUSnpjRVEycE5MRDBoWF8wa3BLWjNiYnNERFNxM3JmaUt5RmVmU015QWt4aWxET0Jwd2RyYWlEUWFtX2ZVbUhaNDd2TFhyVzE3bFBzRmRQVWF6SVdnYl9HRzFqT2g0QWlYTWk0c3doUmp4Z3Vn?oc=5
-19. **BridgeBio taps Hip Hop Public Health and others up to put a new beat on ATTR-CM awareness - fiercepharma.com** — Google News — Hip-Hop — Mon, 05 Oct 2026 06:48:57 GMT
+19. **BridgeBio taps Hip Hop Public Health and others up to put a new beat on ATTR-CM awareness - Fierce Pharma** — Google News — Hip-Hop — Mon, 05 Oct 2026 06:48:57 GMT
    https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRnkzZUVtRndDSU53OWZaeVk1aDRfTXF4TTl0emdoamNudUo1ZHhOMElKdUk4VjBnYU1maUw0QjJaa0tzdlN2YWRfbVlKZDVkcExuZ0FsZ182QWdkaUNSaHNPZzFReGdpeFhsUTRWMEVnUW5WN0kxZWdXQzNjMU1KV094Y1hSSEYzOVI5Mk5vbi1fZkpJMDBhNDBwSF9TQ3RLSUd0MlBDemFYVnEyS2QtU3ZkcE9pZ29D?oc=5
 20. **Liner Notes: Victoria Monét’s ‘Frequency Of Love’ delivers smooth, silky R&B - The Daily Northwestern** — Google News — R&B — Mon, 05 Oct 2026 06:39:26 GMT
    https://news.google.com/rss/articles/CBMixAFBVV95cUxQaUVrYmZpNGo3bFdDU3EwRmJrbXhXSkFRc1lGYmkzdU9kTVh0UjY0bDRmTnN6ZUMxUi1Sa3FqM3JOWlh3cHFDZkhPRnBFZVFnTjJmWUxEQ0ZFMEt2Zko2TmVmc1FhMjB5NWVOb2hWS0tMQjZ2LUpNN0R0ZWpGZE5xQUl0dXU5clZNS2JPV3IwNkpHRVktYTBIaGNHNGRPclZFR3o4TWYxcHdiM0VzOWlBQWxnT2Z4cmJFdTZDaEozOWdPMkQ0?oc=5
-21. **This Bay Area superstar turned a concert into one big family reunion - San Francisco Chronicle** — Google News — R&B — Mon, 05 Oct 2026 02:05:46 GMT
+21. **Workshop and concert reveal the surprising world of handbell music - Colorado Springs Gazette** — Google News — Colorado Music — Mon, 05 Oct 2026 06:15:00 GMT
+   https://news.google.com/rss/articles/CBMitgFBVV95cUxOcFhxVWU5U29ZUVpvelJXX3hhdThsYTNxTVVac0VoTE9VNVlaNGpSbmg4eUZBNl80V2dIREtpRFpsTEw1MWhqRDVSSU1IVkFiUXpQaEdwUjdjWlFkNE1kM2pWdnNQWXpER3E0MFE0NmZnN1lpbG1qRlppdWk4cjZHUzdYTXcwM3VMWnZqVF9yakxfU1o0UU9URmN0TGt5Ym9NV2NJeDFYOWR6SHYzSUlxWWpROFh1dw?oc=5
+22. **Culture legacy could see Bradford Mela and Bingley festivals return - BBC** — Google News — New Music — Mon, 05 Oct 2026 06:00:13 GMT
+   https://news.google.com/rss/articles/CBMiW0FVX3lxTE80WE9jeUpUVW1zR0o5LU56Q2piV3FWVHRUT0FhWldBVVM2dXk3RjZEV1NYelQ2dm5fcV93a0hZNHpwTUZNM2RGR3lzYy1JTkdFSGZHS3NZNmp0ck0?oc=5
+23. **This Bay Area superstar turned a concert into one big family reunion - San Francisco Chronicle** — Google News — R&B — Mon, 05 Oct 2026 02:05:46 GMT
    https://news.google.com/rss/articles/CBMiggFBVV95cUxNdlE4REpMc05YRGVrbFFwazAyQVJ3NENSbHYtb3l5QWc2T28zZlVGLVZWZlJCUTFrSUFWNFB6bFh4Z1pnM3ZLdEs0T1Z1dDhseGNiMHBKVHpvSGtUS1RQRlZ1MEZ1cUtuZnBXcVRJUHNWZUJDLWdqeEVBT3F0VnJsejR3?oc=5
-22. **LL Cool J Explains How Grandfather Helped Launch His Career &#038; Grandma&#8217;s Warning Against Pierced Nipples** — AllHipHop — Mon, 05 Oct 2026 02:03:42 +0000
+24. **LL Cool J Explains How Grandfather Helped Launch His Career &#038; Grandma&#8217;s Warning Against Pierced Nipples** — AllHipHop — Mon, 05 Oct 2026 02:03:42 +0000
    https://allhiphop.com/news/ll-cool-j-explains-how-grandfather-helped-launch-his-career-grandmas-warning-against-pierced-nipples/
-23. **Lizzo on New Children’s Book, Flute Origin Story, Music Stardom - TODAY.com** — Google News — New Music — Mon, 05 Oct 2026 01:07:22 GMT
+25. **Lizzo on New Children’s Book, Flute Origin Story, Music Stardom - TODAY.com** — Google News — New Music — Mon, 05 Oct 2026 01:07:22 GMT
    https://news.google.com/rss/articles/CBMiogFBVV95cUxOcnM2Wm92QUh4MERHRVB0eW1kRWNXRUZVbFpsMWNSMVFxdGUyS2V0ZkM1VlA5cHNIaXlOc0l4T095MENqUThEQ0hRT0NWeksxQ3FOaFgwV3gxREhaYTgxNUx4eVdhQl9jWDNpVk1XWkxNOER6Ry14MExBZVJkQVp4YjZwWHFKTVVuNU10dndSZXpQX0x3MmM5SnhaNlVzOVF2VHc?oc=5
-24. **Blaq Tuxedo Releases 'No Curfew' Video - antiMusic** — Google News — R&B — Mon, 05 Oct 2026 00:01:45 GMT
+26. **Blaq Tuxedo Releases 'No Curfew' Video - antiMusic** — Google News — R&B — Mon, 05 Oct 2026 00:01:45 GMT
    https://news.google.com/rss/articles/CBMihAFBVV95cUxQU1dQLXR1U2xHQndfWEZleEIxVUlYVzBaRWttdXotd2cwVmFDQzRraUNNbE01M2VidWxDUGlIaEh5T0NKbU1Tb09PRG5WRWtMVzFndFBXaEJlcXZQME13VFo1QTVrU2Vocms3ZnZrUGYyVmRtZjkxY1hiaUN5Vi1XU0ZfQjc?oc=5
-25. **EXCLUSIVE: Jay-Z&#8217;s Roc Nation Seeks Permanent End To Megan Thee Stallion Swimwear Battle Over Ads** — AllHipHop — Mon, 05 Oct 2026 00:01:00 +0000
+27. **EXCLUSIVE: Jay-Z&#8217;s Roc Nation Seeks Permanent End To Megan Thee Stallion Swimwear Battle Over Ads** — AllHipHop — Mon, 05 Oct 2026 00:01:00 +0000
    https://allhiphop.com/news/exclusive-jay-zs-roc-nation-seeks-permanent-end-to-megan-thee-stallion-swimwear-battle-over-ads/
-26. **Jooselord Turns Grief Into Purpose After Son Dies Of Brain Cancer** — AllHipHop — Sun, 04 Oct 2026 23:02:10 +0000
+28. **Jooselord Turns Grief Into Purpose After Son Dies Of Brain Cancer** — AllHipHop — Sun, 04 Oct 2026 23:02:10 +0000
    https://allhiphop.com/news/jooselord-turns-grief-into-purpose-after-son-dies-of-brain-cancer/
-27. **Nasty Nel and Kid Gotti Born Rich Keep Hip-Hop Alive With “HIP HOP HOORAY” The Hype Magazine: Unveiling the Pulse of Urban Culture - From Hip Hop to Hollywood! Explore a Diverse Tapestry of Stories, Interviews, and Impactful Editorials Spanning Fas - The Hype Magazine** — Google News — Hip-Hop — Sun, 04 Oct 2026 22:56:21 GMT
+29. **Nasty Nel and Kid Gotti Born Rich Keep Hip-Hop Alive With “HIP HOP HOORAY” The Hype Magazine: Unveiling the Pulse of Urban Culture - From Hip Hop to Hollywood! Explore a Diverse Tapestry of Stories, Interviews, and Impactful Editorials Spanning Fas - The Hype Magazine** — Google News — Hip-Hop — Sun, 04 Oct 2026 22:56:21 GMT
    https://news.google.com/rss/articles/CBMitwFBVV95cUxOUk01WHVxcmJYTzFuT2VQdm5PV25tVzdLUG5wZ1JwYndNYzJIbFJtMHVRMDdjb3Y0dHhXUWZwRGlBMGpmTWdqckNfSG4zMFhSN3VXTEJzbWlmTnEtSExhdU9GaE5KU1hrZ0R2dElOQ1JrWnhtdTNRbDExOTZKMldsNm5uWnNyZVB6LUhnNlN2cG8yTEZ5aU5EOTAyQ2RtYkVBOWl3N0JMV0pGVjFQcHZyMFhqN2hscnc?oc=5
-28. **Too $hort Apologizes After Backlash Over Plans To Attend Diddy Party** — AllHipHop — Sun, 04 Oct 2026 22:05:00 +0000
+30. **Too $hort Apologizes After Backlash Over Plans To Attend Diddy Party** — AllHipHop — Sun, 04 Oct 2026 22:05:00 +0000
    https://allhiphop.com/news/too-hort-apologizes-after-backlash-over-plans-to-attend-diddy-party/
-29. **Anthony Anderson To Return To Chicago To Host Soul Train Awards 2026** — AllHipHop — Sun, 04 Oct 2026 21:30:00 +0000
-   https://allhiphop.com/news/anthony-anderson-to-return-to-chicago-to-host-soul-train-awards-2026/
-30. **50 Cent Says Street Fighter Is His Movie; Reveals Intense Boxing Regimen** — AllHipHop — Sun, 04 Oct 2026 20:02:48 +0000
-   https://allhiphop.com/news/50-cent-says-street-fighter-is-his-movie-reveals-intense-boxing-regimen/

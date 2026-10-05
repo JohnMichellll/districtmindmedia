@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-05T12:14:42.952Z",
+  "generatedAt": "2026-10-05T12:50:14.995Z",
   "status": "READY_FOR_EDITOR",
-  "storyCount": 162,
+  "storyCount": 200,
   "sourceCount": 8,
   "healthySources": 8,
   "failedSources": 0,
-  "acceptedStories": 206,
+  "acceptedStories": 246,
   "acceptedBySource": {
     "TMZ": 20,
     "HipHopDX": 16,
@@ -14,7 +14,7 @@
     "Google News — Hip-Hop": 40,
     "Google News — R&B": 40,
     "Google News — New Music": 40,
-    "Google News — Colorado Music": 0
+    "Google News — Colorado Music": 40
   },
   "sourceHealth": [
     {
@@ -22,11 +22,11 @@
       "tier": 2,
       "status": "ok",
       "stories": 20,
-      "bytes": 18892,
+      "bytes": 19005,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=5191c713f4ce46f19a7101f9abf0986f benchma",
-      "latencyMs": 92
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=6cbd6466f7dd4e9d9b55bad4ef3b2c12 benchma",
+      "latencyMs": 183
     },
     {
       "source": "HipHopDX",
@@ -37,18 +37,18 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 63
+      "latencyMs": 108
     },
     {
       "source": "AllHipHop",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 82456,
+      "bytes": 82484,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 431
+      "latencyMs": 880
     },
     {
       "source": "No Jumper",
@@ -59,51 +59,51 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 376
+      "latencyMs": 414
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 126612,
+      "bytes": 126975,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 486
+      "latencyMs": 519
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 130708,
+      "bytes": 131008,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 447
+      "latencyMs": 457
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 124248,
+      "bytes": 125297,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 528
+      "latencyMs": 472
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
-      "stories": 0,
-      "bytes": 1122,
-      "hasItemTag": false,
+      "stories": 100,
+      "bytes": 126120,
+      "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 1111
+      "latencyMs": 445
     }
   ]
 }
