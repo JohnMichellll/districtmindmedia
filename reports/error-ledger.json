@@ -1,5 +1,78 @@
 {
   "version": 1,
-  "updatedAt": null,
-  "errors": []
+  "updatedAt": "2026-10-05T04:10:35.020Z",
+  "errors": [
+    {
+      "source": "TMZ",
+      "tier": 2,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 196,
+      "error": "Cannot access 'stories' before initialization",
+      "workflow": "newsroom-operator"
+    },
+    {
+      "source": "HipHopDX",
+      "tier": 1,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 189,
+      "error": "Cannot access 'stories' before initialization",
+      "workflow": "newsroom-operator"
+    },
+    {
+      "source": "AllHipHop",
+      "tier": 1,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 593,
+      "error": "Cannot access 'stories' before initialization",
+      "workflow": "newsroom-operator"
+    },
+    {
+      "source": "No Jumper",
+      "tier": 2,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 993,
+      "error": "Cannot access 'stories' before initialization",
+      "workflow": "newsroom-operator"
+    },
+    {
+      "source": "Google News — Hip-Hop",
+      "tier": 2,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 513,
+      "error": "Cannot access 'stories' before initialization",
+      "workflow": "newsroom-operator"
+    },
+    {
+      "source": "Google News — R&B",
+      "tier": 2,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 420,
+      "error": "Cannot access 'stories' before initialization",
+      "workflow": "newsroom-operator"
+    },
+    {
+      "source": "Google News — New Music",
+      "tier": 2,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 464,
+      "error": "Cannot access 'stories' before initialization",
+      "workflow": "newsroom-operator"
+    },
+    {
+      "source": "Google News — Colorado Music",
+      "tier": 2,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 504,
+      "error": "Cannot access 'stories' before initialization",
+      "workflow": "newsroom-operator"
+    }
+  ]
 }
