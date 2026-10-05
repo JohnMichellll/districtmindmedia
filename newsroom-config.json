@@ -2,9 +2,9 @@
   "name": "District Mind AI Newsroom",
   "version": "2.0.1",
   "principles": {
-    "ai_role": "research, triage, summarization, QA, discovery and recommendations",
+    "ai_role": "research, source discovery, triage, cross-checking, summarization, QA, local discovery and recommendations",
     "human_role": "editorial judgment, publication approval and high-risk decisions",
-    "source_policy": "Use public source metadata and links; never copy full articles or fabricate reporting.",
+    "source_policy": "Use public source metadata, headlines, summaries and links; never copy full articles. Cross-check important claims and link readers to original reporting.",
     "speed_policy": "Prefer fast public feeds first, then discovery feeds; time out slow sources and continue.",
     "failure_policy": "Never hide failures. Record source, workflow, stage, timestamp, latency and error message."
   },
@@ -88,6 +88,26 @@
       "name": "Google News — Colorado Music",
       "url": "https://news.google.com/rss/search?q=Colorado%20music&hl=en-US&gl=US&ceid=US:en",
       "tier": 2
+    },
+    {
+      "name": "Billboard",
+      "url": "https://www.billboard.com/feed/",
+      "tier": 1
+    },
+    {
+      "name": "Pitchfork",
+      "url": "https://pitchfork.com/feed/feed-news/rss",
+      "tier": 1
+    },
+    {
+      "name": "Rolling Stone — Music",
+      "url": "https://www.rollingstone.com/music/music-news/feed/",
+      "tier": 1
+    },
+    {
+      "name": "Variety — Music",
+      "url": "https://variety.com/v/music/feed/",
+      "tier": 1
     }
   ],
   "noise": [
