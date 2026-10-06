@@ -4,6 +4,37 @@ const legacyNames=["ray charles","louis armstrong","aretha franklin","ella fitzg
 const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers});
 const fetchJson=async(url,ms=7000)=>{const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal});return r.ok?await r.json():null}catch{return null}finally{clearTimeout(t)}};
 const norm=s=>String(s||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
+const appleImageFromPage=async(artistUrl)=>{
+ if(!artistUrl)return null;
+ try{
+  const r=await fetch(artistUrl,{headers:{"User-Agent":"Mozilla/5.0 DistrictMindMedia/1.0"}});
+  if(!r.ok)return null;
+  const html=await r.text();
+  const metas=[
+   /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i,
+   /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i,
+   /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i,
+   /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image["']/i
+  ];
+  for(const re of metas){
+   const m=html.match(re);
+   if(m?.[1]){
+    const image=m[1].replace(/&amp;/g,"&");
+    if(/^https:\/\//i.test(image))return image;
+   }
+  }
+  const ld=html.match(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/i);
+  if(ld?.[1]){
+   try{
+    const data=JSON.parse(ld[1]);
+    const image=Array.isArray(data)?data.find(x=>x?.image)?.image:data?.image;
+    if(typeof image==="string"&&/^https:\/\//i.test(image))return image;
+    if(Array.isArray(image)&&image[0])return image[0];
+   }catch{}
+  }
+ }catch{}
+ return null;
+};
 const artistScore=(a,q)=>{const n=norm(a.artistName),x=norm(q);if(n===x)return 100;if(n.startsWith(x))return 85;if(n.includes(x))return 70;return 0};
 export async function onRequestGet({request,env}){
  const q=(new URL(request.url).searchParams.get("q")||"").trim();
@@ -40,6 +71,7 @@ export async function onRequestGet({request,env}){
   const era=(firstReleaseYear&&firstReleaseYear<2000)||legacyNames.includes(norm(best))?"legacy":"modern";
   const slug=encodeURIComponent(best).replace(/%20/g,"-");
   const links={apple:bestArtist.artistId?"https://music.apple.com/us/artist/"+slug+"/"+bestArtist.artistId:"https://music.apple.com/us/search?term="+encodeURIComponent(best),spotify:"https://open.spotify.com/search/"+encodeURIComponent(best),youtube:"https://www.youtube.com/results?search_query="+encodeURIComponent(best+" music"),soundcloud:"https://soundcloud.com/search?q="+encodeURIComponent(best),instagram:"https://www.google.com/search?q="+encodeURIComponent(best+" official Instagram")};
+  const artistImage=await appleImageFromPage(links.apple);
   // Deployment marker: keep the production Pages build tied to the repaired main-branch function.
   let ai=null;
   if(env?.XAI_API_KEY){
@@ -72,6 +104,6 @@ export async function onRequestGet({request,env}){
     }catch{}
    }  }
   if(!ai)ai={artist:best,genre:bestArtist.primaryGenreName||music[0]?.genre||"Music artist",summary:"District Mind assembled catalog music, release artwork and current source-linked coverage for this artist.",whatToListenTo:music.slice(0,5).map(x=>x.title),whatIsHappeningNow:news.slice(0,3).map(x=>x.title),discoveryTips:"Use the listening buttons to keep exploring. Current articles remain source-linked."};
-  return json({ok:true,query:q,artist:best,artists:artists.slice(0,12),ai,music,news,links,era,firstReleaseYear,artistId:bestArtist.artistId||null,generatedAt:new Date().toISOString()});
+  return json({ok:true,query:q,artist:best,artists:artists.slice(0,12),ai,music,news,links,artistImage,era,firstReleaseYear,artistId:bestArtist.artistId||null,generatedAt:new Date().toISOString()});
  }catch(e){return json({ok:false,error:"The artist intelligence desk is temporarily offline."},502);}
 }
