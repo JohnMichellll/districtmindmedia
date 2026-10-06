@@ -7,7 +7,7 @@
   if(!feed)return;
   const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
   const strip=v=>String(v??'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
-  let allStories=[], activeFilter='all', refreshing=false, touchStartY=0, touchDistance=0;
+  let allStories=[], activeFilter='all', refreshing=false, touchStartY=0, touchDistance=0, batchOffset=0;
   const tz=Intl.DateTimeFormat().resolvedOptions().timeZone || 'LOCAL TIME';
   const localHour=d=>Number(new Intl.DateTimeFormat('en-US',{hour:'numeric',hour12:false,timeZone:tz}).format(d));
   const ageHours=d=>(Date.now()-d.getTime())/3600000;
@@ -19,10 +19,12 @@
     if(/artist|rapper|singer|rapper|producer|dj|actor|celebrity/.test(t))return 'ARTISTS';
     return 'CULTURE';
   };
+  const dayKey=d=>new Intl.DateTimeFormat('en-CA',{timeZone:tz,year:'numeric',month:'2-digit',day:'2-digit'}).format(d);
   const reasonOf=(s,age)=>{
-    if(age<3)return 'MOVING NOW';
-    if(age<12)return 'TODAY / FRESH';
-    if(age<30)return 'EARLIER TODAY';
+    const today=dayKey(new Date()), storyDay=dayKey(new Date(s.pubDate));
+    if(storyDay===today && age<3)return 'MOVING NOW';
+    if(storyDay===today)return 'TODAY / FRESH';
+    if(age<48)return 'EARLIER / LOCAL';
     return 'LATEST UPDATE';
   };
   const render=stories=>{
@@ -44,7 +46,9 @@
   };
   function filtered(){
     const pool=activeFilter==='all'?allStories:allStories.filter(s=>categoryOf(s).toLowerCase()===activeFilter);
-    return pool.slice(0,24);
+    if(pool.length<=24)return pool;
+    const start=batchOffset%pool.length;
+    return Array.from({length:24},(_,n)=>pool[(start+n)%pool.length]);
   }
   async function load(){
     if(refreshing)return; refreshing=true; refresh.disabled=true; status.textContent='SCANNING / '+tz.toUpperCase();
@@ -55,6 +59,7 @@
       const seen=new Set();
       allStories=incoming.filter(s=>{const k=s.title.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();if(seen.has(k))return false;seen.add(k);return true;});
       if(!allStories.length)throw new Error('empty');
+      batchOffset=(batchOffset+24)%Math.max(1,allStories.length);
       render(filtered());
       const newest=new Date(allStories[0].pubDate);
       const fresh=allStories.filter(s=>ageHours(new Date(s.pubDate))<18).length;
@@ -68,7 +73,7 @@
     }finally{refreshing=false;refresh.disabled=false;}
   }
   document.querySelectorAll('.radar-filter').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.radar-filter').forEach(x=>x.classList.remove('is-active'));b.classList.add('is-active');activeFilter=b.dataset.filter;render(filtered());feed.scrollTo({top:0,behavior:'smooth'});}));
-  refresh.addEventListener('click',load);
+  refresh.addEventListener('click',()=>{batchOffset+=24;load();});
   let lastPull=0;
   feed.addEventListener('touchstart',e=>{if(feed.scrollTop===0)touchStartY=e.touches[0].clientY;},{passive:true});
   feed.addEventListener('touchmove',e=>{if(feed.scrollTop!==0||!touchStartY)return;touchDistance=e.touches[0].clientY-touchStartY;if(touchDistance>15){pull.classList.add('is-visible');pull.textContent=touchDistance>85?'Release to refresh':'Pull to refresh';}},{passive:true});
