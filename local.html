@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Local Watch — District Mind Media</title>
+<meta name="description" content="Location-aware District Mind coverage: touring artists, shows, local culture and recent reports by state or area.">
+<link rel="stylesheet" href="style.css">
+<style>
+.local-shell{max-width:1100px;margin:auto;padding:72px 24px}.local-controls{display:grid;grid-template-columns:1fr auto;gap:12px;margin:28px 0}.local-controls input,.local-controls button{padding:16px;border:1px solid #222;background:#fff;font:inherit}.local-controls button{background:#111;color:#fff;cursor:pointer}.local-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.local-panel{border:1px solid #222;padding:24px;background:#f4f4f0}.local-panel h2{margin-top:0}.local-item{border-top:1px solid #bbb;padding:18px 0}.local-item:first-child{border-top:0}.local-item h3{margin:6px 0}.local-meta{font-size:.72rem;letter-spacing:.12em}.local-item a{color:inherit}.local-note{font-size:.9rem;opacity:.72}.local-status{margin:12px 0}.local-archive{margin-top:24px}.local-archive .local-item{background:transparent}@media(max-width:700px){.local-grid{grid-template-columns:1fr}.local-controls{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="nav-container"><a href="index.html" class="logo">DISTRICT MIND</a><button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button><nav class="primary-nav" id="primary-nav"><a href="newsroom.html">Newsroom</a><a href="radar.html">Radar</a><a href="releases.html">Releases</a><a href="wayfinder.html">Wayfinder</a><a href="artists.html">Artists</a><a href="academy.html">Academy</a><a href="culture.html">Culture</a></nav></div></header>
+<main><section class="page-hero"><div class="local-shell"><p class="eyebrow">DISTRICT MIND / LOCAL WATCH</p><h1>WHO'S COMING<br>NEAR YOU?</h1><p class="hero-text" style="color:var(--muted);max-width:680px">Enter a state or city. District Mind will build a local view without turning that place into the homepage for everyone else.</p>
+<form class="local-controls" id="local-form"><input id="local-input" placeholder="Try Colorado, New York, Atlanta, Texas…" value="Colorado" aria-label="State or area"><button>Load Local Desk →</button></form><p class="local-note">Local results are an opt-in discovery layer. The main homepage remains national and culture-first.</p><p class="local-status" id="status">Ready.</p></div></section>
+<section class="local-shell"><div class="local-grid"><div class="local-panel"><p class="eyebrow">01 / WHO'S COMING</p><h2>Shows + touring artists</h2><div id="events"><p>Enter a location to load current reports.</p></div></div><div class="local-panel"><p class="eyebrow">02 / CULTURE BRIEFS</p><h2>What's happening there</h2><div id="culture"><p>Local artist moves, music culture and recent reports appear here.</p></div></div></div><div class="local-panel local-archive"><p class="eyebrow">03 / ARCHIVE</p><h2>Keep the signal.</h2><p class="local-note">Stories older than the 24-hour latest window remain discoverable here for up to seven days. Useful history does not disappear just because the feed moved on.</p><div id="archive"></div></div></section></main>
+<footer><div class="footer-container"><div><h3>District Mind</h3><p>Media</p></div><div class="footer-links"><a href="about.html">About</a><a href="editorial-policy.html">Editorial Policy</a><a href="contact.html">Contact</a></div><p>© 2026 District Mind Media.</p></div></footer>
+<script>
+const form=document.getElementById('local-form'),input=document.getElementById('local-input'),status=document.getElementById('status');
+const esc=v=>String(v??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+function render(items){return items.map(i=>{const d=i.pubDate?new Date(i.pubDate):null;const when=d&&!isNaN(d)?d.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'Latest';return '<article class="local-item"><div class="local-meta">'+esc(i.source||'DISTRICT MIND DESK')+' · '+esc(when)+'</div><h3><a href="'+esc(i.link||'#')" target="_blank" rel="noopener noreferrer">'+esc(i.title)+'</a></h3><p>'+esc(i.description||'')+'</p><a href="'+esc(i.link||'#')" target="_blank" rel="noopener noreferrer">Open original report →</a></article>'}).join('')}
+async function load(){
+ const q=input.value.trim();if(!q)return;status.textContent='SCANNING '+q.toUpperCase()+'…';
+ const [latest,archive]=await Promise.all([fetch('/api/news?local='+encodeURIComponent(q)+'&hours=168&limit=60&ts='+Date.now(),{cache:'no-store'}).then(r=>r.text()),fetch('/api/news?local='+encodeURIComponent(q)+'&mode=archive&limit=60&ts='+Date.now(),{cache:'no-store'}).then(r=>r.text())]);
+ const parse=x=>{const doc=new DOMParser().parseFromString(x,'application/xml');return [...doc.querySelectorAll('item')].map(i=>({title:i.querySelector('title')?.textContent||'Untitled',link:i.querySelector('link')?.textContent||'#',pubDate:i.querySelector('pubDate')?.textContent||'',description:(i.querySelector('description')?.textContent||'').replace(/<[^>]*>/g,'').slice(0,240),source:i.querySelector('category')?.textContent||'LIVE'})};
+ const all=parse(latest), old=parse(archive);const cutoff=Date.now()-24*3600000;
+ const fresh=all.filter(i=>{const t=Date.parse(i.pubDate);return !isNaN(t)&&t>=cutoff});const culture=all.filter(i=>!fresh.includes(i)).slice(0,10);
+ document.getElementById('events').innerHTML=render(all.filter(i=>/concert|tour|live|festival|show|arena|theatre|theater|ball|red rocks/i.test(i.title+' '+i.description)).slice(0,14))||'<p>No event signal found yet. Try the full state name or nearby city.</p>';
+ document.getElementById('culture').innerHTML=render(fresh.slice(0,14))||'<p>No fresh local signal in the last 24 hours. Check the archive below.</p>';
+ document.getElementById('archive').innerHTML=render([...culture,...old].slice(0,24))||'<p>No archive items yet.</p>';
+ status.textContent=q.toUpperCase()+' / LOCAL DESK UPDATED '+new Date().toLocaleTimeString([], {hour:'numeric',minute:'2-digit'});
+}
+form.addEventListener('submit',e=>{e.preventDefault();load()});load();
+</script><script src="site-guide.js" defer></script>
+</body></html>
