@@ -9,7 +9,7 @@ const SOURCES = [
   { name: "No Jumper", url: "https://feeds.megaphone.fm/NJP4856622419", weight: 0.95 }
 ];
 
-const GOOGLE_QUERIES = [
+const BASE_GOOGLE_QUERIES = [
   "hip-hop OR rap OR rapper",
   "R&B OR soul OR singer",
   "hip-hop drama OR rapper beef OR artist responds OR artist controversy",
@@ -91,8 +91,14 @@ async function fetchXmlSource(source) {
   }
 }
 
-async function fetchGoogle(googleWindow) {
-  const parts = await Promise.all(GOOGLE_QUERIES.map(async query => {
+async function fetchGoogle(googleWindow, localQuery = "") {
+  const queries = localQuery ? [
+    `concert OR tour OR live music ${localQuery}`,
+    `hip-hop OR rap OR R&B artist ${localQuery}`,
+    `music culture OR artist spotted OR artist wearing ${localQuery}`,
+    `music festival OR concert lineup ${localQuery}`
+  ] : BASE_GOOGLE_QUERIES;
+  const parts = await Promise.all(queries.map(async query => {
     try {
       const url = "https://news.google.com/rss/search?q=" + encodeURIComponent(query + " when:" + googleWindow + "d") + "&hl=en-US&gl=US&ceid=US:en";
       const response = await fetch(url, { headers: { "User-Agent": "DistrictMindMedia/1.0" } });
@@ -119,17 +125,22 @@ async function fetchGoogle(googleWindow) {
 
 export async function onRequestGet({ request }) {
   const requestUrl = new URL(request.url);
-  const hours = Math.min(Math.max(Number(requestUrl.searchParams.get("hours") || 72), 24), 168);
+  const mode = requestUrl.searchParams.get("mode") || "latest";
+  const local = String(requestUrl.searchParams.get("local") || "").trim();
+  const hours = mode === "archive"
+    ? 168
+    : Math.min(Math.max(Number(requestUrl.searchParams.get("hours") || (local ? 168 : 24)), 24), 168);
   const limit = Math.min(Math.max(Number(requestUrl.searchParams.get("limit") || 36), 12), 60);
   const googleWindow = Math.min(7, Math.ceil(hours / 24));
   const [direct, google] = await Promise.all([
     Promise.all(SOURCES.map(fetchXmlSource)).then(parts => parts.flat()),
-    fetchGoogle(googleWindow)
+    fetchGoogle(googleWindow, local ? `in ${local}` : "")
   ]);
 
   const seen = new Set();
   const items = [...direct, ...google]
     .filter(item => item.title && item.link && item.score > -50)
+    .filter(item => !local || new RegExp(local.replace(/[.*+?^${}()|[\]\\]/g, "\\    .filter(item => item.title && item.link && item.score > -50)"), "i").test(item.title + " " + item.description + " " + item.source))
     .sort((a,b) => b.score - a.score || new Date(b.pubDate) - new Date(a.pubDate))
     .filter(item => {
       const key = item.title.toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
@@ -148,7 +159,7 @@ export async function onRequestGet({ request }) {
 <rss version="2.0"><channel>
 <title>District Mind Media — Live News Desk</title>
 <link>https://district-mind-media.pages.dev/</link>
-<description>Live hip-hop, R&amp;B, new music and culture headlines curated by the District Mind newsroom.</description>
+<description>Live hip-hop, R&amp;B, new music, culture and location-aware headlines curated by the District Mind newsroom.</description>
 <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
 ${items.map(item => `<item>
 <title>${esc(item.title)}</title>
