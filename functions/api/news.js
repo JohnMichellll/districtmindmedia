@@ -90,7 +90,7 @@ async function fetchXmlSource(source) {
   }
 }
 
-async function fetchGoogle() {
+async function fetchGoogle(googleWindow) {
   const parts = await Promise.all(GOOGLE_QUERIES.map(async query => {
     try {
       const url = "https://news.google.com/rss/search?q=" + encodeURIComponent(query + " when:" + googleWindow + "d") + "&hl=en-US&gl=US&ceid=US:en";
@@ -123,7 +123,7 @@ export async function onRequestGet({ request }) {
   const googleWindow = Math.min(7, Math.ceil(hours / 24));
   const [direct, google] = await Promise.all([
     Promise.all(SOURCES.map(fetchXmlSource)).then(parts => parts.flat()),
-    fetchGoogle()
+    fetchGoogle(googleWindow)
   ]);
 
   const seen = new Set();
