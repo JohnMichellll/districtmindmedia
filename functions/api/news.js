@@ -140,7 +140,7 @@ export async function onRequestGet({ request }) {
   const seen = new Set();
   const items = [...(local ? [] : direct), ...google]
     .filter(item => item.title && item.link && item.score > -50)
-    .filter(item => !local || new RegExp(local.replace(/[.*+?^${}()|[\]\\]/g, "\\    .filter(item => item.title && item.link && item.score > -50)"), "i").test(item.title + " " + item.description + " " + item.source))
+    .filter(item => {\n      if (!local) return true;\n      const needle = local.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\.filter(item => !local || new RegExp(local.replace(/[.*+?^${}()|[\]\\]/g, "\\    .filter(item => item.title && item.link && item.score > -50)"), "i").test(item.title + " " + item.description + " " + item.source))");\n      return new RegExp(needle, "i").test(item.title + " " + item.description + " " + item.source);\n    })
     .sort((a,b) => b.score - a.score || new Date(b.pubDate) - new Date(a.pubDate))
     .filter(item => {
       const key = item.title.toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
