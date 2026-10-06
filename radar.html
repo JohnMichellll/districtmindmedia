@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Radar — District Mind Media</title>
+<meta name="description" content="District Mind Radar: a live, swipe-first stream of hip-hop, artists, drama, culture and stories moving right now.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://district-mind-media.pages.dev/radar.html">
+<meta property="og:title" content="Radar — District Mind Media">
+<meta property="og:description" content="Swipe through what’s moving in music, artists and culture.">
+<meta property="og:type" content="website"><meta property="og:url" content="https://district-mind-media.pages.dev/radar.html"><meta property="og:site_name" content="District Mind Media">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="radar-page">
+<header class="site-header">
+<div class="nav-container">
+<a href="index.html" class="logo">DISTRICT MIND</a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+<nav class="primary-nav" id="primary-nav">
+<a href="newsroom.html">Newsroom</a><a href="radar.html">Radar</a><a href="releases.html">Releases</a><a href="wayfinder.html">Wayfinder</a><a href="artists.html">Artists</a><a href="academy.html">Academy</a><a href="culture.html">Culture</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+</nav></div></header>
+<main>
+<section class="radar-header"><div class="radar-header-inner"><p class="eyebrow">DISTRICT MIND / LIVE CULTURE INTELLIGENCE</p><h1>WHAT’S<br>MOVING.</h1><p>Swipe through artist drama, breaking culture, viral moments, interviews, shows, music and the smaller stories people are talking about. No user posts. Just the radar.</p></div></section>
+<div class="radar-controls">
+<div class="radar-filters" role="tablist" aria-label="Radar filters">
+<button class="radar-filter is-active" data-filter="all">All</button><button class="radar-filter" data-filter="breaking">Breaking</button><button class="radar-filter" data-filter="artists">Artists</button><button class="radar-filter" data-filter="culture">Culture</button><button class="radar-filter" data-filter="music">Music</button><button class="radar-filter" data-filter="shows">Shows</button>
+</div>
+<div><button class="radar-refresh" id="radar-refresh" type="button">Refresh Radar ↻</button><div class="radar-status" id="radar-status">LOCAL TIME / SCANNING</div></div>
+</div>
+<div class="radar-pull" id="radar-pull">Release to refresh</div>
+<section id="radar-feed" class="radar-feed" aria-live="polite"><div class="radar-empty"><div><p class="eyebrow">SCANNING THE CULTURE</p><h2>Loading Radar.</h2><p>Pull down or swipe through the latest reports.</p></div></div></section>
+<div class="radar-ai-note" id="radar-ai-note">AI ASSIST / SOURCE TRIAGE ACTIVE · HUMAN EDITORIAL JUDGMENT REMAINS REQUIRED FOR PUBLISHED REPORTING.</div>
+</main>
+<footer class="radar-footer"><div class="footer-container"><div><h3>District Mind</h3><p>Media / Radar</p></div><div class="footer-links"><a href="newsroom.html">Newsroom</a><a href="artists.html">Artists</a><a href="editorial-policy.html">Editorial Policy</a><a href="feed.xml">RSS</a></div><p>© 2026 District Mind Media. All rights reserved.</p></div></footer>
+<script src="radar.js"></script>
+<script src="site-guide.js" defer></script>
+<script>
+const menuToggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.primary-nav');
+if(menuToggle&&nav){menuToggle.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');menuToggle.setAttribute('aria-expanded',String(open));});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('is-open');menuToggle.setAttribute('aria-expanded','false');}));}
+</script>
+</body></html>
