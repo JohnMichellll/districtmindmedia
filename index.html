@@ -16,7 +16,7 @@
     <a href="index.html" class="logo">DISTRICT MIND</a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
     <nav class="primary-nav" id="primary-nav">
-      <a href="newsroom.html">Newsroom</a><a href="releases.html">Releases</a><a href="colorado.html">Colorado</a><a href="artists.html">Artists</a><a href="academy.html">Academy</a><a href="culture.html">Culture</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+      <a href="newsroom.html">Newsroom</a><a href="releases.html">Releases</a><a href="wayfinder.html">Wayfinder</a><a href="artists.html">Artists</a><a href="academy.html">Academy</a><a href="culture.html">Culture</a><a href="about.html">About</a><a href="contact.html">Contact</a>
     </nav>
   </div>
 </header>
@@ -27,7 +27,7 @@
     <p class="eyebrow">District Mind Media / October 2026</p>
     <h1>THE CULTURE<br>IN MOTION.</h1>
     <p class="hero-text">Music, artists, releases, and stories worth paying attention to. Independent coverage with a point of view.</p>
-    <div class="hero-actions"><a class="hero-button" href="explore.html">Explore Media</a><a class="hero-button secondary" href="article.html">Read The Colorado Story</a></div>
+    <div class="hero-actions"><a class="hero-button" href="explore.html">Explore Media</a><a class="hero-button secondary" href="wayfinder.html">Open Wayfinder</a></div>
   </div>
 </section>
 
@@ -38,13 +38,13 @@
 
 <section id="latest" class="section reveal">
   <div class="section-heading"><p class="eyebrow">01 / Latest</p><h2>What’s moving.</h2></div>
-  <a class="featured-card featured-story" href="article.html">
-    <div class="featured-photo" data-photo-key="jpegmafia" role="img" aria-label="JPEGMAFIA performing"><span class="photo-credit">Photo: 414.Elis / Wikimedia Commons · CC BY 4.0</span></div>
+  <a class="featured-card featured-story" href="newsroom.html">
+    <div class="featured-photo" data-photo-key="jpegmafia" role="img" aria-label="JPEGMAFIA performing"><span class="photo-credit">District Mind Media / Artist Desk</span></div>
     <div class="card-content">
-      <p class="category">LIVE MUSIC / COLORADO</p>
-      <h3>WHO'S COMING TO COLORADO: THE ARTISTS WE'RE WATCHING</h3>
-      <p>Denver's October calendar is stacked: Doja Cat, Earl Sweatshirt & MIKE, JPEGMAFIA, YG, Chief Keef and more. These are the rooms and artists on our radar.</p>
-      <span class="inline-link">Read Story →</span>
+      <p class="category">NEWSROOM / MUSIC & CULTURE</p>
+      <h3>THE CULTURE MOVES FAST. WE'RE WATCHING.</h3>
+      <p>New music, artist moves, live shows and stories worth paying attention to — tracked through the District Mind desk.</p>
+      <span class="inline-link">Enter The Newsroom →</span>
     </div>
   </a>
 </section>
@@ -100,7 +100,7 @@
 <section class="section dark-section reveal">
   <div class="section-heading"><p class="eyebrow">04 / Artist Watch</p><h2>Names to track.</h2></div>
   <div class="artist-feature">
-    <div><p class="category">LIVE / RAP / COLORADO</p><h3>YG + CHIEF KEEF</h3><p>Two different generations of rap energy hit the Fillmore Auditorium on October 13 and October 17. Denver is getting a strong run of live hip-hop this month.</p></div>
+    <div><p class="category">LIVE / RAP / ARTIST WATCH</p><h3>WHO'S OUTSIDE.</h3><p>From established names to artists building the next wave, the District Mind desk tracks who is moving, where they are playing and why the room matters.</p></div>
     <a href="article.html">View The Story →</a>
   </div>
 </section>
@@ -115,11 +115,15 @@
 </section>
 
 <section class="section reveal">
-  <div class="section-heading"><p class="eyebrow">05 / Culture</p><h2>More than music.</h2></div>
+  <div class="section-heading"><p class="eyebrow">06 / Culture</p><h2>More than music.</h2></div>
   <div class="culture-grid">
     <a class="culture-card culture-photo one" data-photo-key="quavo" href="article.html"><p class="category">LIVE CULTURE</p><h3>WHY THE ROOM STILL MATTERS</h3><p>Streaming can tell you what people play. Live rooms tell you what people feel.</p></a>
     <a class="culture-card culture-photo two" data-photo-key="victoria-monet" href="releases.html"><p class="category">THE CALENDAR</p><h3>OCTOBER IS MOVING FAST</h3><p>A new season of releases, tours and cultural moments is already taking shape.</p></a>
   </div>
+</section>
+
+<section class="spotlight-banner reveal">
+  <div class="spotlight-banner-inner"><div><p class="eyebrow">District Mind Wayfinder</p><h2>FIND WHAT'S MOVING AROUND YOU.</h2></div><a href="wayfinder.html">Open Wayfinder →</a></div>
 </section>
 
 <section class="spotlight-banner reveal">
@@ -153,7 +157,7 @@ async function loadLiveNews(){
   const fallback=[
     {title:'District Mind Media is live: the newsroom is building its daily music and culture desk.',source:'DISTRICT MIND MEDIA',pubDate:'',description:'Live reporting and source scouting across hip-hop, R&B, releases, tours and Colorado culture.',link:'newsroom.html'},
     {title:'John Michell — Drivin Crazy',source:'DISTRICT MIND RECORDS',pubDate:'',description:'Drivin Crazy is a John Michell release through District Mind Records. Artist and release identity are kept separate from outside coverage.',link:'john-michell.html'},
-    {title:'Colorado Music Desk',source:'COLORADO DESK',pubDate:'',description:'Tracking concerts, artists, venues and music culture across Colorado.',link:'colorado.html'}
+    {title:'District Mind Wayfinder',source:'COLORADO DESK',pubDate:'',description:'Tracking artists, concerts, venues and music culture wherever you are.',link:'colorado.html'}
   ];
   const esc=v=>String(v??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
   const render=items=>items.map(item=>{
