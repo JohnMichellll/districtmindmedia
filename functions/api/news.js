@@ -12,8 +12,10 @@ const SOURCES = [
 const GOOGLE_QUERIES = [
   "hip-hop OR rap OR rapper",
   "R&B OR soul OR singer",
+  "hip-hop drama OR rapper beef OR artist responds OR artist controversy",
+  "music culture OR viral artist OR celebrity music",
   "new music OR album OR single",
-  "Colorado music OR Denver music OR Denver concerts"
+  "concert OR tour OR live music"
 ];
 
 const BLOCKED = ["casino","betting","odds","coupon","lottery","horoscope"];
@@ -50,7 +52,7 @@ function image(block) {
 function score(item, weight = 1) {
   const text = (item.title + " " + item.description).toLowerCase();
   if (BLOCKED.some(word => text.includes(word))) return -100;
-  const priority = ["new music","album","single","release","hip hop","hip-hop","rap","r&b","artist","tour","concert","mixtape","music video","interview","culture"];
+  const priority = ["breaking","drama","beef","feud","response","responds","controversy","statement","apology","viral","trending","hip hop","hip-hop","rap","r&b","artist","tour","concert","mixtape","music video","interview","culture","release","album","single","new music"];
   return weight + priority.reduce((n, word) => n + (text.includes(word) ? 1 : 0), 0);
 }
 
@@ -91,7 +93,7 @@ async function fetchXmlSource(source) {
 async function fetchGoogle() {
   const parts = await Promise.all(GOOGLE_QUERIES.map(async query => {
     try {
-      const url = "https://news.google.com/rss/search?q=" + encodeURIComponent(query + " when:1d") + "&hl=en-US&gl=US&ceid=US:en";
+      const url = "https://news.google.com/rss/search?q=" + encodeURIComponent(query + " when:" + googleWindow + "d") + "&hl=en-US&gl=US&ceid=US:en";
       const response = await fetch(url, { headers: { "User-Agent": "DistrictMindMedia/1.0" } });
       if (!response.ok) return [];
       const xml = await response.text();
@@ -114,7 +116,11 @@ async function fetchGoogle() {
   return parts.flat();
 }
 
-export async function onRequestGet() {
+export async function onRequestGet({ request }) {
+  const requestUrl = new URL(request.url);
+  const hours = Math.min(Math.max(Number(requestUrl.searchParams.get("hours") || 72), 24), 168);
+  const limit = Math.min(Math.max(Number(requestUrl.searchParams.get("limit") || 36), 12), 60);
+  const googleWindow = Math.min(7, Math.ceil(hours / 24));
   const [direct, google] = await Promise.all([
     Promise.all(SOURCES.map(fetchXmlSource)).then(parts => parts.flat()),
     fetchGoogle()
@@ -130,7 +136,8 @@ export async function onRequestGet() {
       seen.add(key);
       return true;
     })
-    .slice(0,18);
+    .filter(item => { const t = new Date(item.pubDate).getTime(); return !Number.isNaN(t) && (Date.now() - t) <= hours * 3600000; })
+    .slice(0,limit);
 
   const esc = (value = "") => String(value)
     .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
