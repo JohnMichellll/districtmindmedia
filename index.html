@@ -97,6 +97,15 @@
   </div>
 </section>
 
+<section class="section reveal">
+  <div class="section-heading"><p class="eyebrow">04 / The Desk Network</p><h2>More rooms. More signals.</h2></div>
+  <div class="editorial-grid">
+    <article class="editorial-card"><div class="editorial-copy"><p class="category">01 / NEWSROOM</p><h3>BREAKING + MUSIC</h3><p>Fast-moving headlines, artist moves, releases and stories gaining momentum.</p><a href="newsroom.html">Open Newsroom →</a></div></article>
+    <article class="editorial-card"><div class="editorial-copy"><p class="category">02 / WAYFINDER</p><h3>LOCAL TO YOU</h3><p>Find artists, shows, venues and stories by place without making one city the center of the whole publication.</p><a href="wayfinder.html">Find Your Room →</a></div></article>
+    <article class="editorial-card"><div class="editorial-copy"><p class="category">03 / ARTIST INTELLIGENCE</p><h3>WHO IS MOVING?</h3><p>Search established names, independent artists and legends, then jump into music and coverage.</p><a href="artists.html">Search Artists →</a></div></article>
+  </div>
+</section>
+
 <section class="section dark-section reveal">
   <div class="section-heading"><p class="eyebrow">04 / Artist Watch</p><h2>Names to track.</h2></div>
   <div class="artist-feature">
@@ -107,7 +116,7 @@
 
 
 <section class="section dark-section reveal">
-  <div class="section-heading"><p class="eyebrow">05 / District Mind Records</p><h2>Inside the label.</h2></div>
+  <div class="section-heading"><p class="eyebrow">06 / District Mind Records</p><h2>Inside the label.</h2></div>
   <div class="artist-feature">
     <div data-photo-key="john-michell" class="artist-photo artist-photo-card"><p class="category">JOHN MICHELL / FOUNDER / ARTIST</p><h3>JOHN MICHELL</h3><p>John Michell is a Manhattan-born, Florida-raised hip-hop/R&B artist whose independent catalog is released through District Mind Records. Apple Music lists Drivin Crazy as his latest release, with WHO IS YOU, U, Control, BEATS V1 and other singles in the catalog.</p><a href="artists.html">Open Artist Profile →</a></div>
     <a href="https://music.apple.com/us/artist/john-michell/1720482148" target="_blank" rel="noopener noreferrer">Apple Music →</a>
@@ -115,7 +124,7 @@
 </section>
 
 <section class="section reveal">
-  <div class="section-heading"><p class="eyebrow">06 / Culture</p><h2>More than music.</h2></div>
+  <div class="section-heading"><p class="eyebrow">07 / Culture</p><h2>More than music.</h2></div>
   <div class="culture-grid">
     <a class="culture-card culture-photo one" data-photo-key="quavo" href="article.html"><p class="category">LIVE CULTURE</p><h3>WHY THE ROOM STILL MATTERS</h3><p>Streaming can tell you what people play. Live rooms tell you what people feel.</p></a>
     <a class="culture-card culture-photo two" data-photo-key="victoria-monet" href="releases.html"><p class="category">THE CALENDAR</p><h3>OCTOBER IS MOVING FAST</h3><p>A new season of releases, tours and cultural moments is already taking shape.</p></a>
@@ -155,7 +164,7 @@ async function loadLiveNews(){
   const button=document.getElementById('refresh-news');
   if(!feed)return;
   const fallback=[
-    {title:'District Mind Media is live: the newsroom is building its daily music and culture desk.',source:'DISTRICT MIND MEDIA',pubDate:'',description:'Live reporting and source scouting across hip-hop, R&B, releases, tours and Colorado culture.',link:'newsroom.html'},
+    {title:'District Mind Media is live: the newsroom is building its daily music and culture desk.',source:'DISTRICT MIND MEDIA',pubDate:'',description:'Live reporting and source scouting across hip-hop, R&B, releases, tours and culture.',link:'newsroom.html'},
     {title:'John Michell — Drivin Crazy',source:'DISTRICT MIND RECORDS',pubDate:'',description:'Drivin Crazy is a John Michell release through District Mind Records. Artist and release identity are kept separate from outside coverage.',link:'john-michell.html'},
     {title:'District Mind Wayfinder',source:'COLORADO DESK',pubDate:'',description:'Tracking artists, concerts, venues and music culture wherever you are.',link:'colorado.html'}
   ];
