@@ -10,6 +10,7 @@ const exists=p=>fs.existsSync(path.join(root,p));
 
 if(!exists("index.html")) failures.push("Missing index.html");
 if(!exists("style.css")) failures.push("Missing style.css");
+if(!exists("_headers")) failures.push("Missing Cloudflare security headers (_headers)");
 else if(fs.statSync(path.join(root,"style.css")).size<20000) failures.push("style.css is unexpectedly small; possible stylesheet overwrite");
 
 for(const file of pages){
