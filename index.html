@@ -168,7 +168,7 @@ async function loadLiveNews(){
   const fallback=[
     {title:'District Mind Media is live: the newsroom is building its daily music and culture desk.',source:'DISTRICT MIND MEDIA',pubDate:'',description:'Live reporting and source scouting across hip-hop, R&B, releases, tours and culture.',link:'newsroom.html'},
     {title:'John Michell — Drivin Crazy',source:'DISTRICT MIND RECORDS',pubDate:'',description:'Drivin Crazy is a John Michell release through District Mind Records. Artist and release identity are kept separate from outside coverage.',link:'john-michell.html'},
-    {title:'District Mind Wayfinder',source:'COLORADO DESK',pubDate:'',description:'Tracking artists, concerts, venues and music culture wherever you are.',link:'colorado.html'}
+    {title:'District Mind Wayfinder',source:'COLORADO DESK',pubDate:'',description:'Tracking artists, concerts, venues and music culture wherever you are.',link:'wayfinder.html?find=local'}
   ];
   const esc=v=>String(v??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
   const render=items=>items.map(item=>{
@@ -179,7 +179,7 @@ async function loadLiveNews(){
   feed.innerHTML=render(fallback);
   if(button)button.disabled=true;
   try{
-    const response=await fetch('/api/news?ts='+Date.now(),{cache:'no-store'});
+    const response=await fetch('/api/news?mode=latest&hours=24&ts='+Date.now(),{cache:'no-store'});
     if(!response.ok)throw new Error('Feed request failed');
     const xml=await response.text();
     const doc=new DOMParser().parseFromString(xml,'application/xml');
