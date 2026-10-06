@@ -1,6 +1,7 @@
 (() => {
   const routes = [
     {title:'Wayfinder', href:'wayfinder.html', type:'WAYFINDER', tags:'navigation search find artist article hometown local state discovery guide concerts shows tickets events'} ,
+    {title:'Radar', href:'radar.html', type:'RADAR', tags:'breaking drama culture artist viral trending live reports swipe scroll latest news source'},
     {title:'Newsroom', href:'newsroom.html', type:'NEWS', tags:'news headlines live desk current reporting scoop sources'},
     {title:'Artist Intelligence Hub', href:'artists.html', type:'ARTISTS', tags:'artist singer rapper band biography catalog music search artist profile'},
     {title:'Artist Registry', href:'artist-registry.html', type:'REGISTRY', tags:'artist independent diy distrokit catalog archive inactive profile submit discover music creator'},
