@@ -1,68 +1,68 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-06T04:44:19.652Z
+Generated: 2026-10-06T05:10:50.492Z
 
-Status: DEGRADED
+Status: READY_FOR_EDITOR
 
-Stories discovered: 122
+Stories discovered: 263
 
-1. **Is Offset&#8217;s Gambling A Problem Or Is Something Else Happening?** — AllHipHop — Tue, 06 Oct 2026 04:30:00 +0000
+1. **2026 ARIA Awards Hosts Announced Ahead of 40th-Anniversary Ceremony** — Billboard — Tue, 06 Oct 2026 04:54:50 +0000
+   https://www.billboard.com/music/awards/2026-aria-awards-hosts-announced-1236354831/
+2. **Tinashe Is ‘Cryinggggg’ Over Her Biggest Billboard 200 Album Debut Yet With ‘Popstar’: ‘This Is CRAZY’ - Billboard** — Google News — R&B — Tue, 06 Oct 2026 04:49:18 GMT
+   https://news.google.com/rss/articles/CBMingFBVV95cUxQVDVNZFg4R3laZloxWTFTUXlyclV5TTFNRDZvNXRKNVZoSUhHdUdtbnpSVG1WN1JqcnV4aFlZc0pQdFQydHFHMjJ5eW52LUF0VHRuWG1iR1lRWFducDI4WE9mWnNoQXBIcmpfQktoa1hJbVptZHFGY1didjgzUVp3bUgyb2pCd3ZJVUFSWTJ2XzJ5QTdidE81bmJpWURHUQ?oc=5
+3. **Is Offset&#8217;s Gambling A Problem Or Is Something Else Happening?** — AllHipHop — Tue, 06 Oct 2026 04:30:00 +0000
    https://allhiphop.com/rumors/is-offsets-gambling-a-problem-or-is-something-else-happening/
-2. **Jimmy Barnes to Headline 2027 Red Hot Summer Tour With All-Australian&#160;Lineup** — Billboard — Tue, 06 Oct 2026 04:17:56 +0000
+4. **Jimmy Barnes to Headline 2027 Red Hot Summer Tour With All-Australian&#160;Lineup** — Billboard — Tue, 06 Oct 2026 04:17:56 +0000
    https://www.billboard.com/music/concerts/jimmy-barnes-2027-red-hot-summer-tour-lineup-1236354817/
-3. **Skilla Baby Says Shooting “Shot The Gangster” Out Of Him** — AllHipHop — Tue, 06 Oct 2026 03:15:20 +0000
+5. **’70s Rock Band With 24 Studio Albums Releases New Music 58 Years Later - Men's Journal** — Google News — New Music — Tue, 06 Oct 2026 04:07:00 GMT
+   https://news.google.com/rss/articles/CBMipAFBVV95cUxNWXlrU2E3Z3hjUXJIdkNqc0FoQnRUTjMtSjhWc0lXNDNuZ3FyOXZMZDZqb2hNMDRvU05FMnI2LWhWYy1pV0dNWkh2VTVPUmIxS01BWnhfVGNCTGlxZ3VLUW4zZ3FpVEZEdVdNV2pDazFYVTU3VFVDelQzRWJ5NU5pZDhnblE0a2RHRDRsS0kydnR3dVpQMTE2WVJ0aTdycnRkUU5IYQ?oc=5
+6. **Album Review: creole culture by Dawn Richard - Shatter the Standards** — Google News — R&B — Tue, 06 Oct 2026 04:00:56 GMT
+   https://news.google.com/rss/articles/CBMifkFVX3lxTE94ODZxR0JqamI2aE0zOVpCX3hEREctblR2Q1hrN3FmN2F0UWxKZkY1LXlEaVdIN1liSGZscU5mb25GQll1Z3dHQVRPX0lLaU5Dd3ZFV254VHJ1bGFLTG54SVlrTy1Fd2tKLTRkWmdwcVhmU3BRSGdxUV9LRGJHdw?oc=5
+7. **Salute Our Heroes: Hayes breathes new life into musical instruments - WIBW** — Google News — New Music — Tue, 06 Oct 2026 03:25:00 GMT
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxQd2NaZnBncHo0T3JTM2R3aEtWSEEwU3NqUjh3VGs2UThXWWZvUy1mWFNfUmJuaU5qNl9zeFpwWGh4YlRzZUxtakEycFU1ejhsSXU5LVhibmd6SlZQUGdBNHlHWmRzeVc2bC1hXzRsdU8xclFyU0NlMlhFYndreXdQMDZ3dDVTd2RSdE5wcnpCUkpjSS1QYmdxaXVRbVFQRnVw?oc=5
+8. **Skilla Baby Says Shooting “Shot The Gangster” Out Of Him** — AllHipHop — Tue, 06 Oct 2026 03:15:20 +0000
    https://allhiphop.com/rumors/skilla-baby-says-shooting-shot-the-gangster-out-of-him/
-4. **Lizzo Can&#8217;t Stop Discussing 2023 Lawsuits Despite Legal Victories** — AllHipHop — Tue, 06 Oct 2026 03:01:00 +0000
+9. **Let Time Do Its Thing: How Tinashe, Kehlani & Jhené Aiko Are Redefining R&B’s Long Game - Billboard** — Google News — R&B — Tue, 06 Oct 2026 03:12:24 GMT
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxQd29yQ1BrNVBGV2JjUko1YTdxa2hjTEtiSFpvS3d4ZGxXR1NLT2dRT3hpMXhSTk53OW5jLUZlb191WmRSYnN2a09rN19DTDQxWGhmYWlxQUpXdURoTXJHMVRIdFZ5QXNwel81RWlYTjg1VUZkUnhSM3h6cUhfWjBWeU9qSkJwVHZ1aFFXNkc5VE40dVh3eHNzMm01MzNlcXpQ?oc=5
+10. **Tems leads fan-vote Soul Train nominations - Music-News.com** — Google News — R&B — Tue, 06 Oct 2026 03:09:17 GMT
+   https://news.google.com/rss/articles/CBMijAFBVV95cUxPaDU5N1NPX2lTbUNlci1ua2l3bWllU0JKOU1HOHA4a3pMUFI0c3c5ekhvSVJsS2oyY1FHdlNYTTJTVXR3eEVXci1iUG5oUk55ZDd0U3ZpYXZDSkxfMjFEVlQyQk1WZzFlNTlGTUVNSjcwU3dPSHExYlRCQTZBSmwwdldyLVlEd1dCbUJPVg?oc=5
+11. **Lizzo Can&#8217;t Stop Discussing 2023 Lawsuits Despite Legal Victories** — AllHipHop — Tue, 06 Oct 2026 03:01:00 +0000
    https://allhiphop.com/news/lizzo-cant-stop-discussing-2023-lawsuits-despite-legal-victories/
-5. **Eminem&#8217;s Kid Rock Collabo Has People Angry** — AllHipHop — Tue, 06 Oct 2026 02:17:08 +0000
+12. **BabyMonster to release new music on Oct. 23 amid 'Choom' world tour - Korea JoongAng Daily** — Google News — New Music — Tue, 06 Oct 2026 02:40:29 GMT
+   https://news.google.com/rss/articles/CBMiogFBVV95cUxNWWFpZnA3YXNXc0FJZ0ktMGVjZ0JvMDFLN3d1dmZETlgtQ3VSdWdad2RMZVJLZ2pLX2ZYWGdOekRIZWxOYUtDUDJmS3JubmIxazFjb3ZqTEJVYkZHX0JaZUJUeDdqejhmV3ZONDdRTm1QaXoyUG1HdGJ5eFE0czhyZHdSd1lxRzBfekxRY1Vvc2I1SlVSVEdRUDBrMUVqWmpqN2c?oc=5
+13. **Too $hort Apologizes for ‘Insensitive’ Diddy Comments: ‘I Do Not Support Abuse or Abusers’ - Billboard** — Google News — Hip-Hop — Tue, 06 Oct 2026 02:32:38 GMT
+   https://news.google.com/rss/articles/CBMirgFBVV95cUxPS0dCVTF6YjhfYmtzdXFHU0pXa3VYWlRLekpfSlplcUpzandoYVh3TEV4QjEyQ0pXYmpaVkVRbnFTYUI1UFlvOWFCVnh4S0hCRnlETHZZRG9hbnhzSE9JYzBzM05qV1NnQjZSc01tOHpMMlJId0JIWWtiaHNKTkQ4VV9FNUVzOC10am9qNk85SVVrN2JjZ1RSdTN5ejR0SlVjNFNHMEIwdVliMXdtU1E?oc=5
+14. **Wings Music Group Partners With Capitol Christian, Capitol Records in New Joint Venture - gospelmusic.org** — Google News — New Music — Tue, 06 Oct 2026 02:23:04 GMT
+   https://news.google.com/rss/articles/CBMitgFBVV95cUxNOVh6bVQ4YkJjMVVhY056Rm5RbVpPWHh3cmEzd1ZEc29JdUxLMGxNOHlSWER4Yi1oWkZ2bDlYc2p5ajJfUzZDVnNTc2ROTWF6SUxtN2hkT2V0XzhfaGx1cGFEakNGak9UQ2ZYU1ZCSFhyOEx0b19yYlZjekJqZ0duc0ZDVzJyOW9SQ2V5WnhHNU5Tc3NkaDMyMFJyS2xWM1dQQkpSTS11a0xDYlkwakRwN3loM0VBQQ?oc=5
+15. **Eminem&#8217;s Kid Rock Collabo Has People Angry** — AllHipHop — Tue, 06 Oct 2026 02:17:08 +0000
    https://allhiphop.com/rumors/eminems-kid-rock-collabo-has-people-angry/
-6. **Ice Spice Shows Massive Backside In Steamy, Silver Thong &#038; Instantly Goes Viral** — AllHipHop — Tue, 06 Oct 2026 01:40:34 +0000
+16. **Ice Spice Shows Massive Backside In Steamy, Silver Thong &#038; Instantly Goes Viral** — AllHipHop — Tue, 06 Oct 2026 01:40:34 +0000
    https://allhiphop.com/news/ice-spice-shows-massive-backside-in-steamy-silver-thong-instantly-goes-viral/
-7. **Hayley Williams Has a Blunt Message for DHS After &#8216;F&#8211;k ICE&#8217; Concert Remark: &#8216;And May I Suggest&#8230;&#8217;** — Billboard — Tue, 06 Oct 2026 01:32:52 +0000
+17. **Hayley Williams Has a Blunt Message for DHS After &#8216;F&#8211;k ICE&#8217; Concert Remark: &#8216;And May I Suggest&#8230;&#8217;** — Billboard — Tue, 06 Oct 2026 01:32:52 +0000
    https://www.billboard.com/music/music-news/hayley-williams-dhs-response-ice-concert-1236354758/
-8. **BigXthaPlug Announces &#8220;BETTER OVER TIME&#8221; With Unique Album Marketing Strategy** — AllHipHop — Tue, 06 Oct 2026 01:03:06 +0000
+18. **Local music shops hosts listening parties for new Greta Van Fleet album - WSMH** — Google News — New Music — Tue, 06 Oct 2026 01:25:52 GMT
+   https://news.google.com/rss/articles/CBMirgFBVV95cUxPZUdrejFDVTRuS3loU2I5bnhFV2RrOWlCR0pqd0M3SDJNQ2J5UEREeHhoek1feTFnQTlGMmxFcWRPQUxPc1doUjRMY0RScEd3aTFhTlZVUUw2dnEyZGNfWi1OZHV3MDd4LUtoekdadGZadXI4clpmeHA5Q1dybGRYT0Y5Y1ZvVXVSa2NfOEhtakQyOTY0bExLQzdCZXRQOExfWXZrQmMzQUJwT2M5cGc?oc=5
+19. **Who will win 2026 Soul Train Awards' R&B/Soul Song of the Year? - Revolt TV** — Google News — R&B — Tue, 06 Oct 2026 01:21:06 GMT
+   https://news.google.com/rss/articles/CBMikAFBVV95cUxNb3hsNDQ4RVo5M01PdjBNTU5uV3B0Q28yR0hVTmZBeEpiTXROUk9LbkZFb3hxNkpaNlAyN3ktcWNVOVFvQzM4TlREaVdQeXU3aV9lMk5NSjBFTG9GcVhuTENSUjFiclFYNjRoMVg1Y09xRW5PQzd2VTctZDBqR1MtOF9yRHRyNjZycVJuZFBOTkw?oc=5
+20. **Miranda, Lee and Gavin Bring New Music to Country Radio - Madison's Country Q106** — Google News — New Music — Tue, 06 Oct 2026 01:14:53 GMT
+   https://news.google.com/rss/articles/CBMikAFBVV95cUxNU3R6LU9KeUxyYTVWaUVhaG9ZbVV4bjNwWFE0NHJIeGZfMU41OWF2SkFybXJaQmw4TzJyNlVsNmowSUFLaVpRWldYMjdjRGFUSmZWM2hodHVrd3UxOW1HeGFiOUg2N21raW5oQUdjWDhyOXE2cUZCQjB5cG1JTlNfaWp5SXBWdnV3M01KU1ZvbEg?oc=5
+21. **Bleona Reclaims Her Albanian Pop Legacy With New Music and Visual Albums - BroadwayWorld** — Google News — New Music — Tue, 06 Oct 2026 01:12:19 GMT
+   https://news.google.com/rss/articles/CBMixwFBVV95cUxNeTBsNlNYaGFxZVJQanljalpYUzFKSWxrOTEzeEYwcjFDYWE2akJSOTE0MzFUS2VTR0JSR05MVldYaDdhc242UFBGX2xHcVlkXzFaZE9ZcC1kaGpDYmJKRkozMWh5YnpfMlBlQWtMalJrNml4QXZXeUwwd2tiamU2TWF3Y0xuNWc1U0U1bWN2SkVMXzJPWllhbDljamJWOHVvdm9GMWwwT2lsNmtzNmRQY2NLNmRxdUhlRUpPYWtHRVpScnpQZ2E0?oc=5
+22. **Star2 Drops New Concept Album 20-Something (In Love) ft. Young Henny Chinatown Runner, Ler Mu Dex, Lil BK & Seko - 24Hip-Hop** — Google News — Hip-Hop — Tue, 06 Oct 2026 01:03:41 GMT
+   https://news.google.com/rss/articles/CBMixwFBVV95cUxONDd0a0N5R09FMjBBX3BzQ2dYZ2MwRnNBMFkyVGp0UjZwaFZhTmFCRGo2M3MwekstVWJpNEszZXVkNjU2RmtGZEpIQ0F2LTRhRlpYYW1SaURQYXItU2NuaUwwVzBzdkVKX2RJdHR4TWVMN3gyRV9xNnhEbl9HanVnMlA2WkN6QkVBRXl6UzlPa3ZkVS13TWZfQkhDeXh1ZUZsdUR1TVBxRkRtWk42WFRLOEZXOEJZSk56Tl9nS24wZ0tJZVFxOV80?oc=5
+23. **BigXthaPlug Announces &#8220;BETTER OVER TIME&#8221; With Unique Album Marketing Strategy** — AllHipHop — Tue, 06 Oct 2026 01:03:06 +0000
    https://allhiphop.com/news/bigxthaplug-announces-better-over-time-with-unique-album-marketing-strategy/
-9. **Blake Shelton Celebrates Wife Gwen Stefani&#8217;s Birthday With Sweet Tribute: &#8216;I Love You Pretty&#160;Girl&#8217;** — Billboard — Tue, 06 Oct 2026 00:51:06 +0000
+24. **Blake Shelton Celebrates Wife Gwen Stefani&#8217;s Birthday With Sweet Tribute: &#8216;I Love You Pretty&#160;Girl&#8217;** — Billboard — Tue, 06 Oct 2026 00:51:06 +0000
    https://www.billboard.com/music/music-news/blake-shelton-gwen-stefani-birthday-photos-1236354719/
-10. **Dolly Parton Estate Claims Nephew Used Caution Tape and Barbed Wire to Dodge Lawsuit Service** — Rolling Stone — Music — Tue, 06 Oct 2026 00:29:44 +0000
+25. **John P. Kee Defends Kirk Franklin’s Collaboration With GloRilla, “Leave Kirk Alone” - Hip-Hop Wired** — Google News — Hip-Hop — Tue, 06 Oct 2026 00:46:35 GMT
+   https://news.google.com/rss/articles/CBMidEFVX3lxTE16NF85Y2lFRkN6T2xtLW1JU0haSDRYeFR3Ql9jQUNhN0dvS19KZ2w5T2hwVkFmZkJVQnVoNXU2VHIyOTVsaC1iNlVSNktsQWgwVUQyQksycERubmgwWVpzamVRbGVIakNoSGZHSTVDUHdvRk5K?oc=5
+26. **Today In Hip Hop History: Roxanne Shante Dropped Her Pivotal LP ‘The B***h Is Back’ 34 Years Ago - The Source Magazine** — Google News — Hip-Hop — Tue, 06 Oct 2026 00:46:18 GMT
+   https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWllHLU9weC0yM01QdjRfV2M0UFBCQU1UQXVBSUtFcF9GZG42eTh5Ylc3UzYtU3VGR0s2czdUV2VGZTBZdGJaNl9HN1BXdWNEa1FoWXlGRjlmX3VxZ2g0dWZGRGxpQ2s1QmtSckFIYzZIQnFfLUVudXVRa0VNbFFveDRQTGlHLTV4MGNfdUo3UzE2bzNHZUpndFdmdlo0MXc5bWJjdFphTFVhcktnREpwcGNNT0szdVhfVlpkLXNEU2pNUQ?oc=5
+27. **Chance the Rapper Says He’s Thinking About Chopping His Stage Name In Half: ‘I Just Really Love the Art Form’ - Billboard** — Google News — Hip-Hop — Tue, 06 Oct 2026 00:42:00 GMT
+   https://news.google.com/rss/articles/CBMiqgFBVV95cUxPLXRTQ2dhbUkzSkpLV0xCZ2JvOEdqWjQwbXAzaDd3ejBwVWZqZTdXRnlEcWV1bS1BdlZyZVoxUzY4SGJBUkphTHZaMGxXZTYxU2hWdzlKZ0w0LWo1TlRxZEVnMWNVOFM2TVRMc0NpeTFkS0ZianBkTUI3aXZuQ3hheml3V2pqeFUzYTFNck50YU53eGlOUDBXb3BlYWM2WUtsN0J4bG10OHhBUQ?oc=5
+28. **Chipotle Records New Song, Using Corn, Jalapeños and Lettuce! - today.com** — Google News — New Music — Tue, 06 Oct 2026 00:36:32 GMT
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxPWmp4bU9iQ2pvLW9FX2JUUnM5eHNvTmhkYnZQOVpYUDlUb2hPQi1helk0U1lPLWF1WGx4X29Ka3FqWkMxVTZIVjVCYXQwdFJXQmNvcXR0dl9LZDFxeVJXS2lJdzF3MTdlallPLTZRdTNjMGo1OHhHNkQ1Wm9nVmYxNk1yQ1RWX0ZKcnAwcGs5UjZySnJrdVhOVlZlckFaWkh4?oc=5
+29. **New Music Mondays: Victoria Monét, Drake, Yung Miami & More - Black America Web** — Google News — New Music — Tue, 06 Oct 2026 00:32:45 GMT
+   https://news.google.com/rss/articles/CBMimgFBVV95cUxQOGR5OUdWQVB3WmdFM2UwU296Q3VJU1NvZG56enZQTksyX3ZpMDRlbWotc1NhWEVZakxlOTNZRVpHMTN6ZzA5NmNHS2ZmMnhIWHJfendHV3pHVktOc2RZeENJMkR3Y3FwMnpHVTE0THlldnBYbllqdjU3Wjl2OVA2VUNlOFdqWFNiaUUyWTJ2UEJ1MHh1ZFFIZEtn?oc=5
+30. **Dolly Parton Estate Claims Nephew Used Caution Tape and Barbed Wire to Dodge Lawsuit Service** — Rolling Stone — Music — Tue, 06 Oct 2026 00:29:44 +0000
    https://www.rollingstone.com/music/music-news/dolly-parton-estate-nephew-lawsuit-caution-tape-1235637263/
-11. **Tinashe Is &#8216;Cryinggggg&#8217; Over Her Biggest Billboard 200 Album Debut Yet With &#8216;Popstar&#8217;: &#8216;This Is&#160;CRAZY&#8217;** — Billboard — Tue, 06 Oct 2026 00:18:18 +0000
-   https://www.billboard.com/music/rb-hip-hop/tinashe-reacts-popstar-billboard-200-debut-1236354693/
-12. **Too $hort Apologizes for &#8216;Insensitive&#8217; Diddy Comments: &#8216;I Do Not Support Abuse or&#160;Abusers&#8217;** — Billboard — Tue, 06 Oct 2026 00:12:55 +0000
-   https://www.billboard.com/music/rb-hip-hop/too-short-apologizes-diddy-comments-welcome-home-party-1236354669/
-13. **Justice Department Seeks To Strip Citizenship From People Of The U.S.A.** — AllHipHop — Tue, 06 Oct 2026 00:09:12 +0000
-   https://allhiphop.com/rumors/justice-department-seeks-to-strip-citizenship-from-people-of-the-u-s-a/
-14. **More &#8216;WOR$T&#8217; Is on the Way: Slayyyter&#8217;s &#8216;WOR$T MAN IN AMERICA&#8217; Album Is&#160;Coming** — Billboard — Tue, 06 Oct 2026 00:07:44 +0000
-   https://www.billboard.com/music/pop/slayyyter-worst-man-in-america-album-announced-1236354667/
-15. **Sony Music Has Requested the Removal of Over 260,000 AI Deepfake Songs From Digital&#160;Platforms** — Billboard — Tue, 06 Oct 2026 00:05:31 +0000
-   https://www.billboard.com/pro/sony-music-requested-removal-ai-deepfake-songs/
-16. **Georgia Hospitals Treat Dozens After Gunfire Tears Through Homecoming Party** — AllHipHop — Tue, 06 Oct 2026 00:01:07 +0000
-   https://allhiphop.com/news/georgia-hospitals-treat-dozens-after-gunfire-tears-through-homecoming-party/
-17. **Here&#8217;s How to Get Paramount+ Online for&#160;Free** — Billboard — Mon, 05 Oct 2026 23:40:28 +0000
-   https://www.billboard.com/shop/how-to-get-paramount-plus-free-trial-1235080553/
-18. **Hayley Williams Responds to DHS&#8217; Suggestion to Thank Officers After ICE Comments: &#8216;Nazi Bitches&#8217;** — Rolling Stone — Music — Mon, 05 Oct 2026 23:27:44 +0000
-   https://www.rollingstone.com/music/music-news/hayley-williams-dhs-ice-comments-onstage-1235637280/
-19. **Blippi’s Meekah and Dove Release Music Video to Promote Children’s Body Confidence (EXCLUSIVE)** — Variety — Music — Mon, 05 Oct 2026 23:09:39 +0000
-   https://variety.com/2026/digital/columns/blippi-meekah-dove-music-video-childrens-body-confidence-1236899630/
-20. **Lucki Says $100K In His Car, Fears LAPD Will Have &#8220;Fun&#8221; While Showing Off Bandaged Face** — AllHipHop — Mon, 05 Oct 2026 23:08:22 +0000
-   https://allhiphop.com/news/lucki-says-100k-in-his-car-fears-lapd-will-have-fun-while-showing-off-bandaged-face/
-21. **Here&#8217;s How to Get Peacock for&#160;Free** — Billboard — Mon, 05 Oct 2026 22:33:58 +0000
-   https://www.billboard.com/culture/product-recommendations/how-to-get-peacock-free-trial-online-1236231069/
-22. **Drake Won’t Submit Any of His Three Albums to the 2027 Grammys: Report** — Rolling Stone — Music — Mon, 05 Oct 2026 22:16:56 +0000
-   https://www.rollingstone.com/music/music-news/drake-grammys-not-submitting-iceman-habibti-maid-of-honour-1235637235/
-23. **Gorgeous Doll Alleges Kai Cenat Agrees To $200K Abortion Payment But Sends $150K** — AllHipHop — Mon, 05 Oct 2026 22:01:07 +0000
-   https://allhiphop.com/news/gorgeous-doll-alleges-kai-cenat-agrees-to-200k-abortion-payment-but-sends-150k/
-24. **Carey Mulligan and Marcus Mumford Raise $7.65 Million for Children in War Zones (EXCLUSIVE)** — Variety — Music — Mon, 05 Oct 2026 21:35:31 +0000
-   https://variety.com/2026/global/columns/carey-mulligan-marcus-mumford-children-in-conflict-war-zones-1236899517/
-25. **&#8216;American Idol&#8217; Contestant Sentenced to Life Without Parole for Murder of Wife** — Rolling Stone — Music — Mon, 05 Oct 2026 20:45:42 +0000
-   https://www.rollingstone.com/music/music-news/american-idol-contestant-sentenced-life-prison-murder-wife-1235636930/
-26. **Slayyyter Is Ready to Give &#8216;Wor$t Girl in America&#8217; the &#8216;Brother&#8217; Album it Deserves** — Rolling Stone — Music — Mon, 05 Oct 2026 20:10:07 +0000
-   https://www.rollingstone.com/music/music-news/slayyyter-worst-man-in-america-album-release-date-1235637079/
-27. **Slayyyter to Release &#8216;Brother Album&#8217; to &#8216;Wor$t Girl in America&#8217;: &#8216;Wor$t Man in America&#8217;** — Variety — Music — Mon, 05 Oct 2026 19:00:37 +0000
-   https://variety.com/2026/music/news/slayyyter-to-release-worst-man-in-america-brother-album-1236899364/
-28. **L7 Unveil ‘Loma Linda’ Single Originally Recorded With Bassist Janis Tanaka in 2003** — Rolling Stone — Music — Mon, 05 Oct 2026 18:47:30 +0000
-   https://www.rollingstone.com/music/music-news/l7-new-song-single-loma-linda-1235636955/
-29. **Slayyyter Announces Wor$t Man in America** — Pitchfork — Mon, 05 Oct 2026 18:38:32 +0000
-   https://pitchfork.com/story/slayyyter-reveals-worst-man-in-america-album/
-30. **Carly Rae Jepsen Unveils Day and Night B-Sides** — Pitchfork — Mon, 05 Oct 2026 18:35:12 +0000
-   https://pitchfork.com/story/carly-rae-jepsen-unveils-day-and-night-b-sides/
