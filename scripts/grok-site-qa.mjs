@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 
-const FILES=["index.html","colorado.html","artists.html","releases.html","john-michell.html","article.html","functions/api/news.js","assets/photo-manifest.json"];
+const FILES=["index.html","local.html","radar.html","artists.html","releases.html","john-michell.html","article.html","functions/api/news.js","assets/photo-manifest.json"];
 const key=process.env.XAI_API_KEY||"";
 
 async function readFiles(){
