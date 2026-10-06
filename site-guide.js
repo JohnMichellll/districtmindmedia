@@ -5,13 +5,11 @@
     {title:'Artist Intelligence Hub', href:'artists.html', type:'ARTISTS', tags:'artist singer rapper band biography catalog music search artist profile'},
     {title:'Artist Registry', href:'artist-registry.html', type:'REGISTRY', tags:'artist independent diy distrokit catalog archive inactive profile submit discover music creator'},
     {title:'Releases', href:'releases.html', type:'MUSIC', tags:'new music albums singles release calendar songs listen'},
-    {title:'Colorado Music & Culture', href:'colorado.html', type:'COLORADO', tags:'denver colorado concerts venues shows local music'},
     {title:'Concerts Near You', href:'wayfinder.html?find=concerts', type:'LIVE', tags:'concerts shows live music events tickets venue tour'},
     {title:'Culture', href:'culture.html', type:'CULTURE', tags:'culture lifestyle rooms fashion moments'},
     {title:'Explore Media', href:'explore.html', type:'EXPLORE', tags:'explore discovery everything media'},
     {title:'District Mind Academy', href:'academy.html', type:'ACADEMY', tags:'learn class education start from zero'},
     {title:'John Michell', href:'john-michell.html', type:'ARTIST', tags:'john michell district mind records drivin crazy who is you'},
-    {title:'The Colorado Story', href:'article.html', type:'ARTICLE', tags:'colorado denver artists concerts october doja cat earl sweatshirt mike jpegmafia yg chief keef'},
     {title:'About District Mind Media', href:'about.html', type:'ABOUT', tags:'about mission independent media'},
     {title:'Contact', href:'contact.html', type:'CONTACT', tags:'contact submit tip reach newsroom'},
     {title:'Editorial', href:'editorial.html', type:'EDITORIAL', tags:'editorial standards newsroom process'},
@@ -48,7 +46,6 @@
             <button type="button" data-q="article">Find an article</button>
             <button type="button" data-q="new music">Find new music</button>
             <button type="button" data-q="concerts">Concerts near you</button>
-            <button type="button" data-q="Colorado">Colorado desk</button>
           </div>
           <div id="dm-guide-status" class="dm-guide-status" aria-live="polite">SEARCH THE WHOLE DESK.</div>
           <div id="dm-guide-results" class="dm-guide-results"></div>
