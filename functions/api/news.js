@@ -14,6 +14,7 @@ const GOOGLE_QUERIES = [
   "R&B OR soul OR singer",
   "hip-hop drama OR rapper beef OR artist responds OR artist controversy",
   "music culture OR viral artist OR celebrity music",
+  "rapper outfit viral OR artist spotted OR artist wearing OR celebrity style",
   "new music OR album OR single",
   "concert OR tour OR live music"
 ];
@@ -52,7 +53,7 @@ function image(block) {
 function score(item, weight = 1) {
   const text = (item.title + " " + item.description).toLowerCase();
   if (BLOCKED.some(word => text.includes(word))) return -100;
-  const priority = ["breaking","drama","beef","feud","response","responds","controversy","statement","apology","viral","trending","hip hop","hip-hop","rap","r&b","artist","tour","concert","mixtape","music video","interview","culture","release","album","single","new music"];
+  const priority = ["breaking","drama","beef","feud","response","responds","controversy","statement","apology","viral","trending","spotted","wearing","outfit","style","crocs","shoes","hip hop","hip-hop","rap","r&b","artist","tour","concert","mixtape","music video","interview","culture","release","album","single","new music"];
   return weight + priority.reduce((n, word) => n + (text.includes(word) ? 1 : 0), 0);
 }
 
