@@ -6,6 +6,7 @@
   const aiNote=document.getElementById('radar-ai-note');
   if(!feed)return;
   const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  const decode=v=>{let s=String(v??'');for(let i=0;i<3;i++){const t=document.createElement('textarea');t.innerHTML=s;s=t.value;if(!/[&](?:#\\d+|#x[0-9a-f]+|amp|quot|apos|rsquo|lsquo|rdquo|ldquo|ndash|mdash|hellip);/i.test(s))break;}return s;};
   const strip=v=>String(v??'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
   let allStories=[], activeFilter='all', refreshing=false, touchStartY=0, touchDistance=0, batchOffset=0;
   const tz=Intl.DateTimeFormat().resolvedOptions().timeZone || 'LOCAL TIME';
@@ -32,17 +33,18 @@
     feed.innerHTML=stories.map((s,i)=>{
       const d=new Date(s.pubDate), cat=categoryOf(s), age=Math.max(0,ageHours(d)), reason=reasonOf(s,age);
       const image=s.image ? ' style="background-image:url(\''+esc(s.image).replace(/'/g,'%27')+'\')"' : '';
-      const desc=strip(s.description).slice(0,300);
-      const source=esc(s.source||'LIVE');
-      return '<article class="radar-card" data-category="'+cat.toLowerCase()+'" data-index="'+i+'"><div class="radar-card-media '+(s.image?'':'radar-card-no-image')+'"'+image+'></div><div class="radar-card-body"><div class="radar-kicker"><span class="radar-pill">'+cat+'</span><span class="radar-pill">'+esc(reason)+'</span><span class="radar-pill">'+esc(tz.replace(/_/g,' '))+'</span></div><h2>'+esc(s.title)+'</h2><p class="radar-card-description">'+esc(desc||'District Mind is tracking the report and the conversation around it.')+'</p><div class="radar-meta"><span>'+source+'</span><span>'+esc(d.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}))+'</span></div><div class="radar-actions"><a class="radar-action primary" href="'+esc(s.link)+'" target="_blank" rel="noopener noreferrer">Open Original Report ↗︎</a><button class="radar-action radar-share" type="button" data-title="'+esc(s.title)+'" data-url="'+esc(s.link)+'">Share Signal ↗︎︎</button></div></div><div class="radar-rail"><button type="button" data-up aria-label="Previous story" >↑︎</button><button type="button" data-down aria-label="Next story" >↓︎</button></div></article>';
+      const desc=strip(decode(s.description)).slice(0,300);
+      const source=esc(decode(s.source||'LIVE'));
+      return '<article class="radar-card" role="link" tabindex="0" data-category="'+cat.toLowerCase()+'" data-index="'+i+'" data-href="'+esc(s.link)+'"><div class="radar-card-media '+(s.image?'':'radar-card-no-image')+'"'+image+'></div><div class="radar-card-body"><div class="radar-kicker"><span class="radar-pill">'+cat+'</span><span class="radar-pill">'+esc(reason)+'</span><span class="radar-pill">'+esc(tz.replace(/_/g,' '))+'</span></div><h2>'+esc(s.title)+'</h2><p class="radar-card-description">'+esc(desc||'District Mind is tracking the report and the conversation around it.')+'</p><div class="radar-meta"><span>'+source+'</span><span>'+esc(d.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}))+'</span></div></div><div class="radar-rail"><button type="button" data-up aria-label="Previous story" >↑︎</button><button type="button" data-down aria-label="Next story" >↓︎</button></div></article>';
     }).join('');
+    feed.querySelectorAll('.radar-card').forEach(card=>{const open=()=>{const href=card.dataset.href;if(href)window.open(href,'_blank','noopener,noreferrer');};card.addEventListener('click',e=>{if(e.target.closest('button'))return;open();});card.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&!e.target.closest('button')){e.preventDefault();open();}});});
     feed.querySelectorAll('[data-down]').forEach(b=>b.addEventListener('click',()=>b.closest('.radar-card')?.nextElementSibling?.scrollIntoView({behavior:'smooth'})));
     feed.querySelectorAll('[data-up]').forEach(b=>b.addEventListener('click',()=>b.closest('.radar-card')?.previousElementSibling?.scrollIntoView({behavior:'smooth'})));
-    feed.querySelectorAll('.radar-share').forEach(b=>b.addEventListener('click',async()=>{const data={title:b.dataset.title,url:b.dataset.url};try{if(navigator.share)await navigator.share(data);else await navigator.clipboard.writeText(data.url);b.textContent='Copied';setTimeout(()=>b.textContent='Share Signal ↗︎︎',1400);}catch{}}));
+    
   };
   const parseXml=xml=>{
     const doc=new DOMParser().parseFromString(xml,'application/xml');
-    return [...doc.querySelectorAll('item')].map(i=>({title:i.querySelector('title')?.textContent||'Untitled',link:i.querySelector('link')?.textContent||'#',pubDate:i.querySelector('pubDate')?.textContent||new Date().toISOString(),description:i.querySelector('description')?.textContent||'',source:i.querySelector('category')?.textContent||'LIVE',image:i.querySelector('enclosure')?.getAttribute('url')||''})).filter(x=>x.title&&x.link);
+    return [...doc.querySelectorAll('item')].map(i=>({title:decode(i.querySelector('title')?.textContent||'Untitled'),link:i.querySelector('link')?.textContent||'#',pubDate:i.querySelector('pubDate')?.textContent||new Date().toISOString(),description:i.querySelector('description')?.textContent||'',source:i.querySelector('category')?.textContent||'LIVE',image:i.querySelector('enclosure')?.getAttribute('url')||''})).filter(x=>x.title&&x.link);
   };
   function filtered(){
     const pool=activeFilter==='all'?allStories:allStories.filter(s=>categoryOf(s).toLowerCase()===activeFilter);
