@@ -161,13 +161,17 @@ async function loadLiveNews(){
   const fallback=[
     {title:'District Mind Media is live: the newsroom is building its daily music and culture desk.',source:'DISTRICT MIND MEDIA',pubDate:'',description:'Live reporting and source scouting across hip-hop, R&B, releases, tours and culture.',link:'newsroom.html'},
     {title:'John Michell — Drivin Crazy',source:'DISTRICT MIND RECORDS',pubDate:'',description:'Drivin Crazy is a John Michell release through District Mind Records. Artist and release identity are kept separate from outside coverage.',link:'john-michell.html'},
-    {title:'District Mind Wayfinder',source:'COLORADO DESK',pubDate:'',description:'Tracking artists, concerts, venues and music culture wherever you are.',link:'wayfinder.html?find=local'}
+    {title:'District Mind Wayfinder',source:'WAYFINDER',pubDate:'',description:'Tracking artists, concerts, venues and music culture wherever you are.',link:'wayfinder.html?find=local'}
   ];
   const esc=v=>String(v??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+  const decode=v=>{let s=String(v??'');for(let i=0;i<3;i++){const t=document.createElement('textarea');t.innerHTML=s;s=t.value;if(!/[&](?:#\\d+|#x[0-9a-f]+|amp|quot|apos|rsquo|lsquo|rdquo|ldquo|ndash|mdash|hellip);/i.test(s))break;}return s;};
   const render=items=>items.map(item=>{
     const date=item.pubDate?new Date(item.pubDate):null;
     const stamp=date&&!Number.isNaN(date.getTime())?date.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):'Latest';
-    return '<article class="news-item"><div class="news-item-meta"><span>'+esc(item.source||'District Mind Media Desk')+'</span><time>'+esc(stamp)+'</time></div><h3><a href="'+esc(item.link||'#')+'" target="_blank" rel="noopener noreferrer">'+esc(item.title)+'</a></h3><p>'+esc(String(item.description||'').replace(/<[^>]*>/g,'').slice(0,180))+'</p><a class="inline-link" href="'+esc(item.link||'#')+'" target="_blank" rel="noopener noreferrer">Read Source →</a></article>';
+    const title=esc(decode(item.title));
+    const description=esc(decode(String(item.description||'').replace(/<[^>]*>/g,'').slice(0,180)));
+    const source=esc(decode(item.source||'District Mind Media Desk'));
+    return '<a class="news-item" href="'+esc(item.link||'#')+'" target="_blank" rel="noopener noreferrer"><div class="news-item-meta"><span>'+source+'</span><time>'+esc(stamp)+'</time></div><h3>'+title+'</h3><p>'+description+'</p></a>';
   }).join('');
   feed.innerHTML=render(fallback);
   if(button)button.disabled=true;
