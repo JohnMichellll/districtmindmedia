@@ -2363,3 +2363,43 @@ input:focus,textarea:focus,select:focus{border-color:rgba(17,17,17,.45);box-shad
   html{scroll-behavior:auto}
   *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
 }
+
+
+/* EDITORIAL CLEANUP — fewer controls, stronger imagery, whole-story interaction */
+.news-item{
+  display:block;
+  color:inherit;
+  text-decoration:none;
+  cursor:pointer;
+}
+.news-item h3{transition:opacity .2s ease;}
+.news-item:hover h3{opacity:.72;}
+.news-item:focus-visible{
+  outline:2px solid currentColor;
+  outline-offset:6px;
+}
+.news-item p{max-width:68ch;}
+
+.radar-card{
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+}
+.radar-card:focus-visible{
+  outline:2px solid currentColor;
+  outline-offset:-2px;
+}
+.radar-card-media{
+  min-height:clamp(260px,42vw,560px);
+}
+.radar-card-body{
+  padding-bottom:clamp(28px,4vw,48px);
+}
+.radar-card-body h2{
+  max-width:18ch;
+  text-wrap:balance;
+}
+.radar-card-description{
+  max-width:62ch;
+}
+.radar-actions{display:none !important;}
+.radar-meta{margin-top:18px;}
