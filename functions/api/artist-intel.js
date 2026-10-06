@@ -40,6 +40,7 @@ export async function onRequestGet({request,env}){
   const era=(firstReleaseYear&&firstReleaseYear<2000)||legacyNames.includes(norm(best))?"legacy":"modern";
   const slug=encodeURIComponent(best).replace(/%20/g,"-");
   const links={apple:bestArtist.artistId?"https://music.apple.com/us/artist/"+slug+"/"+bestArtist.artistId:"https://music.apple.com/us/search?term="+encodeURIComponent(best),spotify:"https://open.spotify.com/search/"+encodeURIComponent(best),youtube:"https://www.youtube.com/results?search_query="+encodeURIComponent(best+" music"),soundcloud:"https://soundcloud.com/search?q="+encodeURIComponent(best),instagram:"https://www.google.com/search?q="+encodeURIComponent(best+" official Instagram")};
+  // Deployment marker: keep the production Pages build tied to the repaired main-branch function.
   let ai=null;
   if(env?.XAI_API_KEY){
    const prompt="Analyze this artist for a music-news search page. Do not invent facts. Return JSON only with artist,genre,summary,whatToListenTo,whatIsHappeningNow,discoveryTips. Artist: "+best+" Catalog: "+JSON.stringify(music.slice(0,15))+" News: "+JSON.stringify(news.slice(0,8));
