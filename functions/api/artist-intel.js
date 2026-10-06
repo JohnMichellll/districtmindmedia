@@ -44,9 +44,33 @@ export async function onRequestGet({request,env}){
   let ai=null;
   if(env?.XAI_API_KEY){
    const prompt="Analyze this artist for a music-news search page. Do not invent facts. Return JSON only with artist,genre,summary,whatToListenTo,whatIsHappeningNow,discoveryTips. Artist: "+best+" Catalog: "+JSON.stringify(music.slice(0,15))+" News: "+JSON.stringify(news.slice(0,8));
-   const xr=await fetch("https://api.x.ai/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+env.XAI_API_KEY,"Content-Type":"application/json"},body:JSON.stringify({model:"grok-4.1-mini",temperature:0.2,messages:[{role:"system",content:"Return valid JSON only. Never invent facts; use the supplied catalog and news."},{role:"user",content:prompt}]})).catch(()=>null);
-   if(xr?.ok){const xd=await xr.json();const raw=xd?.choices?.[0]?.message?.content||"";try{const cleaned=raw.trim().replace(/^```json\s*/,"").replace(/```$/,"").trim();ai=JSON.parse(cleaned);}catch{}}
-  }
+   let xr=null;
+   try {
+    const payload={
+     model:"grok-4.1-mini",
+     temperature:0.2,
+     messages:[
+      {role:"system",content:"Return valid JSON only. Never invent facts; use the supplied catalog and news."},
+      {role:"user",content:prompt}
+     ]
+    };
+    xr=await fetch("https://api.x.ai/v1/chat/completions",{
+     method:"POST",
+     headers:{
+      "Authorization":"Bearer "+env.XAI_API_KEY,
+      "Content-Type":"application/json"
+     },
+     body:JSON.stringify(payload)
+    });
+   } catch {}
+   if(xr?.ok){
+    const xd=await xr.json();
+    const raw=xd?.choices?.[0]?.message?.content||"";
+    try{
+     const cleaned=raw.trim().replace(/^```json\s*/,"").replace(/```$/,"").trim();
+     ai=JSON.parse(cleaned);
+    }catch{}
+   }  }
   if(!ai)ai={artist:best,genre:bestArtist.primaryGenreName||music[0]?.genre||"Music artist",summary:"District Mind assembled catalog music, release artwork and current source-linked coverage for this artist.",whatToListenTo:music.slice(0,5).map(x=>x.title),whatIsHappeningNow:news.slice(0,3).map(x=>x.title),discoveryTips:"Use the listening buttons to keep exploring. Current articles remain source-linked."};
   return json({ok:true,query:q,artist:best,artists:artists.slice(0,12),ai,music,news,links,era,firstReleaseYear,artistId:bestArtist.artistId||null,generatedAt:new Date().toISOString()});
  }catch(e){return json({ok:false,error:"The artist intelligence desk is temporarily offline."},502);}
