@@ -2,7 +2,7 @@ import { chromium } from "playwright";
 import fs from "node:fs";
 
 const BASE = "https://district-mind-media.pages.dev";
-const routes = ["/","/newsroom.html","/artists.html","/releases.html","/colorado.html","/culture.html","/about.html","/contact.html","/academy.html","/editorial.html","/editorial-policy.html","/contributors.html","/explore.html"];
+const routes = ["/","/newsroom.html","/artists.html","/releases.html","/local.html","/radar.html","/culture.html","/about.html","/contact.html","/academy.html","/editorial.html","/editorial-policy.html","/contributors.html","/explore.html"];
 const results = [];
 const browser = await chromium.launch({headless:true});
 const page = await browser.newPage({viewport:{width:390,height:844}, deviceScaleFactor:2});
