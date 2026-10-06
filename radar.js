@@ -1,11 +1,11 @@
 (() => {
-  const feed=document.getElementById('radar-feed');
+  const feed=document.getElementById('radar-feed');\n  const editorialScript=document.createElement('script'); editorialScript.src='editorial-polish.js'; document.head.appendChild(editorialScript);
   const refresh=document.getElementById('radar-refresh');
   const status=document.getElementById('radar-status');
   const pull=document.getElementById('radar-pull');
   const aiNote=document.getElementById('radar-ai-note');
   if(!feed)return;
-  const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  const polishHeadline=v=>window.DistrictMindEditorial?.polishHeadline(v)||String(v??'');\n  const polishDeck=v=>window.DistrictMindEditorial?.polishDeck(v)||String(v??'');\n  const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
   const decode=v=>{let s=String(v??'');for(let i=0;i<3;i++){const t=document.createElement('textarea');t.innerHTML=s;s=t.value;if(!/[&](?:#\\d+|#x[0-9a-f]+|amp|quot|apos|rsquo|lsquo|rdquo|ldquo|ndash|mdash|hellip);/i.test(s))break;}return s;};
   const strip=v=>String(v??'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
   let allStories=[], activeFilter='all', refreshing=false, touchStartY=0, touchDistance=0, batchOffset=0;
@@ -33,9 +33,9 @@
     feed.innerHTML=stories.map((s,i)=>{
       const d=new Date(s.pubDate), cat=categoryOf(s), age=Math.max(0,ageHours(d)), reason=reasonOf(s,age);
       const image=s.image ? ' style="background-image:url(\''+esc(s.image).replace(/'/g,'%27')+'\')"' : '';
-      const desc=strip(decode(s.description)).slice(0,300);
+      const desc=polishDeck(strip(decode(s.description))).slice(0,300);
       const source=esc(decode(s.source||'LIVE'));
-      return '<article class="radar-card" role="link" tabindex="0" data-category="'+cat.toLowerCase()+'" data-index="'+i+'" data-href="'+esc(s.link)+'"><div class="radar-card-media '+(s.image?'':'radar-card-no-image')+'"'+image+'></div><div class="radar-card-body"><div class="radar-kicker"><span class="radar-pill">'+cat+'</span><span class="radar-pill">'+esc(reason)+'</span><span class="radar-pill">'+esc(tz.replace(/_/g,' '))+'</span></div><h2>'+esc(s.title)+'</h2><p class="radar-card-description">'+esc(desc||'District Mind is tracking the report and the conversation around it.')+'</p><div class="radar-meta"><span>'+source+'</span><span>'+esc(d.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}))+'</span></div></div><div class="radar-rail"><button type="button" data-up aria-label="Previous story" >↑︎</button><button type="button" data-down aria-label="Next story" >↓︎</button></div></article>';
+      return '<article class="radar-card" role="link" tabindex="0" data-category="'+cat.toLowerCase()+'" data-index="'+i+'" data-href="'+esc(s.link)+'"><div class="radar-card-media '+(s.image?'':'radar-card-no-image')+'"'+image+'></div><div class="radar-card-body"><div class="radar-kicker"><span class="radar-pill">'+cat+'</span><span class="radar-pill">'+esc(reason)+'</span><span class="radar-pill">'+esc(tz.replace(/_/g,' '))+'</span></div><h2>'+esc(polishHeadline(s.title))+'</h2><p class="radar-card-description">'+esc(desc||'District Mind is tracking the report and the conversation around it.')+'</p><div class="radar-meta"><span>'+source+'</span><span>'+esc(d.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}))+'</span></div></div><div class="radar-rail"><button type="button" data-up aria-label="Previous story" >↑︎</button><button type="button" data-down aria-label="Next story" >↓︎</button></div></article>';
     }).join('');
     feed.querySelectorAll('.radar-card').forEach(card=>{const open=()=>{const href=card.dataset.href;if(href)window.open(href,'_blank','noopener,noreferrer');};card.addEventListener('click',e=>{if(e.target.closest('button'))return;open();});card.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&!e.target.closest('button')){e.preventDefault();open();}});});
     feed.querySelectorAll('[data-down]').forEach(b=>b.addEventListener('click',()=>b.closest('.radar-card')?.nextElementSibling?.scrollIntoView({behavior:'smooth'})));
