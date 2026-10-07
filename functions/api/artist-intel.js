@@ -57,12 +57,12 @@ export async function onRequestGet({request,env}){
   let music=[];
   if(bestArtist.artistId){
    const ld=await fetchJson("https://itunes.apple.com/lookup?id="+encodeURIComponent(bestArtist.artistId)+"&entity=song&limit=100&country=US");
-   music=(ld?.results||[]).filter(x=>x.wrapperType==="track"&&x.trackName).map(x=>({title:x.trackName,album:x.collectionName||"",releaseDate:x.releaseDate||null,artwork:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"600x600"):null,apple:x.trackViewUrl||null,genre:x.primaryGenreName||null})).slice(0,40);
+   music=(ld?.results||[]).filter(x=>x.wrapperType==="track"&&x.trackName).map(x=>({title:x.trackName,album:x.collectionName||"",releaseDate:x.releaseDate||null,artwork:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"1000x1000"):null,apple:x.trackViewUrl||null,genre:x.primaryGenreName||null})).slice(0,40);
   }
   // If lookup is thin, search the artist directly for tracks as a second catalog pass.
   if(music.length<3){
    const fallback=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(best)+"&entity=song&attribute=artistTerm&limit=50&country=US");
-   music=(fallback?.results||[]).filter(x=>x.trackName&&(!x.artistName||norm(x.artistName)===norm(best))).map(x=>({title:x.trackName,album:x.collectionName||"",releaseDate:x.releaseDate||null,artwork:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"600x600"):null,apple:x.trackViewUrl||null,genre:x.primaryGenreName||null})).slice(0,40);
+   music=(fallback?.results||[]).filter(x=>x.trackName&&(!x.artistName||norm(x.artistName)===norm(best))).map(x=>({title:x.trackName,album:x.collectionName||"",releaseDate:x.releaseDate||null,artwork:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"1000x1000"):null,apple:x.trackViewUrl||null,genre:x.primaryGenreName||null})).slice(0,40);
   }
   const nr=await fetch("https://news.google.com/rss/search?q="+encodeURIComponent('"'+best+'" music when:7d')+"&hl=en-US&gl=US&ceid=US:en").catch(()=>null);
   let news=[];
@@ -71,7 +71,15 @@ export async function onRequestGet({request,env}){
   const era=(firstReleaseYear&&firstReleaseYear<2000)||legacyNames.includes(norm(best))?"legacy":"modern";
   const slug=encodeURIComponent(best).replace(/%20/g,"-");
   const links={apple:bestArtist.artistId?"https://music.apple.com/us/artist/"+slug+"/"+bestArtist.artistId:"https://music.apple.com/us/search?term="+encodeURIComponent(best),spotify:"https://open.spotify.com/search/"+encodeURIComponent(best),youtube:"https://www.youtube.com/results?search_query="+encodeURIComponent(best+" music"),soundcloud:"https://soundcloud.com/search?q="+encodeURIComponent(best),instagram:"https://www.google.com/search?q="+encodeURIComponent(best+" official Instagram")};
-  const artistImage=await appleImageFromPage(links.apple);
+  let artistImage=await appleImageFromPage(links.apple);
+  if(!artistImage){
+   try{
+    const dz=await fetchJson("https://api.deezer.com/search/artist?q="+encodeURIComponent(best)+"&limit=10");
+    const dzRows=Array.isArray(dz?.data)?dz.data:[];
+    const exact=dzRows.find(x=>norm(x.name)===norm(best))||dzRows.find(x=>norm(x.name).includes(norm(best)));
+    artistImage=exact?.picture_xl||exact?.picture_big||exact?.picture_medium||null;
+   }catch{}
+  }
   // Deployment marker: keep the production Pages build tied to the repaired main-branch function.
   let ai=null;
   if(env?.XAI_API_KEY){
