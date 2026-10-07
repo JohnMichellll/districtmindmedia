@@ -1,68 +1,68 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-07T18:13:18.717Z
+Generated: 2026-10-07T18:47:42.971Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 264
+Stories discovered: 266
 
-1. **Could Just Your Type Be the Next Big Boy&#160;Band?** — Billboard — Wed, 07 Oct 2026 18:10:53 +0000
+1. **Grammy-nominated R&B singer Freddie Jackson dies at 70 - KSWT-TV** — Google News — R&B — Wed, 07 Oct 2026 18:42:45 GMT
+   https://news.google.com/rss/articles/CBMipAFBVV95cUxOdi1lVERya00zR1Q3dVkxT29SNVVmeENaQWdhLWhkRkRDVU42Sjh1aWR4WXhwaURFSF9BTXR4ZFhvbVpFeEF4eTVCcEhsNURmRTdIc2NtaWYwblJmUlZuUWw4VC05aXVTR25rbm53QWdvU255ZThFdGNldWVyRW9FWV9FUlZMOXVWREJlc3BUaFhhZFN6VHBxclhCeGFzdUNHLW81Xw?oc=5
+2. **Taylor Swift Scores Her 12th Streaming Songs No. 1 With &#8216;Patient&#160;Zero&#8217;** — Billboard — Wed, 07 Oct 2026 18:42:28 +0000
+   https://www.billboard.com/pro/taylor-swift-patient-zero-number-1-streaming-songs-chart/
+3. **&#8216;Dick Clark&#8217;s New Year&#8217;s Rockin&#8217; Eve With Ryan Seacrest&#8217; to Simulcast on Both ABC and Disney+ for the First Time** — Variety — Music — Wed, 07 Oct 2026 18:35:04 +0000
+   https://variety.com/2026/tv/news/dick-clark-new-years-rockin-eve-simulcast-disney-plus-abc-1236904595/
+4. **Billboard Hot Latin Songs Top 10 Countdown for Oct. 10, 2026 &#124; Billboard&#160;Latin** — Billboard — Wed, 07 Oct 2026 18:34:59 +0000
+   https://www.billboard.com/video/billboard-hot-latin-songs-top-10-countdown-october-10-2026/
+5. **Does Tinashe Already Have a Breakout Hit From Her Acclaimed &#8216;Popstar&#8217; Album?** — Billboard — Wed, 07 Oct 2026 18:31:10 +0000
+   https://www.billboard.com/music/rb-hip-hop/tinashe-popstar-melatonin-breakout-hit-trending-up-1236356205/
+6. **Atlantic &#038; Kakao Entertainment Form Partnership to Create More K-pop&#160;Opportunities** — Billboard — Wed, 07 Oct 2026 18:26:17 +0000
+   https://www.billboard.com/pro/atlantic-kakao-entertainment-kpop-partnership/
+7. **ESPN Analyst Declares Deion Sanders "Done" At Colorado - Hip-Hop Wired** — Google News — Hip-Hop — Wed, 07 Oct 2026 18:19:28 GMT
+   https://news.google.com/rss/articles/CBMijgFBVV95cUxOOTZDQTZYN1Q4LXRrY3pqQ1NXTjBNWGU1a2FOa3VjZWFPODlTQmVpdVBETXlsMVIwQlVFZ2l2R0RwV3g2ejdIU1RNbXRPdlRmM1lYczR0TWhVN3AxSkVqdjB4aDFsWXJXLTY1My1lQWtCR3d0U3pyb0dsV2NuRlF0TzJ4X2JhclA1X1JuczVn?oc=5
+8. **Kirk Franklin&#8217;s GloRilla Collab &#8216;This Time&#8217; Becomes His Record-Extending 10th Hot Gospel Songs No.&#160;1** — Billboard — Wed, 07 Oct 2026 18:17:27 +0000
+   https://www.billboard.com/music/chart-beat/kirk-franklin-glorilla-this-time-number-1-hot-gospel-songs-1236356173/
+9. **&#8216;Ted Lasso&#8217; Closes Out Season 4 With Special Brandi Carlile Theme Song** — Rolling Stone — Music — Wed, 07 Oct 2026 18:16:46 +0000
+   https://www.rollingstone.com/music/music-news/brandi-carlile-ted-lasso-theme-song-1235638871/
+10. **Down release official music video for "The Myth" - Chaoszine** — Google News — New Music — Wed, 07 Oct 2026 18:16:13 GMT
+   https://news.google.com/rss/articles/CBMieEFVX3lxTE1CUGZRTXFLX203S2tvTE1oWFNOd1kwRHFDLTZWZ3VrU0I2S0R6aG5BMHhSRXh5eEFpOHJIYXVEM0xiMVBPSDVKdnhId2ZCSFdNRERGcFdTdXFPUmtFZE9ZcXRsRDJPd3hfS1JMZ3dFUmNGQm1ieF9DOA?oc=5
+11. **Could Just Your Type Be the Next Big Boy&#160;Band?** — Billboard — Wed, 07 Oct 2026 18:10:53 +0000
    https://www.billboard.com/music/pop/just-your-type-jyt-boy-band-members-interview-1236350227/
-2. **Lil Wayne Says He &#038; Drake Have a &#8216;Whole Bunch of Unreleased Material&#8217; Dating Back to&#160;2014** — Billboard — Wed, 07 Oct 2026 18:09:20 +0000
+12. **Lil Wayne Says He &#038; Drake Have a &#8216;Whole Bunch of Unreleased Material&#8217; Dating Back to&#160;2014** — Billboard — Wed, 07 Oct 2026 18:09:20 +0000
    https://www.billboard.com/music/rb-hip-hop/lil-wayne-drake-have-unreleased-collabs-1236356083/
-3. **Tate McRae Shifts Gears From &#8216;Sports Car&#8217; to &#8216;Housewife&#8217;: Here&#8217;s When Her New Song&#160;Arrives** — Billboard — Wed, 07 Oct 2026 18:03:27 +0000
+13. **Tate McRae Shifts Gears From ‘Sports Car’ to ‘Housewife’: Here’s When Her New Song Arrives - Billboard** — Google News — New Music — Wed, 07 Oct 2026 18:04:19 GMT
+   https://news.google.com/rss/articles/CBMilAFBVV95cUxQci0yb1dNRWRoWWdoeDB0RFF2WnZud19tQ3N5RG9KMUlfUGl5MUFHeVR0V0R5djBfZnhKWEh2dVpWVFVHb3hvM3BzeGRaaVh2UThzLUVZdTBCTC04VklwODdpSjloV1JrdzJkX1R3OU9ZWmdQU1phSkNLcUVuNHZNTDZ3aVlWdy1xME1laE1EdHdtX0Nq?oc=5
+14. **Tate McRae Shifts Gears From &#8216;Sports Car&#8217; to &#8216;Housewife&#8217;: Here&#8217;s When Her New Song&#160;Arrives** — Billboard — Wed, 07 Oct 2026 18:03:27 +0000
    https://www.billboard.com/music/pop/tate-mcrae-new-song-housewife-release-date-1236356124/
-4. **Nolan Wells Friends Take Legal Action Against Creator Over TikTok Defamation** — AllHipHop — Wed, 07 Oct 2026 18:01:00 +0000
+15. **Nolan Wells Friends Take Legal Action Against Creator Over TikTok Defamation** — AllHipHop — Wed, 07 Oct 2026 18:01:00 +0000
    https://allhiphop.com/news/nolan-wells-friends-take-legal-action-against-creator-over-tiktok-defamation/
-5. **The First Music Streaming Fraud Case Gets Caught Up in Trump&#8217;s Dumb AI Rebrand** — Rolling Stone — Music — Wed, 07 Oct 2026 18:00:42 +0000
+16. **The First Music Streaming Fraud Case Gets Caught Up in Trump&#8217;s Dumb AI Rebrand** — Rolling Stone — Music — Wed, 07 Oct 2026 18:00:42 +0000
    https://www.rollingstone.com/music/music-news/trump-ai-rebrand-music-streaming-fraud-case-1235638897/
-6. **Watch American Football Combine “Never Meant” and the Cure’s “Boys Don’t Cry”** — Pitchfork — Wed, 07 Oct 2026 17:50:49 +0000
+17. **Watch American Football Combine “Never Meant” and the Cure’s “Boys Don’t Cry”** — Pitchfork — Wed, 07 Oct 2026 17:50:49 +0000
    https://pitchfork.com/story/watch-american-football-combine-never-meant-and-the-cures-boys-dont-cry/
-7. **3 Underground Rappers Who Have Been Quietly Making Fantastic Albums for Years - VICE** — Google News — Hip-Hop — Wed, 07 Oct 2026 17:50:38 GMT
+18. **3 Underground Rappers Who Have Been Quietly Making Fantastic Albums for Years - VICE** — Google News — Hip-Hop — Wed, 07 Oct 2026 17:50:38 GMT
    https://news.google.com/rss/articles/CBMirwFBVV95cUxOb1oyRDNDSHA4ZmI5UjIxejcwWktiWVFSQ0VVRGYxd1lLcUkyOFFiWHNhdGtOOTVYQmU0aXhDRkRGY1FYSnNzZlZ2a29iT3NnQWFiYkJid3RXVEhlbFh5UU9KS2t0NkthQnlxWEcwdVBqRkVUWHRvYTk1TFhuWEhfdWV4TTFWRmt5aE04UnlwXy12cXBiTzlHS2tUZDVkX01hSUtZODJDalUwR09jVU1V?oc=5
-8. **Man Sentenced to Prison for Bot Streams of AI Songs** — Pitchfork — Wed, 07 Oct 2026 17:46:36 +0000
+19. **Man Sentenced to Prison for Bot Streams of AI Songs** — Pitchfork — Wed, 07 Oct 2026 17:46:36 +0000
    https://pitchfork.com/story/man-sentenced-to-prison-for-bot-streams-of-ai-songs/
-9. **GL1TTR Opens Free Artist and Fan Registration for a New Music Discovery Network - EIN News** — Google News — New Music — Wed, 07 Oct 2026 17:38:00 GMT
+20. **GL1TTR Opens Free Artist and Fan Registration for a New Music Discovery Network - EIN News** — Google News — New Music — Wed, 07 Oct 2026 17:38:00 GMT
    https://news.google.com/rss/articles/CBMivgFBVV95cUxNbWlvZVVUZHRyLWc3YVBJb2ZoRlJpUGl2SFVGSDJEb0pXd1NDaFNTTmVZam05Zmd4MkhRdVMxQXJuUkR5TVNLT184a0Y4bkdmLTZYUXVmNF84WExwVmNxZXdFMktSMjlMN3Q4QnFPakR0cERKMVBWOEotRXY5SnNqbENSYVNaU3I3OGFxZVVRU1BMVEVnaHF2ZkE5NVg4aGxSWHZSV1c5WDB5UzF3S0VpT0tsRUZ6WThNLXg4SzFn?oc=5
-10. **Majo Aguilar on Her Upcoming First Performance at Mexico&#8217;s Auditorio Nacional: &#8216;It&#8217;s a Gift From&#160;Life&#8217;** — Billboard — Wed, 07 Oct 2026 17:35:28 +0000
+21. **Majo Aguilar on Her Upcoming First Performance at Mexico&#8217;s Auditorio Nacional: &#8216;It&#8217;s a Gift From&#160;Life&#8217;** — Billboard — Wed, 07 Oct 2026 17:35:28 +0000
    https://www.billboard.com/music/latin/majo-aguilar-auditorio-nacional-performance-digger-1236356165/
-11. **F.B.I. Director Kash Patel Engaged to Country Singer Girlfriend Alexis Wilkins: &#8216;Went and Got the Law&#160;Involved&#8217;** — Billboard — Wed, 07 Oct 2026 17:30:59 +0000
+22. **F.B.I. Director Kash Patel Engaged to Country Singer Girlfriend Alexis Wilkins: &#8216;Went and Got the Law&#160;Involved&#8217;** — Billboard — Wed, 07 Oct 2026 17:30:59 +0000
    https://www.billboard.com/culture/politics/fbi-director-kash-patel-engaged-country-singer-alexis-wilkins-1236356099/
-12. **Award-winning R&B singer Freddie Jackson died Oct. 5, his family announced on social media. See link below ⬇️ 📸 Stephen Lovekin, Getty Images - Facebook** — Google News — R&B — Wed, 07 Oct 2026 17:30:14 GMT
+23. **Award-winning R&B singer Freddie Jackson died Oct. 5, his family announced on social media. See link below ⬇️ 📸 Stephen Lovekin, Getty Images - Facebook** — Google News — R&B — Wed, 07 Oct 2026 17:30:14 GMT
    https://news.google.com/rss/articles/CBMi3wFBVV95cUxNb1o2TEhwcVlmb214dk9ZQmMzSlh6aVFCWVRlSFZRcUJSUFBIcDcyWDZ4Z2wtSXdtakhWa1BVVVZxRFVJaVNRS2ZYd1dTWGkzT2JXaVJ1eWJRYW45RDE2S1ZLNk1MMkxmTmdDYnEzVHhZQ0piUER5SldydEVhYXJTTVo2aV9KMWNlbTFvRVJMN05YWWp0cy1rTFJCNUJ2OUcta0w4VkpXbDVBUFlhRlhSWEpLUFVKUDAzclFnNUktMk9mYkpacUJkeFByZXFNRGJqaFZqamJkZHJoZ3hfZ3lB?oc=5
-13. **R.I.P. Verne Allison, founding member of the legendary R&B act The Dells - SoulTracks** — Google News — R&B — Wed, 07 Oct 2026 17:28:28 GMT
+24. **R.I.P. Verne Allison, founding member of the legendary R&B act The Dells - SoulTracks** — Google News — R&B — Wed, 07 Oct 2026 17:28:28 GMT
    https://news.google.com/rss/articles/CBMiYkFVX3lxTFBSVkZCN1FRbUlSdUs3OHR4UHY1OEplSTl3V1RUVXFhb0pZVXNjMVIwWXc4UlF3WGxuR3RDNW0xY1NZcTVCTVJjVWpva3FaN1FMNml4M3pVUFhsNFhMZmVqM1hR?oc=5
-14. **THE DROP Featurette Traces Gospel Roots of Hip-Hop Track - BroadwayWorld** — Google News — Hip-Hop — Wed, 07 Oct 2026 17:27:01 GMT
+25. **THE DROP Featurette Traces Gospel Roots of Hip-Hop Track - BroadwayWorld** — Google News — Hip-Hop — Wed, 07 Oct 2026 17:27:01 GMT
    https://news.google.com/rss/articles/CBMirgFBVV95cUxQOHFpN3BROXM1ZkR1cjhuYmtmT1Q3TnhxWHgya0RPQmFDM05qZGJzeEFJQ0FKYkpDRS1FRC1ZcDJ2V3hYd1J6UkQ1U2NEMnlCSkk2WDRGTTBjNEdZWUxWRVh4S0Qyb3RPZkdkV29FRlhqSkJUYkc5NjZpMzFCRkFqZGRudTRSRTZmNEs4WVNWSWZIakFZU2VJQzBCYXdHWUVqVmprUUk4ZlI1OTZPZVE?oc=5
-15. **Travis Kelce Gushes About Getting to &#8216;Hang With Tay&#8217; on His 37th Birthday: &#8216;It Was a Good&#160;Day&#8217;** — Billboard — Wed, 07 Oct 2026 17:23:29 +0000
-   https://www.billboard.com/music/music-news/travis-kelce-reveals-how-taylor-swift-spent-his-birthday-1236356094/
-16. **UK Live Music Sector Set To Benefit From New Music Growth Funding - CelebrityAccess** — Google News — New Music — Wed, 07 Oct 2026 17:20:05 GMT
-   https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMDhrWnNSckpmNU0wWE1MSkx4TlhiaGVOUFp6X3NCa0JpOHY5RzU0aGt1NWR5czRWTm5kVUlUdkdyUFEtbGNYMklfX3VQb3YwTEN4ZmpZYWI4TkJkZjdDcXJxZS1wWUktajExRnJSWDZBbkk5Yy1hdlBSOXFsYTZoSzlKajFxV3IxR2U1NzNMSGNRZXF2U1puWk04MHR3Z1ZfMXo2OGlwdk4?oc=5
-17. **Kenny Chesney&#8217;s &#8216;Silver Sands Marina&#8217; Crashes Onto Multiple Billboard&#160;Charts** — Billboard — Wed, 07 Oct 2026 17:19:33 +0000
-   https://www.billboard.com/music/chart-beat/kenny-chesney-silver-sands-marina-debuts-billboard-charts-1236356103/
-18. **Songwriter Jeffrey Steele to be Honored as BMI&#160;Icon** — Billboard — Wed, 07 Oct 2026 17:19:18 +0000
-   https://www.billboard.com/pro/songwriter-jeffrey-steele-to-be-honored-bmi-icon-nashville/
-19. **Will Smith's hip-hop origin story inspires new scripted TV show - A.V. Club** — Google News — Hip-Hop — Wed, 07 Oct 2026 17:06:02 GMT
+26. **Will Smith's hip-hop origin story inspires new scripted TV show - A.V. Club** — Google News — Hip-Hop — Wed, 07 Oct 2026 17:06:02 GMT
    https://news.google.com/rss/articles/CBMibkFVX3lxTFB1Nmp2NWJKY0pXTkwzYTJwekZmWk9HMk0wYXNGRUZOenVVU2pHX1g1djNTM1VySV9iNGtRaEpIRXY1MS1uZXNjWEQyMlQxVElHQUZ2UzZwYzBHaUdMZVh3ekktOTE3ZGxPdE9ockdB?oc=5
-20. **Kojey Radical Honored With Trailblazer Award at Billboard U.K.&#8217;s Inaugural 40 Under 40&#160;Event** — Billboard — Wed, 07 Oct 2026 17:05:33 +0000
-   https://www.billboard.com/music/music-news/kojey-radical-trailblazer-award-billboard-uk-40-under-40-1236356031/
-21. **&#8216;Ted Lasso&#8217; Theme Song Switch: Why Brandi Carlile Took Over for Marcus Mumford in Season 4 Finale — and Is It a Permanent Change?** — Variety — Music — Wed, 07 Oct 2026 17:04:39 +0000
+27. **&#8216;Ted Lasso&#8217; Theme Song Switch: Why Brandi Carlile Took Over for Marcus Mumford in Season 4 Finale — and Is It a Permanent Change?** — Variety — Music — Wed, 07 Oct 2026 17:04:39 +0000
    https://variety.com/2026/tv/news/ted-lasso-theme-song-brandi-carlile-marcus-mumford-finale-1236904456/
-22. **Megan Thee Stallion Trades Houston For Vegas With Latest Hottieween Event** — AllHipHop — Wed, 07 Oct 2026 17:00:00 +0000
+28. **Freddie Jackson, ‘You Are My Lady’ Singer That Topped R&B Charts, Dead at 69 - The New York Times** — Google News — R&B — Wed, 07 Oct 2026 17:04:00 GMT
+   https://news.google.com/rss/articles/CBMie0FVX3lxTFBOclFvYXpiQUpWazZjRHJCdHNCT1VEUzl2czV3TVRDRWhhQzZTV3Q3aHozWUpiOThMaWd6a1NySWpHQkdTY1BCOVdtYlpqUkhnMDVQV0NzcmpWbzdLQ2dfVktMUll4Qkh6VmxvOWlENV9IWHRnZlJyOUlOcw?oc=5
+29. **Megan Thee Stallion Trades Houston For Vegas With Latest Hottieween Event** — AllHipHop — Wed, 07 Oct 2026 17:00:00 +0000
    https://allhiphop.com/news/megan-thee-stallion-trades-houston-for-vegas-with-latest-hottieween-event/
-23. **Flacko Gives Back: A$AP Rocky Launches Full-Tuition Scholarship At Roc Nation School - Hip-Hop Wired** — Google News — Hip-Hop — Wed, 07 Oct 2026 16:59:26 GMT
+30. **Flacko Gives Back: A$AP Rocky Launches Full-Tuition Scholarship At Roc Nation School - Hip-Hop Wired** — Google News — Hip-Hop — Wed, 07 Oct 2026 16:59:26 GMT
    https://news.google.com/rss/articles/CBMifkFVX3lxTE9QcHVhV0hua2oxRUNTOEJmN0Z6cE1sWmFnaE5IY2g2eFRYT2NRZFlCSGt1SmpEdS13ejQ3VF83LXcyVXNmM0dwTDZHT09JZmtXOG5qbEV6bk9LdFRkYWZPcVpRMGFrNnYtX1BHTWgxSUtHMVlEb0FBV3UyUWtEQQ?oc=5
-24. **Undeath Sign to Relapse and Share New Song** — Pitchfork — Wed, 07 Oct 2026 16:58:54 +0000
-   https://pitchfork.com/story/undeath-sign-to-relapse-and-share-new-song/
-25. **Hinatazaka46&#8217;s &#8216;Icha Icha Mushi&#8217; Tops Japan Hot 100 as All 16 Tracks Chart From Mrs. GREEN APPLE&#8217;s &#8216;POPS&#8217;** — Billboard — Wed, 07 Oct 2026 16:53:21 +0000
-   https://www.billboard.com/music/chart-beat/hinatazaka46-icha-mushi-japan-hot-100-mrs-green-apple-pops-1236356130/
-26. **MSC World Asia Entertainment: New Shows and Live Music - Cruise Critic** — Google News — New Music — Wed, 07 Oct 2026 16:47:19 GMT
-   https://news.google.com/rss/articles/CBMif0FVX3lxTE43WTZ3bmgtNklPY2FxZVdEa0VqbGVEejlXTk9qQjA3QV9RMWdaRk9hbzlsYzV1NmZkbXM0LUVIUDZ3M0szZVdPeUxMRHZZbzJhb3NXYkZMN2Z3TjBYaFBNZ1FaVWNDT2gwWkRXeENBWTFoeFdHMkItbTJwdGF6Nnc?oc=5
-27. **Your first car teaches lessons that driving school never covers** — AllHipHop — Wed, 07 Oct 2026 16:46:24 +0000
-   https://allhiphop.com/blogs/your-first-car-teaches-lessons-that-driving-school-never-covers/
-28. **From sirens to symphonies: Shuttered Cobble Hill firehouse gets new life as music school - Brooklyn Paper** — Google News — New Music — Wed, 07 Oct 2026 16:17:12 GMT
-   https://news.google.com/rss/articles/CBMikwFBVV95cUxPeng2NE1peERtU1ZyZ2MtQUMteE9pSU5iNkZCNGgtWVM0bHpQQTlYdVFWblozU1A2Rm5MaHFvN1MzcU42SWJqZl9ycUpaZWFtS1JRSFFIbWZKZ19MTU1KeC1hVk9hOWRodlE3YVFVWHJuWUg5RzNMN1B5WlZXUzVKUTZiTTQzaFJ1NzRCWjlrSjllTm8?oc=5
-29. **Down Premiere Music Video For Their New Song "The Myth" - Theprp.com** — Google News — New Music — Wed, 07 Oct 2026 16:13:13 GMT
-   https://news.google.com/rss/articles/CBMimAFBVV95cUxPeURoMUFRd2VhQnVGTE1VZkkzZWEwV1lHbVFRWVdqME45MjhmZUItU0ItN3U3MzdsX05hNEx2MGpOMFgwREsyRzc0ekxjaWlZa3dLckFnMG5fUXdPcG1TWnZldXFPbGkycVo2TXI1bndkM3pROEZOZksxeVdiRWxCek5MZDl1MWJlb0N3OV9RcFZjV1pZUDBxNw?oc=5
-30. **Denzel Curry Returns To Red Bull’s 64 Bars With Hit-Boy - Hip-Hop Wired** — Google News — Hip-Hop — Wed, 07 Oct 2026 16:04:24 GMT
-   https://news.google.com/rss/articles/CBMikAFBVV95cUxPVHVZMGpaWENUMWU0TENGRkg2b09uMHh2ZTFMZ2NhSWxINW1OU2k5eGl3Rk5NM3hZRVJXakh5TEk1QWpJOVB0QlFaclQ1YlRFaG12M0hUcEswcEo3Q1p3OVpKNnZlS2xIT200U1RhSVh2RFJhYmwwMGxWVVBHZWViOTA0MTJqTUVFQWg1Z242VTQ?oc=5
