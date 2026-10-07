@@ -6,7 +6,7 @@
     {title:'Radar', href:'radar.html', type:'RADAR', tags:'breaking drama culture artist viral trending live reports swipe scroll latest news source'},
     {title:'Newsroom', href:'newsroom.html', type:'NEWS', tags:'news headlines live desk current reporting scoop sources'},
     {title:'Artist Intelligence Hub', href:'artists.html', type:'ARTISTS', tags:'artist singer rapper band biography catalog music search artist profile'},
-    {title:'Artist Registry', href:'artist-registry.html', type:'REGISTRY', tags:'artist independent diy distrokit catalog archive inactive profile submit discover music creator'},
+    {title:'Artist Registry', href:'artist-registry.html', type:'REGISTRY', tags:'artist independent diy DistroKid catalog archive inactive profile submit discover music creator'},
     {title:'Releases', href:'releases.html', type:'MUSIC', tags:'new music albums singles release calendar songs listen'},
     {title:'Concerts Near You', href:'wayfinder.html?find=concerts', type:'LIVE', tags:'concerts shows live music events tickets venue tour'},
     {title:'Culture', href:'culture.html', type:'CULTURE', tags:'culture lifestyle rooms fashion moments'},
