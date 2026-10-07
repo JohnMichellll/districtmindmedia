@@ -1,11 +1,14 @@
 (() => {
-  const feed=document.getElementById('radar-feed');\n  const editorialScript=document.createElement('script'); editorialScript.src='editorial-polish.js'; document.head.appendChild(editorialScript);
+  const feed=document.getElementById('radar-feed');
+  const editorialScript=document.createElement('script'); editorialScript.src='editorial-polish.js'; document.head.appendChild(editorialScript);
   const refresh=document.getElementById('radar-refresh');
   const status=document.getElementById('radar-status');
   const pull=document.getElementById('radar-pull');
   const aiNote=document.getElementById('radar-ai-note');
   if(!feed)return;
-  const polishHeadline=v=>window.DistrictMindEditorial?.polishHeadline(v)||String(v??'');\n  const polishDeck=v=>window.DistrictMindEditorial?.polishDeck(v)||String(v??'');\n  const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  const polishHeadline=v=>window.DistrictMindEditorial?.polishHeadline(v)||String(v??'');
+  const polishDeck=v=>window.DistrictMindEditorial?.polishDeck(v)||String(v??'');
+  const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
   const decode=v=>{let s=String(v??'');for(let i=0;i<3;i++){const t=document.createElement('textarea');t.innerHTML=s;s=t.value;if(!/[&](?:#\\d+|#x[0-9a-f]+|amp|quot|apos|rsquo|lsquo|rdquo|ldquo|ndash|mdash|hellip);/i.test(s))break;}return s;};
   const strip=v=>String(v??'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
   let allStories=[], activeFilter='all', refreshing=false, touchStartX=0, touchDistanceX=0, batchOffset=0;
