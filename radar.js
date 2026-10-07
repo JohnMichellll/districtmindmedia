@@ -8,7 +8,7 @@
   const polishHeadline=v=>window.DistrictMindEditorial?.polishHeadline(v)||String(v??'');\n  const polishDeck=v=>window.DistrictMindEditorial?.polishDeck(v)||String(v??'');\n  const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
   const decode=v=>{let s=String(v??'');for(let i=0;i<3;i++){const t=document.createElement('textarea');t.innerHTML=s;s=t.value;if(!/[&](?:#\\d+|#x[0-9a-f]+|amp|quot|apos|rsquo|lsquo|rdquo|ldquo|ndash|mdash|hellip);/i.test(s))break;}return s;};
   const strip=v=>String(v??'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
-  let allStories=[], activeFilter='all', refreshing=false, touchStartY=0, touchDistance=0, batchOffset=0;
+  let allStories=[], activeFilter='all', refreshing=false, touchStartX=0, touchDistanceX=0, batchOffset=0;
   const tz=Intl.DateTimeFormat().resolvedOptions().timeZone || 'LOCAL TIME';
   const localHour=d=>Number(new Intl.DateTimeFormat('en-US',{hour:'numeric',hour12:false,timeZone:tz}).format(d));
   const ageHours=d=>(Date.now()-d.getTime())/3600000;
@@ -76,9 +76,29 @@
   }
   document.querySelectorAll('.radar-filter').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.radar-filter').forEach(x=>x.classList.remove('is-active'));b.classList.add('is-active');activeFilter=b.dataset.filter;render(filtered());feed.scrollTo({top:0,behavior:'smooth'});}));
   refresh.addEventListener('click',()=>{batchOffset+=24;load();});
-  let lastPull=0;
-  feed.addEventListener('touchstart',e=>{if(feed.scrollTop===0)touchStartY=e.touches[0].clientY;},{passive:true});
-  feed.addEventListener('touchmove',e=>{if(feed.scrollTop!==0||!touchStartY)return;touchDistance=e.touches[0].clientY-touchStartY;if(touchDistance>15){pull.classList.add('is-visible');pull.textContent=touchDistance>85?'Release to refresh':'Pull to refresh';}},{passive:true});
-  feed.addEventListener('touchend',()=>{if(touchDistance>85&&Date.now()-lastPull>1200){lastPull=Date.now();load();}pull.classList.remove('is-visible');touchStartY=0;touchDistance=0;},{passive:true});
+  let lastSwipe=0;
+  feed.addEventListener('touchstart',e=>{
+    touchStartX=e.touches[0].clientX;
+    touchDistanceX=0;
+  },{passive:true});
+  feed.addEventListener('touchmove',e=>{
+    if(!touchStartX)return;
+    touchDistanceX=e.touches[0].clientX-touchStartX;
+    if(touchDistanceX>18){
+      pull.classList.add('is-visible');
+      pull.textContent=touchDistanceX>85?'Release to refresh':'Swipe right to refresh';
+    }
+  },{passive:true});
+  feed.addEventListener('touchend',()=>{
+    if(touchDistanceX>85&&Date.now()-lastSwipe>1200){
+      lastSwipe=Date.now();
+      pull.textContent='Refreshing Radar…';
+      load();
+    }else{
+      pull.classList.remove('is-visible');
+    }
+    touchStartX=0;
+    touchDistanceX=0;
+  },{passive:true});
   load();
 })();
