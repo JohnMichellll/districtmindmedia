@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-08T10:44:40.578Z",
+  "generatedAt": "2026-10-08T11:11:29.766Z",
   "operator": "District Mind AI Newsroom",
   "status": "READY_FOR_EDITOR",
-  "storyCount": 269,
+  "storyCount": 270,
   "stories": [
     {
       "title": "Pet Shop Boys honor Alan Turing on ambitious new album - Cleveland.com",
@@ -551,6 +551,12 @@
       "source": "Google News — R&B"
     },
     {
+      "title": "Boomer Music - Los Angeles Review of Books",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUXBXdXhfYkdOSF9FVnItSTU0ODFISmIyTHZDZVBqb0paS24tdnlXalRIUjk4d1VjaV9MTWJmbnRmTUFYTHR6VU9BRk40akk3SDZhOURvM0wtbU50R09SYjYxVmVua2dUcjc5cE9JbnhvOWhja0ZtSHZlbTlvNndYVWxudlg2N0d5?oc=5",
+      "date": "Wed, 07 Oct 2026 13:44:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
       "title": "Swerve Strickland Joins Forces With Harlem Hip Hop Icon Max B For New Single (Exclusive) - Sports Illustrated",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbkN4cEVXb25Lajh1NEpMaU04SXJmRFEzUkplRWVyYkpTMl9Sc1daYkZHRllBWVpkOUJuaEtEeXNkbWh6YmF6cXJQUlJYYnltX3RmZGhtdmpQVC1XNFNQLTFWMnFQQlV0SllLMGhNQXBJSmpaNnFCQlRaQjFhYVlpQVo0MktraXlwS0xhenZ2S2xteWlkNXhqZE1ocUZpWTZhM2Q2Q1J6STg3aVpfcHlUWVI2UE5iSDVuaEZlcGZLVENkZVpRSlY0Szk2ems0T2M?oc=5",
       "date": "Wed, 07 Oct 2026 13:00:04 GMT",
@@ -593,12 +599,6 @@
       "source": "Google News — R&B"
     },
     {
-      "title": "RIP Freddie Jackson: 5 songs that made the Grammy-nominated R&B singer unforgettable - Open Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxON1V4WC1kYXZSTG82XzRscWpXdkNmSThlelJNU0l3TWhSNGtKLVBsaVM2RDFXazBCLWR5Z0RpUHBIZlQ4dVJSZDdwRm5vOFg0X2RpZkluN21uV0JoblJpYnVpVEhQYXZDcUZ4MWZIelJNajNBT2I0QkNobm9YR1dZUGZfemFDX2ZTY0NNZmdrYUd4YlYxN20tNUZLUmZHMkVFRVBpMGdXMkVzSVZCXzlBckowTUlXbEhYcmxiLUxqejVaQQ?oc=5",
-      "date": "Wed, 07 Oct 2026 11:10:28 GMT",
-      "source": "Google News — R&B"
-    },
-    {
       "title": "’80s icon Rick Springfield to preview new music at Riverside - The Gazette",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPWm02VFh2Ql9FZHZRUFNWLUJiNzZlYUNQR0pFeFdIbEp6N3FrVllJYU5nOEZUMmItZDRuRVA0ci1XazBVVld0SExtYk5ZdDBRU1NBZzZaMjBKYk82eXgteDlZRngxOW1QazA3UkNXZF9mY21iUndaM21XTllJNTNVSWJVc0R3OGI2ck1VbUJ4Snd0dndkT1ZHVmI2WUFOenotVVB4TGNJTTRRZHJyZVpkUUd2MGRNcWtxeEhUVmk0OEh5aDVJMEhuaEM4YWE4NXNwa2MyU0llUEZ4M1c3bV95VU95bXpLcG5fTDNMbC1DNTRHUUU?oc=5",
       "date": "Wed, 07 Oct 2026 11:00:00 GMT",
@@ -628,8 +628,8 @@
       "bytes": 19062,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=21c030e727b944c493b862b64cc4ba16 benchma",
-      "latencyMs": 171
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=b137d878806a4d5dad5fdba961509459 benchma",
+      "latencyMs": 130
     },
     {
       "source": "HipHopDX",
@@ -640,18 +640,18 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 251
+      "latencyMs": 180
     },
     {
       "source": "AllHipHop",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 57452,
+      "bytes": 57453,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 617
+      "latencyMs": 890
     },
     {
       "source": "No Jumper",
@@ -662,40 +662,40 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 516
+      "latencyMs": 434
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 120694,
+      "bytes": 120918,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 458
+      "latencyMs": 468
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 92,
-      "bytes": 116413,
+      "bytes": 116497,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 361
+      "latencyMs": 382
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 123677,
+      "bytes": 123363,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 369
+      "latencyMs": 377
     },
     {
       "source": "Google News — Colorado Music",
@@ -706,7 +706,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 337
+      "latencyMs": 374
     },
     {
       "source": "Billboard",
@@ -717,7 +717,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 204
+      "latencyMs": 61
     },
     {
       "source": "Pitchfork",
@@ -728,7 +728,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 102
+      "latencyMs": 86
     },
     {
       "source": "Rolling Stone — Music",
@@ -739,7 +739,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 227
+      "latencyMs": 83
     },
     {
       "source": "Variety — Music",
@@ -750,7 +750,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 198
+      "latencyMs": 40
     }
   ],
   "errorCount": 0,
