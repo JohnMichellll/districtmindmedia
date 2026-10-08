@@ -8,7 +8,7 @@
     {title:'Artist Intelligence Hub', href:'artists.html', type:'ARTISTS', tags:'artist singer rapper band biography catalog music search artist profile'},
     {title:'Artist Registry', href:'artist-registry.html', type:'REGISTRY', tags:'artist independent diy DistroKid catalog archive inactive profile submit discover music creator'},
     {title:'Releases', href:'releases.html', type:'MUSIC', tags:'new music albums singles release calendar songs listen'},
-    {title:'Concerts Near You', href:'wayfinder.html?find=concerts', type:'LIVE', tags:'concerts shows live music events tickets venue tour'},
+    {title:'Concerts Near You', href:'concerts.html', type:'LIVE', tags:'concerts shows live music events tickets venue tour nearby near me local'},
     {title:'Culture', href:'culture.html', type:'CULTURE', tags:'culture lifestyle rooms fashion moments'},
     {title:'Explore Media', href:'explore.html', type:'EXPLORE', tags:'explore discovery everything media'},
     {title:'District Mind Academy', href:'academy.html', type:'ACADEMY', tags:'learn class education start from zero'},
@@ -62,6 +62,12 @@
         q = q.trim();
         if (!q) { status.textContent='SEARCH THE WHOLE DESK.'; results.innerHTML=''; return; }
         status.textContent='SCANNING THE DESK…';
+        const concertIntent=/\b(concert|concerts|show|shows|live music|tour|tours|tickets|gig|gigs|event|events)\b/i.test(q);
+        if(concertIntent){
+          status.textContent='LIVE EVENTS / LOCATION DESK';
+          results.innerHTML='<a class="dm-guide-result dm-guide-live-result" href="concerts.html"><span class="dm-guide-result-type">LIVE / NEAR YOU</span><strong>Concerts Near You</strong><small>Open the dedicated concert finder — location, date, genre and ticket routes.</small></a>';
+          return;
+        }
         const matches = routes.map(x=>({...x,_score:score(x,q)})).filter(x=>x._score>0).sort((a,b)=>b._score-a._score).slice(0,7);
         let artist = null;
         if (tokens(q).length && !/^(article|artist|new music|colorado)$/i.test(q)) {
