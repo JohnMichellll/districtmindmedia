@@ -33,7 +33,7 @@ export async function onRequestGet({request}){
   const a=await apple(artist,title);
   if(a?.artwork&&a?.match)return json({ok:true,artist,title,artwork:a.artwork,artistArtwork:null,source:"Apple Music",match:a.match,verified:true});
   const d=await deezer(artist,title);
-  if(d?.artwork&&d?.match) return json({ok:true,artist,title,artwork:d.artwork,artistArtwork:null,source:"Deezer",match:d.match});
+  if(d?.artwork&&d?.match&&norm(d.match.artist)===norm(artist)&&norm(d.match.title)===norm(title)) return json({ok:true,artist,title,artwork:d.artwork,artistArtwork:null,source:"Deezer",match:d.match,verified:true});
   return json({ok:true,artist,title,artwork:null,artistArtwork:null,source:null,match:null,verified:false});
  }catch{return json({ok:false,error:"Release artwork lookup is temporarily unavailable."},502);}
 }
