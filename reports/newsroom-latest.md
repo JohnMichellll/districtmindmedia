@@ -1,25 +1,25 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-08T09:44:54.622Z
+Generated: 2026-10-08T10:12:36.421Z
 
 Status: READY_FOR_EDITOR
 
 Stories discovered: 270
 
-1. **Christian Nodal’s ‘No Te Contaron Mal’ Passes 1 Billion Views on&#160;YouTube** — Billboard — Thu, 08 Oct 2026 09:32:58 +0000
+1. **Korea’s Weverse Con Festival Expands to&#160;India** — Billboard — Thu, 08 Oct 2026 10:02:35 +0000
+   https://www.billboard.com/music/concerts/korea-weverse-con-festival-expands-india-1236356856/
+2. **Christian Nodal’s ‘No Te Contaron Mal’ Passes 1 Billion Views on&#160;YouTube** — Billboard — Thu, 08 Oct 2026 09:32:58 +0000
    https://www.billboard.com/music/latin/christian-nodals-no-te-contaron-mal-1-billion-views-youtube-1236356848/
-2. **The Passing Lyric That Angered Ice Cube So Badly, He Started Beef With a Fellow Hip-Hop Icon - VICE** — Google News — Hip-Hop — Thu, 08 Oct 2026 09:00:00 GMT
+3. **Kings of Leon set Nov. 6 release for new album ‘O My Beloved’ - KLBJ-fm** — Google News — New Music — Thu, 08 Oct 2026 09:09:57 GMT
+   https://news.google.com/rss/articles/CBMimgFBVV95cUxNUmpKQ29IbG4tR3FOSFNSR09aZFo1WEh0U24xMUYzVVhTUDJiSmNydjY0NjBEcWd1cUwweTBDM0NDbEM2UzlZbHlZVGszdFJLRTJhcFFVVDZsRDF3VU1JOVlXTmpnX3FVZkxILWhCejZOVUpFRi1xMUtkNnE1eGU2MzlvWlVBSG9ZVTNQajhYSG1YT1NJNlZISU1B?oc=5
+4. **The Passing Lyric That Angered Ice Cube So Badly, He Started Beef With a Fellow Hip-Hop Icon - VICE** — Google News — Hip-Hop — Thu, 08 Oct 2026 09:00:00 GMT
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdmNrdjh1dEJkcFVfU0ZlNldIV3RlLWpRUkZ2YmtWOEZpY3dOSk42WWtZUnVoXzR1Ukc5Vk9UaEJqWHBfNVU0RFZRU21xY1FVTG1KQlFUSW8xZlE3TDBoeklsb0lYckNEYV9UWWp6dDV0OVp4QmZOQlBXR1htNERlUnNKaDlqOUJham9ZT1RiWDBaNnk0bnNuLThmMzIxOE9WakJrREo4TFRCRWEyeW5oV2diVmZNUEtlV0Z5VUR6WjFmQQ?oc=5
-3. **Who was Freddie Jackson? Professional life explored after Grammy-nominated veteran R&B icon passes away at 70 - AOL.com** — Google News — R&B — Thu, 08 Oct 2026 08:56:26 GMT
-   https://news.google.com/rss/articles/CBMijwFBVV95cUxPbFdqOGJBT2Y2UEJIM3JCbkZ0YnpGMEFjUDJ1YUNHTnJIdzhxMkhpdTZyRUhIYVRodzhqQmpMeE9tNXJKa2VuZ1ZGVGZRNVhHY1h6d1RrMXlnd3pxU19LbDhoTG16a09YcTFhRzdxTWdpcDl4MFdSRnVkQzRMcXJZUWV2QVhXZk5tZ09RR3FGSQ?oc=5
-4. **Aga Khan Music Programme and Hong Kong’s Asia+ Festival present East Asian premiere of Canvas of Sound - Aga Khan Development Network** — Google News — New Music — Thu, 08 Oct 2026 08:53:38 GMT
+5. **Aga Khan Music Programme and Hong Kong’s Asia+ Festival present East Asian premiere of Canvas of Sound - Aga Khan Development Network** — Google News — New Music — Thu, 08 Oct 2026 08:53:38 GMT
    https://news.google.com/rss/articles/CBMi8AFBVV95cUxPNnZURTRLc1VJZFNOMFFubEpDZ09LeEZaM0hYZmRrWTQ5aEdPR2FLV2c0WDN2N2dKSVpqWEZBVnc1MTdJX250UXJGWVNvX09DYmlsMWF0aTh5OENIUDBYS2hwSEVWRzl1Y0JZaFQySUhtMG1PdFpuTmtGWlVxNTVWa25vZHBvZHNPM3A1ZmNaNHFSRmhvdXM3d2N0T3BJZUp1N0pmOURtcVdKRmFUWXNXT0NIUl9PX181ZGFUZU5nMFFQMEpTTzdZVlM2YTlvM3Z0QkEwNWZ6a0dJS3FaMF9zZjVRRUo5ZE9oZ1o3cGR3M3E?oc=5
-5. **Cult Of Luna Unveil Epic New Single “The Rift” - mxdwn Music** — Google News — New Music — Thu, 08 Oct 2026 08:08:10 GMT
+6. **Cult Of Luna Unveil Epic New Single “The Rift” - mxdwn Music** — Google News — New Music — Thu, 08 Oct 2026 08:08:10 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxPU2ktUEtaT1dTV1FOMDRlNUN1LUtGLW44RVdMZ0RCVExVSngyZHNMdTEzbjZjTDhnWnMxZ24yNWtYSlVBeTU1dG8xSHFidWNEa1kxVWg1MmRRd3hwcms4WnI3eTJXSG01S3NmNDRqUlY2OFc2NUpfTFJLb3lGamlnMkptUVd0cjVSd3RyYmVB0gGTAUFVX3lxTE1yLUJleHMtY045akxpTWJ6MTY2blQwUjdYZ3VUOEtVaUhmdktiNmVEeFowcnBiekJfNXlLZjZNWkg0cXpuQU1RemV4aVhQWmM3Z1NYdUpWVzVZaHhzdDVSb0NqYUNWT0k5Tms5bTVYbW02ZkRSTHRJY1Z3NVloc3ZNN0JCZXU1LThfbmtBOHN6MVFKTQ?oc=5
-6. **4 Hip-Hop Songs That Are Perfect to Listen to if You Can’t Sleep - VICE** — Google News — Hip-Hop — Thu, 08 Oct 2026 08:00:00 GMT
+7. **4 Hip-Hop Songs That Are Perfect to Listen to if You Can’t Sleep - VICE** — Google News — Hip-Hop — Thu, 08 Oct 2026 08:00:00 GMT
    https://news.google.com/rss/articles/CBMinAFBVV95cUxQckNxblhCNGNTcGljQnFUVXBzcEFWRjltTHdmaEt4cElHa2NMTWNXa1lYZ0I1NVU5MUpUdHlvS2xsVWhPOHhJNk1wSUVNbXc0bENjM0JkV3l2cjFBZ3VGTWhZRGI0c003S1V4a0k5ZG02NEk0TUZfeU9zbGc1Y0FJd05mOXFPTXZ4d09RX3E3VlRlM3dUQWQ1Nno3QnA?oc=5
-7. **Danger Dan names his new piano album ‘Keine Angst’, after the song ZDF dropped - Martin Cid Magazine** — Google News — New Music — Thu, 08 Oct 2026 08:00:00 GMT
-   https://news.google.com/rss/articles/CBMiakFVX3lxTE1waGR1bk9ianZsWXpaR1psZWQ4TnhVT0ZIUVByaUZHNy1Ycng2ZXRzZF8td2M0UzVyaG5rZFdIQllIMHYxN1pka19SRkotRGhKQUJsMWVGaE1sSGVXN2U1NzFVWGJuYlJBMmc?oc=5
 8. **Finnish-Mexican melodic death metal band Ulthima releases new music video - Metalheads Forever Magazine** — Google News — New Music — Thu, 08 Oct 2026 07:49:43 GMT
    https://news.google.com/rss/articles/CBMimgFBVV95cUxPWHNDU2twLUtIN08wV1FYaVA0RWN0TnJlYWltN0RLVTFocm1ycDhkZUkwUjJPUzg2emMtTnFqQkFaRGpVQ1ZWaXNrMHRtZzRicXo5U3BvOGUyWGtMQzEtV1Bpc1d2aUpwSzJ1YUNYWVBLWFdyVVJCclFZOGVINzI3ZUdzVHFFZllZTjVCczA0c0tncGd3NDktMHln?oc=5
 9. **PERPETUAL WARFARE Return With New Song and Music Video “N.N. (6402)” - Metalheads Forever Magazine** — Google News — New Music — Thu, 08 Oct 2026 07:39:37 GMT
