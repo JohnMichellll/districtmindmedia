@@ -55,7 +55,7 @@
     feed.innerHTML=stories.map((s,i)=>{
       const d=new Date(s.pubDate), cat=categoryOf(s), age=Math.max(0,ageHours(d)), reason=reasonOf(s,age);
       const hasImage=Boolean(s.image);
-      const image='';
+      const image=hasImage?' style="background-image:url(&quot;'+String(s.image).replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'&quot;)"':'';
       const desc=polishDeck(strip(decode(s.description))).slice(0,300);
       const source=esc(decode(s.source||'LIVE'));
       return '<article class="radar-card" role="link" tabindex="0" data-category="'+cat.toLowerCase()+'" data-index="'+i+'" data-href="'+esc(s.link)+'" data-article-url="'+esc(s.link)+'" '+(hasImage?'data-has-image="1"':'')+'><div class="radar-card-media '+(hasImage?'':'radar-card-no-image')+'"'+image+'></div><div class="radar-card-body"><div class="radar-kicker"><span class="radar-pill">'+cat+'</span><span class="radar-pill">'+esc(reason)+'</span><span class="radar-pill">'+esc(tz.replace(/_/g,' '))+'</span></div><h2>'+esc(polishHeadline(s.title))+'</h2><p class="radar-card-description">'+esc(desc||'District Mind is tracking the report and the conversation around it.')+'</p><div class="radar-meta"><span>'+source+'</span><span>'+esc(d.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}))+'</span></div></div><div class="radar-rail"><button type="button" data-up aria-label="Previous story" >↑︎</button><button type="button" data-down aria-label="Next story" >↓︎</button></div></article>';
