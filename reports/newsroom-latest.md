@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-08T03:45:21.974Z
+Generated: 2026-10-08T04:11:27.419Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 270
+Stories discovered: 268
 
 1. **Powderfinger Is Teasing &#8216;Something Extraordinary&#8217;** — Billboard — Thu, 08 Oct 2026 03:35:23 +0000
    https://www.billboard.com/music/rock/powderfinger-teasing-something-grand-1236356821/
@@ -54,15 +54,15 @@ Stories discovered: 270
    https://news.google.com/rss/articles/CBMihAFBVV95cUxNZTRiY3dMdGM5Slh0T01OSmE0Wkw2a05lc3ZCME1ISzZFcWNUVEVNX2gwOU9rVDhaQjByZDE4ZzF6Z1MyWUpLYlBGdzZzam44cGhwYWZ5MUJVNXF0b2cwWllZcENMM2ZvRFE3SkROM0R1VllQMV90YXBWZEF6eVFNX0I4dDc?oc=5
 24. **See Madison Square Garden Ushers Vibe-Dance to Celebrate Phish&#8217;s 100th Booking at Legendary Venue** — Rolling Stone — Music — Wed, 07 Oct 2026 21:59:30 +0000
    https://www.rollingstone.com/music/music-news/phish-100-madison-square-garden-concert-1235639424/
-25. **Grammy-nominated R&B singer Freddie Jackson, known for '80s hits like 'You Are My Lady,' dies at 70 - Charleston Gazette-Mail** — Google News — R&B — Wed, 07 Oct 2026 21:46:57 GMT
-   https://news.google.com/rss/articles/CBMi_wFBVV95cUxOMjhQRFgxNmIwRHdrM3I4ck0taWQzMnV3Vkh0eW1ydGZmNDBtUV9XYUZ4NE5OZkE3azNMNlNVNmIzTzBpbko5RlM3S2VFY1Q2RE9sUjdvRy1JbjhpSVlpSDlQMUFxalN4X1I1N05LcXhCb0wwLVI4aWNScGJkRWI3U0NGakNFMlJsZzVURnNkM1F1Y3hRU25LS2Q2TFFlaXB3UjlkalNFXzlDVnFILTNtU1hvWm9pbkpUWkhpdk0zTkNOUkVjOF9maXRKeXNRU09HRDdTenZrczJCdVJhTVFEdnNPNzlZS09GREQ3Z2o1NFVNMU5CNUxIR0hTU3NCOEE?oc=5
-26. **The War On Drugs’ Robbie Bennett Announces Two New Double Albums Steloken & Circulation : Hear Two Tracks - Stereogum** — Google News — New Music — Wed, 07 Oct 2026 21:43:00 GMT
+25. **The War On Drugs’ Robbie Bennett Announces Two New Double Albums Steloken & Circulation : Hear Two Tracks - Stereogum** — Google News — New Music — Wed, 07 Oct 2026 21:43:00 GMT
    https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeGRhZjJQeTF5N0JyV2RwN2hLTkRXanJJUkQ3SWMxakN3ME53dnZ2Y0VlUUtTNTJraUhlSzhsdVB5QWZuaHpCRGp4ZTFUTXhMaHdNaC01cG1yQVFLSnNDZjRGZTN4MFdEd2Y2MVpqdTNTa21oXzdZVWtOX0V0enoyblRhR3kwZHlncV90Q3I5alRLQUhTUjZaOVBjcHZMYzJpNFFlTGlHS1dQMlZFVXhKaEVsZmN6UmhWQkdqTlVaSWdrWTFPb2RIcklWaXdYLVhaeWc?oc=5
-27. **You Can Now Get a Jimmy Eat World Library Card** — Pitchfork — Wed, 07 Oct 2026 21:42:18 +0000
+26. **You Can Now Get a Jimmy Eat World Library Card** — Pitchfork — Wed, 07 Oct 2026 21:42:18 +0000
    https://pitchfork.com/story/jimmy-eat-world-library-card/
-28. **Pharrell Wants ‘Vague and Ambiguous’ Chad Hugo Copyright Lawsuit Tossed** — Rolling Stone — Music — Wed, 07 Oct 2026 21:36:32 +0000
+27. **Pharrell Wants ‘Vague and Ambiguous’ Chad Hugo Copyright Lawsuit Tossed** — Rolling Stone — Music — Wed, 07 Oct 2026 21:36:32 +0000
    https://www.rollingstone.com/music/music-news/pharrell-wants-chad-hugo-copyright-lawsuit-dismissed-1235639252/
-29. **In The Groove: New music from S.G. Goodman, Leon Bridges, Sierra Ferrell + more - WDET 101.9 FM** — Google News — New Music — Wed, 07 Oct 2026 21:20:02 GMT
+28. **In The Groove: New music from S.G. Goodman, Leon Bridges, Sierra Ferrell + more - WDET 101.9 FM** — Google News — New Music — Wed, 07 Oct 2026 21:20:02 GMT
    https://news.google.com/rss/articles/CBMipAFBVV95cUxNbC16dXNCdWRhWUNuejY1VUt1TDhTdXA0Zkd6ZlZKMEhOZDJjWldlTUVZdzNPcjgzZmMtaVhDWF8xTnJBZGxVOEZSMk41dWlNUUJ3REk5UEExSFd5S0JRODdQSVZHR0p1R3dUa1hZN2E1b0lHZHhtQ3B4Qzhoc2l0RllBeWZoRzliVjZGbUF4N0dkdWo5dTF4aWMteGJ6emRFTTFOMw?oc=5
-30. **Mogwai Shares New Song “Underground” Featuring Iggy Pop - mxdwn Music** — Google News — New Music — Wed, 07 Oct 2026 21:10:23 GMT
+29. **Mogwai Shares New Song “Underground” Featuring Iggy Pop - mxdwn Music** — Google News — New Music — Wed, 07 Oct 2026 21:10:23 GMT
    https://news.google.com/rss/articles/CBMimgFBVV95cUxObmRndmdONGJSMjVfUEpIMlpva29uT0F0SGIwUGU5R202NmIycDVxT3h6YVotYm9pZ3NyTlhhM1hXR0ZGeFMzX3RvWmVPMGs0M01FY3NEM21YTkhsU0FubnFkS1M0WWl2TWpYRXotSldaWG1OaHlTeWxMQVdfZUpzZTRCUkw4UmZsY0dtMWlRNzdVMkFaQ214Wlp30gGfAUFVX3lxTFBuSnA3Z0FWVWRJV05uWGY2OUxFc1JCVzBTeGc1Sl9EaVUtS01Ebm1UakUzcXV0MmY0cmRhQTRtRU1ma0RxeTlLRF93Wk94Uzl0ZmUxRkEwdV9VVFNDM3NxRlhCa1IzNmZZU2xGNWJPVnhmM0ZDYmI1cDNLbk53bmI2OXp4OUhaaUZqQkVWdG5nMXpUVEZqR01YMUlDNFVlYw?oc=5
+30. **Walls Of Jericho release new music video for ‘True Til’ Death’ - Distorted Sound Magazine -** — Google News — New Music — Wed, 07 Oct 2026 21:06:49 GMT
+   https://news.google.com/rss/articles/CBMilAFBVV95cUxPLXRTckJHbm10dWJQOFFmV3NQV1M5dFZBZHU1NkFQeTNfbm9MWHVNOEVJRTRSOTBmNnhRdzhMbGh4cXJIUzNteklQazhNVnZqVkdhdHBvY1FwZ1JXOHFwSkFIUTJPcjRNWEk0T0tjcnRSSnRzMXZjQVZsUlJIZEMtR0xNd0N0UmVQSjQ3WTh0Nm5ReFY4?oc=5
