@@ -2372,6 +2372,7 @@ input:focus,textarea:focus,select:focus{border-color:rgba(17,17,17,.45);box-shad
   text-decoration:none;
   cursor:pointer;
 }
+.news-item-image{width:100%;aspect-ratio:16/9;margin:0 0 16px;background-size:cover;background-position:center;border-radius:2px;overflow:hidden;background-color:#e8e6e0}.news-item-image::after{content:"";display:block;width:100%;height:100%;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.18));}
 .news-item h3{transition:opacity .2s ease;}
 .news-item:hover h3{opacity:.72;}
 .news-item:focus-visible{
