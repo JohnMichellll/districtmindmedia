@@ -1,40 +1,40 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-08T10:12:36.421Z
+Generated: 2026-10-08T10:44:40.578Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 270
+Stories discovered: 269
 
-1. **Korea’s Weverse Con Festival Expands to&#160;India** — Billboard — Thu, 08 Oct 2026 10:02:35 +0000
+1. **Pet Shop Boys honor Alan Turing on ambitious new album - Cleveland.com** — Google News — New Music — Thu, 08 Oct 2026 10:06:00 GMT
+   https://news.google.com/rss/articles/CBMivgFBVV95cUxQdjdtTWhrbXc0SlN3QThfdm0xaXE4M2FTdm9xUXlYaTA3bjVjTmxfczBBWXVSWjRJb0diUVh4VVFTUFdDM3hZUmJMRTlEbWlQUC1ZQk1QZlVYc0d0ODdzY3FVcGdWblhCMlJad1FCdGpNWnVJWHljR0dCQjNnWWxiZ0lIVEl4T2FZbC1yV2tSYXdaMldNOExvRlNNdHcxeGJPN3Etb0VoWjdFMThqakZSdkhmVWxkYXRpVlBSX0x3?oc=5
+2. **Korea’s Weverse Con Festival Expands to&#160;India** — Billboard — Thu, 08 Oct 2026 10:02:35 +0000
    https://www.billboard.com/music/concerts/korea-weverse-con-festival-expands-india-1236356856/
-2. **Christian Nodal’s ‘No Te Contaron Mal’ Passes 1 Billion Views on&#160;YouTube** — Billboard — Thu, 08 Oct 2026 09:32:58 +0000
+3. **Christian Nodal’s ‘No Te Contaron Mal’ Passes 1 Billion Views on&#160;YouTube** — Billboard — Thu, 08 Oct 2026 09:32:58 +0000
    https://www.billboard.com/music/latin/christian-nodals-no-te-contaron-mal-1-billion-views-youtube-1236356848/
-3. **Kings of Leon set Nov. 6 release for new album ‘O My Beloved’ - KLBJ-fm** — Google News — New Music — Thu, 08 Oct 2026 09:09:57 GMT
-   https://news.google.com/rss/articles/CBMimgFBVV95cUxNUmpKQ29IbG4tR3FOSFNSR09aZFo1WEh0U24xMUYzVVhTUDJiSmNydjY0NjBEcWd1cUwweTBDM0NDbEM2UzlZbHlZVGszdFJLRTJhcFFVVDZsRDF3VU1JOVlXTmpnX3FVZkxILWhCejZOVUpFRi1xMUtkNnE1eGU2MzlvWlVBSG9ZVTNQajhYSG1YT1NJNlZISU1B?oc=5
-4. **The Passing Lyric That Angered Ice Cube So Badly, He Started Beef With a Fellow Hip-Hop Icon - VICE** — Google News — Hip-Hop — Thu, 08 Oct 2026 09:00:00 GMT
+4. **5 Classical Music Albums You Can Listen to Right Now - The New York Times** — Google News — New Music — Thu, 08 Oct 2026 09:00:05 GMT
+   https://news.google.com/rss/articles/CBMilgFBVV95cUxQRF82dUxqV2huRngteVZnS2gyX1o2OUZWWXBHcFJzd0E4d1RCWmxQSTMxS0ZQb0NjUGlEY3BuUWt1TjktaXpIcWJYalpoV2hrZWNiaGtYVlRoZnozMWJXX0JRdzJfTzZXWV9DdmxjWkhtcmEzRF94bmdwZHNQc21aRmZTTXloUkJQOVl5aHBWcnZfWVh3Y3c?oc=5
+5. **The Passing Lyric That Angered Ice Cube So Badly, He Started Beef With a Fellow Hip-Hop Icon - VICE** — Google News — Hip-Hop — Thu, 08 Oct 2026 09:00:00 GMT
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdmNrdjh1dEJkcFVfU0ZlNldIV3RlLWpRUkZ2YmtWOEZpY3dOSk42WWtZUnVoXzR1Ukc5Vk9UaEJqWHBfNVU0RFZRU21xY1FVTG1KQlFUSW8xZlE3TDBoeklsb0lYckNEYV9UWWp6dDV0OVp4QmZOQlBXR1htNERlUnNKaDlqOUJham9ZT1RiWDBaNnk0bnNuLThmMzIxOE9WakJrREo4TFRCRWEyeW5oV2diVmZNUEtlV0Z5VUR6WjFmQQ?oc=5
-5. **Aga Khan Music Programme and Hong Kong’s Asia+ Festival present East Asian premiere of Canvas of Sound - Aga Khan Development Network** — Google News — New Music — Thu, 08 Oct 2026 08:53:38 GMT
+6. **Who was Freddie Jackson? Professional life explored after Grammy-nominated veteran R&B icon passes away at 70 - AOL.com** — Google News — R&B — Thu, 08 Oct 2026 08:56:26 GMT
+   https://news.google.com/rss/articles/CBMijwFBVV95cUxPbFdqOGJBT2Y2UEJIM3JCbkZ0YnpGMEFjUDJ1YUNHTnJIdzhxMkhpdTZyRUhIYVRodzhqQmpMeE9tNXJKa2VuZ1ZGVGZRNVhHY1h6d1RrMXlnd3pxU19LbDhoTG16a09YcTFhRzdxTWdpcDl4MFdSRnVkQzRMcXJZUWV2QVhXZk5tZ09RR3FGSQ?oc=5
+7. **Aga Khan Music Programme and Hong Kong’s Asia+ Festival present East Asian premiere of Canvas of Sound - Aga Khan Development Network** — Google News — New Music — Thu, 08 Oct 2026 08:53:38 GMT
    https://news.google.com/rss/articles/CBMi8AFBVV95cUxPNnZURTRLc1VJZFNOMFFubEpDZ09LeEZaM0hYZmRrWTQ5aEdPR2FLV2c0WDN2N2dKSVpqWEZBVnc1MTdJX250UXJGWVNvX09DYmlsMWF0aTh5OENIUDBYS2hwSEVWRzl1Y0JZaFQySUhtMG1PdFpuTmtGWlVxNTVWa25vZHBvZHNPM3A1ZmNaNHFSRmhvdXM3d2N0T3BJZUp1N0pmOURtcVdKRmFUWXNXT0NIUl9PX181ZGFUZU5nMFFQMEpTTzdZVlM2YTlvM3Z0QkEwNWZ6a0dJS3FaMF9zZjVRRUo5ZE9oZ1o3cGR3M3E?oc=5
-6. **Cult Of Luna Unveil Epic New Single “The Rift” - mxdwn Music** — Google News — New Music — Thu, 08 Oct 2026 08:08:10 GMT
+8. **Cult Of Luna Unveil Epic New Single “The Rift” - mxdwn Music** — Google News — New Music — Thu, 08 Oct 2026 08:08:10 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxPU2ktUEtaT1dTV1FOMDRlNUN1LUtGLW44RVdMZ0RCVExVSngyZHNMdTEzbjZjTDhnWnMxZ24yNWtYSlVBeTU1dG8xSHFidWNEa1kxVWg1MmRRd3hwcms4WnI3eTJXSG01S3NmNDRqUlY2OFc2NUpfTFJLb3lGamlnMkptUVd0cjVSd3RyYmVB0gGTAUFVX3lxTE1yLUJleHMtY045akxpTWJ6MTY2blQwUjdYZ3VUOEtVaUhmdktiNmVEeFowcnBiekJfNXlLZjZNWkg0cXpuQU1RemV4aVhQWmM3Z1NYdUpWVzVZaHhzdDVSb0NqYUNWT0k5Tms5bTVYbW02ZkRSTHRJY1Z3NVloc3ZNN0JCZXU1LThfbmtBOHN6MVFKTQ?oc=5
-7. **4 Hip-Hop Songs That Are Perfect to Listen to if You Can’t Sleep - VICE** — Google News — Hip-Hop — Thu, 08 Oct 2026 08:00:00 GMT
+9. **4 Hip-Hop Songs That Are Perfect to Listen to if You Can’t Sleep - VICE** — Google News — Hip-Hop — Thu, 08 Oct 2026 08:00:00 GMT
    https://news.google.com/rss/articles/CBMinAFBVV95cUxQckNxblhCNGNTcGljQnFUVXBzcEFWRjltTHdmaEt4cElHa2NMTWNXa1lYZ0I1NVU5MUpUdHlvS2xsVWhPOHhJNk1wSUVNbXc0bENjM0JkV3l2cjFBZ3VGTWhZRGI0c003S1V4a0k5ZG02NEk0TUZfeU9zbGc1Y0FJd05mOXFPTXZ4d09RX3E3VlRlM3dUQWQ1Nno3QnA?oc=5
-8. **Finnish-Mexican melodic death metal band Ulthima releases new music video - Metalheads Forever Magazine** — Google News — New Music — Thu, 08 Oct 2026 07:49:43 GMT
+10. **Finnish-Mexican melodic death metal band Ulthima releases new music video - Metalheads Forever Magazine** — Google News — New Music — Thu, 08 Oct 2026 07:49:43 GMT
    https://news.google.com/rss/articles/CBMimgFBVV95cUxPWHNDU2twLUtIN08wV1FYaVA0RWN0TnJlYWltN0RLVTFocm1ycDhkZUkwUjJPUzg2emMtTnFqQkFaRGpVQ1ZWaXNrMHRtZzRicXo5U3BvOGUyWGtMQzEtV1Bpc1d2aUpwSzJ1YUNYWVBLWFdyVVJCclFZOGVINzI3ZUdzVHFFZllZTjVCczA0c0tncGd3NDktMHln?oc=5
-9. **PERPETUAL WARFARE Return With New Song and Music Video “N.N. (6402)” - Metalheads Forever Magazine** — Google News — New Music — Thu, 08 Oct 2026 07:39:37 GMT
-   https://news.google.com/rss/articles/CBMijAFBVV95cUxPWGNReHl0M2NCckUzcGdnNFc5eVZTdWpzY21MMHZxZnVJclQ1SllMOHpTZG9WSVV1dWVfN2V5ZzFNZnE0TXJfUGZUVk81THpQRGNlQ3hlbFpmVUlBS0V2VWV4YmpocDBiWTdfT0R2RHdOSWhaMHlnd1lNN0tXUkdKbVkxQjVVTE1fYmxTTg?oc=5
-10. **Enter Shikari Surprise Drop New Single “Higher Ground” Following Statement About Indefinite Hiatus - mxdwn Music** — Google News — New Music — Thu, 08 Oct 2026 07:25:55 GMT
+11. **Enter Shikari Surprise Drop New Single “Higher Ground” Following Statement About Indefinite Hiatus - mxdwn Music** — Google News — New Music — Thu, 08 Oct 2026 07:25:55 GMT
    https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaHJQV0R1VWtCVjAzZzBwRmRuVU5zeWJsaTY2SXJCRk1OR2RJR0ZqRmNqVWt0YWtnVVQ5MVdneThob19UUVNHekh5ZTdyOFRhT3czdGx6NWFBVkp0czVyUEh3S3RfVDlYSGtETVZfbEpKQklmRFFjU3FMMW50ZFpuMlJOR0FZMWdPTFg4LWdNUm9WNEt4a1JocXoyNHNQLWd2a1ozNUIxMTZxTVdzZkIyV2YtR0dMRGhiYk82TWRVQWNJd0YtcHoyaEJWTjBUWWtGWVln0gHYAUFVX3lxTFAwQlpDU0lsZ2g0bGVydENhRDEyNFotWjQ5ejZzQ3FPRGdWSzNIZGVJZ2Z4enVSbl8tc21ReDdxZ0dwR05TdUpNTDRQcW5sRjhheEFJUE9zU09JTmxOV0wzaHEzY1pkbG1PWVVCNi1WWTlLM3RtdUNxQmhuR045RGZWNWpIZC1qM3ZFeHVLdlpKRWluZ2hHX2FMbEpMUFZFWVVNQ1ZOZFhzSlJ3RjMzVUQ3OGxLVEZnMVE0WXVtM2NiVEMzYmU1d2UzQUZzcTg5eFo2RU4waWNpRg?oc=5
-11. **Skindred Premiere New Music Video For "Big Em Up" - Metal Underground.com** — Google News — New Music — Thu, 08 Oct 2026 06:56:00 GMT
+12. **Skindred Premiere New Music Video For "Big Em Up" - Metal Underground.com** — Google News — New Music — Thu, 08 Oct 2026 06:56:00 GMT
    https://news.google.com/rss/articles/CBMib0FVX3lxTE1TbnpMNUhwRkx1VTV6em9IV0lVM1FJYVhXYUZFRHBsMmxxcUUxdlk5c1dESWZELWRqUzh0RjN2bUMtT2dzSjhrRnFEaV9hVlZZMXhBZmFMa0dSMlhGM0cwcVR0d3kxemlYcEg3TmZ0UQ?oc=5
-12. **Alien Ant Farm Premiere New Music Video "Gaslighter" - Track Added To "Stage Tour' Video Game - Metal Underground.com** — Google News — New Music — Thu, 08 Oct 2026 06:49:00 GMT
+13. **Alien Ant Farm Premiere New Music Video "Gaslighter" - Track Added To "Stage Tour' Video Game - Metal Underground.com** — Google News — New Music — Thu, 08 Oct 2026 06:49:00 GMT
    https://news.google.com/rss/articles/CBMib0FVX3lxTE42VjlLVHdYOUtMWFZwSDZBWTk0VU1aVW1PYmdXa2tpM1UwOFBiX3Fpb1NxYjdQYl9LaUVxbHQ1UlgzTlZHYjlZZVlNUnkzSmcwOUpISE5Mb3F0TG8zMTllZjVSUlB2dlV0eUtxSTR4SQ?oc=5
-13. **Walls Of Jericho Premiere New Music Video For "True Til’ Death" - Metal Underground.com** — Google News — New Music — Thu, 08 Oct 2026 06:30:00 GMT
-   https://news.google.com/rss/articles/CBMib0FVX3lxTE5SVFRRVEVqUnprYkhDQy1saXJZZDRVR3lGZms5T3pjWmMyU1BwdldIWlRudk5NR0ptazlrdjRNRndEdEVDRzJpaWVQVGhONVIydW9sb0pWTnVuZ1ItR2ZsRlpRTHVjbjJka2JwZU1zRQ?oc=5
 14. **ARIA Warns Lawmakers That Australia Could Be Used as ‘Trojan Horse for Big&#160;AI’** — Billboard — Thu, 08 Oct 2026 05:42:34 +0000
    https://www.billboard.com/pro/aria-warns-australia-trojan-horse-big-ai/
-15. **George Clinton will be honored with a lifetime achievement award at North Carolina Music Hall of Fame induction ceremony - CLTure** — Google News — Hip-Hop — Thu, 08 Oct 2026 04:33:21 GMT
+15. **George Clinton will be honored with a lifetime achievement award at North Carolina Music Hall of Fame ceremony - CLTure** — Google News — Hip-Hop — Thu, 08 Oct 2026 04:33:21 GMT
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnb20teGlEblRjbnBCdUVDaHNQUFhKOVBqNFlCTDJJTjJGUjZEelZoZ3FRZWMxNnpFMlVUUVVPa1ludDR4OUktZm0zdXRIWmUtamxjd2g0MVplWEJ3dlNOcWtvcDVyb28?oc=5
 16. **Powderfinger Is Teasing &#8216;Something Extraordinary&#8217;** — Billboard — Thu, 08 Oct 2026 03:35:23 +0000
    https://www.billboard.com/music/rock/powderfinger-teasing-something-grand-1236356821/
