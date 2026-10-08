@@ -1,14 +1,26 @@
 {
-  "generatedAt": "2026-10-08T03:11:12.021Z",
+  "generatedAt": "2026-10-08T03:45:21.974Z",
   "operator": "District Mind AI Newsroom",
   "status": "READY_FOR_EDITOR",
   "storyCount": 270,
   "stories": [
     {
+      "title": "Powderfinger Is Teasing &#8216;Something Extraordinary&#8217;",
+      "url": "https://www.billboard.com/music/rock/powderfinger-teasing-something-grand-1236356821/",
+      "date": "Thu, 08 Oct 2026 03:35:23 +0000",
+      "source": "Billboard"
+    },
+    {
       "title": "Hayley Williams Proves There&#8217;s a Lot More to Her Than Paramore in a Galvanizing Solo Show at the Hollywood Bowl: Concert Review",
       "url": "https://variety.com/2026/music/concert-reviews/hayley-williams-hollywood-bowl-concert-tour-review-1236905172/",
       "date": "Thu, 08 Oct 2026 03:09:34 +0000",
       "source": "Variety — Music"
+    },
+    {
+      "title": "A.I. Music Fraudster Who Drew Millions in Royalties Is Sentenced to 18 Months - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY05ZdlEzR3pwcWs2U0RWX1J4YXEzWFdMSkktWFRvZ0xicEplR3J2ZGMtZWlXYm00UzNoZGd5Y3NoM0ZPQ3I5MzBaaUFJZVhkdXpidmdyZmlpYkY0TWwzR2lCVFJ3d00zRnZDZWJ0RktNR1M3TzRIVFlYaEZlejJ4cEhTY1JxQzZvTThmag?oc=5",
+      "date": "Thu, 08 Oct 2026 02:05:09 GMT",
+      "source": "Google News — New Music"
     },
     {
       "title": "Victoria Monét Explains How Nas Kick-Started Her Career",
@@ -123,12 +135,6 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdGh2WFlMQUZKZnF6LTNXWnFSekF1SnpWOVdQdG91eHdWZEE2bTJYY1NuQXByVmF1RnUyZmd4UXFYeUFDNXU0WVFzWGpMUjhTTmtMM0ljdG5hZnptbUlJWmJYSGM3dHhYMGhnSnduNjVtclJST0FJZlVReGk4dFJhVktKcm9xVm1PNnhJVF9ha1dGVjNQQmx3?oc=5",
       "date": "Wed, 07 Oct 2026 22:08:07 GMT",
       "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Piero, Iconic Argentine Singer/Songwriter, Dies at&#160;81",
-      "url": "https://www.billboard.com/music/latin/piero-death-argentine-singer-songwriter-mi-viejo-1236356568/",
-      "date": "Wed, 07 Oct 2026 22:03:40 +0000",
-      "source": "Billboard"
     },
     {
       "title": "Freddie Jackson’s 10 No. 1 R&B Hits: Stories Behind Them - KRNB Smooth R&B 105.7",
@@ -269,12 +275,6 @@
       "source": "Google News — Hip-Hop"
     },
     {
-      "title": "A.I. Music Fraudster Who Drew Millions in Royalties Is Sentenced to 18 Months - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY05ZdlEzR3pwcWs2U0RWX1J4YXEzWFdMSkktWFRvZ0xicEplR3J2ZGMtZWlXYm00UzNoZGd5Y3NoM0ZPQ3I5MzBaaUFJZVhkdXpidmdyZmlpYkY0TWwzR2lCVFJ3d00zRnZDZWJ0RktNR1M3TzRIVFlYaEZlejJ4cEhTY1JxQzZvTThmag?oc=5",
-      "date": "Wed, 07 Oct 2026 19:54:44 GMT",
-      "source": "Google News — New Music"
-    },
-    {
       "title": "Will Smith and DJ Jazzy Jeff's rise in West Philly is the premise of TV series '215' - PhillyVoice",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONjdPVVQ2dnhNTEkzMVMwX3hmcTVCZWVVUEVLMWhMLURWQmdLcjZWOTZFVWg2YU5fWXZtQzBtRjFzclh5TWphdER4NFJVMEt3eGwtcGlMV01jTUcySlE3X0hoSml1dzhLcno3TS1kM3hLT2xhbFAteUV2bzlTTEt2am5LNEVlQQ?oc=5",
       "date": "Wed, 07 Oct 2026 19:53:03 GMT",
@@ -331,6 +331,12 @@
     {
       "title": "Not Me: Drake Denies Being Keisha Chanté’s Baby Daddy - Hip-Hop Wired",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kNEhfSm42ZTcwc2lQYWs4ejVaNFBBdFNFRDNuYXJsa0ZKem5uQVRFWlB0S0VGaGZZMkR2b2I1OG5EUzJKWm1PTXpjZURkTVA4QVY3V0Z0MWVVS3lRTTRuWTVzZw?oc=5",
+      "date": "Wed, 07 Oct 2026 19:09:30 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Kevin Hart’s 2017 Sex Tape Scandal Just Won’t Die - Hip-Hop Wired",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVDRIbzdqTS1JdUJrLURrM19LaThQbUw3MTlHVFk1UmVfNUtxMDBiUWRaazBERzJXU1hiakF4MTVkdG1XNVpuaGp4YktZUURiYVNlM290QTlTVHpiWHVzb01TeXk2OFNCLWVXOTAwclV4cENQZ1lqX2JJRU5fZHMyU1c0c3RNc1E?oc=5",
       "date": "Wed, 07 Oct 2026 19:09:30 GMT",
       "source": "Google News — Hip-Hop"
     },
@@ -485,18 +491,6 @@
       "source": "Google News — New Music"
     },
     {
-      "title": "The Bonnie Banks talks new releases in tv and music - FOX 5 Atlanta",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82OVllbndhcU1ZRjZjSjMzRTVtemtkd04wbjRSbl9ZWVZ2OWJnRU4xN3lQM2g5blVEUG9zdTV1V1haaU5LRVVpLUFNZzVxc09FdWxnNjBkbE03OWZZRmhNSHp4ZmHSAWpBVV95cUxOOEozWTUwSkxtRWRobk1fYkZleW80VFBSUDhFZUUtRFg4YTJvQW9oMFdKdGNmMnhxSE1VUl9yZ0V5Ml9kUFllV2xtazNlUy0zTTlsV0NWZG9UNUlHTUUwZTlTTFY1WndTN2dB?oc=5",
-      "date": "Wed, 07 Oct 2026 15:45:36 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "1980s R&B singer Freddie Jackson dies. What family is saying - Detroit Free Press",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQenlGM2taMl9IWTlnRGpIMUZqSmJEdUVmdHlDN05NRGx0dUlEaVpIOXFsaTZRVE5tQTJGaEFpWXNMM2EzQ00xSGRxWk5iODJiNjQ4N2hVdHcyc2YwUzRGX0JrLTU3WUU1OVRUQlRNNFRmWGdXMzdKSWVtUGdacWI1andkZ3JxY0EzS2pqQnBYTGpaUzhQS0RGOF9QLVBNMXBhb2pYZkVnSHE1X3BxV1FUeW5QdTRGcTdaNF9XOFlsZw?oc=5",
-      "date": "Wed, 07 Oct 2026 15:39:00 GMT",
-      "source": "Google News — R&B"
-    },
-    {
       "title": "Olivia Rodrigo Almost Wore Meg White’s ‘Elephant’ Album Cover Dress to Daisy Chain Fields",
       "url": "https://www.rollingstone.com/music/music-news/olivia-rodrigo-bought-meg-white-dress-white-stripes-album-1235638597/",
       "date": "Wed, 07 Oct 2026 15:33:37 +0000",
@@ -603,6 +597,12 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSHVlM09Gb3E3NkJBWHJqVnAzd1E3eVdNbkRQZW5XdGo3UkcwRnAzQnRldGsyVkZ4SHNqMUpFR1ViN2hQMERPOGIwZDd6VWJzOHNyQlZ5M2RTaDJRVVNaTS1yNUJxMnE4dWFLcVdzZThhbmkzWUVCd0RyckVwMG9kVzExSzdCRzM2enlBa1VhRnUyUHEwd2hubVRYX0hxTHB0V240?oc=5",
       "date": "Wed, 07 Oct 2026 12:26:00 GMT",
       "source": "Google News — R&B"
+    },
+    {
+      "title": "Freddie Jackson, R&B legend known for 'Rock Me Tonight,' dies at 69 - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMy1ZZnRmdTJvQ0t1bGNheTZtZW52ZThHdDZ0NmRobHNxWFZOd1BHUHdoeXIwM21iaFp1SW0tRkpIMDJNTU13cGR5czNpY20wOGNZejh6MVNpVDllaDJuaHltTmRkVWpqVjNJV2t3b294dDZrX1c0cGx4dzg1MmJFcEgzMkc4ZXBBa1VDcklGWFVnOHBtOTAtSlltRXRNVWZKSnJKY2ctXzYzZUphQkQ3ZGZTTy1KU0c5X1E?oc=5",
+      "date": "Wed, 07 Oct 2026 11:58:00 GMT",
+      "source": "Google News — R&B"
     }
   ],
   "sources": [
@@ -628,8 +628,8 @@
       "bytes": 19005,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=5191c713f4ce46f19a7101f9abf0986f benchma",
-      "latencyMs": 226
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=a385a6255d8b40e6809b77b579dffc6a benchma",
+      "latencyMs": 160
     },
     {
       "source": "HipHopDX",
@@ -640,7 +640,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 118
+      "latencyMs": 124
     },
     {
       "source": "AllHipHop",
@@ -651,7 +651,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 445
+      "latencyMs": 925
     },
     {
       "source": "No Jumper",
@@ -662,62 +662,62 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 598
+      "latencyMs": 502
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
-      "stories": 102,
-      "bytes": 123053,
+      "stories": 100,
+      "bytes": 120860,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 453
+      "latencyMs": 480
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 92,
-      "bytes": 120745,
+      "bytes": 121109,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 402
+      "latencyMs": 375
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 122951,
+      "bytes": 123153,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 387
+      "latencyMs": 460
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 124797,
+      "bytes": 125073,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 478
+      "latencyMs": 481
     },
     {
       "source": "Billboard",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 124705,
+      "bytes": 129824,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 112
+      "latencyMs": 175
     },
     {
       "source": "Pitchfork",
@@ -728,7 +728,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 102
+      "latencyMs": 50
     },
     {
       "source": "Rolling Stone — Music",
@@ -739,7 +739,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 243
+      "latencyMs": 96
     },
     {
       "source": "Variety — Music",
@@ -750,7 +750,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 86
+      "latencyMs": 49
     }
   ],
   "errorCount": 0,
