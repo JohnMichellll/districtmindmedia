@@ -34,23 +34,45 @@
     if(age<48)return 'EARLIER / LOCAL';
     return 'LATEST UPDATE';
   };
+  const hydrateMissingImages=async cards=>{
+    const missing=[...cards].filter(card=>card.dataset.articleUrl && !card.dataset.hasImage).slice(0,24);
+    await Promise.all(missing.map(async card=>{
+      try{
+        const r=await fetch('/api/article-image?url='+encodeURIComponent(card.dataset.articleUrl),{cache:'no-store'});
+        if(!r.ok)return;
+        const d=await r.json();
+        if(d?.image){
+          const media=card.querySelector('.radar-card-media');
+          media.style.backgroundImage='url("'+String(d.image).replace(/"/g,'')+'")';
+          media.classList.remove('radar-card-no-image');
+          card.dataset.hasImage='1';
+        }
+      }catch{}
+    }));
+  };
   const render=stories=>{
     if(!stories.length){feed.innerHTML='<div class="radar-empty"><div><p class="eyebrow">RADAR QUIET</p><h2>Nothing new?</h2><p>We expanded the window. Keep scrolling — the desk will surface the latest verified signal available, including smaller culture moments.</p><button class="radar-action primary" id="radar-empty-refresh">Scan Again →︎</button></div></div>';document.getElementById('radar-empty-refresh')?.addEventListener('click',load);return;}
     feed.innerHTML=stories.map((s,i)=>{
       const d=new Date(s.pubDate), cat=categoryOf(s), age=Math.max(0,ageHours(d)), reason=reasonOf(s,age);
-      const image=s.image ? ' style="background-image:url(\''+esc(s.image).replace(/'/g,'%27')+'\')"' : '';
+      const hasImage=Boolean(s.image);
+      const image='';
       const desc=polishDeck(strip(decode(s.description))).slice(0,300);
       const source=esc(decode(s.source||'LIVE'));
-      return '<article class="radar-card" role="link" tabindex="0" data-category="'+cat.toLowerCase()+'" data-index="'+i+'" data-href="'+esc(s.link)+'"><div class="radar-card-media '+(s.image?'':'radar-card-no-image')+'"'+image+'></div><div class="radar-card-body"><div class="radar-kicker"><span class="radar-pill">'+cat+'</span><span class="radar-pill">'+esc(reason)+'</span><span class="radar-pill">'+esc(tz.replace(/_/g,' '))+'</span></div><h2>'+esc(polishHeadline(s.title))+'</h2><p class="radar-card-description">'+esc(desc||'District Mind is tracking the report and the conversation around it.')+'</p><div class="radar-meta"><span>'+source+'</span><span>'+esc(d.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}))+'</span></div></div><div class="radar-rail"><button type="button" data-up aria-label="Previous story" >↑︎</button><button type="button" data-down aria-label="Next story" >↓︎</button></div></article>';
+      return '<article class="radar-card" role="link" tabindex="0" data-category="'+cat.toLowerCase()+'" data-index="'+i+'" data-href="'+esc(s.link)+'" data-article-url="'+esc(s.link)+'" '+(hasImage?'data-has-image="1"':'')+'><div class="radar-card-media '+(hasImage?'':'radar-card-no-image')+'"'+image+'></div><div class="radar-card-body"><div class="radar-kicker"><span class="radar-pill">'+cat+'</span><span class="radar-pill">'+esc(reason)+'</span><span class="radar-pill">'+esc(tz.replace(/_/g,' '))+'</span></div><h2>'+esc(polishHeadline(s.title))+'</h2><p class="radar-card-description">'+esc(desc||'District Mind is tracking the report and the conversation around it.')+'</p><div class="radar-meta"><span>'+source+'</span><span>'+esc(d.toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}))+'</span></div></div><div class="radar-rail"><button type="button" data-up aria-label="Previous story" >↑︎</button><button type="button" data-down aria-label="Next story" >↓︎</button></div></article>';
     }).join('');
     feed.querySelectorAll('.radar-card').forEach(card=>{const open=()=>{const href=card.dataset.href;if(href)window.open(href,'_blank','noopener,noreferrer');};card.addEventListener('click',e=>{if(e.target.closest('button'))return;open();});card.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&!e.target.closest('button')){e.preventDefault();open();}});});
     feed.querySelectorAll('[data-down]').forEach(b=>b.addEventListener('click',()=>b.closest('.radar-card')?.nextElementSibling?.scrollIntoView({behavior:'smooth'})));
     feed.querySelectorAll('[data-up]').forEach(b=>b.addEventListener('click',()=>b.closest('.radar-card')?.previousElementSibling?.scrollIntoView({behavior:'smooth'})));
+    feed.querySelectorAll('.radar-card[data-has-image="1"]').forEach(card=>{
+      const story=stories[Number(card.dataset.index)];
+      if(story?.image){card.querySelector('.radar-card-media').style.backgroundImage='url("'+String(story.image).replace(/"/g,'')+'")';}
+    });
+    hydrateMissingImages(feed.querySelectorAll('.radar-card'));
     
   };
   const parseXml=xml=>{
     const doc=new DOMParser().parseFromString(xml,'application/xml');
-    return [...doc.querySelectorAll('item')].map(i=>({title:decode(i.querySelector('title')?.textContent||'Untitled'),link:i.querySelector('link')?.textContent||'#',pubDate:i.querySelector('pubDate')?.textContent||new Date().toISOString(),description:i.querySelector('description')?.textContent||'',source:i.querySelector('category')?.textContent||'LIVE',image:i.querySelector('enclosure')?.getAttribute('url')||''})).filter(x=>x.title&&x.link);
+    return [...doc.querySelectorAll('item')].map(i=>({title:decode(i.querySelector('title')?.textContent||'Untitled'),link:i.querySelector('link')?.textContent||'#',pubDate:i.querySelector('pubDate')?.textContent||new Date().toISOString(),description:i.querySelector('description')?.textContent||'',source:i.querySelector('category')?.textContent||'LIVE',image:i.querySelector('enclosure')?.getAttribute('url')||i.querySelector('media\\:content')?.getAttribute('url')||i.querySelector('media\\:thumbnail')?.getAttribute('url')||i.querySelector('image')?.textContent||''})).filter(x=>x.title&&x.link);
   };
   function filtered(){
     const pool=activeFilter==='all'?allStories:allStories.filter(s=>categoryOf(s).toLowerCase()===activeFilter);
