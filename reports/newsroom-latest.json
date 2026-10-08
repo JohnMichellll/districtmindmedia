@@ -1,9 +1,15 @@
 {
-  "generatedAt": "2026-10-08T23:10:35.532Z",
+  "generatedAt": "2026-10-08T23:42:24.509Z",
   "operator": "District Mind AI Newsroom",
   "status": "READY_FOR_EDITOR",
-  "storyCount": 267,
+  "storyCount": 269,
   "stories": [
+    {
+      "title": "Cher Continues Her Story in Part 2 of Bestselling Memoir: Shop the New Book&#160;Here",
+      "url": "https://www.billboard.com/culture/product-recommendations/cher-memoir-part-two-shop-new-book-online-1236357559/",
+      "date": "Thu, 08 Oct 2026 23:14:37 +0000",
+      "source": "Billboard"
+    },
     {
       "title": "Beatport Secures Growth Investment to &#8216;Expand the Ways We Serve the Global Electronic Music Community&#8217;",
       "url": "https://www.billboard.com/pro/beatport-growth-investment-square-nine-capital/",
@@ -83,21 +89,9 @@
       "source": "Billboard"
     },
     {
-      "title": "Becoming Elvis Costello: The Legend Goes In-Depth on His New &#8216;My Aim Is True&#8217; Boxed Set, Origins of the Iconic Name and Glasses, and Finding a Sound and Persona That Transformed Rock Forever",
-      "url": "https://variety.com/2026/music/news/elvis-costello-my-aim-is-true-boxed-set-origins-interview-1236906075/",
-      "date": "Thu, 08 Oct 2026 21:32:03 +0000",
-      "source": "Variety — Music"
-    },
-    {
       "title": "Billboard&#8217;s Music Industry Events&#160;Calendar",
       "url": "https://www.billboard.com/pro/music-industry-events-calendar-festivals-awards-conferences/",
       "date": "Thu, 08 Oct 2026 21:32:00 +0000",
-      "source": "Billboard"
-    },
-    {
-      "title": "Omar Courtz Scores First Latin Airplay No. 1 With ‘KOKO’:&#160;‘Crazy!’",
-      "url": "https://www.billboard.com/music/chart-beat/omar-courtz-scores-first-latin-airplay-number-1-koko-1236357217/",
-      "date": "Thu, 08 Oct 2026 21:30:26 +0000",
       "source": "Billboard"
     },
     {
@@ -113,6 +107,12 @@
       "source": "Google News — New Music"
     },
     {
+      "title": "Tate McRae is releasing a new song called Housewife - Music-News.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa1NtdU5OYXFDekxXdlV3dHQ4YXpsbXVESUVQbzNkeXlXZVpBam4yT1pZaHVMOXoyZGloMnhfeDlXM0V2aHdPdDJqTkRwNVFwamJSbkNsZUtCRXR0ZXpTcDBzZXRKMjlCcEY4WVMzYldqQkNmUlhwOHZHcXZ6ZXBIQkdvSzBwR3NUeW9rZFJmdVRBVGRONWFRMQ?oc=5",
+      "date": "Thu, 08 Oct 2026 21:09:23 GMT",
+      "source": "Google News — New Music"
+    },
+    {
       "title": "New name, same mission: The National Association of Catholic Church Musicians celebrates 50 years - OSV News",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdFRkWEJGU0RTUFdaQTVmUFlSa2szVVBJSHpZNkdQY2x4amdkZTN5d0t2UGFDVW1fQVdmUzIyT0JKOE9MRUlhczJOb3JsNEZ3WjU4R2t6WFhlZzFFT3d5cTJjVmFfd1A3b2VkeFM1MXh6TmRTV1lGYjYyU01pYjBBczBHVFdmWUNKY0ptdFdmb0Z3ZXRWdHE2M1ducGZadjZ4ajlvS3hramlYcUVERGp4Sm5Zdy00a1V2X2EySQ?oc=5",
       "date": "Thu, 08 Oct 2026 20:48:45 GMT",
@@ -125,6 +125,18 @@
       "source": "Google News — Hip-Hop"
     },
     {
+      "title": "The one Common lyric that made Ice Cube start a hip-hop feud - The Lagos Review",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORXlOWEVUU1o4MzlWR0lKUWRudFlIVkk3eVh2WTU5X3RwaWxBM2NleVdOYkZxTkVqa0Ztd0tCQ3V3T1doanQ2cmlXWE5rSzlMRHNsSV9NVEpyakFqZkRubVlDX0lMbFdQdjZyWkFVMHdJYlM4SU1RelhNVEExOWlUMHRmYk1qQXRlT0FWZzVUem0?oc=5",
+      "date": "Thu, 08 Oct 2026 20:38:14 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Becoming Elvis Costello: The Legend Goes In-Depth on His New &#8216;My Aim Is True&#8217; Boxed Set, Origins of the Iconic Name and Glasses, and Finding a Sound and Persona That Transformed Rock Forever",
+      "url": "https://variety.com/2026/music/news/elvis-costello-my-aim-is-true-boxed-set-origins-interview-1236906075/",
+      "date": "Thu, 08 Oct 2026 20:32:00 +0000",
+      "source": "Variety — Music"
+    },
+    {
       "title": "New Music Friday – October 9th, 2026 - Boolin Tunes",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9TRGhPeGstejV3VUl0QjNEUW56Z1F5aDJQbUpLb19BX2FYSzR2dUl3Uzg5RnAwbDd6V3pMZzRXU1RTVVBGelU1Y3JVUE04Qm1uUWgxazNmVXFXUHo2ZkJMV3I5cWFUUEpXeXJYSjdKbV8?oc=5",
       "date": "Thu, 08 Oct 2026 20:31:38 GMT",
@@ -134,6 +146,12 @@
       "title": "Adrian Marcel Keeps the RnBay Coming With Seductive New Single \"All Day\" - Complex",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS3BLRnRjY0hqVkxTU1ROaHdaQlpOVmhmNTlOUjJmbzhiWHZrUHA2bDFxZEl4VDlPQXNzcWdMZzRzU01VcndkMVFzc0FjWk5MTVpJaW9JZXRBZXVQd3QzQjlYZUVYVDBFQ0Q4R3labFRiOFVORG5TUi1HSmxNdFVkU1BBclYxSnRC?oc=5",
       "date": "Thu, 08 Oct 2026 20:30:48 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "How Sonny James Turned an R&B Hit into a 1969 Country Chart-Topping Classic - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLTZMa1BSWVFZNHBveTFVdWpGb3BYSjdUYnJqZGxoWlo0cV9rMl9MRXRBSmlQYnJ2b09DdXRTVzR5eTBJYnpieDRBYWE0Q3pUVlJMUzBFWlNQRmhncmRQMzFHRW1BaF81SkVRb2JSN3dpSWVudlNXT0FSODB3ZkVwZ1pNVFBYbEczYnlxOVNEUXhMZw?oc=5",
+      "date": "Thu, 08 Oct 2026 20:28:00 GMT",
       "source": "Google News — R&B"
     },
     {
@@ -287,6 +305,12 @@
       "source": "Google News — New Music"
     },
     {
+      "title": "INTERVIEW: From green pasta to riot grrrl spirit: Talon’s swaggering journey through friendship, touring and new music - musomuso.com",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeFhmUlgxSEtIT0lTaXpVeUVMbkVOSHhiNUlPV2lzN2Q5T1FaRWtwODNUMzVzTGlwZ25hazlPMGd6YXd6dE5VRVpWWlZpcW92dzJVdDhEbERSU21oYkRwc1VvczE0YTlMMmdwNTB0RFdRS0dKOHc4RDRLYS1YeFctenROQnRIdllfbEdKUWhtSVRyN0txMi1VRjRQUVFELXcwSzlxY1NOSDJ2cm9vbUd2YmptTWV4WjRQMlpwZy1HZU82Q05xQnpjY2hFQ1Y5YjBMQklwZ3F4TQ?oc=5",
+      "date": "Thu, 08 Oct 2026 17:09:09 GMT",
+      "source": "Google News — New Music"
+    },
+    {
       "title": "Taylor Swift to Perform at Academy Museum Gala",
       "url": "https://variety.com/2026/film/columns/taylor-swift-perform-academy-museum-gala-1236905184/",
       "date": "Thu, 08 Oct 2026 17:00:00 +0000",
@@ -315,12 +339,6 @@
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE13c3VZaDVFdmh4bjJ3VmRSLTZKS01pVlV4dHdOYURGdmVFWnlCNmVCOW11dkZQbmdlalpMc1UydjBxMG1fYVRCXzhIbXlDbW9HdkRLckJvWWFFSHpHSWVrTVZHV2tUREp4Mjc1ZENVajFodm8?oc=5",
       "date": "Thu, 08 Oct 2026 16:39:47 GMT",
       "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "The Boring Co. prepares new tunneling site for Music City Loop - WPLN News",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeTRRMTRsV25rbDA2ejExMlllSHB1UEh3YXNNdjZDcERaQjkzYmVWeVpqeUNKU2szdkdlbHQ2eU9RZmFud09XYmg5NDBUd296UVFjcGE2YkhpazI2Q0x5Mzlqc1VvRTJlNHdZUEp5TTg4M2EzczAyYl9tdWdsSkJoUTNRckxVaVpHRWJnbQ?oc=5",
-      "date": "Thu, 08 Oct 2026 16:26:21 GMT",
-      "source": "Google News — New Music"
     },
     {
       "title": "Katseye&#8217;s Sophia to Resume Group Activities in January 2027: &#8216;I Can&#8217;t Wait to Share the Stage With My Sisters Again&#8217;",
@@ -585,24 +603,6 @@
       "url": "https://pitchfork.com/story/jimmy-eat-world-library-card/",
       "date": "Wed, 07 Oct 2026 21:42:18 +0000",
       "source": "Pitchfork"
-    },
-    {
-      "title": "Pharrell Wants ‘Vague and Ambiguous’ Chad Hugo Copyright Lawsuit Tossed",
-      "url": "https://www.rollingstone.com/music/music-news/pharrell-wants-chad-hugo-copyright-lawsuit-dismissed-1235639252/",
-      "date": "Wed, 07 Oct 2026 21:36:32 +0000",
-      "source": "Rolling Stone — Music"
-    },
-    {
-      "title": "In The Groove: New music from S.G. Goodman, Leon Bridges, Sierra Ferrell + more - WDET 101.9 FM",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbC16dXNCdWRhWUNuejY1VUt1TDhTdXA0Zkd6ZlZKMEhOZDJjWldlTUVZdzNPcjgzZmMtaVhDWF8xTnJBZGxVOEZSMk41dWlNUUJ3REk5UEExSFd5S0JRODdQSVZHR0p1R3dUa1hZN2E1b0lHZHhtQ3B4Qzhoc2l0RllBeWZoRzliVjZGbUF4N0dkdWo5dTF4aWMteGJ6emRFTTFOMw?oc=5",
-      "date": "Wed, 07 Oct 2026 21:20:02 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "Alabama Shakes Asks Soho Sessions to ‘Gimme All Your Love’ in Bluesy Rock Performance",
-      "url": "https://www.rollingstone.com/music/music-news/alabama-shakes-gimme-all-your-love-soho-sessions-1235639196/",
-      "date": "Wed, 07 Oct 2026 20:59:54 +0000",
-      "source": "Rolling Stone — Music"
     }
   ],
   "sources": [
@@ -625,11 +625,11 @@
       "tier": 2,
       "status": "ok",
       "stories": 20,
-      "bytes": 19314,
+      "bytes": 19371,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=4f5aff6ee57e4fc79585970a0cf80ae3 benchma",
-      "latencyMs": 179
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=1a5e31c68865478f8744661c52067ba0 benchma",
+      "latencyMs": 183
     },
     {
       "source": "HipHopDX",
@@ -640,7 +640,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 327
+      "latencyMs": 89
     },
     {
       "source": "AllHipHop",
@@ -651,7 +651,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 683
+      "latencyMs": 534
     },
     {
       "source": "No Jumper",
@@ -662,62 +662,62 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 736
+      "latencyMs": 1650
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
-      "stories": 102,
-      "bytes": 124391,
+      "stories": 100,
+      "bytes": 122011,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 462
+      "latencyMs": 590
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 92,
-      "bytes": 121390,
+      "bytes": 121306,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 409
+      "latencyMs": 512
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 127739,
+      "bytes": 128068,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 475
+      "latencyMs": 530
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 125149,
+      "bytes": 124454,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 361
+      "latencyMs": 526
     },
     {
       "source": "Billboard",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 131260,
+      "bytes": 132189,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 148
+      "latencyMs": 119
     },
     {
       "source": "Pitchfork",
@@ -728,7 +728,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 96
+      "latencyMs": 80
     },
     {
       "source": "Rolling Stone — Music",
@@ -739,7 +739,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 126
+      "latencyMs": 51
     },
     {
       "source": "Variety — Music",
@@ -750,7 +750,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 129
+      "latencyMs": 82
     }
   ],
   "errorCount": 0,
