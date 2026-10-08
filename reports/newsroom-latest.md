@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-08T00:15:05.195Z
+Generated: 2026-10-08T00:52:04.936Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 270
+Stories discovered: 269
 
 1. **These Popular Kids&#8217; Halloween Costumes Are Over 60% Off This October Prime Day, From &#8216;Wicked&#8217; to &#8216;Descendants&#8217;** — Billboard — Thu, 08 Oct 2026 00:10:14 +0000
    https://www.billboard.com/culture/product-recommendations/kids-halloween-costumes-prime-big-deal-days-2026-shop-sales-1236356596/
@@ -64,5 +64,5 @@ Stories discovered: 270
    https://news.google.com/rss/articles/CBMioAFBVV95cUxQekdMWmFSeGpyRm1SVXgtdXE0bWpyOVBCX3lvZ3NaTlFrbGJpcHRadm44VUxyMkJJUkUxMGN3bVJzanBJY0toQmhObHZUTkVIWi1tdWJPd01qVGdDUWpSN0JvSEFsMHVVR0h4N2dRMnF0elpsX2FWQ3lJTE9NVmJvRG5oRFVkdHM4aDN0cG9oSUtLTkVVZnFmdFFILTRKTlQ3?oc=5
 29. **R&B Singer Freddie Jackson, Known for ‘You Are My Lady,’ Dies at 70 - The Black Chronicle** — Google News — R&B — Wed, 07 Oct 2026 20:44:24 GMT
    https://news.google.com/rss/articles/CBMipwFBVV95cUxQci1VYlhLRHUzR0pfWTc0eEgyVVhmYTJQR2kwcUF5R0V3ZzE0SkwxTS1ROFJmV0FNQlhkTHRuOUVFMVVjZUZXc3BGYjZPSy1mckxIWjg2MEFoTk00UzB0SU5zTXV6ai03S3FCcy1GWHB1OEZ0SXJMMFc2UUR5TEtsWGtfR0JTMXpvTWxlYnBvZnRuTmN5bVpiYW9rU2x3Z1BfYUdhcGQ0cw?oc=5
-30. **Remembering R&B singer Freddie Jackson: He was among Men of Soul in Dayton - Dayton Daily News** — Google News — R&B — Wed, 07 Oct 2026 20:40:59 GMT
-   https://news.google.com/rss/articles/CBMilAFBVV95cUxNNWpBS3BEYzd5dlhmWmpIZUl1WHF6TW1MTXRVeThSQXBqVTJ6STZ6b29SUzBYclUzUzc2S3ZXNDV6bEF5M0dnTVhURURWeEMtZVZqdzQ1NWhxcjZ3Yms3Zl9RQXdrNHFCYURZNmxkcFk2c3JEZEFaTVNyenZsdGVWN0RkX2kwc3Vhamh6SGNEdHVqTU5I?oc=5
+30. **Jennifer Nettles Is In a New Music City Thriller: ‘Heartland’ - DRGNews** — Google News — New Music — Wed, 07 Oct 2026 20:40:03 GMT
+   https://news.google.com/rss/articles/CBMilAFBVV95cUxNWk1wSXFSZFdEeDhLb1EwbFFqbWZjZzJZMk5vRmxwOEEteG5nOUk0Wm8ycWpPeE5CY0dsU1BObFdUNTk0QkJINXRzWnhFWDRNZ04wa1l0bk55aXJlQmJpbzMyODBMSkU2UHdoWWFOU0ZiUm1admh2S0lVWU9iUWdqSDRFN0NPTFFVR1NiSUZxUklSamxx?oc=5
