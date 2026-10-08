@@ -12,6 +12,9 @@
   const decode=v=>{let s=String(v??'');for(let i=0;i<3;i++){const t=document.createElement('textarea');t.innerHTML=s;s=t.value;if(!/[&](?:#\\d+|#x[0-9a-f]+|amp|quot|apos|rsquo|lsquo|rdquo|ldquo|ndash|mdash|hellip);/i.test(s))break;}return s;};
   const strip=v=>String(v??'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
   let allStories=[], activeFilter='all', refreshing=false, touchStartX=0, touchDistanceX=0, batchOffset=0;
+  const cacheKey='district-mind-radar-v2';
+  const readCache=()=>{try{const x=JSON.parse(sessionStorage.getItem(cacheKey)||'null');return x?.stories||[]}catch{return[]}};
+  const writeCache=stories=>{try{sessionStorage.setItem(cacheKey,JSON.stringify({savedAt:Date.now(),stories}))}catch{}};
   const tz=Intl.DateTimeFormat().resolvedOptions().timeZone || 'LOCAL TIME';
   const localHour=d=>Number(new Intl.DateTimeFormat('en-US',{hour:'numeric',hour12:false,timeZone:tz}).format(d));
   const ageHours=d=>(Date.now()-d.getTime())/3600000;
@@ -56,14 +59,16 @@
     return Array.from({length:24},(_,n)=>pool[(start+n)%pool.length]);
   }
   async function load(){
-    if(refreshing)return; refreshing=true; refresh.disabled=true; status.textContent='SCANNING / '+tz.toUpperCase();
+    if(refreshing)return;
+    if(!allStories.length){const cached=readCache();if(cached.length){allStories=cached;render(filtered());status.textContent='CACHED SIGNAL / REFRESHING';}} refreshing=true; refresh.disabled=true; status.textContent='SCANNING / '+tz.toUpperCase();
     try{
-      const r=await fetch('/api/news?hours=168&limit=60&ts='+Date.now(),{cache:'no-store'});
+      const r=await fetch('/api/news?hours=168&limit=60',{cache:'default'});
       if(!r.ok)throw new Error('feed');
       const incoming=parseXml(await r.text());
       const seen=new Set();
       allStories=incoming.filter(s=>{const k=s.title.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();if(seen.has(k))return false;seen.add(k);return true;});
       if(!allStories.length)throw new Error('empty');
+      writeCache(allStories);
       batchOffset=(batchOffset+24)%Math.max(1,allStories.length);
       render(filtered());
       const newest=new Date(allStories[0].pubDate);
