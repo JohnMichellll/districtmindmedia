@@ -1,4 +1,4 @@
-const headers={"Cache-Control":"public, max-age=300, s-maxage=300","Content-Type":"application/json","Access-Control-Allow-Origin":"*"};
+const headers={"Cache-Control":"public, max-age=900, s-maxage=900, stale-while-revalidate=3600","Content-Type":"application/json","Access-Control-Allow-Origin":"*"};
 const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers});
 const clean=v=>String(v??"").trim();
 const fetchJson=async(url)=>{const c=new AbortController();const t=setTimeout(()=>c.abort(),7000);try{const r=await fetch(url,{signal:c.signal});return r.ok?await r.json():null}catch{return null}finally{clearTimeout(t)}};
@@ -31,8 +31,9 @@ export async function onRequestGet({request}){
  if(artist.length<2||title.length<2)return json({ok:false,error:"Artist and release title are required."},400);
  try{
   const a=await apple(artist,title);
-  if(a?.artwork)return json({ok:true,artist,title,artwork:a.artwork,artistArtwork:null,source:"Apple Music",match:a.match});
+  if(a?.artwork&&a?.match)return json({ok:true,artist,title,artwork:a.artwork,artistArtwork:null,source:"Apple Music",match:a.match,verified:true});
   const d=await deezer(artist,title);
-  return json({ok:true,artist,title,artwork:d.artwork||null,artistArtwork:d.artistImage||null,source:d.artwork?"Deezer":"Deezer artist fallback",match:d.match});
+  if(d?.artwork&&d?.match) return json({ok:true,artist,title,artwork:d.artwork,artistArtwork:null,source:"Deezer",match:d.match});
+  return json({ok:true,artist,title,artwork:null,artistArtwork:null,source:null,match:null,verified:false});
  }catch{return json({ok:false,error:"Release artwork lookup is temporarily unavailable."},502);}
 }
