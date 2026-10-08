@@ -171,7 +171,7 @@ async function loadLiveNews(){
     const title=esc(decode(item.title));
     const description=esc(decode(String(item.description||'').replace(/<[^>]*>/g,'').slice(0,180)));
     const source=esc(decode(item.source||'District Mind Media Desk'));
-    return '<a class="news-item" href="'+esc(item.link||'#')+'" target="_blank" rel="noopener noreferrer"><div class="news-item-meta"><span>'+source+'</span><time>'+esc(stamp)+'</time></div><h3>'+title+'</h3><p>'+description+'</p></a>';
+    return '<a class="news-item" href="'+esc(item.link||'#')+'" target="_blank" rel="noopener noreferrer">'+(item.image?'<div class="news-item-image" style="background-image:url(\''+esc(item.image).replace(/'/g,'%27')+'\')"></div>':'')+'<div class="news-item-meta"><span>'+source+'</span><time>'+esc(stamp)+'</time></div><h3>'+title+'</h3><p>'+description+'</p></a>';
   }).join('');
   feed.innerHTML=render(fallback);
   if(button)button.disabled=true;
