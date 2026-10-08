@@ -2403,3 +2403,13 @@ input:focus,textarea:focus,select:focus{border-color:rgba(17,17,17,.45);box-shad
 }
 .radar-actions{display:none !important;}
 .radar-meta{margin-top:18px;}
+
+
+/* 2026-10-07 — FIRST SCREEN / SCROLL POLISH
+   Keep the existing homepage structure intact while removing excessive hero height. */
+@media(min-width:821px){
+  .hero.hero-media{min-height:64vh;}
+}
+@media(max-width:820px){
+  .hero.hero-media{min-height:68svh;}
+}
