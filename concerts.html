@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Concerts Near You — District Mind Media</title>
+<meta name="description" content="Find upcoming concerts and live music near your city with District Mind Media.">
+<link rel="stylesheet" href="style.css">
+<style>
+.live-shell{max-width:1180px;margin:auto;padding:72px 24px}
+.live-hero{background:#0b0b0b;color:#f7f5f1}.live-hero h1{font-size:clamp(58px,10vw,140px);line-height:.82;letter-spacing:-.07em;margin:10px 0 25px}.live-hero p{max-width:720px;color:rgba(247,245,241,.68);font-size:18px}
+.live-controls{display:grid;grid-template-columns:1.5fr .7fr .7fr auto;gap:10px;margin-top:30px}.live-controls input,.live-controls select,.live-controls button{min-height:52px;padding:14px;border:1px solid rgba(255,255,255,.2);background:#fff;color:#111;font:inherit}.live-controls button{background:#111;color:#fff;cursor:pointer}
+.live-status{margin-top:15px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:rgba(247,245,241,.5)}
+.live-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.live-card{border:1px solid rgba(0,0,0,.15);padding:22px;background:#f4f4f0;min-height:210px}.live-card .tag{font-size:9px;letter-spacing:.15em;font-weight:900}.live-card h3{font-size:25px;line-height:1;margin:12px 0}.live-card p{color:#666}.live-card a{color:#111;font-weight:900;text-decoration:none}.live-empty{padding:50px 0;color:#666}
+.live-strategy{margin-top:40px;border-top:1px solid rgba(0,0,0,.15);padding-top:30px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.live-strategy article{padding:20px;background:#ecebe6}.live-strategy h3{margin:7px 0}
+@media(max-width:800px){.live-controls{grid-template-columns:1fr 1fr}.live-controls input{grid-column:1/-1}.live-grid{grid-template-columns:1fr}.live-strategy{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="nav-container"><a href="index.html" class="logo">DISTRICT MIND</a><button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button><nav class="primary-nav" id="primary-nav"><a href="newsroom.html">Newsroom</a><a href="radar.html">Radar</a><a href="releases.html">Releases</a><a href="wayfinder.html">Wayfinder</a><a href="artists.html">Artists</a><a href="academy.html">Academy</a><a href="culture.html">Culture</a><a href="about.html">About</a></nav></div></header>
+<main>
+<section class="live-hero"><div class="live-shell"><p class="eyebrow">DISTRICT MIND / LIVE EVENTS</p><h1>CONCERTS<br>NEAR YOU.</h1><p>This is a dedicated live-music desk. It is not Artist Intelligence. Tell us your city, choose a date window, and we surface the live-event signal separately from artist research.</p>
+<form class="live-controls" id="live-form"><input id="live-location" placeholder="City or area — e.g. Colorado Springs" aria-label="City or area" required><select id="live-window" aria-label="Date window"><option value="24">Tonight / latest</option><option value="72">Next 3 days</option><option value="168" selected>Next 7 days</option></select><select id="live-genre" aria-label="Genre"><option value="">All music</option><option value="hip-hop">Hip-Hop</option><option value="r&b">R&B</option><option value="rap">Rap</option><option value="rock">Rock</option><option value="country">Country</option><option value="pop">Pop</option></select><button type="submit">Find Shows →</button></form><p class="live-status" id="live-status">LOCATION READY / CHOOSE A CITY</p></div></section>
+<section class="live-shell"><div class="live-grid" id="live-results"><div class="live-empty">Enter a city to scan the live-event desk.</div></div>
+<div class="live-strategy"><article><span class="eyebrow">01 / LOCATION</span><h3>Near you first.</h3><p>Location belongs to the concert desk, not the artist search box.</p></article><article><span class="eyebrow">02 / DISCOVERY</span><h3>Artist is optional.</h3><p>Start with a city, then narrow by genre or search an artist separately.</p></article><article><span class="eyebrow">03 / TICKETS</span><h3>Source before sale.</h3><p>Every event should lead to the original event or authorized ticket destination.</p></article></div></section>
+</main>
+<footer><div class="footer-container"><div><h3>District Mind</h3><p>Media</p></div><div class="footer-links"><a href="wayfinder.html">Wayfinder</a><a href="artists.html">Artist Hub</a><a href="contact.html">Contact</a></div><p>© 2026 District Mind Media. All rights reserved.</p></div></footer>
+<script>
+const form=document.getElementById('live-form'),loc=document.getElementById('live-location'),win=document.getElementById('live-window'),genre=document.getElementById('live-genre'),status=document.getElementById('live-status'),results=document.getElementById('live-results');
+const esc=v=>String(v??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const eventWord=/concert|tour|live|show|festival|arena|theatre|theater|tickets|music/i;
+async function scan(){
+ const q=loc.value.trim(); if(!q)return;
+ status.textContent='SCANNING LIVE EVENTS / '+q.toUpperCase();
+ results.innerHTML='<div class="live-empty">Scanning the local event signal…</div>';
+ try{
+  const r=await fetch('/api/news?local='+encodeURIComponent(q)+'&hours='+encodeURIComponent(win.value)+'&limit=60&ts='+Date.now(),{cache:'no-store'});
+  if(!r.ok)throw new Error('feed');
+  const doc=new DOMParser().parseFromString(await r.text(),'application/xml');
+  let items=[...doc.querySelectorAll('item')].map(i=>({title:i.querySelector('title')?.textContent||'',link:i.querySelector('link')?.textContent||'#',date:i.querySelector('pubDate')?.textContent||'',desc:i.querySelector('description')?.textContent||'',source:i.querySelector('category')?.textContent||'LIVE'})).filter(x=>eventWord.test(x.title+' '+x.desc));
+  if(genre.value)items=items.filter(x=>(x.title+' '+x.desc).toLowerCase().includes(genre.value));
+  const seen=new Set();items=items.filter(x=>{const k=x.title.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();if(seen.has(k))return false;seen.add(k);return true}).slice(0,24);
+  results.innerHTML=items.length?items.map(x=>'<article class="live-card"><span class="tag">'+esc(x.source)+' · '+esc(x.date?new Date(x.date).toLocaleDateString([], {month:"short",day:"numeric"}):'UPCOMING')+'</span><h3>'+esc(x.title)+'</h3><p>'+esc(x.desc.replace(/<[^>]*>/g," ").slice(0,180))+'</p><a href="'+esc(x.link)+'" target="_blank" rel="noopener noreferrer">Open event/source →</a></article>').join(''):'<div class="live-empty">No verified event signal found for that window. Try the nearby city or expand the date window.</div>';
+  status.textContent=items.length+' EVENT SIGNALS / '+q.toUpperCase();
+ }catch{status.textContent='LIVE EVENT DESK TEMPORARILY UNAVAILABLE';results.innerHTML='<div class="live-empty">The event desk could not load. Try again in a moment.</div>'}
+}
+form.addEventListener('submit',e=>{e.preventDefault();scan()});
+const params=new URLSearchParams(location.search);if(params.get('location')){loc.value=params.get('location');scan()}
+const m=document.querySelector('.menu-toggle'),n=document.querySelector('.primary-nav');if(m&&n)m.onclick=()=>{const o=n.classList.toggle('is-open');m.setAttribute('aria-expanded',o)}
+</script>
+<script src="site-guide.js" defer></script>
+</body></html>
