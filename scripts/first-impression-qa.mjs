@@ -2,7 +2,7 @@ import { chromium } from "playwright";
 import fs from "node:fs";
 
 const BASE = "https://district-mind-media.pages.dev";
-const routes = ["/","/newsroom.html","/artists.html","/releases.html","/local.html","/radar.html","/culture.html","/about.html","/contact.html","/academy.html","/editorial.html","/editorial-policy.html","/contributors.html","/explore.html"];
+const routes = ["/","/newsroom.html","/artists.html","/releases.html","/local.html","/wayfinder.html","/radar.html","/culture.html","/about.html","/contact.html","/academy.html","/academy-001.html","/editorial.html","/editorial-policy.html","/contributors.html","/explore.html","/article.html","/john-michell.html"];
 const results = [];
 const browser = await chromium.launch({headless:true});
 const page = await browser.newPage({viewport:{width:390,height:844}, deviceScaleFactor:2});
@@ -15,11 +15,12 @@ for (const route of routes) {
   const started = Date.now();
   try {
     const response = await page.goto(url,{waitUntil:"domcontentloaded",timeout:20000});
-    await page.waitForTimeout(1200);
+    await page.waitForTimeout(1800);
     const status = response?.status() ?? 0;
     const data = await page.evaluate(() => {
       const text = document.body?.innerText || "";
       const imgs = [...document.images].map(i=>({src:i.currentSrc||i.src,loaded:i.complete && i.naturalWidth>0,alt:i.alt||""}));
+      const visualAssets = [...document.querySelectorAll("[data-photo-key],[data-release-artist],[data-image-status]")].map(n=>({key:n.dataset.photoKey||[n.dataset.releaseArtist,n.dataset.releaseTitle].filter(Boolean).join(" — ")||n.className,status:n.dataset.imageStatus||"unreported",loader:n.dataset.imageLoader||""}));
       const links = [...document.querySelectorAll("a[href]")].map(a=>a.href);
       const badWords = /(lorem ipsum|coming soon|undefined|null|null|null|TODO|placeholder)/i;
       return {
@@ -27,6 +28,8 @@ for (const route of routes) {
         bodyChars: text.trim().length,
         hasNav: !!document.querySelector("nav,header"),
         images: imgs,
+        visualAssets,
+        missingImageAlt: imgs.filter(i=>i.src && !i.alt.trim()).length,
         links,
         badCopy: badWords.test(text),
         horizontalOverflow: document.documentElement.scrollWidth > window.innerWidth + 4
@@ -52,10 +55,12 @@ const report = {
     blankPages:results.filter(r=>r.bodyChars!==undefined && r.bodyChars<200).length,
     horizontalOverflow:results.filter(r=>r.horizontalOverflow).length,
     brokenImages:results.reduce((n,r)=>n+(r.images||[]).filter(i=>!i.loaded).length,0),
+    failedVisualAssets:results.reduce((n,r)=>n+(r.visualAssets||[]).filter(i=>i.status==="failed").length,0),
+    missingImageAlt:results.reduce((n,r)=>n+(r.missingImageAlt||0),0),
     suspiciousCopy:results.filter(r=>r.badCopy).length
   }
 };
 fs.mkdirSync("reports",{recursive:true});
 fs.writeFileSync("reports/first-impression-qa-latest.json",JSON.stringify(report,null,2));
 console.log(JSON.stringify(report.summary,null,2));
-if (report.summary.routeFailures || report.summary.blankPages || report.summary.horizontalOverflow || report.summary.brokenImages || report.summary.suspiciousCopy || report.summary.pageErrors) process.exitCode=1;
+if (report.summary.routeFailures || report.summary.blankPages || report.summary.horizontalOverflow || report.summary.brokenImages || report.summary.failedVisualAssets || report.summary.missingImageAlt || report.summary.suspiciousCopy || report.summary.pageErrors) process.exitCode=1;
