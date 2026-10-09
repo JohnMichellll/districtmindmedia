@@ -1,9 +1,15 @@
 {
-  "generatedAt": "2026-10-09T02:11:13.308Z",
+  "generatedAt": "2026-10-09T02:43:32.278Z",
   "operator": "District Mind AI Newsroom",
   "status": "READY_FOR_EDITOR",
   "storyCount": 271,
   "stories": [
+    {
+      "title": "Mike Tyson Reveals Diddy Told Him To Deliver Letter To President Trump &#038; He Did It",
+      "url": "https://allhiphop.com/news/mike-tyson-reveals-diddy-told-him-to-deliver-letter-to-president-trump-he-did-it/",
+      "date": "Fri, 09 Oct 2026 02:02:00 +0000",
+      "source": "AllHipHop"
+    },
     {
       "title": "Brooklyn Conservatory of Music expands music therapy services with new institute - CBS News",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORGJnYVcwcWRaYTJ6WjhDNWp6MjVLUWVfZjdhYUZaUGF6TWx0dmFEN0dBV0x6a1B6UDFWYTlXRXNLTGNhemxHZUtTaXVMS0g4OF92M0UxdGY4NnVLa0NqTlc2VUpYNG9TMDBILU14ZDJWbkZIU2ZrN2FTaE43RnRxSmVVemJ1aWM0a0gzRFRIVQ?oc=5",
@@ -188,12 +194,6 @@
       "title": "1969 Country Hit Was Originally an R&B No. 1 Before a Country Star Took It to the Top Again - Parade Magazine",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZ1BOTHZmZ3RoLWh0QnhPOEo0bXQ0ZEdwY2ZRbXhPSFdqMEwtdTNmRm90Zk0wb2Zwc3pQcGxjZml2d01CbU9OMjlTRDNHcTJmbTRiN19OME1WMldDLTBaa2daNmVQVTZqdmdBd29tUlA4YkxfMUNublhzRXlvQ2xYbkNrOGxBRFdrVUE?oc=5",
       "date": "Thu, 08 Oct 2026 20:28:00 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "Kristii Turns Heartbreak Into a Striking R&B Gem With “lost&found” - Ratings Game Music",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdFNQS2dwTmtWN3JLUzN0Nm5wZllKMDZQbHk1bTNjd0xYYnJQS3lCbTVSM1YwZjBSUnd1bV84dlZ5SGNNeEJTVUhhQ01HVDU2SkFEekNLRmVubFNhRm00YjFLZm14UTlrZFljaDhmR0E4UUFvNVhMR0NORHpiQlF4c1BUVFllcjdXVWQzTGN1Tm55X0Q2VkNrVGFDbXBodGswUmd6RHR3?oc=5",
-      "date": "Thu, 08 Oct 2026 20:24:28 GMT",
       "source": "Google News — R&B"
     },
     {
@@ -569,12 +569,6 @@
       "source": "Google News — Hip-Hop"
     },
     {
-      "title": "Victoria Monét Explains How Nas Kick-Started Her Career",
-      "url": "https://allhiphop.com/news/victoria-monet-explains-how-nas-kick-started-her-career/",
-      "date": "Thu, 08 Oct 2026 02:01:32 +0000",
-      "source": "AllHipHop"
-    },
-    {
       "title": "Hayley Williams Proves There&#8217;s a Lot More to Her Than Paramore in a Galvanizing Solo Show at the Hollywood Bowl: Concert Review",
       "url": "https://variety.com/2026/music/concert-reviews/hayley-williams-hollywood-bowl-concert-tour-review-1236905172/",
       "date": "Thu, 08 Oct 2026 00:09:00 +0000",
@@ -603,6 +597,12 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeGRhZjJQeTF5N0JyV2RwN2hLTkRXanJJUkQ3SWMxakN3ME53dnZ2Y0VlUUtTNTJraUhlSzhsdVB5QWZuaHpCRGp4ZTFUTXhMaHdNaC01cG1yQVFLSnNDZjRGZTN4MFdEd2Y2MVpqdTNTa21oXzdZVWtOX0V0enoyblRhR3kwZHlncV90Q3I5alRLQUhTUjZaOVBjcHZMYzJpNFFlTGlHS1dQMlZFVXhKaEVsZmN6UmhWQkdqTlVaSWdrWTFPb2RIcklWaXdYLVhaeWc?oc=5",
       "date": "Wed, 07 Oct 2026 21:43:00 GMT",
       "source": "Google News — New Music"
+    },
+    {
+      "title": "You Can Now Get a Jimmy Eat World Library Card",
+      "url": "https://pitchfork.com/story/jimmy-eat-world-library-card/",
+      "date": "Wed, 07 Oct 2026 21:42:18 +0000",
+      "source": "Pitchfork"
     }
   ],
   "sources": [
@@ -628,8 +628,8 @@
       "bytes": 19197,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=87e9c52b2b854ec1b96e401fc546c8ad benchma",
-      "latencyMs": 233
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=b137d878806a4d5dad5fdba961509459 benchma",
+      "latencyMs": 223
     },
     {
       "source": "HipHopDX",
@@ -640,18 +640,18 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 204
+      "latencyMs": 118
     },
     {
       "source": "AllHipHop",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 81718,
+      "bytes": 82243,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 892
+      "latencyMs": 438
     },
     {
       "source": "No Jumper",
@@ -662,51 +662,51 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 888
+      "latencyMs": 508
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 121654,
+      "bytes": 121788,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 465
+      "latencyMs": 502
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 92,
-      "bytes": 121585,
+      "bytes": 120907,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 399
+      "latencyMs": 415
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 128107,
+      "bytes": 127030,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 437
+      "latencyMs": 511
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 125149,
+      "bytes": 124079,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 408
+      "latencyMs": 483
     },
     {
       "source": "Billboard",
@@ -717,7 +717,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 250
+      "latencyMs": 102
     },
     {
       "source": "Pitchfork",
@@ -728,7 +728,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 169
+      "latencyMs": 105
     },
     {
       "source": "Rolling Stone — Music",
@@ -739,7 +739,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 72
+      "latencyMs": 134
     },
     {
       "source": "Variety — Music",
@@ -750,7 +750,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 162
+      "latencyMs": 46
     }
   ],
   "errorCount": 0,
