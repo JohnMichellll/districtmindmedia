@@ -1,9 +1,9 @@
 (()=> {
   const norm = s => String(s || "").toLowerCase().normalize("NFKD")
-    .replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+    .replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
   const same = (a,b) => {
     const x = norm(a), y = norm(b);
-    return x === y || x.replace(/\\bthe\\b/g,"").trim() === y.replace(/\\bthe\\b/g,"").trim();
+    return x === y || x.replace(/\bthe\b/g,"").trim() === y.replace(/\bthe\b/g,"").trim();
   };
 
   async function json(url, timeoutMs = 9000) {
@@ -59,7 +59,7 @@
   }
 
   function setArt(card, url, alt) {
-    const safeUrl = String(url).replace(/["'\\\\]/g, "");
+    const safeUrl = String(url).replace(/["']/g, "");
     let img = card.querySelector(".release-cover");
     if (!img) {
       img = document.createElement("img");
