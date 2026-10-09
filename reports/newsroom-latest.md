@@ -1,6 +1,6 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-09T02:43:32.278Z
+Generated: 2026-10-09T03:11:07.924Z
 
 Status: READY_FOR_EDITOR
 
@@ -30,38 +30,38 @@ Stories discovered: 271
    https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLW1QOFJoWU9XOU1MaTJ2WFBRWUpWek1yT3dzMzlidVIwenJLb3JVdHFGcHhjUU1yNUl3Tk0zQWZiV2Z2cGUtOFptSFRkWTUwei1WVi14NE5kbUhIaDZmZHBSRHRHbm03eU5WUWwwc3pCU0lkZmJVNzktUXpkLXRRZUk1Yzl4SGxUeUdiU1VyMmEzN19TYm5TTkh5VW9URWNzWnI2YzNrVUtTOUY4Ym1fbklYMzVCOXZHbHRoc1daVEY?oc=5
 12. **50 Cent Explains How $5M Turned Shreveport Into A Crime-Free Zone** — AllHipHop — Fri, 09 Oct 2026 00:02:00 +0000
    https://allhiphop.com/news/50-cent-explains-how-5m-turned-shreveport-into-a-crime-free-zone/
-13. **Cher Continues Her Story in Part 2 of Bestselling Memoir: Shop the New Book&#160;Here** — Billboard — Thu, 08 Oct 2026 23:14:37 +0000
+13. **R&B Singer Nivea Announces Remission After Leukemia Diagnosis - HOT 97** — Google News — R&B — Fri, 09 Oct 2026 00:00:00 GMT
+   https://news.google.com/rss/articles/CBMikgFBVV95cUxPMmFQUFpYUTBCYzVkN3FBQXhPNjRERUhGZDdhcnpvY1Jlc0NiZWRncXdIYk9BOFVGcGJfNC10ZGdCRHFPamRoVzhVQjUyLXg1OU45em1mWTdpb2tlbkZsamUwa2hLc3dtN0U1ckw2ejVtc3VoSlhnT3ptUUdIWVZrVk9CbkJtOXBGRGJ0MjRjQndMQQ?oc=5
+14. **Cher Continues Her Story in Part 2 of Bestselling Memoir: Shop the New Book&#160;Here** — Billboard — Thu, 08 Oct 2026 23:14:37 +0000
    https://www.billboard.com/culture/product-recommendations/cher-memoir-part-two-shop-new-book-online-1236357559/
-14. **Beatport Secures Growth Investment to &#8216;Expand the Ways We Serve the Global Electronic Music Community&#8217;** — Billboard — Thu, 08 Oct 2026 23:02:04 +0000
+15. **Beatport Secures Growth Investment to &#8216;Expand the Ways We Serve the Global Electronic Music Community&#8217;** — Billboard — Thu, 08 Oct 2026 23:02:04 +0000
    https://www.billboard.com/pro/beatport-growth-investment-square-nine-capital/
-15. **Interview: Rapper Young G Star on Rave Music and The Industry - Stanisland Magazine** — Google News — Hip-Hop — Thu, 08 Oct 2026 23:01:00 GMT
+16. **Interview: Rapper Young G Star on Rave Music and The Industry - Stanisland Magazine** — Google News — Hip-Hop — Thu, 08 Oct 2026 23:01:00 GMT
    https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zb0hZWlBPQmxoTTI2MnJ3V09Fd0d1cXlDRWVyaFA2U0MzX2NqaGNTeml3c1NUUHVkYmlIM0ZuY3lFOEJDVDNWUDVIc1FleUw2ZGRQWHpsdmpCZw?oc=5
-16. **JENNIE Pops Up at The Weeknd&#8217;s South Korea Concert for Surprise Live Debut of &#8216;The Idol&#8217; Fan&#160;Favorite** — Billboard — Thu, 08 Oct 2026 22:56:55 +0000
+17. **JENNIE Pops Up at The Weeknd&#8217;s South Korea Concert for Surprise Live Debut of &#8216;The Idol&#8217; Fan&#160;Favorite** — Billboard — Thu, 08 Oct 2026 22:56:55 +0000
    https://www.billboard.com/music/pop/jennie-the-weeknd-south-korea-concert-one-of-the-girls-1236357592/
-17. **6 upcoming Australian tours perfect for hip hop fans - The AU Review** — Google News — Hip-Hop — Thu, 08 Oct 2026 22:52:18 GMT
+18. **6 upcoming Australian tours perfect for hip hop fans - The AU Review** — Google News — Hip-Hop — Thu, 08 Oct 2026 22:52:18 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxOMWZyX1NUcVVBd01uNmlSSV9JZ2hSVmxRcjZLcU5zbWk0WTFiTzBZRHo5Skh4UjlwYkhqT09MOUFQdEFYTTNDdXNYamFOQkFMdkFNQVE4WGE0R19hZXM5TnpsaC1yMGt6d2VZNk9WbWJYQVlWT2FGSDlZd0NtQTduM2NIXzRaODZMX1J0RFVR?oc=5
-18. **New affordable housing honors Atlanta music professor - WABE** — Google News — New Music — Thu, 08 Oct 2026 22:41:44 GMT
+19. **New affordable housing honors Atlanta music professor - WABE** — Google News — New Music — Thu, 08 Oct 2026 22:41:44 GMT
    https://news.google.com/rss/articles/CBMigAFBVV95cUxQWmxUU3BiMVdnUnlFREI3REhvSlZwTVVPa210d0dDT250Z2U2Uzhqejg5ODNwRlk2cE52Q0YyeXNwZGhKRTRhMWV3VHctSktuNkEyOVpRbWVKQjVILWFRamYtX25udjBFdTQ5Y1ZHY0UxNHRZRi1qN1BraWJTMm9ZTg?oc=5
-19. **Ye Can’t Strike Holocaust &#038; Antisemitism References From ‘Vultures 2’ Lawsuit, Judge&#160;Rules** — Billboard — Thu, 08 Oct 2026 22:33:57 +0000
+20. **Ye Can’t Strike Holocaust &#038; Antisemitism References From ‘Vultures 2’ Lawsuit, Judge&#160;Rules** — Billboard — Thu, 08 Oct 2026 22:33:57 +0000
    https://www.billboard.com/pro/kanye-west-cant-strike-holocaust-antisemitism-song-lawsuit/
-20. **Here&#8217;s Where to Watch &#8216;Oasis: Don&#8217;t Look Back in Anger&#8217;&#160;Online** — Billboard — Thu, 08 Oct 2026 22:32:18 +0000
+21. **Here&#8217;s Where to Watch &#8216;Oasis: Don&#8217;t Look Back in Anger&#8217;&#160;Online** — Billboard — Thu, 08 Oct 2026 22:32:18 +0000
    https://www.billboard.com/culture/product-recommendations/oasis-film-dont-look-back-in-anger-watch-stream-online-free-1236357221/
-21. **Lil Baby Brings Fresh Prince Birthday Celebration To Atlanta** — AllHipHop — Thu, 08 Oct 2026 22:27:38 +0000
+22. **Lil Baby Brings Fresh Prince Birthday Celebration To Atlanta** — AllHipHop — Thu, 08 Oct 2026 22:27:38 +0000
    https://allhiphop.com/news/lil-baby-brings-fresh-prince-birthday-celebration-to-atlanta/
-22. **Mike Tyson Sent a Letter to Donald Trump on Diddy&#8217;s Behalf: &#8216;I Did What He Told Me to&#160;Do&#8217;** — Billboard — Thu, 08 Oct 2026 22:11:01 +0000
+23. **Mike Tyson Sent a Letter to Donald Trump on Diddy&#8217;s Behalf: &#8216;I Did What He Told Me to&#160;Do&#8217;** — Billboard — Thu, 08 Oct 2026 22:11:01 +0000
    https://www.billboard.com/music/rb-hip-hop/mike-tyson-diddy-letter-donald-trump-1236357554/
-23. **The Composer Who Carried on Tradition With Marked Skepticism - The New York Times** — Google News — New Music — Thu, 08 Oct 2026 21:41:00 GMT
+24. **The Composer Who Carried on Tradition With Marked Skepticism - The New York Times** — Google News — New Music — Thu, 08 Oct 2026 21:41:00 GMT
    https://news.google.com/rss/articles/CBMigwFBVV95cUxPTmRKenMtZXNQWnZ1d2t5czNURURhU21FSU14X2RQQkt3emloX0hUdDJXNW5vU0NmeWcta2FRQTlpYndBcnl0cXV5b0dqTmlOMHJZaVpManZBampqcVZHWGxYTUtRVWF2TXV0YnNoLUEtbUdVa0lqY3lNXzVnaThPMnA5SQ?oc=5
-24. **Quavo And Offset Could Be Called To Testify In Takeoff Settlement Battle - Hip-Hop Wired** — Google News — Hip-Hop — Thu, 08 Oct 2026 21:19:54 GMT
+25. **Quavo And Offset Could Be Called To Testify In Takeoff Settlement Battle - Hip-Hop Wired** — Google News — Hip-Hop — Thu, 08 Oct 2026 21:19:54 GMT
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaWJhOWtLWGg1YTk1cDlIeU55Z0VYUWJ3ZXlETzVuQTM3WENOWWtCQzRRMGx2RGs4dEl0VnJpbUpUdGd6cHN6YXVBRGkyTW5rS2ZDX3FKdlRLNVI4cktpT29iUTZqdHBWRldVdXAxdFo5ckw4bElXNVRxZmY2VHdzUW1OeHVPanhIRS1SdmJlQmM5dXprYTI1aGdXcnNGUnllb2c3THVUeFg?oc=5
-25. **The Interrupters Show Off Their "Warrior Spirit" In New Music Video - idobi** — Google News — New Music — Thu, 08 Oct 2026 21:13:20 GMT
+26. **The Interrupters Show Off Their "Warrior Spirit" In New Music Video - idobi** — Google News — New Music — Thu, 08 Oct 2026 21:13:20 GMT
    https://news.google.com/rss/articles/CBMib0FVX3lxTE9ONm0zTkRNNHItWklTWTV1QllrQ1pJRUtKUllwS0k1T1U2UmxpY0lXbDRhZUFISlAzcmFpdk1WX09BSzNLX1NueHRVTUxNSFJ2aXFCai1la3dHMFh3d3lldEdLdHBwalI0RXVGc0QyOA?oc=5
-26. **New name, same mission: The National Association of Catholic Church Musicians celebrates 50 years - OSV News** — Google News — New Music — Thu, 08 Oct 2026 20:48:45 GMT
+27. **New name, same mission: The National Association of Catholic Church Musicians celebrates 50 years - OSV News** — Google News — New Music — Thu, 08 Oct 2026 20:48:45 GMT
    https://news.google.com/rss/articles/CBMivAFBVV95cUxOdFRkWEJGU0RTUFdaQTVmUFlSa2szVVBJSHpZNkdQY2x4amdkZTN5d0t2UGFDVW1fQVdmUzIyT0JKOE9MRUlhczJOb3JsNEZ3WjU4R2t6WFhlZzFFT3d5cTJjVmFfd1A3b2VkeFM1MXh6TmRTV1lGYjYyU01pYjBBczBHVFdmWUNKY0ptdFdmb0Z3ZXRWdHE2M1ducGZadjZ4ajlvS3hramlYcUVERGp4Sm5Zdy00a1V2X2EySQ?oc=5
-27. **Aftershock Festival: Hip-Hop, Rock and Metal Collide at 2026 Edition of NorCal Fest (Recap) - Rock Cellar Magazine** — Google News — Hip-Hop — Thu, 08 Oct 2026 20:38:46 GMT
+28. **Aftershock Festival: Hip-Hop, Rock and Metal Collide at 2026 Edition of NorCal Fest (Recap) - Rock Cellar Magazine** — Google News — Hip-Hop — Thu, 08 Oct 2026 20:38:46 GMT
    https://news.google.com/rss/articles/CBMioAFBVV95cUxNVzdtRk9PckFBRy1ZVjBpQ2NQSHNYZGZ3b0NHUGZZZmp0RzcxcV9zQUxZNWwyeERIcERad2lSbXlKMkJJUWRPOTRfbjI0Z1dISFNzbmtkZ2hqRUkycE90ck1tLXFyRFQyWTgtS0xoVzNaZWtfcml3RXVQeWx5aDhEaTBBSEREOFJiZnk2b09ZdDViYlh5a3Z5RVJoLTZpNnlH?oc=5
-28. **The one Common lyric that made Ice Cube start a hip-hop feud - The Lagos Review** — Google News — Hip-Hop — Thu, 08 Oct 2026 20:38:14 GMT
-   https://news.google.com/rss/articles/CBMikAFBVV95cUxORXlOWEVUU1o4MzlWR0lKUWRudFlIVkk3eVh2WTU5X3RwaWxBM2NleVdOYkZxTkVqa0Ztd0tCQ3V3T1doanQ2cmlXWE5rSzlMRHNsSV9NVEpyakFqZkRubVlDX0lMbFdQdjZyWkFVMHdJYlM4SU1RelhNVEExOWlUMHRmYk1qQXRlT0FWZzVUem0?oc=5
 29. **Becoming Elvis Costello: The Legend Goes In-Depth on His New &#8216;My Aim Is True&#8217; Boxed Set, Origins of the Iconic Name and Glasses, and Finding a Sound and Persona That Transformed Rock Forever** — Variety — Music — Thu, 08 Oct 2026 20:32:00 +0000
    https://variety.com/2026/music/news/elvis-costello-my-aim-is-true-boxed-set-origins-interview-1236906075/
 30. **New Music Friday – October 9th, 2026 - Boolin Tunes** — Google News — New Music — Thu, 08 Oct 2026 20:31:38 GMT
