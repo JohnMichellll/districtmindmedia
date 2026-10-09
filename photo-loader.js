@@ -100,6 +100,29 @@
       const artist = (node.dataset.photoArtist ||
         (key.startsWith("john-michell") ? "John Michell" : "")).trim();
 
+      // Owner's own release cards must try exact catalog artwork before falling
+      // back to a generic artist portrait. Never substitute another artist's image.
+      const ownReleases = {
+        "john-michell-drivin-crazy": "Drivin Crazy",
+        "john-michell-who-is-you": "WHO IS YOU",
+        "john-michell-u": "U"
+      };
+      const releaseTitle = node.dataset.releaseTitle || ownReleases[key] || "";
+      if (artist && releaseTitle) {
+        const release = await fetchJson(
+          "/api/release-art?artist=" + encodeURIComponent(artist) +
+          "&title=" + encodeURIComponent(releaseTitle)
+        );
+        if (release?.verified && release?.artwork && release?.match &&
+            norm(release.match.artist) === norm(artist) &&
+            (norm(release.match.title) === norm(releaseTitle) ||
+             norm(release.match.album) === norm(releaseTitle)) &&
+            await imageLoads(release.artwork)) {
+          applyImage(node, release.artwork, releaseTitle + " by " + artist);
+          return;
+        }
+      }
+
       if (artist) {
         const artistKey = norm(artist);
         if (!artistCache.has(artistKey)) {
