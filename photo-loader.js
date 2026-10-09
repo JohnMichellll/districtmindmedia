@@ -1,1 +1,123 @@
-(()=>{const fallback={"john-michell":["JOHN MICHELL","DISTRICT MIND RECORDS"]};const norm=s=>String(s||"").toLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").trim();async function intel(artist){try{const r=await fetch("/api/artist-intel?q="+encodeURIComponent(artist),{cache:"no-store"});return r.ok?await r.json():null}catch{return null}}async function apply(){const nodes=[...document.querySelectorAll("[data-photo-key]")];if(!nodes.length)return;let m=null;try{m=await fetch("/assets/photo-manifest.json?photo-v=20261008",{cache:"no-store"}).then(r=>r.ok?r.json():null)}catch{}const cache={};for(const n of nodes){const p=m?.photos?.[n.dataset.photoKey];if(p?.url){n.style.setProperty("background-image",'linear-gradient(180deg,rgba(17,17,17,.04),rgba(17,17,17,.58)),url("'+String(p.url).replace(/"/g,"")+'")',"important");n.style.backgroundSize="cover";n.style.backgroundPosition="center";n.setAttribute("aria-label",p.alt||n.dataset.photoKey);continue}const artist=(n.dataset.photoArtist||((n.dataset.photoKey||"").startsWith("john-michell")?"John Michell":"")).trim();if(artist){if(!cache[norm(artist)])cache[norm(artist)]=await intel(artist);const d=cache[norm(artist)];const image=d?.artistImage;if(image){n.style.setProperty("background-image",'linear-gradient(180deg,rgba(17,17,17,.04),rgba(17,17,17,.58)),url("'+String(image).replace(/"/g,"")+'")',"important");n.style.backgroundSize="cover";n.style.backgroundPosition="center";n.classList.remove("photo-pending","photo-branded-fallback");n.setAttribute("aria-label",artist+" — verified artist image");continue}}if(fallback[n.dataset.photoKey]){n.style.setProperty("background-image","linear-gradient(135deg,#f4f1eb,#d9d4cc)","important");n.classList.add("photo-pending","photo-branded-fallback");n.dataset.photoLabel=fallback[n.dataset.photoKey][0];n.dataset.photoSub=fallback[n.dataset.photoKey][1];}}}document.addEventListener("DOMContentLoaded",apply)})();
+(()=> {
+  const FALLBACK_LABELS = {
+    "john-michell": ["JOHN MICHELL", "DISTRICT MIND RECORDS"],
+    "john-michell-drivin-crazy": ["DRIVIN CRAZY", "JOHN MICHELL"],
+    "john-michell-who-is-you": ["WHO IS YOU", "JOHN MICHELL"],
+    "john-michell-u": ["U", "JOHN MICHELL"]
+  };
+  const norm = s => String(s || "").toLowerCase().normalize("NFKD")
+    .replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+
+  async function fetchJson(url, timeoutMs = 9000) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      const response = await fetch(url, { cache: "no-store", signal: controller.signal });
+      if (!response.ok) return null;
+      return await response.json();
+    } catch (error) {
+      return null;
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  function imageLoads(url, timeoutMs = 9000) {
+    return new Promise(resolve => {
+      if (!url || typeof url !== "string") return resolve(false);
+      const img = new Image();
+      let done = false;
+      const finish = ok => {
+        if (done) return;
+        done = true;
+        clearTimeout(timer);
+        img.onload = null;
+        img.onerror = null;
+        resolve(ok);
+      };
+      const timer = setTimeout(() => finish(false), timeoutMs);
+      img.onload = () => finish(img.naturalWidth > 0 && img.naturalHeight > 0);
+      img.onerror = () => finish(false);
+      img.referrerPolicy = "no-referrer";
+      img.src = url;
+    });
+  }
+
+  function applyImage(node, url, alt) {
+    const safeUrl = String(url).replace(/["\\\\]/g, "");
+    node.style.setProperty("background-image",
+      'linear-gradient(180deg,rgba(17,17,17,.04),rgba(17,17,17,.48)),url("' + safeUrl + '")', "important");
+    node.style.backgroundSize = "cover";
+    node.style.backgroundPosition = "center";
+    node.dataset.imageStatus = "loaded";
+    node.setAttribute("aria-label", alt || node.dataset.photoKey || "Editorial photo");
+    node.classList.remove("photo-pending", "photo-branded-fallback", "photo-load-error");
+  }
+
+  function showFallback(node) {
+    const labels = FALLBACK_LABELS[node.dataset.photoKey];
+    node.style.setProperty("background-image", "linear-gradient(135deg,#f4f1eb,#d9d4cc)", "important");
+    node.dataset.imageStatus = "fallback";
+    node.classList.add("photo-pending", "photo-branded-fallback");
+    node.classList.remove("photo-load-error");
+    if (labels) {
+      node.dataset.photoLabel = labels[0];
+      node.dataset.photoSub = labels[1];
+    }
+  }
+
+  async function loadPhotos() {
+    const nodes = [...document.querySelectorAll("[data-photo-key]")];
+    if (!nodes.length) return;
+
+    nodes.forEach(node => {
+      node.dataset.imageStatus = "loading";
+      node.dataset.imageLoader = "photo-loader";
+    });
+
+    const manifest = await fetchJson("/assets/photo-manifest.json?v=20261008");
+    const artistCache = new Map();
+
+    await Promise.all(nodes.map(async node => {
+      const key = node.dataset.photoKey || "";
+      const photo = manifest?.photos?.[key];
+
+      if (photo?.url && await imageLoads(photo.url)) {
+        applyImage(node, photo.url, photo.alt || key);
+        return;
+      }
+
+      const artist = (node.dataset.photoArtist ||
+        (key.startsWith("john-michell") ? "John Michell" : "")).trim();
+
+      if (artist) {
+        const artistKey = norm(artist);
+        if (!artistCache.has(artistKey)) {
+          artistCache.set(artistKey, fetchJson(
+            "/api/artist-intel?q=" + encodeURIComponent(artist) + "&image_probe=1"
+          ));
+        }
+        const data = await artistCache.get(artistKey);
+        const imageUrl = data?.artistImage;
+        if (imageUrl && await imageLoads(imageUrl)) {
+          applyImage(node, imageUrl, artist + " — verified artist image");
+          return;
+        }
+      }
+
+      showFallback(node);
+      node.dataset.imageStatus = "failed";
+      node.classList.add("photo-load-error");
+      console.warn("[District Mind image loader] No usable image for:", key, {
+        manifestEntry: Boolean(photo?.url),
+        artistFallbackTried: Boolean(artist)
+      });
+    }));
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", loadPhotos, { once: true });
+  } else {
+    loadPhotos();
+  }
+})();
