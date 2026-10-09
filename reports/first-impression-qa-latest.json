@@ -1,0 +1,747 @@
+{
+  "generatedAt": "2026-10-09T08:35:33.611Z",
+  "target": "https://district-mind-media.pages.dev",
+  "viewport": "390x844",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "ms": 2110,
+      "title": "District Mind Media — The Culture in Motion",
+      "bodyChars": 3822,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [
+        {
+          "key": "jpegmafia",
+          "status": "loaded",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "Victoria Monét — Frequency of Love",
+          "status": "loading",
+          "loader": "release-artwork-loader"
+        },
+        {
+          "key": "Quavo — QRÖMELIFE",
+          "status": "loading",
+          "loader": "release-artwork-loader"
+        },
+        {
+          "key": "Danielle Ponder — Everything Has Changed",
+          "status": "loading",
+          "loader": "release-artwork-loader"
+        },
+        {
+          "key": "john-michell",
+          "status": "loading",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "quavo",
+          "status": "loaded",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "victoria-monet",
+          "status": "loaded",
+          "loader": "photo-loader"
+        }
+      ],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/radar.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/explore.html",
+        "https://district-mind-media.pages.dev/radar.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/radar.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/john-michell.html",
+        "https://district-mind-media.pages.dev/wayfinder.html?find=local",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/article.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://district-mind-media.pages.dev/article.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial.html",
+        "https://district-mind-media.pages.dev/contributors.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 18
+    },
+    {
+      "type": "page-error",
+      "text": "Unexpected token 'catch'",
+      "url": "https://district-mind-media.pages.dev/newsroom"
+    },
+    {
+      "route": "/newsroom.html",
+      "status": 200,
+      "ms": 1857,
+      "title": "Newsroom — District Mind Media",
+      "bodyChars": 1439,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [
+        {
+          "key": "earl-sweatshirt",
+          "status": "loaded",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "victoria-monet",
+          "status": "loaded",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "jpegmafia",
+          "status": "loaded",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "quavo",
+          "status": "loaded",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "doja-cat",
+          "status": "loaded",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "victoria-monet",
+          "status": "loaded",
+          "loader": "photo-loader"
+        }
+      ],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/wayfinder.html?find=local",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/article.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/wayfinder.html?find=local",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 12
+    },
+    {
+      "route": "/artists.html",
+      "status": 200,
+      "ms": 1878,
+      "title": "District Mind Media — Artist Intelligence Hub",
+      "bodyChars": 1406,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/artists#artist-desk",
+        "https://district-mind-media.pages.dev/john-michell.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial.html",
+        "https://district-mind-media.pages.dev/contributors.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 15
+    },
+    {
+      "type": "console-error",
+      "text": "Failed to load resource: the server responded with a status of 400 ()",
+      "url": "https://district-mind-media.pages.dev/releases"
+    },
+    {
+      "route": "/releases.html",
+      "status": 200,
+      "ms": 1875,
+      "title": "District Mind Media | Releases",
+      "bodyChars": 2162,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [
+        {
+          "key": "Danielle Ponder — Everything Has Changed",
+          "status": "loading",
+          "loader": "release-artwork-loader"
+        },
+        {
+          "key": "Dawn Richard — Creole Culture",
+          "status": "loading",
+          "loader": "release-artwork-loader"
+        },
+        {
+          "key": "Joyce Wrice — Machiko",
+          "status": "loading",
+          "loader": "release-artwork-loader"
+        },
+        {
+          "key": "john-michell-drivin-crazy",
+          "status": "loading",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "john-michell-who-is-you",
+          "status": "loading",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "john-michell-u",
+          "status": "loading",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "john-michell",
+          "status": "loading",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "john-michell",
+          "status": "loading",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "john-michell",
+          "status": "loading",
+          "loader": "photo-loader"
+        }
+      ],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/index.html#latest",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://music.apple.com/us/album/u-single/1819200665",
+        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://music.apple.com/us/album/eyes-open-single/1727068645",
+        "https://music.apple.com/au/album/cherrywood-single/1720659104"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 8
+    },
+    {
+      "type": "page-error",
+      "text": "Unexpected string",
+      "url": "https://district-mind-media.pages.dev/local"
+    },
+    {
+      "route": "/local.html",
+      "status": 200,
+      "ms": 1853,
+      "title": "Local Watch — District Mind Media",
+      "bodyChars": 810,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/radar.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/contact.html"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 11
+    },
+    {
+      "route": "/wayfinder.html",
+      "status": 200,
+      "ms": 1870,
+      "title": "Wayfinder — District Mind Media",
+      "bodyChars": 3127,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 11
+    },
+    {
+      "route": "/radar.html",
+      "status": 200,
+      "ms": 1926,
+      "title": "Radar — District Mind Media",
+      "bodyChars": 642,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/radar.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 12
+    },
+    {
+      "route": "/culture.html",
+      "status": 200,
+      "ms": 1873,
+      "title": "District Mind Media | Culture",
+      "bodyChars": 1215,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [
+        {
+          "key": "quavo",
+          "status": "loaded",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "victoria-monet",
+          "status": "loaded",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "jpegmafia",
+          "status": "loaded",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "earl-sweatshirt",
+          "status": "loaded",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "doja-cat",
+          "status": "loaded",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "quavo",
+          "status": "loaded",
+          "loader": "photo-loader"
+        }
+      ],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/index.html#latest",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 8
+    },
+    {
+      "route": "/about.html",
+      "status": 200,
+      "ms": 1884,
+      "title": "District Mind Media | About",
+      "bodyChars": 937,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/index.html#latest",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 8
+    },
+    {
+      "route": "/contact.html",
+      "status": 200,
+      "ms": 1881,
+      "title": "District Mind Media | Contact",
+      "bodyChars": 508,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/index.html#latest",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 8
+    },
+    {
+      "route": "/academy.html",
+      "status": 200,
+      "ms": 1904,
+      "title": "District Mind Academy — Class 001",
+      "bodyChars": 1931,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial.html",
+        "https://district-mind-media.pages.dev/feed.xml"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 10
+    },
+    {
+      "route": "/academy-001.html",
+      "status": 200,
+      "ms": 2056,
+      "title": "Academy 001 — District Mind",
+      "bodyChars": 913,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/academy.html#join",
+        "https://district-mind-media.pages.dev/explore.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 9
+    },
+    {
+      "route": "/editorial.html",
+      "status": 200,
+      "ms": 1884,
+      "title": "Editorial — District Mind Media",
+      "bodyChars": 1023,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/article.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/contributors.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 11
+    },
+    {
+      "route": "/editorial-policy.html",
+      "status": 200,
+      "ms": 1871,
+      "title": "Editorial Policy | District Mind Media",
+      "bodyChars": 1233,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/index.html#latest",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 7
+    },
+    {
+      "route": "/contributors.html",
+      "status": 200,
+      "ms": 1870,
+      "title": "Contributors — District Mind Media",
+      "bodyChars": 1066,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/john-michell.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 11
+    },
+    {
+      "route": "/explore.html",
+      "status": 200,
+      "ms": 1947,
+      "title": "Explore — District Mind Media",
+      "bodyChars": 1949,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/artist-registry.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/john-michell.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 13
+    },
+    {
+      "route": "/article.html",
+      "status": 200,
+      "ms": 1886,
+      "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
+      "bodyChars": 2771,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/local.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/local.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 11
+    },
+    {
+      "route": "/john-michell.html",
+      "status": 200,
+      "ms": 1900,
+      "title": "John Michell — District Mind Media",
+      "bodyChars": 1594,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [
+        {
+          "key": "john-michell",
+          "status": "loading",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "john-michell-drivin-crazy",
+          "status": "loading",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "john-michell-who-is-you",
+          "status": "loading",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "john-michell",
+          "status": "loading",
+          "loader": "photo-loader"
+        }
+      ],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/index.html#latest",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://music.apple.com/us/album/eyes-open-single/1727068645"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "internalLinkCount": 8
+    }
+  ],
+  "summary": {
+    "routeFailures": 3,
+    "pageErrors": 2,
+    "consoleErrors": 1,
+    "blankPages": 0,
+    "horizontalOverflow": 0,
+    "brokenImages": 0,
+    "failedVisualAssets": 0,
+    "missingImageAlt": 0,
+    "suspiciousCopy": 0
+  }
+}
