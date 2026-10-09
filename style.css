@@ -2455,3 +2455,11 @@ input:focus,textarea:focus,select:focus{border-color:rgba(17,17,17,.45);box-shad
     font-size: 15px;
   }
 }
+
+
+/* Hard override for Academy intro copy: prevent inherited white text on the light page. */
+.academy-grid > div:first-child .academy-lead,
+.academy-grid > div:first-child .academy-roadmap p {
+  color: #171717 !important;
+  -webkit-text-fill-color: #171717 !important;
+}
