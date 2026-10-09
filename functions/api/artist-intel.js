@@ -76,7 +76,7 @@ export async function onRequestGet({request,env}){
    try{
     const dz=await fetchJson("https://api.deezer.com/search/artist?q="+encodeURIComponent(best)+"&limit=10");
     const dzRows=Array.isArray(dz?.data)?dz.data:[];
-    const exact=dzRows.find(x=>norm(x.name)===norm(best))||dzRows.find(x=>norm(x.name).includes(norm(best)));
+    const exact=dzRows.find(x=>norm(x.name)===norm(best));
     artistImage=exact?.picture_xl||exact?.picture_big||exact?.picture_medium||null;
    }catch{}
   }
