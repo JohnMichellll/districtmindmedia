@@ -1,4 +1,30 @@
 (() => {
+
+  // Global, delegated navigation control: works on every page, including pages with legacy inline handlers.
+  // Capture and stop the legacy click handler so the menu cannot toggle open and immediately close.
+  document.addEventListener('click', e => {
+    const toggle = e.target.closest('.menu-toggle');
+    if (toggle) {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      const nav = document.getElementById(toggle.getAttribute('aria-controls') || 'primary-nav');
+      if (!nav) return;
+      const open = !nav.classList.contains('is-open');
+      nav.classList.toggle('is-open', open);
+      toggle.setAttribute('aria-expanded', String(open));
+      return;
+    }
+    const link = e.target.closest('.primary-nav a');
+    if (link) {
+      const nav = link.closest('.primary-nav');
+      if (nav && nav.classList.contains('is-open')) {
+        nav.classList.remove('is-open');
+        const toggle = document.querySelector('.menu-toggle[aria-controls="' + nav.id + '"]');
+        if (toggle) toggle.setAttribute('aria-expanded', 'false');
+      }
+    }
+  }, true);
+
   const routes = [
     {title:'Wayfinder', href:'wayfinder.html', type:'WAYFINDER', tags:'navigation search find artist article hometown local state discovery guide concerts shows tickets events'},
     {title:'Local Watch', href:'local.html', type:'LOCAL', tags:'state city local concerts shows touring artists culture recent reports archive'} ,
