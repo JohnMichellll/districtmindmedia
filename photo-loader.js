@@ -6,7 +6,7 @@
     "john-michell-u": ["U", "JOHN MICHELL"]
   };
   const norm = s => String(s || "").toLowerCase().normalize("NFKD")
-    .replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+    .replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
 
   async function fetchJson(url, timeoutMs = 9000) {
     const controller = new AbortController();
