@@ -75,7 +75,7 @@
   }
 
   async function loadPhotos() {
-    const nodes = [...document.querySelectorAll("[data-photo-key]")];
+    const nodes = [...document.querySelectorAll("[data-photo-key]")].filter(node => !(node.dataset.releaseArtist && node.dataset.releaseTitle));
     if (!nodes.length) return;
 
     nodes.forEach(node => {
