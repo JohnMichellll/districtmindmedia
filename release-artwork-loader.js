@@ -50,7 +50,7 @@
     if (!visual) { visual = document.createElement("div"); visual.className = "dm-release-fallback"; visual.setAttribute("aria-hidden", "true"); card.prepend(visual); }
     visual.innerHTML = "<strong></strong><span></span>";
     visual.querySelector("strong").textContent = card.dataset.releaseTitle || "RELEASE ARTWORK";
-    visual.querySelector("span").textContent = (card.dataset.releaseArtist || "DISTRICT MIND") + " / OFFICIAL ARTWORK";
+    visual.querySelector("span").textContent = (card.dataset.releaseArtist || "DISTRICT MIND") + " / COVER IMAGE UNAVAILABLE";
     const label = card.querySelector("span");
     if (label) {
       label.style.opacity = "1";
