@@ -85,7 +85,7 @@
       node.dataset.imageLoader = "photo-loader";
     });
 
-    const manifest = await fetchJson("/assets/photo-manifest.json?v=20261008");
+    const manifest = await fetchJson("/assets/photo-manifest.json?v=20261009");
     const artistCache = new Map();
 
     await Promise.all(nodes.map(async node => {
