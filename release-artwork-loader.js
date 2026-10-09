@@ -40,8 +40,21 @@
     });
   }
 
+  function pending(card) {
+    card.classList.remove("has-release-art", "release-art-failed");
+    card.classList.add("release-art-pending");
+    card.dataset.imageStatus = "loading";
+    card.style.setProperty("background-image", "linear-gradient(135deg,#191919,#343434)", "important");
+    card.style.backgroundColor = "#171717";
+    const label = card.querySelector("span");
+    if (label) {
+      label.style.opacity = "1";
+      label.style.color = "#f7f5f1";
+    }
+  }
+
   function fallback(card, reason) {
-    card.classList.remove("has-release-art");
+    card.classList.remove("has-release-art", "release-art-pending");
     card.classList.add("release-art-failed");
     card.dataset.imageStatus = "failed";
     card.dataset.imageFailure = reason;
@@ -73,7 +86,7 @@
     img.onload = () => {
       if (!img.naturalWidth) return fallback(card, "empty-image");
       card.dataset.imageStatus = "loaded";
-      card.classList.remove("release-art-failed", "release-text-card", "photo-pending", "photo-branded-fallback");
+      card.classList.remove("release-art-failed", "release-art-pending", "release-text-card", "photo-pending", "photo-branded-fallback");
       card.classList.add("has-release-art");
       card.setAttribute("aria-label", img.alt);
       const label = card.querySelector("span");
@@ -93,7 +106,7 @@
     await Promise.all(cards.map(async card => {
       const artist = card.dataset.releaseArtist || "";
       const title = card.dataset.releaseTitle || "";
-      card.dataset.imageStatus = "loading";
+      pending(card);
       card.dataset.imageLoader = "release-artwork-loader";
 
       const data = await json("/api/release-art?artist=" + encodeURIComponent(artist) +
