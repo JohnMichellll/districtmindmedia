@@ -59,7 +59,7 @@
     const key = node.dataset.photoKey || "district-mind-media";
     const labels = FALLBACK_LABELS[key] || [
       key.replace(/-/g, " ").replace(/\b\w/g, letter => letter.toUpperCase()),
-      "DISTRICT MIND MEDIA / IMAGE PENDING"
+      "IMAGE NOT AVAILABLE"
     ];
     node.style.setProperty("background-image", "linear-gradient(135deg,#191919,#343434)", "important");
     node.dataset.imageStatus = "fallback";
