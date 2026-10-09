@@ -186,7 +186,8 @@ async function loadLiveNews(){
       link:item.querySelector('link')?.textContent||'newsroom.html',
       pubDate:item.querySelector('pubDate')?.textContent||'',
       description:item.querySelector('description')?.textContent||'',
-      source:item.querySelector('category')?.textContent||'District Mind Media Desk'
+      source:item.querySelector('category')?.textContent||'District Mind Media Desk',
+      image:item.querySelector('enclosure')?.getAttribute('url')||item.querySelector('media\\:content')?.getAttribute('url')||item.querySelector('media\\:thumbnail')?.getAttribute('url')||''
     }));
     if(!items.length)throw new Error('No headlines');
     feed.innerHTML=render(items);
