@@ -2463,3 +2463,11 @@ input:focus,textarea:focus,select:focus{border-color:rgba(17,17,17,.45);box-shad
   color: #171717 !important;
   -webkit-text-fill-color: #171717 !important;
 }
+
+/* Contrast repair: keep page introductions readable on their dark hero backgrounds. */
+.page-hero { background: linear-gradient(135deg,#111 0%,#202020 100%) !important; color:#f7f5f1 !important; }
+.page-hero h1,.page-hero h2,.page-hero h3,.page-hero .eyebrow,.page-hero .category { color:#f7f5f1 !important; -webkit-text-fill-color:#f7f5f1 !important; }
+.page-hero .hero-text,.page-hero .page-lead,.page-hero p:not(.eyebrow):not(.category) { color:rgba(255,255,255,.82) !important; -webkit-text-fill-color:rgba(255,255,255,.82) !important; }
+.explore-loader { background:#111 !important; color:#f7f5f1 !important; }
+.explore-loader .eyebrow,.explore-loader h1,.explore-loader .explore-mark { color:#f7f5f1 !important; -webkit-text-fill-color:#f7f5f1 !important; }
+.explore-loader #explore-status { color:rgba(255,255,255,.78) !important; }
