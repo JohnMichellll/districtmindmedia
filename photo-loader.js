@@ -44,7 +44,7 @@
   }
 
   function applyImage(node, url, alt) {
-    const safeUrl = String(url).replace(/["\\\\]/g, "");
+    const safeUrl = String(url).replace(/["']/g, "");
     node.style.setProperty("background-image",
       'linear-gradient(180deg,rgba(17,17,17,.04),rgba(17,17,17,.48)),url("' + safeUrl + '")', "important");
     node.style.backgroundSize = "cover";
