@@ -5,7 +5,7 @@ function isPublicWebUrl(value){
     const u=new URL(value);
     if(!["http:","https:"].includes(u.protocol)||u.username||u.password)return false;
     const h=u.hostname.toLowerCase().replace(/^\[|\]$/g,"");
-    if(!h||h==="localhost"||h.endsWith(".localhost")||h.endsWith(".local")||h==="::1"||h==="::"||h.startsWith("fc")||h.startsWith("fd")||h.startsWith("fe80:"))return false;
+    if(!h||h==="localhost"||h.endsWith(".localhost")||h.endsWith(".local")||h==="::1"||h==="::"||/^f[cd][0-9a-f]{2}:/i.test(h)||/^fe80:/i.test(h))return false;
     if(/^127\.|^10\.|^192\.168\.|^169\.254\.|^0\./.test(h))return false;
     const m=h.match(/^172\.(\d+)\./);if(m&&+m[1]>=16&&+m[1]<=31)return false;
     return true;
@@ -16,8 +16,16 @@ export async function onRequestGet({request}){
   if(!target)return json({ok:false,error:"missing url"},400);
   if(!isPublicWebUrl(target))return json({ok:false,error:"invalid article url"},400);
   try{
-    const r=await fetch(target,{redirect:"manual",signal:AbortSignal.timeout(7000),headers:{"User-Agent":"DistrictMindMedia/1.0 (article image resolver)","Accept":"text/html,application/xhtml+xml"}});
-    if(r.status>=300&&r.status<400)return json({ok:false,error:"redirect not followed"},502,"public, max-age=60");
+    let current=target,r;
+    for(let hop=0;hop<4;hop++){
+      r=await fetch(current,{redirect:"manual",signal:AbortSignal.timeout(7000),headers:{"User-Agent":"DistrictMindMedia/1.0 (article image resolver)","Accept":"text/html,application/xhtml+xml"}});
+      if(r.status<300||r.status>=400)break;
+      const location=r.headers.get("location");
+      if(!location||hop===3)return json({ok:false,error:"too many redirects"},502,"public, max-age=60");
+      let next;try{next=new URL(location,current).toString()}catch{return json({ok:false},502,"public, max-age=60")}
+      if(!isPublicWebUrl(next))return json({ok:false,error:"unsafe redirect target"},400);
+      current=next;
+    }
     if(!r.ok)return json({ok:false},404,"public, max-age=300");
     const type=r.headers.get("content-type")||"";
     if(!/text\/html|application\/xhtml\+xml/i.test(type))return json({ok:false,error:"not an html page"},415,"public, max-age=300");
@@ -40,7 +48,7 @@ export async function onRequestGet({request}){
       /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image(?::src)?["'][^>]*>/i
     ]);
     if(!image)return json({ok:false},404,"public, max-age=300");
-    let absolute;try{absolute=new URL(image,target).toString()}catch{return json({ok:false},404,"public, max-age=300")}
+    let absolute;try{absolute=new URL(image,current).toString()}catch{return json({ok:false},404,"public, max-age=300")}
     if(!isPublicWebUrl(absolute))return json({ok:false},404,"public, max-age=300");
     return json({ok:true,image:absolute},200,"public, max-age=1800, s-maxage=1800");
   }catch{return json({ok:false,error:"image lookup timed out or failed"},502,"public, max-age=60")}
