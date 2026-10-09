@@ -34,21 +34,48 @@
     if(age<48)return 'EARLIER / LOCAL';
     return 'LATEST UPDATE';
   };
-  const hydrateMissingImages=async cards=>{
-    const missing=[...cards].filter(card=>card.dataset.articleUrl && !card.dataset.hasImage).slice(0,24);
-    await Promise.all(missing.map(async card=>{
-      try{
-        const r=await fetch('/api/article-image?url='+encodeURIComponent(card.dataset.articleUrl),{cache:'no-store'});
-        if(!r.ok)return;
-        const d=await r.json();
-        if(d?.image){
-          const media=card.querySelector('.radar-card-media');
-          media.style.backgroundImage='url("'+String(d.image).replace(/"/g,'')+'")';
-          media.classList.remove('radar-card-no-image');
-          card.dataset.hasImage='1';
-        }
-      }catch{}
-    }));
+  const imageUrl=v=>{try{const u=new URL(String(v||''),location.href);return ['https:','http:'].includes(u.protocol)?u.href:''}catch{return ''}};
+  const verifyImage=url=>new Promise(resolve=>{
+    const src=imageUrl(url);if(!src){resolve(false);return}
+    const img=new Image();let done=false;
+    const finish=ok=>{if(done)return;done=true;img.onload=null;img.onerror=null;clearTimeout(timer);resolve(ok)};
+    const timer=setTimeout(()=>finish(false),8000);
+    img.onload=()=>finish(img.naturalWidth>0&&img.naturalHeight>0);
+    img.onerror=()=>finish(false);
+    img.decoding='async';img.src=src;
+  });
+  const hydrateMissingImages=async(cards,stories)=>{
+    const list=[...cards];
+    const worker=async card=>{
+      const media=card.querySelector('.radar-card-media');
+      if(!media)return;
+      const story=stories[Number(card.dataset.index)]||{};
+      const candidates=[story.image].map(imageUrl).filter(Boolean);
+      const articleUrl=card.dataset.articleUrl;
+      const tryCandidate=async url=>{
+        if(!url||!(await verifyImage(url)))return false;
+        media.style.backgroundImage='url("'+url.replace(/["\\\\]/g,'')+'")';
+        media.classList.remove('radar-card-no-image');
+        card.dataset.hasImage='1';
+        return true;
+      };
+      for(const url of candidates){if(await tryCandidate(url))return}
+      if(articleUrl){
+        try{
+          const r=await fetch('/api/article-image?url='+encodeURIComponent(articleUrl),{signal:AbortSignal.timeout(9000),cache:'default'});
+          if(r.ok){
+            const d=await r.json(),fallback=imageUrl(d?.image);
+            if(fallback&&await tryCandidate(fallback))return;
+          }
+        }catch{}
+      }
+      media.style.backgroundImage='none';
+      media.classList.add('radar-card-no-image');
+      card.dataset.hasImage='0';
+      media.setAttribute('role','img');
+      media.setAttribute('aria-label','Article image unavailable');
+    };
+    for(let i=0;i<list.length;i+=4)await Promise.all(list.slice(i,i+4).map(worker));
   };
   const render=stories=>{
     if(!stories.length){feed.innerHTML='<div class="radar-empty"><div><p class="eyebrow">RADAR QUIET</p><h2>Nothing new?</h2><p>We expanded the window. Keep scrolling — the desk will surface the latest verified signal available, including smaller culture moments.</p><button class="radar-action primary" id="radar-empty-refresh">Scan Again →︎</button></div></div>';document.getElementById('radar-empty-refresh')?.addEventListener('click',load);return;}
@@ -67,7 +94,7 @@
       const story=stories[Number(card.dataset.index)];
       if(story?.image){card.querySelector('.radar-card-media').style.backgroundImage='url("'+String(story.image).replace(/"/g,'')+'")';}
     });
-    hydrateMissingImages(feed.querySelectorAll('.radar-card'));
+    hydrateMissingImages(feed.querySelectorAll('.radar-card'),stories);
     
   };
   const parseXml=xml=>{
