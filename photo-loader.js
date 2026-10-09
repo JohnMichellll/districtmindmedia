@@ -73,6 +73,8 @@
     if (!nodes.length) return;
 
     nodes.forEach(node => {
+      // Never leave a white/empty tile while external artist imagery is resolving.
+      showFallback(node);
       node.dataset.imageStatus = "loading";
       node.dataset.imageLoader = "photo-loader";
     });
