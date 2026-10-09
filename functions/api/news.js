@@ -77,7 +77,7 @@ async function fetchXmlSource(source) {
       const item = {
         title: tag(block,"title"),
         link: tag(block,"link") || attr(block,"link","href"),
-        pubDate: tag(block,"pubDate") || tag(block,"dc:date") || tag(block,"published") || tag(block,"updated") || new Date().toUTCString(),
+        pubDate: tag(block,"pubDate") || tag(block,"dc:date") || tag(block,"published") || tag(block,"updated"),
         description: tag(block,"description") || tag(block,"content:encoded") || tag(block,"summary"),
         image: image(block),
         source: source.name
@@ -101,7 +101,7 @@ async function fetchGoogle(googleWindow, localQuery = "") {
   const parts = await Promise.all(queries.map(async query => {
     try {
       const url = "https://news.google.com/rss/search?q=" + encodeURIComponent(query + " when:" + googleWindow + "d") + "&hl=en-US&gl=US&ceid=US:en";
-      const response = await fetch(url, { headers: { "User-Agent": "DistrictMindMedia/1.0" } });
+      const response = await fetch(url, { headers: { "User-Agent": "DistrictMindMedia/1.0" }, signal: AbortSignal.timeout(8000) });
       if (!response.ok) return [];
       const xml = await response.text();
       const blocks = extractBlocks(xml);
