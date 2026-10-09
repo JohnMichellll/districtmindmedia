@@ -46,6 +46,11 @@
     card.dataset.imageStatus = "loading";
     card.style.setProperty("background-image", "linear-gradient(135deg,#191919,#343434)", "important");
     card.style.backgroundColor = "#171717";
+    let visual = card.querySelector(":scope > .dm-release-fallback");
+    if (!visual) { visual = document.createElement("div"); visual.className = "dm-release-fallback"; visual.setAttribute("aria-hidden", "true"); card.prepend(visual); }
+    visual.innerHTML = "<strong></strong><span></span>";
+    visual.querySelector("strong").textContent = card.dataset.releaseTitle || "RELEASE ARTWORK";
+    visual.querySelector("span").textContent = (card.dataset.releaseArtist || "DISTRICT MIND") + " / OFFICIAL ARTWORK";
     const label = card.querySelector("span");
     if (label) {
       label.style.opacity = "1";
@@ -87,6 +92,7 @@
       if (!img.naturalWidth) return fallback(card, "empty-image");
       card.dataset.imageStatus = "loaded";
       card.classList.remove("release-art-failed", "release-art-pending", "release-text-card", "photo-pending", "photo-branded-fallback");
+      card.querySelector(":scope > .dm-release-fallback")?.remove();
       card.classList.add("has-release-art");
       card.setAttribute("aria-label", img.alt);
       const label = card.querySelector("span");
