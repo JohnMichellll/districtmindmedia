@@ -2426,3 +2426,32 @@ input:focus,textarea:focus,select:focus{border-color:rgba(17,17,17,.45);box-shad
 .release-thumb.has-release-art{background-image:none!important;}
 .release-thumb.has-release-art::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(17,17,17,.02),rgba(17,17,17,.28));z-index:1;pointer-events:none;}
 .release-thumb>span{position:relative;z-index:2;}
+
+
+/* Academy readability pass: strengthen the opening explanation and its supporting copy. */
+.academy-grid > div:first-child .academy-lead {
+  color: #292929;
+  font-size: clamp(18px, 1.35vw, 20px);
+  line-height: 1.8;
+  font-weight: 450;
+  max-width: 66ch;
+  margin-top: 14px;
+  text-wrap: pretty;
+}
+.academy-grid > div:first-child .academy-roadmap p {
+  color: #424242;
+  font-size: 15px;
+  line-height: 1.75;
+}
+.academy-grid > div:first-child .academy-roadmap h3 {
+  line-height: 1.15;
+}
+@media (max-width: 760px) {
+  .academy-grid > div:first-child .academy-lead {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  .academy-grid > div:first-child .academy-roadmap p {
+    font-size: 15px;
+  }
+}
