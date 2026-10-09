@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-09T16:12:14.260Z",
+  "generatedAt": "2026-10-09T16:45:08.316Z",
   "status": "READY_FOR_EDITOR",
-  "storyCount": 275,
+  "storyCount": 273,
   "sourceCount": 12,
   "healthySources": 12,
   "failedSources": 0,
@@ -29,8 +29,8 @@
       "bytes": 19063,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=21c030e727b944c493b862b64cc4ba16 benchma",
-      "latencyMs": 301
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=87e9c52b2b854ec1b96e401fc546c8ad benchma",
+      "latencyMs": 129
     },
     {
       "source": "HipHopDX",
@@ -41,7 +41,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 187
+      "latencyMs": 130
     },
     {
       "source": "AllHipHop",
@@ -52,7 +52,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 907
+      "latencyMs": 725
     },
     {
       "source": "No Jumper",
@@ -63,62 +63,62 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 664
+      "latencyMs": 746
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 123986,
+      "bytes": 122076,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 649
+      "latencyMs": 539
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 92,
-      "bytes": 116514,
+      "bytes": 117007,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 465
+      "latencyMs": 405
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 127030,
+      "bytes": 126986,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 540
+      "latencyMs": 532
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 124630,
+      "bytes": 124654,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 468
+      "latencyMs": 666
     },
     {
       "source": "Billboard",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 117417,
+      "bytes": 115597,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 203
+      "latencyMs": 120
     },
     {
       "source": "Pitchfork",
@@ -129,18 +129,18 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 90
+      "latencyMs": 51
     },
     {
       "source": "Rolling Stone — Music",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 9675,
+      "bytes": 9658,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 117
+      "latencyMs": 134
     },
     {
       "source": "Variety — Music",
@@ -151,7 +151,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 662
+      "latencyMs": 64
     }
   ]
 }
