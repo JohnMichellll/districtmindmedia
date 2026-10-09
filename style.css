@@ -2581,3 +2581,24 @@ input:focus,textarea:focus,select:focus{border-color:rgba(17,17,17,.45);box-shad
 .release-art-failed > span { display: none !important; }
 .release-art-pending .release-cover,
 .release-art-failed .release-cover { display: none !important; }
+
+
+/* Hard fallback nodes: keep every visual tile visibly labeled if an image request fails. */
+.dm-visual-fallback,.dm-release-fallback {
+  position:absolute!important;inset:0!important;z-index:5!important;display:flex!important;
+  flex-direction:column!important;justify-content:flex-end!important;align-items:flex-start!important;
+  gap:10px!important;padding:20px!important;
+  background:radial-gradient(circle at 82% 18%,rgba(255,255,255,.1),transparent 34%),linear-gradient(135deg,#191919,#343434)!important;
+  color:#f7f5f1!important;-webkit-text-fill-color:#f7f5f1!important;text-align:left!important;
+  pointer-events:none!important;box-sizing:border-box!important;
+}
+.dm-visual-fallback strong,.dm-release-fallback strong {
+  display:block!important;color:#f7f5f1!important;-webkit-text-fill-color:#f7f5f1!important;
+  font:900 clamp(19px,4vw,36px)/.98 Arial,sans-serif!important;letter-spacing:-.04em!important;
+  overflow-wrap:anywhere!important;text-shadow:0 2px 12px rgba(0,0,0,.45)!important;
+}
+.dm-visual-fallback span,.dm-release-fallback span {
+  display:block!important;color:rgba(247,245,241,.78)!important;-webkit-text-fill-color:rgba(247,245,241,.78)!important;
+  font:800 9px/1.4 Arial,sans-serif!important;letter-spacing:.15em!important;text-transform:uppercase!important;
+}
+.has-release-art > .dm-release-fallback {display:none!important;}
