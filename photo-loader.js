@@ -55,15 +55,17 @@
   }
 
   function showFallback(node) {
-    const labels = FALLBACK_LABELS[node.dataset.photoKey];
-    node.style.setProperty("background-image", "linear-gradient(135deg,#f4f1eb,#d9d4cc)", "important");
+    const key = node.dataset.photoKey || "district-mind-media";
+    const labels = FALLBACK_LABELS[key] || [
+      key.replace(/-/g, " ").replace(/\\b\\w/g, letter => letter.toUpperCase()),
+      "DISTRICT MIND MEDIA / IMAGE PENDING"
+    ];
+    node.style.setProperty("background-image", "linear-gradient(135deg,#191919,#343434)", "important");
     node.dataset.imageStatus = "fallback";
     node.classList.add("photo-pending", "photo-branded-fallback");
     node.classList.remove("photo-load-error");
-    if (labels) {
-      node.dataset.photoLabel = labels[0];
-      node.dataset.photoSub = labels[1];
-    }
+    node.dataset.photoLabel = labels[0];
+    node.dataset.photoSub = labels[1];
   }
 
   async function loadPhotos() {
