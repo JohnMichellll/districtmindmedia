@@ -52,6 +52,7 @@
     node.dataset.imageStatus = "loaded";
     node.setAttribute("aria-label", alt || node.dataset.photoKey || "Editorial photo");
     node.classList.remove("photo-pending", "photo-branded-fallback", "photo-load-error");
+    node.querySelector(":scope > .dm-visual-fallback")?.remove();
   }
 
   function showFallback(node) {
@@ -66,6 +67,11 @@
     node.classList.remove("photo-load-error");
     node.dataset.photoLabel = labels[0];
     node.dataset.photoSub = labels[1];
+    let visual = node.querySelector(":scope > .dm-visual-fallback");
+    if (!visual) { visual = document.createElement("div"); visual.className = "dm-visual-fallback"; visual.setAttribute("aria-hidden", "true"); node.prepend(visual); }
+    visual.innerHTML = "<strong></strong><span></span>";
+    visual.querySelector("strong").textContent = labels[0];
+    visual.querySelector("span").textContent = labels[1];
   }
 
   async function loadPhotos() {
