@@ -120,22 +120,20 @@
       if (data?.artwork && data?.verified && data.match &&
           same(data.match.artist, artist) &&
           (same(data.match.title, title) || same(data.match.album, title))) {
-        if (await imageLoads(data.artwork)) {
-          setArt(card, data.artwork, title + " by " + artist);
-          return;
-        }
+        setArt(card, data.artwork, title + " by " + artist);
+        return;
       }
 
       const intel = await json("/api/artist-intel?q=" + encodeURIComponent(artist));
       const hit = (intel?.music || []).find(track =>
         same(track.title, title) || same(track.album, title)
       );
-      if (hit?.artwork && await imageLoads(hit.artwork)) {
+      if (hit?.artwork) {
         setArt(card, hit.artwork, title + " by " + artist);
         return;
       }
 
-      if (intel?.artistImage && same(title, artist) && await imageLoads(intel.artistImage)) {
+      if (intel?.artistImage && same(title, artist)) {
         setArt(card, intel.artistImage, artist);
         return;
       }
