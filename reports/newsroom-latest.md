@@ -1,23 +1,23 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-09T11:11:17.971Z
+Generated: 2026-10-09T11:43:02.200Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 276
+Stories discovered: 272
 
-1. **Album Review: Avrak – ‘Avrak’ - Metal Insider** — Google News — New Music — Fri, 09 Oct 2026 11:09:54 GMT
+1. **Album Review: Avrak – ‘Avrak’ - Metal Insider** — Google News — New Music — Fri, 09 Oct 2026 11:08:55 GMT
    https://news.google.com/rss/articles/CBMia0FVX3lxTE9LWnVPeTcyd3I1MnBkWEJ0dU95aDJrWGtvb1d6YTc5Q1JQRm9sZWJQdEVkUUdnZ2dvR0VEYi1LRGpHcVZpczhiazl0b21oV0VzSFBGMW5yMk85N2xxT0YzbEd0c21BaU5XNTln?oc=5
 2. **Power Trip return with first new music in eight years - The Line of Best Fit** — Google News — New Music — Fri, 09 Oct 2026 10:48:26 GMT
    https://news.google.com/rss/articles/CBMilgFBVV95cUxNamhtSlJKYmRsSzllWXpwZVVfM3hENW4tUXFOYmxQMVZuZ2R0Qks0ajJMSllMTFVWVG45YmcxYWVrcktoRUtRS3g5X0R5b2xWZFI2Zk1PanNaSVdJQjJ4djRFWWhjRnR6MVdkblJCM0c2b1BlYllFS2JkRGRPdVBMUmdFT2NDTFFLQlFSOGhyNVhmczdobUE?oc=5
-3. **The top albums from New Music Friday for Oct. 9 - Radio Milwaukee** — Google News — New Music — Fri, 09 Oct 2026 10:30:00 GMT
+3. **Power Trip Drop First 2 Songs With New Vocalist, 2027 Album Ahead - Loudwire** — Google News — New Music — Fri, 09 Oct 2026 10:44:18 GMT
+   https://news.google.com/rss/articles/CBMiY0FVX3lxTFAtaUNzLW9VWjZXcUZES2dXUGgyUkNIWWI0OGVfa2VpUm5GQ1FfQlNaMVAyX1B4TFk0VUpNWW8xcHZ3UFRYYkVYaU9ldlV1NlQ0RUFySFBUYmFzWmpoVGZQckV6QQ?oc=5
+4. **The top albums from New Music Friday for Oct. 9 - Radio Milwaukee** — Google News — New Music — Fri, 09 Oct 2026 10:30:00 GMT
    https://news.google.com/rss/articles/CBMiigFBVV95cUxQOHozWnhwOXZZZkdhbm56dy00YnF2UVB4RnoyZnBUeC1CZUFyWE1McmVDdXJxU0haVW1fM0R5MGw3dkg4dHVfT1lXUHljdERxeklhLUtNcXJHMmhXa2NlZ1NsUE95all4X1BJenJEc3BKVVhZS3VJaVEzRExJTGVHb3lYeHB6ZFI0dUE?oc=5
-4. **Coco Jones shares the personal single ‘Love Me Through’ - Big Country News |** — Google News — R&B — Fri, 09 Oct 2026 09:54:16 GMT
+5. **Coco Jones shares the personal single ‘Love Me Through’ - Big Country News |** — Google News — R&B — Fri, 09 Oct 2026 09:54:16 GMT
    https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFRYRHJyTGZnVUYxenhtN01KZmEzLWZHMzM5YkVYVnB4X3ZKamg5OVczWjVaS2Y4anBSZVlPWVdQaEplRmlkbEVPZ0kwa2Rzb2haNFBqQkw4UGRmV3dmNWRGdEMyRnFWSzhrcUhHcnFVOVp1clFHWHBLaUpfWjh3THhaT1I2bElzRlpHQW9nZ01jdlZob3dRaC0tQQ?oc=5
-5. **G Herbo says he’s ‘stepping away’ from rap, but later hints at a ‘possible return’ - Big Country News |** — Google News — Hip-Hop — Fri, 09 Oct 2026 09:54:12 GMT
+6. **G Herbo says he’s ‘stepping away’ from rap, but later hints at a ‘possible return’ - Big Country News |** — Google News — Hip-Hop — Fri, 09 Oct 2026 09:54:12 GMT
    https://news.google.com/rss/articles/CBMiugFBVV95cUxOc2FQaXN5eTlfMVRlYURuU2xIZ3hZY2FjeklaMGNkT0lud2J0UnJnczJJRlBzUWxxNEx5dm1aMVpqRWZwSDRYX3BNckVfYU9EcHNDV2ZxdzRWbHNmSmNBQ21fZ0JHaTUtMnZ4Uk1mdlRWWWxXamVlRm5DR21vRmFaTW9mZ1ZQdjVyYzFHemkyU0o0WHk0ejRWTWY3c1VsamJhSmdXT184ZGVzOU9QQnhCS18wTUNFaDdCVGc?oc=5
-6. **Legendary R&B group’s founding member dead at 90: ‘One of the greatest’ - Yahoo** — Google News — R&B — Fri, 09 Oct 2026 09:01:18 GMT
-   https://news.google.com/rss/articles/CBMimgFBVV95cUxNajVEempzY2dvWW1oUmphUUc0ZTJxcWJwYk9pcm5OcTZSZEFBbERlQzFmcWNoYlRYLXAxdTd4SnpRU0FSejVDZWxiVXFOTmhaeHA2Z2syNGVxLTZTdl82cXVVRVBqb0NnSFc1UFc5cm9kZVNyN0VXQlVPczJROEFBNDlTOTl3YzNLQWdlRkc5NnlXcUoyWFJ0cHp3?oc=5
 7. **Pet Shop Boys Salute Computer Pioneer Alan Turing on ‘A Man From The Future’: Stream It&#160;Now** — Billboard — Fri, 09 Oct 2026 09:00:26 +0000
    https://www.billboard.com/music/pop/pet-shop-boys-alan-turing-on-a-man-from-the-future-stream-1236357860/
 8. **Vermont hip hop band pens tune about online relationship - Vermont Public** — Google News — Hip-Hop — Fri, 09 Oct 2026 09:00:00 GMT
