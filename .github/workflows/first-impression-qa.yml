@@ -31,12 +31,15 @@ jobs:
       - name: Install Chromium
         run: npx -y playwright@1.55.0 install --with-deps chromium
       - name: Run first-impression browser bots
-        run: npx -y -p playwright@1.55.0 node scripts/first-impression-qa.mjs
+        run: |
+          npm install --no-save playwright@1.55.0
+          node scripts/first-impression-qa.mjs
       - name: Publish QA report
         if: always()
         run: |
           git config user.name "District Mind First Impression Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          test -f reports/first-impression-qa-latest.json || exit 0
           git add reports/first-impression-qa-latest.json
           git diff --cached --quiet && exit 0
           git commit -m "chore(qa): refresh first-impression browser audit"
