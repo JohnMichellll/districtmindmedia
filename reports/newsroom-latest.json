@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T08:12:35.790Z",
+  "generatedAt": "2026-10-09T08:45:35.422Z",
   "operator": "District Mind AI Newsroom",
   "status": "READY_FOR_EDITOR",
   "storyCount": 277,
@@ -23,22 +23,10 @@
       "source": "Google News — New Music"
     },
     {
-      "title": "The Composer Who Carried on Tradition With Marked Skepticism - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTmRKenMtZXNQWnZ1d2t5czNURURhU21FSU14X2RQQkt3emloX0hUdDJXNW5vU0NmeWcta2FRQTlpYndBcnl0cXV5b0dqTmlOMHJZaVpManZBampqcVZHWGxYTUtRVWF2TXV0YnNoLUEtbUdVa0lqY3lNXzVnaThPMnA5SQ?oc=5",
-      "date": "Fri, 09 Oct 2026 07:34:33 GMT",
-      "source": "Google News — New Music"
-    },
-    {
       "title": "Orbit Culture Premiere New Music Video For Revised Version Of \"The Path I Walk\" - Tina Guo Guests - Metal Underground.com",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwaFQyeG5EWHhFRWZkcmh4dTdEWW9TTHFoRDhEenRtaEtWQlVTYzJRblJaY2hCeWFmdWhZdzhDb2x5WFkxWFdDMk5xeTBtQTRJMVNldUEzd0hOTERiSXlhLXIza2Y4YkFXakpwc1o1dw?oc=5",
       "date": "Fri, 09 Oct 2026 07:21:00 GMT",
       "source": "Google News — New Music"
-    },
-    {
-      "title": "This Day in Hip-Hop and R&B History: October 9 - foxy99.com",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVHB6MnBaSFVxOXJfcloxQjRVd1pUa3FPSlB5QkkyMnRrbWJrVjZZZ0hyWVN5Tlk5UnVjMWF2QmZoMHN0a2pjSnhQR2VBbG1EcVRGRklQTGcwZXppLXFGRkQ2blM4U3JUX3JWd01UUmZhUmdxc3ZUNWVtWEhsUTJDZA?oc=5",
-      "date": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "source": "Google News — R&B"
     },
     {
       "title": "Jay Ray releases new single \"Hope\" with Paul Udarov - Chaoszine",
@@ -225,6 +213,12 @@
       "url": "https://www.billboard.com/culture/tv-film/rosalia-kenan-thompson-a-pop-classical-album-snl-promo-1236357704/",
       "date": "Fri, 09 Oct 2026 01:33:59 +0000",
       "source": "Billboard"
+    },
+    {
+      "title": "WWE Superstar Cody Rhodes Says Promos Are Rap Battles Now - HOT 97",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPV2N3b3hWb0hSVmNEbFBQNGNyYTlJNmRIWW5nZXpKSEh1MllHYkM0cGJVVm96SDE0bTRSMXBlUHBtNklnNFpaX01mMWlDSWxXYzkweXdJOWp0NlBQRjJ1SFdzZ2FfM3J3cHdSYWJMRGs1NjNTT00wVkVwWEpMYU45MDR6ckZjZzNLclZDWnJn?oc=5",
+      "date": "Fri, 09 Oct 2026 01:00:00 GMT",
+      "source": "Google News — Hip-Hop"
     },
     {
       "title": "Noah Kahan Reacts to First Kids&#8217; Choice Award Nomination: &#8216;Holy Sh&#8211; I Finally Did&#160;It&#8217;",
@@ -599,6 +593,12 @@
       "source": "Pitchfork"
     },
     {
+      "title": "Victoria Monét Credits Nas With Helping Her Kickstart Her Music Career - Hip-Hop Wired",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lRXE2YWpsOG9ETG81TDcwZkpvNjNlNEVjNGY3LXlPTGxMRnpCN3NWV293M3NjMVNNOG9fT21nTFM3R2owaE9IODZuV0JxMGdUa1RXcFdSbzFrSzhqT1RMUQ?oc=5",
+      "date": "Thu, 08 Oct 2026 14:09:38 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
       "title": "Grouper’s Liz Harris Shares 21-Minute Composition",
       "url": "https://pitchfork.com/story/groupers-liz-harris-shares-21-minute-composition/",
       "date": "Thu, 08 Oct 2026 14:09:00 +0000",
@@ -628,8 +628,8 @@
       "bytes": 19241,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=b137d878806a4d5dad5fdba961509459 benchma",
-      "latencyMs": 196
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=5191c713f4ce46f19a7101f9abf0986f benchma",
+      "latencyMs": 117
     },
     {
       "source": "HipHopDX",
@@ -640,7 +640,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 133
+      "latencyMs": 177
     },
     {
       "source": "AllHipHop",
@@ -651,7 +651,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 820
+      "latencyMs": 668
     },
     {
       "source": "No Jumper",
@@ -662,40 +662,40 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 663
+      "latencyMs": 398
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 121877,
+      "bytes": 121127,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 489
+      "latencyMs": 395
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 92,
-      "bytes": 116735,
+      "bytes": 117173,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 381
+      "latencyMs": 295
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 129313,
+      "bytes": 129322,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 679
+      "latencyMs": 465
     },
     {
       "source": "Google News — Colorado Music",
@@ -706,7 +706,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 482
+      "latencyMs": 361
     },
     {
       "source": "Billboard",
@@ -717,7 +717,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 395
+      "latencyMs": 116
     },
     {
       "source": "Pitchfork",
@@ -728,7 +728,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 119
+      "latencyMs": 94
     },
     {
       "source": "Rolling Stone — Music",
@@ -739,7 +739,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 162
+      "latencyMs": 74
     },
     {
       "source": "Variety — Music",
@@ -750,7 +750,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 568
+      "latencyMs": 70
     }
   ],
   "errorCount": 0,
