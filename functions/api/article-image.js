@@ -1,23 +1,47 @@
-function escJson(value){return JSON.stringify(String(value||"")).slice(1,-1)}
+const json=(data,status=200,cache="no-store")=>new Response(JSON.stringify(data),{status,headers:{"Content-Type":"application/json; charset=utf-8","Cache-Control":cache,"X-Content-Type-Options":"nosniff"}});
 function firstMatch(html,patterns){for(const re of patterns){const m=html.match(re);if(m?.[1])return m[1].replace(/&amp;/g,"&").replace(/&#x2F;/g,"/").replace(/\\u0026/g,"&").trim()}return ""}
-export async function onRequestGet({request}){
-  const u=new URL(request.url), target=u.searchParams.get("url");
-  if(!target)return new Response(JSON.stringify({ok:false,error:"missing url"}),{status:400,headers:{"Content-Type":"application/json"}});
-  let parsed;try{parsed=new URL(target)}catch{return new Response(JSON.stringify({ok:false,error:"invalid url"}),{status:400,headers:{"Content-Type":"application/json"}})}
-  if(!/^https?:$/.test(parsed.protocol))return new Response(JSON.stringify({ok:false,error:"unsupported url"}),{status:400,headers:{"Content-Type":"application/json"}});
+function isPublicWebUrl(value){
   try{
-    const r=await fetch(parsed.toString(),{headers:{"User-Agent":"DistrictMindMedia/1.0 (article image resolver)"}});
-    if(!r.ok)return new Response(JSON.stringify({ok:false}),{status:404,headers:{"Content-Type":"application/json","Cache-Control":"public, max-age=300"}});
-    const html=(await r.text()).slice(0,500000);
+    const u=new URL(value);
+    if(!["http:","https:"].includes(u.protocol)||u.username||u.password)return false;
+    const h=u.hostname.toLowerCase().replace(/^\[|\]$/g,"");
+    if(!h||h==="localhost"||h.endsWith(".localhost")||h.endsWith(".local")||h==="::1"||h==="::"||h.startsWith("fc")||h.startsWith("fd")||h.startsWith("fe80:"))return false;
+    if(/^127\.|^10\.|^192\.168\.|^169\.254\.|^0\./.test(h))return false;
+    const m=h.match(/^172\.(\d+)\./);if(m&&+m[1]>=16&&+m[1]<=31)return false;
+    return true;
+  }catch{return false}
+}
+export async function onRequestGet({request}){
+  const target=new URL(request.url).searchParams.get("url");
+  if(!target)return json({ok:false,error:"missing url"},400);
+  if(!isPublicWebUrl(target))return json({ok:false,error:"invalid article url"},400);
+  try{
+    const r=await fetch(target,{redirect:"manual",signal:AbortSignal.timeout(7000),headers:{"User-Agent":"DistrictMindMedia/1.0 (article image resolver)","Accept":"text/html,application/xhtml+xml"}});
+    if(r.status>=300&&r.status<400)return json({ok:false,error:"redirect not followed"},502,"public, max-age=60");
+    if(!r.ok)return json({ok:false},404,"public, max-age=300");
+    const type=r.headers.get("content-type")||"";
+    if(!/text\/html|application\/xhtml\+xml/i.test(type))return json({ok:false,error:"not an html page"},415,"public, max-age=300");
+    const reader=r.body?.getReader();
+    if(!reader)return json({ok:false},502,"public, max-age=60");
+    const chunks=[];let size=0;
+    while(size<500000){
+      const {done,value}=await reader.read();
+      if(done)break;
+      const part=value.slice(0,500000-size);chunks.push(part);size+=part.byteLength;
+      if(size>=500000){await reader.cancel();break}
+    }
+    const bytes=new Uint8Array(size);let offset=0;
+    for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.byteLength}
+    const html=new TextDecoder().decode(bytes);
     const image=firstMatch(html,[
       /<meta[^>]+property=["']og:image(?::secure_url)?["'][^>]+content=["']([^"']+)["'][^>]*>/i,
       /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image(?::secure_url)?["'][^>]*>/i,
       /<meta[^>]+name=["']twitter:image(?::src)?["'][^>]+content=["']([^"']+)["'][^>]*>/i,
       /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image(?::src)?["'][^>]*>/i
     ]);
-    if(!image)return new Response(JSON.stringify({ok:false}),{status:404,headers:{"Content-Type":"application/json","Cache-Control":"public, max-age=300"}});
-    let absolute;try{absolute=new URL(image,parsed).toString()}catch{absolute=""}
-    if(!absolute||!/^https?:$/.test(new URL(absolute).protocol))return new Response(JSON.stringify({ok:false}),{status:404,headers:{"Content-Type":"application/json"}});
-    return new Response(JSON.stringify({ok:true,image:absolute}),{headers:{"Content-Type":"application/json","Cache-Control":"public, max-age=1800, s-maxage=1800"}});
-  }catch{return new Response(JSON.stringify({ok:false}),{status:502,headers:{"Content-Type":"application/json","Cache-Control":"public, max-age=60"}})}
+    if(!image)return json({ok:false},404,"public, max-age=300");
+    let absolute;try{absolute=new URL(image,target).toString()}catch{return json({ok:false},404,"public, max-age=300")}
+    if(!isPublicWebUrl(absolute))return json({ok:false},404,"public, max-age=300");
+    return json({ok:true,image:absolute},200,"public, max-age=1800, s-maxage=1800");
+  }catch{return json({ok:false,error:"image lookup timed out or failed"},502,"public, max-age=60")}
 }
