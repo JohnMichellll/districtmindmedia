@@ -1,9 +1,21 @@
 {
-  "generatedAt": "2026-10-09T10:44:44.797Z",
+  "generatedAt": "2026-10-09T11:11:17.971Z",
   "operator": "District Mind AI Newsroom",
   "status": "READY_FOR_EDITOR",
   "storyCount": 276,
   "stories": [
+    {
+      "title": "Album Review: Avrak – ‘Avrak’ - Metal Insider",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9LWnVPeTcyd3I1MnBkWEJ0dU95aDJrWGtvb1d6YTc5Q1JQRm9sZWJQdEVkUUdnZ2dvR0VEYi1LRGpHcVZpczhiazl0b21oV0VzSFBGMW5yMk85N2xxT0YzbEd0c21BaU5XNTln?oc=5",
+      "date": "Fri, 09 Oct 2026 11:09:54 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Power Trip return with first new music in eight years - The Line of Best Fit",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNamhtSlJKYmRsSzllWXpwZVVfM3hENW4tUXFOYmxQMVZuZ2R0Qks0ajJMSllMTFVWVG45YmcxYWVrcktoRUtRS3g5X0R5b2xWZFI2Zk1PanNaSVdJQjJ4djRFWWhjRnR6MVdkblJCM0c2b1BlYllFS2JkRGRPdVBMUmdFT2NDTFFLQlFSOGhyNVhmczdobUE?oc=5",
+      "date": "Fri, 09 Oct 2026 10:48:26 GMT",
+      "source": "Google News — New Music"
+    },
     {
       "title": "The top albums from New Music Friday for Oct. 9 - Radio Milwaukee",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOHozWnhwOXZZZkdhbm56dy00YnF2UVB4RnoyZnBUeC1CZUFyWE1McmVDdXJxU0haVW1fM0R5MGw3dkg4dHVfT1lXUHljdERxeklhLUtNcXJHMmhXa2NlZ1NsUE95all4X1BJenJEc3BKVVhZS3VJaVEzRExJTGVHb3lYeHB6ZFI0dUE?oc=5",
@@ -101,12 +113,6 @@
       "source": "Google News — New Music"
     },
     {
-      "title": "Jay Ray releases new single \"Hope\" with Paul Udarov - Chaoszine",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMEJNNXdvRjJ0VWRQcXhSREdUbjd5Y0F0OUNtcjFkZ0FGYjJQbzRhci1QX1JmRzFuRThnWlVxOWY2dFVwdGQ1Wjk1MnUyMkE4LXBocllMeTZxUF92UHJLV1U4aWl2cFpwTEo3S0oxbUc2RFJzU3FUSXdGWHRNZjdpb0o5ZFA3YS1MR19peTZWNG1Kby1mcTNCZ1k2Y3JZTkZXa295ZFNjeS1vZ2hsLTA5SHdqdHEwcXVCZjB0aWJPQk9ITEladU1IbWJqanFrTVpMV0EwNnZMbTZrUkRY?oc=5",
-      "date": "Fri, 09 Oct 2026 06:24:27 GMT",
-      "source": "Google News — New Music"
-    },
-    {
       "title": "Journey Drummer Deen Castronovo Suffers On-Stage ‘Medical&#160;Emergency’",
       "url": "https://www.billboard.com/music/rock/journey-drummer-deen-castronovo-medical-emergency-1236357831/",
       "date": "Fri, 09 Oct 2026 06:23:15 +0000",
@@ -171,12 +177,6 @@
       "url": "https://www.billboard.com/music/pop/sheryl-crow-pick-you-up-stream-it-now-1236357789/",
       "date": "Fri, 09 Oct 2026 05:23:37 +0000",
       "source": "Billboard"
-    },
-    {
-      "title": "Wild Child Brings Family Fun to ACL Fest With Kids Album and Hometown Austin Pride - KXAN Austin",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdGxHdktWS2hGbUg4ZVgyRUZibkxId3VSYWtyZlVmSXE3WHZKdHFzcktTRWZtZEk5UlRVZVI5Q3lMWk9WZWVySzVMUE5aU3NJbnBWbEljZFpUTkhPTU9xcG9meTcyeHNxcnBROHRWQ05LQWs0Xy1rYk5paU5CQVBYemM5UDBJOVhfX3BuQndya2VVU2tSQ2pibU5sRUFialBoWmNjbWtFb0VtYnFfdlVTZ0FvR1NrUdIBuwFBVV95cUxQSUdYcDBSZ3hjaGJxWjE5ODBzR1pXOXRjTjBwTnNaOWViMGlYNHZzektLcGgtOUlyUGtGX0plQjBneGJfY1h1eDlaOTJpeVBsbFFyRW1FbGlHMk5BMzB2N0dOSkJ2R2ZqVXV1REtaT3Jpdmdoa3oxYzNBR1IxRmJ5TUFkSkpDUUJsMjUtMlpDYU5sRFcxSUpaRDd5UGt1amwySGRMOXJuSno1TUFiQWtWczF3TlRCZk5sdW80?oc=5",
-      "date": "Fri, 09 Oct 2026 04:53:05 GMT",
-      "source": "Google News — New Music"
     },
     {
       "title": "Journey Drummer Deen Castronovo Suffers Medical Emergency During Tulsa Concert",
@@ -625,11 +625,11 @@
       "tier": 2,
       "status": "ok",
       "stories": 20,
-      "bytes": 19241,
+      "bytes": 19206,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=3bee1d473d754f32a987b0aff6c44abe benchma",
-      "latencyMs": 114
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=480b8cfebe594d8dbffbe780a8ff23ae benchma",
+      "latencyMs": 144
     },
     {
       "source": "HipHopDX",
@@ -640,7 +640,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 209
+      "latencyMs": 158
     },
     {
       "source": "AllHipHop",
@@ -651,7 +651,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 440
+      "latencyMs": 535
     },
     {
       "source": "No Jumper",
@@ -662,51 +662,51 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 578
+      "latencyMs": 573
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 123063,
+      "bytes": 123472,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 437
+      "latencyMs": 494
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 124404,
+      "bytes": 124661,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 464
+      "latencyMs": 436
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 128284,
+      "bytes": 127791,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 403
+      "latencyMs": 418
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 124454,
+      "bytes": 124548,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 473
+      "latencyMs": 394
     },
     {
       "source": "Billboard",
@@ -717,7 +717,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 106
+      "latencyMs": 93
     },
     {
       "source": "Pitchfork",
@@ -728,7 +728,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 105
+      "latencyMs": 140
     },
     {
       "source": "Rolling Stone — Music",
@@ -739,7 +739,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 83
+      "latencyMs": 129
     },
     {
       "source": "Variety — Music",
@@ -750,7 +750,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 108
+      "latencyMs": 164
     }
   ],
   "errorCount": 0,
