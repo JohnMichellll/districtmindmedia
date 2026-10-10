@@ -176,7 +176,7 @@
         let artist = null;
         if (tokens(q).length && !/^(article|artist|new music|colorado)$/i.test(q)) {
           try {
-            const r = await fetch('/api/artist-intel?q='+encodeURIComponent(q)+'&ts='+Date.now(),{cache:'no-store'});
+            const r = await fetch('/api/artist-intel?q='+encodeURIComponent(q),{cache:'default'});
             if(r.ok){ const d=await r.json(); if(d.ok && d.artist) artist=d; }
           } catch {}
         }
