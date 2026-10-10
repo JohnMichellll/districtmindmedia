@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-09T22:01:37.670Z",
+  "generatedAt": "2026-10-10T01:32:45.055Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
       "route": "/",
       "status": 200,
-      "ms": 2233,
+      "ms": 2092,
       "title": "District Mind Media — The Culture in Motion",
       "bodyChars": 3986,
       "hasNav": true,
@@ -94,7 +94,7 @@
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 2037,
+      "ms": 1863,
       "title": "Newsroom — District Mind Media",
       "bodyChars": 1841,
       "hasNav": true,
@@ -169,7 +169,7 @@
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1905,
+      "ms": 1885,
       "title": "District Mind Media — Artist Intelligence Hub",
       "bodyChars": 1406,
       "hasNav": true,
@@ -206,16 +206,11 @@
       "url": "https://district-mind-media.pages.dev/releases"
     },
     {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 400 ()",
-      "url": "https://district-mind-media.pages.dev/releases"
-    },
-    {
       "route": "/releases.html",
       "status": 200,
-      "ms": 1909,
+      "ms": 1861,
       "title": "District Mind Media | Releases",
-      "bodyChars": 2677,
+      "bodyChars": 2542,
       "hasNav": true,
       "images": [],
       "visualAssets": [
@@ -237,17 +232,17 @@
         {
           "key": "john-michell-drivin-crazy",
           "status": "loading",
-          "loader": "photo-loader"
+          "loader": "release-artwork-loader"
         },
         {
           "key": "john-michell-who-is-you",
           "status": "loading",
-          "loader": "photo-loader"
+          "loader": "release-artwork-loader"
         },
         {
           "key": "john-michell-u",
           "status": "loading",
-          "loader": "photo-loader"
+          "loader": "release-artwork-loader"
         },
         {
           "key": "john-michell",
@@ -257,12 +252,12 @@
         {
           "key": "john-michell",
           "status": "loading",
-          "loader": "photo-loader"
+          "loader": "release-artwork-loader"
         },
         {
           "key": "john-michell",
           "status": "loading",
-          "loader": "photo-loader"
+          "loader": "release-artwork-loader"
         }
       ],
       "missingImageAlt": 0,
@@ -294,7 +289,7 @@
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 1890,
+      "ms": 1855,
       "title": "Local Watch — District Mind Media",
       "bodyChars": 810,
       "hasNav": true,
@@ -321,7 +316,7 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 1890,
+      "ms": 1874,
       "title": "Wayfinder — District Mind Media",
       "bodyChars": 3127,
       "hasNav": true,
@@ -350,7 +345,7 @@
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1913,
+      "ms": 1894,
       "title": "Radar — District Mind Media",
       "bodyChars": 642,
       "hasNav": true,
@@ -380,7 +375,7 @@
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 1884,
+      "ms": 1852,
       "title": "District Mind Media | Culture",
       "bodyChars": 1215,
       "hasNav": true,
@@ -435,7 +430,7 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1883,
+      "ms": 1874,
       "title": "District Mind Media | About",
       "bodyChars": 937,
       "hasNav": true,
@@ -459,7 +454,7 @@
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 1897,
+      "ms": 1871,
       "title": "District Mind Media | Contact",
       "bodyChars": 508,
       "hasNav": true,
@@ -483,7 +478,7 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 1897,
+      "ms": 1882,
       "title": "District Mind Academy — Class 001",
       "bodyChars": 1931,
       "hasNav": true,
@@ -511,7 +506,7 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 1981,
+      "ms": 1865,
       "title": "Academy 001 — District Mind",
       "bodyChars": 913,
       "hasNav": true,
@@ -537,7 +532,7 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 1916,
+      "ms": 1855,
       "title": "Editorial — District Mind Media",
       "bodyChars": 1023,
       "hasNav": true,
@@ -570,7 +565,7 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1905,
+      "ms": 1862,
       "title": "Editorial Policy | District Mind Media",
       "bodyChars": 1233,
       "hasNav": true,
@@ -593,7 +588,7 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1889,
+      "ms": 1875,
       "title": "Contributors — District Mind Media",
       "bodyChars": 1066,
       "hasNav": true,
@@ -623,7 +618,7 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 1902,
+      "ms": 1858,
       "title": "Explore — District Mind Media",
       "bodyChars": 1949,
       "hasNav": true,
@@ -660,7 +655,7 @@
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 1870,
+      "ms": 1858,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
       "bodyChars": 2771,
       "hasNav": true,
@@ -692,7 +687,7 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 1871,
+      "ms": 1879,
       "title": "John Michell — District Mind Media",
       "bodyChars": 1780,
       "hasNav": true,
@@ -740,9 +735,9 @@
     }
   ],
   "summary": {
-    "routeFailures": 3,
+    "routeFailures": 2,
     "pageErrors": 1,
-    "consoleErrors": 2,
+    "consoleErrors": 1,
     "blankPages": 0,
     "horizontalOverflow": 0,
     "brokenImages": 0,
