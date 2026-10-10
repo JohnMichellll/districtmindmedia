@@ -1,21 +1,81 @@
 (() => {
 
 
-  // Keep support destinations reachable from every page that loads the global guide.
+  // Normalize the shared menu on every page: one Academy destination and one Help Center.
   const primaryNav = document.querySelector('.primary-nav');
   if (primaryNav) {
-    [
-      {label:'My Playlists',href:'playlists.html'},
-      {label:'Account Help',href:'account.html'},
-      {label:'Help Center',href:'help.html'}
-    ].forEach(item => {
-      if (!primaryNav.querySelector('a[href="' + item.href + '"]')) {
-        const link = document.createElement('a');
-        link.href = item.href;
-        link.textContent = item.label;
-        primaryNav.appendChild(link);
-      }
+    primaryNav.querySelectorAll('a[href="account.html"], a[href="academy.html#account-help"]').forEach(link => link.remove());
+    const helpLinks = [...primaryNav.querySelectorAll('a[href="help.html"]')];
+    helpLinks.forEach((link, index) => {
+      if (index > 0) link.remove();
+      else link.textContent = 'Help Center';
     });
+    const academyLink = primaryNav.querySelector('a[href="academy.html"]');
+    if (academyLink) academyLink.textContent = 'Academy & Account';
+    if (!primaryNav.querySelector('a[href="help.html"]')) {
+      const link = document.createElement('a');
+      link.href = 'help.html';
+      link.textContent = 'Help Center';
+      primaryNav.appendChild(link);
+    }
+    if (!primaryNav.querySelector('a[href="playlists.html"]')) {
+      const link = document.createElement('a');
+      link.href = 'playlists.html';
+      link.textContent = 'My Playlists';
+      primaryNav.appendChild(link);
+    }
+  }
+
+  // Mobile-first, high-contrast menu controls with a smooth dropdown and larger tap targets.
+  if (!document.getElementById('dm-nav-polish')) {
+    const style = document.createElement('style');
+    style.id = 'dm-nav-polish';
+    style.textContent = `
+      .site-header { z-index: 1000; }
+      .nav-container { position: relative; }
+      .menu-toggle {
+        min-width: 48px; min-height: 48px; padding: 0 15px;
+        gap: 9px; border: 1px solid rgba(20,20,20,.18); border-radius: 999px;
+        background: #171715; color: #fff; font: inherit; font-weight: 750;
+        line-height: 1; cursor: pointer; touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
+        transition: background .18s ease, transform .18s ease, box-shadow .18s ease;
+      }
+      .menu-toggle::before { content: '☰'; font-size: 17px; line-height: 1; }
+      .menu-toggle:hover { background: #33332f; box-shadow: 0 5px 16px rgba(0,0,0,.12); }
+      .menu-toggle:active { transform: scale(.97); }
+      .menu-toggle:focus-visible, .primary-nav a:focus-visible {
+        outline: 3px solid #277d3d; outline-offset: 3px;
+      }
+      @media (max-width: 760px) {
+        .primary-nav {
+          display: flex !important; visibility: hidden; opacity: 0; pointer-events: none;
+          transform: translateY(-7px); transition: opacity .18s ease, transform .18s ease, visibility .18s;
+          position: absolute; top: calc(100% + 8px); right: 0;
+          width: min(340px, calc(100vw - 28px)); max-height: min(72dvh, 560px);
+          overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch;
+          background: #fff; color: #171715; border: 1px solid rgba(17,17,17,.12);
+          border-radius: 16px; box-shadow: 0 18px 48px rgba(0,0,0,.18);
+          padding: 10px; gap: 3px; align-items: stretch;
+        }
+        .primary-nav.is-open {
+          visibility: visible; opacity: 1; pointer-events: auto; transform: translateY(0);
+        }
+        .primary-nav a {
+          display: flex; align-items: center; min-height: 46px; width: 100%;
+          padding: 12px 14px; border-radius: 10px; font-size: 14px;
+          line-height: 1.35; letter-spacing: .04em; text-decoration: none;
+          color: #171715; touch-action: manipulation;
+        }
+        .primary-nav a:hover, .primary-nav a:active, .primary-nav a[aria-current="page"] {
+          background: #f1f0eb; color: #111;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .menu-toggle, .primary-nav { transition: none !important; }
+      }
+    `;
+    document.head.appendChild(style);
   }
 
   // Global, delegated navigation control: works on every page, including pages with legacy inline handlers.
