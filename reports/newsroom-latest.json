@@ -1,9 +1,15 @@
 {
-  "generatedAt": "2026-10-10T00:53:01.127Z",
+  "generatedAt": "2026-10-10T01:13:44.917Z",
   "operator": "District Mind AI Newsroom",
   "status": "READY_FOR_EDITOR",
   "storyCount": 266,
   "stories": [
+    {
+      "title": "Ticketmaster announces cancellation of Usher and Chris Brown's 'The R&B Tour' concert at Lucas Oil Stadium - WTHR",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMjZHY3hwR1habmRaLUpYeVkzQkpRNG4yUHcwakY5YTE5UUYwa1U0N0ZfSGpBUVNQMTJXZE1GZ0F6RzY5Q1ZOVjNWaGhOUU10aHFPS3R2UEg1QVVHSkFhVkkwb2MxaGFoQWx0bmxjWm14QUhsdVhGUUEwbVZlNUdUMjI3ZUFfbjdNM2d6aWdCelBkOHVDS3VUNVBUN3dUam9rNnl5UlQ4NkRkT0Y2SlBGRHBOUzdQM2R3Zklxam9EbFNpamZndEhFNk8zSDMzM1lGRHZrNnp4VG42RHZ4NkhtcTlobkZ1UkVPcUVUQjB0Q1Y?oc=5",
+      "date": "Sat, 10 Oct 2026 01:00:00 GMT",
+      "source": "Google News — R&B"
+    },
     {
       "title": "Kanye West Reportedly Collects $20M As Russian Ticket Buyers Seek Refunds",
       "url": "https://allhiphop.com/news/kanye-west-reportedly-collects-20m-as-russian-ticket-buyers-seek-refunds/",
@@ -359,12 +365,6 @@
       "source": "Variety — Music"
     },
     {
-      "title": "The Best Contemporary Classical Music on Bandcamp, September 2026 - Bandcamp Daily",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS3V2QkVZUnVtMTNMb0JzMl85Vll2Sm5HRzIyNFIwRWZMbjZjSkZ3VzVXY0FlYTQyZmpHWWZxWkZkeWI3RXhhaXAweGlpU01JejVKR1RqWVRCckozLW9hc01wYW1JT1FiVWY2b2R2bk04c2JONXVrdWRqeHdXVFVXb0lWVjZpWUdvdmhBV0VheXJkbjM3Wi1hSVZVZ3VEb0l2b216ZHc3SHdTRjc2V0pqSU4zT2dKZHNPN25V?oc=5",
-      "date": "Fri, 09 Oct 2026 17:18:21 GMT",
-      "source": "Google News — New Music"
-    },
-    {
       "title": "Air Supply Rocks on With World Tours, a New Album and a Star on the Hollywood Walk of Fame: ‘The Term Soft Rock Makes Me Sick’",
       "url": "https://variety.com/2026/music/focus/air-supply-hollywood-walk-fame-1236906736/",
       "date": "Fri, 09 Oct 2026 17:18:10 +0000",
@@ -485,6 +485,12 @@
       "source": "Google News — New Music"
     },
     {
+      "title": "Grimes Announces New Album PSYOPERA, Shares New Single \"ACCELERANDO\" - Consequence of Sound",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcWFQcnQ3akJScl9xc1Vvd3pYUjVnQTdWNHJKWjhCRHVEaGlTei1HWlBRZ0xSSWpVdlBLQlB4UVhxSTdfeHpwM3dETWlDU1Q0SDZnZ0E1OXVkZlZGS0dLY0xOQV9RbVljQjU2WUdTbEs1OFlzUDJ6QjJib2VCUEthYmtxU0VmUkJubTZxUmJReDROam03SkdzellId2ZkMEE?oc=5",
+      "date": "Fri, 09 Oct 2026 14:54:48 GMT",
+      "source": "Google News — New Music"
+    },
+    {
       "title": "Zara Larsson Receives 2026 Mental Health Champion of the Year Award From the Trevor Project",
       "url": "https://www.rollingstone.com/music/music-news/zara-larsson-mental-health-champion-award-trevor-project-1235640193/",
       "date": "Fri, 09 Oct 2026 14:51:17 +0000",
@@ -597,12 +603,6 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY3p0Ri1YQzJRVzhQOWJScVE0Nm4yREFnV3otTmtjSTROYWdUdmt4ajVvLTlQMGxxYndYQVYtaG5aUHBfRDJObmVtM0J5OXoza0FnV2Z4NXJaOVlmek1BX2lOcXJTbzBINW9yWnFTN012X3RxaWVOM0ticzJhMjYwTmM2MVhDVmVfVU9CX1RoOU9UTmc0TVpfMnF2b1Nrai1wam9JVkphbjBVekhrMHk4?oc=5",
       "date": "Fri, 09 Oct 2026 12:02:51 GMT",
       "source": "Google News — New Music"
-    },
-    {
-      "title": "Gunna Launches His ‘Splurge’ Rollout With New Single ‘Pop It’ - 24Hip-Hop",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBTc0V5VDRybUZxbjJSS3k4anEzc3NFTS1PdF82NWxKV3k4eGlnOExXQjdYTHBvdXlCdnZFTEZPZ3EzdDJfNDdOc1YzRVFYZGd4cUFaRUtR?oc=5",
-      "date": "Fri, 09 Oct 2026 11:49:30 GMT",
-      "source": "Google News — Hip-Hop"
     }
   ],
   "sources": [
@@ -625,11 +625,11 @@
       "tier": 2,
       "status": "ok",
       "stories": 20,
-      "bytes": 18834,
+      "bytes": 18894,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=a385a6255d8b40e6809b77b579dffc6a benchma",
-      "latencyMs": 150
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=4f5aff6ee57e4fc79585970a0cf80ae3 benchma",
+      "latencyMs": 254
     },
     {
       "source": "HipHopDX",
@@ -640,7 +640,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 107
+      "latencyMs": 220
     },
     {
       "source": "AllHipHop",
@@ -651,7 +651,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 760
+      "latencyMs": 879
     },
     {
       "source": "No Jumper",
@@ -662,51 +662,51 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 589
+      "latencyMs": 656
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 123545,
+      "bytes": 123162,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 577
+      "latencyMs": 458
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 102,
-      "bytes": 128908,
+      "bytes": 129400,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 437
+      "latencyMs": 444
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 102,
-      "bytes": 123597,
+      "bytes": 123807,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 480
+      "latencyMs": 1141
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 124402,
+      "bytes": 123891,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 436
+      "latencyMs": 460
     },
     {
       "source": "Billboard",
@@ -717,7 +717,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 90
+      "latencyMs": 354
     },
     {
       "source": "Pitchfork",
@@ -728,7 +728,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 65
+      "latencyMs": 109
     },
     {
       "source": "Rolling Stone — Music",
@@ -739,7 +739,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 81
+      "latencyMs": 285
     },
     {
       "source": "Variety — Music",
@@ -750,7 +750,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 100
+      "latencyMs": 76
     }
   ],
   "errorCount": 0,
