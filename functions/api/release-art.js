@@ -27,6 +27,8 @@ async function appleKnownId(artist,title){
  // record when the lookup is constrained to songs.
  const unfiltered=await fetchJson("https://itunes.apple.com/lookup?id="+encodeURIComponent(id)+"&country=US");
  const unfilteredRows=Array.isArray(unfiltered?.results)?unfiltered.results:[];
+ const unfilteredTrack=unfilteredRows.find(x=>x.wrapperType==="track"&&norm(x.artistName)===norm(artist)&&x.artworkUrl100&&(norm(x.trackName)===norm(title)||norm(x.trackName).startsWith(norm(title)+" ")));
+ if(unfilteredTrack)return {artwork:unfilteredTrack.artworkUrl100.replace(/100x100/g,"1000x1000"),match:{artist:unfilteredTrack.artistName,title,album:unfilteredTrack.collectionName||"",releaseDate:unfilteredTrack.releaseDate||null,apple:unfilteredTrack.trackViewUrl||null},source:"Apple Music catalog track ID"};
  const unfilteredCollection=unfilteredRows.find(x=>(x.wrapperType==="collection"||x.collectionType)&&norm(x.artistName)===norm(artist)&&x.artworkUrl100&&(norm(x.collectionName||"")===norm(title)||norm(x.collectionName||"").startsWith(norm(title)+" ")));
  return unfilteredCollection?{artwork:unfilteredCollection.artworkUrl100.replace(/100x100/g,"1000x1000"),match:{artist:unfilteredCollection.artistName,title,album:unfilteredCollection.collectionName||"",releaseDate:unfilteredCollection.releaseDate||null,apple:unfilteredCollection.collectionViewUrl||null},source:"Apple Music catalog collection ID"}:null;
 }
