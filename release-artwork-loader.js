@@ -117,7 +117,7 @@
   async function load() {
     const cards = [...document.querySelectorAll("[data-release-artist][data-release-title]")];
     if (!cards.length) return;
-    const photoManifest = await json("/assets/photo-manifest.json?v=20261010-jm1");
+    const photoManifest = await json("/assets/photo-manifest.json?v=20261010-jm2");
 
     await Promise.all(cards.map(async card => {
       const artist = card.dataset.releaseArtist || "";
@@ -141,6 +141,13 @@
           same(data.match.artist, artist) &&
           (same(data.match.title, title) || same(data.match.album, title))) {
         setArt(card, data.artwork, title + " by " + artist);
+        return;
+      }
+
+      const portraitKey = norm(artist).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      const verifiedPortrait = photoManifest?.photos?.[portraitKey];
+      if (verifiedPortrait?.url && norm(verifiedPortrait.subject) === norm(artist) && await imageLoads(verifiedPortrait.url)) {
+        setArt(card, verifiedPortrait.url, artist + " — artist portrait; release cover unavailable", "artist-portrait");
         return;
       }
 
