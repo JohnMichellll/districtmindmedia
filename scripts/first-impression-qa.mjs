@@ -49,13 +49,14 @@ const report = {
   viewport:"390x844",
   routes:results,
   summary:{
-    routeFailures:results.filter(r=>r.status!==200).length,
+    routeFailures:results.filter(r=>r.route && r.status!==200).length,
     pageErrors:results.filter(r=>r.type==="page-error").length,
     consoleErrors:results.filter(r=>r.type==="console-error").length,
     blankPages:results.filter(r=>r.bodyChars!==undefined && r.bodyChars<200).length,
     horizontalOverflow:results.filter(r=>r.horizontalOverflow).length,
     brokenImages:results.reduce((n,r)=>n+(r.images||[]).filter(i=>!i.loaded).length,0),
     failedVisualAssets:results.reduce((n,r)=>n+(r.visualAssets||[]).filter(i=>i.status==="failed").length,0),
+    pendingVisualAssets:results.reduce((n,r)=>n+(r.visualAssets||[]).filter(i=>i.status==="loading"||i.status==="unreported").length,0),
     missingImageAlt:results.reduce((n,r)=>n+(r.missingImageAlt||0),0),
     suspiciousCopy:results.filter(r=>r.badCopy).length
   }
@@ -63,4 +64,4 @@ const report = {
 fs.mkdirSync("reports",{recursive:true});
 fs.writeFileSync("reports/first-impression-qa-latest.json",JSON.stringify(report,null,2));
 console.log(JSON.stringify(report.summary,null,2));
-if (report.summary.routeFailures || report.summary.blankPages || report.summary.horizontalOverflow || report.summary.brokenImages || report.summary.failedVisualAssets || report.summary.missingImageAlt || report.summary.suspiciousCopy || report.summary.pageErrors) process.exitCode=1;
+if (report.summary.routeFailures || report.summary.blankPages || report.summary.horizontalOverflow || report.summary.brokenImages || report.summary.failedVisualAssets || report.summary.missingImageAlt || report.summary.suspiciousCopy || report.summary.pageErrors || report.summary.consoleErrors) process.exitCode=1;
