@@ -15,7 +15,13 @@ for (const route of routes) {
   const started = Date.now();
   try {
     const response = await page.goto(url,{waitUntil:"domcontentloaded",timeout:20000});
-    await page.waitForTimeout(1800);
+    await page.waitForTimeout(900);
+    // Let artwork loaders settle before counting a tile as pending. Keep the cap
+    // bounded so a slow third-party catalog cannot stall the whole audit.
+    await page.waitForFunction(() => {
+      const nodes = [...document.querySelectorAll("[data-photo-key],[data-release-artist][data-release-title],[data-image-status]")];
+      return nodes.length === 0 || nodes.every(n => !["loading","unreported"].includes(n.dataset.imageStatus || "unreported"));
+    }, { timeout: 6500 }).catch(() => {});
     const status = response?.status() ?? 0;
     const data = await page.evaluate(() => {
       const text = document.body?.innerText || "";
@@ -64,4 +70,4 @@ const report = {
 fs.mkdirSync("reports",{recursive:true});
 fs.writeFileSync("reports/first-impression-qa-latest.json",JSON.stringify(report,null,2));
 console.log(JSON.stringify(report.summary,null,2));
-if (report.summary.routeFailures || report.summary.blankPages || report.summary.horizontalOverflow || report.summary.brokenImages || report.summary.failedVisualAssets || report.summary.missingImageAlt || report.summary.suspiciousCopy || report.summary.pageErrors || report.summary.consoleErrors) process.exitCode=1;
+if (report.summary.routeFailures || report.summary.blankPages || report.summary.horizontalOverflow || report.summary.brokenImages || report.summary.failedVisualAssets || report.summary.pendingVisualAssets || report.summary.missingImageAlt || report.summary.suspiciousCopy || report.summary.pageErrors || report.summary.consoleErrors) process.exitCode=1;
