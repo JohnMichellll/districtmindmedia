@@ -10,7 +10,7 @@
 </style>
 </head>
 <body>
-<header class="site-header"><div class="nav-container"><a href="index.html" class="logo">DISTRICT MIND</a><button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button><nav class="primary-nav" id="primary-nav"><a href="newsroom.html">Newsroom</a><a href="radar.html">Radar</a><a href="releases.html">Releases</a><a href="wayfinder.html">Wayfinder</a><a href="artists.html">Artists</a><a href="academy.html">Academy</a><a href="culture.html">Culture</a></nav></div></header>
+<header class="site-header"><div class="nav-container"><a href="index.html" class="logo">DISTRICT MIND</a><button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button><nav class="primary-nav" id="primary-nav"><a href="newsroom.html">Newsroom</a><a href="radar.html">Radar</a><a href="releases.html">Releases</a><a href="wayfinder.html">Wayfinder</a><a href="artists.html">Artists</a><a href="academy.html">Academy &amp; Account</a><a href="culture.html">Culture</a><a href="help.html">Help Center</a></nav></div></header>
 <main><section class="page-hero"><div class="local-shell"><p class="eyebrow">DISTRICT MIND / LOCAL WATCH</p><h1>WHO'S COMING<br>NEAR YOU?</h1><p class="hero-text" style="color:var(--muted);max-width:680px">Enter a state or city. District Mind will build a local view without turning that place into the homepage for everyone else.</p>
 <form class="local-controls" id="local-form"><input id="local-input" placeholder="City, state or address" aria-label="City, state or address"><input id="local-zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" placeholder="ZIP code" aria-label="ZIP code"><button>Load Local Desk →</button></form><p class="local-note">Local results are an opt-in discovery layer. The main homepage remains national and culture-first.</p><p class="local-status" id="status">Ready.</p></div></section>
 <section class="local-shell"><div class="local-grid"><div class="local-panel"><p class="eyebrow">01 / WHO'S COMING</p><h2>Shows + touring artists</h2><div id="events"><p>Enter a location to load current reports.</p></div></div><div class="local-panel"><p class="eyebrow">02 / CULTURE BRIEFS</p><h2>What's happening there</h2><div id="culture"><p>Local artist moves, music culture and recent reports appear here.</p></div></div></div><div class="local-panel local-archive"><p class="eyebrow">03 / ARCHIVE</p><h2>Keep the signal.</h2><p class="local-note">Stories older than the 24-hour latest window remain discoverable here for up to seven days. Useful history does not disappear just because the feed moved on.</p><div id="archive"></div></div></section></main>
@@ -31,5 +31,5 @@ async function load(){
  status.textContent=q.toUpperCase()+' / LOCAL DESK UPDATED '+new Date().toLocaleTimeString([], {hour:'numeric',minute:'2-digit'});
 }
 form.addEventListener('submit',e=>{e.preventDefault();load()});load();
-</script><script src="site-guide.js" defer></script>
+</script><script src="site-guide.js?v=20261010-menu1" defer></script>
 </body></html>
