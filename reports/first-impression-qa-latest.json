@@ -1,30 +1,12 @@
 {
-  "generatedAt": "2026-10-10T17:40:40.996Z",
+  "generatedAt": "2026-10-10T17:44:37.992Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/api/artist-intel?q=Quavo",
-      "page": "https://district-mind-media.pages.dev/"
-    },
-    {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/api/artist-intel?q=Victoria%20Mon%C3%A9t",
-      "page": "https://district-mind-media.pages.dev/"
-    },
-    {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/api/artist-intel?q=Danielle%20Ponder",
-      "page": "https://district-mind-media.pages.dev/"
-    },
-    {
       "route": "/",
       "status": 200,
-      "ms": 5841,
+      "ms": 6028,
       "title": "District Mind Media — The Culture in Motion",
       "bodyChars": 4642,
       "hasNav": true,
@@ -118,7 +100,7 @@
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 985,
+      "ms": 1101,
       "title": "Newsroom — District Mind Media",
       "bodyChars": 1841,
       "hasNav": true,
@@ -195,7 +177,7 @@
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1022,
+      "ms": 1081,
       "title": "District Mind Media — Artist Intelligence Hub",
       "bodyChars": 1433,
       "hasNav": true,
@@ -231,27 +213,9 @@
       "internalLinkCount": 17
     },
     {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/api/artist-intel?q=Dawn%20Richard",
-      "page": "https://district-mind-media.pages.dev/releases"
-    },
-    {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/api/artist-intel?q=Joyce%20Wrice",
-      "page": "https://district-mind-media.pages.dev/releases"
-    },
-    {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/api/artist-intel?q=Danielle%20Ponder",
-      "page": "https://district-mind-media.pages.dev/releases"
-    },
-    {
       "route": "/releases.html",
       "status": 200,
-      "ms": 5852,
+      "ms": 5982,
       "title": "District Mind Media | Releases",
       "bodyChars": 2542,
       "hasNav": true,
@@ -329,7 +293,7 @@
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 1040,
+      "ms": 1055,
       "title": "Local Watch — District Mind Media",
       "bodyChars": 837,
       "hasNav": true,
@@ -358,9 +322,9 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 1085,
+      "ms": 1101,
       "title": "Wayfinder Music AI — District Mind Media",
-      "bodyChars": 1427,
+      "bodyChars": 1425,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -390,7 +354,7 @@
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1021,
+      "ms": 1079,
       "title": "Radar — District Mind Media",
       "bodyChars": 642,
       "hasNav": true,
@@ -422,7 +386,7 @@
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 985,
+      "ms": 1074,
       "title": "District Mind Media | Culture",
       "bodyChars": 1215,
       "hasNav": true,
@@ -479,7 +443,7 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 990,
+      "ms": 1051,
       "title": "District Mind Media | About",
       "bodyChars": 937,
       "hasNav": true,
@@ -505,7 +469,7 @@
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 973,
+      "ms": 1046,
       "title": "District Mind Media | Contact",
       "bodyChars": 508,
       "hasNav": true,
@@ -531,7 +495,7 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 968,
+      "ms": 1087,
       "title": "District Mind Academy — Class 001",
       "bodyChars": 3032,
       "hasNav": true,
@@ -564,7 +528,7 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 977,
+      "ms": 1015,
       "title": "Academy 001 — District Mind",
       "bodyChars": 913,
       "hasNav": true,
@@ -592,7 +556,7 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 991,
+      "ms": 1048,
       "title": "Editorial — District Mind Media",
       "bodyChars": 1023,
       "hasNav": true,
@@ -627,7 +591,7 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 994,
+      "ms": 1000,
       "title": "Editorial Policy | District Mind Media",
       "bodyChars": 1233,
       "hasNav": true,
@@ -652,7 +616,7 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 968,
+      "ms": 1018,
       "title": "Contributors — District Mind Media",
       "bodyChars": 1066,
       "hasNav": true,
@@ -684,7 +648,7 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 975,
+      "ms": 1050,
       "title": "Explore — District Mind Media",
       "bodyChars": 1951,
       "hasNav": true,
@@ -723,7 +687,7 @@
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 985,
+      "ms": 1006,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
       "bodyChars": 2771,
       "hasNav": true,
@@ -757,7 +721,7 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 5913,
+      "ms": 5918,
       "title": "John Michell — District Mind Media",
       "bodyChars": 2280,
       "hasNav": true,
@@ -812,7 +776,7 @@
     "routeFailures": 0,
     "internalLinkFailures": 0,
     "pageErrors": 0,
-    "consoleErrors": 6,
+    "consoleErrors": 0,
     "blankPages": 0,
     "horizontalOverflow": 0,
     "brokenImages": 0,
