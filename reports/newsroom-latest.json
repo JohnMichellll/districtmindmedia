@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-10T07:10:45.461Z",
+  "generatedAt": "2026-10-10T07:42:32.519Z",
   "operator": "District Mind AI Newsroom",
   "status": "READY_FOR_EDITOR",
-  "storyCount": 265,
+  "storyCount": 267,
   "stories": [
     {
       "title": "News From Hip Hop To Hollywood! - The Hype Magazine",
@@ -279,6 +279,12 @@
       "url": "https://allhiphop.com/news/lil-jons-famous-ok-started-with-one-unexpected-studio-moment/",
       "date": "Fri, 09 Oct 2026 19:02:00 +0000",
       "source": "AllHipHop"
+    },
+    {
+      "title": "Gunna Announces Launch Of His New Music Imprint, SB The Label - HotNewHipHop",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HLWhmRGpSZEdVRlpNSHNhbFlJY0tPSEgyZDRiakJSemJtODVqUzRlbEp2TlM4MElKUDJ4SnlHdzhSei1xUDN5bW5xZ2F5c1B1N05sTTBRYXBIRVhLX1E2VDFmeVRLeHNOV24zLXRKUFllU3NnMDVSOHpSVDVfZw?oc=5",
+      "date": "Fri, 09 Oct 2026 19:00:20 GMT",
+      "source": "Google News — Hip-Hop"
     },
     {
       "title": "The Streisand Effect: Why Silencing Artists Backfires - HipHopCanada.com",
@@ -597,12 +603,6 @@
       "url": "https://pitchfork.com/story/watch-phoebe-bridgers-and-boygenius-sound-check-at-cherry-lane-theater/",
       "date": "Fri, 09 Oct 2026 13:08:36 +0000",
       "source": "Pitchfork"
-    },
-    {
-      "title": "Thomas Day On His New EP, Turning 24 & The Art of Authenticity - NYLON",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQmJNNV9pQUFhcTc1MG80RFdRNUk2Y04zRkVBZkx2dEQ1SGxKRnRZcG9oY1VUZkZBZWl0eVlaeTFiMjhFalY1ZTEtZFEyb2tZaGY5TVJTNVZBa2dCQVdEbGp2d2JFbFB1QVNYMFMxUkdVZ0gyUWFiU0ZONkJlVDloek1HQUhoblFBcWc?oc=5",
-      "date": "Fri, 09 Oct 2026 13:05:18 GMT",
-      "source": "Google News — New Music"
     }
   ],
   "sources": [
@@ -625,11 +625,11 @@
       "tier": 2,
       "status": "ok",
       "stories": 20,
-      "bytes": 18981,
+      "bytes": 18778,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=04a08fb4069d477ea0ed620313d891b3 benchma",
-      "latencyMs": 228
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=21c030e727b944c493b862b64cc4ba16 benchma",
+      "latencyMs": 227
     },
     {
       "source": "HipHopDX",
@@ -640,7 +640,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 155
+      "latencyMs": 139
     },
     {
       "source": "AllHipHop",
@@ -651,7 +651,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 755
+      "latencyMs": 569
     },
     {
       "source": "No Jumper",
@@ -662,51 +662,51 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 643
+      "latencyMs": 1017
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
-      "stories": 102,
-      "bytes": 125033,
+      "stories": 100,
+      "bytes": 122617,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 551
+      "latencyMs": 619
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 101,
-      "bytes": 126651,
+      "bytes": 126873,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 412
+      "latencyMs": 638
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 121225,
+      "bytes": 121189,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 449
+      "latencyMs": 464
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 123655,
+      "bytes": 124748,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 426
+      "latencyMs": 467
     },
     {
       "source": "Billboard",
@@ -717,7 +717,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 206
+      "latencyMs": 128
     },
     {
       "source": "Pitchfork",
@@ -728,7 +728,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 194
+      "latencyMs": 128
     },
     {
       "source": "Rolling Stone — Music",
@@ -750,7 +750,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 205
+      "latencyMs": 104
     }
   ],
   "errorCount": 0,
