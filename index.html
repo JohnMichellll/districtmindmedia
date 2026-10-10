@@ -171,7 +171,7 @@
 
 <script>
 (async()=>{const cards=[...document.querySelectorAll('[data-release-artist][data-release-title]')];for(const card of cards){try{const d=await fetch('/api/artist?q='+encodeURIComponent(card.dataset.releaseArtist),{cache:'no-store'}).then(r=>r.json());const target=card.dataset.releaseTitle.toLowerCase();const songs=(d.artists||[]).flatMap(a=>a.songs||[]);const hit=songs.find(x=>(x.collectionName||'').toLowerCase()===target)||(songs.find(x=>(x.trackName||'').toLowerCase()===target));if(hit?.artworkUrl){card.style.setProperty('background-image','linear-gradient(180deg,rgba(17,17,17,.02),rgba(17,17,17,.28)),url("'+hit.artworkUrl+'")','important');card.classList.add('has-release-art');card.setAttribute('aria-label',card.dataset.releaseTitle+' — '+card.dataset.releaseArtist);const label=card.querySelector('span');if(label)label.style.opacity='.0';}}catch{}}})();
-</script><script src="photo-loader.js" defer></script><script src="release-artwork-loader.js" defer></script>
+</script><script src="photo-loader.js?v=20261010-final2" defer></script><script src="release-artwork-loader.js?v=20261010-final2" defer></script>
 <script>
 const menuToggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.primary-nav');
 if(menuToggle&&nav){menuToggle.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');menuToggle.setAttribute('aria-expanded',String(open));});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('is-open');menuToggle.setAttribute('aria-expanded','false');}));}
