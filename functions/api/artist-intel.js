@@ -20,6 +20,8 @@ export async function onRequestGet({request,env}){
    }
    artists=[...byId.values()];
   }
+  // Reject zero-score candidates: never silently turn an unrelated query into a random artist.
+  artists=artists.filter(a=>artistScore(a,q)>0);
   artists.sort((a,b)=>artistScore(b,q)-artistScore(a,q));
   // Pin the owner search to the District Mind Records artist catalog.
   const bestArtist=norm(q)==="john michell"
