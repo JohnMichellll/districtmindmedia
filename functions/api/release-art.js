@@ -42,6 +42,20 @@ const knownAlbumIds={
  "john michell|u":"1819200665",
  "john michell|eyes open":"1727068645"
 };
+async function fetchText(url,ms=6000){const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal,headers:{"Accept":"text/html"}});return r.ok?await r.text():null}catch{return null}finally{clearTimeout(t)}}
+async function applePageArt(artist,title){
+ if(norm(artist)!=="john michell")return null;
+ const key=norm(title),slugs={"who is you":"who-is-you-single","u":"u-single","eyes open":"eyes-open-single","drivin crazy":"drivin-crazy-single","cherrywood":"cherrywood-single"};
+ const slug=slugs[key],id=johnCatalogIds[key]||knownAlbumIds["john michell|"+key];
+ if(!slug||!id)return null;
+ const page="https://music.apple.com/us/album/"+slug+"/"+id,html=await fetchText(page);
+ if(!html)return null;
+ const m1=html.match(/<meta[^>]*property=["']og:image["'][^>]*content=["']([^"']+)["'][^>]*>/i);
+ const m2=html.match(/<meta[^>]*content=["']([^"']+)["'][^>]*property=["']og:image["'][^>]*>/i);
+ const image=(m1?.[1]||m2?.[1]||"").replace(/&amp;/g,"&");
+ if(!/^https:\/\//i.test(image))return null;
+ return {artwork:image,artworkFallback:image,match:{artist,title,album:title,releaseDate:null,apple:page},source:"Apple Music release page metadata"};
+}
 async function appleKnownAlbumId(artist,title){
  const id=knownAlbumIds[norm(artist)+"|"+norm(title)];
  if(!id)return null;
@@ -82,6 +96,8 @@ export async function onRequestGet({request}){
   const [song,album]=await Promise.all([appleSong(artist,title),appleAlbum(artist,title)]);
   const appleHit=song||album;
   if(appleHit)return json({ok:true,artist,title,...appleHit,artistArtwork:null,verified:true});
+  const applePage=await applePageArt(artist,title);
+  if(applePage)return json({ok:true,artist,title,...applePage,artistArtwork:null,verified:true});
   const deezer=await deezerTrack(artist,title);
   if(deezer)return json({ok:true,artist,title,...deezer,artistArtwork:null,verified:true});
   return json({ok:true,artist,title,artwork:null,artistArtwork:null,source:null,match:null,verified:false});
