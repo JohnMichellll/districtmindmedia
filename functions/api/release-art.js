@@ -21,6 +21,8 @@ async function appleKnownId(artist,title){
  return hit?{artwork:hit.artworkUrl100.replace(/100x100/g,"1000x1000"),match:{artist:hit.artistName,title:hit.trackName,album:hit.collectionName||"",releaseDate:hit.releaseDate||null,apple:hit.trackViewUrl||null},source:"Apple Music catalog ID"}:null;
 }
 const knownAlbumIds={
+ "victoria monet|frequency of love":"6791645195",
+ "quavo|qromelife":"6817200688",
  "danielle ponder|everything has changed":"6790523443",
  "dawn richard|creole culture":"6784811773",
  "joyce wrice|machiko":"6804892827"
