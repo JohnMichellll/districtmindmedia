@@ -37,7 +37,10 @@ const knownAlbumIds={
  "quavo|qromelife":"6809921222",
  "danielle ponder|everything has changed":"6790523443",
  "dawn richard|creole culture":"6784811773",
- "joyce wrice|machiko":"6804892827"
+ "joyce wrice|machiko":"6804892827",
+ "john michell|who is you":"1837928296",
+ "john michell|u":"1819200665",
+ "john michell|eyes open":"1727068645"
 };
 async function appleKnownAlbumId(artist,title){
  const id=knownAlbumIds[norm(artist)+"|"+norm(title)];
