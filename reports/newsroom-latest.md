@@ -1,6 +1,6 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-10T21:09:07.047Z
+Generated: 2026-10-10T21:42:05.687Z
 
 Status: READY_FOR_EDITOR
 
@@ -14,8 +14,8 @@ Stories discovered: 273
    https://www.billboard.com/music/music-news/geordie-greep-misconduct-allegation-cancels-tour-dates-1236358602/
 4. **Boosie Badazz Performs &#8220;Set It Off&#8221; Outside White House In Surprise Appearance** — AllHipHop — Sat, 10 Oct 2026 20:00:43 +0000
    https://allhiphop.com/news/boosie-badazz-performs-set-it-off-outside-white-house-in-surprise-appearance/
-5. **Scorpi Di Dan eyes dancehall breakthrough with new music, major collaborations - Jamaica Observer** — Google News — New Music — Sat, 10 Oct 2026 19:17:39 GMT
-   https://news.google.com/rss/articles/CBMitwFBVV95cUxOV1ZWNFBRU1BSM3hEUVl3XzBSbkN3ZlVLRng4OUF2bERSd0FCN1RkMEk2ZjNtTmstSzNMTHBQSjNWZjR5Z3doblRUU3ZaWmhGU1N1MzRLZmhCRGxucW9rMWgzWTNyMlRXd0huTHNIM3dBWEpqNVpGSnhUTFBJMlBubUZremFTdTh4aFJ4a2dtWGxSRl9LZzQ2ODVRSUs0N2dZeDVWUjhOUUZwVnJGMFljbGc5THl1U1E?oc=5
+5. **Geek Out!: The Best Cosplay From Day 2 of NYCC 2026 - Hip-Hop Wired** — Google News — Hip-Hop — Sat, 10 Oct 2026 19:45:38 GMT
+   https://news.google.com/rss/articles/CBMijwFBVV95cUxPaWhYMkRnNlVJZmk4UHJfd21zS1M1MjJ1bG03eVZqUnJ6RFQ5V2QzbF9Ha2pkWFlpeE1XUFpGWW0tNXdaaWtETHVSb3pieVNTRnhpeHVScy15a3pGeUsxX213VXFDdWlNOUU4X1lxSzNBdHFHbTJ2emh0SWl3NTAxWmhxYnJ3aUx4cWtuNTdBcw?oc=5
 6. **EXCLUSIVE: Cassie&#8217;s Menstrual Cycle Becomes Battleground In Attempt To Dismiss Freak-Off Worker&#8217;s $35M Lawsuit** — AllHipHop — Sat, 10 Oct 2026 19:01:27 +0000
    https://allhiphop.com/news/exclusive-cassies-menstrual-cycle-becomes-battleground-in-attempt-to-dismiss-freak-off-workers-35m-lawsuit/
 7. **Charli XCX Welcomes Tinashe for Surprise Performance at 2026 Austin City Limits&#160;Festival** — Billboard — Sat, 10 Oct 2026 18:37:26 +0000
