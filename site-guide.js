@@ -1,5 +1,23 @@
 (() => {
 
+
+  // Keep support destinations reachable from every page that loads the global guide.
+  const primaryNav = document.querySelector('.primary-nav');
+  if (primaryNav) {
+    [
+      {label:'My Playlists',href:'playlists.html'},
+      {label:'Account Help',href:'account.html'},
+      {label:'Help Center',href:'help.html'}
+    ].forEach(item => {
+      if (!primaryNav.querySelector('a[href="' + item.href + '"]')) {
+        const link = document.createElement('a');
+        link.href = item.href;
+        link.textContent = item.label;
+        primaryNav.appendChild(link);
+      }
+    });
+  }
+
   // Global, delegated navigation control: works on every page, including pages with legacy inline handlers.
   // Capture and stop the legacy click handler so the menu cannot toggle open and immediately close.
   document.addEventListener('click', e => {
