@@ -1,23 +1,23 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-10T20:09:21.070Z
+Generated: 2026-10-10T20:42:38.806Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 271
+Stories discovered: 272
 
-1. **Geordie Greep Responds to Sexual Misconduct Allegation, Cancels Tour&#160;Dates** — Billboard — Sat, 10 Oct 2026 20:04:35 +0000
+1. **&#8216;Project Hail Mary&#8217; Composer Daniel Pemberton, &#8216;KPop Demon Hunters&#8217; Songwriter EJAE Triumph at World Soundtrack Awards** — Variety — Music — Sat, 10 Oct 2026 20:40:00 +0000
+   https://variety.com/2026/film/awards/project-hail-mary-daniel-pemberton-kpop-demon-hunters-ejae-1236907618/
+2. **Geordie Greep Responds to Sexual Misconduct Allegation, Cancels Tour&#160;Dates** — Billboard — Sat, 10 Oct 2026 20:04:35 +0000
    https://www.billboard.com/music/music-news/geordie-greep-misconduct-allegation-cancels-tour-dates-1236358602/
-2. **Boosie Badazz Performs &#8220;Set It Off&#8221; Outside White House In Surprise Appearance** — AllHipHop — Sat, 10 Oct 2026 20:00:43 +0000
+3. **Boosie Badazz Performs &#8220;Set It Off&#8221; Outside White House In Surprise Appearance** — AllHipHop — Sat, 10 Oct 2026 20:00:43 +0000
    https://allhiphop.com/news/boosie-badazz-performs-set-it-off-outside-white-house-in-surprise-appearance/
-3. **EXCLUSIVE: Cassie&#8217;s Menstrual Cycle Becomes Battleground In Attempt To Dismiss Freak-Off Worker&#8217;s $35M Lawsuit** — AllHipHop — Sat, 10 Oct 2026 19:01:27 +0000
+4. **EXCLUSIVE: Cassie&#8217;s Menstrual Cycle Becomes Battleground In Attempt To Dismiss Freak-Off Worker&#8217;s $35M Lawsuit** — AllHipHop — Sat, 10 Oct 2026 19:01:27 +0000
    https://allhiphop.com/news/exclusive-cassies-menstrual-cycle-becomes-battleground-in-attempt-to-dismiss-freak-off-workers-35m-lawsuit/
-4. **Charli XCX Welcomes Tinashe for Surprise Performance at 2026 Austin City Limits&#160;Festival** — Billboard — Sat, 10 Oct 2026 18:37:26 +0000
+5. **Charli XCX Welcomes Tinashe for Surprise Performance at 2026 Austin City Limits&#160;Festival** — Billboard — Sat, 10 Oct 2026 18:37:26 +0000
    https://www.billboard.com/music/music-news/charli-xcx-tinashe-2026-austin-city-limits-festival-1236358595/
-5. **UEYRTYYU Amon Amarth Hip Hop Baseball Cap - Adjustable Cotton Hat For Men & Women - umlconnector.com** — Google News — Hip-Hop — Sat, 10 Oct 2026 18:25:16 GMT
+6. **UEYRTYYU Amon Amarth Hip Hop Baseball Cap - Adjustable Cotton Hat For Men & Women - umlconnector.com** — Google News — Hip-Hop — Sat, 10 Oct 2026 18:25:16 GMT
    https://news.google.com/rss/articles/CBMikgFBVV95cUxOUDNGMl9VVEVTNVlwZ1I1bGdVdkQ4RUIwaWJIeTJBTU11c2xVQlczOWZROU5OMTJnLVh3bGUwNUJtd2VfbkNXa3VJWVJibzljb0NEQkpVbmJrd3Ztcmdub0tuNm9RNUhZX0x1R1RKLXYzU2JuV2VLVWVneUlkcWN5dG5FQ1dLWWxOR1RHamNrMkxuUQ?oc=5
-6. **Devin Townsend to release new ambient music album under his DreamPeace moniker next week - Lambgoat** — Google News — New Music — Sat, 10 Oct 2026 18:15:00 GMT
-   https://news.google.com/rss/articles/CBMivgFBVV95cUxObVQtSml6TldPTDdCbFFZaFhzX25JZ003OHpaRXl1b01ITzZyaExYVmVOZ2NkQjIzRk0zSTNUdG8yNzFJNmN5OFpHUjNzZTZTQ1N6aXhKR05qelV3NWxxSGJkNzZzbkhDR2lyN1B5LUhXQXlKSFNGbllON0JtY25haU1KdUZ5YmtvMDRLdTF4RktJNmdKX0JVNG4wdFZPLVR6QkRSczVxLUVVVXNMQmpTbFlRdWgtYU5vLW56bEhB?oc=5
 7. **Interscope Wants $50M From Summer Walker To Get Out Of Her Deal** — AllHipHop — Sat, 10 Oct 2026 18:00:00 +0000
    https://allhiphop.com/news/interscope-wants-50m-from-summer-walker-to-get-out-of-her-deal/
 8. **Muncie's new Ruby's Coffee and Music House implements novel idea of music - Ball State Daily News** — Google News — New Music — Sat, 10 Oct 2026 18:00:00 GMT
