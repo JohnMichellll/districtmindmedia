@@ -10,7 +10,9 @@ export async function onRequestPost({request,env}) {
  for(const m of messages){if(!m||!["user","assistant"].includes(m.role)||typeof m.content!=="string")continue;const content=m.content.trim().slice(0,1200);if(content)safe.push({role:m.role,content});}
  if(!safe.length||safe[safe.length-1].role!=="user")return json({error:"Ask Wayfinder a music question."},400);
  const question=safe[safe.length-1].content;
- if(!MUSIC.test(question))return json({reply:"I’m Wayfinder — built for music only. 🎧 Ask me about an artist, a song, new releases, music news, production, playlists, or concerts and festivals."});
+ const clearlyOffTopic=/\\b(weather|forecast|recipe|cooking|homework|taxes|politics|president|medical|symptom|diagnosis|investment|stocks|mortgage|car repair|programming|javascript|python code|password reset|relationship advice)\\b/i.test(question);
+ const shortDiscoveryQuery=question.trim().split(/\\s+/).length<=5 && !clearlyOffTopic;
+ if(!MUSIC.test(question)&&!shortDiscoveryQuery)return json({reply:"I’m Wayfinder — built for music only. 🎧 Ask me about an artist, a song, new releases, music news, production, playlists, or concerts and festivals."});
  if(!env.XAI_API_KEY)return json({reply:"Wayfinder’s chat brain isn’t connected yet, but the music desk is still open. Use the quick routes below to search artists, explore new releases, read music news, or find concerts. To turn on AI replies, add the XAI_API_KEY secret in Cloudflare Pages.",mode:"fallback"});
  try{
   const r=await fetch("https://api.x.ai/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+env.XAI_API_KEY,"Content-Type":"application/json"},body:JSON.stringify({model:"grok-4",messages:[{role:"system",content:system},...safe],max_tokens:650,temperature:0.35})});
