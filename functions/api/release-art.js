@@ -22,7 +22,7 @@ async function appleKnownId(artist,title){
  // Some pinned Apple Music IDs are collection IDs, not track IDs. Accept an exact artist
  // and a release title that begins with the requested title (e.g. "U - Single").
  const collection=rows.find(x=>(x.wrapperType==="collection"||x.collectionType)&&norm(x.artistName)===norm(artist)&&x.artworkUrl100&&(norm(x.collectionName||"")===norm(title)||norm(x.collectionName||"").startsWith(norm(title)+" ")));
- return collection?{artwork:collection.artworkUrl100.replace(/100x100/g,"1000x1000"),match:{artist:collection.artistName,title:collection.collectionName||title,album:collection.collectionName||"",releaseDate:collection.releaseDate||null,apple:collection.collectionViewUrl||null},source:"Apple Music catalog collection ID"}:null;
+ return collection?{artwork:collection.artworkUrl100.replace(/100x100/g,"1000x1000"),match:{artist:collection.artistName,title,album:collection.collectionName||"",releaseDate:collection.releaseDate||null,apple:collection.collectionViewUrl||null},source:"Apple Music catalog collection ID"}:null;
 }
 const knownAlbumIds={
  "victoria monet|frequency of love":"6791645195",
