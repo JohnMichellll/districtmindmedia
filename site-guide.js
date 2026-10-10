@@ -149,7 +149,7 @@
             <button type="submit">Find It →</button>
           </form>
           <div class="dm-guide-quick">
-            <button type="button" data-q="artist">Find an artist</button><button type="button" data-q="artist registry">Artist Registry</button>
+            <button type="button" data-q="artist">Find an artist</button><button type="button" data-go="artist-registry.html">Artist Registry →</button>
             <button type="button" data-q="article">Find an article</button>
             <button type="button" data-q="new music">Find new music</button>
             <button type="button" data-q="concerts">Concerts near you</button>
@@ -192,6 +192,8 @@
       };
       modal.querySelector('#dm-guide-form').addEventListener('submit', e => {e.preventDefault(); run(input.value);});
       modal.querySelectorAll('[data-q]').forEach(b => b.addEventListener('click', () => {input.value=b.dataset.q; run(b.dataset.q);}));
+      // Destination shortcuts navigate immediately; never stuff a destination label into the search field.
+      modal.querySelectorAll('[data-go]').forEach(b => b.addEventListener('click', () => { window.location.href=b.dataset.go; }));
       modal.querySelectorAll('[data-dm-close]').forEach(b => b.addEventListener('click', closeGuide));
     }
     modal.classList.add('is-open');
