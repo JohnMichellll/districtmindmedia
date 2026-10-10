@@ -1,4 +1,4 @@
-const headers={"Cache-Control":"public, max-age=60, s-maxage=300, stale-while-revalidate=600","Content-Type":"application/json","Access-Control-Allow-Origin":"*"};
+const headers={"Cache-Control":"no-store, private, max-age=0","Pragma":"no-cache","Content-Type":"application/json","Access-Control-Allow-Origin":"*"};
 const clean=v=>String(v??"").replace(/<[^>]*>/g,"").trim();
 const pinnedArtists={"ray charles":{artistId:"160926",artistName:"Ray Charles",primaryGenreName:"R&B/Soul"},"louis armstrong":{artistId:"518462",artistName:"Louis Armstrong",primaryGenreName:"Jazz"}};
 const legacyNames=["ray charles","louis armstrong","aretha franklin","ella fitzgerald","nat king cole","sam cooke","billie holiday","nina simone","john coltrane","miles davis","duke ellington","charlie parker","frank sinatra","marvin gaye","stevie wonder","james brown","otis redding","the beatles","elvis presley","buddy holly","muddy waters","howlin wolf","chuck berry","little richard","b.b. king","bb king"];
@@ -64,38 +64,31 @@ export async function onRequestGet({request,env}){
     if(artistImage)artistImageSource="Deezer exact artist entity";
    }
   }catch{}
-  // Deployment marker: keep the production Pages build tied to the repaired main-branch function.
+  // Use Cloudflare Workers AI when a binding is enabled; keep the xAI key as a supported fallback.
   let ai=null;
-  if(env?.XAI_API_KEY){
-   const prompt="Analyze this artist for a music-news search page. Do not invent facts. Return JSON only with artist,genre,summary,whatToListenTo,whatIsHappeningNow,discoveryTips. Artist: "+best+" Catalog: "+JSON.stringify(music.slice(0,15))+" News: "+JSON.stringify(news.slice(0,8));
-   let xr=null;
-   try {
-    const payload={
-     model:"grok-4.1-mini",
-     temperature:0.2,
-     messages:[
-      {role:"system",content:"Return valid JSON only. Never invent facts; use the supplied catalog and news."},
-      {role:"user",content:prompt}
-     ]
-    };
-    xr=await fetch("https://api.x.ai/v1/chat/completions",{
-     method:"POST",
-     headers:{
-      "Authorization":"Bearer "+env.XAI_API_KEY,
-      "Content-Type":"application/json"
-     },
-     body:JSON.stringify(payload)
-    });
-   } catch {}
-   if(xr?.ok){
-    const xd=await xr.json();
-    const raw=xd?.choices?.[0]?.message?.content||"";
-    try{
-     const cleaned=raw.trim().replace(/^```json\s*/,"").replace(/```$/,"").trim();
-     ai=JSON.parse(cleaned);
-    }catch{}
-   }  }
-  if(!ai)ai={artist:best,genre:bestArtist.primaryGenreName||music[0]?.genre||"Music artist",summary:"District Mind assembled catalog music, release artwork and current source-linked coverage for this artist.",whatToListenTo:music.slice(0,5).map(x=>x.title),whatIsHappeningNow:news.slice(0,3).map(x=>x.title),discoveryTips:"Use the listening buttons to keep exploring. Current articles remain source-linked."};
-  return json({ok:true,query:q,artist:best,artists:artists.slice(0,12),ai,music,news,links,artistImage,artistImageSource,artistImageKind:artistImage?"artist-portrait":"unavailable",era,firstReleaseYear,artistId:bestArtist.artistId||null,generatedAt:new Date().toISOString()});
+  let aiSource=null;
+  const prompt="You are the District Mind music research assistant. Use ONLY the supplied catalog and current source-linked headlines for factual claims. Do not invent biography, dates, discography, awards, or current events. If evidence is missing, say so plainly. Return JSON with keys genre, summary, whatToListenTo, whatIsHappeningNow, discoveryTips. Artist: "+best+"; first catalog year: "+firstReleaseYear+"; verified catalog: "+JSON.stringify(music.slice(0,15))+"; current headlines: "+JSON.stringify(news.slice(0,8))+". Make the summary useful to a viewer discovering this artist.";
+  if(env?.AI?.run){
+   try{
+    const out=await env.AI.run("@cf/meta/llama-3.1-8b-instruct",{prompt:"Return valid JSON only. "+prompt,max_tokens:500,temperature:0.2});
+    const raw=typeof out==="string"?out:(out?.response||out?.result||"");
+    const cleaned=String(raw).trim().replace(/^\`\`\`json\s*/,"").replace(/\`\`\`$/,"").trim();
+    ai=JSON.parse(cleaned);
+    if(ai&&typeof ai==="object")aiSource="Cloudflare Workers AI";
+   }catch{}
+  }
+  if(!ai&&env?.XAI_API_KEY){
+   try{
+    const xr=await fetch("https://api.x.ai/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+env.XAI_API_KEY,"Content-Type":"application/json"},body:JSON.stringify({model:"grok-4.1-mini",temperature:0.2,messages:[{role:"system",content:"Return valid JSON only. Never invent facts; use only the supplied catalog and headlines."},{role:"user",content:prompt}]})});
+    if(xr.ok){
+     const xd=await xr.json();
+     const raw=xd?.choices?.[0]?.message?.content||"";
+     ai=JSON.parse(raw.trim().replace(/^\`\`\`json\s*/,"").replace(/\`\`\`$/,"").trim());
+     if(ai&&typeof ai==="object")aiSource="xAI";
+    }
+   }catch{}
+  }
+  if(!ai)ai={artist:best,genre:bestArtist.primaryGenreName||music[0]?.genre||"Music artist",summary:"Verified catalog results are shown below. AI-generated analysis is temporarily unavailable, so this page avoids guessing about the artist.",whatToListenTo:music.slice(0,5).map(x=>x.title),whatIsHappeningNow:news.slice(0,3).map(x=>x.title),discoveryTips:"Explore the linked music catalog and current source-linked headlines. Unverified details are left out."};
+  return json({ok:true,query:q,artist:best,artists:artists.slice(0,12),ai,aiSource,aiEnabled:Boolean(aiSource),music,news,links,artistImage,artistImageSource,artistImageKind:artistImage?"artist-portrait":"unavailable",era,firstReleaseYear,artistId:bestArtist.artistId||null,generatedAt:new Date().toISOString()});
  }catch(e){return json({ok:false,error:"The artist intelligence desk is temporarily offline."},502);}
 }
