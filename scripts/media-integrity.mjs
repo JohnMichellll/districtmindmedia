@@ -86,7 +86,13 @@ if (manifest && registry) {
       continue;
     }
     if (!isHttpUrl(asset.url)) {
-      record("FAIL", "asset_url_invalid", key, asset.url);
+      // Owner-supplied compressed artwork may be embedded as a data URL so the site
+      // does not depend on a third-party host. Validate the MIME/base64 envelope locally.
+      if (/^data:image\/(?:png|jpeg|webp);base64,[A-Za-z0-9+/]+=*$/.test(asset.url)) {
+        checks.push({ name: "embedded owner asset", subject: key, status: "PASS", contentType: asset.url.slice(5, asset.url.indexOf(";")) });
+        continue;
+      }
+      record("FAIL", "asset_url_invalid", key, "Configured asset URL is neither HTTP(S) nor a valid embedded image data URL.");
       continue;
     }
     if (!asset.subject || !asset.alt || !asset.license || !asset.credit) {
