@@ -1,16 +1,22 @@
 {
-  "generatedAt": "2026-10-10T17:44:37.992Z",
+  "generatedAt": "2026-10-10T17:54:49.768Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
       "route": "/",
       "status": 200,
-      "ms": 6028,
+      "ms": 6133,
       "title": "District Mind Media — The Culture in Motion",
-      "bodyChars": 4642,
+      "bodyChars": 4598,
       "hasNav": true,
-      "images": [],
+      "images": [
+        {
+          "src": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/fa/63/61fa635a-fc24-b63a-00eb-a88371c28eab/196874323458.jpg/1000x1000bb.jpg",
+          "loaded": true,
+          "alt": "Frequency of Love by Victoria Monét"
+        }
+      ],
       "visualAssets": [
         {
           "key": "jpegmafia",
@@ -19,7 +25,7 @@
         },
         {
           "key": "Victoria Monét — Frequency of Love",
-          "status": "failed",
+          "status": "loaded",
           "loader": "release-artwork-loader"
         },
         {
@@ -100,7 +106,7 @@
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 1101,
+      "ms": 1122,
       "title": "Newsroom — District Mind Media",
       "bodyChars": 1841,
       "hasNav": true,
@@ -177,9 +183,9 @@
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1081,
+      "ms": 1128,
       "title": "District Mind Media — Artist Intelligence Hub",
-      "bodyChars": 1433,
+      "bodyChars": 1513,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -197,6 +203,12 @@
         "https://district-mind-media.pages.dev/contact.html",
         "https://district-mind-media.pages.dev/help.html",
         "https://district-mind-media.pages.dev/artists#artist-desk",
+        "https://district-mind-media.pages.dev/artists.html?q=Drake",
+        "https://district-mind-media.pages.dev/artists.html?q=SZA",
+        "https://district-mind-media.pages.dev/artists.html?q=Kendrick%20Lamar",
+        "https://district-mind-media.pages.dev/artists.html?q=Ray%20Charles",
+        "https://district-mind-media.pages.dev/artists.html?q=Louis%20Armstrong",
+        "https://district-mind-media.pages.dev/artists.html?q=John%20Michell",
         "https://district-mind-media.pages.dev/john-michell.html",
         "https://district-mind-media.pages.dev/academy.html",
         "https://district-mind-media.pages.dev/about.html",
@@ -210,12 +222,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 17
+      "internalLinkCount": 23
     },
     {
       "route": "/releases.html",
       "status": 200,
-      "ms": 5982,
+      "ms": 6279,
       "title": "District Mind Media | Releases",
       "bodyChars": 2542,
       "hasNav": true,
@@ -293,7 +305,7 @@
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 1055,
+      "ms": 1022,
       "title": "Local Watch — District Mind Media",
       "bodyChars": 837,
       "hasNav": true,
@@ -322,7 +334,7 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 1101,
+      "ms": 1072,
       "title": "Wayfinder Music AI — District Mind Media",
       "bodyChars": 1425,
       "hasNav": true,
@@ -354,7 +366,7 @@
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1079,
+      "ms": 1123,
       "title": "Radar — District Mind Media",
       "bodyChars": 642,
       "hasNav": true,
@@ -386,7 +398,7 @@
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 1074,
+      "ms": 1055,
       "title": "District Mind Media | Culture",
       "bodyChars": 1215,
       "hasNav": true,
@@ -443,7 +455,7 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1051,
+      "ms": 1023,
       "title": "District Mind Media | About",
       "bodyChars": 937,
       "hasNav": true,
@@ -469,7 +481,7 @@
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 1046,
+      "ms": 1032,
       "title": "District Mind Media | Contact",
       "bodyChars": 508,
       "hasNav": true,
@@ -495,7 +507,7 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 1087,
+      "ms": 1045,
       "title": "District Mind Academy — Class 001",
       "bodyChars": 3032,
       "hasNav": true,
@@ -528,7 +540,7 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 1015,
+      "ms": 1072,
       "title": "Academy 001 — District Mind",
       "bodyChars": 913,
       "hasNav": true,
@@ -556,7 +568,7 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 1048,
+      "ms": 1058,
       "title": "Editorial — District Mind Media",
       "bodyChars": 1023,
       "hasNav": true,
@@ -591,7 +603,7 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1000,
+      "ms": 1056,
       "title": "Editorial Policy | District Mind Media",
       "bodyChars": 1233,
       "hasNav": true,
@@ -616,7 +628,7 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1018,
+      "ms": 1082,
       "title": "Contributors — District Mind Media",
       "bodyChars": 1066,
       "hasNav": true,
@@ -648,7 +660,7 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 1050,
+      "ms": 1039,
       "title": "Explore — District Mind Media",
       "bodyChars": 1951,
       "hasNav": true,
@@ -687,7 +699,7 @@
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 1006,
+      "ms": 1070,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
       "bodyChars": 2771,
       "hasNav": true,
@@ -721,7 +733,7 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 5918,
+      "ms": 5933,
       "title": "John Michell — District Mind Media",
       "bodyChars": 2280,
       "hasNav": true,
@@ -780,7 +792,7 @@
     "blankPages": 0,
     "horizontalOverflow": 0,
     "brokenImages": 0,
-    "failedVisualAssets": 17,
+    "failedVisualAssets": 16,
     "pendingVisualAssets": 0,
     "missingImageAlt": 0,
     "suspiciousCopy": 0
