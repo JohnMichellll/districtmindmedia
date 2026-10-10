@@ -204,6 +204,8 @@
   }
   function closeGuide(){ document.getElementById('dm-guide-modal')?.classList.remove('is-open'); document.body.classList.remove('dm-guide-open'); }
 
+  document.addEventListener('pointerdown',e=>{const n=document.querySelector('.primary-nav.is-open');if(!n||e.target.closest('.primary-nav')||e.target.closest('.menu-toggle'))return;n.classList.remove('is-open');document.querySelector('.menu-toggle[aria-controls="'+n.id+'"]')?.setAttribute('aria-expanded','false');},true);
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){const n=document.querySelector('.primary-nav.is-open');if(n){n.classList.remove('is-open');document.querySelector('.menu-toggle[aria-controls="'+n.id+'"]')?.setAttribute('aria-expanded','false');}}});
   window.DistrictMindWayfinder = openGuide;
   document.addEventListener('click',e=>{ const trigger=e.target.closest('[data-open-wayfinder]'); if(trigger){ e.preventDefault(); openGuide(); } });
 
