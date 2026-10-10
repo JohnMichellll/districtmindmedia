@@ -22,7 +22,13 @@ async function appleKnownId(artist,title){
  // Some pinned Apple Music IDs are collection IDs, not track IDs. Accept an exact artist
  // and a release title that begins with the requested title (e.g. "U - Single").
  const collection=rows.find(x=>(x.wrapperType==="collection"||x.collectionType)&&norm(x.artistName)===norm(artist)&&x.artworkUrl100&&(norm(x.collectionName||"")===norm(title)||norm(x.collectionName||"").startsWith(norm(title)+" ")));
- return collection?{artwork:collection.artworkUrl100.replace(/100x100/g,"1000x1000"),match:{artist:collection.artistName,title,album:collection.collectionName||"",releaseDate:collection.releaseDate||null,apple:collection.collectionViewUrl||null},source:"Apple Music catalog collection ID"}:null;
+ if(collection)return {artwork:collection.artworkUrl100.replace(/100x100/g,"1000x1000"),match:{artist:collection.artistName,title,album:collection.collectionName||"",releaseDate:collection.releaseDate||null,apple:collection.collectionViewUrl||null},source:"Apple Music catalog collection ID"};
+ // Retry without an entity filter because some Apple collection IDs omit the collection
+ // record when the lookup is constrained to songs.
+ const unfiltered=await fetchJson("https://itunes.apple.com/lookup?id="+encodeURIComponent(id)+"&country=US");
+ const unfilteredRows=Array.isArray(unfiltered?.results)?unfiltered.results:[];
+ const unfilteredCollection=unfilteredRows.find(x=>(x.wrapperType==="collection"||x.collectionType)&&norm(x.artistName)===norm(artist)&&x.artworkUrl100&&(norm(x.collectionName||"")===norm(title)||norm(x.collectionName||"").startsWith(norm(title)+" ")));
+ return unfilteredCollection?{artwork:unfilteredCollection.artworkUrl100.replace(/100x100/g,"1000x1000"),match:{artist:unfilteredCollection.artistName,title,album:unfilteredCollection.collectionName||"",releaseDate:unfilteredCollection.releaseDate||null,apple:unfilteredCollection.collectionViewUrl||null},source:"Apple Music catalog collection ID"}:null;
 }
 const knownAlbumIds={
  "victoria monet|frequency of love":"6791645195",
