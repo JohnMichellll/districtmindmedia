@@ -1,9 +1,57 @@
 {
-  "generatedAt": "2026-10-10T11:42:29.440Z",
+  "generatedAt": "2026-10-10T12:12:09.010Z",
   "operator": "District Mind AI Newsroom",
-  "status": "DEGRADED",
-  "storyCount": 124,
+  "status": "READY_FOR_EDITOR",
+  "storyCount": 246,
   "stories": [
+    {
+      "title": "Offset Explains Meaning Behind ‘GMFU’ Album Title - The Source Magazine",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BWUxmMGhaNlUtcGRPNzFBa3hxakhIbnd3aUpZQzFiVngxaU9QbS14NUNPR1pQc09UbmRLSjdzQ29PcXRTZ3hrZmZoWERXd3VydXk5TXpXUDNSWTVmSkFlcVRrczBYTDdEV0dEd3NBVGdRbWZZ?oc=5",
+      "date": "Sat, 10 Oct 2026 12:09:15 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "50 Cent Accuses Jay-Z Of Manufacturing Greatness With Marketing, Beyoncé And Eminem",
+      "url": "https://allhiphop.com/rumors/50-cent-accuses-jay-z-of-manufacturing-greatness-with-marketing-beyonce-and-eminem/",
+      "date": "Sat, 10 Oct 2026 11:38:00 +0000",
+      "source": "AllHipHop"
+    },
+    {
+      "title": "25 Hip Hop Albums That Were Ahead Of Their Time - Hip Hop Golden Age",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT19KVGRQVzFwTndoNDBUeEU0cEVfSGFmOXJPNUdwemtKbnJpTEtZX0xFT19pTktXLWNvRm16Y3BvblQ5OW9zb3Fya2dseklmekhSUjlCTVJPdVhMel9vR09TRlJzUGJ6b0Y2SG8xVG9ydFlTMTYwTTcyd2ZuNFZyRjJCM3RFRVp1?oc=5",
+      "date": "Sat, 10 Oct 2026 11:13:24 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Popular R&B singer had life-saving lung transplant: ‘Couldn’t even get out of bed’ - LehighValleyLive.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYnpkZktiTW5wRnVXWC1qQlNSdi02OFowN3E4bm9UWTYwTEJ3V3JFbURYZ2t1WDhITEFQYWJoVmxUSjdVV3NuMWxwQVhSQWNSUTNrQWczNU4zVkpLV2xaekd2ZEhXUTAxRTV6TFJmTGhuN0o3S00wWDdXZ2tuRWQ0Ull5cXAwWnZYSngxeWNScEViVHUya2JCTHFnTkNya25ubTMtUnUyeHZHQ004bDhwaDNfQll3ZTZiaEhCaUZYcUM2dUNOZzhhY2ljZHdyZ1BUckhv?oc=5",
+      "date": "Sat, 10 Oct 2026 11:00:00 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "Sheryl Crow Releases New Album Pick You Up With Seven Songs of Hope and Reflection - superhits106.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTEoxRGExUzNEQnlrWEphVG94bXU3T3pqNTNkQy1JTUlJMEZHZHdsYTRYNjZhSFRHZ09uRWN5NktWWDU4UnprTGtxSXRWeUl1Unk5dnhVMjNGV3BFUTN4QUFvZ1hOWWx6MHB6cHhMWHBJZlc1OTFvZFRvbnlYV294UkVUcndCVEdPZGpkVjFxZ0ZJQzJHVmhuZzBCSjVTaXNZcy1kWDdBX1J1ZFI3SE1FTTF1OGc0LTZINjZlcnJOT3M?oc=5",
+      "date": "Sat, 10 Oct 2026 10:41:15 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Freddie Jackson dies at 69: ‘You Are My Lady’ R&B singer - Cleveland.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOc0UxOGdQNzd1YXdVdTlFRWZBWjJtTHAyd1h0UWtuaG9hZWljTzl4MXdQczdBYmdfdTFBVms2UnJJV1VQeTc1cUxGTnNhazRvQWhuMDd0ZXpQaU5aM2JraFhwWXcyX1ZfOTZBclFpY1NlNEM3d25kSTllUDZ6VE1yZVZGb2ZMUml0Rkd6TzJFZGpsYmV1OWVQSnkyRzFwSnNxY1dZ?oc=5",
+      "date": "Sat, 10 Oct 2026 10:00:00 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "10 Questions for musician Danny Wagner, drummer of Greta Van Fleet - The Arts Desk",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNkF5QWxVeUYwSkhGVDZ3UXpLM1hiMXJuWC1LNkpPcVdTbHc4dTBDakxtbU9HRFdzM09uekFHTkZncEJGVHZLQVVwaUg1TDVqa0NXRGZ4LVlQMFZkamVsQkdiem9kYU1vMUQ3NEJ5MkVHRDRxQUI4QklQUW0tWFZVQXRadkEtbTVYck9lYWwzUkVWQmx0WlNncllKUUI?oc=5",
+      "date": "Sat, 10 Oct 2026 09:23:22 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Elon Musk’s Words Set to Music and 9 More Songs We’re Talking About - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQkJLSmlpdDVXSHpkTzRSUFh2SktuSnNNNnd5X0EtYWpDX05QaUdIeGVFQVFqSkcyLXhVQmN0eGEyR3kyblRRaFZYQjlFdzFtVW5DZ0hrRnJxTVBKOGNEZDE2bzJib2RQSE5JclhXaExtTjg1VXV3YktabjBCWTFwNjJUWm8wbXBvTkdpZTEzVEJSbHgtMkU5QlY4Q2NtUQ?oc=5",
+      "date": "Sat, 10 Oct 2026 09:01:00 GMT",
+      "source": "Google News — New Music"
+    },
     {
       "title": "Ashnikko Covers Gwen Stefani’s ‘What You Waiting For?’ for Like A&#160;Version",
       "url": "https://www.billboard.com/music/music-news/ashnikko-gwen-stefani-what-you-waiting-for-like-a-version-1236358578/",
@@ -29,6 +77,30 @@
       "source": "Billboard"
     },
     {
+      "title": "News From Hip Hop To Hollywood! - The Hype Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZHVKa2UwQnFqQ2g2QU5EdU5fdmlIZ1JWbmJCTzVlM1RZcnFvdm40cnFQSnlFVDBFQUtRQkVBYjNhaXZwYlFXeUxjX1gycUdsTTU5T1lIektwTkQwQ3JFV3VNRGhSTkVSWGlSU1kxSXRlc0dVNDduLVA5WFVmcmJBUlFB?oc=5",
+      "date": "Sat, 10 Oct 2026 04:18:56 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "There’s music on every page of Chaim Freiberg’s new book - St Pete Catalyst",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMGpLLUQ0c0dacjlpNXlfQUtZYUVvc19fV1JqVE9nRDNqTkJCWmd2RGdLMldhcE5URkNhQlZVSGtkRVZFOENwUGxEbVFBaGJUdko5TlhUcHBsRFc2Ml9HbXNwMmpVUHhQd1VNaWRkYlRIN0ExdVExOVhnZHAxVGZQOTJpZXJ3eExOaVE?oc=5",
+      "date": "Sat, 10 Oct 2026 03:57:49 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Usher, Chris Brown concert at M&T Bank Stadium in Baltimore canceled, Ticketmaster says - The Baltimore Banner",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdmkxSzBBMGdiTkhUR21ndU5jRENaYUFmWTNna25nUnJaWWlobVVVTzR4WmR6MXRCaGRCTUZFZkxIc0s1Y1E1LVJrS1FTWW5KWjJvOFpyWV9mTU80Z0V2Ym0tS2U3U3hKYXlpU3R2c1Q2aGIzVDVka3ByWTlLZnNGVmROQWxIQ3pJM3lrZE50QmxGOE1OZDhmQXNGbWJwOTVqaGRtQmhB?oc=5",
+      "date": "Sat, 10 Oct 2026 02:57:00 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "Hulvey Wins Christian Rap/Hip-Hop Album of the Year for ‘Could Be Tonight’ - Rapzilla",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOGs3MzhMbmxSNHBmVk9vQUwzRERoZ192VEdKTXVkemVVLTdUNFdfdDNlblc2NHVrSGwyaDl1TmNMeUpSTHBvcGp1bS1GbllKbE5iQ242T1lmQXVmLW0xSHg2aG1FaU1kOG5YejQ5LTRIUy1ZempFUzZPSm1LbUxleHozNGhFOGhBRGRSMGFUTm9rWlhDcXNwMHYyTEszQVpZSVBWaA?oc=5",
+      "date": "Sat, 10 Oct 2026 02:13:53 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
       "title": "Trick Daddy &#038; Trina Bring Miami Rap To GTA VI Radio",
       "url": "https://allhiphop.com/news/trick-daddy-trina-bring-miami-rap-to-gta-vi-radio/",
       "date": "Sat, 10 Oct 2026 02:02:09 +0000",
@@ -47,10 +119,28 @@
       "source": "Rolling Stone — Music"
     },
     {
+      "title": "indie tribe’s “ROB HELL” Wins Rap/Hip Hop Song of the Year at 57th GMA Dove Awards - Rapzilla",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ELW5FVTM4V1dlRDR3elZiYjF0WVFmVkY4YmYzS0tCNms5dGFVUDdTRUdxMGtDblROOXpvOE5ZQ215U0ctMnhFY1NPSThVYzlmcTEwMmtVV3RoSWN2Ymk5QUZ3d0ljdTd1UFVhTFdvOTNVVy0xNG9TVXJCVmxyZw?oc=5",
+      "date": "Sat, 10 Oct 2026 01:25:49 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Ticketmaster announces cancellation of Usher and Chris Brown's 'The R&B Tour' concert at Lucas Oil Stadium - WTHR",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMjZHY3hwR1habmRaLUpYeVkzQkpRNG4yUHcwakY5YTE5UUYwa1U0N0ZfSGpBUVNQMTJXZE1GZ0F6RzY5Q1ZOVjNWaGhOUU10aHFPS3R2UEg1QVVHSkFhVkkwb2MxaGFoQWx0bmxjWm14QUhsdVhGUUEwbVZlNUdUMjI3ZUFfbjdNM2d6aWdCelBkOHVDS3VUNVBUN3dUam9rNnl5UlQ4NkRkT0Y2SlBGRHBOUzdQM2R3Zklxam9EbFNpamZndEhFNk8zSDMzM1lGRHZrNnp4VG42RHZ4NkhtcTlobkZ1UkVPcUVUQjB0Q1Y?oc=5",
+      "date": "Sat, 10 Oct 2026 01:00:00 GMT",
+      "source": "Google News — R&B"
+    },
+    {
       "title": "Kanye West Reportedly Collects $20M As Russian Ticket Buyers Seek Refunds",
       "url": "https://allhiphop.com/news/kanye-west-reportedly-collects-20m-as-russian-ticket-buyers-seek-refunds/",
       "date": "Sat, 10 Oct 2026 00:02:56 +0000",
       "source": "AllHipHop"
+    },
+    {
+      "title": "‘JAŸ-Z in 8’ Finale: 5 Things We Learned From Episodes 7 & 8 - Billboard",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaWFveUVZQWN2UGtDLU8xNGdFZUZqOVotMUNESGhuX3ZTczd4b2JSZm0tSlZyYWlkNnNHd3ZpWl8yV0FPSlBYVndIRjg2YmdKZUQ5ZW5JX241cTMtWVkzT08zVWgzSy10RnVXUE40cGxTOGxVMnFDWTJQN0xvV3FEdFlYSjNKOHBLX3o5WklIM1RVbDQ?oc=5",
+      "date": "Sat, 10 Oct 2026 00:00:45 GMT",
+      "source": "Google News — Hip-Hop"
     },
     {
       "title": "‘JAŸ-Z in 8’ Finale: 5 Things We Learned From Episodes 7&#160;&#038; 8",
@@ -63,6 +153,12 @@
       "url": "https://www.billboard.com/music/rb-hip-hop/gunna-sb-label-pop-it-coco-gauff-1236358460/",
       "date": "Fri, 09 Oct 2026 23:21:57 +0000",
       "source": "Billboard"
+    },
+    {
+      "title": "New Music You Shouldn’t Miss - TheStranger.com",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HQWhVcDJ1NXJxNEI1MEhES1VRV1h5ZVJKd19GanVHR0UwOVdUNDJxbklPYlNlNldIbGV3UE5pM1kwZ2JGNzBWR0pVWmg2ZWl6ZG1kZmZucDd0Wi0xVUkyR2xaR3huU3B6UVZiV0R3ZTl6QQ?oc=5",
+      "date": "Fri, 09 Oct 2026 23:15:28 GMT",
+      "source": "Google News — New Music"
     },
     {
       "title": "50 Cent Jokes That Jay-Z Will Perform at His Future Wedding &#8212; Kanye Too, &#8216;If He&#8217;s Not Banned at the&#160;Time&#8217;",
@@ -89,16 +185,58 @@
       "source": "Variety — Music"
     },
     {
+      "title": "MC Lars Discusses His Music and ‘The Edgar Allan Poe LP’ Expanded Edition - V13 Media",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1BLV9vbFdBUnZST0VETEE4b3NlX1BjVEdIR0UxYklDOFlXVXhlTHJ1S005M2JmT0NYUUFURzVYQm02dnF5bm9NNGtCS2JtckxMdXIxU3FxQTdoSUNiYVZMdnZjVFVnN3RpUW5ScnlDM3RkTjg?oc=5",
+      "date": "Fri, 09 Oct 2026 22:20:22 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Caspian release new music video for ‘Far Country’ - Distorted Sound Magazine -",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnJZalA3UVZrRGFmV3RYeVMxZmV4aWxDMGs3UGp3SXM1S3I2a2M4ckZVNGE1Xzc2WnJxSXljTEUxbnNlNUlLRDBZTmtrS1NaalhqOW91MWp0eVd1d1NIcHdXeDI3RlhRaWp6dDAyUnIwUl9YdVdtelpSYXhqNlh1VE9tNzU?oc=5",
+      "date": "Fri, 09 Oct 2026 21:58:57 GMT",
+      "source": "Google News — New Music"
+    },
+    {
       "title": "Willie Nelson, Yo La Tengo Endorse James Talarico",
       "url": "https://pitchfork.com/story/willie-nelson-yo-la-tengo-endorse-james-talarico/",
       "date": "Fri, 09 Oct 2026 21:54:32 +0000",
       "source": "Pitchfork"
     },
     {
+      "title": "Brandy Heading to Africa to Headline Flytime’s House of R&B Concert for Lagos’ Detty December - Billboard",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWHA0X2FzNE5EeHZCLVFWemYzLU01bE85Rl9SN1VOWGRYeFRzbmVyQ1ZPUERVR2tRaDJTWGt0Q0dKQTZsZjd4RzVzcG9OUDBNNjRjRVV4QlN0YW1ybWw2dl9BR29YLXZHRnBrTzc5dkc0OVdPdVpGb2o3TTRaYnBqWFVzc1h3dGc2UEEzY1FBbUZCbWlqYktITHBYai0ySXE5UUFXUVhR?oc=5",
+      "date": "Fri, 09 Oct 2026 21:49:58 GMT",
+      "source": "Google News — R&B"
+    },
+    {
       "title": "Brandy Heading to Africa to Headline Flytime&#8217;s House of R&#038;B Concert for Lagos&#8217; Detty&#160;December",
       "url": "https://www.billboard.com/music/rb-hip-hop/brandy-flytime-house-of-rb-concert-lagos-nigeria-1236358381/",
       "date": "Fri, 09 Oct 2026 21:49:28 +0000",
       "source": "Billboard"
+    },
+    {
+      "title": "Katie Dey Announces New Album 'universal will': Hear \"for you\" - Stereogum",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPY2ZuWmowQ3hyME5rYy1FWEw2MllnOXF3RUxBTWVPTkExSmI4VFlNNFZSZGtEZm4yYjY5ODlaekU0M2xkWThvZDdKaHEtRDMweEJsNEtDV2g2eTdTUGpkSnMyUjQ5aUpDRm9RZ3ZKT28yaG8xR2tFaDBIem9zUkdGMENuYlNTSXBoQnQ5QTNVcU8tNEQzc0UwLQ?oc=5",
+      "date": "Fri, 09 Oct 2026 21:39:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Audio Adrenaline’s Mark Stuart Teases New Music Using AI To Recreate His Voice - ChurchLeaders",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRzQwVlBXQk5UVFppVndyT3ZZNU94aDd3b0FORFVROVhEcVpOSXBYMXo3YkE2ak9DNGRqdmVBc1I0SjFPbU9CeVlhNGJkazVUNUQ5QnhtbEtPV1JsMXg0clRHY2ttZlJGSE9ITGQzQi1rMU90alRtYWhrZnc3WVRGamFtTkJmWC1kTWZUS3FkcWhZWk1CaGFJ?oc=5",
+      "date": "Fri, 09 Oct 2026 21:35:35 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Hip-Hop Organizers Engage Young Black Voters Beyond Election Day - Capital B Gary",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rWjZkS09SNzZ5RmRrWFlwU3Y5OUJoUWM0a0E5Qm9IS29PT0J6b3R3dDBwU3pJbGdQYks0X1dwWVhYMjczV0VRVW96TkFvN3oxUmhXMUV1NHFzM3VYbjhIX0Ntd1ZWN0l5cmhoSThMRzhBMkU?oc=5",
+      "date": "Fri, 09 Oct 2026 21:31:50 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Usher, Chris Brown concert at Williams-Brice Stadium canceled - WIS News 10",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWnNrZmFNTGZlVTlXVkxGOENLcTdBUmd5c3B1cHhEY1ZLMmdja0dwejFfRC14eEt5c0YwSk9vN0pHaGplNUZlcmZHa0E2Y0hSZTRiSjItTGQzUC1kRGRuRkx4ZTJZcmhuYVlIS3I0VW9BaGFlek9vSWM4cmI4S2pHU3dNbDllcDhlemlJWTlDMUZYQmVXaFHSAaoBQVVfeXFMUGkwTzlsT1BXcmtqOV9kUFk5Y1RaVTBmc2pLTk9sMURSMVJtaTdFdnl0TkFvck9kZDFOcHNyR05ya3pzT0hBT25WQzlzakZsbmlLSjZPbFlMUkR3bUhWXzdVVXh3WTdiQ01NbkkxYVBpQnBIYlZSa1F3c0NnZEhXckNFZ1RQck5wZG1pLXB5VDhlbWtYektMNTVBTm1qVE1GemlxTTdrMlkwUUE?oc=5",
+      "date": "Fri, 09 Oct 2026 21:29:00 GMT",
+      "source": "Google News — R&B"
     },
     {
       "title": "Gunna Leaves YSL &#038; Starts His Own Label",
@@ -111,6 +249,12 @@
       "url": "https://allhiphop.com/news/eminem-revives-his-slim-shady-flow-on-new-ez-mil-collabo/",
       "date": "Fri, 09 Oct 2026 21:15:00 +0000",
       "source": "AllHipHop"
+    },
+    {
+      "title": "Hit-Boy Says No Album Can Top ‘Watch The Throne’ Despite Kanye West’s Recent Claims - Hip-Hop Wired",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xSW1uaG5GeXliUFF6aTdjdlpsbWJ5NVRLZmlPYWIyODZLU0JWVUFjRW1QQ0xGWGZqTHZjRnNMaDV5bGlENFlGWnFtUHk5UG5rTDVaMG9wdmJWcTBNWFZZVUd6WWtNZXZockpYR2J5dzFEdm5tWVpr?oc=5",
+      "date": "Fri, 09 Oct 2026 21:10:34 GMT",
+      "source": "Google News — Hip-Hop"
     },
     {
       "title": "Terrell Owens Sued Over Nolan Wells Post As Fight Over Teen&#8217;s Death Intensifies",
@@ -131,16 +275,16 @@
       "source": "Rolling Stone — Music"
     },
     {
-      "title": "Remi Wolf Announces 2027 North America Tour",
-      "url": "https://pitchfork.com/story/remi-wolf-announces-north-america-tour/",
-      "date": "Fri, 09 Oct 2026 19:29:28 +0000",
-      "source": "Pitchfork"
+      "title": "Rock the Bells, Sixthman announce I Need Luv R&B cruise - The Music Universe",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPODJqeElwTVJLRzg5dTZVb0hFajRIanBrSEFkREt5cUJoWmV6ZUNpU3ctUEJXTWg5MVhSa2I1TjZoQnJUeVhQc19TNEhvRTBKWEF5NUxMM0xzbkNPaTBCYTlVa2Fqbm1zRVNyekxXTVdaLWFVN1lfOGpqVllCTHVJT0lrTG0yNGxSYl9R?oc=5",
+      "date": "Fri, 09 Oct 2026 19:19:35 GMT",
+      "source": "Google News — R&B"
     },
     {
-      "title": "The Decemberists Premiere First Song in Two Years",
-      "url": "https://pitchfork.com/story/the-decemberists-new-song-the-better-part-of-bravery/",
-      "date": "Fri, 09 Oct 2026 19:22:15 +0000",
-      "source": "Pitchfork"
+      "title": "Troye Sivan, Remi Wolf, Slayyyter & Pitbull: New Music Friday Guide - Billboard",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbkoxV3p6NmNIeVd2VUh5MnlHY2RJU3liUldCdXg1VTFTU21Ib0RHbzFmTXc1NFpZajRqdE82eXhyV0FjMkVudWRLN3hrYnFjN3VTRjBVY1JGY3lrMHhRRVNfbHpZY2ctZzR4cmQzMEMwd0wyRlJmbnFGbkJxbjVxSm0zVGdKWXJYNnNNajJ5UEZETnhmOXJxa3lwSERmbU44T0oyUFdGN05LVmNpaFE?oc=5",
+      "date": "Fri, 09 Oct 2026 19:10:10 GMT",
+      "source": "Google News — New Music"
     },
     {
       "title": "Lola Young, Caroline Polachek, Tinashe Lead Chappell Roan Benefit Shows",
@@ -155,6 +299,12 @@
       "source": "AllHipHop"
     },
     {
+      "title": "The Streisand Effect: Why Silencing Artists Backfires - HipHopCanada.com",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zbHVoUDMyMzl4NkQtQTFXdXNKRm1ldFc1YU9QQ19xWnRmM18yejMwWEZmQnlnaFMxN3FMNDl5Q3hrU1Z6b25Tb1J2RFhkY2hPaktIWlhGamhCZE53Uk0wcFd2X1NxVUlwNF9VU2VJQ3c?oc=5",
+      "date": "Fri, 09 Oct 2026 18:50:07 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
       "title": "Remi Wolf on the Meaning Behind Her New Album &#8216;Mud,&#8217; Her &#8216;Off Campus&#8217; Cameo and Friendship with Hayley Williams",
       "url": "https://variety.com/2026/music/news/remi-wolf-mud-off-campus-hayley-willians-1236906301/",
       "date": "Fri, 09 Oct 2026 18:32:30 +0000",
@@ -165,6 +315,24 @@
       "url": "https://variety.com/2026/music/news/journey-drummer-deen-castronovo-leaves-concert-hospitalized-1236906851/",
       "date": "Fri, 09 Oct 2026 18:26:19 +0000",
       "source": "Variety — Music"
+    },
+    {
+      "title": "From Cardi B to an Eminem Collab & Troye Sivan, Which New Music Release Is Your Favorite This Week? Vote! - Billboard",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUkpZUXNrUkhldjI0NmRhdWM3Ti16MTVuSV9NUm9OS3J1TGRkSTBrMlhpY0lrRUIxSjlidDEwYzVZZjlrbXpfM1BvYU91NDZ2V1VoUml3dXpnNml5QzJ3ckFFNVU1S29yUy1MRTB0Y2JERlYtNzVzVHRQUlZYWlVIY2pZV2M2cHlwbEE0TWdvRWFlNkF6b1ZSajEyNWJ0QWZVbXRCaVR6QTFwN2wwVmNvbg?oc=5",
+      "date": "Fri, 09 Oct 2026 18:17:07 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "11 Essential New R&B Releases: Dawn Richard, Danielle Ponder, Joyce Wrice & More - Rated R&B",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUTVWQkRXVWVRS3VpN21sY0Zud1BENXE3c0FzYTRFY0Z6UzRRRWdNNDA2eUk0d3BGY1BQdEtKalkwdjN0dWNQeHlPbWdNT0JmeFd6anduQVhZMEM0WEcycHl1azRwTC1GQWNycXJGaG1kbjlaSHpNbGpnemo5dkZKUFpzLU83amVHbUFz?oc=5",
+      "date": "Fri, 09 Oct 2026 18:16:57 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "Mrs. Doubtfire Taps and Hip-Hops in the Musical Coming to TUTS - Houston Press",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLXVjRUtpd0ZsQ3cwLXlyS0xfNElWcnBBRWpuY3lCWWZUcy1zTXVpUWd3cEh1aVZmaFlyWDFGa29kOVN4LWZwMTk3cFNDS1lFUjJaMlpPcTB1ZzdZeW9zcEt1aThMcFhqSG44aDQ3c01VOUFLcWRFYjROVFNfQUQwYng2SmpmakNOOURiVXRMMEY2NlpkYmNqWDV2R3U?oc=5",
+      "date": "Fri, 09 Oct 2026 18:15:20 GMT",
+      "source": "Google News — Hip-Hop"
     },
     {
       "title": "Alanis Morissette Is Dropping a Holiday Album",
@@ -179,10 +347,52 @@
       "source": "Rolling Stone — Music"
     },
     {
+      "title": "Interview: Jazz/Hip-Hop Pianist Kiefer’s Journey and the Power of Perseverance - Third Coast Review",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNd3pZbUN6V3NKZ3FGU2dCX0ZyOFBSbk0xR3BaWWc5VjJIbExUU243LXBUN2I2RzRmR1g3blFkNXk5NVcxVEtPU3NPeG9mQ29yWXFxc3BvMjVtNEpsRV9aS05BSk9RVnVTQkd5Ykx1em05UjlKcDZEZlRGYUNxdXFPbmg0VjE4a2JQRlNz?oc=5",
+      "date": "Fri, 09 Oct 2026 18:09:26 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Gunna Builds His Own Hip-Hop Empire With SB THE LABEL And Drops “pop it” Featuring Coco Gauff - That Eric Alper",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNR0NIQ1VZSlIzc1ROSGpNLVFIZFZHU3Q2SUJITkNfSWpVaVYtOVFvMFVyOV8yc3ZDSXZtcTdJN1N1OTRzRjdwMDRlNG5HWmlsdzY1NEJNN3dIUEdJUkdGendwWkMwZEp3YWFiNHp3emFpSlpCQlFHWGhNTEZ6WlRKR3U3cGdJZXdUSDdMNERvbVlVX3N2VUsxZmZVeERReG9OT0gxSlFuLVYxME9BYUtTYjVyRWdUMDNxUzhNdHdjVHBqY1dDSTF3bXZ0YXZZUQ?oc=5",
+      "date": "Fri, 09 Oct 2026 18:08:56 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "\"We want to keep his name alive.\" Power Trip are honouring fallen frontman Riley Gale with their first new songs in almost a decade - Louder",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenc1ZkZaOVZ3Q3hrVW1kVm0zUU12ZElXVjlZUVNWd0RNRGctYnpiclZLTER4LVVKZnp5czdiSTdSLThCejY2aGlpbjJfV2NnMFA1SlRidHJzbnRJSDA5czE4ejBxU3BHSDQzaGFMNkhuZThZM2stbGRPaUIxY3luOTlSSjVZRTc0dVB0ZW14OU9acmFYc1FpV3VZY0F1ODVI?oc=5",
+      "date": "Fri, 09 Oct 2026 18:04:55 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "New Music Friday: 50 Hip-Hop and R&B Releases You Need on Your Playlist - VIBE.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMVhPNnNDRFczellCSUVrTjBlanF5T05rVS0yTVV4Ukc1QWRNNllYRXpObmE2SUpHRHhKQVFaOWZDdFA2ZERHSks1OTRDWXMzR2laVFVkTzc5enFkRjdfbkxYRFN0N0pfZkxsaHA1RmtHSjBzejRVdlg0VGVqRXN6ODNLVnZYZ2ZWeW5weDVBQko?oc=5",
+      "date": "Fri, 09 Oct 2026 18:00:00 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Coco Gauff featured in rapper Gunna's 'Pop It' music video - ESPN",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNmFXYTc2NC1JZFBhNVdwUGM1d2plWFpoWjRpYmZrUkxmaG94d09HVTh2MzhsSU81NGdHZXFCVGhzQ2ZneUpHcDRIWDMzRk5ySnByYmpHSW8wc3RCTVdaSFNqelhLbE9xMVdDazBEb05qOHFIaEY3bDZDZkg3SHpYLTZ3?oc=5",
+      "date": "Fri, 09 Oct 2026 18:00:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
       "title": "Laika Submits Original Song From &#8216;Wildwood&#8217; for Oscars, &#8216;The Better Part of Bravery,&#8217; Performed by The Decemberists (EXCLUSIVE)",
       "url": "https://variety.com/2026/artisans/awards/laika-wildwood-oscars-decemberists-better-part-of-bravery-1236906575/",
       "date": "Fri, 09 Oct 2026 18:00:00 +0000",
       "source": "Variety — Music"
+    },
+    {
+      "title": "Bad Bunny, Trick Daddy, Trina & More Will Host ‘GTA 6’ Radio Stations - Hip-Hop Wired",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN1R2RU5EaEdFTzJMNFZNQ2ZFVkhveGw3ektnVWpFX0JyM2FHX0IyNW1HdGNlU3V0d20wTDNOX2l4WThudG5qUU9hWWE3OXZGWGI1Z192aVBiZTZMMGV2VDFMaGZzQkFtOGVsX2IxTzROTk1kbWNwM1FmcXZ0bUJwODhvalJGZ2FWNFEta2pxbmlCM2I3Q1lINllEMHJhWDJ4dURtdzNLNll0UENhUTQ5VQ?oc=5",
+      "date": "Fri, 09 Oct 2026 17:55:30 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "’90s R&B Experience with Joe, Dru Hill and Silk coming to Fishers Event Center Thanksgiving weekend - LarryInFishers",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOamp1dU5ZYWRFNXJiVE41ZHkyaTRfOC12bUh2Mk9GanJfbGlrZlZpN1drOC11RlV2RE9XRXNWMWh0RFNKZTZPVW9YZVFPVHNGNWtBNThQQUttRU5LaVdhX0duSEh5d2N1eWtTSEYwVy1FNWVWOUM5LTllTVhJQWhFelpxZXd6UlpfdDlnRVhuRElySDJHOXRSSzQ3d3JEb0lGdWc?oc=5",
+      "date": "Fri, 09 Oct 2026 17:41:27 GMT",
+      "source": "Google News — R&B"
     },
     {
       "title": "Music Industry Moves: Believe Names Adriana Sein President of Americas; Guy Moot Joins NMPA Board",
@@ -209,6 +419,12 @@
       "source": "AllHipHop"
     },
     {
+      "title": "New Music Friday: 5 Songs You Need to Hear This Week (10/09) - VICE",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ3hEa1I2ZnVhaDU2ZGpOeVRyRHJRclV5Wlkxa0xuSHhCX2lLTHNET3FmdGk0WVJoU2hOZldRM1pKVE5UYnUxSzlNT3dfWGZORXNwWTJERlVzREFmWlA3aDZEay1uZUExTUItTVNrbHJOa3lGR09kM1F5OHdHWDY3bjZlTmVQWi1rOUVkWGV5SWFlUERo?oc=5",
+      "date": "Fri, 09 Oct 2026 16:21:55 GMT",
+      "source": "Google News — New Music"
+    },
+    {
       "title": "Alanis Morissette Made a Holiday Album",
       "url": "https://pitchfork.com/story/alanis-morissette-made-a-holiday-album/",
       "date": "Fri, 09 Oct 2026 16:10:23 +0000",
@@ -227,6 +443,12 @@
       "source": "AllHipHop"
     },
     {
+      "title": "Power Trip share first new music since Riley Gale’s death - Paste Magazine",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONjMzMU9Pd3NhYk9wNVdPOHVLVGdUNGdSV21zY2s0SFA3OG1neEZOOWdjdWpuaW4xWlY4WjBaU3Y3a0JlRUg0eGJNN3Q1bEU1WGhHMUFvMzBHN05FZVNETVI3Q0I1TDZvS1dSc0s1MHV5Vmg1ZEJCaVpfYmdVOVNWMHBvV3d2Vy1xamt2OWRObUg1dzMtSnA5bWxLLVlVTG81NDBLbmhn?oc=5",
+      "date": "Fri, 09 Oct 2026 15:53:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
       "title": "Phoebe Bridgers Brings a &#8216;Haunted&#8217; Vibe — And Boygenius — to New York&#8217;s Cherry Lane Theatre",
       "url": "https://www.rollingstone.com/music/music-news/phoebe-bridgers-boygenius-sound-check-1235640211/",
       "date": "Fri, 09 Oct 2026 15:37:38 +0000",
@@ -239,16 +461,34 @@
       "source": "Rolling Stone — Music"
     },
     {
-      "title": "The Healing Language of &#8220;With Love, From Dani&#8221; and DaniLeigh&#8217;s Faith-Driven Rebirth",
-      "url": "https://allhiphop.com/music/the-healing-language-of-with-love-from-dani-and-danileighs-faith-driven-rebirth/",
-      "date": "Fri, 09 Oct 2026 15:11:30 +0000",
-      "source": "AllHipHop"
+      "title": "New Music Friday: October 9, 2026 - The Indy Review",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE11NnV3Q0lQczBoYWpZSlFFRnlEQTl6UlZnUVhOS01mdC1kUkZzZlNaQjRUaUNIVW15MWN4Qm9IM0FjeDduQXBUTGVHbDNpUEFkdnFqUXB2bDkxQ3lZTm9BcW5zUUtNcnJ6RDJYNlo2ZktucVRwOVZDMg?oc=5",
+      "date": "Fri, 09 Oct 2026 15:35:24 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Old Songs, New Fans: How Gen Z Is Making Past Music Current Again - Strike Magazines",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG42UzNEVXphQjhlZ1RTVk9WTFYzT3dHZmd3MmltOVI3NVdrSTFSemdqbUJ2ZmVOdmhPWXBKRmFWbzBuYzZEUDJFTG4wdWMyMmU2dG40TFF1SEY4OVFHckRaODVKR2dCYXJFT1phSUJLTUZZMjdHUkhtNGxNbXVTUWFjbGZmVWtTSGt1S2o3Mlo3Y3JrX0R5VTBCV0tjYjhDX2t6X2tINA?oc=5",
+      "date": "Fri, 09 Oct 2026 15:19:39 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Dallas R&B artist dove rd finds his voice on the heartbreaking ‘Fantasy’ - Dallas Observer",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdmUwRnpqYWVzX2F4TUlzWDgyVU9CcWtyQlNLUmNWUW9HQUtMYXgtVUl2Rl9mVFlPRHVYdmdCaTFEXzdjdnBxV21mMjZ4MXRCekJTalZyV2VacWVEVk8xZDV5V0VMWlZsMmtsRWkzYkZTb3dmUXJocTFyX2FkY2syMUw3TktRM1J2YTc4bExFdVlVQlAzVEUtajBFUDlCaFFYM09hSDFxTXRqWHlMQmhxREVJeVFueDA?oc=5",
+      "date": "Fri, 09 Oct 2026 15:09:44 GMT",
+      "source": "Google News — R&B"
     },
     {
       "title": "Classic Moments With Dolly Parton, Remembered by the Actors Portraying Her in the Broadway Musical, ‘A True Original’: ‘I&#8217;m Jezebel, and God Loves Me Anyway!’",
       "url": "https://variety.com/2026/legit/news/dolly-parton-remembered-actors-broadway-musical-1236906569/",
       "date": "Fri, 09 Oct 2026 15:05:55 +0000",
       "source": "Variety — Music"
+    },
+    {
+      "title": "James McAvoy’s ‘California Schemin’’ Is a Different Kind of Hip-Hop Biopic - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRmpyZkR4dTBUNWNuSXhZc18xaVBIeGZYNnkxQ1REMnp6enRqNXRrZmNxdEN4eVkyek05ZjBPdGhFZkxjZ0F2eU5fMU5JSWMzc2Z5MDk0Y0RiOHFHZ3U0YWZNT19RU05FNVVlSkJUNGswTGZ1XzRRUjZIZkJJSW5CektHWE5JUlNBb24xWC1LY0Z6TmpSYkVESUcza2xQb3d4NzVMRXJ3VUFJTFlm?oc=5",
+      "date": "Fri, 09 Oct 2026 15:00:00 GMT",
+      "source": "Google News — Hip-Hop"
     },
     {
       "title": "Troye Sivan Is at His Best on &#8216;She&#8217;s the Best,&#8217; a Weird, Wild Exploration of Desire: Album Review",
@@ -269,22 +509,88 @@
       "source": "Variety — Music"
     },
     {
-      "title": "9 New Albums You Should Listen to Now: Cameron Winter, Deafheaven, Dawn Richard, and More",
-      "url": "https://pitchfork.com/story/9-new-albums-you-should-listen-to-now-cameron-winter-deafheaven-dawn-richard/",
-      "date": "Fri, 09 Oct 2026 14:11:08 +0000",
-      "source": "Pitchfork"
+      "title": "Iconic R&B singer Freddie Jackson passes - New Pittsburgh Courier",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZzV6cjd2d2oxMUc3OF81WEx0eVNyWDh6QjNNLUIwN0NnS3lFblBCUUM2TW9YUXhhZlRjY2t4X1VRc2RaS1dPNlZ2RXktTkx0Y3hkU2ZOZVo0QW14TERMV2F4NUpreE9PNE9MVzE4UnI0TkV4d1VUQUp3di1tbGtUUWdnRExBdUt4eFNvSA?oc=5",
+      "date": "Fri, 09 Oct 2026 14:16:37 GMT",
+      "source": "Google News — R&B"
     },
     {
-      "title": "Watch Phoebe Bridgers and Boygenius Perform Live in New Short Film",
-      "url": "https://pitchfork.com/story/watch-phoebe-bridgers-and-boygenius-sound-check-at-cherry-lane-theater/",
-      "date": "Fri, 09 Oct 2026 13:08:36 +0000",
-      "source": "Pitchfork"
+      "title": "Colorado Musician Day to be introduced to lawmakers next legislative session - Westword",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdzlLVFVIQmJsd1VPOUVjOWI1OW5zTzJlVFY3UGZCMFpBMC1WN2lySG5MYzhqcVRfRENhaGM3WDhmLVBJQzdNNWxIVElqYVl5ek5keC1lT2tFSGRaSndpMXRoNkNmalV4V3JySUphSEN0NFJ2Tkw1UE5JRGFSOXpVWUNpV1hvNmlPRnpTLU52NkxNbWtkdTkw?oc=5",
+      "date": "Fri, 09 Oct 2026 14:14:31 GMT",
+      "source": "Google News — Colorado Music"
     },
     {
-      "title": "Watch Slayyyter Rock a Raccoon Pelt in “I Think He’s Got a Girl” Video",
-      "url": "https://pitchfork.com/story/slayyyter-i-think-hes-got-a-girl-video/",
-      "date": "Fri, 09 Oct 2026 04:39:53 +0000",
-      "source": "Pitchfork"
+      "title": "Hip-Hop Star Cardi B's GTA: VI Track, \"Don't Chart,\" Released - HOT 97",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObjZBakVXOUZWUDlEeERKMmM4TTk4enJxaFJqQk9aOEpfUnBoSGY0U05hREtqazNmQWF5ZUpjSFNhTEVxOHBYVkVkY2NlSG8wWXotdkFkbjRhQzFVTi1ZUTQ1R25Ocl9YX2dXMy1sbjZycjlTZzIwdU5xdEhyam5PNy02dzlDel9ZUEE?oc=5",
+      "date": "Fri, 09 Oct 2026 14:09:20 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "“I’ve Learned To Trust Myself”: Victoria Justice Is Entering A New Era Of Music — And She’s Doing It On Her Own Terms - BuzzFeed",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQemwxWTNtY1VjUkFoOGlWTVAwaXZ5LXlwbWhWRHBrWmhtRFVnbmwwVFZ2dTlVYWZuM3JpUDNoMU45dWVmZ3NGbU40UnpWN3dvV2VUMU9mRk5wWEpCWk55cC1Gbk1hVWhLeGMwXzBJUEZLbDlyc21hTXE1NVlwcVJpVGlB?oc=5",
+      "date": "Fri, 09 Oct 2026 14:03:02 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "New Music Friday: Jessie Reyez, Carín León, Ryan Castro, Tokischa, Zulia, Kany García, and more - HOLA",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaXcwTnZLbE1vYzh5c2d0VUVzZWJvMzJNbDZhS2RLLWZQMVVPZ004UC1kNnNYMFRzakdGdHNZdnFyQ05nU3RSQWdWY3QxblVGN1FnU0pBT0s1MXZVanZmOVVJeXhENUlhdkFwN3pnRmxycFJXSmJ2Wkd3VEp0cDh5X3RHSzM5ak0?oc=5",
+      "date": "Fri, 09 Oct 2026 13:51:08 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Power Trip Share First New Music Since Death Of Riley Gale: Listen - Stereogum",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQREw4YlBwU0JxQ3JiTjJuY2V5Q2dsTk8yQUg0bHVqY0cxS2FuX3NzX2FtZl9OZkUtajBiTFdZX2JwOV9CQXRNWDJpV0FJeHB4aFd6ZzU5S0owMEs2M3U4cEJKN1UtM20tTUJFVHZVYy1Na05kWmZmWnRXWGprYXVmRkhweVdTcDlJd0Y5YThLcFdCYnNabVF5aWd3?oc=5",
+      "date": "Fri, 09 Oct 2026 13:51:00 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "The Best R&B Album Race at 2027 Grammys Should Include New and Legacy Voices - Rolling Stone",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaWV4Y3dieFZzQmtSRkJrUmhFNHFEWF9aZWdNRTVuZGtPdkdic0x5dXNnS20wZV80QnM5SWJubzdWejZnOFg2MHBhb0FyR3o2bHdlempJWV9PSk5jX2JXUnpkcWVoTm5QNXhFNk9DUXZPMTRpTXBYckpZQ0NzLVg3Ty15U055YlBON1VGb1RuY3o3bzBMUENTSUc2S3o5TTh0XzM2czN5RTZNR0VyMmc?oc=5",
+      "date": "Fri, 09 Oct 2026 13:48:26 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "James McAvoy Talks New Movie Based on Real-Life Hip Hop Hoax - TODAY.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTlVUYVNjZGUwTkRjckIzQWlhOTRuNEtoVURJdjBkNER4OGpnLXNfTTNuQnl2SkxsMkV2bGpFUi00ME1LWWpQZi1zUDNreHIwMi00QU5zV1d1RUYxRTZCVHB0WGM0eWVMaFpFUkk1el8wbGM5WXV2X1UtTHJPX21pZnZ4MFhsQ2RvRU1MMFNfUkF1ZV8yT29SdGdBSlJ5ekQ0ZjZCeU5jTQ?oc=5",
+      "date": "Fri, 09 Oct 2026 13:39:46 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "New Music | Friday Roll Out: Death Valley Girls, Imperial Teen - Ghettoblaster Magazine",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZFQtXzJOVHNid09LYl94N3JSc3ZHbjhmQ2s0SGdVMjJXRUxwY29UNzdQbFJETGtDakpoU3pGMnpZZER4WmpURy1QMU96X3JlczhLaFpqQXZLemhTSmZPTWVxQWpCamNSNmt0NTFKdjQxOHM2TDhDUGdFdGt5TFZSOVVMZzdERkF0R1VaVzRRTXRTWVYwRmJR?oc=5",
+      "date": "Fri, 09 Oct 2026 13:24:24 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Vermont hip hop band pens tune about online relationship - Vermont Public",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObXVudF82dEx6MzAwQURvLWdwMUt5blhORERtY1otLXRVUU9Db0p0WUhkbHlMNmQyZUZOaFlFWGpSNzQ0bGd4QnJ5azJkUWRncXBuMnhBUjEwWWNsMHdEV053dVdPY1g4S2pRdFZhM2NpbVdlNHJzdlU3WVVWSXZnbDQtbXZhb2VzbTc2WW9lRUhlTjZuck0ycE9sRW1GZHowM3czRUJoV1V4S2Zn?oc=5",
+      "date": "Fri, 09 Oct 2026 09:00:00 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Legendary R&B group’s founding member dead at 90: ‘One of the greatest’ - PennLive.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQUdTcUpnSDdsNm1VUFJkYjNWVmhWOWVxOWVBcXlXZE5oMGVIMkpta2tZcTFKS1d6WmY1R1JSajZqWG15SlRNMVM0dnotbkxwSTdMQV9OR2JGY0dXWFExVjlkZVZwendGVzFmZGFvbnowTXF5WHF0OWtodUY4TjhZMWhNSVhYamNCeUZNd0NDbFI2d0J4U0VBdXctLTRKbk9DWmFfU0lRaW9WTjBFYlp6T3RjdmlrWHBTdlHSAc4BQVVfeXFMTmh2azVuQk1UaXhVMFJ3Sk5GOV9OV01RVkZPdWswQlBGMHEyalpCZnBrVFM5UlloRWJrQS10NS1KQXlvRGM2dlFCRzRpOG5aeHNtb0FBQ3FDUjZ1QjhIa2FVX0V0NHlFanZZY0Q3OXZzeURYNXE4b1ZHOGV1blBFVUJ2b1lWUXpGWG04eFNHY29ha2hnRWZQOEFBOTRDNDFDclNFVVBNU2N0TXVoTk5zR05vZmRfUTRVTmczLVdLeVNVOVpkX2YxQU5fX2V1OHc?oc=5",
+      "date": "Fri, 09 Oct 2026 09:00:00 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "New Music Friday: Jamie T, Troye Sivan, Pitbull, Cameron Winter, Pet Shop Boys, Cat Burns and more - Official Charts",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YUndxTnZiOTB4SUtfdmNTcjVYQUN6eHBDWHJ1ZW9fNHZKX0Z5ZDRmNUFGelk1RHVGZGlWa2l2V0xkOFlTTHFzN3JhZ005YjNHaHYyTmhBQlJ0Nzh4V1BwdGhFN1lIUDVBYk9KUDN2QXBwd0FfTWtUTlpwekxadUE?oc=5",
+      "date": "Fri, 09 Oct 2026 07:13:53 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Best New Music This Week: Cardi B Drops “Don’t Chart” Off GTA VI Soundtrack, Gunna Releases “Pop It,” Vince Staples, And More - Essence",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tT3pkN0VlZ3RNQ295OFJhZkxTRUg1akVROUZ2cktaSk02TlJfQnU0ZFJjd0RpV3NEUGFHckRMQy1Vb0JQdzRIWUlKM2luLUlKSnlOa0hoZlYwSnhzclhOTDRrNVVPQVpjV2l3alNHUlM5WVpYRHRPZ2p3?oc=5",
+      "date": "Fri, 09 Oct 2026 06:12:08 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Real Hip-Hop Was In The Building At The 1st Annual Hudson River Hip-Hop Festival - Black Westchester",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPY1JwYTlpNWMxZDhqTGVxNGR0dWNqckw0X0dCUHJUS3czSTlFXzZJVzhleHNPcFpybmxtLXBoWjc1bFNZNEVHNjlMQ01hbVJTYTUycW81N09jOUJhWEMwMTEtN2lITzJWSUtsWk9salY4Y0R0MEpqZ2JYdk80ZVNGaE9yenhMQ3UyelRkdG5jSlpKWXhiVDdZY3MtQVY0dWE3NWlIbzBZVC15d2kxcWRR?oc=5",
+      "date": "Fri, 09 Oct 2026 05:02:24 GMT",
+      "source": "Google News — Hip-Hop"
     },
     {
       "title": "Troye Sivan Shares His “Gayest Music Video” for “FF”",
@@ -297,312 +603,6 @@
       "url": "https://pitchfork.com/story/deafheaven-surprise-release-new-ep-at-work-in-the-fields-of-the-bomb/",
       "date": "Fri, 09 Oct 2026 04:11:14 +0000",
       "source": "Pitchfork"
-    },
-    {
-      "title": "Grimes Shares First Song From AI-Inspired Album Psy Opera",
-      "url": "https://pitchfork.com/story/grimes-shares-first-song-from-ai-inspired-album-psy-opera/",
-      "date": "Fri, 09 Oct 2026 04:08:07 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Power Trip Return With First Songs Since Death of Riley Gale",
-      "url": "https://pitchfork.com/story/power-trip-return-with-first-songs-since-death-of-riley-gale/",
-      "date": "Fri, 09 Oct 2026 04:01:48 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Loretta Lynn’s Van Lear Rose Is Returning to Streaming",
-      "url": "https://pitchfork.com/story/loretta-lynns-van-lear-rose-is-returning-to-streaming/",
-      "date": "Thu, 08 Oct 2026 17:21:59 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Watch Audrey Hobert Talk to a Redwood Tree in New “Phoebe” Video",
-      "url": "https://pitchfork.com/story/audrey-hobert-phoebe-video/",
-      "date": "Thu, 08 Oct 2026 17:15:07 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "David Byrne and Daniel Pemberton Made a Song Using Weird Elon Musk Quotes",
-      "url": "https://pitchfork.com/story/david-byrne-and-daniel-pemberton-made-a-song-using-weird-elon-musk-quotes/",
-      "date": "Thu, 08 Oct 2026 16:53:33 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Björk Announces New Orchestral Live Album",
-      "url": "https://pitchfork.com/story/bjork-announces-new-orchestral-live-album/",
-      "date": "Thu, 08 Oct 2026 15:43:27 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Turnstile Announce Free Show to Raise Funds for Palestine, Sudan, and Lebanon",
-      "url": "https://pitchfork.com/story/turnstile-announce-free-show-to-raise-funds-for-palestine-sudan-and-lebanon/",
-      "date": "Thu, 08 Oct 2026 14:12:17 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Grouper’s Liz Harris Shares 21-Minute Composition",
-      "url": "https://pitchfork.com/story/groupers-liz-harris-shares-21-minute-composition/",
-      "date": "Thu, 08 Oct 2026 14:09:00 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "GTA VI Radio Stations to Be Hosted by Lana Del Rey, Bad Bunny, Robyn",
-      "url": "https://pitchfork.com/story/gta-vi-radio-station-hosts-bad-bunny-rainao-lana-del-rey-robyn/",
-      "date": "Thu, 08 Oct 2026 14:05:05 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Andrew Savage Launches New Band Iconic Fugues With “2025 Dream/2025 Blues”",
-      "url": "https://pitchfork.com/story/andrew-savage-launches-new-band-iconic-fugues-with-2025-dream-2025-blues/",
-      "date": "Thu, 08 Oct 2026 11:24:29 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "The War on Drugs’ Robbie Bennett Sets Two New Solo Albums",
-      "url": "https://pitchfork.com/story/the-war-on-drugs-robbie-bennett-sets-two-new-solo-albums/",
-      "date": "Wed, 07 Oct 2026 22:35:31 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "You Can Now Get a Jimmy Eat World Library Card",
-      "url": "https://pitchfork.com/story/jimmy-eat-world-library-card/",
-      "date": "Wed, 07 Oct 2026 21:42:18 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Watch American Football Combine “Never Meant” and the Cure’s “Boys Don’t Cry”",
-      "url": "https://pitchfork.com/story/watch-american-football-combine-never-meant-and-the-cures-boys-dont-cry/",
-      "date": "Wed, 07 Oct 2026 17:50:49 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Man Sentenced to Prison for Bot Streams of AI Songs",
-      "url": "https://pitchfork.com/story/man-sentenced-to-prison-for-bot-streams-of-ai-songs/",
-      "date": "Wed, 07 Oct 2026 17:46:36 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Undeath Sign to Relapse and Share New Song",
-      "url": "https://pitchfork.com/story/undeath-sign-to-relapse-and-share-new-song/",
-      "date": "Wed, 07 Oct 2026 16:58:54 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Paul McCartney Releases Three New Songs",
-      "url": "https://pitchfork.com/story/paul-mccartney-releases-three-new-songs/",
-      "date": "Wed, 07 Oct 2026 14:41:16 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Watch Twisted Teens Play in the Trash in Their New Music Video",
-      "url": "https://pitchfork.com/story/watch-twisted-teens-play-in-trash-in-new-stalks-video/",
-      "date": "Wed, 07 Oct 2026 14:38:36 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Star Moles Signs to Dead Oceans, Readies 2027 Tour",
-      "url": "https://pitchfork.com/story/star-moles-signs-to-dead-oceans-readies-2027-tour/",
-      "date": "Wed, 07 Oct 2026 14:09:50 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "13 Record Store Day Releases Actually Worth Getting on Black Friday",
-      "url": "https://pitchfork.com/story/15-record-store-day-releases-actually-worth-getting-on-black-friday/",
-      "date": "Tue, 06 Oct 2026 20:26:41 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Anna Meredith Announces New Album Darling",
-      "url": "https://pitchfork.com/story/anna-meredith-announces-new-album-darling/",
-      "date": "Tue, 06 Oct 2026 17:41:54 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "The Comet Is Coming Unearth Archival Songs for Channel the Spirits Reissue",
-      "url": "https://pitchfork.com/story/the-comet-is-coming-unearth-archival-songs-for-channel-the-spirits-reissue/",
-      "date": "Tue, 06 Oct 2026 17:01:29 +0000",
-      "source": "Pitchfork"
-    },
-    {
-      "title": "Drake Reveals &#8216;Iceman&#8217; Release Date After Epic Ice Structure Stunt",
-      "url": "https://hiphopdx.com/news/drake-iceman-release-date/",
-      "date": "Wed, 22 Apr 2026 07:58:51 +0000",
-      "source": "HipHopDX"
-    },
-    {
-      "title": "Drake Hides &#8216;Iceman&#8217; Release Date In Huge Toronto Ice Structure",
-      "url": "https://hiphopdx.com/news/drake-iceman-release-date-ice-sculpture-toronto/",
-      "date": "Tue, 21 Apr 2026 09:20:15 +0000",
-      "source": "HipHopDX"
-    },
-    {
-      "title": "New Music Friday: Ludacris, 6LACK &#038; 2 Chainz, Sexyy Red, Yasiin Bey &#038; More",
-      "url": "https://hiphopdx.com/news/new-music-friday-ludacris-6lack-2-chainz-sexyy-red-yasiin-bey/",
-      "date": "Fri, 17 Apr 2026 12:48:14 +0000",
-      "source": "HipHopDX"
-    },
-    {
-      "title": "Isaiah Rashad Reveals &#8216;It&#8217;s Been Awful&#8217; Tracklist Feat. SZA &#038; More",
-      "url": "https://hiphopdx.com/news/isaiah-rashad-its-been-awful-tracklist-features/",
-      "date": "Wed, 15 Apr 2026 09:21:03 +0000",
-      "source": "HipHopDX"
-    },
-    {
-      "title": "Wu-Tang Clan To Be Inducted Into Rock &#038; Roll Hall of Fame",
-      "url": "https://hiphopdx.com/news/wu-tang-clan-rock-roll-hall-fame/",
-      "date": "Tue, 14 Apr 2026 12:48:47 +0000",
-      "source": "HipHopDX"
-    },
-    {
-      "title": "Afrika Bambaataa Dies At 68",
-      "url": "https://hiphopdx.com/news/afrika-bambaataa-dead-cancer/",
-      "date": "Fri, 10 Apr 2026 14:19:19 +0000",
-      "source": "HipHopDX"
-    },
-    {
-      "title": "New Music Friday: Isaiah Rashad, Gucci Mane, Doechii, Snoop Dogg, DJ Khaled &#038; More",
-      "url": "https://hiphopdx.com/news/new-music-friday-isaiah-rashad-gucci-mane-doechii-snoop-dogg-dj-khaled-more/",
-      "date": "Fri, 10 Apr 2026 12:36:03 +0000",
-      "source": "HipHopDX"
-    },
-    {
-      "title": "Gucci Mane Disses Pooh Shiesty &#038; Big30 On &#8220;Crash Dummy&#8221;: Listen",
-      "url": "https://hiphopdx.com/news/gucci-mane-crash-dummy-pooh-shiesty-diss/",
-      "date": "Fri, 10 Apr 2026 09:02:10 +0000",
-      "source": "HipHopDX"
-    },
-    {
-      "title": "Kanye West Claims Nobody Can Beat Him In A Verzuz Battle",
-      "url": "https://hiphopdx.com/news/kanye-west-verzuz-battle-nobody-beats-him/",
-      "date": "Wed, 08 Apr 2026 12:28:06 +0000",
-      "source": "HipHopDX"
-    },
-    {
-      "title": "Isaiah Rashad Announces New Album &#8216;It&#8217;s Been Awful&#8217;",
-      "url": "https://hiphopdx.com/news/isaiah-rashad-its-been-awful-new-album/",
-      "date": "Tue, 07 Apr 2026 17:46:25 +0000",
-      "source": "HipHopDX"
-    },
-    {
-      "title": "Kanye West Banned From UK, Forcing Wireless Festival To Cancel",
-      "url": "https://hiphopdx.com/news/kanye-west-uk-ban-wireless-festival-canceled/",
-      "date": "Tue, 07 Apr 2026 14:36:05 +0000",
-      "source": "HipHopDX"
-    },
-    {
-      "title": "Jay Electronica Jumps Into Crowd &#038; Confronts Fans For Booing Him At L.A. Show: &#8220;They P*ssy!&#8221;",
-      "url": "https://hiphopdx.com/news/jay-electronica-jumps-crowd-booed-la-show/",
-      "date": "Mon, 06 Apr 2026 16:19:28 +0000",
-      "source": "HipHopDX"
-    },
-    {
-      "title": "Kanye West&#8217;s &#8216;Bully&#8217; First-Week Sales Are In As Deluxe Edition Nears",
-      "url": "https://hiphopdx.com/news/kanye-west-bully-sales-billboard-chart/",
-      "date": "Mon, 06 Apr 2026 14:25:24 +0000",
-      "source": "HipHopDX"
-    },
-    {
-      "title": "Pooh Shiesty Arrested For Allegedy Robbing &#038; Kidnapping Gucci Mane At Gunpoint",
-      "url": "https://hiphopdx.com/news/pooh-shiesty-arrested-gucci-mane-robbery-kidnap/",
-      "date": "Fri, 03 Apr 2026 12:39:51 +0000",
-      "source": "HipHopDX"
-    },
-    {
-      "title": "The Lil Mouse Interview: Being the “King Of Drill”, Lil Durk Beef?, Getting Shot & More",
-      "url": "https://soundcloud.com/nojumper/the-lil-mouse-interview-being-the-king-of-drill-lil-durk-beef-getting-shot-more",
-      "date": "Fri, 13 Aug 2021 20:06:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "The Wallie The Sensei Interview: Bompton to Balabasas, 03 Greedo Influence, Karate & More",
-      "url": "https://soundcloud.com/nojumper/the-wallie-the-sensei-interview-bompton-to-balabasas-03-greedo-influence-karate-more",
-      "date": "Thu, 12 Aug 2021 19:51:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "At The End of The Day Ep. 45",
-      "url": "https://soundcloud.com/nojumper/at-the-end-of-the-day-ep-45",
-      "date": "Thu, 12 Aug 2021 17:51:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "The Jap5 Interview: Growing up Hoover, Prison Time, Crip Mac Beef & More",
-      "url": "https://soundcloud.com/nojumper/the-jap5-interview-growing-up-hoover-prison-time-crip-mac-beef-more",
-      "date": "Wed, 11 Aug 2021 19:59:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "The No Jumper Show Ep. 107",
-      "url": "https://soundcloud.com/nojumper/the-no-jumper-show-ep-107",
-      "date": "Wed, 11 Aug 2021 07:46:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "The Danny Diablo Interview: Hardcore Roots, starting Skarhead & DMS, Attempted Murder Arrest & More",
-      "url": "https://soundcloud.com/nojumper/the-danny-diablo-interview-hardcore-roots-starting-skarhead-dms-attempted-murder-arrest-more",
-      "date": "Mon, 09 Aug 2021 21:21:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "The Suga Sean O'Malley Interview: UFC, Weed, SteveWillDoIt, Influencer Boxing & More",
-      "url": "https://soundcloud.com/nojumper/the-suga-sean-omalley-interview-ufc-weed-stevewilldoit-influencer-boxing-more",
-      "date": "Thu, 05 Aug 2021 20:10:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "At The End of The Day Ep. 44",
-      "url": "https://soundcloud.com/nojumper/at-the-end-of-the-day-ep-44",
-      "date": "Thu, 05 Aug 2021 08:08:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "The Lou Ratchett Interview: Hood Comedy, Having a Hot Mom, Pittsburgh Crippin & More",
-      "url": "https://soundcloud.com/nojumper/the-lou-ratchett-interview-hood-comedy-having-a-hot-mom-pittsburgh-crippin-more",
-      "date": "Wed, 04 Aug 2021 18:50:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "The No Jumper Show Ep. 106",
-      "url": "https://soundcloud.com/nojumper/the-no-jumper-show-ep-106",
-      "date": "Wed, 04 Aug 2021 18:04:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "The Sharp Interview: Soft White Underbelly, Pimping, Simps, Onlyfans & More",
-      "url": "https://soundcloud.com/nojumper/the-sharp-interview-soft-white-underbelly-pimping-simps-onlyfans-more",
-      "date": "Tue, 03 Aug 2021 21:12:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "The Bricc Baby Interview: 4 Years in LA County Jail, Rolling' 60s, Starting MPA & More",
-      "url": "https://soundcloud.com/nojumper/the-bricc-baby-interview-4-years-in-la-county-jail-rolling-60s-starting-mpa-more",
-      "date": "Mon, 02 Aug 2021 19:56:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "The ENRGY Beats Interview: Creating the Flint Sound, Rio Da Yung OG, EST Gee & More",
-      "url": "https://soundcloud.com/nojumper/the-enrgy-beats-interview-creating-the-flint-sound-rio-da-yung-og-est-gee-more",
-      "date": "Fri, 30 Jul 2021 20:31:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "At The End of The Day Ep. 43",
-      "url": "https://soundcloud.com/nojumper/at-the-end-of-the-day-ep-43",
-      "date": "Thu, 29 Jul 2021 08:09:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "The No Jumper Show Ep. 105",
-      "url": "https://soundcloud.com/nojumper/the-no-jumper-show-ep-105",
-      "date": "Wed, 28 Jul 2021 15:55:00 -0000",
-      "source": "No Jumper"
-    },
-    {
-      "title": "The Lil Scrappy Interview: Fatherhood, Life Changing Car Accident, BMF, COVID & More",
-      "url": "https://soundcloud.com/nojumper/the-lil-scrappy-interview-fatherhood-life-changing-car-accident-bmf-covid-more",
-      "date": "Tue, 27 Jul 2021 19:57:00 -0000",
-      "source": "No Jumper"
     }
   ],
   "sources": [
@@ -625,11 +625,11 @@
       "tier": 2,
       "status": "ok",
       "stories": 20,
-      "bytes": 18720,
+      "bytes": 18852,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=8db2c3148b374fb48abf1bd06083ee6d benchma",
-      "latencyMs": 170
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=eb40210440c849f9bef9dfa32831cce6 benchma",
+      "latencyMs": 273
     },
     {
       "source": "HipHopDX",
@@ -640,18 +640,18 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 146
+      "latencyMs": 219
     },
     {
       "source": "AllHipHop",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 92195,
+      "bytes": 90485,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 753
+      "latencyMs": 765
     },
     {
       "source": "No Jumper",
@@ -662,39 +662,51 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 517
+      "latencyMs": 443
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 6568,
-      "error": "HTTP 503"
+      "status": "ok",
+      "stories": 102,
+      "bytes": 124513,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
+      "latencyMs": 443
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 6422,
-      "error": "HTTP 503"
+      "status": "ok",
+      "stories": 100,
+      "bytes": 126629,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
+      "latencyMs": 558
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 8001,
-      "error": "TIMEOUT"
+      "status": "ok",
+      "stories": 100,
+      "bytes": 120934,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
+      "latencyMs": 375
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 8001,
-      "error": "TIMEOUT"
+      "status": "ok",
+      "stories": 100,
+      "bytes": 124467,
+      "hasItemTag": true,
+      "hasEntryTag": false,
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
+      "latencyMs": 442
     },
     {
       "source": "Billboard",
@@ -705,18 +717,18 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 163
+      "latencyMs": 221
     },
     {
       "source": "Pitchfork",
       "tier": 1,
       "status": "ok",
-      "stories": 30,
-      "bytes": 22267,
+      "stories": 13,
+      "bytes": 9992,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 183
+      "latencyMs": 189
     },
     {
       "source": "Rolling Stone — Music",
@@ -727,7 +739,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 206
+      "latencyMs": 179
     },
     {
       "source": "Variety — Music",
@@ -738,21 +750,21 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 105
+      "latencyMs": 191
     }
   ],
-  "errorCount": 4,
+  "errorCount": 0,
   "acceptedBySource": {
     "TMZ": 20,
     "HipHopDX": 16,
     "AllHipHop": 10,
     "No Jumper": 40,
-    "Google News — Hip-Hop": 0,
-    "Google News — R&B": 0,
-    "Google News — New Music": 0,
-    "Google News — Colorado Music": 0,
+    "Google News — Hip-Hop": 40,
+    "Google News — R&B": 40,
+    "Google News — New Music": 40,
+    "Google News — Colorado Music": 40,
     "Billboard": 10,
-    "Pitchfork": 30,
+    "Pitchfork": 13,
     "Rolling Stone — Music": 10,
     "Variety — Music": 10
   }
