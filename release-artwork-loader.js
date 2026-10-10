@@ -76,7 +76,7 @@
     });
   }
 
-  function setArt(card, url, alt, kind = "release-artwork") {
+  function setArt(card, url, alt, kind = "release-artwork", fallbackUrl = null) {
     const safeUrl = String(url).replace(/["']/g, "");
     let img = card.querySelector(".release-cover");
     if (!img) {
@@ -107,7 +107,15 @@
       const label = [...card.querySelectorAll("span")].find(s => !s.classList.contains("release-image-kind"));
       if (label) label.style.opacity = "0";
     };
-    img.onerror = () => fallback(card, "image-request-failed");
+    let triedFallback = false;
+    img.onerror = () => {
+      if (!triedFallback && fallbackUrl && String(fallbackUrl) !== safeUrl) {
+        triedFallback = true;
+        img.src = String(fallbackUrl).replace(/["\']/g, "");
+        return;
+      }
+      fallback(card, "image-request-failed");
+    };
     card.dataset.imageStatus = "loading";
     card.dataset.imageLoader = "release-artwork-loader";
     img.src = safeUrl;
@@ -140,7 +148,7 @@
       if (data?.artwork && data?.verified && data.match &&
           same(data.match.artist, artist) &&
           (same(data.match.title, title) || same(data.match.album, title))) {
-        setArt(card, data.artwork, title + " by " + artist);
+        setArt(card, data.artwork, title + " by " + artist, "release-artwork", data.artworkFallback || null);
         return;
       }
 
