@@ -8,7 +8,7 @@
   const norm = s => String(s || "").toLowerCase().normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
 
-  async function fetchJson(url, timeoutMs = 9000) {
+  async function fetchJson(url, timeoutMs = 5500) {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), timeoutMs);
     try {
