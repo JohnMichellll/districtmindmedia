@@ -17,8 +17,8 @@ async function appleKnownId(artist,title){
  if(!id)return null;
  const d=await fetchJson("https://itunes.apple.com/lookup?id="+encodeURIComponent(id)+"&entity=song&country=US");
  const rows=Array.isArray(d?.results)?d.results:[];
- const hit=rows.find(x=>x.wrapperType==="track"&&norm(x.artistName)===norm(artist)&&norm(x.trackName)===norm(title)&&x.artworkUrl100);
- if(hit)return {artwork:hit.artworkUrl100.replace(/100x100/g,"1000x1000"),match:{artist:hit.artistName,title:hit.trackName,album:hit.collectionName||"",releaseDate:hit.releaseDate||null,apple:hit.trackViewUrl||null},source:"Apple Music catalog ID"};
+ const hit=rows.find(x=>x.wrapperType==="track"&&norm(x.artistName)===norm(artist)&&x.artworkUrl100&&(norm(x.trackName)===norm(title)||norm(x.trackName).startsWith(norm(title)+" ")));
+ if(hit)return {artwork:hit.artworkUrl100.replace(/100x100/g,"1000x1000"),match:{artist:hit.artistName,title,album:hit.collectionName||"",releaseDate:hit.releaseDate||null,apple:hit.trackViewUrl||null},source:"Apple Music catalog ID"};
  // Some pinned Apple Music IDs are collection IDs, not track IDs. Accept an exact artist
  // and a release title that begins with the requested title (e.g. "U - Single").
  const collection=rows.find(x=>(x.wrapperType==="collection"||x.collectionType)&&norm(x.artistName)===norm(artist)&&x.artworkUrl100&&(norm(x.collectionName||"")===norm(title)||norm(x.collectionName||"").startsWith(norm(title)+" ")));
