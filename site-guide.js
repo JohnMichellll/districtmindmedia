@@ -148,12 +148,6 @@
             <input id="dm-guide-input" type="search" autocomplete="off" placeholder="Try: Drake, JPEGMAFIA, Colorado story, new music…" aria-label="Search District Mind Media">
             <button type="submit">Find It →</button>
           </form>
-          <div class="dm-guide-quick">
-            <button type="button" data-q="artist">Find an artist</button><button type="button" data-go="artist-registry.html">Artist Registry →</button>
-            <button type="button" data-q="article">Find an article</button>
-            <button type="button" data-q="new music">Find new music</button>
-            <button type="button" data-q="concerts">Concerts near you</button>
-          </div>
           <div id="dm-guide-status" class="dm-guide-status" aria-live="polite">SEARCH THE WHOLE DESK.</div>
           <div id="dm-guide-results" class="dm-guide-results"></div>
           <div class="dm-guide-help"><strong>Still lost?</strong><span>Start with <a href="artists.html">Artist Hub</a> for a person, <a href="newsroom.html">Newsroom</a> for a story, or <a href="releases.html">Releases</a> for music.</span></div>
