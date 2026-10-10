@@ -1,68 +1,68 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-10T01:13:44.917Z
+Generated: 2026-10-10T01:44:23.191Z
 
-Status: READY_FOR_EDITOR
+Status: DEGRADED
 
-Stories discovered: 266
+Stories discovered: 124
 
-1. **Ticketmaster announces cancellation of Usher and Chris Brown's 'The R&B Tour' concert at Lucas Oil Stadium - WTHR** — Google News — R&B — Sat, 10 Oct 2026 01:00:00 GMT
-   https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMjZHY3hwR1habmRaLUpYeVkzQkpRNG4yUHcwakY5YTE5UUYwa1U0N0ZfSGpBUVNQMTJXZE1GZ0F6RzY5Q1ZOVjNWaGhOUU10aHFPS3R2UEg1QVVHSkFhVkkwb2MxaGFoQWx0bmxjWm14QUhsdVhGUUEwbVZlNUdUMjI3ZUFfbjdNM2d6aWdCelBkOHVDS3VUNVBUN3dUam9rNnl5UlQ4NkRkT0Y2SlBGRHBOUzdQM2R3Zklxam9EbFNpamZndEhFNk8zSDMzM1lGRHZrNnp4VG42RHZ4NkhtcTlobkZ1UkVPcUVUQjB0Q1Y?oc=5
+1. **Interscope Claims Summer Walker Will Owe $50 Million if She Walks Away From Record Deal** — Rolling Stone — Music — Sat, 10 Oct 2026 01:25:55 +0000
+   https://www.rollingstone.com/music/music-news/summer-walker-record-deal-interscope-lawsuit-1235640766/
 2. **Kanye West Reportedly Collects $20M As Russian Ticket Buyers Seek Refunds** — AllHipHop — Sat, 10 Oct 2026 00:02:56 +0000
    https://allhiphop.com/news/kanye-west-reportedly-collects-20m-as-russian-ticket-buyers-seek-refunds/
-3. **‘JAŸ-Z in 8’ Finale: 5 Things We Learned From Episodes 7 & 8 - Billboard** — Google News — Hip-Hop — Sat, 10 Oct 2026 00:00:45 GMT
-   https://news.google.com/rss/articles/CBMikwFBVV95cUxQaWFveUVZQWN2UGtDLU8xNGdFZUZqOVotMUNESGhuX3ZTczd4b2JSZm0tSlZyYWlkNnNHd3ZpWl8yV0FPSlBYVndIRjg2YmdKZUQ5ZW5JX241cTMtWVkzT08zVWgzSy10RnVXUE40cGxTOGxVMnFDWTJQN0xvV3FEdFlYSjNKOHBLX3o5WklIM1RVbDQ?oc=5
-4. **‘JAŸ-Z in 8’ Finale: 5 Things We Learned From Episodes 7&#160;&#038; 8** — Billboard — Sat, 10 Oct 2026 00:00:00 +0000
+3. **‘JAŸ-Z in 8’ Finale: 5 Things We Learned From Episodes 7&#160;&#038; 8** — Billboard — Sat, 10 Oct 2026 00:00:00 +0000
    https://www.billboard.com/lists/jay-z-in-8-finale-review-episodes-7-8-rick-rubin-hbo-max/
-5. **Usher, Chris Brown concert scheduled for Paycor Stadium canceled - WCPO 9 News** — Google News — R&B — Fri, 09 Oct 2026 23:59:35 GMT
-   https://news.google.com/rss/articles/CBMivgFBVV95cUxPYXZPcVl2S25iRjlxMmprS0htZWp2NDVfTDFBLXpuUGlhUnVRQmsxcDhCUUw3TFZEeEF1TmYyNFNZQlg1d1B1MG85V0NMaGFoLXQ2Q1VOYTZtWFdrY01UZlh6em9LUFc5cGh4c0dRTU1NSkZscHJZRmFTOWhLeEVIamd0REtmYXMwcUJiMDh3NWJlaHlPSHpvQmg3ck1uRXg3RXQxcGJkZXlSTVlRVDBmOGtVYTVFRXZ0TS1HUWpn?oc=5
-6. **Gunna Launches SB The Label Imprint &#038; Releases &#8216;Pop It&#8217; Video With Tennis Star Coco Gauff: &#8216;A New Chapter for&#160;Me&#8217;** — Billboard — Fri, 09 Oct 2026 23:21:57 +0000
+4. **Gunna Launches SB The Label Imprint &#038; Releases &#8216;Pop It&#8217; Video With Tennis Star Coco Gauff: &#8216;A New Chapter for&#160;Me&#8217;** — Billboard — Fri, 09 Oct 2026 23:21:57 +0000
    https://www.billboard.com/music/rb-hip-hop/gunna-sb-label-pop-it-coco-gauff-1236358460/
-7. **New Music You Shouldn’t Miss - TheStranger.com** — Google News — New Music — Fri, 09 Oct 2026 23:15:28 GMT
-   https://news.google.com/rss/articles/CBMickFVX3lxTE1HQWhVcDJ1NXJxNEI1MEhES1VRV1h5ZVJKd19GanVHR0UwOVdUNDJxbklPYlNlNldIbGV3UE5pM1kwZ2JGNzBWR0pVWmg2ZWl6ZG1kZmZucDd0Wi0xVUkyR2xaR3huU3B6UVZiV0R3ZTl6QQ?oc=5
-8. **50 Cent Jokes That Jay-Z Will Perform at His Future Wedding &#8212; Kanye Too, &#8216;If He&#8217;s Not Banned at the&#160;Time&#8217;** — Billboard — Fri, 09 Oct 2026 23:10:10 +0000
+5. **50 Cent Jokes That Jay-Z Will Perform at His Future Wedding &#8212; Kanye Too, &#8216;If He&#8217;s Not Banned at the&#160;Time&#8217;** — Billboard — Fri, 09 Oct 2026 23:10:10 +0000
    https://www.billboard.com/music/rb-hip-hop/50-cent-jay-z-kanye-wedding-performers-1236358464/
-9. **Summer Walker in Legal Dispute With Interscope Over Record&#160;Deal** — Billboard — Fri, 09 Oct 2026 22:56:15 +0000
+6. **Summer Walker in Legal Dispute With Interscope Over Record&#160;Deal** — Billboard — Fri, 09 Oct 2026 22:56:15 +0000
    https://www.billboard.com/pro/summer-walker-legal-dispute-interscope-record-deal/
-10. **Concert featuring Usher, Chris Brown at Paycor Stadium canceled - WLWT** — Google News — R&B — Fri, 09 Oct 2026 22:47:46 GMT
-   https://news.google.com/rss/articles/CBMikAFBVV95cUxOTWxLVkJpb1RjLUZWZmltQnlkNnR3RTdSazNzVEh3WTRtMUhuWFJ6MVR6eVpPTTJjZEluQ3JGMU5BV3FtblhLbmlpQzNrRDVONXVYWkVsZzZpSWljeDBsbTE1S2xRMWdyTWppZ2ljQTJaVW81NU1KOWxEam5qMHdnU2ZrOGg3bWhaMlA1N1pNd0k?oc=5
-11. **Ella Langley Cancels Oklahoma Concert Hours Before Showtime Citing &#8216;Serious Security&#160;Threat&#8217;** — Billboard — Fri, 09 Oct 2026 22:38:19 +0000
+7. **Ella Langley Cancels Oklahoma Concert Hours Before Showtime Citing &#8216;Serious Security&#160;Threat&#8217;** — Billboard — Fri, 09 Oct 2026 22:38:19 +0000
    https://www.billboard.com/music/country/ella-langley-concert-canceled-tulsa-oklahoma-security-threat-1236358477/
-12. **Adéla Brings Sass, Vocals and Razor-Sharp Moves to Los Angeles&#8217; Fonda Theatre** — Variety — Music — Fri, 09 Oct 2026 22:34:05 +0000
+8. **Adéla Brings Sass, Vocals and Razor-Sharp Moves to Los Angeles&#8217; Fonda Theatre** — Variety — Music — Fri, 09 Oct 2026 22:34:05 +0000
    https://variety.com/2026/music/news/adela-brings-sass-vocals-razor-sharp-moves-la-fonda-theatre-1236907126/
-13. **MC Lars Discusses His Music and ‘The Edgar Allan Poe LP’ Expanded Edition - V13 Media** — Google News — Hip-Hop — Fri, 09 Oct 2026 22:20:22 GMT
-   https://news.google.com/rss/articles/CBMic0FVX3lxTE1BLV9vbFdBUnZST0VETEE4b3NlX1BjVEdIR0UxYklDOFlXVXhlTHJ1S005M2JmT0NYUUFURzVYQm02dnF5bm9NNGtCS2JtckxMdXIxU3FxQTdoSUNiYVZMdnZjVFVnN3RpUW5ScnlDM3RkTjg?oc=5
-14. **Willie Nelson, Yo La Tengo Endorse James Talarico** — Pitchfork — Fri, 09 Oct 2026 21:54:32 +0000
+9. **Willie Nelson, Yo La Tengo Endorse James Talarico** — Pitchfork — Fri, 09 Oct 2026 21:54:32 +0000
    https://pitchfork.com/story/willie-nelson-yo-la-tengo-endorse-james-talarico/
-15. **Brandy Heading to Africa to Headline Flytime’s House of R&B Concert for Lagos’ Detty December - Billboard** — Google News — R&B — Fri, 09 Oct 2026 21:49:58 GMT
-   https://news.google.com/rss/articles/CBMipgFBVV95cUxQWHA0X2FzNE5EeHZCLVFWemYzLU01bE85Rl9SN1VOWGRYeFRzbmVyQ1ZPUERVR2tRaDJTWGt0Q0dKQTZsZjd4RzVzcG9OUDBNNjRjRVV4QlN0YW1ybWw2dl9BR29YLXZHRnBrTzc5dkc0OVdPdVpGb2o3TTRaYnBqWFVzc1h3dGc2UEEzY1FBbUZCbWlqYktITHBYai0ySXE5UUFXUVhR?oc=5
-16. **Brandy Heading to Africa to Headline Flytime’s House of R&B Concert for Lagos’ Detty December - Yahoo** — Google News — R&B — Fri, 09 Oct 2026 21:49:28 GMT
-   https://news.google.com/rss/articles/CBMipwFBVV95cUxON09Id2dsd09CNjNnUkR2RlE2NV9fNW13OVQ4U2lfLXhfSWMzalRKR0w4dU9vUXRvbGxnc2czYTdQSi1DSFVXRjhFdWtOX0xJTFh5SXlhOXNRTHlTSVBtcFlvTXkyeF9iOW1iYmNzemM4TzNVdW5Zd0lBTktyOWc1aTk2alBuZzlGcC1Ed1dFdzNEc3A0T0YxOU40NUpmNjZKUmJOaUN1bw?oc=5
-17. **Brandy Heading to Africa to Headline Flytime&#8217;s House of R&#038;B Concert for Lagos&#8217; Detty&#160;December** — Billboard — Fri, 09 Oct 2026 21:49:28 +0000
+10. **Brandy Heading to Africa to Headline Flytime&#8217;s House of R&#038;B Concert for Lagos&#8217; Detty&#160;December** — Billboard — Fri, 09 Oct 2026 21:49:28 +0000
    https://www.billboard.com/music/rb-hip-hop/brandy-flytime-house-of-rb-concert-lagos-nigeria-1236358381/
-18. **ADÉLA Reunites With KATSEYE Members &#038; Owns the Stage at Red Bottoms Tour Stop in LA: Exclusive&#160;Photos** — Billboard — Fri, 09 Oct 2026 21:44:54 +0000
+11. **ADÉLA Reunites With KATSEYE Members &#038; Owns the Stage at Red Bottoms Tour Stop in LA: Exclusive&#160;Photos** — Billboard — Fri, 09 Oct 2026 21:44:54 +0000
    https://www.billboard.com/photos/adela-los-angeles-concert-photos-katseye-fonda-1236358300/
-19. **Audio Adrenaline’s Mark Stuart Teases New Music Using AI To Recreate His Voice - ChurchLeaders** — Google News — New Music — Fri, 09 Oct 2026 21:35:35 GMT
-   https://news.google.com/rss/articles/CBMilwFBVV95cUxQRzQwVlBXQk5UVFppVndyT3ZZNU94aDd3b0FORFVROVhEcVpOSXBYMXo3YkE2ak9DNGRqdmVBc1I0SjFPbU9CeVlhNGJkazVUNUQ5QnhtbEtPV1JsMXg0clRHY2ttZlJGSE9ITGQzQi1rMU90alRtYWhrZnc3WVRGamFtTkJmWC1kTWZUS3FkcWhZWk1CaGFJ?oc=5
-20. **Daisuke Ashihara&#8217;s &#8216;World Trigger&#8217; Vol. 30 Tops Billboard Japan Book Hot 100 as Comics Sweep Top&#160;10** — Billboard — Fri, 09 Oct 2026 21:33:22 +0000
+12. **Daisuke Ashihara&#8217;s &#8216;World Trigger&#8217; Vol. 30 Tops Billboard Japan Book Hot 100 as Comics Sweep Top&#160;10** — Billboard — Fri, 09 Oct 2026 21:33:22 +0000
    https://www.billboard.com/music/chart-beat/daisuke-ashihara-world-trigger-vol-30-japan-book-hot-100-1236358444/
-21. **Hip-Hop Organizers Engage Young Black Voters Beyond Election Day - Capital B Gary** — Google News — Hip-Hop — Fri, 09 Oct 2026 21:31:50 GMT
-   https://news.google.com/rss/articles/CBMic0FVX3lxTE9rWjZkS09SNzZ5RmRrWFlwU3Y5OUJoUWM0a0E5Qm9IS29PT0J6b3R3dDBwU3pJbGdQYks0X1dwWVhYMjczV0VRVW96TkFvN3oxUmhXMUV1NHFzM3VYbjhIX0Ntd1ZWN0l5cmhoSThMRzhBMkU?oc=5
-22. **Usher, Chris Brown concert at Williams-Brice Stadium canceled - WIS News 10** — Google News — R&B — Fri, 09 Oct 2026 21:29:00 GMT
-   https://news.google.com/rss/articles/CBMilgFBVV95cUxQWnNrZmFNTGZlVTlXVkxGOENLcTdBUmd5c3B1cHhEY1ZLMmdja0dwejFfRC14eEt5c0YwSk9vN0pHaGplNUZlcmZHa0E2Y0hSZTRiSjItTGQzUC1kRGRuRkx4ZTJZcmhuYVlIS3I0VW9BaGFlek9vSWM4cmI4S2pHU3dNbDllcDhlemlJWTlDMUZYQmVXaFHSAaoBQVVfeXFMUGkwTzlsT1BXcmtqOV9kUFk5Y1RaVTBmc2pLTk9sMURSMVJtaTdFdnl0TkFvck9kZDFOcHNyR05ya3pzT0hBT25WQzlzakZsbmlLSjZPbFlMUkR3bUhWXzdVVXh3WTdiQ01NbkkxYVBpQnBIYlZSa1F3c0NnZEhXckNFZ1RQck5wZG1pLXB5VDhlbWtYektMNTVBTm1qVE1GemlxTTdrMlkwUUE?oc=5
-23. **Gunna Leaves YSL &#038; Starts His Own Label** — AllHipHop — Fri, 09 Oct 2026 21:18:35 +0000
+13. **Gunna Leaves YSL &#038; Starts His Own Label** — AllHipHop — Fri, 09 Oct 2026 21:18:35 +0000
    https://allhiphop.com/news/gunna-leaves-ysl-starts-his-own-label/
-24. **Eminem Revives His Slim Shady Flow On New EZ Mil Collabo** — AllHipHop — Fri, 09 Oct 2026 21:15:00 +0000
+14. **Eminem Revives His Slim Shady Flow On New EZ Mil Collabo** — AllHipHop — Fri, 09 Oct 2026 21:15:00 +0000
    https://allhiphop.com/news/eminem-revives-his-slim-shady-flow-on-new-ez-mil-collabo/
-25. **John Mayer Live at Sphere 2027: Here’s Where to Shop Affordable Tickets&#160;Online** — Billboard — Fri, 09 Oct 2026 21:13:24 +0000
+15. **John Mayer Live at Sphere 2027: Here’s Where to Shop Affordable Tickets&#160;Online** — Billboard — Fri, 09 Oct 2026 21:13:24 +0000
    https://www.billboard.com/culture/product-recommendations/john-mayer-live-sphere-2027-residency-tickets-buy-shop-1236358216/
-26. **Hit-Boy Says No Album Can Top ‘Watch The Throne’ Despite Kanye West’s Recent Claims - Hip-Hop Wired** — Google News — Hip-Hop — Fri, 09 Oct 2026 21:10:34 GMT
-   https://news.google.com/rss/articles/CBMid0FVX3lxTE8xSW1uaG5GeXliUFF6aTdjdlpsbWJ5NVRLZmlPYWIyODZLU0JWVUFjRW1QQ0xGWGZqTHZjRnNMaDV5bGlENFlGWnFtUHk5UG5rTDVaMG9wdmJWcTBNWFZZVUd6WWtNZXZockpYR2J5dzFEdm5tWVpr?oc=5
-27. **Troye Sivan Shares How He Got Nicole Kidman for &#8216;She&#8217;s the Best&#8217; Video (And What He Thinks of ADÉLA&#8217;s&#160;Hit)** — Billboard — Fri, 09 Oct 2026 21:09:33 +0000
+16. **Troye Sivan Shares How He Got Nicole Kidman for &#8216;She&#8217;s the Best&#8217; Video (And What He Thinks of ADÉLA&#8217;s&#160;Hit)** — Billboard — Fri, 09 Oct 2026 21:09:33 +0000
    https://www.billboard.com/music/music-news/troye-sivan-nicole-kidman-interview-1236358263/
-28. **Terrell Owens Sued Over Nolan Wells Post As Fight Over Teen&#8217;s Death Intensifies** — AllHipHop — Fri, 09 Oct 2026 21:02:00 +0000
+17. **Terrell Owens Sued Over Nolan Wells Post As Fight Over Teen&#8217;s Death Intensifies** — AllHipHop — Fri, 09 Oct 2026 21:02:00 +0000
    https://allhiphop.com/news/terrell-owens-sued-over-nolan-wells-post-as-fight-over-teens-death-intensifies/
-29. **Danielle Ponder Meshes Old-School Soul With Future Sounds on the Dazzling ‘Everything Has Changed’: Album Review** — Variety — Music — Fri, 09 Oct 2026 20:50:39 +0000
+18. **Danielle Ponder Meshes Old-School Soul With Future Sounds on the Dazzling ‘Everything Has Changed’: Album Review** — Variety — Music — Fri, 09 Oct 2026 20:50:39 +0000
    https://variety.com/2026/music/reviews/danielle-ponder-everything-has-changed-album-review-1236907098/
-30. **Mastodon Are Releasing Vinyl Containing Actual Mastodon Fossils** — Rolling Stone — Music — Fri, 09 Oct 2026 20:18:22 +0000
+19. **Mastodon Are Releasing Vinyl Containing Actual Mastodon Fossils** — Rolling Stone — Music — Fri, 09 Oct 2026 20:18:22 +0000
    https://www.rollingstone.com/music/music-news/mastodon-fossil-vinyl-release-1235640557/
+20. **Remi Wolf Announces 2027 North America Tour** — Pitchfork — Fri, 09 Oct 2026 19:29:28 +0000
+   https://pitchfork.com/story/remi-wolf-announces-north-america-tour/
+21. **The Decemberists Premiere First Song in Two Years** — Pitchfork — Fri, 09 Oct 2026 19:22:15 +0000
+   https://pitchfork.com/story/the-decemberists-new-song-the-better-part-of-bravery/
+22. **Lola Young, Caroline Polachek, Tinashe Lead Chappell Roan Benefit Shows** — Rolling Stone — Music — Fri, 09 Oct 2026 19:02:46 +0000
+   https://www.rollingstone.com/music/music-news/chappell-roan-super-graphic-spectacular-lineup-block-party-1235640489/
+23. **Lil Jon&#8217;s Famous &#8220;OK&#8221; Started With One Unexpected Studio Moment** — AllHipHop — Fri, 09 Oct 2026 19:02:00 +0000
+   https://allhiphop.com/news/lil-jons-famous-ok-started-with-one-unexpected-studio-moment/
+24. **Remi Wolf on the Meaning Behind Her New Album &#8216;Mud,&#8217; Her &#8216;Off Campus&#8217; Cameo and Friendship with Hayley Williams** — Variety — Music — Fri, 09 Oct 2026 18:32:30 +0000
+   https://variety.com/2026/music/news/remi-wolf-mud-off-campus-hayley-willians-1236906301/
+25. **Journey Drummer Deen Castronovo Leaves Concert After Two Songs and Is Hospitalized, as Show Eventually Resumes With Drum Tech** — Variety — Music — Fri, 09 Oct 2026 18:26:19 +0000
+   https://variety.com/2026/music/news/journey-drummer-deen-castronovo-leaves-concert-hospitalized-1236906851/
+26. **Alanis Morissette Is Dropping a Holiday Album** — Rolling Stone — Music — Fri, 09 Oct 2026 18:11:46 +0000
+   https://www.rollingstone.com/music/music-news/alanis-morissette-holiday-album-announcement-1235640402/
+27. **Slayyyter Confronts a Cheater in Self-Directed ‘I Think He’s Got a Girl’ Video** — Rolling Stone — Music — Fri, 09 Oct 2026 18:09:51 +0000
+   https://www.rollingstone.com/music/music-news/slayyyter-i-think-hes-got-a-girl-video-1235640278/
+28. **Laika Submits Original Song From &#8216;Wildwood&#8217; for Oscars, &#8216;The Better Part of Bravery,&#8217; Performed by The Decemberists (EXCLUSIVE)** — Variety — Music — Fri, 09 Oct 2026 18:00:00 +0000
+   https://variety.com/2026/artisans/awards/laika-wildwood-oscars-decemberists-better-part-of-bravery-1236906575/
+29. **Music Industry Moves: Believe Names Adriana Sein President of Americas; Guy Moot Joins NMPA Board** — Variety — Music — Fri, 09 Oct 2026 17:20:00 +0000
+   https://variety.com/2026/music/news/thomas-rhett-label-partnership-hybe-blue-highway-1236899774/
+30. **Air Supply Rocks on With World Tours, a New Album and a Star on the Hollywood Walk of Fame: ‘The Term Soft Rock Makes Me Sick’** — Variety — Music — Fri, 09 Oct 2026 17:18:10 +0000
+   https://variety.com/2026/music/focus/air-supply-hollywood-walk-fame-1236906736/
