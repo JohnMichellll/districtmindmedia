@@ -19,6 +19,19 @@ async function appleKnownId(artist,title){
  const hit=rows.find(x=>x.wrapperType==="track"&&norm(x.artistName)===norm(artist)&&norm(x.trackName)===norm(title)&&x.artworkUrl100);
  return hit?{artwork:hit.artworkUrl100.replace(/100x100/g,"1000x1000"),match:{artist:hit.artistName,title:hit.trackName,album:hit.collectionName||"",releaseDate:hit.releaseDate||null,apple:hit.trackViewUrl||null},source:"Apple Music catalog ID"}:null;
 }
+const knownAlbumIds={
+ "danielle ponder|everything has changed":"6790523443",
+ "dawn richard|creole culture":"6784811773",
+ "joyce wrice|machiko":"6804892827"
+};
+async function appleKnownAlbumId(artist,title){
+ const id=knownAlbumIds[norm(artist)+"|"+norm(title)];
+ if(!id)return null;
+ const d=await fetchJson("https://itunes.apple.com/lookup?id="+encodeURIComponent(id)+"&country=US");
+ const rows=Array.isArray(d?.results)?d.results:[];
+ const hit=rows.find(x=>(x.wrapperType==="collection"||x.collectionType)&&norm(x.artistName)===norm(artist)&&norm(x.collectionName||x.trackName)===norm(title)&&x.artworkUrl100);
+ return hit?{artwork:hit.artworkUrl100.replace(/100x100/g,"1000x1000"),match:{artist:hit.artistName,title:hit.collectionName||hit.trackName,album:hit.collectionName||hit.trackName,releaseDate:hit.releaseDate||null,apple:hit.collectionViewUrl||null},source:"Apple Music verified album ID"}:null;
+}
 async function appleSong(artist,title){
  const d=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(artist+" "+title)+"&entity=song&limit=50&country=US");
  const rows=Array.isArray(d?.results)?d.results:[];
@@ -42,7 +55,7 @@ export async function onRequestGet({request}){
  if(artist.length<2||title.length<1)return json({ok:false,error:"Artist and release title are required."},400);
  try{
   // Run catalogs concurrently: a slow provider must not block every cover on the page.
-  const results=await Promise.all([appleKnownId(artist,title),appleSong(artist,title),appleAlbum(artist,title),deezerTrack(artist,title)]);
+  const results=await Promise.all([appleKnownId(artist,title),appleKnownAlbumId(artist,title),appleSong(artist,title),appleAlbum(artist,title),deezerTrack(artist,title)]);
   const hit=results.find(Boolean);
   if(hit)return json({ok:true,artist,title,...hit,artistArtwork:null,verified:true});
   return json({ok:true,artist,title,artwork:null,artistArtwork:null,source:null,match:null,verified:false});
