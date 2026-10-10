@@ -6,9 +6,19 @@ const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers}
 const fetchJson=async(url,ms=7000)=>{const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal});return r.ok?await r.json():null}catch{return null}finally{clearTimeout(t)}};
 const norm=s=>String(s||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
 const artistScore=(a,q)=>{const n=norm(a.artistName),x=norm(q);if(n===x)return 100;if(n.startsWith(x))return 85;if(n.includes(x))return 70;return 0};
+function artistQueryFromText(raw){
+ let q=String(raw||"").trim().replace(/[?!.]+$/g,"").trim();
+ const releaseQuestion=q.match(/^(?:what(?:\s+is|\x27s)|tell\s+me)\s+(.+?)\x27s\s+(?:latest\s+release|newest\s+song|discography|music|news|career)$/i);
+ if(releaseQuestion) return releaseQuestion[1].trim();
+ const prefixes=[/^(?:can\s+you\s+)?(?:please\s+)?(?:tell\s+me\s+about|who\s+is|what\s+should\s+i\s+know\s+about|what\s+do\s+i\s+need\s+to\s+know\s+about|what\x27s\s+new\s+with|what\s+is\s+happening\s+with|give\s+me\s+(?:a\s+)?(?:briefing|overview)\s+on|show\s+me|look\s+up|search\s+for|find|music\s+by|artist|about)\s+/i];
+ for(const pattern of prefixes) q=q.replace(pattern,"").trim();
+ q=q.replace(/\s+(?:artist\s+)?(?:overview|briefing|biography|bio)$/i,"").trim();
+ return q;
+}
 export async function onRequestGet({request,env}){
- const q=(new URL(request.url).searchParams.get("q")||"").trim();
- if(q.length<2)return json({ok:false,error:"Search for an artist by name."},400);
+ const rawQuery=(new URL(request.url).searchParams.get("q")||"").trim();
+ const q=artistQueryFromText(rawQuery);
+ if(q.length<2)return json({ok:false,error:"Search for an artist or ask a question about one."},400);
  try{
   const pinned=pinnedArtists[norm(q)];
   const artistSearch=pinned?null:await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(q)+"&entity=musicArtist&attribute=artistTerm&limit=50&country=US");
@@ -27,7 +37,7 @@ export async function onRequestGet({request,env}){
   artists.sort((a,b)=>artistScore(b,q)-artistScore(a,q));
   // Pin the owner search to the District Mind Records artist catalog.
   if(norm(q)!=="john michell"&&!artists.length){
-   return json({ok:false,error:"No close artist match found. Try the full artist name or another spelling.",query:q});
+   return json({ok:false,error:"No close artist match found. Try the full artist name or another spelling.",query:rawQuery});
   }
   const bestArtist=norm(q)==="john michell"
    ? {artistId:"1720482148",artistName:"John Michell",primaryGenreName:"Hip-Hop/Rap"}
@@ -67,7 +77,7 @@ export async function onRequestGet({request,env}){
   // Use Cloudflare Workers AI when a binding is enabled; keep the xAI key as a supported fallback.
   let ai=null;
   let aiSource=null;
-  const prompt="You are the District Mind music research assistant. Use ONLY the supplied catalog and current source-linked headlines for factual claims. Do not invent biography, dates, discography, awards, or current events. If evidence is missing, say so plainly. Return JSON with keys genre, summary, whatToListenTo, whatIsHappeningNow, discoveryTips. Artist: "+best+"; verified catalog: "+JSON.stringify(music.slice(0,15))+"; current headlines: "+JSON.stringify(news.slice(0,8))+". Make the summary useful to a viewer discovering this artist.";
+  const prompt="You are the District Mind music research assistant. Answer the viewer\u0027s intent as closely as the available evidence allows. User query: "+rawQuery+". Use ONLY the supplied catalog and current source-linked headlines for factual claims. Do not invent biography, dates, discography, awards, or current events. If evidence is missing, say so plainly. Return JSON with keys genre, summary, whatToListenTo, whatIsHappeningNow, discoveryTips. Artist: "+best+"; verified catalog: "+JSON.stringify(music.slice(0,15))+"; current headlines: "+JSON.stringify(news.slice(0,8))+". Make the summary useful to the specific question and viewer discovering this artist.";
   if(env?.AI?.run){
    try{
     const out=await env.AI.run("@cf/meta/llama-3.1-8b-instruct",{prompt:"Return valid JSON only. "+prompt,max_tokens:500,temperature:0.2});
@@ -89,6 +99,6 @@ export async function onRequestGet({request,env}){
    }catch{}
   }
   if(!ai)ai={artist:best,genre:bestArtist.primaryGenreName||music[0]?.genre||"Music artist",summary:"Verified catalog results are shown below. AI-generated analysis is temporarily unavailable, so this page avoids guessing about the artist.",whatToListenTo:music.slice(0,5).map(x=>x.title),whatIsHappeningNow:news.slice(0,3).map(x=>x.title),discoveryTips:"Explore the linked music catalog and current source-linked headlines. Unverified details are left out."};
-  return json({ok:true,query:q,artist:best,artists:artists.slice(0,12),ai,aiSource,aiEnabled:Boolean(aiSource),music,news,links,artistImage,artistImageSource,artistImageKind:artistImage?"artist-portrait":"unavailable",era,firstReleaseYear,artistId:bestArtist.artistId||null,generatedAt:new Date().toISOString()});
+  return json({ok:true,query:rawQuery,normalizedQuery:q,artist:best,artists:artists.slice(0,12),ai,aiSource,aiEnabled:Boolean(aiSource),music,news,links,artistImage,artistImageSource,artistImageKind:artistImage?"artist-portrait":"unavailable",era,firstReleaseYear,artistId:bestArtist.artistId||null,generatedAt:new Date().toISOString()});
  }catch(e){return json({ok:false,error:"The artist intelligence desk is temporarily offline."},502);}
 }
