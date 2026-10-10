@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-10T15:12:08.091Z",
+  "generatedAt": "2026-10-10T15:14:22.428Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
       "route": "/",
       "status": 200,
-      "ms": 6142,
+      "ms": 2287,
       "title": "District Mind Media — The Culture in Motion",
-      "bodyChars": 4642,
+      "bodyChars": 7825,
       "hasNav": true,
       "images": [],
       "visualAssets": [
@@ -34,7 +34,7 @@
         },
         {
           "key": "john-michell",
-          "status": "failed",
+          "status": "loaded",
           "loader": "photo-loader"
         },
         {
@@ -69,9 +69,18 @@
         "https://district-mind-media.pages.dev/releases.html",
         "https://district-mind-media.pages.dev/releases.html",
         "https://district-mind-media.pages.dev/radar.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/john-michell.html",
-        "https://district-mind-media.pages.dev/wayfinder.html?find=local",
+        "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcWxXMDRETENMVndfRm1jR1lXRU1kOXpacDRnMHZ0dVJJMjREajdWSVJuM3lkdEpHTm8yazdWMEVQZEd3WnlTcUNTaXV3Y3g3NHFvQkNiOUhpYjVoUXdrYVdzLWVqNk1ablVDMUQ0WUlBOWxsLXhjNXlJM3c2R3pPUE9WR3FmcmhmckdZMHZHMA?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVTh2RDJXbWF2UTJkRk9aN280cmxwdTdlNWVfbXBuMFRnVlBibTRtWmxFdE5mVk14RTFtcEIxQWFpZEFwcnVRazRJWWFFaE5WdVBkNkZsLVl0b3d6NTFxMUZpb3dsbUNmRWZJaGtFN18tNEROZjJXZmxiVGE3NmxKemsweEczMklIejFHam1ZeEUxZw?oc=5",
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMkRzQlpfeGNWRm15VmhQQkFfTU84c1VJWEo2eTF6dTFZbVZGR0piRzk5NVJORjBGa1VRNEhDekI4UnpENi00eHBJdTc3em1wZTlyU2RZeUFLWjZXWEQ5djQ0Z3NWbXhPTXI0UjQxendRRF9RU09oMTRfOWFLUE1waUhRbTBzX2JpMUZpZTdBU2RVM1F6bUVMYnpiUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMVhPNnNDRFczellCSUVrTjBlanF5T05rVS0yTVV4Ukc1QWRNNllYRXpObmE2SUpHRHhKQVFaOWZDdFA2ZERHSks1OTRDWXMzR2laVFVkTzc5enFkRjdfbkxYRFN0N0pfZkxsaHA1RmtHSjBzejRVdlg0VGVqRXN6ODNLVnZYZ2ZWeW5weDVBQko?oc=5",
+        "https://www.billboard.com/music/rb-hip-hop/gunna-sb-label-pop-it-coco-gauff-1236358460/",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EZ0dNU2lROEV4ZWtFRXhEbXRwa0J1NWQyeVozRTdJU1hmSGFyYTdpSDZ3V3Z2amtHQzZTVGNlUHQ1Sl9WbUU2TW5CNnZRbnl1Q20wQTZVcVRWZHJwVFZfZmtPYVR3TnZURTU5Z1JiZ0VBdGx5Uy1qUk1jRFhmU0k?oc=5",
+        "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNUE1Qb2lnX3VscExXb2FrT3pwMlJRT05McTdRelFCZWx0NW1xS0ZMaEZobnhnNDBlLVhJTGtCc1lkR3QyXzVpakVLX0FJQVpGdEstdGtncEhlTHJ3cVBnRUNZd0F6MHRRRVJWY1V0VTVpakJyZW9QTGh5dGdIQnYyOWJFSlA1Tm9Fb212Z29Fd0FqY0lKUk53UmMyU0VsLURwaG55SnBxRFJKT0pfQ3JoS01MRTRBTnpPN2FxZE9ZZEhhN2lfLUxSVEtPd09QX2x2WXZQeTFmTENfZ0FaV2xOS2RIdE1zSmo3SUwzVGNtTGd5RTNh?oc=5",
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQV3k0UEVjUUwxdE5pV3pkeTM3ZHE4OWFLQTVEaXRmeVhrdHJ3SnJ5ZTdwRmcxV2dYRzBLMHJQQjczTzRuS3BrcnduSUNYM3k5d0U1b0dlRE95aUlQbjlEZFk0ZTBkd3ZyYlhwLVRaMmlEeXFMeU8zdzBCUlBMV0xlaVpYR3pya0x1V1lrMUpnQk9ObzVHMGt4VUI3azdRekVNclp5c056OHFwRjIza0h3R0NBSlNoQ2Vfdi0wOEVB?oc=5",
+        "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbkF3TVVCWDh0elBjWGtUdUNtVERFWXVMakVEYWszbThhaUdNX181eE11Q2ZoaWRZY2NUbkVMeTZDTGFKX2Y0eU1ndlV5UWYtdzBtbFZMbFJKc2RVb0hueUkyNl92S2lVMFZVZjlVV1hkNzkyQTBpc0MwdkliN1FpZGVZaWEtS2FsTHYzbTVhdnpTS09sR0tlbEJsd2M5aHp4dXFQdnBuRnA1QkpBM1BSWUw4blJYY1NiSUxsUExfd0xsMHdQbGJkdkRFMFgySVdkY3U4SGlXNlNmNnotTG1BUlpvR2FPN3dtM2w3SW56c2lIeWc?oc=5",
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOGs3MzhMbmxSNHBmVk9vQUwzRERoZ192VEdKTXVkemVVLTdUNFdfdDNlblc2NHVrSGwyaDl1TmNMeUpSTHBvcGp1bS1GbllKbE5iQ242T1lmQXVmLW0xSHg2aG1FaU1kOG5YejQ5LTRIUy1ZempFUzZPSm1LbUxleHozNGhFOGhBRGRSMGFUTm9rWlhDcXNwMHYyTEszQVpZSVBWaA?oc=5",
+        "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMjZHY3hwR1habmRaLUpYeVkzQkpRNG4yUHcwakY5YTE5UUYwa1U0N0ZfSGpBUVNQMTJXZE1GZ0F6RzY5Q1ZOVjNWaGhOUU10aHFPS3R2UEg1QVVHSkFhVkkwb2MxaGFoQWx0bmxjWm14QUhsdVhGUUEwbVZlNUdUMjI3ZUFfbjdNM2d6aWdCelBkOHVDS3VUNVBUN3dUam9rNnl5UlQ4NkRkT0Y2SlBGRHBOUzdQM2R3Zklxam9EbFNpamZndEhFNk8zSDMzM1lGRHZrNnp4VG42RHZ4NkhtcTlobkZ1UkVPcUVUQjB0Q1Y?oc=5",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQODFwQ1B5TmlFMjFMRWpvLWpmMnVuT3l3TjRkQ2lfdmstQUozWFNfRkZJNlNudmFvdGJ2Vnc2Z2l2SUNXSFZXLUhDM0EtbTZVcEVGYWxzcTJOUmNhdHFvVzY4V3paQVdpbzRmbEJmWEhUUnhwS2hfblF5U2lVRy03OUlYU1VvUWFXaUZPRG5NMGpuLWt6am1BNlZiMlFzSVF4SU1HV01jOVk?oc=5",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/wayfinder.html",
         "https://district-mind-media.pages.dev/artists.html",
@@ -95,14 +104,14 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 20
+      "internalLinkCount": 18
     },
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 1093,
+      "ms": 1030,
       "title": "Newsroom — District Mind Media",
-      "bodyChars": 1841,
+      "bodyChars": 5262,
       "hasNav": true,
       "images": [],
       "visualAssets": [
@@ -155,12 +164,18 @@
         "https://district-mind-media.pages.dev/culture.html",
         "https://district-mind-media.pages.dev/article.html",
         "https://district-mind-media.pages.dev/releases.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html",
-        "https://district-mind-media.pages.dev/releases.html",
-        "https://district-mind-media.pages.dev/artists.html",
-        "https://district-mind-media.pages.dev/artists.html",
+        "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcWxXMDRETENMVndfRm1jR1lXRU1kOXpacDRnMHZ0dVJJMjREajdWSVJuM3lkdEpHTm8yazdWMEVQZEd3WnlTcUNTaXV3Y3g3NHFvQkNiOUhpYjVoUXdrYVdzLWVqNk1ablVDMUQ0WUlBOWxsLXhjNXlJM3c2R3pPUE9WR3FmcmhmckdZMHZHMA?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVTh2RDJXbWF2UTJkRk9aN280cmxwdTdlNWVfbXBuMFRnVlBibTRtWmxFdE5mVk14RTFtcEIxQWFpZEFwcnVRazRJWWFFaE5WdVBkNkZsLVl0b3d6NTFxMUZpb3dsbUNmRWZJaGtFN18tNEROZjJXZmxiVGE3NmxKemsweEczMklIejFHam1ZeEUxZw?oc=5",
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMkRzQlpfeGNWRm15VmhQQkFfTU84c1VJWEo2eTF6dTFZbVZGR0piRzk5NVJORjBGa1VRNEhDekI4UnpENi00eHBJdTc3em1wZTlyU2RZeUFLWjZXWEQ5djQ0Z3NWbXhPTXI0UjQxendRRF9RU09oMTRfOWFLUE1waUhRbTBzX2JpMUZpZTdBU2RVM1F6bUVMYnpiUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMVhPNnNDRFczellCSUVrTjBlanF5T05rVS0yTVV4Ukc1QWRNNllYRXpObmE2SUpHRHhKQVFaOWZDdFA2ZERHSks1OTRDWXMzR2laVFVkTzc5enFkRjdfbkxYRFN0N0pfZkxsaHA1RmtHSjBzejRVdlg0VGVqRXN6ODNLVnZYZ2ZWeW5weDVBQko?oc=5",
+        "https://www.billboard.com/music/rb-hip-hop/gunna-sb-label-pop-it-coco-gauff-1236358460/",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EZ0dNU2lROEV4ZWtFRXhEbXRwa0J1NWQyeVozRTdJU1hmSGFyYTdpSDZ3V3Z2amtHQzZTVGNlUHQ1Sl9WbUU2TW5CNnZRbnl1Q20wQTZVcVRWZHJwVFZfZmtPYVR3TnZURTU5Z1JiZ0VBdGx5Uy1qUk1jRFhmU0k?oc=5",
+        "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNUE1Qb2lnX3VscExXb2FrT3pwMlJRT05McTdRelFCZWx0NW1xS0ZMaEZobnhnNDBlLVhJTGtCc1lkR3QyXzVpakVLX0FJQVpGdEstdGtncEhlTHJ3cVBnRUNZd0F6MHRRRVJWY1V0VTVpakJyZW9QTGh5dGdIQnYyOWJFSlA1Tm9Fb212Z29Fd0FqY0lKUk53UmMyU0VsLURwaG55SnBxRFJKT0pfQ3JoS01MRTRBTnpPN2FxZE9ZZEhhN2lfLUxSVEtPd09QX2x2WXZQeTFmTENfZ0FaV2xOS2RIdE1zSmo3SUwzVGNtTGd5RTNh?oc=5",
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQV3k0UEVjUUwxdE5pV3pkeTM3ZHE4OWFLQTVEaXRmeVhrdHJ3SnJ5ZTdwRmcxV2dYRzBLMHJQQjczTzRuS3BrcnduSUNYM3k5d0U1b0dlRE95aUlQbjlEZFk0ZTBkd3ZyYlhwLVRaMmlEeXFMeU8zdzBCUlBMV0xlaVpYR3pya0x1V1lrMUpnQk9ObzVHMGt4VUI3azdRekVNclp5c056OHFwRjIza0h3R0NBSlNoQ2Vfdi0wOEVB?oc=5",
+        "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbkF3TVVCWDh0elBjWGtUdUNtVERFWXVMakVEYWszbThhaUdNX181eE11Q2ZoaWRZY2NUbkVMeTZDTGFKX2Y0eU1ndlV5UWYtdzBtbFZMbFJKc2RVb0hueUkyNl92S2lVMFZVZjlVV1hkNzkyQTBpc0MwdkliN1FpZGVZaWEtS2FsTHYzbTVhdnpTS09sR0tlbEJsd2M5aHp4dXFQdnBuRnA1QkpBM1BSWUw4blJYY1NiSUxsUExfd0xsMHdQbGJkdkRFMFgySVdkY3U4SGlXNlNmNnotTG1BUlpvR2FPN3dtM2w3SW56c2lIeWc?oc=5",
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOGs3MzhMbmxSNHBmVk9vQUwzRERoZ192VEdKTXVkemVVLTdUNFdfdDNlblc2NHVrSGwyaDl1TmNMeUpSTHBvcGp1bS1GbllKbE5iQ242T1lmQXVmLW0xSHg2aG1FaU1kOG5YejQ5LTRIUy1ZempFUzZPSm1LbUxleHozNGhFOGhBRGRSMGFUTm9rWlhDcXNwMHYyTEszQVpZSVBWaA?oc=5",
+        "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMjZHY3hwR1habmRaLUpYeVkzQkpRNG4yUHcwakY5YTE5UUYwa1U0N0ZfSGpBUVNQMTJXZE1GZ0F6RzY5Q1ZOVjNWaGhOUU10aHFPS3R2UEg1QVVHSkFhVkkwb2MxaGFoQWx0bmxjWm14QUhsdVhGUUEwbVZlNUdUMjI3ZUFfbjdNM2d6aWdCelBkOHVDS3VUNVBUN3dUam9rNnl5UlQ4NkRkT0Y2SlBGRHBOUzdQM2R3Zklxam9EbFNpamZndEhFNk8zSDMzM1lGRHZrNnp4VG42RHZ4NkhtcTlobkZ1UkVPcUVUQjB0Q1Y?oc=5",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQODFwQ1B5TmlFMjFMRWpvLWpmMnVuT3l3TjRkQ2lfdmstQUozWFNfRkZJNlNudmFvdGJ2Vnc2Z2l2SUNXSFZXLUhDM0EtbTZVcEVGYWxzcTJOUmNhdHFvVzY4V3paQVdpbzRmbEJmWEhUUnhwS2hfblF5U2lVRy03OUlYU1VvUWFXaUZPRG5NMGpuLWt6am1BNlZiMlFzSVF4SU1HV01jOVk?oc=5",
         "https://district-mind-media.pages.dev/releases.html",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/wayfinder.html?find=local",
@@ -177,7 +192,7 @@
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1069,
+      "ms": 1064,
       "title": "District Mind Media — Artist Intelligence Hub",
       "bodyChars": 1433,
       "hasNav": true,
@@ -220,9 +235,9 @@
     {
       "route": "/releases.html",
       "status": 200,
-      "ms": 5902,
+      "ms": 1552,
       "title": "District Mind Media | Releases",
-      "bodyChars": 2542,
+      "bodyChars": 2507,
       "hasNav": true,
       "images": [],
       "visualAssets": [
@@ -258,7 +273,7 @@
         },
         {
           "key": "john-michell",
-          "status": "failed",
+          "status": "loaded",
           "loader": "photo-loader"
         },
         {
@@ -298,7 +313,7 @@
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 1062,
+      "ms": 1057,
       "title": "Local Watch — District Mind Media",
       "bodyChars": 837,
       "hasNav": true,
@@ -327,7 +342,7 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 1043,
+      "ms": 1046,
       "title": "Wayfinder — District Mind Media",
       "bodyChars": 3127,
       "hasNav": true,
@@ -358,7 +373,7 @@
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1084,
+      "ms": 1161,
       "title": "Radar — District Mind Media",
       "bodyChars": 642,
       "hasNav": true,
@@ -390,7 +405,7 @@
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 1066,
+      "ms": 1044,
       "title": "District Mind Media | Culture",
       "bodyChars": 1215,
       "hasNav": true,
@@ -447,7 +462,7 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1060,
+      "ms": 1041,
       "title": "District Mind Media | About",
       "bodyChars": 937,
       "hasNav": true,
@@ -473,7 +488,7 @@
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 1086,
+      "ms": 1064,
       "title": "District Mind Media | Contact",
       "bodyChars": 508,
       "hasNav": true,
@@ -499,7 +514,7 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 1062,
+      "ms": 1071,
       "title": "District Mind Academy — Class 001",
       "bodyChars": 3032,
       "hasNav": true,
@@ -532,7 +547,7 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 1062,
+      "ms": 1007,
       "title": "Academy 001 — District Mind",
       "bodyChars": 913,
       "hasNav": true,
@@ -560,7 +575,7 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 1025,
+      "ms": 1127,
       "title": "Editorial — District Mind Media",
       "bodyChars": 1023,
       "hasNav": true,
@@ -595,7 +610,7 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1025,
+      "ms": 1017,
       "title": "Editorial Policy | District Mind Media",
       "bodyChars": 1233,
       "hasNav": true,
@@ -620,7 +635,7 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1032,
+      "ms": 1017,
       "title": "Contributors — District Mind Media",
       "bodyChars": 1066,
       "hasNav": true,
@@ -652,7 +667,7 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 1074,
+      "ms": 1044,
       "title": "Explore — District Mind Media",
       "bodyChars": 1951,
       "hasNav": true,
@@ -691,7 +706,7 @@
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 1055,
+      "ms": 1025,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
       "bodyChars": 2771,
       "hasNav": true,
@@ -725,15 +740,15 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 5912,
+      "ms": 1136,
       "title": "John Michell — District Mind Media",
-      "bodyChars": 1984,
+      "bodyChars": 2334,
       "hasNav": true,
       "images": [],
       "visualAssets": [
         {
           "key": "john-michell",
-          "status": "failed",
+          "status": "loaded",
           "loader": "photo-loader"
         },
         {
@@ -767,7 +782,9 @@
         "https://music.apple.com/us/artist/john-michell/1720482148",
         "https://music.apple.com/us/artist/john-michell/1720482148",
         "https://music.apple.com/us/artist/john-michell/1720482148",
-        "https://music.apple.com/us/album/eyes-open-single/1727068645"
+        "https://music.apple.com/us/album/eyes-open-single/1727068645",
+        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://music.apple.com/us/artist/john-michell/1720482148"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
@@ -781,7 +798,7 @@
     "blankPages": 0,
     "horizontalOverflow": 0,
     "brokenImages": 0,
-    "failedVisualAssets": 17,
+    "failedVisualAssets": 14,
     "pendingVisualAssets": 0,
     "missingImageAlt": 0,
     "suspiciousCopy": 0
