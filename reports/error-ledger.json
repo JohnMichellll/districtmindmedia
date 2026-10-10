@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T13:10:55.563Z",
-  "errors": [],
+  "updatedAt": "2026-10-10T13:42:07.001Z",
+  "errors": [
+    {
+      "source": "Rolling Stone — Music",
+      "tier": 1,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 276,
+      "error": "HTTP 403",
+      "workflow": "newsroom-operator"
+    }
+  ],
   "resolved": [
     {
       "source": "TMZ",
