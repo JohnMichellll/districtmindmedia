@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-10T01:40:40.463Z",
+  "generatedAt": "2026-10-10T01:43:37.307Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
       "route": "/",
       "status": 200,
-      "ms": 2165,
+      "ms": 2209,
       "title": "District Mind Media — The Culture in Motion",
-      "bodyChars": 4551,
+      "bodyChars": 4642,
       "hasNav": true,
       "images": [],
       "visualAssets": [
@@ -56,6 +56,7 @@
         "https://district-mind-media.pages.dev/releases.html",
         "https://district-mind-media.pages.dev/wayfinder.html",
         "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/playlists.html",
         "https://district-mind-media.pages.dev/academy.html",
         "https://district-mind-media.pages.dev/culture.html",
         "https://district-mind-media.pages.dev/about.html",
@@ -74,6 +75,7 @@
         "https://district-mind-media.pages.dev/wayfinder.html",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/article.html",
+        "https://district-mind-media.pages.dev/playlists.html",
         "https://music.apple.com/us/artist/john-michell/1720482148",
         "https://www.youtube.com/results?search_query=John+Michell+Drivin+Crazy",
         "https://www.youtube.com/results?search_query=John+Michell+official+music+videos",
@@ -92,12 +94,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 18
+      "internalLinkCount": 19
     },
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 1862,
+      "ms": 1901,
       "title": "Newsroom — District Mind Media",
       "bodyChars": 1841,
       "hasNav": true,
@@ -172,7 +174,7 @@
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1870,
+      "ms": 2003,
       "title": "District Mind Media — Artist Intelligence Hub",
       "bodyChars": 1406,
       "hasNav": true,
@@ -185,6 +187,7 @@
         "https://district-mind-media.pages.dev/releases.html",
         "https://district-mind-media.pages.dev/wayfinder.html",
         "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/playlists.html",
         "https://district-mind-media.pages.dev/academy.html",
         "https://district-mind-media.pages.dev/culture.html",
         "https://district-mind-media.pages.dev/about.html",
@@ -201,7 +204,7 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 15
+      "internalLinkCount": 16
     },
     {
       "type": "console-error",
@@ -211,7 +214,7 @@
     {
       "route": "/releases.html",
       "status": 200,
-      "ms": 1857,
+      "ms": 1895,
       "title": "District Mind Media | Releases",
       "bodyChars": 2542,
       "hasNav": true,
@@ -292,7 +295,7 @@
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 1867,
+      "ms": 1919,
       "title": "Local Watch — District Mind Media",
       "bodyChars": 810,
       "hasNav": true,
@@ -319,7 +322,7 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 2017,
+      "ms": 1886,
       "title": "Wayfinder — District Mind Media",
       "bodyChars": 3127,
       "hasNav": true,
@@ -348,7 +351,7 @@
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1883,
+      "ms": 1910,
       "title": "Radar — District Mind Media",
       "bodyChars": 642,
       "hasNav": true,
@@ -378,7 +381,7 @@
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 1845,
+      "ms": 1882,
       "title": "District Mind Media | Culture",
       "bodyChars": 1215,
       "hasNav": true,
@@ -433,7 +436,7 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1868,
+      "ms": 1880,
       "title": "District Mind Media | About",
       "bodyChars": 937,
       "hasNav": true,
@@ -457,7 +460,7 @@
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 1874,
+      "ms": 1883,
       "title": "District Mind Media | Contact",
       "bodyChars": 508,
       "hasNav": true,
@@ -481,7 +484,7 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 1874,
+      "ms": 1900,
       "title": "District Mind Academy — Class 001",
       "bodyChars": 1931,
       "hasNav": true,
@@ -509,7 +512,7 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 1866,
+      "ms": 1871,
       "title": "Academy 001 — District Mind",
       "bodyChars": 913,
       "hasNav": true,
@@ -535,7 +538,7 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 1877,
+      "ms": 1878,
       "title": "Editorial — District Mind Media",
       "bodyChars": 1023,
       "hasNav": true,
@@ -568,7 +571,7 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1854,
+      "ms": 1873,
       "title": "Editorial Policy | District Mind Media",
       "bodyChars": 1233,
       "hasNav": true,
@@ -591,7 +594,7 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1854,
+      "ms": 1870,
       "title": "Contributors — District Mind Media",
       "bodyChars": 1066,
       "hasNav": true,
@@ -621,7 +624,7 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 1915,
+      "ms": 1889,
       "title": "Explore — District Mind Media",
       "bodyChars": 1949,
       "hasNav": true,
@@ -658,7 +661,7 @@
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 1853,
+      "ms": 1877,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
       "bodyChars": 2771,
       "hasNav": true,
@@ -690,7 +693,7 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 1879,
+      "ms": 1938,
       "title": "John Michell — District Mind Media",
       "bodyChars": 1780,
       "hasNav": true,
