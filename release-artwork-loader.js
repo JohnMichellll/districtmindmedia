@@ -117,12 +117,23 @@
   async function load() {
     const cards = [...document.querySelectorAll("[data-release-artist][data-release-title]")];
     if (!cards.length) return;
+    const photoManifest = await json("/assets/photo-manifest.json?v=20261010-jm1");
 
     await Promise.all(cards.map(async card => {
       const artist = card.dataset.releaseArtist || "";
       const title = card.dataset.releaseTitle || "";
       pending(card);
       card.dataset.imageLoader = "release-artwork-loader";
+
+      // Owner-supplied cover art takes priority for John Michell when the manifest
+      // has an exact title-to-artwork mapping. Never substitute this image for another song.
+      const photoKey = card.dataset.photoKey || "";
+      const ownerArt = photoManifest?.photos?.[photoKey];
+      if (norm(artist) === "john michell" && ownerArt?.url && ownerArt.identity === "owner-supplied" &&
+          (norm(title) === "drivin crazy" || norm(title) === "drivin crazy single") && await imageLoads(ownerArt.url)) {
+        setArt(card, ownerArt.url, "Drivin Crazy — official John Michell cover artwork");
+        return;
+      }
 
       const data = await json("/api/release-art?artist=" + encodeURIComponent(artist) +
         "&title=" + encodeURIComponent(title));
