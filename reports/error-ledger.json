@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T13:42:07.001Z",
-  "errors": [
-    {
-      "source": "Rolling Stone — Music",
-      "tier": 1,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 276,
-      "error": "HTTP 403",
-      "workflow": "newsroom-operator"
-    }
-  ],
+  "updatedAt": "2026-10-10T14:09:35.523Z",
+  "errors": [],
   "resolved": [
     {
       "source": "TMZ",
@@ -252,6 +242,16 @@
       "error": "TIMEOUT",
       "workflow": "newsroom-operator",
       "resolvedAt": "2026-10-10T12:12:09.010Z"
+    },
+    {
+      "source": "Rolling Stone — Music",
+      "tier": 1,
+      "status": "resolved",
+      "stories": 0,
+      "latencyMs": 276,
+      "error": "HTTP 403",
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-10T14:09:35.523Z"
     }
   ]
 }
