@@ -1,5 +1,6 @@
 const headers={"Cache-Control":"public, max-age=60, s-maxage=300, stale-while-revalidate=600","Content-Type":"application/json","Access-Control-Allow-Origin":"*"};
 const clean=v=>String(v??"").replace(/<[^>]*>/g,"").trim();
+const pinnedArtists={"ray charles":{artistId:"160926",artistName:"Ray Charles",primaryGenreName:"R&B/Soul"},"louis armstrong":{artistId:"518462",artistName:"Louis Armstrong",primaryGenreName:"Jazz"}};
 const legacyNames=["ray charles","louis armstrong","aretha franklin","ella fitzgerald","nat king cole","sam cooke","billie holiday","nina simone","john coltrane","miles davis","duke ellington","charlie parker","frank sinatra","marvin gaye","stevie wonder","james brown","otis redding","the beatles","elvis presley","buddy holly","muddy waters","howlin wolf","chuck berry","little richard","b.b. king","bb king"];
 const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers});
 const fetchJson=async(url,ms=7000)=>{const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal});return r.ok?await r.json():null}catch{return null}finally{clearTimeout(t)}};
@@ -9,8 +10,9 @@ export async function onRequestGet({request,env}){
  const q=(new URL(request.url).searchParams.get("q")||"").trim();
  if(q.length<2)return json({ok:false,error:"Search for an artist by name."},400);
  try{
-  const artistSearch=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(q)+"&entity=musicArtist&attribute=artistTerm&limit=50&country=US");
-  let artists=Array.isArray(artistSearch?.results)?artistSearch.results.filter(x=>x?.artistName):[];
+  const pinned=pinnedArtists[norm(q)];
+  const artistSearch=pinned?null:await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(q)+"&entity=musicArtist&attribute=artistTerm&limit=50&country=US");
+  let artists=pinned?[pinned]:(Array.isArray(artistSearch?.results)?artistSearch.results.filter(x=>x?.artistName):[]);
   // Second catalog route catches major artists that Apple returns inconsistently through musicArtist search.
   if(!artists.some(x=>norm(x.artistName)===norm(q))){
    const songSearch=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(q)+"&entity=song&attribute=artistTerm&limit=50&country=US");
