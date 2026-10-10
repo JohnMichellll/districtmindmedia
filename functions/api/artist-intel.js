@@ -1,4 +1,4 @@
-const headers={"Cache-Control":"public, max-age=60, s-maxage=60","Content-Type":"application/json","Access-Control-Allow-Origin":"*"};
+const headers={"Cache-Control":"public, max-age=60, s-maxage=300, stale-while-revalidate=600","Content-Type":"application/json","Access-Control-Allow-Origin":"*"};
 const clean=v=>String(v??"").replace(/<[^>]*>/g,"").trim();
 const legacyNames=["ray charles","louis armstrong","aretha franklin","ella fitzgerald","nat king cole","sam cooke","billie holiday","nina simone","john coltrane","miles davis","duke ellington","charlie parker","frank sinatra","marvin gaye","stevie wonder","james brown","otis redding","the beatles","elvis presley","buddy holly","muddy waters","howlin wolf","chuck berry","little richard","b.b. king","bb king"];
 const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers});
