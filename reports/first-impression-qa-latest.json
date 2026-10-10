@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-10T02:00:46.569Z",
+  "generatedAt": "2026-10-10T02:07:46.171Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
       "route": "/",
       "status": 200,
-      "ms": 2201,
+      "ms": 9502,
       "title": "District Mind Media — The Culture in Motion",
-      "bodyChars": 4642,
+      "bodyChars": 7103,
       "hasNav": true,
       "images": [],
       "visualAssets": [
@@ -19,22 +19,22 @@
         },
         {
           "key": "Victoria Monét — Frequency of Love",
-          "status": "loading",
+          "status": "failed",
           "loader": "release-artwork-loader"
         },
         {
           "key": "Quavo — QRÖMELIFE",
-          "status": "loading",
+          "status": "failed",
           "loader": "release-artwork-loader"
         },
         {
           "key": "Danielle Ponder — Everything Has Changed",
-          "status": "loading",
+          "status": "failed",
           "loader": "release-artwork-loader"
         },
         {
           "key": "john-michell",
-          "status": "loading",
+          "status": "failed",
           "loader": "photo-loader"
         },
         {
@@ -70,9 +70,18 @@
         "https://district-mind-media.pages.dev/releases.html",
         "https://district-mind-media.pages.dev/releases.html",
         "https://district-mind-media.pages.dev/radar.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/john-michell.html",
-        "https://district-mind-media.pages.dev/wayfinder.html?find=local",
+        "https://www.billboard.com/music/rb-hip-hop/gunna-sb-label-pop-it-coco-gauff-1236358460/",
+        "https://pitchfork.com/story/troye-sivan-shares-his-gayest-music-video-for-ff/",
+        "https://allhiphop.com/features/nas-slick-rick-become-marvel-superheroes-as-hip-hop-hits-new-york-comic-con/",
+        "https://allhiphop.com/music/the-healing-language-of-with-love-from-dani-and-danileighs-faith-driven-rebirth/",
+        "https://www.rollingstone.com/music/music-news/power-trip-first-new-songs-riley-gale-death-1235640223/",
+        "https://pitchfork.com/story/9-new-albums-you-should-listen-to-now-cameron-winter-deafheaven-dawn-richard/",
+        "https://variety.com/2026/music/focus/air-supply-hollywood-walk-fame-1236906736/",
+        "https://variety.com/2026/music/album-reviews/troye-sivan-shes-the-best-album-review-1236905931/",
+        "https://www.tmz.com/2026/10/09/ella-langley-tulsa-concert-canceled-security-threat/",
+        "https://www.tmz.com/2026/10/09/flydubai-hijacker-said-9-11-encouraged-him-to-get-pilot-license/",
+        "https://allhiphop.com/news/trick-daddy-trina-bring-miami-rap-to-gta-vi-radio/",
+        "https://allhiphop.com/news/kanye-west-reportedly-collects-20m-as-russian-ticket-buyers-seek-refunds/",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/wayfinder.html",
         "https://district-mind-media.pages.dev/artists.html",
@@ -96,12 +105,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 21
+      "internalLinkCount": 19
     },
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 1878,
+      "ms": 1000,
       "title": "Newsroom — District Mind Media",
       "bodyChars": 1841,
       "hasNav": true,
@@ -179,7 +188,7 @@
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1935,
+      "ms": 996,
       "title": "District Mind Media — Artist Intelligence Hub",
       "bodyChars": 1406,
       "hasNav": true,
@@ -221,7 +230,7 @@
     {
       "route": "/releases.html",
       "status": 200,
-      "ms": 1888,
+      "ms": 9265,
       "title": "District Mind Media | Releases",
       "bodyChars": 2542,
       "hasNav": true,
@@ -229,47 +238,47 @@
       "visualAssets": [
         {
           "key": "Danielle Ponder — Everything Has Changed",
-          "status": "loading",
+          "status": "failed",
           "loader": "release-artwork-loader"
         },
         {
           "key": "Dawn Richard — Creole Culture",
-          "status": "loading",
+          "status": "failed",
           "loader": "release-artwork-loader"
         },
         {
           "key": "Joyce Wrice — Machiko",
-          "status": "loading",
+          "status": "failed",
           "loader": "release-artwork-loader"
         },
         {
           "key": "john-michell-drivin-crazy",
-          "status": "loading",
+          "status": "failed",
           "loader": "release-artwork-loader"
         },
         {
           "key": "john-michell-who-is-you",
-          "status": "loading",
+          "status": "failed",
           "loader": "release-artwork-loader"
         },
         {
           "key": "john-michell-u",
-          "status": "loading",
+          "status": "failed",
           "loader": "release-artwork-loader"
         },
         {
           "key": "john-michell",
-          "status": "loading",
+          "status": "failed",
           "loader": "photo-loader"
         },
         {
           "key": "john-michell",
-          "status": "loading",
+          "status": "failed",
           "loader": "release-artwork-loader"
         },
         {
           "key": "john-michell",
-          "status": "loading",
+          "status": "failed",
           "loader": "release-artwork-loader"
         }
       ],
@@ -300,7 +309,7 @@
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 1901,
+      "ms": 986,
       "title": "Local Watch — District Mind Media",
       "bodyChars": 837,
       "hasNav": true,
@@ -330,7 +339,7 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 1884,
+      "ms": 972,
       "title": "Wayfinder — District Mind Media",
       "bodyChars": 3127,
       "hasNav": true,
@@ -362,7 +371,7 @@
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1910,
+      "ms": 983,
       "title": "Radar — District Mind Media",
       "bodyChars": 642,
       "hasNav": true,
@@ -395,7 +404,7 @@
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 1863,
+      "ms": 975,
       "title": "District Mind Media | Culture",
       "bodyChars": 1215,
       "hasNav": true,
@@ -453,7 +462,7 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1879,
+      "ms": 992,
       "title": "District Mind Media | About",
       "bodyChars": 937,
       "hasNav": true,
@@ -480,7 +489,7 @@
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 1880,
+      "ms": 980,
       "title": "District Mind Media | Contact",
       "bodyChars": 508,
       "hasNav": true,
@@ -507,7 +516,7 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 1920,
+      "ms": 999,
       "title": "District Mind Academy — Class 001",
       "bodyChars": 1931,
       "hasNav": true,
@@ -538,7 +547,7 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 1885,
+      "ms": 989,
       "title": "Academy 001 — District Mind",
       "bodyChars": 913,
       "hasNav": true,
@@ -567,7 +576,7 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 1869,
+      "ms": 959,
       "title": "Editorial — District Mind Media",
       "bodyChars": 1023,
       "hasNav": true,
@@ -603,7 +612,7 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1946,
+      "ms": 967,
       "title": "Editorial Policy | District Mind Media",
       "bodyChars": 1233,
       "hasNav": true,
@@ -629,7 +638,7 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1891,
+      "ms": 983,
       "title": "Contributors — District Mind Media",
       "bodyChars": 1066,
       "hasNav": true,
@@ -662,9 +671,9 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 2121,
+      "ms": 977,
       "title": "Explore — District Mind Media",
-      "bodyChars": 1949,
+      "bodyChars": 1951,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -702,7 +711,7 @@
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 1876,
+      "ms": 963,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
       "bodyChars": 2771,
       "hasNav": true,
@@ -737,7 +746,7 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 1865,
+      "ms": 5941,
       "title": "John Michell — District Mind Media",
       "bodyChars": 1780,
       "hasNav": true,
@@ -745,22 +754,22 @@
       "visualAssets": [
         {
           "key": "john-michell",
-          "status": "loading",
+          "status": "failed",
           "loader": "photo-loader"
         },
         {
           "key": "John Michell — Drivin Crazy",
-          "status": "loading",
+          "status": "failed",
           "loader": "release-artwork-loader"
         },
         {
           "key": "John Michell — WHO IS YOU",
-          "status": "loading",
+          "status": "failed",
           "loader": "release-artwork-loader"
         },
         {
           "key": "John Michell — Eyes Open",
-          "status": "loading",
+          "status": "failed",
           "loader": "release-artwork-loader"
         }
       ],
@@ -794,8 +803,8 @@
     "blankPages": 0,
     "horizontalOverflow": 0,
     "brokenImages": 0,
-    "failedVisualAssets": 0,
-    "pendingVisualAssets": 17,
+    "failedVisualAssets": 17,
+    "pendingVisualAssets": 0,
     "missingImageAlt": 0,
     "suspiciousCopy": 0
   }
