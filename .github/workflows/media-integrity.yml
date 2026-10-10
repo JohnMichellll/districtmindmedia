@@ -1,0 +1,44 @@
+name: District Mind — Media Integrity Sentinel
+
+on:
+  schedule:
+    - cron: "37 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "assets/photo-manifest.json"
+      - "assets/artist-registry.json"
+      - "scripts/media-integrity.mjs"
+      - ".github/workflows/media-integrity.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: district-mind-media-integrity
+  cancel-in-progress: true
+
+jobs:
+  media-integrity:
+    name: Registry, media URLs, and production routes
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run identity-first media checks
+        env:
+          SITE_URL: https://district-mind-media.pages.dev
+        run: node scripts/media-integrity.mjs
+      - name: Preserve diagnostic report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: district-mind-media-integrity-report
+          path: reports/media-integrity-latest.json
+          if-no-files-found: warn
+          retention-days: 14
