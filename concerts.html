@@ -16,7 +16,7 @@
 </style>
 </head>
 <body>
-<header class="site-header"><div class="nav-container"><a href="index.html" class="logo">DISTRICT MIND</a><button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button><nav class="primary-nav" id="primary-nav"><a href="newsroom.html">Newsroom</a><a href="radar.html">Radar</a><a href="releases.html">Releases</a><a href="wayfinder.html">Wayfinder</a><a href="artists.html">Artists</a><a href="academy.html">Academy</a><a href="culture.html">Culture</a><a href="about.html">About</a></nav></div></header>
+<header class="site-header"><div class="nav-container"><a href="index.html" class="logo">DISTRICT MIND</a><button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button><nav class="primary-nav" id="primary-nav"><a href="newsroom.html">Newsroom</a><a href="radar.html">Radar</a><a href="releases.html">Releases</a><a href="wayfinder.html">Wayfinder</a><a href="artists.html">Artists</a><a href="academy.html">Academy &amp; Account</a><a href="culture.html">Culture</a><a href="about.html">About</a><a href="help.html">Help Center</a></nav></div></header>
 <main>
 <section class="live-hero"><div class="live-shell"><p class="eyebrow">DISTRICT MIND / LIVE EVENTS</p><h1>CONCERTS<br>NEAR YOU.</h1><p>This is a dedicated live-music desk. It is not Artist Intelligence. Tell us your city, choose a date window, and we surface the live-event signal separately from artist research.</p>
 <form class="live-controls" id="live-form"><input id="live-location" placeholder="City, state or address" aria-label="City, state or address"><input id="live-zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" placeholder="ZIP code" aria-label="ZIP code"><select id="live-window" aria-label="Date window"><option value="24">Tonight / latest</option><option value="72">Next 3 days</option><option value="168" selected>Next 7 days</option></select><select id="live-genre" aria-label="Genre"><option value="">All music</option><option value="hip-hop">Hip-Hop</option><option value="r&b">R&B</option><option value="rap">Rap</option><option value="rock">Rock</option><option value="country">Country</option><option value="pop">Pop</option></select><button type="submit">Find Shows →</button></form><p class="live-status" id="live-status">LOCATION READY / CHOOSE A CITY</p></div></section>
@@ -47,5 +47,5 @@ form.addEventListener('submit',e=>{e.preventDefault();scan()});
 const params=new URLSearchParams(location.search);if(params.get('location')){loc.value=params.get('location');scan()}
 const m=document.querySelector('.menu-toggle'),n=document.querySelector('.primary-nav');if(m&&n)m.onclick=()=>{const o=n.classList.toggle('is-open');m.setAttribute('aria-expanded',o)}
 </script>
-<script src="site-guide.js" defer></script>
+<script src="site-guide.js?v=20261010-menu1" defer></script>
 </body></html>
