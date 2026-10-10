@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-10T01:55:31.195Z",
+  "generatedAt": "2026-10-10T02:00:46.569Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
       "route": "/",
       "status": 200,
-      "ms": 2143,
+      "ms": 2201,
       "title": "District Mind Media — The Culture in Motion",
       "bodyChars": 4642,
       "hasNav": true,
@@ -101,7 +101,7 @@
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 1883,
+      "ms": 1878,
       "title": "Newsroom — District Mind Media",
       "bodyChars": 1841,
       "hasNav": true,
@@ -179,7 +179,7 @@
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1877,
+      "ms": 1935,
       "title": "District Mind Media — Artist Intelligence Hub",
       "bodyChars": 1406,
       "hasNav": true,
@@ -221,7 +221,7 @@
     {
       "route": "/releases.html",
       "status": 200,
-      "ms": 1883,
+      "ms": 1888,
       "title": "District Mind Media | Releases",
       "bodyChars": 2542,
       "hasNav": true,
@@ -298,16 +298,11 @@
       "internalLinkCount": 11
     },
     {
-      "type": "page-error",
-      "text": "missing ) after argument list",
-      "url": "https://district-mind-media.pages.dev/local"
-    },
-    {
       "route": "/local.html",
       "status": 200,
-      "ms": 1871,
+      "ms": 1901,
       "title": "Local Watch — District Mind Media",
-      "bodyChars": 810,
+      "bodyChars": 837,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -335,7 +330,7 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 2133,
+      "ms": 1884,
       "title": "Wayfinder — District Mind Media",
       "bodyChars": 3127,
       "hasNav": true,
@@ -367,7 +362,7 @@
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1902,
+      "ms": 1910,
       "title": "Radar — District Mind Media",
       "bodyChars": 642,
       "hasNav": true,
@@ -400,7 +395,7 @@
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 1878,
+      "ms": 1863,
       "title": "District Mind Media | Culture",
       "bodyChars": 1215,
       "hasNav": true,
@@ -458,7 +453,7 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1871,
+      "ms": 1879,
       "title": "District Mind Media | About",
       "bodyChars": 937,
       "hasNav": true,
@@ -512,7 +507,7 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 2028,
+      "ms": 1920,
       "title": "District Mind Academy — Class 001",
       "bodyChars": 1931,
       "hasNav": true,
@@ -543,7 +538,7 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 1879,
+      "ms": 1885,
       "title": "Academy 001 — District Mind",
       "bodyChars": 913,
       "hasNav": true,
@@ -572,7 +567,7 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 1874,
+      "ms": 1869,
       "title": "Editorial — District Mind Media",
       "bodyChars": 1023,
       "hasNav": true,
@@ -608,7 +603,7 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1885,
+      "ms": 1946,
       "title": "Editorial Policy | District Mind Media",
       "bodyChars": 1233,
       "hasNav": true,
@@ -634,7 +629,7 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1874,
+      "ms": 1891,
       "title": "Contributors — District Mind Media",
       "bodyChars": 1066,
       "hasNav": true,
@@ -667,7 +662,7 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 1887,
+      "ms": 2121,
       "title": "Explore — District Mind Media",
       "bodyChars": 1949,
       "hasNav": true,
@@ -742,7 +737,7 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 1902,
+      "ms": 1865,
       "title": "John Michell — District Mind Media",
       "bodyChars": 1780,
       "hasNav": true,
@@ -793,13 +788,14 @@
     }
   ],
   "summary": {
-    "routeFailures": 2,
-    "pageErrors": 1,
+    "routeFailures": 0,
+    "pageErrors": 0,
     "consoleErrors": 1,
     "blankPages": 0,
     "horizontalOverflow": 0,
     "brokenImages": 0,
     "failedVisualAssets": 0,
+    "pendingVisualAssets": 17,
     "missingImageAlt": 0,
     "suspiciousCopy": 0
   }
