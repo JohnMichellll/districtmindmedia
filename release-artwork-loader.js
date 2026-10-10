@@ -76,7 +76,7 @@
     });
   }
 
-  function setArt(card, url, alt) {
+  function setArt(card, url, alt, kind = "release-artwork") {
     const safeUrl = String(url).replace(/["']/g, "");
     let img = card.querySelector(".release-cover");
     if (!img) {
@@ -94,8 +94,17 @@
       card.classList.remove("release-art-failed", "release-art-pending", "release-text-card", "photo-pending", "photo-branded-fallback");
       card.querySelector(":scope > .dm-release-fallback")?.remove();
       card.classList.add("has-release-art");
+      card.querySelector(":scope > .release-image-kind")?.remove();
+      if (kind === "artist-portrait") {
+        card.style.position = "relative";
+        const kindLabel = document.createElement("span");
+        kindLabel.className = "release-image-kind";
+        kindLabel.textContent = "ARTIST PHOTO · COVER ART UNAVAILABLE";
+        Object.assign(kindLabel.style, { position: "absolute", top: "10px", left: "10px", zIndex: "3", maxWidth: "calc(100% - 20px)", padding: "6px 8px", background: "rgba(0,0,0,.82)", color: "#fff", fontSize: "9px", fontWeight: "800", letterSpacing: ".08em", lineHeight: "1.3" });
+        card.append(kindLabel);
+      }
       card.setAttribute("aria-label", img.alt);
-      const label = card.querySelector("span");
+      const label = [...card.querySelectorAll("span")].find(s => !s.classList.contains("release-image-kind"));
       if (label) label.style.opacity = "0";
     };
     img.onerror = () => fallback(card, "image-request-failed");
@@ -130,6 +139,13 @@
       );
       if (hit?.artwork) {
         setArt(card, hit.artwork, title + " by " + artist);
+        return;
+      }
+
+      // If exact cover art cannot be verified, use the exact artist portrait as a clearly
+      // labeled visual fallback rather than leaving a blank tile or implying it is cover art.
+      if (intel?.artistImage) {
+        setArt(card, intel.artistImage, artist + " — artist portrait; release cover unavailable", "artist-portrait");
         return;
       }
 
