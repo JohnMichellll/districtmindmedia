@@ -1,23 +1,23 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-10T18:46:06.723Z
+Generated: 2026-10-10T19:10:15.766Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 271
+Stories discovered: 272
 
-1. **Charli XCX Welcomes Tinashe for Surprise Performance at 2026 Austin City Limits&#160;Festival** — Billboard — Sat, 10 Oct 2026 18:37:26 +0000
+1. **EXCLUSIVE: Cassie&#8217;s Menstrual Cycle Becomes Battleground In Attempt To Dismiss Freak-Off Worker&#8217;s $35M Lawsuit** — AllHipHop — Sat, 10 Oct 2026 19:01:27 +0000
+   https://allhiphop.com/news/exclusive-cassies-menstrual-cycle-becomes-battleground-in-attempt-to-dismiss-freak-off-workers-35m-lawsuit/
+2. **Charli XCX Welcomes Tinashe for Surprise Performance at 2026 Austin City Limits&#160;Festival** — Billboard — Sat, 10 Oct 2026 18:37:26 +0000
    https://www.billboard.com/music/music-news/charli-xcx-tinashe-2026-austin-city-limits-festival-1236358595/
-2. **UEYRTYYU Amon Amarth Hip Hop Baseball Cap - Adjustable Cotton Hat For Men & Women - umlconnector.com** — Google News — Hip-Hop — Sat, 10 Oct 2026 18:25:16 GMT
+3. **UEYRTYYU Amon Amarth Hip Hop Baseball Cap - Adjustable Cotton Hat For Men & Women - umlconnector.com** — Google News — Hip-Hop — Sat, 10 Oct 2026 18:25:16 GMT
    https://news.google.com/rss/articles/CBMikgFBVV95cUxOUDNGMl9VVEVTNVlwZ1I1bGdVdkQ4RUIwaWJIeTJBTU11c2xVQlczOWZROU5OMTJnLVh3bGUwNUJtd2VfbkNXa3VJWVJibzljb0NEQkpVbmJrd3Ztcmdub0tuNm9RNUhZX0x1R1RKLXYzU2JuV2VLVWVneUlkcWN5dG5FQ1dLWWxOR1RHamNrMkxuUQ?oc=5
-3. **Interscope Wants $50M From Summer Walker To Get Out Of Her Deal** — AllHipHop — Sat, 10 Oct 2026 18:00:00 +0000
+4. **Interscope Wants $50M From Summer Walker To Get Out Of Her Deal** — AllHipHop — Sat, 10 Oct 2026 18:00:00 +0000
    https://allhiphop.com/news/interscope-wants-50m-from-summer-walker-to-get-out-of-her-deal/
-4. **Barry Manilow Makes Early Exit From Second Night of Vegas Residency Comeback, Cancels Saturday Night Show** — Variety — Music — Sat, 10 Oct 2026 17:50:37 +0000
+5. **Barry Manilow Makes Early Exit From Second Night of Vegas Residency Comeback, Cancels Saturday Night Show** — Variety — Music — Sat, 10 Oct 2026 17:50:37 +0000
    https://variety.com/2026/music/news/barry-manilow-cancels-las-vegas-shows-1236907619/
-5. **Buffie The Body&#8217;s Age Baffles!** — AllHipHop — Sat, 10 Oct 2026 17:49:00 +0000
+6. **Buffie The Body&#8217;s Age Baffles!** — AllHipHop — Sat, 10 Oct 2026 17:49:00 +0000
    https://allhiphop.com/rumors/buffie-the-bodys-age-baffles/
-6. **Buffie the Body revisits her video-vixen era as hip-hop reexamines the women who defined it - TheGrio** — Google News — Hip-Hop — Sat, 10 Oct 2026 17:36:57 GMT
-   https://news.google.com/rss/articles/CBMie0FVX3lxTE5IMnJySU1pOWZ0b0dSZTEwckgyV2VKQ1U0eVRZZHNBMy16Z1dkQThtcmM4bGR2dWFCeDZtZENUQTRuTXBqR1ZuWE90MG5pd29MSTZ4SjdrcDFrRmRSdllVdEpEMWVpNXN4ZW11VlpSVkwwM0VxZnVEZEdxUQ?oc=5
 7. **Buffie the Body revisits her video-vixen era as hip-hop reexamines the women who defined it - Yahoo** — Google News — Hip-Hop — Sat, 10 Oct 2026 17:32:51 GMT
    https://news.google.com/rss/articles/CBMinAFBVV95cUxPVm56WjhNYU5WemRhcHJibUhTLUNVVURSRUswSHJnOVdJQ01WRVJrQ2JudFp1QV8tOUhnLWczeGRzNWtfbnhIaTRfWkprWk1ST0Z0WFpsTHBrYndmWFZfU3huZTY3TUxubnVja0pmZ2lYN1BnX192MW1xY0lIVFIwYTBJVkFuTjI0cFUtRmtHY1RwREdyZ2FYRElVZVA?oc=5
 8. **R&B singer Q Parker talks musical journey and what lies ahead - AOL.com** — Google News — R&B — Sat, 10 Oct 2026 17:03:55 GMT
@@ -50,19 +50,19 @@ Stories discovered: 271
    https://allhiphop.com/news/man-finally-busted-over-keion-white-shooting-connected-to-lil-baby-dispute/
 22. **For World Mental Health Day, a check-up on the music&#160;industry** — Billboard — Sat, 10 Oct 2026 15:08:44 +0000
    https://www.billboard.com/music/features/for-world-mental-health-day-2026-1236358584/
-23. **Q-Music: making melodic history – New releases by Rachael Sage & The Sequins, the late Ed Askew, Sera Cahoone, and Wesley Stace - Bay Area Reporter** — Google News — New Music — Sat, 10 Oct 2026 15:02:09 GMT
+23. **Dweezil Zappa on his new tour of Frank’s music and working with Eddie Van Halen - GuitarPlayer.com** — Google News — New Music — Sat, 10 Oct 2026 15:05:33 GMT
+   https://news.google.com/rss/articles/CBMi9gFBVV95cUxPT0tFTklzTklHazk2QzFRR0Y2RHdGcEo3anVFZ0lRYXA5aWl2TlFmUDdDNWQ1VVRQWnFXX1M4di1NUDhBWlJkUFNXNU9EZng0MUprU0dGNGNxdy0zRURkdy1XYVZmT2NRNkpsbHJZRmRlWjgzMThuR0FRNUtnZFpESkIxN050N2hjMkR4NmdRUkhTTU5PUElUenZKeGdrZTRyZHN3dXE1S3FMNGg3anRkS1RmeTIyREtybVE0V2JIX0NxU1VtNHN2S3RMbjhPZ3BwMHlYLTVFLWttQ0h4aGF6X1ZwUVY1OHpZYTdDTHQ5SVhWUlc3MkE?oc=5
+24. **Q-Music: making melodic history – New releases by Rachael Sage & The Sequins, the late Ed Askew, Sera Cahoone, and Wesley Stace - Bay Area Reporter** — Google News — New Music — Sat, 10 Oct 2026 15:02:09 GMT
    https://news.google.com/rss/articles/CBMi5wJBVV95cUxPdDd2TVpHeWpvLTVJeWFGT3RVMnFRaHNXQzNoTUJqNm9rb0Q4TmdoSnpoWkQxeTh6Ymx5Ni1pVUUwSTVVY3hhOVZoQTlqR2FGdVVYbnJTTnJtYnJ3SlpEM3ZULUtZQzRIWDR1b1laQU40N191RDhEWjljeDR6RXNUbDVvODM4aTlpQmFjOWQxcDdiaU9RYUM2YTZXS0MxNE9rNnBOZEZzUEViZnpObUU0QTQwYXl0R09jTFE2WUdKRWk5eXB6S21qamxvT09fcDZ5RmpaQVdUQ2FYakZVTUhWd09DZUE5Rld6TUV0ME83ZUR2eDNTbmlKQ181d0M0VzQyZlpLSUFUbHZyUHlRbnlVNUp6ZnNtb2w2aE9xcVBwQUlibFNobWdQWG1rS1BCbFVCdWs3NFNNUzYtRXlPV0NQc1k0bS0xTkhjVnF1dm05UFZlYXFORVRTMktVbnM2dG15eUQ1bWNrZw?oc=5
-24. **Saints vs. Vikings preview, Robin Barnes talks New Orleans music and heritage | The Neutral Ground - New Orleans Saints | NewOrleansSaints.com** — Google News — New Music — Sat, 10 Oct 2026 15:01:44 GMT
+25. **Saints vs. Vikings preview, Robin Barnes talks New Orleans music and heritage | The Neutral Ground - New Orleans Saints | NewOrleansSaints.com** — Google News — New Music — Sat, 10 Oct 2026 15:01:44 GMT
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVHhjV3BzMzRxVEZsWXNkbktVQ1BJejJzRkF5aXhWaTUzb3A1MGtvbmd6Mk9ER2t5Y0hlaHBrOVBJZkJsUUx6MEFxOTM5SDlHNTNYVnB2SUhUbU1tdzJXR1RwYmtaNllpcGNGc2JrLW42QjRVMzV4ckM1UUpxcU1ORnNPWmtkTGw3ZFBRQ2pTVHRoWjFRLWNFNjZ3azBFWGg2RUo1bzJzYlA1RW85Y2xjVUhqRzF4TUVjYkhUXzJ4Ty1abENnSTAyTGxILUpjbEFJb084Mw?oc=5
-25. **The Wu-Tang Clan verse recorded 15 minutes before going to prison - Dangerous Minds** — Google News — Hip-Hop — Sat, 10 Oct 2026 15:00:00 GMT
+26. **The Wu-Tang Clan verse recorded 15 minutes before going to prison - Dangerous Minds** — Google News — Hip-Hop — Sat, 10 Oct 2026 15:00:00 GMT
    https://news.google.com/rss/articles/CBMinAFBVV95cUxON1pVVFJmZlRFZk5nQ1ZIWHJ3Nk9lT1IwZ2NERDN3OF80Q3dRUEdUcll5eDdTMFZicmNCYk5QMkFkQ2c1bFlIMy1Ceml3QnpjSUg1MmNlc3lnN3RxX0dWVGE1dW85LTU0TDdSM2VoUjNJNlFxbGJnNEdyZkxEQW95RmJNQVFJWTdwTmptNUpyU2FXNmtnWkhNMnhrWnU?oc=5
-26. **Usher and Chris Brown Cancel Tour Dates Ahead of Brown's London Sentencing - Complex** — Google News — R&B — Sat, 10 Oct 2026 14:19:53 GMT
+27. **Usher and Chris Brown Cancel Tour Dates Ahead of Brown's London Sentencing - Complex** — Google News — R&B — Sat, 10 Oct 2026 14:19:53 GMT
    https://news.google.com/rss/articles/CBMioAFBVV95cUxPSXBXelc4WnVBMzZtcnE2ek1LZThjVjFKZ01lckgzUk9RTmxwc3NmUVdYXzV6Z2xFVnhMRzN0TE84ZGpFRE42b2szWlpVZ05kV3BSVXh1eUV2NDgwNUpqU0xjeHhLRXlJTGt0U1NkdThlVHpwSFF6V1JNSEFrS2xhd0V2SFBYeWI2NlMwc3VXSUNTYnAyNFBrdFRPZ2RReUhJ?oc=5
-27. **Celebrate John Prine's 80th Birthday with New Music Collection and Tribute Events - AOL.com** — Google News — New Music — Sat, 10 Oct 2026 14:04:47 GMT
+28. **Celebrate John Prine's 80th Birthday with New Music Collection and Tribute Events - AOL.com** — Google News — New Music — Sat, 10 Oct 2026 14:04:47 GMT
    https://news.google.com/rss/articles/CBMihgFBVV95cUxNRjRvX01BRHJOZGRnM0lpV3lhNHFVblgydUJDUVFzekZLMU5OOVMwTHRnak5lMHpNWE0zemJoTkJ4NjBtNGlib0pqU0h1V19ZcXJDZDAzMV8wT3JRYVlkQzBQNEJ5TC1rYW9nSVROUm5GX09QTjUtVkU2Smd0WXFkS2ZoWXJRUQ?oc=5
-28. **Muncie's new Ruby's Coffee and Music House implements novel idea of music - Ball State Daily News** — Google News — New Music — Sat, 10 Oct 2026 14:03:02 GMT
+29. **Muncie's new Ruby's Coffee and Music House implements novel idea of music - Ball State Daily News** — Google News — New Music — Sat, 10 Oct 2026 14:03:02 GMT
    https://news.google.com/rss/articles/CBMipAFBVV95cUxPbGY2QUt3RksySXk5Si01V1B0a1FKZm5XVkE1Z1lDSkJPZEVKUDQtTnNycENUVlhsdXJDd2JkWVc2TFgydTJ0OHdYT2g1WVdNV2VUVFYtM254YmNyYjFhQ01DUUg2dWZLMEtONUs4dUY1UEUxQnpqN1ZfQ3NFX3hOR0xtcEwzOHZ1NkRSaENiM25QYVYtdW1JOTVPS1dYY1BHVGxSUA?oc=5
-29. **How a Rap Battle Against Kanye West Led to One of the Best West Coast Hip-Hop Songs of the 2000s - VICE** — Google News — Hip-Hop — Sat, 10 Oct 2026 13:50:41 GMT
+30. **How a Rap Battle Against Kanye West Led to One of the Best West Coast Hip-Hop Songs of the 2000s - VICE** — Google News — Hip-Hop — Sat, 10 Oct 2026 13:50:41 GMT
    https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQWxFYWR1LVFyb2l4NEU4b2NkMzBDdFp5VDh2WTNrd2ZGOXh0MExoM1lZb3g5UFZiWEVibFlBNzNOLVIwY2l3eTRmSGdseHJPb2FBMG14UWV6cVVSUnQ0Z0pUUzJzWWE1aUZBLUx3S2VXcE1ZcThKcHNkMXJUMFN1eC11Um51Nzc5NnduWjRtczUwRmhFZmZKNFM3Z2NEaEdvRWtkMllBcGdrdFNMM292R21QRUNtbllOTGlDOHg3MWVxVWk5cDA3dA?oc=5
-30. **Geordie Greep Cancels Tour Dates Amid Sexual Misconduct Allegation** — Rolling Stone — Music — Sat, 10 Oct 2026 13:50:34 +0000
-   https://www.rollingstone.com/music/music-news/geordie-greep-cancel-tour-dates-sexual-misconduct-claim-1235640795/
