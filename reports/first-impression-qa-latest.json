@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-10T21:55:27.837Z",
+  "generatedAt": "2026-10-10T21:57:59.963Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
       "route": "/",
       "status": 200,
-      "ms": 6004,
+      "ms": 6038,
       "title": "District Mind Media — The Culture in Motion",
       "bodyChars": 4624,
       "hasNav": true,
@@ -116,7 +116,7 @@
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 999,
+      "ms": 1116,
       "title": "Newsroom — District Mind Media",
       "bodyChars": 1841,
       "hasNav": true,
@@ -193,7 +193,7 @@
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1065,
+      "ms": 1078,
       "title": "District Mind Media — Artist Intelligence Hub",
       "bodyChars": 1544,
       "hasNav": true,
@@ -231,7 +231,7 @@
     {
       "route": "/releases.html",
       "status": 200,
-      "ms": 6233,
+      "ms": 6354,
       "title": "District Mind Media | Releases",
       "bodyChars": 2474,
       "hasNav": true,
@@ -325,7 +325,7 @@
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 988,
+      "ms": 1016,
       "title": "Local Watch — District Mind Media",
       "bodyChars": 837,
       "hasNav": true,
@@ -354,7 +354,7 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 982,
+      "ms": 1004,
       "title": "Wayfinder Music AI — District Mind Media",
       "bodyChars": 1425,
       "hasNav": true,
@@ -386,7 +386,7 @@
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1018,
+      "ms": 1038,
       "title": "Radar — District Mind Media",
       "bodyChars": 642,
       "hasNav": true,
@@ -418,7 +418,7 @@
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 974,
+      "ms": 980,
       "title": "District Mind Media | Culture",
       "bodyChars": 1215,
       "hasNav": true,
@@ -475,7 +475,7 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 973,
+      "ms": 1008,
       "title": "District Mind Media | About",
       "bodyChars": 937,
       "hasNav": true,
@@ -501,7 +501,7 @@
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 985,
+      "ms": 1008,
       "title": "District Mind Media | Contact",
       "bodyChars": 508,
       "hasNav": true,
@@ -527,7 +527,7 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 984,
+      "ms": 1003,
       "title": "District Mind Academy — Class 001",
       "bodyChars": 3032,
       "hasNav": true,
@@ -560,7 +560,7 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 987,
+      "ms": 1004,
       "title": "Academy 001 — District Mind",
       "bodyChars": 913,
       "hasNav": true,
@@ -588,7 +588,7 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 967,
+      "ms": 988,
       "title": "Editorial — District Mind Media",
       "bodyChars": 1023,
       "hasNav": true,
@@ -623,7 +623,7 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 982,
+      "ms": 1016,
       "title": "Editorial Policy | District Mind Media",
       "bodyChars": 1233,
       "hasNav": true,
@@ -648,7 +648,7 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 975,
+      "ms": 1058,
       "title": "Contributors — District Mind Media",
       "bodyChars": 1066,
       "hasNav": true,
@@ -680,7 +680,7 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 976,
+      "ms": 1015,
       "title": "Explore — District Mind Media",
       "bodyChars": 1951,
       "hasNav": true,
@@ -719,7 +719,7 @@
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 974,
+      "ms": 1049,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
       "bodyChars": 2771,
       "hasNav": true,
@@ -753,11 +753,17 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 6099,
+      "ms": 6127,
       "title": "John Michell — District Mind Media",
-      "bodyChars": 2280,
+      "bodyChars": 2228,
       "hasNav": true,
-      "images": [],
+      "images": [
+        {
+          "src": "data:image/webp;base64,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",
+          "loaded": true,
+          "alt": "Drivin Crazy — official John Michell cover artwork"
+        }
+      ],
       "visualAssets": [
         {
           "key": "john-michell",
@@ -766,7 +772,7 @@
         },
         {
           "key": "John Michell — Drivin Crazy",
-          "status": "failed",
+          "status": "loaded",
           "loader": "release-artwork-loader"
         },
         {
@@ -812,7 +818,7 @@
     "blankPages": 0,
     "horizontalOverflow": 0,
     "brokenImages": 0,
-    "failedVisualAssets": 11,
+    "failedVisualAssets": 10,
     "pendingVisualAssets": 0,
     "missingImageAlt": 0,
     "suspiciousCopy": 0
