@@ -22,7 +22,7 @@ async function appleKnownId(artist,title){
 }
 const knownAlbumIds={
  "victoria monet|frequency of love":"6791645195",
- "quavo|qromelife":"6817200688",
+ "quavo|qromelife":"6809921222",
  "danielle ponder|everything has changed":"6790523443",
  "dawn richard|creole culture":"6784811773",
  "joyce wrice|machiko":"6804892827"
