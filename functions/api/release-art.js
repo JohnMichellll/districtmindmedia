@@ -57,10 +57,18 @@ export async function onRequestGet({request}){
  const u=new URL(request.url),artist=clean(u.searchParams.get("artist")),title=clean(u.searchParams.get("title"));
  if(artist.length<2||title.length<1)return json({ok:false,error:"Artist and release title are required."},400);
  try{
-  // Run catalogs concurrently: a slow provider must not block every cover on the page.
-  const results=await Promise.all([appleKnownId(artist,title),appleKnownAlbumId(artist,title),appleSong(artist,title),appleAlbum(artist,title),deezerTrack(artist,title)]);
-  const hit=results.find(Boolean);
-  if(hit)return json({ok:true,artist,title,...hit,artistArtwork:null,verified:true});
+  // Prefer pinned, exact catalog IDs first. The previous all-at-once fan-out called up to
+  // five providers for every card, multiplying load across a release grid and triggering
+  // provider timeouts/rate limits. Fall through only when the higher-confidence source misses.
+  const pinnedTrack=await appleKnownId(artist,title);
+  if(pinnedTrack)return json({ok:true,artist,title,...pinnedTrack,artistArtwork:null,verified:true});
+  const pinnedAlbum=await appleKnownAlbumId(artist,title);
+  if(pinnedAlbum)return json({ok:true,artist,title,...pinnedAlbum,artistArtwork:null,verified:true});
+  const [song,album]=await Promise.all([appleSong(artist,title),appleAlbum(artist,title)]);
+  const appleHit=song||album;
+  if(appleHit)return json({ok:true,artist,title,...appleHit,artistArtwork:null,verified:true});
+  const deezer=await deezerTrack(artist,title);
+  if(deezer)return json({ok:true,artist,title,...deezer,artistArtwork:null,verified:true});
   return json({ok:true,artist,title,artwork:null,artistArtwork:null,source:null,match:null,verified:false});
  }catch{return json({ok:false,error:"Release artwork lookup is temporarily unavailable."},502);}
 }
