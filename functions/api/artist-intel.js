@@ -8,9 +8,9 @@ const norm=s=>String(s||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
 const artistScore=(a,q)=>{const n=norm(a.artistName),x=norm(q);if(n===x)return 100;if(n.startsWith(x))return 85;if(n.includes(x))return 70;return 0};
 function artistQueryFromText(raw){
  let q=String(raw||"").trim().replace(/[?!.]+$/g,"").trim();
- const releaseQuestion=q.match(/^(?:what(?:\s+is|\x27s)|tell\s+me)\s+(.+?)\x27s\s+(?:latest\s+release|newest\s+song|discography|music|news|career)$/i);
+ const releaseQuestion=q.match(/^(?:what(?:\s+is|[’\x27]s)|tell\s+me)\s+(.+?)[’\x27]s\s+(?:latest\s+release|newest\s+song|discography|music|news|career)$/i);
  if(releaseQuestion) return releaseQuestion[1].trim();
- const prefixes=[/^(?:can\s+you\s+)?(?:please\s+)?(?:tell\s+me\s+about|who\s+is|what\s+should\s+i\s+know\s+about|what\s+do\s+i\s+need\s+to\s+know\s+about|what\x27s\s+new\s+with|what\s+is\s+happening\s+with|give\s+me\s+(?:a\s+)?(?:briefing|overview)\s+on|show\s+me|look\s+up|search\s+for|find|music\s+by|artist|about)\s+/i];
+ const prefixes=[/^(?:can\s+you\s+)?(?:please\s+)?(?:tell\s+me\s+about|who\s+is|what\s+should\s+i\s+know\s+about|what\s+do\s+i\s+need\s+to\s+know\s+about|what[’\x27]s\s+new\s+with|what\s+is\s+happening\s+with|give\s+me\s+(?:a\s+)?(?:briefing|overview)\s+on|show\s+me|look\s+up|search\s+for|find|music\s+by|artist|about)\s+/i];
  for(const pattern of prefixes) q=q.replace(pattern,"").trim();
  q=q.replace(/\s+(?:artist\s+)?(?:overview|briefing|biography|bio)$/i,"").trim();
  return q;
