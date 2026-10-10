@@ -38,6 +38,9 @@ const knownAlbumIds={
  "danielle ponder|everything has changed":"6790523443",
  "dawn richard|creole culture":"6784811773",
  "joyce wrice|machiko":"6804892827",
+ "tinie tempah|the nights not dead":"6790890539",
+ "the avalanches|no bad memories":"6794202148",
+ "rachel chinouriri|i think i spoke too soon":"6792960696",
  "john michell|who is you":"1837928296",
  "john michell|u":"1819200665",
  "john michell|eyes open":"1727068645"
