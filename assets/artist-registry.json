@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-10",
+  "policy": "Canonical artist IDs and official catalog links are preferred. Do not infer or substitute portrait/release artwork from a similar name. Third-party photos require a compatible license and credit; owner assets remain pending until a verified URL is configured.",
+  "artists": [
+    {
+      "id": "john-michell",
+      "name": "John Michell",
+      "aliases": ["John Michell", "John Michell District Mind Records"],
+      "role": "site-owner-artist",
+      "genre": ["Hip-Hop", "R&B"],
+      "appleMusicArtistId": "1720482148",
+      "officialCatalogUrl": "https://music.apple.com/us/artist/john-michell/1720482148",
+      "officialEmbedUrl": "https://embed.music.apple.com/us/artist/john-michell/1720482148",
+      "portraitAssetKey": "john-michell",
+      "identityPolicy": "owner-supplied-only",
+      "portraitStatus": "needs_verified_asset",
+      "releases": [
+        {
+          "id": "john-michell-drivin-crazy",
+          "title": "Drivin Crazy",
+          "assetKey": "john-michell-drivin-crazy",
+          "status": "needs_verified_artwork",
+          "fallbackCatalogUrl": "https://music.apple.com/us/artist/john-michell/1720482148"
+        },
+        {
+          "id": "john-michell-who-is-you",
+          "title": "WHO IS YOU",
+          "assetKey": "john-michell-who-is-you",
+          "status": "needs_verified_artwork",
+          "fallbackCatalogUrl": "https://music.apple.com/us/artist/john-michell/1720482148"
+        },
+        {
+          "id": "john-michell-u",
+          "title": "U",
+          "assetKey": "john-michell-u",
+          "status": "needs_verified_artwork",
+          "fallbackCatalogUrl": "https://music.apple.com/us/artist/john-michell/1720482148"
+        }
+      ]
+    }
+  ]
+}
