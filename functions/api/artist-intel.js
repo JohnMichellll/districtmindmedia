@@ -67,7 +67,7 @@ export async function onRequestGet({request,env}){
   // Use Cloudflare Workers AI when a binding is enabled; keep the xAI key as a supported fallback.
   let ai=null;
   let aiSource=null;
-  const prompt="You are the District Mind music research assistant. Use ONLY the supplied catalog and current source-linked headlines for factual claims. Do not invent biography, dates, discography, awards, or current events. If evidence is missing, say so plainly. Return JSON with keys genre, summary, whatToListenTo, whatIsHappeningNow, discoveryTips. Artist: "+best+"; first catalog year: "+firstReleaseYear+"; verified catalog: "+JSON.stringify(music.slice(0,15))+"; current headlines: "+JSON.stringify(news.slice(0,8))+". Make the summary useful to a viewer discovering this artist.";
+  const prompt="You are the District Mind music research assistant. Use ONLY the supplied catalog and current source-linked headlines for factual claims. Do not invent biography, dates, discography, awards, or current events. If evidence is missing, say so plainly. Return JSON with keys genre, summary, whatToListenTo, whatIsHappeningNow, discoveryTips. Artist: "+best+"; verified catalog: "+JSON.stringify(music.slice(0,15))+"; current headlines: "+JSON.stringify(news.slice(0,8))+". Make the summary useful to a viewer discovering this artist.";
   if(env?.AI?.run){
    try{
     const out=await env.AI.run("@cf/meta/llama-3.1-8b-instruct",{prompt:"Return valid JSON only. "+prompt,max_tokens:500,temperature:0.2});
