@@ -6,7 +6,7 @@
     return x === y || x.replace(/\bthe\b/g,"").trim() === y.replace(/\bthe\b/g,"").trim();
   };
 
-  async function json(url, timeoutMs = 9000) {
+  async function json(url, timeoutMs = 5500) {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), timeoutMs);
     try {
