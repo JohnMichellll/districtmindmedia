@@ -152,34 +152,8 @@
         return;
       }
 
-      const portraitKey = norm(artist).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-      const verifiedPortrait = photoManifest?.photos?.[portraitKey];
-      if (verifiedPortrait?.url && norm(verifiedPortrait.subject) === norm(artist) && await imageLoads(verifiedPortrait.url)) {
-        setArt(card, verifiedPortrait.url, artist + " — artist portrait; release cover unavailable", "artist-portrait");
-        return;
-      }
-
-      const intel = await json("/api/artist-intel?q=" + encodeURIComponent(artist));
-      const hit = (intel?.music || []).find(track =>
-        same(track.title, title) || same(track.album, title)
-      );
-      if (hit?.artwork) {
-        setArt(card, hit.artwork, title + " by " + artist);
-        return;
-      }
-
-      // If exact cover art cannot be verified, use the exact artist portrait as a clearly
-      // labeled visual fallback rather than leaving a blank tile or implying it is cover art.
-      if (intel?.artistImage) {
-        setArt(card, intel.artistImage, artist + " — artist portrait; release cover unavailable", "artist-portrait");
-        return;
-      }
-
-      if (intel?.artistImage && same(title, artist)) {
-        setArt(card, intel.artistImage, artist);
-        return;
-      }
-
+      // Release cards must use verified release artwork only. Never replace a missing
+      // cover with an artist portrait or an unverified track from a different catalog hit.
       fallback(card, "no-verified-matching-artwork");
     }));
   }
