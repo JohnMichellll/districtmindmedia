@@ -5,6 +5,7 @@ const norm=s=>String(s||"").toLowerCase().normalize("NFKD").replace(/[\u0300-\u0
 const fetchJson=async(url,ms=4500)=>{const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal,headers:{"Accept":"application/json"}});return r.ok?await r.json():null}catch{return null}finally{clearTimeout(t)}};
 const exact=(artist,title,x)=>norm(x.artistName||x.artist?.name)===norm(artist)&&norm(x.trackName||x.title)===norm(title);
 const johnCatalogIds={
+ "drivin crazy":"6787327121",
  "who is you":"1837928296",
  "u":"1819200665",
  "eyes open":"1727068645",
