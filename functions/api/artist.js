@@ -17,21 +17,21 @@ export async function onRequestGet({request}){
    matches=[...map.values()];
   }
   matches.sort((a,b)=>score(b.artistName,q)-score(a.artistName,q));
-  const artists=[];
-  for(const a of matches.slice(0,12)){
+  const candidates=matches.slice(0,8);
+  const artists=await Promise.all(candidates.map(async a=>{
    let songs=[];
    if(a.artistId){
-    const ld=await fetchJson("https://itunes.apple.com/lookup?id="+encodeURIComponent(a.artistId)+"&entity=song&limit=50&country=US");
-    songs=(ld?.results||[]).filter(x=>x.wrapperType==="track"&&x.trackName).map(x=>({trackName:x.trackName,collectionName:x.collectionName||"",releaseDate:x.releaseDate||null,artworkUrl:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"600x600"):null,trackViewUrl:x.trackViewUrl||null}));
+    const ld=await fetchJson("https://itunes.apple.com/lookup?id="+encodeURIComponent(a.artistId)+"&entity=song&limit=50&country=US",5500);
+    songs=(ld?.results||[]).filter(x=>x.wrapperType==="track"&&x.trackName).map(x=>({trackName:x.trackName,collectionName:x.collectionName||"",releaseDate:x.releaseDate||null,artworkUrl:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"600x600"):null,trackViewUrl:x.trackViewUrl||null,primaryGenreName:x.primaryGenreName||null}));
    }
    if(songs.length<3){
-    const sr=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(a.artistName)+"&entity=song&attribute=artistTerm&limit=50&country=US");
-    songs=(sr?.results||[]).filter(x=>x.trackName&&norm(x.artistName)===norm(a.artistName)).map(x=>({trackName:x.trackName,collectionName:x.collectionName||"",releaseDate:x.releaseDate||null,artworkUrl:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"600x600"):null,trackViewUrl:x.trackViewUrl||null})).slice(0,12);
+    const sr=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(a.artistName)+"&entity=song&attribute=artistTerm&limit=50&country=US",4500);
+    songs=(sr?.results||[]).filter(x=>x.trackName&&norm(x.artistName)===norm(a.artistName)).map(x=>({trackName:x.trackName,collectionName:x.collectionName||"",releaseDate:x.releaseDate||null,artworkUrl:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"600x600"):null,trackViewUrl:x.trackViewUrl||null,primaryGenreName:x.primaryGenreName||null})).slice(0,50);
    }
    const datedSongs=songs.map(x=>x.releaseDate).filter(Boolean).sort();
    const catalogTrackCount=songs.length;
-   artists.push({artistName:a.artistName,artistId:a.artistId||null,artistViewUrl:a.artistViewUrl||null,primaryGenreName:a.primaryGenreName||songs[0]?.primaryGenreName||"",artworkUrl:songs[0]?.artworkUrl||null,catalogTrackCount,catalogCountIsLowerBound:catalogTrackCount>=50,oldestReleaseDate:datedSongs[0]||null,newestReleaseDate:datedSongs[datedSongs.length-1]||null,catalogSource:"Apple Music search catalog",distributionStatus:"not-verified",songs:songs.slice(0,12)});
-  }
+   return {artistName:a.artistName,artistId:a.artistId||null,artistViewUrl:a.artistViewUrl||null,primaryGenreName:a.primaryGenreName||songs[0]?.primaryGenreName||"",artworkUrl:songs[0]?.artworkUrl||null,catalogTrackCount,catalogCountIsLowerBound:catalogTrackCount>=50,oldestReleaseDate:datedSongs[0]||null,newestReleaseDate:datedSongs[datedSongs.length-1]||null,catalogSource:"Apple Music search catalog",distributionStatus:"not-verified",songs:songs.slice(0,12)};
+  }));
   const best=artists[0]?.artistName||q;
   let news=[];
   try{const nr=await fetch("https://news.google.com/rss/search?q="+encodeURIComponent('"'+best+'" music')+"&hl=en-US&gl=US&ceid=US:en");if(nr.ok){const xml=await nr.text();news=[...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].slice(0,8).map(m=>{const b=m[1],pick=k=>(b.match(new RegExp("<"+k+">([\\s\\S]*?)<\\/"+k+">"))||[])[1]||"";return{title:pick("title").replace(/<[^>]+>/g,"").trim(),link:pick("link").trim(),pubDate:pick("pubDate").trim()}}).filter(x=>x.title)}}catch{}
