@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-10T21:48:13.088Z",
+  "generatedAt": "2026-10-10T21:50:22.991Z",
   "policy": "Artist identity is a hard constraint. Automated discovery may search multiple public sources, but publication imagery is used only when the subject is independently matched and rights/permission are documented. Instagram, Meta and Google can be discovery or owner-supplied sources; the system never blindly scrapes and republishes copyrighted social imagery.",
   "photos": {
     "john-michell": {
@@ -89,6 +89,28 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:JPEGMAFIA_interview_at_NTS_Radio_with_Natalie_James.png",
       "identity": "metadata-name-match",
       "verifiedAt": "2026-10-10T06:32:57.290Z"
+    },
+    "danielle-ponder": {
+      "subject": "Danielle Ponder",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Danielle_Ponder_2014_%28cropped%29.png",
+      "alt": "Danielle Ponder performing",
+      "credit": "Ted Forsyth / Rochester Indymedia / Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Danielle_Ponder_2014_(cropped).png",
+      "identity": "metadata-name-match",
+      "verifiedAt": "2026-10-10T21:50:22.991Z"
+    },
+    "dawn-richard": {
+      "subject": "Dawn Richard",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Dawn_Richard_2010.jpg/330px-Dawn_Richard_2010.jpg",
+      "alt": "Dawn Richard",
+      "credit": "Shamsuddin Muhammad / Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dawn_Richard_2010.jpg",
+      "identity": "metadata-name-match",
+      "verifiedAt": "2026-10-10T21:50:22.991Z"
     }
   }
 }
