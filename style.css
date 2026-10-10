@@ -2631,7 +2631,7 @@ button:hover,.button:hover,.btn:hover,[type=submit]:hover{transform:translateY(-
 .hero-content,.page-shell{width:min(1160px,92%);margin-left:auto;margin-right:auto}
 .hero-content{padding-top:clamp(38px,7vw,86px);padding-bottom:clamp(38px,6vw,72px)}
 .page-hero h1,.hero-content h1{max-width:1000px;text-wrap:balance;letter-spacing:-.065em;line-height:.96}
-.page-lead,.hero-text,.section-deck{max-width:720px;line-height:1.75;color:var(--dm-muted)}
+.page-lead,.section-deck{max-width:720px;line-height:1.75;color:var(--dm-muted)}
 .eyebrow,.category,.release-meta{letter-spacing:.13em}
 .section-heading{margin-bottom:28px}
 .section-heading h2{letter-spacing:-.055em;text-wrap:balance}
