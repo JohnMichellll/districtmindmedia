@@ -7,7 +7,7 @@ const results = [];
 const browser = await chromium.launch({headless:true});
 const page = await browser.newPage({viewport:{width:390,height:844}, deviceScaleFactor:2});
 
-page.on("console", m => { if (m.type()==="error") results.push({type:"console-error", text:m.text(), url:page.url()}); });
+page.on("console", m => { if (m.type()==="error") results.push({type:"console-error", text:m.text(), url:m.location()?.url || page.url(), page:page.url()}); });
 page.on("pageerror", e => results.push({type:"page-error", text:e.message, url:page.url()}));
 
 for (const route of routes) {
@@ -47,6 +47,16 @@ for (const route of routes) {
     results.push({route,error:e.message,ms:Date.now()-started});
   }
 }
+const internalTargets=[...new Set(results.filter(r=>r.route).flatMap(r=>r.links||[]).filter(h=>h.startsWith(BASE)).map(h=>{try{const u=new URL(h);u.hash="";return u.href;}catch{return null;}}).filter(Boolean))];
+const linkFailures=[];
+for (const target of internalTargets) {
+  try {
+    const response=await page.request.get(target,{timeout:10000});
+    if(response.status()>=400)linkFailures.push({url:target,status:response.status()});
+  } catch(e) {
+    linkFailures.push({url:target,error:e.message});
+  }
+}
 await browser.close();
 
 const report = {
@@ -54,8 +64,10 @@ const report = {
   target:BASE,
   viewport:"390x844",
   routes:results,
+  linkFailures,
   summary:{
     routeFailures:results.filter(r=>r.route && r.status!==200).length,
+    internalLinkFailures:linkFailures.length,
     pageErrors:results.filter(r=>r.type==="page-error").length,
     consoleErrors:results.filter(r=>r.type==="console-error").length,
     blankPages:results.filter(r=>r.bodyChars!==undefined && r.bodyChars<200).length,
@@ -70,4 +82,4 @@ const report = {
 fs.mkdirSync("reports",{recursive:true});
 fs.writeFileSync("reports/first-impression-qa-latest.json",JSON.stringify(report,null,2));
 console.log(JSON.stringify(report.summary,null,2));
-if (report.summary.routeFailures || report.summary.blankPages || report.summary.horizontalOverflow || report.summary.brokenImages || report.summary.failedVisualAssets || report.summary.pendingVisualAssets || report.summary.missingImageAlt || report.summary.suspiciousCopy || report.summary.pageErrors || report.summary.consoleErrors) process.exitCode=1;
+if (report.summary.internalLinkFailures || report.summary.routeFailures || report.summary.blankPages || report.summary.horizontalOverflow || report.summary.brokenImages || report.summary.failedVisualAssets || report.summary.pendingVisualAssets || report.summary.missingImageAlt || report.summary.suspiciousCopy || report.summary.pageErrors || report.summary.consoleErrors) process.exitCode=1;
