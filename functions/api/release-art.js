@@ -39,7 +39,7 @@ async function deezerTrack(artist,title){
 }
 export async function onRequestGet({request}){
  const u=new URL(request.url),artist=clean(u.searchParams.get("artist")),title=clean(u.searchParams.get("title"));
- if(artist.length<2||title.length<2)return json({ok:false,error:"Artist and release title are required."},400);
+ if(artist.length<2||title.length<1)return json({ok:false,error:"Artist and release title are required."},400);
  try{
   // Run catalogs concurrently: a slow provider must not block every cover on the page.
   const results=await Promise.all([appleKnownId(artist,title),appleSong(artist,title),appleAlbum(artist,title),deezerTrack(artist,title)]);
