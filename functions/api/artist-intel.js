@@ -24,9 +24,12 @@ export async function onRequestGet({request,env}){
   artists=artists.filter(a=>artistScore(a,q)>0);
   artists.sort((a,b)=>artistScore(b,q)-artistScore(a,q));
   // Pin the owner search to the District Mind Records artist catalog.
+  if(norm(q)!=="john michell"&&!artists.length){
+   return json({ok:false,error:"No close artist match found. Try the full artist name or another spelling.",query:q},404);
+  }
   const bestArtist=norm(q)==="john michell"
    ? {artistId:"1720482148",artistName:"John Michell",primaryGenreName:"Hip-Hop/Rap"}
-   : (artists[0]||{artistName:q});
+   : artists[0];
   const best=bestArtist.artistName;
   let music=[];
   if(bestArtist.artistId){
