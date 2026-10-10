@@ -120,5 +120,5 @@ steps.forEach(x=>x.addEventListener('change',updateProgress));
 signup.addEventListener('submit',e=>{e.preventDefault();const email=document.getElementById('academy-email').value.trim();if(!email)return;localStorage.setItem('dmAcademyEmail',email);status.textContent='You’re on the Class 001 list. Complete the orientation below to unlock your first access code.';document.getElementById('orientation').scrollIntoView({behavior:'smooth'});});
 unlock.addEventListener('click',()=>{if(!localStorage.getItem('dmAcademyEmail')){status.textContent='Enter your email above first.';document.querySelector('.academy-access-card').scrollIntoView({behavior:'smooth'});return;} codeBox.hidden=false;localStorage.setItem('dmAcademyReady','true');codeBox.scrollIntoView({behavior:'smooth',block:'center'});});
 </script>
-<script src="site-guide.js" defer></script>\n</body>
+<script src="site-guide.js?v=20261010-menu1" defer></script>\n</body>
 </html>
