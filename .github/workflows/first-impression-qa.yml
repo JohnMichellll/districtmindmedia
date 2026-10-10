@@ -43,7 +43,13 @@ jobs:
           git add reports/first-impression-qa-latest.json
           git diff --cached --quiet && exit 0
           git commit -m "chore(qa): refresh first-impression browser audit"
-          git pull --rebase origin main
-          git push
+          if ! git pull --rebase origin main; then
+            git rebase --abort || true
+            echo "A concurrent QA run refreshed the report first; preserving the browser audit result without failing on this redundant report commit."
+            exit 0
+          fi
+          if ! git push; then
+            echo "A concurrent workflow won the report push race; browser audit results are preserved in the run log/artifact."
+          fi
 
 # QA trigger: validate current production build
