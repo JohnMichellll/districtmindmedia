@@ -19,6 +19,12 @@
 .john-visual-copy span{display:block;margin-top:5px;font-size:11px;color:#656565}
 .john-visual-status{grid-column:1/-1;padding:20px;background:#171717;color:#f7f5f1}
 @media(max-width:700px){.john-visual-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}}
+
+.john-apple-catalog{margin-top:24px;background:#f1f0eb;border:1px solid rgba(0,0,0,.13);padding:clamp(16px,3vw,28px)}
+.john-apple-catalog iframe{display:block;width:100%;height:450px;border:0;border-radius:12px;background:#fff}
+.john-media-note{font-size:13px;color:#666;line-height:1.55;margin:10px 0 0}
+@media(max-width:600px){.john-apple-catalog iframe{height:480px}}
+
 </style>
 </head>
 <body>
@@ -43,6 +49,13 @@
 <section class="page-shell reveal is-visible" id="john-visual-catalog">
   <div class="section-heading"><p class="eyebrow">District Mind Records / Official Catalog</p><h2>THE MUSIC. THE ARTWORK.</h2><p>Release covers are loaded from the matching John Michell catalog entry — never from another artist.</p></div>
   <div class="john-visual-grid" id="john-visual-grid" aria-live="polite"><p class="john-visual-status">Loading verified release artwork…</p></div>
+</section>
+<section class="page-shell reveal is-visible" id="john-apple-catalog-fallback">
+  <div class="section-heading"><p class="eyebrow">Official music source</p><h2>LISTEN. VIEW THE ARTWORK.</h2><p>Official John Michell catalog, with release artwork served directly by Apple Music.</p></div>
+  <div class="john-apple-catalog">
+    <iframe title="John Michell official Apple Music artist catalog and artwork" loading="lazy" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/artist/john-michell/1720482148"></iframe>
+    <p class="john-media-note">This official catalog remains available even if District Mind Media's own artwork lookup service is temporarily unavailable. <a href="https://music.apple.com/us/artist/john-michell/1720482148" target="_blank" rel="noopener noreferrer">Open full catalog on Apple Music ↗</a></p>
+  </div>
 </section>
 </main>
 <footer><div class="footer-container"><div><h3>District Mind</h3><p>Media</p></div><p>© 2026 District Mind Media. All rights reserved.</p></div></footer>
