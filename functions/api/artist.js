@@ -28,7 +28,9 @@ export async function onRequestGet({request}){
     const sr=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(a.artistName)+"&entity=song&attribute=artistTerm&limit=50&country=US");
     songs=(sr?.results||[]).filter(x=>x.trackName&&norm(x.artistName)===norm(a.artistName)).map(x=>({trackName:x.trackName,collectionName:x.collectionName||"",releaseDate:x.releaseDate||null,artworkUrl:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"600x600"):null,trackViewUrl:x.trackViewUrl||null})).slice(0,12);
    }
-   artists.push({artistName:a.artistName,artistId:a.artistId||null,artistViewUrl:a.artistViewUrl||null,primaryGenreName:a.primaryGenreName||songs[0]?.primaryGenreName||"",artworkUrl:songs[0]?.artworkUrl||null,songs:songs.slice(0,12)});
+   const datedSongs=songs.map(x=>x.releaseDate).filter(Boolean).sort();
+   const catalogTrackCount=songs.length;
+   artists.push({artistName:a.artistName,artistId:a.artistId||null,artistViewUrl:a.artistViewUrl||null,primaryGenreName:a.primaryGenreName||songs[0]?.primaryGenreName||"",artworkUrl:songs[0]?.artworkUrl||null,catalogTrackCount,catalogCountIsLowerBound:catalogTrackCount>=50,oldestReleaseDate:datedSongs[0]||null,newestReleaseDate:datedSongs[datedSongs.length-1]||null,catalogSource:"Apple Music search catalog",distributionStatus:"not-verified",songs:songs.slice(0,12)});
   }
   const best=artists[0]?.artistName||q;
   let news=[];
