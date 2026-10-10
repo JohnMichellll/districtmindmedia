@@ -1,44 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T01:44:23.191Z",
-  "errors": [
-    {
-      "source": "Google News — Hip-Hop",
-      "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 7988,
-      "error": "HTTP 503",
-      "workflow": "newsroom-operator"
-    },
-    {
-      "source": "Google News — R&B",
-      "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 8000,
-      "error": "TIMEOUT",
-      "workflow": "newsroom-operator"
-    },
-    {
-      "source": "Google News — New Music",
-      "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 8001,
-      "error": "TIMEOUT",
-      "workflow": "newsroom-operator"
-    },
-    {
-      "source": "Google News — Colorado Music",
-      "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 8000,
-      "error": "TIMEOUT",
-      "workflow": "newsroom-operator"
-    }
-  ],
+  "updatedAt": "2026-10-10T02:10:51.040Z",
+  "errors": [],
   "resolved": [
     {
       "source": "TMZ",
@@ -199,6 +162,46 @@
       "error": "TIMEOUT",
       "workflow": "newsroom-operator",
       "resolvedAt": "2026-10-08T12:14:53.724Z"
+    },
+    {
+      "source": "Google News — Hip-Hop",
+      "tier": 2,
+      "status": "resolved",
+      "stories": 0,
+      "latencyMs": 7988,
+      "error": "HTTP 503",
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-10T02:10:51.040Z"
+    },
+    {
+      "source": "Google News — R&B",
+      "tier": 2,
+      "status": "resolved",
+      "stories": 0,
+      "latencyMs": 8000,
+      "error": "TIMEOUT",
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-10T02:10:51.040Z"
+    },
+    {
+      "source": "Google News — New Music",
+      "tier": 2,
+      "status": "resolved",
+      "stories": 0,
+      "latencyMs": 8001,
+      "error": "TIMEOUT",
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-10T02:10:51.040Z"
+    },
+    {
+      "source": "Google News — Colorado Music",
+      "tier": 2,
+      "status": "resolved",
+      "stories": 0,
+      "latencyMs": 8000,
+      "error": "TIMEOUT",
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-10T02:10:51.040Z"
     }
   ]
 }
