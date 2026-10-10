@@ -127,10 +127,10 @@
 
       // Owner-supplied cover art takes priority for John Michell when the manifest
       // has an exact title-to-artwork mapping. Never substitute this image for another song.
-      const photoKey = card.dataset.photoKey || "";
-      const ownerArt = photoManifest?.photos?.[photoKey];
-      if (norm(artist) === "john michell" && ownerArt?.url && ownerArt.identity === "owner-supplied" &&
-          (norm(title) === "drivin crazy" || norm(title) === "drivin crazy single") && await imageLoads(ownerArt.url)) {
+      const ownerArt = photoManifest?.photos?.["john-michell-drivin-crazy"];
+      if (norm(artist) === "john michell" && norm(title) === "drivin crazy" && ownerArt?.url && ownerArt.identity === "owner-supplied") {
+        // Set the verified owner image directly; the image element itself reports load/error.
+        // Avoid a second preflight request against a data URL, which can delay the real render.
         setArt(card, ownerArt.url, "Drivin Crazy — official John Michell cover artwork");
         return;
       }
