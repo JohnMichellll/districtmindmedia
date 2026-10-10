@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-09T06:35:47.170Z",
+  "generatedAt": "2026-10-10T06:32:57.290Z",
   "policy": "Artist identity is a hard constraint. Automated discovery may search multiple public sources, but publication imagery is used only when the subject is independently matched and rights/permission are documented. Instagram, Meta and Google can be discovery or owner-supplied sources; the system never blindly scrapes and republishes copyrighted social imagery.",
   "photos": {
     "john-michell": {
@@ -44,7 +44,7 @@
       "source": "Wikimedia Commons",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Earl_Sweatshirt_2012.JPG",
       "identity": "metadata-name-match",
-      "verifiedAt": "2026-10-09T06:35:45.133Z"
+      "verifiedAt": "2026-10-10T06:32:54.119Z"
     },
     "victoria-monet": {
       "subject": "Victoria Monét",
@@ -55,7 +55,7 @@
       "source": "Wikimedia Commons",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Victoria_Mon%C3%A9t1.jpg",
       "identity": "metadata-name-match",
-      "verifiedAt": "2026-10-09T06:35:45.720Z"
+      "verifiedAt": "2026-10-10T06:32:54.921Z"
     },
     "quavo": {
       "subject": "Quavo",
@@ -66,7 +66,7 @@
       "source": "Wikimedia Commons",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quavo_(51914439436).jpg",
       "identity": "metadata-name-match",
-      "verifiedAt": "2026-10-09T06:35:46.006Z"
+      "verifiedAt": "2026-10-10T06:32:55.860Z"
     },
     "doja-cat": {
       "subject": "Doja Cat",
@@ -77,7 +77,7 @@
       "source": "Wikimedia Commons",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doja_Cat_August_2019.png",
       "identity": "metadata-name-match",
-      "verifiedAt": "2026-10-09T06:35:46.585Z"
+      "verifiedAt": "2026-10-10T06:32:56.488Z"
     },
     "jpegmafia": {
       "subject": "JPEGMAFIA",
@@ -88,7 +88,7 @@
       "source": "Wikimedia Commons",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:JPEGMAFIA_interview_at_NTS_Radio_with_Natalie_James.png",
       "identity": "metadata-name-match",
-      "verifiedAt": "2026-10-09T06:35:47.170Z"
+      "verifiedAt": "2026-10-10T06:32:57.290Z"
     }
   }
 }
