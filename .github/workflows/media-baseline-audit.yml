@@ -1,0 +1,28 @@
+name: District Mind — System A Baseline Audit (comparison only)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  baseline-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run conventional baseline audit
+        env:
+          SITE_URL: https://district-mind-media.pages.dev
+        run: node scripts/media-baseline-audit.mjs
+      - name: Upload comparison report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: district-mind-system-a-baseline
+          path: reports/media-baseline-audit.json
+          if-no-files-found: warn
+          retention-days: 14
