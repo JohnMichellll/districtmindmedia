@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-10T01:53:23.342Z",
+  "generatedAt": "2026-10-10T01:55:31.195Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
       "route": "/",
       "status": 200,
-      "ms": 2365,
+      "ms": 2143,
       "title": "District Mind Media — The Culture in Motion",
       "bodyChars": 4642,
       "hasNav": true,
@@ -34,7 +34,7 @@
         },
         {
           "key": "john-michell",
-          "status": "failed",
+          "status": "loading",
           "loader": "photo-loader"
         },
         {
@@ -101,7 +101,7 @@
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 1994,
+      "ms": 1883,
       "title": "Newsroom — District Mind Media",
       "bodyChars": 1841,
       "hasNav": true,
@@ -179,7 +179,7 @@
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 2084,
+      "ms": 1877,
       "title": "District Mind Media — Artist Intelligence Hub",
       "bodyChars": 1406,
       "hasNav": true,
@@ -221,7 +221,7 @@
     {
       "route": "/releases.html",
       "status": 200,
-      "ms": 1906,
+      "ms": 1883,
       "title": "District Mind Media | Releases",
       "bodyChars": 2542,
       "hasNav": true,
@@ -229,12 +229,12 @@
       "visualAssets": [
         {
           "key": "Danielle Ponder — Everything Has Changed",
-          "status": "failed",
+          "status": "loading",
           "loader": "release-artwork-loader"
         },
         {
           "key": "Dawn Richard — Creole Culture",
-          "status": "failed",
+          "status": "loading",
           "loader": "release-artwork-loader"
         },
         {
@@ -244,32 +244,32 @@
         },
         {
           "key": "john-michell-drivin-crazy",
-          "status": "failed",
+          "status": "loading",
           "loader": "release-artwork-loader"
         },
         {
           "key": "john-michell-who-is-you",
-          "status": "failed",
+          "status": "loading",
           "loader": "release-artwork-loader"
         },
         {
           "key": "john-michell-u",
-          "status": "failed",
+          "status": "loading",
           "loader": "release-artwork-loader"
         },
         {
           "key": "john-michell",
-          "status": "failed",
+          "status": "loading",
           "loader": "photo-loader"
         },
         {
           "key": "john-michell",
-          "status": "failed",
+          "status": "loading",
           "loader": "release-artwork-loader"
         },
         {
           "key": "john-michell",
-          "status": "failed",
+          "status": "loading",
           "loader": "release-artwork-loader"
         }
       ],
@@ -305,7 +305,7 @@
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 1930,
+      "ms": 1871,
       "title": "Local Watch — District Mind Media",
       "bodyChars": 810,
       "hasNav": true,
@@ -335,7 +335,7 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 1905,
+      "ms": 2133,
       "title": "Wayfinder — District Mind Media",
       "bodyChars": 3127,
       "hasNav": true,
@@ -365,51 +365,11 @@
       "internalLinkCount": 14
     },
     {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/radar"
-    },
-    {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/radar"
-    },
-    {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/radar"
-    },
-    {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/radar"
-    },
-    {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/radar"
-    },
-    {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/radar"
-    },
-    {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/radar"
-    },
-    {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/radar"
-    },
-    {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1942,
+      "ms": 1902,
       "title": "Radar — District Mind Media",
-      "bodyChars": 6787,
+      "bodyChars": 642,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -433,14 +393,14 @@
         "https://district-mind-media.pages.dev/editorial-policy.html",
         "https://district-mind-media.pages.dev/feed.xml"
       ],
-      "badCopy": true,
+      "badCopy": false,
       "horizontalOverflow": false,
       "internalLinkCount": 15
     },
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 1942,
+      "ms": 1878,
       "title": "District Mind Media | Culture",
       "bodyChars": 1215,
       "hasNav": true,
@@ -498,7 +458,7 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1918,
+      "ms": 1871,
       "title": "District Mind Media | About",
       "bodyChars": 937,
       "hasNav": true,
@@ -525,7 +485,7 @@
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 1920,
+      "ms": 1880,
       "title": "District Mind Media | Contact",
       "bodyChars": 508,
       "hasNav": true,
@@ -552,7 +512,7 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 1915,
+      "ms": 2028,
       "title": "District Mind Academy — Class 001",
       "bodyChars": 1931,
       "hasNav": true,
@@ -583,7 +543,7 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 1911,
+      "ms": 1879,
       "title": "Academy 001 — District Mind",
       "bodyChars": 913,
       "hasNav": true,
@@ -612,7 +572,7 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 1894,
+      "ms": 1874,
       "title": "Editorial — District Mind Media",
       "bodyChars": 1023,
       "hasNav": true,
@@ -648,7 +608,7 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1887,
+      "ms": 1885,
       "title": "Editorial Policy | District Mind Media",
       "bodyChars": 1233,
       "hasNav": true,
@@ -674,7 +634,7 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1896,
+      "ms": 1874,
       "title": "Contributors — District Mind Media",
       "bodyChars": 1066,
       "hasNav": true,
@@ -707,7 +667,7 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 1909,
+      "ms": 1887,
       "title": "Explore — District Mind Media",
       "bodyChars": 1949,
       "hasNav": true,
@@ -747,7 +707,7 @@
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 1872,
+      "ms": 1876,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
       "bodyChars": 2771,
       "hasNav": true,
@@ -782,7 +742,7 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 1923,
+      "ms": 1902,
       "title": "John Michell — District Mind Media",
       "bodyChars": 1780,
       "hasNav": true,
@@ -790,22 +750,22 @@
       "visualAssets": [
         {
           "key": "john-michell",
-          "status": "failed",
+          "status": "loading",
           "loader": "photo-loader"
         },
         {
           "key": "John Michell — Drivin Crazy",
-          "status": "failed",
+          "status": "loading",
           "loader": "release-artwork-loader"
         },
         {
           "key": "John Michell — WHO IS YOU",
-          "status": "failed",
+          "status": "loading",
           "loader": "release-artwork-loader"
         },
         {
           "key": "John Michell — Eyes Open",
-          "status": "failed",
+          "status": "loading",
           "loader": "release-artwork-loader"
         }
       ],
@@ -833,14 +793,14 @@
     }
   ],
   "summary": {
-    "routeFailures": 10,
+    "routeFailures": 2,
     "pageErrors": 1,
-    "consoleErrors": 9,
+    "consoleErrors": 1,
     "blankPages": 0,
     "horizontalOverflow": 0,
     "brokenImages": 0,
-    "failedVisualAssets": 13,
+    "failedVisualAssets": 0,
     "missingImageAlt": 0,
-    "suspiciousCopy": 1
+    "suspiciousCopy": 0
   }
 }
