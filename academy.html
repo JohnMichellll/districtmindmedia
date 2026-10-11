@@ -125,7 +125,7 @@ const menuToggle=document.querySelector('.menu-toggle'),nav=document.querySelect
 if(menuToggle&&nav){menuToggle.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');menuToggle.setAttribute('aria-expanded',String(open));});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('is-open');menuToggle.setAttribute('aria-expanded','false');}));}
 
 const steps=[...document.querySelectorAll('.academy-step')], progress=document.getElementById('academy-progress'), unlock=document.getElementById('academy-unlock'), codeBox=document.getElementById('academy-code'), status=document.getElementById('academy-status'), signup=document.getElementById('academy-signup');
-if (ACADEMY_FORMSPREE_ID === 'YOUR_ACADEMY_FORMSPREE_ID') { signup.querySelectorAll('input,button,select,textarea').forEach(control => { control.disabled = true; }); status.textContent = 'Enrollment opens soon.'; }
+if (ACADEMY_FORMSPREE_ID === 'YOUR_ACADEMY_FORMSPREE_ID') { signup.querySelectorAll('input,button,select,textarea').forEach(control => { control.disabled = true; }); status.textContent = 'Enrollment opens soon.'; } else { signup.querySelectorAll('input,button,select,textarea').forEach(control => { control.disabled = false; }); const submit = signup.querySelector('[type="submit"]'); if (submit) submit.textContent = 'Join Free Class'; }
 function updateProgress(){const done=steps.filter(x=>x.checked).length;progress.textContent=done+' / '+steps.length+' COMPLETE';unlock.disabled=done!==steps.length;}
 steps.forEach(x=>x.addEventListener('change',updateProgress));
 signup.addEventListener('submit', async e => {
