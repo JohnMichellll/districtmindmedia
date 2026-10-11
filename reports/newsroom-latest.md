@@ -1,6 +1,6 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-11T09:43:35.447Z
+Generated: 2026-10-11T10:10:14.785Z
 
 Status: READY_FOR_EDITOR
 
@@ -60,9 +60,9 @@ Stories discovered: 221
    https://www.billboard.com/music/features/for-world-mental-health-day-2026-1236358584/
 27. **Dweezil Zappa on his new tour of Frank’s music and working with Eddie Van Halen - Guitar Player** — Google News — New Music — Sat, 10 Oct 2026 15:05:33 GMT
    https://news.google.com/rss/articles/CBMi9gFBVV95cUxPT0tFTklzTklHazk2QzFRR0Y2RHdGcEo3anVFZ0lRYXA5aWl2TlFmUDdDNWQ1VVRQWnFXX1M4di1NUDhBWlJkUFNXNU9EZng0MUprU0dGNGNxdy0zRURkdy1XYVZmT2NRNkpsbHJZRmRlWjgzMThuR0FRNUtnZFpESkIxN050N2hjMkR4NmdRUkhTTU5PUElUenZKeGdrZTRyZHN3dXE1S3FMNGg3anRkS1RmeTIyREtybVE0V2JIX0NxU1VtNHN2S3RMbjhPZ3BwMHlYLTVFLWttQ0h4aGF6X1ZwUVY1OHpZYTdDTHQ5SVhWUlc3MkE?oc=5
-28. **Q-Music: making melodic history – New releases by Rachael Sage & The Sequins, the late Ed Askew, Sera Cahoone, and Wesley Stace - Bay Area Reporter** — Google News — New Music — Sat, 10 Oct 2026 15:04:08 GMT
-   https://news.google.com/rss/articles/CBMi5wJBVV95cUxPdDd2TVpHeWpvLTVJeWFGT3RVMnFRaHNXQzNoTUJqNm9rb0Q4TmdoSnpoWkQxeTh6Ymx5Ni1pVUUwSTVVY3hhOVZoQTlqR2FGdVVYbnJTTnJtYnJ3SlpEM3ZULUtZQzRIWDR1b1laQU40N191RDhEWjljeDR6RXNUbDVvODM4aTlpQmFjOWQxcDdiaU9RYUM2YTZXS0MxNE9rNnBOZEZzUEViZnpObUU0QTQwYXl0R09jTFE2WUdKRWk5eXB6S21qamxvT09fcDZ5RmpaQVdUQ2FYakZVTUhWd09DZUE5Rld6TUV0ME83ZUR2eDNTbmlKQ181d0M0VzQyZlpLSUFUbHZyUHlRbnlVNUp6ZnNtb2w2aE9xcVBwQUlibFNobWdQWG1rS1BCbFVCdWs3NFNNUzYtRXlPV0NQc1k0bS0xTkhjVnF1dm05UFZlYXFORVRTMktVbnM2dG15eUQ1bWNrZw?oc=5
-29. **Saints vs. Vikings Preview, Robin Barnes talks New Orleans Music and Heritage - New Orleans Saints** — Google News — New Music — Sat, 10 Oct 2026 15:02:32 GMT
+28. **Saints vs. Vikings Preview, Robin Barnes talks New Orleans Music and Heritage - New Orleans Saints** — Google News — New Music — Sat, 10 Oct 2026 15:02:32 GMT
    https://news.google.com/rss/articles/CBMizgFBVV95cUxNYUhUaEZHeFJ5Zmd3bVhlYzBRQjdpSGYtVHV2ME9nTVRUeld4bGhhRVI1dlhJU3g1bWR0cTVZOXRySTd4WDEybF9laVoxSUJpQm5IVzY5X2ltcjhGWk91RVJXdzZwWlBCR0VGcWI2LW1ua2o5aU1lVEtTelhsVzZNMTgtRDllNlFkdVlfOGFLRnNjamxiNUdwbkliakhZNlBqd3IwNHVVaHV6alg2UkZCZkRETzFaWFdvWW0zeWVkREhaMTlYWUprcW9nWlN0UQ?oc=5
-30. **Saints vs. Vikings preview, Robin Barnes talks New Orleans music and heritage | The Neutral Ground - New Orleans Saints** — Google News — New Music — Sat, 10 Oct 2026 15:01:44 GMT
+29. **Saints vs. Vikings preview, Robin Barnes talks New Orleans music and heritage | The Neutral Ground - New Orleans Saints** — Google News — New Music — Sat, 10 Oct 2026 15:01:44 GMT
    https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVHhjV3BzMzRxVEZsWXNkbktVQ1BJejJzRkF5aXhWaTUzb3A1MGtvbmd6Mk9ER2t5Y0hlaHBrOVBJZkJsUUx6MEFxOTM5SDlHNTNYVnB2SUhUbU1tdzJXR1RwYmtaNllpcGNGc2JrLW42QjRVMzV4ckM1UUpxcU1ORnNPWmtkTGw3ZFBRQ2pTVHRoWjFRLWNFNjZ3azBFWGg2RUo1bzJzYlA1RW85Y2xjVUhqRzF4TUVjYkhUXzJ4Ty1abENnSTAyTGxILUpjbEFJb084Mw?oc=5
+30. **Usher and Chris Brown Cancel Tour Dates Ahead of Brown's London Sentencing - Complex** — Google News — R&B — Sat, 10 Oct 2026 14:19:53 GMT
+   https://news.google.com/rss/articles/CBMioAFBVV95cUxPSXBXelc4WnVBMzZtcnE2ek1LZThjVjFKZ01lckgzUk9RTmxwc3NmUVdYXzV6Z2xFVnhMRzN0TE84ZGpFRE42b2szWlpVZ05kV3BSVXh1eUV2NDgwNUpqU0xjeHhLRXlJTGt0U1NkdThlVHpwSFF6V1JNSEFrS2xhd0V2SFBYeWI2NlMwc3VXSUNTYnAyNFBrdFRPZ2RReUhJ?oc=5
