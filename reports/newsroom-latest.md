@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-11T07:11:36.484Z
+Generated: 2026-10-11T07:43:14.669Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 223
+Stories discovered: 222
 
 1. **Lucibela Returns to New York with Cape Verdean Flavors - World Music Central** — Google News — New Music — Sun, 11 Oct 2026 05:50:02 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxQaENHZnpJREprQW1iOXJGczhzcGpLZ3ZxcDJEM0pXM2p0c3Fic0hmaWVyLVhGdFZHY0xkeFhRSTNUcDFUdk5palg3bkhqVVRCX2w4UG5XcDk3S1ZtbWdvSHZSdXdKODNOT2J0bHhRTXhhOEI4SjkwaXJzTlVZZU9LaTd3RHlCeVdzaXRPM2VB?oc=5
