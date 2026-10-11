@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-11T23:09:20.269Z
+Generated: 2026-10-11T23:41:51.636Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 227
+Stories discovered: 226
 
 1. **Fans Choose Troye Sivan’s ‘She’s the Best’ as This Week’s Favorite New Music - Billboard** — Google News — New Music — Sun, 11 Oct 2026 22:42:38 GMT
    https://news.google.com/rss/articles/CBMipgFBVV95cUxQdXJRWXR0UFU3WU12U2NxWlFIaXVLQ3lKc240Uk9Xek92dUVnY0t6X3hxTWk3cGV4d2ZESHlzY05FTXl5ZWtTdVZGLTBOY28yWGVCcnJQcVRlWDZKbHZ5RWp1NV9aN2xzbWZtZUdoNkdrNGdPU2pDY2tDbnE2SE81U3dSOHZrajMyUE9udTVZSDJKeVZZU0tyNFdVd3hSUTVhMFJHaldB?oc=5
@@ -30,26 +30,26 @@ Stories discovered: 227
    https://allhiphop.com/news/tlc-continues-tour-as-chili-shares-encouraging-t-boz-update/
 12. **Chuka, The Destroyer Delivers Hypnotic Bedroom R&B With “I’s Role” - Ratings Game Music** — Google News — R&B — Sun, 11 Oct 2026 19:58:22 GMT
    https://news.google.com/rss/articles/CBMihwFBVV95cUxQSXFGc0EtYzVDLWlJWjlDWDE1Ul9rOEdES1FMbHA2RzB5UWhvczZPUXZ5ZDhISDBQMkMxSHJxVW5ISlBMLVlnNnNVbTlpa29vWnREUzN4dXJpZ0hEdVlPbkRrbnBUREFIcHRMVWF2R3VwaGdqc0t3RTV1RXVVMktFOEc1amhjWXc?oc=5
-13. **New Adds to Saving Country Music’s Top 25 Playlist (#186) - - Saving Country Music** — Google News — New Music — Sun, 11 Oct 2026 19:37:24 GMT
+13. **Freddie Jackson, R&B legend known for ‘Rock Me Tonight’, passes away - The Daily Star** — Google News — R&B — Sun, 11 Oct 2026 19:48:23 GMT
+   https://news.google.com/rss/articles/CBMitgFBVV95cUxNMThFSTBfWDhqUkpVMWFXTDZ1Z1lfaUIxaFlsMG9wN0Q2Qm9rSHZvRnNIUzd1Wk5QUDNpRDFKVWFkUWhNZWM3RUJISUJXOW1ibjJCNlRlMDljWngtYXFaakF6UnM0UWVyX2VlUmp6cGNWZUNBZHU0VVFEcU12VDlMbzIzRktNR1YyR3RhblVCekQ0Qm9sNFZhalc1aU44aFJwbDhJcjFLOWpuOUt6aHV3OGVUaFFrZw?oc=5
+14. **New Adds to Saving Country Music’s Top 25 Playlist (#186) - - Saving Country Music** — Google News — New Music — Sun, 11 Oct 2026 19:37:24 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxQTXFjXzl2U25BS1Q3dzMyOFlzZFI5aERvUGwxUHZhQi1WMFJKUkd6MHBIT2U2UkVYNlZ3dTVZNjZtaTFEbmkwRGNnb3d3TVYxX0Itd1BhTmJkN19tY2J4Sk8yQUpTX3ZQdXVZWE9PLTNjZzd1eG83V2pGS3ZneDdMNUVFYVdiRXcwRDlNQTBn?oc=5
-14. **Hangtime Music Festival brings new beginning to old tradition - Nevada Appeal** — Google News — New Music — Sun, 11 Oct 2026 19:35:16 GMT
+15. **Hangtime Music Festival brings new beginning to old tradition - Nevada Appeal** — Google News — New Music — Sun, 11 Oct 2026 19:35:16 GMT
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPaDBTZUdkN3dOZjVhaDBVUldoXzJ0TVAzSHBUZkRUUzJiUkdwc0JNS2pGNDE5TkgyTWw2VEFlb2tiTDBqRVVoQ3BXNUFjR0xubmpKWGVnSkhEVjFjTVJ4Xy12YnA3OEt1OVlzRFRRUVloMUg1Yy1Tb012aDh2OXJ0d0twbXdnSXo0cUtVX01oRGE2TWx0WGZrMXhPam1LN0pXRFNDeFJmWlpnNFBs?oc=5
-15. **Founding member of legendary R&B group the Dells dies at 90 - South Florida Times** — Google News — R&B — Sun, 11 Oct 2026 19:15:24 GMT
+16. **Founding member of legendary R&B group the Dells dies at 90 - South Florida Times** — Google News — R&B — Sun, 11 Oct 2026 19:15:24 GMT
    https://news.google.com/rss/articles/CBMikwFBVV95cUxOMnc4bDU0aWJtR2hsSlk2OFJDbEhyVTdGUzBmd2NkVG56U1VTU3ZWV2wzWUU1dktfU1pOenJ0YXU4dkZZTUlmaGV5WDRDUVY1aC03QnR1YVVkOTNnSnVJOVN0azZvUElIcTlvVERqQVZHZFZaSTVUNzN5R1BIS2xNaEJ5bV9fRTF4YkJfdDUyUmJTYnM?oc=5
-16. **The Beatles, Drake & Taylor Swift Are Together in Top 10 on Billboard 200 for First Time** — Billboard — Sun, 11 Oct 2026 19:11:36 +0000
+17. **The Beatles, Drake & Taylor Swift Are Together in Top 10 on Billboard 200 for First Time** — Billboard — Sun, 11 Oct 2026 19:11:36 +0000
    https://www.billboard.com/music/chart-beat/beatles-drake-taylor-swift-top-ten-billboard-200-first-time-1236358742/
-17. **Taylor Swift Joins The Beatles as Only Acts With 100 Weeks at No. 1 on Billboard 200 Albums Chart** — Billboard — Sun, 11 Oct 2026 19:07:29 +0000
+18. **Taylor Swift Joins The Beatles as Only Acts With 100 Weeks at No. 1 on Billboard 200 Albums Chart** — Billboard — Sun, 11 Oct 2026 19:07:29 +0000
    https://www.billboard.com/music/chart-beat/taylor-swift-beatles-100-weeks-number-one-billboard-200-1236358736/
-18. **Taylor Swift, The Beatles, Elvis & More Artists With the Most Weeks at No. 1 on the Billboard 200: Full List** — Billboard — Sun, 11 Oct 2026 19:03:28 +0000
+19. **Taylor Swift, The Beatles, Elvis & More Artists With the Most Weeks at No. 1 on the Billboard 200: Full List** — Billboard — Sun, 11 Oct 2026 19:03:28 +0000
    https://www.billboard.com/lists/most-weeks-at-no-1-billboard-200-taylor-swift-the-beatles/
-19. **DistroKid Removes Songs Over UMG Claims As Rappers Question Takedowns** — AllHipHop — Sun, 11 Oct 2026 19:02:32 +0000
+20. **DistroKid Removes Songs Over UMG Claims As Rappers Question Takedowns** — AllHipHop — Sun, 11 Oct 2026 19:02:32 +0000
    https://allhiphop.com/news/distrokid-removes-songs-over-umg-claims-as-rappers-question-takedowns/
-20. **Taylor Swift’s ‘The Life of a Showgirl’ Spends 14th Week Atop Billboard 200** — Billboard — Sun, 11 Oct 2026 19:00:03 +0000
+21. **Taylor Swift’s ‘The Life of a Showgirl’ Spends 14th Week Atop Billboard 200** — Billboard — Sun, 11 Oct 2026 19:00:03 +0000
    https://www.billboard.com/music/chart-beat/taylor-swift-showgirl-14th-week-number-one-billboard-200-1236358728/
-21. **How a Small Misunderstanding Led to One of the Most Heated Feuds in Southern Hip-Hop History - VICE** — Google News — Hip-Hop — Sun, 11 Oct 2026 18:15:14 GMT
+22. **How a Small Misunderstanding Led to One of the Most Heated Feuds in Southern Hip-Hop History - VICE** — Google News — Hip-Hop — Sun, 11 Oct 2026 18:15:14 GMT
    https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWGd5WEwzNjExQW5Uamw4VG1DSnBsZzJiMHVrUlFKSDFKTktJc1h6TDctQ3Uxc19ONW5OOWplcTkzYnMzc1dHSGZIdFhvR3JTc3YyTlBSUk00QnlQeGNnRU0wRVo1TnJQQ3ROSHNhZ2NHbnBkaHNDMzlFUzNsSFVEbmxmWkxiUDJLSHg1eFA0Z1VTNTZfMHhJZ2czV3k0NHU5QWxVRExfdUJad21LT3F6QlNWQ2RVSUdvTnctaWpCSGpGbXc?oc=5
-22. **New Low release new music video for ‘False Crown’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 11 Oct 2026 18:10:20 GMT
-   https://news.google.com/rss/articles/CBMihAFBVV95cUxOTXdaSEUySmg0bmpBM09tdXpJWTM4SU9YcVhnNDAyY29KMjYxM1E3cEE2T3ZsNG10WTNhZ3U1QTVuMVRFTlVzcmt6R0hEMWs4WGcyMS0xSEJXQWxwdzhYWTZTVG9vVGlPeHhqOEtGU1lDVHFPYTdRTXpvVEg0Vkt4ckdJWDY?oc=5
 23. **Erykah Badu Cancels Five European Tour Dates, Apologizes To Fans** — AllHipHop — Sun, 11 Oct 2026 18:01:00 +0000
    https://allhiphop.com/news/erykah-badu-cancels-five-european-tour-dates-apologizes-to-fans/
 24. **NEW MUSIC FRIDAY: Rock and Metal New Release Radar October 16th 2026 - Ghost Cult Magazine** — Google News — New Music — Sun, 11 Oct 2026 18:00:06 GMT
@@ -60,7 +60,7 @@ Stories discovered: 227
    https://news.google.com/rss/articles/CBMilwFBVV95cUxPZTM0RHZEZXoxQXdlNE9sZ2ZKYVVEQV8tOUEzVzdmVmd3TWhHcHFKUy1fY3M5d0gwQWhyQUFYaGFkUEZfaEdydDM5MG4tZ1FQQ2ZRaV9weWVTT19tVHdsWExlSktLOXJZcTVmNVZ5ZVkweGxyT3NWQ0taOXBkM0p6M3VTb3E5RGp2Mk9GemVLUkpua2RDMDlz?oc=5
 27. **Sleepwalk release new music video for ‘Jan 22’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 11 Oct 2026 17:30:05 GMT
    https://news.google.com/rss/articles/CBMigAFBVV95cUxQVkk4a1ZLeDBDYkVqb2cwU3MyZzZzeWloa2g5dEppeDVlZTFQWnRtU0ZVXzczQldpb2FtUGh3bkh2YmQxaWI3ak4yQ045UHNIUWExZ0NrUlJ3dVZWQmQzcTVIOGZjSHNjc3VjUFJVMUpaMFFtV2U4NUZHaXp4QUhZeA?oc=5
-28. **Grammy-winning Chance the Rapper celebrated 10 years of his Coloring Book mixtape with a sold-out night of music, nostalgia and reflection in the heart of the Delmar Loop. - DELUX Magazine** — Google News — Hip-Hop — Sun, 11 Oct 2026 17:25:23 GMT
+28. **Chance the Rapper celebrated 10 years of his Coloring Book mixtape with a sold-out night of music, nostalgia and reflection in the heart of the Delmar Loop. - DELUX Magazine** — Google News — Hip-Hop — Sun, 11 Oct 2026 17:25:23 GMT
    https://news.google.com/rss/articles/CBMitAJBVV95cUxQZWdFMWV3WjZFSUN4Z3V3ZUVsYk54MFd0U0JOVVV6cC02c3NhamUwOGxmdmdaWkhIQ0Roa1ZaSWhmUC1mMzFNakszYmVhMVAxdVNCUWtYV2VxdkVOSE95bVU0Q1Z1dmpyV2I0aWs1Q2ZVSzU5dERnUHV0bkx2Y043dUVKQTlKMUZ2alFoSXZZOXdqU0hfZXdmVUZCbEhvTEpvbkdCVEtodnZsTmlnMGdSZjI1T090MDhhcnhPNlJaWlBSb19DZU44cmtROFdsbjBIMkthMmc3ckhTaTBvdWtrQUdwWko0ZXM1RmR5bnNrdXBlRGVDV0pRU1JITDBFMjJETDBMeEdWVy1UWHd3SnRVdG16c3BMNUlKVUNXOW5FMEhkWjctdkRLWnBMamtUd3JrZVMzVw?oc=5
 29. **Capitol Hill music journalist chronicles Seattle grunge history in new book - CHS Capitol Hill Seattle News** — Google News — New Music — Sun, 11 Oct 2026 17:03:49 GMT
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWDZvdWF2eURhSFkzazNiWVNPTTJraWlWU2VtMnZXREVFbVB5bjBiWFl6VGZOeUFRaFoyVjN3WmlPYjZEZXh1NUh0aG1oR0dNOV9HZ1ZibHdBMlBMczR2RlV2RG5meVFuWFJxb1oxTElDZGlJMzNHQU1INXp6MTNfTnlWcUlWRTlFQ201dmxSVjFjWFNNaFE0SHo3bDFDU2JqVWd6bXNnOFpXbjh6X29ULUZIakIwdllxUGxJ?oc=5
