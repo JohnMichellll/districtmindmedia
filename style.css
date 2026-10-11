@@ -2675,8 +2675,6 @@ img[loading=lazy]{background:#e9e5dc}
 
 
 /* Launch audit: restore readable standard-header colors on Artist Hub, Wayfinder, and Radar. */
-.artist-desk-page .site-header .primary-nav a,
-.wf-page .site-header .primary-nav a,
 .radar-page .site-header .logo{color:#121212!important}
 .artist-desk-page .site-header .primary-nav,
 .wf-page .site-header .primary-nav{background:transparent!important}
@@ -2714,3 +2712,7 @@ img[loading=lazy]{background:#e9e5dc}
 @media(max-width:760px){
   .radar-page .dm-guide-trigger,.wf-page .dm-guide-trigger{display:none!important}
 }
+
+
+/* Never overlay photo credits on release/artist artwork. */
+.release-artwork::after,.has-release-art::after,.artist-profile-art::after,.release-art-failed::after{content:none!important;}
