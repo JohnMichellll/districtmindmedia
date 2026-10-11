@@ -9,7 +9,9 @@ const decodeEntities=s=>String(s||"")
  .replace(/&ldquo;/gi,"“").replace(/&rdquo;/gi,"”").replace(/&ndash;/gi,"–")
  .replace(/&mdash;/gi,"—").replace(/&hellip;/gi,"…").replace(/&quot;/gi,'"')
  .replace(/&apos;/gi,"'").replace(/&lt;/gi,"<").replace(/&gt;/gi,">")
- .replace(/&amp;/gi,"&").replace(/<[^>]*>/g,"").trim();
+ .replace(/&amp;/gi,"&")
+ .replace(/â€¦/g,"…").replace(/â€™/g,"’").replace(/â€˜/g,"‘").replace(/â€œ/g,"“").replace(/â€/g,"”").replace(/â€“/g,"–").replace(/â€”/g,"—").replace(/Â /g," ")
+ .replace(/<[^>]*>/g,"").trim();
 const getJson=async(url,ms=6500)=>{const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal,headers:{"User-Agent":"DistrictMindMedia/1.0 (Wayfinder artist lookup)","Accept":"application/json"}});if(!r.ok){const body=(await r.text()).slice(0,500);console.warn("Wayfinder upstream failure",r.status,url,body);return null;}return await r.json()}catch(e){console.warn("Wayfinder upstream request failed",url,String(e));return null}finally{clearTimeout(t)}};
 export async function onRequestPost({request}){
  let body;try{body=await request.json()}catch{return json({error:"Send a music question."},400)}
