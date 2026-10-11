@@ -22,26 +22,6 @@
       "subject": "Drivin Crazy by John Michell",
       "identity": "owner-supplied"
     },
-    "john-michell-who-is-you": {
-      "url": "/assets/who-is-you-cover.png",
-      "alt": "WHO IS YOU — official release artwork by John Michell",
-      "credit": "John Michell / District Mind Records — owner-supplied release artwork",
-      "license": "owner-supplied",
-      "subject": "WHO IS YOU by John Michell",
-      "identity": "owner-supplied",
-      "source": "Owner-supplied District Mind Records release artwork",
-      "sourceUrl": "https://music.apple.com/us/artist/john-michell/1720482148"
-    },
-    "john-michell-u": {
-      "url": "/assets/u-cover.png",
-      "alt": "U — official release artwork by John Michell",
-      "credit": "John Michell / District Mind Records — owner-supplied release artwork",
-      "license": "owner-supplied",
-      "subject": "U by John Michell",
-      "identity": "owner-supplied",
-      "source": "Owner-supplied District Mind Records release artwork",
-      "sourceUrl": "https://music.apple.com/us/artist/john-michell/1720482148"
-    },
     "earl-sweatshirt": {
       "subject": "Earl Sweatshirt",
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Earl_Sweatshirt_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -118,20 +98,6 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dawn_Richard_2010.jpg",
       "identity": "metadata-name-match",
       "verifiedAt": "2026-10-10T21:50:22.991Z"
-    },
-    "who-is-you": {
-      "url": "/assets/who-is-you-cover.jpg",
-      "alt": "WHO IS YOU single artwork by John Michell",
-      "credit": "John Michell / District Mind Records",
-      "license": "owner-supplied",
-      "sourceUrl": "/assets/who-is-you-cover.jpg"
-    },
-    "u-john-michell": {
-      "url": "/assets/u-cover.jpg",
-      "alt": "U single artwork by John Michell",
-      "credit": "John Michell / District Mind Records",
-      "license": "owner-supplied",
-      "sourceUrl": "/assets/u-cover.jpg"
     }
   }
 }
