@@ -56,31 +56,37 @@ export async function onRequestGet({request,env}){
   const best=bestArtist.artistName;
   let music=[];
   let albums=[];
-  if(bestArtist.artistId){
-   const ld=await fetchJson("https://itunes.apple.com/lookup?id="+encodeURIComponent(bestArtist.artistId)+"&entity=song&limit=100&country=US");
-   music=(ld?.results||[]).filter(x=>x.wrapperType==="track"&&x.trackName).map(x=>({title:x.trackName,album:x.collectionName||"",releaseDate:x.releaseDate||null,artwork:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"1000x1000"):null,apple:x.trackViewUrl||null,genre:x.primaryGenreName||null})).slice(0,40);
+  let dzArtistRecord=null;
+  // Ask Apple and Deezer in parallel so a slow/empty Apple lookup does not delay the fallback.
+  const [ld,dzSearchInitial]=await Promise.all([
+   bestArtist.artistId
+    ? fetchJson("https://itunes.apple.com/lookup?id="+encodeURIComponent(bestArtist.artistId)+"&entity=song&limit=100&country=US",4500)
+    : Promise.resolve(null),
+   fetchJson("https://api.deezer.com/search/artist?q="+encodeURIComponent(best)+"&limit=25",4500)
+  ]);
+  music=(ld?.results||[]).filter(x=>x.wrapperType==="track"&&x.trackName).map(x=>({title:x.trackName,album:x.collectionName||"",releaseDate:x.releaseDate||null,artwork:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"1000x1000"):null,apple:x.trackViewUrl||null,genre:x.primaryGenreName||null})).slice(0,40);
+  const dzRows=Array.isArray(dzSearchInitial?.data)?dzSearchInitial.data:[];
+  dzArtistRecord=dzRows.find(x=>norm(x.name)===norm(best))||null;
+  // If Apple returns no tracks, use Deezer top tracks and albums. Keep all fallback calls parallel.
+  const [top,albumResult,fallbackSearch]=await Promise.all([
+   !music.length&&dzArtistRecord?fetchJson("https://api.deezer.com/artist/"+encodeURIComponent(dzArtistRecord.id)+"/top?limit=10",4500):Promise.resolve(null),
+   !albums.length&&dzArtistRecord?fetchJson("https://api.deezer.com/artist/"+encodeURIComponent(dzArtistRecord.id)+"/albums?limit=20",4500):Promise.resolve(null),
+   !music.length?fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(best)+"&entity=song&attribute=artistTerm&limit=50&country=US",4500):Promise.resolve(null)
+  ]);
+  if(!music.length)music=(top?.data||[]).filter(x=>x?.title).map(x=>({title:x.title,album:x.album?.title||"",releaseDate:x.release_date||null,artwork:x.album?.cover_xl||x.album?.cover_big||x.album?.cover_medium||null,apple:x.link||null,genre:null,source:"Deezer"})).slice(0,40);
+  if(!music.length)music=(fallbackSearch?.results||[]).filter(x=>x.trackName&&x.artistName&&norm(x.artistName)===norm(best)).map(x=>({title:x.trackName,album:x.collectionName||"",releaseDate:x.releaseDate||null,artwork:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"1000x1000"):null,apple:x.trackViewUrl||null,genre:x.primaryGenreName||null})).slice(0,40);
+  if(!albums.length)albums=(albumResult?.data||[]).filter(x=>x?.title).map(x=>({title:x.title,releaseDate:x.release_date||null,artwork:x.cover_xl||x.cover_big||x.cover_medium||null,url:x.link||null,source:"Deezer"}));
+  if(!albums.length)albums=[...new Map(music.filter(x=>x.album).map(x=>[norm(x.album),{title:x.album,releaseDate:x.releaseDate,artwork:x.artwork,url:x.apple||null,source:x.source||"Apple Music"}])).values()];
+  // Wayfinder only needs the verified catalog/profile cards. Skip news and optional AI work on this fast path.
+  if(new URL(request.url).searchParams.get("brief")==="1"){
+   const firstYear=music.map(x=>Number(String(x.releaseDate||"").slice(0,4))).filter(Number.isFinite).sort((a,b)=>a-b)[0]||null;
+   const era=(firstYear&&firstYear<2000)||legacyNames.includes(norm(best))?"legacy":"modern";
+   const slug=encodeURIComponent(best).replace(/%20/g,"-");
+   const links={apple:bestArtist.artistId?"https://music.apple.com/us/artist/"+slug+"/"+bestArtist.artistId:"https://music.apple.com/us/search?term="+encodeURIComponent(best),spotify:"https://open.spotify.com/search/"+encodeURIComponent(best),youtube:"https://www.youtube.com/results?search_query="+encodeURIComponent(best+" music"),soundcloud:"https://soundcloud.com/search?q="+encodeURIComponent(best),instagram:"https://www.google.com/search?q="+encodeURIComponent(best+" official Instagram")};
+   const artistImage=dzArtistRecord?.picture_xl||dzArtistRecord?.picture_big||dzArtistRecord?.picture_medium||null;
+   return json({ok:true,query:rawQuery,normalizedQuery:q,artist:best,artists:[bestArtist],ai:{genre:bestArtist.primaryGenreName||music[0]?.genre||"Music artist",summary:"Verified catalog results are shown below. Open the source to confirm release details.",whatToListenTo:music.slice(0,5).map(x=>x.title),whatIsHappeningNow:[],discoveryTips:"Explore the linked catalog. Details not supported by the public catalog are left out."},aiEnabled:false,music,albums,news:[],links,artistImage,artistImageSource:artistImage?"Deezer exact artist entity":null,artistImageKind:artistImage?"artist-portrait":"unavailable",era,firstReleaseYear:firstYear,artistId:bestArtist.artistId||null,generatedAt:new Date().toISOString()});
   }
-  // If lookup is thin, search the artist directly for tracks as a second catalog pass.
-  if(music.length<3){
-   const fallback=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(best)+"&entity=song&attribute=artistTerm&limit=50&country=US");
-   music=(fallback?.results||[]).filter(x=>x.trackName&&x.artistName&&norm(x.artistName)===norm(best)).map(x=>({title:x.trackName,album:x.collectionName||"",releaseDate:x.releaseDate||null,artwork:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"1000x1000"):null,apple:x.trackViewUrl||null,genre:x.primaryGenreName||null})).slice(0,40);
-  }
-  // Deezer is a free, keyless second catalog. Always use it for album artwork when Apple lookup is empty/thin.
-  if(!music.length||!albums.length){
-   const dzSearch=await fetchJson("https://api.deezer.com/search/artist?q="+encodeURIComponent(best)+"&limit=25");
-   const dzArtist=(dzSearch?.data||[]).find(x=>norm(x.name)===norm(best));
-   if(dzArtist){
-    const jobs=[];
-    if(!music.length)jobs.push(fetchJson("https://api.deezer.com/artist/"+encodeURIComponent(dzArtist.id)+"/top?limit=10"));
-    else jobs.push(Promise.resolve(null));
-    if(!albums.length)jobs.push(fetchJson("https://api.deezer.com/artist/"+encodeURIComponent(dzArtist.id)+"/albums?limit=20"));
-    else jobs.push(Promise.resolve(null));
-    const [top,albumResult]=await Promise.all(jobs);
-    if(!music.length)music=(top?.data||[]).filter(x=>x?.title).map(x=>({title:x.title,album:x.album?.title||"",releaseDate:x.release_date||null,artwork:x.album?.cover_xl||x.album?.cover_big||x.album?.cover_medium||null,apple:x.link||null,genre:null,source:"Deezer"})).slice(0,40);
-    if(!albums.length)albums=(albumResult?.data||[]).filter(x=>x?.title).map(x=>({title:x.title,releaseDate:x.release_date||null,artwork:x.cover_xl||x.cover_big||x.cover_medium||null,url:x.link||null,source:"Deezer"}));
-   }
-  }
-  const nr=await fetch("https://news.google.com/rss/search?q="+encodeURIComponent('"'+best+'" music when:7d')+"&hl=en-US&gl=US&ceid=US:en").catch(()=>null);
+  const nr=await fetch("https://news.google.com/rss/search?q="+encodeURIComponent('"'+best+'" music when:7d')+"&hl=en-US&gl=US&ceid=US:en",{signal:AbortSignal.timeout(4000)}).catch(()=>null);
   let news=[];
   if(nr?.ok){const xml=await nr.text();news=[...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].slice(0,12).map(m=>{const b=m[1];const pick=k=>(b.match(new RegExp("<"+k+">([\\s\\S]*?)</"+k+">"))||[])[1]||"";return{title:clean(pick("title")),link:clean(pick("link")),date:clean(pick("pubDate"))}}).filter(x=>x.title && x.link).filter(x=>{const t=Date.parse(x.date||"");return !Number.isNaN(t) && Date.now()-t<=7*24*3600000;});}
   const firstReleaseYear=music.map(x=>Number(String(x.releaseDate||"").slice(0,4))).filter(Number.isFinite).sort((a,b)=>a-b)[0]||null;
@@ -90,17 +96,8 @@ export async function onRequestGet({request,env}){
   // Artist portraits must come from an exact artist-entity match, never a song/album og:image.
   // Deezer returns artist-entity portraits separately from release artwork. If there is no exact match,
   // show the site's neutral fallback instead of assigning an unrelated face or album cover.
-  let artistImage=null;
-  let artistImageSource=null;
-  try{
-   const dz=await fetchJson("https://api.deezer.com/search/artist?q="+encodeURIComponent(best)+"&limit=25");
-   const dzRows=Array.isArray(dz?.data)?dz.data:[];
-   const exact=dzRows.find(x=>norm(x.name)===norm(best));
-   if(exact){
-    artistImage=exact.picture_xl||exact.picture_big||exact.picture_medium||null;
-    if(artistImage)artistImageSource="Deezer exact artist entity";
-   }
-  }catch{}
+  let artistImage=dzArtistRecord?.picture_xl||dzArtistRecord?.picture_big||dzArtistRecord?.picture_medium||null;
+  let artistImageSource=artistImage?"Deezer exact artist entity":null;
   // Use Cloudflare Workers AI when a binding is enabled; keep the xAI key as a supported fallback.
   let ai=null;
   let aiSource=null;
