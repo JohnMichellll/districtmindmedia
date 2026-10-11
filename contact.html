@@ -119,15 +119,16 @@
         form.addEventListener('submit', async (event) => {
           event.preventDefault();
           const btn = form.querySelector('[type=submit]');
+          const originalText = btn ? btn.textContent : '';
           const ok = form.querySelector('.form-success');
           const err = form.querySelector('.form-error');
-          btn.disabled = true; if (err) err.hidden = true;
+          btn.disabled = true; if (btn) btn.textContent = 'Sending…'; if (err) err.hidden = true;
           try {
             const res = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
             if (!res.ok) throw new Error(res.status);
             ok && ok.classList.add('is-visible'); form.reset();
           } catch (e) { if (err) err.hidden = false; }
-          finally { btn.disabled = false; }
+          finally { btn.disabled = false; if (btn) btn.textContent = originalText || 'Send inquiry'; }
         });
       });
     </script>
