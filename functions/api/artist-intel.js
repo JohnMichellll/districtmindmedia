@@ -1,5 +1,12 @@
 const headers={"Cache-Control":"no-store, private, max-age=0","Pragma":"no-cache","Content-Type":"application/json","Access-Control-Allow-Origin":"*"};
-const clean=v=>String(v??"").replace(/<[^>]*>/g,"").trim();
+const clean=v=>String(v??"").replace(/<[^>]*>/g," ")
+ .replace(/&#(\d+);/g,(_,n)=>{try{return String.fromCodePoint(Number(n));}catch{return " ";}})
+ .replace(/&#x([0-9a-f]+);/gi,(_,h)=>{try{return String.fromCodePoint(parseInt(h,16));}catch{return " ";}})
+ .replace(/&nbsp;/gi," ").replace(/&rsquo;/gi,"’").replace(/&lsquo;/gi,"‘")
+ .replace(/&ldquo;/gi,"“").replace(/&rdquo;/gi,"”").replace(/&ndash;/gi,"–")
+ .replace(/&mdash;/gi,"—").replace(/&hellip;/gi,"…").replace(/&quot;/gi,'"')
+ .replace(/&apos;/gi,"'").replace(/&lt;/gi,"<").replace(/&gt;/gi,">")
+ .replace(/&amp;/gi,"&").replace(/\s+/g," ").trim();
 const pinnedArtists={"drake":{artistId:"160926",artistName:"Drake",primaryGenreName:"Hip-Hop/Rap"},"ray charles":{artistId:"518462",artistName:"Ray Charles",primaryGenreName:"R&B/Soul"}};
 const legacyNames=["ray charles","louis armstrong","aretha franklin","ella fitzgerald","nat king cole","sam cooke","billie holiday","nina simone","john coltrane","miles davis","duke ellington","charlie parker","frank sinatra","marvin gaye","stevie wonder","james brown","otis redding","the beatles","elvis presley","buddy holly","muddy waters","howlin wolf","chuck berry","little richard","b.b. king","bb king"];
 const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers});
