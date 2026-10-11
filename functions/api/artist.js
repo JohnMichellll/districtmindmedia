@@ -1,14 +1,15 @@
 const headers={"Cache-Control":"public, max-age=300, s-maxage=300","Content-Type":"application/json","Access-Control-Allow-Origin":"*"};
 const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers});
 const norm=s=>String(s||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
-const fetchJson=async(url,ms=7000)=>{const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal});return r.ok?await r.json():null}catch{return null}finally{clearTimeout(t)}};
+const fetchJson=async(url,ms=7000)=>{const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal,headers:{"User-Agent":"DistrictMindMedia/1.0 (artist search)","Accept":"application/json"}});if(!r.ok){const body=(await r.text()).slice(0,500);console.warn("Artist upstream failure",r.status,url,body);return null;}return await r.json()}catch(e){console.warn("Artist upstream request failed",url,String(e));return null}finally{clearTimeout(t)}};
 const score=(name,q)=>{const a=norm(name),b=norm(q);if(a===b)return 100;if(a.startsWith(b))return 85;if(a.includes(b))return 70;return 0};
 export async function onRequestGet({request}){
  const q=(new URL(request.url).searchParams.get("q")||"").trim();
  if(q.length<2)return json({ok:false,error:"Search for an artist by name."},400);
  try{
-  const ar=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(q)+"&entity=musicArtist&attribute=artistTerm&limit=50&country=US");
+  const ar=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(q)+"&entity=musicArtist&limit=5&country=US");
   let matches=Array.isArray(ar?.results)?ar.results.filter(x=>x?.artistName):[];
+  if(!matches.length){const dz=await fetchJson("https://api.deezer.com/search/artist?q="+encodeURIComponent(q)+"&limit=5");matches=(dz?.data||[]).filter(x=>x?.name).map(x=>({artistId:x.id||null,artistName:x.name,artistViewUrl:x.link||null,artistImage:x.picture_xl||null,primaryGenreName:""}));}
   const exact=matches.some(x=>norm(x.artistName)===norm(q));
   if(!exact){
    const sr=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(q)+"&entity=song&attribute=artistTerm&limit=50&country=US");
@@ -30,7 +31,7 @@ export async function onRequestGet({request}){
    }
    const datedSongs=songs.map(x=>x.releaseDate).filter(Boolean).sort();
    const catalogTrackCount=songs.length;
-   return {artistName:a.artistName,artistId:a.artistId||null,artistViewUrl:a.artistViewUrl||null,primaryGenreName:a.primaryGenreName||songs[0]?.primaryGenreName||"",artworkUrl:songs[0]?.artworkUrl||null,catalogTrackCount,catalogCountIsLowerBound:catalogTrackCount>=50,oldestReleaseDate:datedSongs[0]||null,newestReleaseDate:datedSongs[datedSongs.length-1]||null,catalogSource:"Apple Music search catalog",distributionStatus:"not-verified",songs:songs.slice(0,12)};
+   return {artistName:a.artistName,artistId:a.artistId||null,artistViewUrl:a.artistViewUrl||null,artistImage:a.artistImage||null,primaryGenreName:a.primaryGenreName||songs[0]?.primaryGenreName||"",artworkUrl:songs[0]?.artworkUrl||null,catalogTrackCount,catalogCountIsLowerBound:catalogTrackCount>=50,oldestReleaseDate:datedSongs[0]||null,newestReleaseDate:datedSongs[datedSongs.length-1]||null,catalogSource:"Apple Music search catalog",distributionStatus:"not-verified",songs:songs.slice(0,12)};
   }));
   const best=artists[0]?.artistName||q;
   let news=[];
