@@ -118,6 +118,20 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dawn_Richard_2010.jpg",
       "identity": "metadata-name-match",
       "verifiedAt": "2026-10-10T21:50:22.991Z"
+    },
+    "who-is-you": {
+      "url": "/assets/who-is-you-cover.jpg",
+      "alt": "WHO IS YOU single artwork by John Michell",
+      "credit": "John Michell / District Mind Records",
+      "license": "owner-supplied",
+      "sourceUrl": "/assets/who-is-you-cover.jpg"
+    },
+    "u-john-michell": {
+      "url": "/assets/u-cover.jpg",
+      "alt": "U single artwork by John Michell",
+      "credit": "John Michell / District Mind Records",
+      "license": "owner-supplied",
+      "sourceUrl": "/assets/u-cover.jpg"
     }
   }
 }
