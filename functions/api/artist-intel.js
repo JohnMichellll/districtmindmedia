@@ -6,7 +6,9 @@ const clean=v=>String(v??"").replace(/<[^>]*>/g," ")
  .replace(/&ldquo;/gi,"“").replace(/&rdquo;/gi,"”").replace(/&ndash;/gi,"–")
  .replace(/&mdash;/gi,"—").replace(/&hellip;/gi,"…").replace(/&quot;/gi,'"')
  .replace(/&apos;/gi,"'").replace(/&lt;/gi,"<").replace(/&gt;/gi,">")
- .replace(/&amp;/gi,"&").replace(/\s+/g," ").trim();
+ .replace(/&amp;/gi,"&")
+ .replace(/â€¦/g,"…").replace(/â€™/g,"’").replace(/â€˜/g,"‘").replace(/â€œ/g,"“").replace(/â€/g,"”").replace(/â€“/g,"–").replace(/â€”/g,"—").replace(/Â /g," ")
+ .replace(/\s+/g," ").trim();
 const pinnedArtists={"drake":{artistId:"160926",artistName:"Drake",primaryGenreName:"Hip-Hop/Rap"},"ray charles":{artistId:"518462",artistName:"Ray Charles",primaryGenreName:"R&B/Soul"}};
 const legacyNames=["ray charles","louis armstrong","aretha franklin","ella fitzgerald","nat king cole","sam cooke","billie holiday","nina simone","john coltrane","miles davis","duke ellington","charlie parker","frank sinatra","marvin gaye","stevie wonder","james brown","otis redding","the beatles","elvis presley","buddy holly","muddy waters","howlin wolf","chuck berry","little richard","b.b. king","bb king"];
 const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers});
