@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T03:26:46.629Z",
+  "generatedAt": "2026-10-11T04:06:35.501Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
@@ -12,7 +12,7 @@
     {
       "route": "/",
       "status": 200,
-      "ms": 1410,
+      "ms": 1170,
       "title": "District Mind Media — The Culture in Motion",
       "bodyChars": 240,
       "hasNav": true,
@@ -39,7 +39,7 @@
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 1206,
+      "ms": 1021,
       "title": "Newsroom — District Mind Media",
       "bodyChars": 2197,
       "hasNav": true,
@@ -123,7 +123,7 @@
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1046,
+      "ms": 1022,
       "title": "District Mind Media — Artist Intelligence Hub",
       "bodyChars": 1557,
       "hasNav": true,
@@ -160,7 +160,7 @@
     {
       "route": "/releases.html",
       "status": 200,
-      "ms": 6420,
+      "ms": 6538,
       "title": "District Mind Media | Releases",
       "bodyChars": 2317,
       "hasNav": true,
@@ -268,7 +268,7 @@
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 1117,
+      "ms": 1014,
       "title": "Local Watch — District Mind Media",
       "bodyChars": 862,
       "hasNav": true,
@@ -298,7 +298,7 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 1115,
+      "ms": 1007,
       "title": "Wayfinder Music AI — District Mind Media",
       "bodyChars": 1438,
       "hasNav": true,
@@ -334,7 +334,7 @@
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1204,
+      "ms": 1032,
       "title": "Radar — District Mind Media",
       "bodyChars": 654,
       "hasNav": true,
@@ -365,7 +365,7 @@
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 1082,
+      "ms": 983,
       "title": "District Mind Media | Culture",
       "bodyChars": 1550,
       "hasNav": true,
@@ -427,7 +427,7 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1109,
+      "ms": 1012,
       "title": "District Mind Media | About",
       "bodyChars": 934,
       "hasNav": true,
@@ -452,7 +452,7 @@
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 1128,
+      "ms": 1006,
       "title": "District Mind Media | Contact",
       "bodyChars": 505,
       "hasNav": true,
@@ -477,7 +477,7 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 1117,
+      "ms": 1023,
       "title": "District Mind Academy — Class 001",
       "bodyChars": 3083,
       "hasNav": true,
@@ -512,7 +512,7 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 1025,
+      "ms": 988,
       "title": "Academy 001 — District Mind",
       "bodyChars": 938,
       "hasNav": true,
@@ -544,7 +544,7 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 1077,
+      "ms": 985,
       "title": "Editorial — District Mind Media",
       "bodyChars": 1045,
       "hasNav": true,
@@ -581,7 +581,7 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1114,
+      "ms": 1022,
       "title": "Editorial Policy | District Mind Media",
       "bodyChars": 2887,
       "hasNav": true,
@@ -625,7 +625,7 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1115,
+      "ms": 1000,
       "title": "Contributors — District Mind Media",
       "bodyChars": 1088,
       "hasNav": true,
@@ -658,7 +658,7 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 1126,
+      "ms": 1015,
       "title": "Explore — District Mind Media",
       "bodyChars": 892,
       "hasNav": true,
@@ -695,7 +695,7 @@
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 1098,
+      "ms": 980,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
       "bodyChars": 2840,
       "hasNav": true,
@@ -729,7 +729,7 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 6372,
+      "ms": 6832,
       "title": "John Michell — District Mind Media",
       "bodyChars": 2144,
       "hasNav": true,
