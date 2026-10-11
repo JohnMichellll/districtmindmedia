@@ -44,7 +44,8 @@ export async function onRequestGet({request,env}){
    ? {artistId:"1720482148",artistName:"John Michell",primaryGenreName:"Hip-Hop/Rap"}
    : artists[0];
   const best=bestArtist.artistName;
-  let music=[];\n  let albums=[];
+  let music=[];
+  let albums=[];
   if(bestArtist.artistId){
    const ld=await fetchJson("https://itunes.apple.com/lookup?id="+encodeURIComponent(bestArtist.artistId)+"&entity=song&limit=100&country=US");
    music=(ld?.results||[]).filter(x=>x.wrapperType==="track"&&x.trackName).map(x=>({title:x.trackName,album:x.collectionName||"",releaseDate:x.releaseDate||null,artwork:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"1000x1000"):null,apple:x.trackViewUrl||null,genre:x.primaryGenreName||null})).slice(0,40);
