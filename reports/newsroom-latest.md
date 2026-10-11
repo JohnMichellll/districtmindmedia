@@ -1,68 +1,68 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-11T17:09:58.531Z
+Generated: 2026-10-11T17:42:08.235Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 225
+Stories discovered: 227
 
-1. **Capitol Hill music journalist chronicles Seattle grunge history in new book - CHS Capitol Hill Seattle News** — Google News — New Music — Sun, 11 Oct 2026 17:03:49 GMT
+1. **Sleepwalk release new music video for ‘Jan 22’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 11 Oct 2026 17:30:05 GMT
+   https://news.google.com/rss/articles/CBMigAFBVV95cUxQVkk4a1ZLeDBDYkVqb2cwU3MyZzZzeWloa2g5dEppeDVlZTFQWnRtU0ZVXzczQldpb2FtUGh3bkh2YmQxaWI3ak4yQ045UHNIUWExZ0NrUlJ3dVZWQmQzcTVIOGZjSHNjc3VjUFJVMUpaMFFtV2U4NUZHaXp4QUhZeA?oc=5
+2. **Jay-Z Makes Hip-Hop History With $42.3 Million Yankee Stadium Concerts** — AllHipHop — Sun, 11 Oct 2026 17:30:00 +0000
+   https://allhiphop.com/news/jay-z-makes-hip-hop-history-with-42-3-million-yankee-stadium-concerts/
+3. **Cornell University Cancels Homecoming Concert Amid Fallout From Sexual Assault Case** — Billboard — Sun, 11 Oct 2026 17:26:32 +0000
+   https://www.billboard.com/music/music-news/cornell-cancels-homecoming-concert-sexual-assault-case-1236358709/
+4. **Grammy-winning Chance the Rapper celebrated 10 years of his Coloring Book mixtape with a sold-out night of music, nostalgia and reflection in the heart of the Delmar Loop. - DELUX Magazine** — Google News — Hip-Hop — Sun, 11 Oct 2026 17:25:23 GMT
+   https://news.google.com/rss/articles/CBMitAJBVV95cUxQZWdFMWV3WjZFSUN4Z3V3ZUVsYk54MFd0U0JOVVV6cC02c3NhamUwOGxmdmdaWkhIQ0Roa1ZaSWhmUC1mMzFNakszYmVhMVAxdVNCUWtYV2VxdkVOSE95bVU0Q1Z1dmpyV2I0aWs1Q2ZVSzU5dERnUHV0bkx2Y043dUVKQTlKMUZ2alFoSXZZOXdqU0hfZXdmVUZCbEhvTEpvbkdCVEtodnZsTmlnMGdSZjI1T090MDhhcnhPNlJaWlBSb19DZU44cmtROFdsbjBIMkthMmc3ckhTaTBvdWtrQUdwWko0ZXM1RmR5bnNrdXBlRGVDV0pRU1JITDBFMjJETDBMeEdWVy1UWHd3SnRVdG16c3BMNUlKVUNXOW5FMEhkWjctdkRLWnBMamtUd3JrZVMzVw?oc=5
+5. **Capitol Hill music journalist chronicles Seattle grunge history in new book - CHS Capitol Hill Seattle News** — Google News — New Music — Sun, 11 Oct 2026 17:03:49 GMT
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWDZvdWF2eURhSFkzazNiWVNPTTJraWlWU2VtMnZXREVFbVB5bjBiWFl6VGZOeUFRaFoyVjN3WmlPYjZEZXh1NUh0aG1oR0dNOV9HZ1ZibHdBMlBMczR2RlV2RG5meVFuWFJxb1oxTElDZGlJMzNHQU1INXp6MTNfTnlWcUlWRTlFQ201dmxSVjFjWFNNaFE0SHo3bDFDU2JqVWd6bXNnOFpXbjh6X29ULUZIakIwdllxUGxJ?oc=5
-2. **Nicki Minaj Rants About Persecuted Nigerian’s At Elon Musk’s X Takeover In Texas** — AllHipHop — Sun, 11 Oct 2026 17:02:00 +0000
+6. **Nicki Minaj Rants About Persecuted Nigerian’s At Elon Musk’s X Takeover In Texas** — AllHipHop — Sun, 11 Oct 2026 17:02:00 +0000
    https://allhiphop.com/news/nicki-minaj-rants-about-persecuted-nigerians-at-elon-musks-x-takeover-in-texas/
-3. **Against The Current release new music video for ‘White Noise’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 11 Oct 2026 16:48:45 GMT
+7. **Azealia Banks Confirms Move to Israel, Says She’s Working on New Music - Yahoo** — Google News — New Music — Sun, 11 Oct 2026 16:59:42 GMT
+   https://news.google.com/rss/articles/CBMiogFBVV95cUxPdGIyLXVNS29TbTZjdWh1TTlralRCcDFGaHJ1MWlMSF92NmJVVmpNZlJRc0VSU0xzVzVUcnNJY3JrQnhsQS1CSXpsZXpwQlpuSENoc1FuQ3pzeDVoTUFiWDVjUTJSUXNQVk1HS1hKUjl5THh2UGRqUFhDa2t6VVJJQWExdVdjVHNsVFg3Mzc3Qkl6SG5OSjdURlpPaTVMbVhIUGc?oc=5
+8. **Against The Current release new music video for ‘White Noise’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 11 Oct 2026 16:48:45 GMT
    https://news.google.com/rss/articles/CBMilAFBVV95cUxNZFZNZkhMd2cxOXR0OWNyZ3BMVFJFb2w5SWpqNkowUFRIdU5RbWJQaDBBdTY4Uktwdm9sakdlNV81ZzZJemlzM2Q0WUljNlU5c3RtQXBvd2pHTEVfeXZfTmxmTW5PaTZWU0hOck9Xb1pFemxRaVlZUnpsNjZUU3JFckVCNFdFalFHRHlvLV9YZ2VtTGFq?oc=5
-4. **Charli XCX Brings Out Tinashe at Austin City Limits Festival** — Pitchfork — Sun, 11 Oct 2026 16:30:44 +0000
+9. **Charli XCX Brings Out Tinashe at Austin City Limits Festival** — Pitchfork — Sun, 11 Oct 2026 16:30:44 +0000
    https://pitchfork.com/story/charli-xcx-brings-out-tinashe-at-austin-city-limits/
-5. **New Music Critique of Alexa Kate, score 7.6/10 - Music Connection Magazine** — Google News — New Music — Sun, 11 Oct 2026 16:04:31 GMT
+10. **New Music Critique of Alexa Kate, score 7.6/10 - Music Connection Magazine** — Google News — New Music — Sun, 11 Oct 2026 16:04:31 GMT
    https://news.google.com/rss/articles/CBMic0FVX3lxTFBSMUVIUC1wQXlYaUNvVW45NHc2c2JwTDZfMjlrQlFnWmtWMmlsdG41WUJfRXlRc1ZDc1lZc2VxblFqeVV0S1RvNmhhTHd6TEpyNHFmTy1KNzhNWUJ2UW9hbDV4bnAzT0NzOF9VdllMamlBTkU?oc=5
-6. **Drake & Don Toliver Take “Solar Eclipse” From “FOMO” To A Full Video** — AllHipHop — Sun, 11 Oct 2026 16:01:57 +0000
+11. **Drake & Don Toliver Take “Solar Eclipse” From “FOMO” To A Full Video** — AllHipHop — Sun, 11 Oct 2026 16:01:57 +0000
    https://allhiphop.com/news/drake-don-toliver-take-solar-eclipse-from-fomo-to-a-full-video/
-7. **The Beach Boys Played Their First Public Concert in Three Months With an Alarmingly Frail Mike Love** — Rolling Stone — Music — Sun, 11 Oct 2026 15:37:05 +0000
+12. **The Beach Boys Played Their First Public Concert in Three Months With an Alarmingly Frail Mike Love** — Rolling Stone — Music — Sun, 11 Oct 2026 15:37:05 +0000
    https://www.rollingstone.com/music/music-news/the-beach-boys-cincinnati-concert-frail-mike-love-1235640961/
-8. **Soulja Boy For President? Rapper Sets His Sights On The White House In 2028** — AllHipHop — Sun, 11 Oct 2026 15:34:55 +0000
+13. **Soulja Boy For President? Rapper Sets His Sights On The White House In 2028** — AllHipHop — Sun, 11 Oct 2026 15:34:55 +0000
    https://allhiphop.com/rumors/soulja-boy-for-president-rapper-sets-his-sights-on-the-white-house-in-2028/
-9. **Young Nudy Sets “Just Doin Me” Album For October 28** — AllHipHop — Sun, 11 Oct 2026 15:05:00 +0000
+14. **Young Nudy Sets “Just Doin Me” Album For October 28** — AllHipHop — Sun, 11 Oct 2026 15:05:00 +0000
    https://allhiphop.com/news/young-nudy-sets-just-doin-me-album-for-october-28/
-10. **100 Greatest Posse Cuts In Hip Hop History - Hip Hop Golden Age** — Google News — Hip-Hop — Sun, 11 Oct 2026 15:02:03 GMT
+15. **100 Greatest Posse Cuts In Hip Hop History - Hip Hop Golden Age** — Google News — Hip-Hop — Sun, 11 Oct 2026 15:02:03 GMT
    https://news.google.com/rss/articles/CBMiggFBVV95cUxPR3dkRFRxY3BFNWozTTg2d3o5bFgxaENWLWx3UTlwR0ZWbjlTeHdrbEhCNDZWc3VISVFXeEY3d0ljVzE0SHMzVUhscVFjWU9kdWhPdThaN0pMXzlCZ3lvdGhRdEZ6aHRHZENXMGlsQXJKSGtfYktfVXRSbEk5V2lBa3NB?oc=5
-11. **Travis Scott Avoids Longtime Lawsuit Over "ASTROWORLD" & "UTOPIA" - HotNewHipHop** — Google News — Hip-Hop — Sun, 11 Oct 2026 14:46:37 GMT
+16. **Travis Scott Avoids Longtime Lawsuit Over "ASTROWORLD" & "UTOPIA" - HotNewHipHop** — Google News — Hip-Hop — Sun, 11 Oct 2026 14:46:37 GMT
    https://news.google.com/rss/articles/CBMiigFBVV95cUxNbENMOTBlQUxXcUpXVWpHemh0WUZRbFdpYmxhY0x1d19lYzYyQV9HRlg5YWtmSWFZVC1MNmk3S2tqeFRGSUtSY1hfdmhiMHpmdndRWGItQkNVZDdYUVR3SmFkQWRIbm5JbGRFMVNQX25ZN1JXSWJBcGpuRE5BVHRvcmVRQ1djdFJKOUE?oc=5
-12. **North Mississippi Allstars tout 'roots music' on tour - Local Spins** — Google News — New Music — Sun, 11 Oct 2026 14:39:54 GMT
+17. **North Mississippi Allstars tout 'roots music' on tour - Local Spins** — Google News — New Music — Sun, 11 Oct 2026 14:39:54 GMT
    https://news.google.com/rss/articles/CBMitAFBVV95cUxPdlZLRldHMnRpem5DYlpiV1ZwdUg4RmhOU2h1MUczOUpkNnZQMzJRbGFLTVFDcUlnS1dOSWRqTkFoa1dndDk2VTlWQ2JtS1JvRG82dXFQOUdOWVlEM2Ewa3VybFFaTE5pRGQyUlhhdVEzM0VnekNiTTZIUlYtMkU5UUl4VHdBQjFRSHBFNm5LLWFOVGtxSDBZVW52eGNEeWt2Y0xtdFBUZ3oyRl96SHJwWW9GbVU?oc=5
-13. **MAT MAURER: MORTAL SIN Is Planning To Release Best-Of And Live Albums In 2027 While Working On New Music - BLABBERMOUTH.NET** — Google News — New Music — Sun, 11 Oct 2026 14:38:13 GMT
+18. **MAT MAURER: MORTAL SIN Is Planning To Release Best-Of And Live Albums In 2027 While Working On New Music - BLABBERMOUTH.NET** — Google News — New Music — Sun, 11 Oct 2026 14:38:13 GMT
    https://news.google.com/rss/articles/CBMizgFBVV95cUxNZnFtaks4WDFqQ05ncnZVR2RMTGo5a1FLMHF3MG9lSVBYWDRFWkJWeDJWUFR1NUVldGcwcFpzbTc1UC1NTXY0Qi1jWU1DMEd4dDYxWkFkdE1rdmF2dmRlVTU1cTV2NFFIUmNmWEt3TGZyR0dTNW43X3hhYmRhQU1ZVmZfdjM3WkNBdjRMM0VSRGlqeTE2V2xidVZXT1RJbExwTXBtcFVWekUzaWo4Znk3Z2RKT1RsQm8wWEFVMDlFdmpXRGxmVDc1NTM5NWZydw?oc=5
-14. **Exclusive: Here’s What Students Learn at The Bronx School of Hip-Hop - The Root** — Google News — Hip-Hop — Sun, 11 Oct 2026 14:30:28 GMT
+19. **Exclusive: Here’s What Students Learn at The Bronx School of Hip-Hop - The Root** — Google News — Hip-Hop — Sun, 11 Oct 2026 14:30:28 GMT
    https://news.google.com/rss/articles/CBMikwFBVV95cUxQVkt0SW9mNG1WbmFrTFJwS3BDX1JJQjVhOUNCVE9DOTU2Tm51ZVY4b3lrbkxaaUZGZHlZa3JyTk5OV2RfZmt5YmI4aTVhamhqUGVpVkNiR0dFeW1Iek5YRWxsczRJX2xZUlB4Z245aHM1eDBjbHk2THJiXzRFT25haW9GbHc3ZXp4dVNpa1BpNzNJbkk?oc=5
-15. **MJ Lenderman Debuts New Music At Good Moon Festival - Stereogum** — Google News — New Music — Sun, 11 Oct 2026 14:23:00 GMT
+20. **MJ Lenderman Debuts New Music At Good Moon Festival - Stereogum** — Google News — New Music — Sun, 11 Oct 2026 14:23:00 GMT
    https://news.google.com/rss/articles/CBMijwFBVV95cUxNRzJKcVlxRmkzSGR3UGp4aDFYcXVSaWZEU3doRXY2LXpBRkpnTnJCTWlwUVBhV3I5TzZQU1NOZ0lDTXZwR0RhbWVMQmxtT0xlTzNpTmJYUHl3MkhFMUw5Y3E3WW95MFR1eXQ4RE82Z0lIbWlYUXRmM1k0enRBaWJXbkNNWklvRmkyLWZDVW42cw?oc=5
-16. **Jay-Z Speaks On Kanye West's "Big Brother" Track & Chris Martin Spat - HotNewHipHop** — Google News — Hip-Hop — Sun, 11 Oct 2026 14:16:30 GMT
+21. **Jay-Z Speaks On Kanye West's "Big Brother" Track & Chris Martin Spat - HotNewHipHop** — Google News — Hip-Hop — Sun, 11 Oct 2026 14:16:30 GMT
    https://news.google.com/rss/articles/CBMihAFBVV95cUxQTkxaZEMxcUZXczlHVWt0WVh2MlpkOTJYd3hLdTdGVzFDUFpCWGhEMmlXbUJMYVVOV1o2OUltN1BtMEJ2MGZiSFNZeWdiWjY1UkZubElzTWtOeUlZSWFCcmJXWlUzNHp5VmUwSDYwQWxSazVRcEh2ZVhtR1J2OHBNUENzQ1U?oc=5
-17. **See the Raconteurs Reunite for First Time in Seven Years at Jack White’s Nashville Concert** — Rolling Stone — Music — Sun, 11 Oct 2026 13:19:42 +0000
+22. **See the Raconteurs Reunite for First Time in Seven Years at Jack White’s Nashville Concert** — Rolling Stone — Music — Sun, 11 Oct 2026 13:19:42 +0000
    https://www.rollingstone.com/music/music-news/the-raconteurs-reunite-jack-white-nashville-concert-1235640937/
-18. **New Music Video: ‘Mozhesh Da Nye Chotshesh!’ - Anash.org** — Google News — New Music — Sun, 11 Oct 2026 13:08:25 GMT
+23. **New Music Video: ‘Mozhesh Da Nye Chotshesh!’ - Anash.org** — Google News — New Music — Sun, 11 Oct 2026 13:12:53 GMT
    https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZbDVuVlJsSVRaeTIxWERVbDhLTWhxclBRbzNDdFJUSVFkNXJnZWtsRDdNaVVGT0tFWmdZWkxuQzVUR1RWVWUzSE4yMS1Oa0FvejlSQ2kyUWtzTl9HS2pyTVotZFhKenBDaFAw?oc=5
-19. **Remi Wolf Burned Out on Touring. She Prioritizes Healing on New Album ‘Mud’ - Rolling Stone** — Google News — New Music — Sun, 11 Oct 2026 13:00:00 GMT
+24. **Remi Wolf Burned Out on Touring. She Prioritizes Healing on New Album ‘Mud’ - Rolling Stone** — Google News — New Music — Sun, 11 Oct 2026 13:00:00 GMT
    https://news.google.com/rss/articles/CBMioAFBVV95cUxQUnItekVVaGE0UWhmTEN0SmxlTy1Sb1doTUJTOVBOVHlmcXZ5TlJtYmhoYXhBZFlnODZRZ0dhX3VLc20wdXpxdzhUbjFlMHBpZEdaOFR6N0dMaGxZcElJRmVjMkliVmg3Sk9oLWkxd3VhNTVHNFk2NlkwQzF4M1QxNXliS2xtRW8wTGgyellubFZZRkx5UU9GNzJ3dEI4Ui1w?oc=5
-20. **Next Week In Music | October 12-18 • 20 New Books (Part 1) - Tinnitist** — Google News — New Music — Sun, 11 Oct 2026 12:40:08 GMT
+25. **Next Week In Music | October 12-18 • 20 New Books (Part 1) - Tinnitist** — Google News — New Music — Sun, 11 Oct 2026 12:40:08 GMT
    https://news.google.com/rss/articles/CBMijwFBVV95cUxNWDU2dUpoVnRzanFfZjBTdVRxRGhVQS10N19hTkp1VkNweUZhMnBiTDdVSlYzdlVwdFE4eEw2WERoclFRanRUVS1LLWhCSU1IczFjS0ZYR3laQ2lsX0k1b1VBWUdJeUx1RlVMUGR6WklHV21WUl9WNlhobVBBRG9FS29KY0l3YXcycjFydGltWQ?oc=5
-21. **Next Week In Music | October 12-18 • 20 New Books (Part 2) - Tinnitist** — Google News — New Music — Sun, 11 Oct 2026 12:20:40 GMT
+26. **Next Week In Music | October 12-18 • 20 New Books (Part 2) - Tinnitist** — Google News — New Music — Sun, 11 Oct 2026 12:20:40 GMT
    https://news.google.com/rss/articles/CBMijwFBVV95cUxOdFZ0dl9YSWVzQTRoWTNnZlhMTDl6NUVodkFpbklhSUd1cEZyX0ZNYlY3MW5iT2pFa3lWdnI0TGdGaXlOTnhBa2Z6VC1PQXpIVVFITmg5OWs1UlRYY1dSQzkwOGkzaThtQ29ZakdLLWpGaVRncmRyZndNeURDU2lyb1lKNExyRklJQm9LV2FYQQ?oc=5
-22. **Danielle Ponder talks about her new album 'Everything Has Changed' - NPR** — Google News — New Music — Sun, 11 Oct 2026 12:15:46 GMT
+27. **Danielle Ponder talks about her new album 'Everything Has Changed' - NPR** — Google News — New Music — Sun, 11 Oct 2026 12:15:46 GMT
    https://news.google.com/rss/articles/CBMirgFBVV95cUxNMnhHRnRhQjRzdkthYTBHdGI5NXhYbFYtek9yNXJnMnJhNjlfcER5bTAwTTFPVTlxUFNqbkdFWS02ellCYzBKUFZqbTNGbGk4bjN1ekVfQ3RTb0FqMXFRZGwwSWtiejRLWEhka0hiQU9LQ2g5N1NBNGJ3dDBEeU8wWGR4UUhEc2kzS01VajFyQ1FCREkyTF8zOUVoM3htVUJreXE3SWI2d1hPcklIaEE?oc=5
-23. **Gauff stars in rapper Gunna's 'Pop It' music video - WTA Tennis** — Google News — New Music — Sun, 11 Oct 2026 12:11:33 GMT
+28. **Gauff stars in rapper Gunna's 'Pop It' music video - WTA Tennis** — Google News — New Music — Sun, 11 Oct 2026 12:11:33 GMT
    https://news.google.com/rss/articles/CBMijwFBVV95cUxNWFFUMHRRc1dORk5Rc3Rjd1NhaHFsSlhWUWFtN2hSeG9zSzRqVFFMR29UVlRaME9xZXdNeWxxMjc4UkM3MUJMV2RNZ2p1Y1F5Q0YxNUpvbGliTWEwTWM2ZG8xSlFOZUxtMS1YS0tzUjlrUGk1VVotTXFWcWhNNWdaTm5ENnNMWjllSmhlSDhDVQ?oc=5
-24. **Lucibela Returns to New York with Cape Verdean Flavors - World Music Central** — Google News — New Music — Sun, 11 Oct 2026 12:10:57 GMT
+29. **Lucibela Returns to New York with Cape Verdean Flavors - World Music Central** — Google News — New Music — Sun, 11 Oct 2026 12:10:57 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxQaENHZnpJREprQW1iOXJGczhzcGpLZ3ZxcDJEM0pXM2p0c3Fic0hmaWVyLVhGdFZHY0xkeFhRSTNUcDFUdk5palg3bkhqVVRCX2w4UG5XcDk3S1ZtbWdvSHZSdXdKODNOT2J0bHhRTXhhOEI4SjkwaXJzTlVZZU9LaTd3RHlCeVdzaXRPM2VB?oc=5
-25. **Felukah Locks Into Off-Kilter Flows on New Album ‘Hibiskiss’ - CairoScene** — Google News — Hip-Hop — Sun, 11 Oct 2026 11:19:20 GMT
+30. **Felukah Locks Into Off-Kilter Flows on New Album ‘Hibiskiss’ - CairoScene** — Google News — Hip-Hop — Sun, 11 Oct 2026 11:19:22 GMT
    https://news.google.com/rss/articles/CBMikAFBVV95cUxPQUhsa1VWc0hlMUZILV94c2poaFotX3BFTkRidUxRZnN5MGZBZUdfY1dLTll5UkFZWnFKcnIzT09wcjZ4TFlia0lad0dlNUhNS3dhMjJMbVlhQm9YeUpBMmRhVDhkU1NLRFJzdkxFOUxZck9RdUZjOF9ackNNZEJCZnAwXzIzdUlpOER5SFo4M1g?oc=5
-26. **‘Rolling Loud: The Movie’ movie review: Owen Wilson gets lost in hip-hop festival comedy - The Prague Reporter** — Google News — Hip-Hop — Sun, 11 Oct 2026 10:52:46 GMT
-   https://news.google.com/rss/articles/CBMizAFBVV95cUxQb2FYQ3lFUkQ4V1htMFJoMkd2YXliNHhCaDk3MTNxSDROM2ZJdzBmWXhkaGI2d2FidERjOTlGN1dLbWlrYnpuNDZHbGVkcGhKdHlUMmtwbFJBLUdhdG5qN2dUMC1zVnZFd0EyOEc4X3QxY2dGRXdPdVlaSVgtTzNmTXVVVThYamZZbjBvOV9BdUo0R1I3ZlBYbWRCckc4QS1tbmE0eEk0emZKTkdmVWFjMWM4YVRyQTV5ZlBXT1llQklINjlPSHdjTGNMMDY?oc=5
-27. **R&B icon who co-founded legendary group dies at 90: ‘They were the best’ - PennLive.com** — Google News — R&B — Sun, 11 Oct 2026 09:00:00 GMT
-   https://news.google.com/rss/articles/CBMivAFBVV95cUxOX2dRemM0ak9UV2g3RU1aU0pZUGtDMjVWcmdOelJJYTVBZGtRXzJwSVRDVU5WczBlQXJlM29CcHhtNS1fVk40WmlvOGxPYzlDaU1aV1lFNi1tRW1yclhmU1JaYlJZVlVXZG9IRWZFVnNsRU5IWEhNZ0VOaHlRWmp4RmQ1dlZicWVxOVVHMWIyZUtzdWV4c0h4M3Z3ZzRMN1lueWwySWdzbWV0cHJGOU9wYURPMUlnMVVQLUQ4NNIB0AFBVV95cUxOejJ5bk5ReG5jZ19OSzJyWjNDYV91RVJVX2szQUR4ZlNqQ1UyZGc3T3ltYmY1Q0ZPS0w2dGJWRDFhWXB1eHZfanFwOVVDZnozU2U2M0hVMEh5VF9KTDR3akZVMEowMnVuWndpN2V2UFNfYkRyWmNDZ0hGc2pmSnh5ZnFCVDdkekxBazBiVC1UbUJQQVRIampsYVRGeFFYblUzY1Z0Sy1TWkVUODNYMVJvdVdIVFRKamJSYTgyR2xTdnhxNGRSRHoxcWgyNVF6c3lU?oc=5
-28. **Chris Brown, Usher concert to be held in Cincinnati, canceled - WHIO TV** — Google News — R&B — Sun, 11 Oct 2026 07:54:36 GMT
-   https://news.google.com/rss/articles/CBMiswFBVV95cUxPWDdLd09BT29hU0NnQ25ndExEMDNBUUVPN2dDLXdoOTk5ZGZhMlQ2VlA2cDNXdDg1WE5uVUE1U3lxYWk2bzhvYWIxSmppOFh4TWhFVjNCUzB5ODRpdTZvNG9UMVc2UWtldVB0Q2lEV24xTi1xMjYtSHVZNFEzc09hQ2pScEZkdEM1OXpDTzY4LUJNbFFCN2pwUDVFaThwS2lBQzJWaGNxUUlYa3QwcU4zaTR5QdIBxwFBVV95cUxQZC11VHRiLWlRRzdZRk1Md0xHOC1QenhXb2NOYm5zRUVyUVV5S3QyOGp0ejg0bXQzSU9sSFlJY3lrYWttZ0Q1dVVJUkRwdktHSWxWZmFabHlHVmRBaHA1R3NySUl6eEJyNVVVOTJzVjVpWk5QbVV4U2NQZHN0S3NsdkM4dm9JMjB0MUVjZ1huOEtLbkxCOENicC11NzZZdWltX1JmdXg2U0JoNkhZT2xlYlB3UHItd1BMOEtLTnU2QUhaVXR1ZlJJ?oc=5
-29. **Kottonmouth Kings Debut “California Burning” Music Video - V13 Media** — Google News — Hip-Hop — Sun, 11 Oct 2026 06:05:45 GMT
-   https://news.google.com/rss/articles/CBMihgFBVV95cUxPQjNtOFlaaFFoNmhkMVJERDVtUWU5TWVIRS1YY0hWZzRfUzA5b0E3a1hCb1hBS2NrRW9idHliaHg2QWRNeXBhU1R5YTJpTEpUVVgxQlpvMEh6T01GRmxIUzdDX2VDME9iWmJDbGRvVDFnZ01qNlVLTk5wTHlZNDR1R1FMMDQ1UQ?oc=5
-30. **Weekend festivals bring food, music and culture to New Orleans area - FOX 8 Local First** — Google News — New Music — Sun, 11 Oct 2026 04:01:00 GMT
-   https://news.google.com/rss/articles/CBMinAFBVV95cUxOMkdjNS0zU0F1ZXE3R0xzYnZrZ0Y2S3NnandZRW9zd044M3BHcFJrbTMxeENuWTRXS1BmaHd4ajFYM2w4bDlWc3ZNZFRhTWYwNElBVnhmM0JXZkM5VXpVbjN0R3ozU2w2Y0xIS3A0NTU2T1k1SWpGeUoxb2xqVXZzWEtzS3FuUnZwcVdjQjVUbHk4U1BQSGlza3VVOGjSAbABQVVfeXFMTm9QcXJ4bUlFZmdEN0ZEekV2ZUprTFpWQU5rTUVjcWd6M01FaTVDZk8wSm82ay04TXk5dXpmdEZjUGU5ZkdTUWFick5aTU9nTWEwOXotS1l1dkdONjFucDhUcXlkUjdCX1lyOW5ycnBVU296QVZRQ3R6QUdGQkNKazB4Q05KTU1ycWs3WFRvZkFUUC1CU29rSU01MnVWbjRhNjcwbWRCeWdwTVhjakVJSmk?oc=5
