@@ -69,7 +69,7 @@
       <form id="academy-signup" class="academy-form">
         <label>Email address<input id="academy-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required></label>
         <label class="academy-check"><input type="checkbox" required> I want District Mind Academy updates and understand I can unsubscribe from future emails.</label>
-        <button class="submit-btn" type="submit">Join Free Class</button>
+        <button class="submit-btn" type="submit" disabled>Enrollment opens soon.</button>
       </form>
       <p id="academy-status" class="academy-status" aria-live="polite"></p>
     </aside>
@@ -120,18 +120,21 @@
 <footer><div class="footer-container"><div><h3>District Mind</h3><p>Media / Academy</p></div><div class="footer-links"><a href="/about">About</a><a href="/contact">Contact</a><a href="/editorial">Editorial</a><a href="feed.xml">RSS</a></div><p>© 2026 District Mind Media. All rights reserved.</p></div></footer>
 
 <script>
+const ACADEMY_FORMSPREE_ID = 'YOUR_ACADEMY_FORMSPREE_ID';
 const menuToggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.primary-nav');
 if(menuToggle&&nav){menuToggle.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');menuToggle.setAttribute('aria-expanded',String(open));});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('is-open');menuToggle.setAttribute('aria-expanded','false');}));}
 
 const steps=[...document.querySelectorAll('.academy-step')], progress=document.getElementById('academy-progress'), unlock=document.getElementById('academy-unlock'), codeBox=document.getElementById('academy-code'), status=document.getElementById('academy-status'), signup=document.getElementById('academy-signup');
+if (ACADEMY_FORMSPREE_ID === 'YOUR_ACADEMY_FORMSPREE_ID') { signup.querySelectorAll('input,button,select,textarea').forEach(control => { control.disabled = true; }); status.textContent = 'Enrollment opens soon.'; }
 function updateProgress(){const done=steps.filter(x=>x.checked).length;progress.textContent=done+' / '+steps.length+' COMPLETE';unlock.disabled=done!==steps.length;}
 steps.forEach(x=>x.addEventListener('change',updateProgress));
 signup.addEventListener('submit', async e => {
   e.preventDefault();
+  if (ACADEMY_FORMSPREE_ID === 'YOUR_ACADEMY_FORMSPREE_ID') { status.textContent = 'Enrollment opens soon.'; return; }
   const email = document.getElementById('academy-email').value.trim(); if (!email) return;
   status.textContent = 'Saving…';
   try {
-    const res = await fetch('https://formspree.io/f/YOUR_ACADEMY_FORMSPREE_ID', { method: 'POST', headers: { Accept: 'application/json' }, body: new URLSearchParams({ email, list: 'Academy Class 001' }) });
+    const res = await fetch('https://formspree.io/f/' + ACADEMY_FORMSPREE_ID, { method: 'POST', headers: { Accept: 'application/json' }, body: new URLSearchParams({ email, list: 'Academy Class 001' }) });
     if (!res.ok) throw new Error(res.status);
     localStorage.setItem('dmAcademyEmail', email);
     status.textContent = 'You’re on the Class 001 list. Complete the orientation below to unlock your first access code.';
