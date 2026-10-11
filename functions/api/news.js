@@ -157,13 +157,13 @@ export async function onRequestGet({ request, context }) {
       if (cached) {
         const storedAt = Number(cached.headers.get("x-dm-stored-at") || 0);
         const age = storedAt ? now - storedAt : Infinity;
-        if (age < 600000) return cached;
+        if (age < 600000) { const h = new Headers(cached.headers); h.set("Cache-Control", "public, max-age=60"); return new Response(cached.body, { status: cached.status, headers: h }); }
         if (age < 1800000 && context?.waitUntil) {
           context.waitUntil(buildNewsResponse(new URL(requestUrl.toString())).then(async response => {
             const body = await response.text();
             await cache.put(cacheKey, new Response(body, { status: response.status, headers: { "Content-Type":"application/rss+xml; charset=UTF-8", "Cache-Control":"public, max-age=1800", "x-dm-stored-at":String(Date.now()) } }));
           }).catch(error => console.warn("News cache refresh failed", String(error))));
-          return cached;
+          const h = new Headers(cached.headers); h.set("Cache-Control", "public, max-age=0, stale-while-revalidate=1800"); return new Response(cached.body, { status: cached.status, headers: h });
         }
       }
     } catch (error) { console.warn("News cache read failed", String(error)); }
