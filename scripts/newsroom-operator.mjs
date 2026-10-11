@@ -3,7 +3,15 @@ import fs from "node:fs";
 const cfg=JSON.parse(fs.readFileSync("newsroom-config.json","utf8"));
 const out=[];
 const sourceHealth=[];
-const clean=s=>String(s||"").replace(/<[^>]+>/g," ").replace(/&amp;/g,"&").replace(/\s+/g," ").trim();
+const clean=s=>String(s||"")
+ .replace(/<[^>]+>/g," ")
+ .replace(/&#(\d+);/g,(_,n)=>{try{return String.fromCodePoint(Number(n));}catch{return " ";}})
+ .replace(/&#x([0-9a-f]+);/gi,(_,h)=>{try{return String.fromCodePoint(parseInt(h,16));}catch{return " ";}})
+ .replace(/&nbsp;/gi," ").replace(/&rsquo;/gi,"’").replace(/&lsquo;/gi,"‘")
+ .replace(/&ldquo;/gi,"“").replace(/&rdquo;/gi,"”").replace(/&ndash;/gi,"–")
+ .replace(/&mdash;/gi,"—").replace(/&hellip;/gi,"…").replace(/&quot;/gi,'"')
+ .replace(/&apos;/gi,"'").replace(/&lt;/gi,"<").replace(/&gt;/gi,">")
+ .replace(/&amp;/gi,"&").replace(/\s+/g," ").trim();
 const parse=(xml,source)=>{
   const blocks = [
     ...xml.split(/<item\b/i).slice(1).map(part => part.split(/<\/item>/i)[0]),
