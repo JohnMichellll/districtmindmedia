@@ -2672,3 +2672,12 @@ img[loading=lazy]{background:#e9e5dc}
 
 .academy-access-card .submit-btn{background:#f7f5f1;color:#111;border:1px solid #f7f5f1}
 .academy-access-card .submit-btn:hover{background:#fff}
+
+
+/* Launch audit: restore readable standard-header colors on Artist Hub, Wayfinder, and Radar. */
+.artist-desk-page .site-header .primary-nav a,
+.wf-page .site-header .primary-nav a,
+.radar-page .site-header .logo{color:#121212!important}
+.artist-desk-page .site-header .primary-nav,
+.wf-page .site-header .primary-nav{background:transparent!important}
+.radar-page .site-header .logo::after{color:#d51f2f!important}
