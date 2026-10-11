@@ -2669,3 +2669,6 @@ img[loading=lazy]{background:#e9e5dc}
  html{scroll-behavior:auto}
  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}
 }
+
+.academy-access-card .submit-btn{background:#f7f5f1;color:#111;border:1px solid #f7f5f1}
+.academy-access-card .submit-btn:hover{background:#fff}
