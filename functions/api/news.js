@@ -21,6 +21,21 @@ const BASE_GOOGLE_QUERIES = [
 
 const BLOCKED = ["casino","betting","odds","coupon","lottery","horoscope"];
 
+const LAUNCH_MUSIC_TERMS = ["music","album","single","song","tour","concert","rapper","singer","r&b","hip-hop","hip hop","producer","festival","grammy","chart","billboard","release","mixtape","ep","record label","music video","dj","discography","track","live performance","new music","studio","vocal","beat"];
+const LAUNCH_ARTIST_NAMES = ["drake","kendrick lamar","beyonce","taylor swift","john michell","chief keef","travis scott","doja cat","ray charles","louis armstrong","future","sza","j. cole","tyler the creator","lil wayne","playboi carti","bad bunny","metro boomin","earl sweatshirt","victoria monet","jpegmafia","quavo","dawn richard","danielle ponder","nicki minaj","cardi b","rihanna","the weeknd","21 savage","lil baby","megan thee stallion","ice spice"];
+const LAUNCH_BLOCK_TERMS = ["politics","election","trump","zelensky","war","murder","killed","mauled","zoo","formula 1","nfl","nba"];
+function launchMusicRelevant(item) {
+  const text = (item.title + " " + item.description + " " + item.source).toLowerCase();
+  const music = LAUNCH_MUSIC_TERMS.some(term => text.includes(term));
+  const artist = LAUNCH_ARTIST_NAMES.some(name => text.includes(name));
+  const blocked = LAUNCH_BLOCK_TERMS.some(term => text.includes(term));
+  const tmz = /\btmz\b/i.test(item.source || "") || /tmz\.com/i.test(item.link || "");
+  if (tmz) return music;
+  if (blocked && !music) return false;
+  return music || artist;
+}
+
+
 function clean(value = "") {
   return String(value)
     .replace(/<!\[CDATA\[/gi, "")
@@ -141,6 +156,7 @@ export async function onRequestGet({ request }) {
   const localNeedle = local.toLowerCase();
   const items = [...(local ? [] : direct), ...google]
     .filter(item => item.title && item.link && item.score > -50)
+    .filter(launchMusicRelevant)
     .filter(item => {
       if (!local) return true;
       const haystack = (item.title + " " + item.description + " " + item.source).toLowerCase();
