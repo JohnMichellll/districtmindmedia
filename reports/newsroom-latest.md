@@ -1,6 +1,6 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-11T13:42:49.590Z
+Generated: 2026-10-11T14:09:59.107Z
 
 Status: READY_FOR_EDITOR
 
@@ -16,16 +16,16 @@ Stories discovered: 222
    https://news.google.com/rss/articles/CBMijwFBVV95cUxNWDU2dUpoVnRzanFfZjBTdVRxRGhVQS10N19hTkp1VkNweUZhMnBiTDdVSlYzdlVwdFE4eEw2WERoclFRanRUVS1LLWhCSU1IczFjS0ZYR3laQ2lsX0k1b1VBWUdJeUx1RlVMUGR6WklHV21WUl9WNlhobVBBRG9FS29KY0l3YXcycjFydGltWQ?oc=5
 5. **Next Week In Music | October 12-18 • 20 New Books (Part 2) - Tinnitist** — Google News — New Music — Sun, 11 Oct 2026 12:20:40 GMT
    https://news.google.com/rss/articles/CBMijwFBVV95cUxOdFZ0dl9YSWVzQTRoWTNnZlhMTDl6NUVodkFpbklhSUd1cEZyX0ZNYlY3MW5iT2pFa3lWdnI0TGdGaXlOTnhBa2Z6VC1PQXpIVVFITmg5OWs1UlRYY1dSQzkwOGkzaThtQ29ZakdLLWpGaVRncmRyZndNeURDU2lyb1lKNExyRklJQm9LV2FYQQ?oc=5
-6. **Danielle Ponder talks about her new album 'Everything Has Changed' - NPR** — Google News — New Music — Sun, 11 Oct 2026 12:15:46 GMT
-   https://news.google.com/rss/articles/CBMirgFBVV95cUxNMnhHRnRhQjRzdkthYTBHdGI5NXhYbFYtek9yNXJnMnJhNjlfcER5bTAwTTFPVTlxUFNqbkdFWS02ellCYzBKUFZqbTNGbGk4bjN1ekVfQ3RTb0FqMXFRZGwwSWtiejRLWEhka0hiQU9LQ2g5N1NBNGJ3dDBEeU8wWGR4UUhEc2kzS01VajFyQ1FCREkyTF8zOUVoM3htVUJreXE3SWI2d1hPcklIaEE?oc=5
-7. **Gauff stars in rapper Gunna's 'Pop It' music video - WTA Tennis** — Google News — New Music — Sun, 11 Oct 2026 12:11:33 GMT
+6. **Gauff stars in rapper Gunna's 'Pop It' music video - WTA Tennis** — Google News — New Music — Sun, 11 Oct 2026 12:11:33 GMT
    https://news.google.com/rss/articles/CBMijwFBVV95cUxNWFFUMHRRc1dORk5Rc3Rjd1NhaHFsSlhWUWFtN2hSeG9zSzRqVFFMR29UVlRaME9xZXdNeWxxMjc4UkM3MUJMV2RNZ2p1Y1F5Q0YxNUpvbGliTWEwTWM2ZG8xSlFOZUxtMS1YS0tzUjlrUGk1VVotTXFWcWhNNWdaTm5ENnNMWjllSmhlSDhDVQ?oc=5
-8. **Lucibela Returns to New York with Cape Verdean Flavors - World Music Central** — Google News — New Music — Sun, 11 Oct 2026 12:10:57 GMT
+7. **Lucibela Returns to New York with Cape Verdean Flavors - World Music Central** — Google News — New Music — Sun, 11 Oct 2026 12:10:57 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxQaENHZnpJREprQW1iOXJGczhzcGpLZ3ZxcDJEM0pXM2p0c3Fic0hmaWVyLVhGdFZHY0xkeFhRSTNUcDFUdk5palg3bkhqVVRCX2w4UG5XcDk3S1ZtbWdvSHZSdXdKODNOT2J0bHhRTXhhOEI4SjkwaXJzTlVZZU9LaTd3RHlCeVdzaXRPM2VB?oc=5
-9. **Felukah Locks Into Off-Kilter Flows on New Album ‘Hibiskiss’ - CairoScene** — Google News — Hip-Hop — Sun, 11 Oct 2026 11:19:20 GMT
+8. **Felukah Locks Into Off-Kilter Flows on New Album ‘Hibiskiss’ - CairoScene** — Google News — Hip-Hop — Sun, 11 Oct 2026 11:19:20 GMT
    https://news.google.com/rss/articles/CBMikAFBVV95cUxPQUhsa1VWc0hlMUZILV94c2poaFotX3BFTkRidUxRZnN5MGZBZUdfY1dLTll5UkFZWnFKcnIzT09wcjZ4TFlia0lad0dlNUhNS3dhMjJMbVlhQm9YeUpBMmRhVDhkU1NLRFJzdkxFOUxZck9RdUZjOF9ackNNZEJCZnAwXzIzdUlpOER5SFo4M1g?oc=5
-10. **‘Rolling Loud: The Movie’ movie review: Owen Wilson gets lost in hip-hop festival comedy - The Prague Reporter** — Google News — Hip-Hop — Sun, 11 Oct 2026 10:52:46 GMT
+9. **‘Rolling Loud: The Movie’ movie review: Owen Wilson gets lost in hip-hop festival comedy - The Prague Reporter** — Google News — Hip-Hop — Sun, 11 Oct 2026 10:52:46 GMT
    https://news.google.com/rss/articles/CBMizAFBVV95cUxQb2FYQ3lFUkQ4V1htMFJoMkd2YXliNHhCaDk3MTNxSDROM2ZJdzBmWXhkaGI2d2FidERjOTlGN1dLbWlrYnpuNDZHbGVkcGhKdHlUMmtwbFJBLUdhdG5qN2dUMC1zVnZFd0EyOEc4X3QxY2dGRXdPdVlaSVgtTzNmTXVVVThYamZZbjBvOV9BdUo0R1I3ZlBYbWRCckc4QS1tbmE0eEk0emZKTkdmVWFjMWM4YVRyQTV5ZlBXT1llQklINjlPSHdjTGNMMDY?oc=5
+10. **R&B icon who co-founded legendary group dies at 90: ‘They were the best’ - Yahoo** — Google News — R&B — Sun, 11 Oct 2026 09:01:01 GMT
+   https://news.google.com/rss/articles/CBMijgFBVV95cUxPX0dWNXJZT1U1T1NVbEdWZldvanhFYUtFQl9DbHd3Qmt2UUJ1RmhxazJOSnVFYnozd3NrM0oxbjZaN2cyeHdqaDN4UlBTSkVUbXRpclBaVE1CbUd3WEt0dEpOY2U5enpmdkhJblJISWdoV2xXejJMdHg4bkNlMmdCQ3RRRUxXZmdKSXpsQzNB?oc=5
 11. **R&B icon who co-founded legendary group dies at 90: ‘They were the best’ - PennLive.com** — Google News — R&B — Sun, 11 Oct 2026 09:00:00 GMT
    https://news.google.com/rss/articles/CBMivAFBVV95cUxOX2dRemM0ak9UV2g3RU1aU0pZUGtDMjVWcmdOelJJYTVBZGtRXzJwSVRDVU5WczBlQXJlM29CcHhtNS1fVk40WmlvOGxPYzlDaU1aV1lFNi1tRW1yclhmU1JaYlJZVlVXZG9IRWZFVnNsRU5IWEhNZ0VOaHlRWmp4RmQ1dlZicWVxOVVHMWIyZUtzdWV4c0h4M3Z3ZzRMN1lueWwySWdzbWV0cHJGOU9wYURPMUlnMVVQLUQ4NNIB0AFBVV95cUxOejJ5bk5ReG5jZ19OSzJyWjNDYV91RVJVX2szQUR4ZlNqQ1UyZGc3T3ltYmY1Q0ZPS0w2dGJWRDFhWXB1eHZfanFwOVVDZnozU2U2M0hVMEh5VF9KTDR3akZVMEowMnVuWndpN2V2UFNfYkRyWmNDZ0hGc2pmSnh5ZnFCVDdkekxBazBiVC1UbUJQQVRIampsYVRGeFFYblUzY1Z0Sy1TWkVUODNYMVJvdVdIVFRKamJSYTgyR2xTdnhxNGRSRHoxcWgyNVF6c3lU?oc=5
 12. **Chris Brown, Usher concert to be held in Cincinnati, canceled - WHIO TV** — Google News — R&B — Sun, 11 Oct 2026 07:54:36 GMT
