@@ -1,9 +1,15 @@
 {
-  "generatedAt": "2026-10-11T03:11:24.258Z",
+  "generatedAt": "2026-10-11T03:45:17.899Z",
   "operator": "District Mind AI Newsroom",
   "status": "READY_FOR_EDITOR",
-  "storyCount": 277,
+  "storyCount": 276,
   "stories": [
+    {
+      "title": "Three more held over Rs 9.24 cr R&B funds scam in Bhubaneswar - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYTdTVERRc24yWk91Z0hPWk5wZkNfQkVqdWVGWTJHNDRxNzB2UGlZdWNTYVR6RktWUjdYZklDdXcteUtHVjNyc3VDem5ueWpUR0lFaDVZUC1sNVFFOUVRNl9jZ01DV01kb05ScjZCX0ZSbl8yenZ4eDQ5NEFiU3pwcFV6YzczSDBJTlVmTS1TcmRGTmVIVTlUTTNwQWRYUmZhaHBndkNsTnhGYWwwWFlTbjVmYkl1WXJkUEFtby1scl_SAc4BQVVfeXFMTk1GV0pESkQ0SW1ITUZkcTg1bi1vSXFBLXBJQjlnTGxyTHhJZ0FPa1RoQlNud1l2dHBaNjJOSVVaR2ZOYU1LNjZkVS1rNWxpcVYwX3BSZnVmOGdveW9iQWN1MjExUkVCcm9jLUZBbzdsUkRoZUNCV25iTHBGVVRyR1h5ZldGN2pFTHZYMUhJYWNFOV9vNWNScWhJYXJXOGJpZ01Fb1c2NWNzY1UxakZTQjVQUC1XbUJoVnVWTlRndWJWMWxGMXRxR1Y4NDlib2c?oc=5",
+      "date": "Sun, 11 Oct 2026 02:53:07 GMT",
+      "source": "Google News — R&B"
+    },
     {
       "title": "Coco Gauff Gets UN Support After Racist Lunatics Abuse Her Over China Open Match",
       "url": "https://allhiphop.com/news/coco-gauff-gets-un-support-after-racist-lunatics-abuse-her-over-china-open-match/",
@@ -63,6 +69,12 @@
       "url": "https://allhiphop.com/news/title-for-ll-cool-js-radio-album-has-an-incredible-origin-story/",
       "date": "Sat, 10 Oct 2026 22:01:00 +0000",
       "source": "AllHipHop"
+    },
+    {
+      "title": "Frank Vibes Expands His Sonic Universe With The Black Urameshi 2 - 24Hip-Hop",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS3U4cHZFVUNMbVd4UTBrY0g4SGszTTNuVUhoQUhVUVpOWnVsZmpHcTRfQXVZQ0xIVXFObG40ZUg2QUw4Z2szM0xxYWVsVmhna3pmbWFmRXp3UjR2TmYyMXRpMHlLN003WkctRmxjWVFhVmRaTUVTQS1KRVNueGgyRVBMUHJtUU5QYVhpdVU1SWw?oc=5",
+      "date": "Sat, 10 Oct 2026 21:38:56 GMT",
+      "source": "Google News — Hip-Hop"
     },
     {
       "title": "Bebi Takes Hip-Hop to Another Planet With “Wake Up” - Ratings Game Music",
@@ -591,18 +603,6 @@
       "url": "https://www.rollingstone.com/music/music-news/creed-higher-instagram-recommendation-1235640225/",
       "date": "Fri, 09 Oct 2026 15:57:12 +0000",
       "source": "Rolling Stone — Music"
-    },
-    {
-      "title": "Phoebe Bridgers Brings a &#8216;Haunted&#8217; Vibe — And Boygenius — to New York&#8217;s Cherry Lane Theatre",
-      "url": "https://www.rollingstone.com/music/music-news/phoebe-bridgers-boygenius-sound-check-1235640211/",
-      "date": "Fri, 09 Oct 2026 15:37:38 +0000",
-      "source": "Rolling Stone — Music"
-    },
-    {
-      "title": "New Music Friday: October 9, 2026 - The Indy Review",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE11NnV3Q0lQczBoYWpZSlFFRnlEQTl6UlZnUVhOS01mdC1kUkZzZlNaQjRUaUNIVW15MWN4Qm9IM0FjeDduQXBUTGVHbDNpUEFkdnFqUXB2bDkxQ3lZTm9BcW5zUUtNcnJ6RDJYNlo2ZktucVRwOVZDMg?oc=5",
-      "date": "Fri, 09 Oct 2026 15:35:24 GMT",
-      "source": "Google News — New Music"
     }
   ],
   "sources": [
@@ -628,8 +628,8 @@
       "bytes": 18596,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=480b8cfebe594d8dbffbe780a8ff23ae benchma",
-      "latencyMs": 328
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=1a5e31c68865478f8744661c52067ba0 benchma",
+      "latencyMs": 285
     },
     {
       "source": "HipHopDX",
@@ -640,7 +640,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 177
+      "latencyMs": 199
     },
     {
       "source": "AllHipHop",
@@ -651,7 +651,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 652
+      "latencyMs": 684
     },
     {
       "source": "No Jumper",
@@ -662,51 +662,51 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 592
+      "latencyMs": 620
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 121330,
+      "bytes": 121294,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 510
+      "latencyMs": 456
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 128594,
+      "bytes": 129478,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 483
+      "latencyMs": 457
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 129892,
+      "bytes": 129679,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 422
+      "latencyMs": 460
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 124551,
+      "bytes": 123802,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 464
+      "latencyMs": 485
     },
     {
       "source": "Billboard",
@@ -717,7 +717,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 50
+      "latencyMs": 113
     },
     {
       "source": "Pitchfork",
@@ -728,7 +728,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 83
+      "latencyMs": 109
     },
     {
       "source": "Rolling Stone — Music",
@@ -739,7 +739,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 199
+      "latencyMs": 181
     },
     {
       "source": "Variety — Music",
@@ -750,7 +750,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 93
+      "latencyMs": 76
     }
   ],
   "errorCount": 0,
