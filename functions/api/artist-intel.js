@@ -54,7 +54,7 @@ export async function onRequestGet({request,env}){
   // If lookup is thin, search the artist directly for tracks as a second catalog pass.
   if(music.length<3){
    const fallback=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(best)+"&entity=song&attribute=artistTerm&limit=50&country=US");
-   music=(fallback?.results||[]).filter(x=>x.trackName&&(!x.artistName||norm(x.artistName)===norm(best))).map(x=>({title:x.trackName,album:x.collectionName||"",releaseDate:x.releaseDate||null,artwork:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"1000x1000"):null,apple:x.trackViewUrl||null,genre:x.primaryGenreName||null})).slice(0,40);
+   music=(fallback?.results||[]).filter(x=>x.trackName&&x.artistName&&norm(x.artistName)===norm(best)).map(x=>({title:x.trackName,album:x.collectionName||"",releaseDate:x.releaseDate||null,artwork:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"1000x1000"):null,apple:x.trackViewUrl||null,genre:x.primaryGenreName||null})).slice(0,40);
   }
   // Deezer is a free, keyless second catalog. Always use it for album artwork when Apple lookup is empty/thin.
   if(!music.length||!albums.length){
