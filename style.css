@@ -2707,3 +2707,10 @@ img[loading=lazy]{background:#e9e5dc}
 .real-release-photo.two::after,.photo-2::after,.release-thumb.two::after,.story-image.two::after,.editorial-visual.two::after{content:"Photo: Sgt. Elisabeth Tasker / U.S. Army — Public Domain"}
 .real-release-photo.three::after,.live-photo.three::after,.photo-3::after,.release-thumb.three::after,.story-image.three::after,.editorial-visual.three::after,.category-visual.four::after{content:"Photo: Clay Junell / Wikimedia Commons — CC BY-SA 2.0"}
 .category-visual.two::after{content:"Photo: Levi Manchak / Wikimedia Commons — CC BY 2.0"}
+
+
+/* Keep the free-text support chat hidden until the API is available; guided help and FAQs remain. */
+.support-card:has(#chat-form){display:none!important}
+@media(max-width:760px){
+  .radar-page .dm-guide-trigger,.wf-page .dm-guide-trigger{display:none!important}
+}
