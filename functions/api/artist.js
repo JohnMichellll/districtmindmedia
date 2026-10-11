@@ -14,7 +14,7 @@ export async function onRequestGet({request}){
    fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(q)+"&entity=musicArtist&limit=10&country=US"),
    fetchJson("https://api.deezer.com/search/artist?q="+encodeURIComponent(q)+"&limit=10")
   ]);
-  const upstreamAvailable=Boolean(ar||dz);
+  const upstreamAvailable=Boolean((ar&&Array.isArray(ar.results))||(dz&&Array.isArray(dz.data)));
   const candidates=new Map();
   for(const x of (ar?.results||[]))if(x?.artistName){const key=norm(x.artistName);if(!candidates.has(key))candidates.set(key,{artistName:x.artistName,itunesId:x.artistId||null,artistViewUrl:x.artistLinkUrl||null,artistImage:null,primaryGenreName:x.primaryGenreName||""});}
   for(const x of (dz?.data||[]))if(x?.name){const key=norm(x.name);const prior=candidates.get(key)||{};candidates.set(key,{...prior,artistName:prior.artistName||x.name,deezerId:x.id||null,deezerLink:x.link||null,artistImage:x.picture_xl||x.picture_big||prior.artistImage||null,primaryGenreName:prior.primaryGenreName||""});}
