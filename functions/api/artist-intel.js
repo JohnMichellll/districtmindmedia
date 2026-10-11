@@ -3,7 +3,7 @@ const clean=v=>String(v??"").replace(/<[^>]*>/g,"").trim();
 const pinnedArtists={"ray charles":{artistId:"160926",artistName:"Ray Charles",primaryGenreName:"R&B/Soul"},"louis armstrong":{artistId:"518462",artistName:"Louis Armstrong",primaryGenreName:"Jazz"}};
 const legacyNames=["ray charles","louis armstrong","aretha franklin","ella fitzgerald","nat king cole","sam cooke","billie holiday","nina simone","john coltrane","miles davis","duke ellington","charlie parker","frank sinatra","marvin gaye","stevie wonder","james brown","otis redding","the beatles","elvis presley","buddy holly","muddy waters","howlin wolf","chuck berry","little richard","b.b. king","bb king"];
 const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers});
-const fetchJson=async(url,ms=7000)=>{const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal});return r.ok?await r.json():null}catch{return null}finally{clearTimeout(t)}};
+const fetchJson=async(url,ms=7000)=>{const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal,headers:{"User-Agent":"DistrictMindMedia/1.0 (artist intelligence)","Accept":"application/json"}});if(!r.ok){const body=(await r.text()).slice(0,500);console.warn("Artist intelligence upstream failure",r.status,url,body);return null;}return await r.json()}catch(e){console.warn("Artist intelligence upstream request failed",url,String(e));return null}finally{clearTimeout(t)}};
 const norm=s=>String(s||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
 const artistScore=(a,q)=>{const n=norm(a.artistName),x=norm(q);if(n===x)return 100;if(n.startsWith(x))return 85;if(n.includes(x))return 70;return 0};
 function artistQueryFromText(raw){
@@ -23,6 +23,7 @@ export async function onRequestGet({request,env}){
   const pinned=pinnedArtists[norm(q)];
   const artistSearch=pinned?null:await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(q)+"&entity=musicArtist&attribute=artistTerm&limit=50&country=US");
   let artists=pinned?[pinned]:(Array.isArray(artistSearch?.results)?artistSearch.results.filter(x=>x?.artistName):[]);
+  if(!pinned&&!artists.length){const dz=await fetchJson("https://api.deezer.com/search/artist?q="+encodeURIComponent(q)+"&limit=5");artists=(dz?.data||[]).filter(x=>x?.name).map(x=>({artistId:x.id||null,artistName:x.name,artistLinkUrl:x.link||null,deezerImage:x.picture_xl||x.picture_big||null,primaryGenreName:""}));}
   // Second catalog route catches major artists that Apple returns inconsistently through musicArtist search.
   if(!artists.some(x=>norm(x.artistName)===norm(q))){
    const songSearch=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(q)+"&entity=song&attribute=artistTerm&limit=50&country=US");
