@@ -21,7 +21,7 @@ const BLOCKED = ["casino","betting","odds","coupon","lottery","horoscope"];
 const LAUNCH_MUSIC_TERMS = ["music","album","single","song","tour","concert","rapper","singer","r&b","hip-hop","hip hop","producer","festival","grammy","chart","billboard","release","mixtape","ep","record label","music video","dj","discography","track","live performance","new music","studio","vocal","beat"];
 const LAUNCH_ARTIST_NAMES = ["drake","kendrick lamar","beyonce","taylor swift","john michell","chief keef","travis scott","doja cat","ray charles","louis armstrong","future","sza","j. cole","tyler the creator","lil wayne","playboi carti","bad bunny","metro boomin","earl sweatshirt","victoria monet","jpegmafia","quavo","dawn richard","danielle ponder","nicki minaj","cardi b","rihanna","the weeknd","21 savage","lil baby","megan thee stallion","ice spice"];
 const LAUNCH_BLOCK_TERMS = ["politics","election","trump","zelensky","war","murder","killed","mauled","zoo","formula 1","nfl","nba"];
-const escapeRegex = value => String(value).replace(/[|\\{}()[\]^$+*?.-]/g, "\\$&");
+const escapeRegex = value => String(value).split("").map(ch => "\\^$.*+?()[]{}|".includes(ch) ? "\\" + ch : ch).join("");
 const hasTerm = (text, terms) => terms.some(term => new RegExp("\\b" + escapeRegex(term) + "\\b", "i").test(text));
 function launchMusicRelevant(item) {
   const title = String(item.title || "");
