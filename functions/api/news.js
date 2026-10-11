@@ -24,7 +24,7 @@ const BLOCKED = ["casino","betting","odds","coupon","lottery","horoscope"];
 const LAUNCH_MUSIC_TERMS = ["music","album","single","song","tour","concert","rapper","singer","r&b","hip-hop","hip hop","producer","festival","grammy","chart","billboard","release","mixtape","ep","record label","music video","dj","discography","track","live performance","new music","studio","vocal","beat"];
 const LAUNCH_ARTIST_NAMES = ["drake","kendrick lamar","beyonce","taylor swift","john michell","chief keef","travis scott","doja cat","ray charles","louis armstrong","future","sza","j. cole","tyler the creator","lil wayne","playboi carti","bad bunny","metro boomin","earl sweatshirt","victoria monet","jpegmafia","quavo","dawn richard","danielle ponder","nicki minaj","cardi b","rihanna","the weeknd","21 savage","lil baby","megan thee stallion","ice spice"];
 const LAUNCH_BLOCK_TERMS = ["politics","election","trump","zelensky","war","murder","killed","mauled","zoo","formula 1","nfl","nba"];
-function launchMusicRelevant(item) {
+const escapeRegex = value => String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\function launchMusicRelevant(item) {
   const text = (item.title + " " + item.description + " " + item.source).toLowerCase();
   const music = LAUNCH_MUSIC_TERMS.some(term => text.includes(term));
   const artist = LAUNCH_ARTIST_NAMES.some(name => text.includes(name));
@@ -33,6 +33,15 @@ function launchMusicRelevant(item) {
   if (tmz) return music;
   if (blocked && !music) return false;
   return music || artist;
+}");
+const hasTerm = (text, terms) => terms.some(term => new RegExp("\\b" + escapeRegex(term) + "\\b", "i").test(text));
+function launchMusicRelevant(item) {
+  const title = String(item.title || "");
+  const desc = String(item.description || "").slice(0, 200);
+  const evidence = title + " " + desc;
+  const knownArtistInTitle = hasTerm(title, LAUNCH_ARTIST_NAMES);
+  if (hasTerm(evidence, LAUNCH_BLOCK_TERMS) && !knownArtistInTitle) return false;
+  return hasTerm(evidence, LAUNCH_MUSIC_TERMS) || knownArtistInTitle;
 }
 
 
@@ -41,9 +50,13 @@ function clean(value = "") {
     .replace(/<!\[CDATA\[/gi, "")
     .replace(/\]\]>/gi, "")
     .replace(/<[^>]*>/g, " ")
-    .replace(/&amp;/g, "&").replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'").replace(/&apos;/g, "'")
-    .replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .replace(/&#(\d+);/g, (_, n) => { try { return String.fromCodePoint(Number(n)); } catch { return " "; } })
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => { try { return String.fromCodePoint(parseInt(h, 16)); } catch { return " "; } })
+    .replace(/&nbsp;/gi, "\\u00a0").replace(/&rsquo;/gi, "’").replace(/&lsquo;/gi, "‘")
+    .replace(/&ldquo;/gi, "“").replace(/&rdquo;/gi, "”").replace(/&ndash;/gi, "–")
+    .replace(/&mdash;/gi, "—").replace(/&hellip;/gi, "…")
+    .replace(/&quot;/gi, '"').replace(/&apos;/gi, "'").replace(/&lt;/gi, "<").replace(/&gt;/gi, ">")
+    .replace(/&amp;/gi, "&")
     .replace(/\s+/g, " ").trim();
 }
 
@@ -79,7 +92,7 @@ const extractBlocks = xml => [
 
 async function fetchXmlSource(source) {
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 8000);
+  const timeout = setTimeout(() => controller.abort(), 4000);
   try {
     const response = await fetch(source.url, {
       headers: { "User-Agent": "DistrictMindMedia/1.0" },
@@ -116,7 +129,7 @@ async function fetchGoogle(googleWindow, localQuery = "") {
   const parts = await Promise.all(queries.map(async query => {
     try {
       const url = "https://news.google.com/rss/search?q=" + encodeURIComponent(query + " when:" + googleWindow + "d") + "&hl=en-US&gl=US&ceid=US:en";
-      const response = await fetch(url, { headers: { "User-Agent": "DistrictMindMedia/1.0" }, signal: AbortSignal.timeout(8000) });
+      const response = await fetch(url, { headers: { "User-Agent": "DistrictMindMedia/1.0" }, signal: AbortSignal.timeout(4000) });
       if (!response.ok) return [];
       const xml = await response.text();
       const blocks = extractBlocks(xml);
@@ -141,7 +154,7 @@ async function fetchGoogle(googleWindow, localQuery = "") {
 export async function onRequestGet({ request }) {
   const requestUrl = new URL(request.url);
   const mode = requestUrl.searchParams.get("mode") || "latest";
-  const local = String(requestUrl.searchParams.get("local") || "").trim();
+  let local = String(requestUrl.searchParams.get("local") || "").trim();\n  let localState = "";\n  if (/^\\d{5}$/.test(local)) {\n    try { const z = await fetch("https://api.zippopotam.us/us/" + local, { signal: AbortSignal.timeout(4000) }); if (z.ok) { const zd = await z.json(); local = zd.places?.[0]?.["place name"] || local; localState = zd.places?.[0]?.state || ""; } } catch {}\n  }
   const hours = mode === "archive"
     ? 168
     : Math.min(Math.max(Number(requestUrl.searchParams.get("hours") || (local ? 168 : 24)), 24), 168);
@@ -153,7 +166,7 @@ export async function onRequestGet({ request }) {
   ]);
 
   const seen = new Set();
-  const localNeedle = local.toLowerCase();
+  const localNeedle = local.toLowerCase();\n  const localStateNeedle = localState.toLowerCase();
   const items = [...(local ? [] : direct), ...google]
     .filter(item => item.title && item.link && item.score > -50)
     .filter(launchMusicRelevant)
@@ -196,7 +209,45 @@ ${item.image ? `<enclosure url="${esc(item.image)}" type="image/jpeg"/>` : ""}
   return new Response(xml, {
     headers: {
       "Content-Type":"application/rss+xml; charset=UTF-8",
-      "Cache-Control":"public, max-age=60, s-maxage=60"
+      "Cache-Control":"public, max-age=600, s-maxage=600, stale-while-revalidate=1800"
     }
   });
+}
+
+export async function onRequestGet({ request, context }) {
+  const requestUrl = new URL(request.url);
+  const params = [...requestUrl.searchParams.entries()].sort(([a],[b]) => a.localeCompare(b));
+  const normalizedQuery = new URLSearchParams(params).toString();
+  const cacheKey = new Request(requestUrl.origin + "/__districtmind_cache/news?" + normalizedQuery, { method: "GET" });
+  const cache = caches.default;
+  const now = Date.now();
+  if (cache) {
+    try {
+      const cached = await cache.match(cacheKey);
+      if (cached) {
+        const storedAt = Number(cached.headers.get("x-dm-stored-at") || 0);
+        const age = storedAt ? now - storedAt : Infinity;
+        if (age < 600000) return cached;
+        if (age < 1800000) {
+          const refresh = buildNewsResponse(new URL(requestUrl.toString()));
+          if (context?.waitUntil) context.waitUntil(refresh.then(async response => {
+            const body = await response.text();
+            const saved = new Response(body, { status: response.status, headers: { "Content-Type": "application/rss+xml; charset=UTF-8", "Cache-Control": "public, max-age=1800", "x-dm-stored-at": String(Date.now()) } });
+            await cache.put(cacheKey, saved);
+          }).catch(error => console.warn("News cache refresh failed", String(error))));
+          return cached;
+        }
+      }
+    } catch (error) { console.warn("News cache read failed", String(error)); }
+  }
+  const response = await buildNewsResponse(requestUrl);
+  if (cache && response.ok) {
+    try {
+      const body = await response.clone().text();
+      const saved = new Response(body, { status: response.status, headers: { "Content-Type": "application/rss+xml; charset=UTF-8", "Cache-Control": "public, max-age=1800", "x-dm-stored-at": String(Date.now()) } });
+      if (context?.waitUntil) context.waitUntil(cache.put(cacheKey, saved));
+      else await cache.put(cacheKey, saved);
+    } catch (error) { console.warn("News cache write failed", String(error)); }
+  }
+  return response;
 }
