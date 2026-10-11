@@ -60,6 +60,7 @@
       const tryCandidate=async url=>{
         if(!url||!(await verifyImage(url)))return false;
         media.style.backgroundImage='url("'+url.replace(/["\\\\]/g,'')+'")';
+        media.querySelector('.radar-text-fallback')?.remove();
         media.classList.remove('radar-card-no-image');
         card.dataset.hasImage='1';
         return true;
