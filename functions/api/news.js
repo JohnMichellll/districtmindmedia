@@ -20,7 +20,7 @@ const BASE_GOOGLE_QUERIES = [
 const BLOCKED = ["casino","betting","odds","coupon","lottery","horoscope"];
 const LAUNCH_MUSIC_TERMS = ["music","album","albums","single","singles","song","songs","tour","tours","concert","concerts","rapper","rappers","singer","singers","artist","artists","r&b","hip-hop","hip hop","producer","producers","festival","festivals","grammy","chart","billboard","release","releases","mixtape","ep","record label","music video","dj","discography","track","tracks","live performance","new music","studio","vocal","vocals","beat","beats"];
 const LAUNCH_ARTIST_NAMES = ["drake","kendrick lamar","beyonce","taylor swift","john michell","chief keef","travis scott","doja cat","ray charles","louis armstrong","future","sza","j. cole","tyler the creator","lil wayne","playboi carti","bad bunny","metro boomin","earl sweatshirt","victoria monet","jpegmafia","quavo","dawn richard","danielle ponder","nicki minaj","cardi b","rihanna","the weeknd","21 savage","lil baby","megan thee stallion","ice spice"];
-const LAUNCH_BLOCK_TERMS = ["politics","election","trump","zelensky","war","murder","killed","mauled","zoo","formula 1","nfl","nba"];
+const LAUNCH_BLOCK_TERMS = ["politics","election","trump","zelensky","war","murder","killed","mauled","mauling","tiger","zoo","nazi","nazi salute","barbie","formula 1","nfl","nba"];
 const escapeRegex = value => String(value).split("").map(ch => "\\^$.*+?()[]{}|".includes(ch) ? "\\" + ch : ch).join("");
 const hasTerm = (text, terms) => terms.some(term => new RegExp("\\b" + escapeRegex(term) + "\\b", "i").test(text));
 function launchMusicRelevant(item) {
