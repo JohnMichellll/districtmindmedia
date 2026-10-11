@@ -27,7 +27,7 @@ export async function onRequestPost({request}){
      const artistName=data.artist;
      const cards=[{title:artistName,description:data.ai?.genre||"Music artist",image:data.artistImage||null,url:data.links?.apple||("https://music.apple.com/us/search?term="+encodeURIComponent(artistName))}];
      (data.music||[]).slice(0,4).forEach(t=>cards.push({title:t.title,description:[t.album||"Release",t.releaseDate?String(t.releaseDate).slice(0,4):""].filter(Boolean).join(" · "),image:t.artwork||null,url:t.apple||data.links?.apple||("https://music.apple.com/us/search?term="+encodeURIComponent(artistName))}));
-     return json({reply:"Matched "+artistName+" through the artist lookup. Open the catalog source to verify the profile and releases.",kind:"artists",cards});
+     const genre=String(data.ai?.genre||"Music artist");const summary=String(data.ai?.summary||"Verified catalog matches are shown below.");return json({reply:artistName+" — "+genre+". "+summary+" The cards link to public catalog sources so you can verify the profile and releases.",kind:"artists",cards});
    }
    return json({reply:"I couldn't confirm an exact artist profile for "+artistQ+". Try the full artist name or use the direct catalog search below.",kind:"search",cards:[{title:"Apple Music artist search",description:"Search the live catalog for "+artistQ+".",url:"https://music.apple.com/us/search?term="+encodeURIComponent(artistQ)},{title:"Deezer artist search",description:"Check a second public artist catalog.",url:"https://www.deezer.com/search/"+encodeURIComponent(artistQ)}]});
  }
