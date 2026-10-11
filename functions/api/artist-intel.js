@@ -56,17 +56,19 @@ export async function onRequestGet({request,env}){
    const fallback=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(best)+"&entity=song&attribute=artistTerm&limit=50&country=US");
    music=(fallback?.results||[]).filter(x=>x.trackName&&(!x.artistName||norm(x.artistName)===norm(best))).map(x=>({title:x.trackName,album:x.collectionName||"",releaseDate:x.releaseDate||null,artwork:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"1000x1000"):null,apple:x.trackViewUrl||null,genre:x.primaryGenreName||null})).slice(0,40);
   }
-  // iTunes lookup/search can be empty at Cloudflare edge; fall back to Deezer's free public API.
-  if(!music.length){
+  // Deezer is a free, keyless second catalog. Always use it for album artwork when Apple lookup is empty/thin.
+  if(!music.length||!albums.length){
    const dzSearch=await fetchJson("https://api.deezer.com/search/artist?q="+encodeURIComponent(best)+"&limit=25");
    const dzArtist=(dzSearch?.data||[]).find(x=>norm(x.name)===norm(best));
    if(dzArtist){
-    const [top,albumResult]=await Promise.all([
-     fetchJson("https://api.deezer.com/artist/"+encodeURIComponent(dzArtist.id)+"/top?limit=10"),
-     fetchJson("https://api.deezer.com/artist/"+encodeURIComponent(dzArtist.id)+"/albums?limit=20")
-    ]);
-    music=(top?.data||[]).filter(x=>x?.title).map(x=>({title:x.title,album:x.album?.title||"",releaseDate:x.release_date||null,artwork:x.album?.cover_xl||x.album?.cover_big||x.album?.cover_medium||null,apple:x.link||null,genre:null,source:"Deezer"})).slice(0,40);
-    albums=(albumResult?.data||[]).filter(x=>x?.title).map(x=>({title:x.title,releaseDate:x.release_date||null,artwork:x.cover_xl||x.cover_big||x.cover_medium||null,url:x.link||null,source:"Deezer"}));
+    const jobs=[];
+    if(!music.length)jobs.push(fetchJson("https://api.deezer.com/artist/"+encodeURIComponent(dzArtist.id)+"/top?limit=10"));
+    else jobs.push(Promise.resolve(null));
+    if(!albums.length)jobs.push(fetchJson("https://api.deezer.com/artist/"+encodeURIComponent(dzArtist.id)+"/albums?limit=20"));
+    else jobs.push(Promise.resolve(null));
+    const [top,albumResult]=await Promise.all(jobs);
+    if(!music.length)music=(top?.data||[]).filter(x=>x?.title).map(x=>({title:x.title,album:x.album?.title||"",releaseDate:x.release_date||null,artwork:x.album?.cover_xl||x.album?.cover_big||x.album?.cover_medium||null,apple:x.link||null,genre:null,source:"Deezer"})).slice(0,40);
+    if(!albums.length)albums=(albumResult?.data||[]).filter(x=>x?.title).map(x=>({title:x.title,releaseDate:x.release_date||null,artwork:x.cover_xl||x.cover_big||x.cover_medium||null,url:x.link||null,source:"Deezer"}));
    }
   }
   const nr=await fetch("https://news.google.com/rss/search?q="+encodeURIComponent('"'+best+'" music when:7d')+"&hl=en-US&gl=US&ceid=US:en").catch(()=>null);
