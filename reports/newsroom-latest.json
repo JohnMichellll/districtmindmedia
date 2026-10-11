@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-11T00:15:34.199Z",
+  "generatedAt": "2026-10-11T00:51:49.816Z",
   "operator": "District Mind AI Newsroom",
   "status": "READY_FOR_EDITOR",
-  "storyCount": 277,
+  "storyCount": 278,
   "stories": [
     {
       "title": "EXCLUSIVE: Prison Officials Claim Tory Lanez Shares Blame For His Own Stabbing In $100M Lawsuit",
@@ -123,6 +123,12 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUDNGMl9VVEVTNVlwZ1I1bGdVdkQ4RUIwaWJIeTJBTU11c2xVQlczOWZROU5OMTJnLVh3bGUwNUJtd2VfbkNXa3VJWVJibzljb0NEQkpVbmJrd3Ztcmdub0tuNm9RNUhZX0x1R1RKLXYzU2JuV2VLVWVneUlkcWN5dG5FQ1dLWWxOR1RHamNrMkxuUQ?oc=5",
       "date": "Sat, 10 Oct 2026 18:25:16 GMT",
       "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Devin Townsend to release new ambient music album under his DreamPeace moniker next week - Lambgoat",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObVQtSml6TldPTDdCbFFZaFhzX25JZ003OHpaRXl1b01ITzZyaExYVmVOZ2NkQjIzRk0zSTNUdG8yNzFJNmN5OFpHUjNzZTZTQ1N6aXhKR05qelV3NWxxSGJkNzZzbkhDR2lyN1B5LUhXQXlKSFNGbllON0JtY25haU1KdUZ5YmtvMDRLdTF4RktJNmdKX0JVNG4wdFZPLVR6QkRSczVxLUVVVXNMQmpTbFlRdWgtYU5vLW56bEhB?oc=5",
+      "date": "Sat, 10 Oct 2026 18:15:00 GMT",
+      "source": "Google News — New Music"
     },
     {
       "title": "Interscope Wants $50M From Summer Walker To Get Out Of Her Deal",
@@ -597,12 +603,6 @@
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ3hEa1I2ZnVhaDU2ZGpOeVRyRHJRclV5Wlkxa0xuSHhCX2lLTHNET3FmdGk0WVJoU2hOZldRM1pKVE5UYnUxSzlNT3dfWGZORXNwWTJERlVzREFmWlA3aDZEay1uZUExTUItTVNrbHJOa3lGR09kM1F5OHdHWDY3bjZlTmVQWi1rOUVkWGV5SWFlUERo?oc=5",
       "date": "Fri, 09 Oct 2026 16:21:55 GMT",
       "source": "Google News — New Music"
-    },
-    {
-      "title": "Alanis Morissette Made a Holiday Album",
-      "url": "https://pitchfork.com/story/alanis-morissette-made-a-holiday-album/",
-      "date": "Fri, 09 Oct 2026 16:10:23 +0000",
-      "source": "Pitchfork"
     }
   ],
   "sources": [
@@ -625,11 +625,11 @@
       "tier": 2,
       "status": "ok",
       "stories": 20,
-      "bytes": 18540,
+      "bytes": 18596,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=bf45eb34f927492285caa54c235580aa benchma",
-      "latencyMs": 277
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=4f5aff6ee57e4fc79585970a0cf80ae3 benchma",
+      "latencyMs": 312
     },
     {
       "source": "HipHopDX",
@@ -640,7 +640,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 84
+      "latencyMs": 266
     },
     {
       "source": "AllHipHop",
@@ -651,7 +651,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 433
+      "latencyMs": 890
     },
     {
       "source": "No Jumper",
@@ -662,29 +662,29 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 542
+      "latencyMs": 1268
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 121920,
+      "bytes": 121409,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 578
+      "latencyMs": 826
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 129057,
+      "bytes": 128830,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 444
+      "latencyMs": 609
     },
     {
       "source": "Google News — New Music",
@@ -695,7 +695,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 444
+      "latencyMs": 601
     },
     {
       "source": "Google News — Colorado Music",
@@ -706,7 +706,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 477
+      "latencyMs": 712
     },
     {
       "source": "Billboard",
@@ -717,7 +717,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 85
+      "latencyMs": 334
     },
     {
       "source": "Pitchfork",
@@ -728,7 +728,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 59
+      "latencyMs": 188
     },
     {
       "source": "Rolling Stone — Music",
@@ -739,7 +739,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 94
+      "latencyMs": 210
     },
     {
       "source": "Variety — Music",
@@ -750,7 +750,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 774
+      "latencyMs": 213
     }
   ],
   "errorCount": 0,
