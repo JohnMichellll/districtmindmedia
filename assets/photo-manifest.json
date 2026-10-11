@@ -23,20 +23,24 @@
       "identity": "owner-supplied"
     },
     "john-michell-who-is-you": {
-      "url": "",
-      "alt": "WHO IS YOU by John Michell",
-      "credit": "John Michell / District Mind Records — official release artwork pending",
-      "license": "owner-supplied only",
+      "url": "/assets/who-is-you-cover.png",
+      "alt": "WHO IS YOU — official release artwork by John Michell",
+      "credit": "John Michell / District Mind Records — owner-supplied release artwork",
+      "license": "owner-supplied",
       "subject": "WHO IS YOU by John Michell",
-      "identity": "owner-supplied-only"
+      "identity": "owner-supplied",
+      "source": "Owner-supplied District Mind Records release artwork",
+      "sourceUrl": "https://music.apple.com/us/artist/john-michell/1720482148"
     },
     "john-michell-u": {
-      "url": "",
-      "alt": "U by John Michell",
-      "credit": "John Michell / District Mind Records — official release artwork pending",
-      "license": "owner-supplied only",
+      "url": "/assets/u-cover.png",
+      "alt": "U — official release artwork by John Michell",
+      "credit": "John Michell / District Mind Records — owner-supplied release artwork",
+      "license": "owner-supplied",
       "subject": "U by John Michell",
-      "identity": "owner-supplied-only"
+      "identity": "owner-supplied",
+      "source": "Owner-supplied District Mind Records release artwork",
+      "sourceUrl": "https://music.apple.com/us/artist/john-michell/1720482148"
     },
     "earl-sweatshirt": {
       "subject": "Earl Sweatshirt",
