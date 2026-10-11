@@ -19,14 +19,8 @@
   const localHour=d=>Number(new Intl.DateTimeFormat('en-US',{hour:'numeric',hour12:false,timeZone:tz}).format(d));
   const ageHours=d=>(Date.now()-d.getTime())/3600000;
   const registryArtistNames=['drake','kendrick lamar','beyonce','taylor swift','john michell','chief keef','travis scott','doja cat','ray charles','louis armstrong','future','sza','j cole','j. cole','tyler the creator','lil wayne','playboi carti','bad bunny','metro boomin','earl sweatshirt','victoria monet','jpegmafia','quavo','dawn richard','danielle ponder','nicki minaj','cardi b','rihanna','the weeknd','21 savage','lil baby','megan thee stallion','ice spice'];
-  const containsRegistryArtist=text=>registryArtistNames.some(name=>new RegExp('\\\\b'+name.replace(/[.*+?^${}()|[\\]\\\\]/g,'\\\\  const categoryOf=s=>{
-    const t=(s.title+' '+s.description).toLowerCase();
-    if(/breaking|arrest|charged|dies|death|dead|hospital|shooting|responds|response|beef|feud|controversy|apology|lawsuit|alleged/.test(t))return 'BREAKING';
-    if(/tour|concert|festival|show|arena|theatre|tickets|live/.test(t))return 'SHOWS';
-    if(/album|single|ep|mixtape|release|drops|released|stream|song|track/.test(t))return 'MUSIC';
-    if(/artist|rapper|singer|rapper|producer|dj|actor|celebrity/.test(t))return 'ARTISTS';
-    return 'CULTURE';
-  };')+'\\\\b','i').test(text));
+  const normalizeArtistText=v=>String(v||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+  const containsRegistryArtist=text=>{const normalized=' '+normalizeArtistText(text)+' ';return registryArtistNames.some(name=>normalized.includes(' '+normalizeArtistText(name)+' '));};
   const categoryOf=s=>{
     const title=String(s.title||''),t=(title+' '+s.description).toLowerCase();
     if(/breaking|arrest|charged|dies|death|dead|hospital|shooting|responds|response|beef|feud|controversy|apology|lawsuit|alleged/.test(t))return 'BREAKING';
