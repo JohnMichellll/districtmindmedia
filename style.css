@@ -2720,3 +2720,5 @@ img[loading=lazy]{background:#e9e5dc}
 .wayfinder-return{width:min(1200px,92%);margin:18px auto 0;padding:0}.wayfinder-return a{display:inline-flex;align-items:center;min-height:44px;padding:10px 14px;border:1px solid rgba(17,17,17,.16);font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.wf-page .wayfinder-return{color:#f7f5f1}.wf-page .wayfinder-return a{border-color:rgba(255,255,255,.24)}
 
 .wf-page .site-header .primary-nav a{color:#f7f5f1!important}
+
+.release-artwork::after,.has-release-art::after,.artist-profile-art::after,.release-art-failed::after{content:none!important}
