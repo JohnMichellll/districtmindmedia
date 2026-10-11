@@ -44,6 +44,8 @@ function clean(value = "") {
     .replace(/&quot;/gi, '"').replace(/&apos;/gi, "'")
     .replace(/&lt;/gi, "<").replace(/&gt;/gi, ">")
     .replace(/&amp;/gi, "&")
+    .replace(/â€¦/g, "…").replace(/â€™/g, "’").replace(/â€˜/g, "‘")
+    .replace(/â€œ/g, "“").replace(/â€/g, "”").replace(/â€“/g, "–").replace(/â€”/g, "—").replace(/Â /g, " ")
     .replace(/\s+/g, " ").trim();
 }
 function tag(block, name) {
