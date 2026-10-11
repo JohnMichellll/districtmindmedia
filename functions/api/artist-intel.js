@@ -1,6 +1,6 @@
 const headers={"Cache-Control":"no-store, private, max-age=0","Pragma":"no-cache","Content-Type":"application/json","Access-Control-Allow-Origin":"*"};
 const clean=v=>String(v??"").replace(/<[^>]*>/g,"").trim();
-const pinnedArtists={"ray charles":{artistId:"160926",artistName:"Ray Charles",primaryGenreName:"R&B/Soul"},"louis armstrong":{artistId:"518462",artistName:"Louis Armstrong",primaryGenreName:"Jazz"}};
+const pinnedArtists={"drake":{artistId:"160926",artistName:"Drake",primaryGenreName:"Hip-Hop/Rap"},"ray charles":{artistId:"518462",artistName:"Ray Charles",primaryGenreName:"R&B/Soul"}};
 const legacyNames=["ray charles","louis armstrong","aretha franklin","ella fitzgerald","nat king cole","sam cooke","billie holiday","nina simone","john coltrane","miles davis","duke ellington","charlie parker","frank sinatra","marvin gaye","stevie wonder","james brown","otis redding","the beatles","elvis presley","buddy holly","muddy waters","howlin wolf","chuck berry","little richard","b.b. king","bb king"];
 const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers});
 const fetchJson=async(url,ms=7000)=>{const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal,headers:{"User-Agent":"DistrictMindMedia/1.0 (artist intelligence)","Accept":"application/json"}});if(!r.ok){const body=(await r.text()).slice(0,500);console.warn("Artist intelligence upstream failure",r.status,url,body);return null;}return await r.json()}catch(e){console.warn("Artist intelligence upstream request failed",url,String(e));return null}finally{clearTimeout(t)}};
@@ -40,9 +40,10 @@ export async function onRequestGet({request,env}){
   if(norm(q)!=="john michell"&&!artists.length){
    return json({ok:false,error:"No close artist match found. Try the full artist name or another spelling.",query:rawQuery});
   }
+  if(pinnedArtists[norm(q)]&&!artists.some(a=>norm(a.artistName)===norm(q)))artists.unshift(pinnedArtists[norm(q)]);
   const bestArtist=norm(q)==="john michell"
    ? {artistId:"1720482148",artistName:"John Michell",primaryGenreName:"Hip-Hop/Rap"}
-   : artists[0];
+   : (pinnedArtists[norm(q)]||artists.find(a=>norm(a.artistName)===norm(q))||artists[0]);
   const best=bestArtist.artistName;
   let music=[];
   let albums=[];
