@@ -23,7 +23,7 @@ export async function onRequestGet({request,env}){
   const pinned=pinnedArtists[norm(q)];
   const artistSearch=pinned?null:await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(q)+"&entity=musicArtist&limit=5&country=US");
   let artists=pinned?[pinned]:(Array.isArray(artistSearch?.results)?artistSearch.results.filter(x=>x?.artistName):[]);
-  if(!pinned&&!artists.length){const dz=await fetchJson("https://api.deezer.com/search/artist?q="+encodeURIComponent(q)+"&limit=5");artists=(dz?.data||[]).filter(x=>x?.name).map(x=>({artistId:x.id||null,artistName:x.name,artistLinkUrl:x.link||null,deezerImage:x.picture_xl||x.picture_big||null,primaryGenreName:""}));}
+  if(!pinned&&!artists.length){const dz=await fetchJson("https://api.deezer.com/search/artist?q="+encodeURIComponent(q)+"&limit=5");artists=(dz?.data||[]).filter(x=>x?.name).map(x=>({deezerId:x.id||null,artistName:x.name,artistLinkUrl:x.link||null,deezerImage:x.picture_xl||x.picture_big||null,primaryGenreName:""}));}
   // Second catalog route catches major artists that Apple returns inconsistently through musicArtist search.
   if(!artists.some(x=>norm(x.artistName)===norm(q))){
    const songSearch=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(q)+"&entity=song&attribute=artistTerm&limit=50&country=US");
@@ -44,7 +44,7 @@ export async function onRequestGet({request,env}){
    ? {artistId:"1720482148",artistName:"John Michell",primaryGenreName:"Hip-Hop/Rap"}
    : artists[0];
   const best=bestArtist.artistName;
-  let music=[];
+  let music=[];\n  let albums=[];
   if(bestArtist.artistId){
    const ld=await fetchJson("https://itunes.apple.com/lookup?id="+encodeURIComponent(bestArtist.artistId)+"&entity=song&limit=100&country=US");
    music=(ld?.results||[]).filter(x=>x.wrapperType==="track"&&x.trackName).map(x=>({title:x.trackName,album:x.collectionName||"",releaseDate:x.releaseDate||null,artwork:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"1000x1000"):null,apple:x.trackViewUrl||null,genre:x.primaryGenreName||null})).slice(0,40);
@@ -53,6 +53,19 @@ export async function onRequestGet({request,env}){
   if(music.length<3){
    const fallback=await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(best)+"&entity=song&attribute=artistTerm&limit=50&country=US");
    music=(fallback?.results||[]).filter(x=>x.trackName&&(!x.artistName||norm(x.artistName)===norm(best))).map(x=>({title:x.trackName,album:x.collectionName||"",releaseDate:x.releaseDate||null,artwork:x.artworkUrl100?x.artworkUrl100.replace(/100x100/g,"1000x1000"):null,apple:x.trackViewUrl||null,genre:x.primaryGenreName||null})).slice(0,40);
+  }
+  // iTunes lookup/search can be empty at Cloudflare edge; fall back to Deezer's free public API.
+  if(!music.length){
+   const dzSearch=await fetchJson("https://api.deezer.com/search/artist?q="+encodeURIComponent(best)+"&limit=25");
+   const dzArtist=(dzSearch?.data||[]).find(x=>norm(x.name)===norm(best));
+   if(dzArtist){
+    const [top,albumResult]=await Promise.all([
+     fetchJson("https://api.deezer.com/artist/"+encodeURIComponent(dzArtist.id)+"/top?limit=10"),
+     fetchJson("https://api.deezer.com/artist/"+encodeURIComponent(dzArtist.id)+"/albums?limit=20")
+    ]);
+    music=(top?.data||[]).filter(x=>x?.title).map(x=>({title:x.title,album:x.album?.title||"",releaseDate:x.release_date||null,artwork:x.album?.cover_xl||x.album?.cover_big||x.album?.cover_medium||null,apple:x.link||null,genre:null,source:"Deezer"})).slice(0,40);
+    albums=(albumResult?.data||[]).filter(x=>x?.title).map(x=>({title:x.title,releaseDate:x.release_date||null,artwork:x.cover_xl||x.cover_big||x.cover_medium||null,url:x.link||null,source:"Deezer"}));
+   }
   }
   const nr=await fetch("https://news.google.com/rss/search?q="+encodeURIComponent('"'+best+'" music when:7d')+"&hl=en-US&gl=US&ceid=US:en").catch(()=>null);
   let news=[];
@@ -100,6 +113,6 @@ export async function onRequestGet({request,env}){
    }catch{}
   }
   if(!ai)ai={artist:best,genre:bestArtist.primaryGenreName||music[0]?.genre||"Music artist",summary:"Verified catalog results are shown below. AI-generated analysis is temporarily unavailable, so this page avoids guessing about the artist.",whatToListenTo:music.slice(0,5).map(x=>x.title),whatIsHappeningNow:news.slice(0,3).map(x=>x.title),discoveryTips:"Explore the linked music catalog and current source-linked headlines. Unverified details are left out."};
-  return json({ok:true,query:rawQuery,normalizedQuery:q,artist:best,artists:artists.slice(0,12),ai,aiSource,aiEnabled:Boolean(aiSource),music,news,links,artistImage,artistImageSource,artistImageKind:artistImage?"artist-portrait":"unavailable",era,firstReleaseYear,artistId:bestArtist.artistId||null,generatedAt:new Date().toISOString()});
+  return json({ok:true,query:rawQuery,normalizedQuery:q,artist:best,artists:artists.slice(0,12),ai,aiSource,aiEnabled:Boolean(aiSource),music,albums,news,links,artistImage,artistImageSource,artistImageKind:artistImage?"artist-portrait":"unavailable",era,firstReleaseYear,artistId:bestArtist.artistId||null,generatedAt:new Date().toISOString()});
  }catch(e){return json({ok:false,error:"The artist intelligence desk is temporarily offline."},502);}
 }
