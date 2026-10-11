@@ -139,14 +139,14 @@
       const fresh=allStories.filter(s=>ageHours(new Date(s.pubDate))<18).length;
       status.textContent=fresh+' FRESH / '+tz.toUpperCase();
       aiNote.textContent='AI ASSIST / SOURCE TRIAGE ACTIVE · '+(fresh?'FRESH SIGNALS FOUND':'USING THE LATEST AVAILABLE SIGNALS')+' · HUMAN EDITORIAL JUDGMENT REMAINS REQUIRED FOR PUBLISHED REPORTING.';
-      feed.scrollTo({top:0,behavior:'auto'});
+      window.scrollTo({top:feed.getBoundingClientRect().top+window.scrollY-80,behavior:'auto'});
     }catch(e){
       if(!allStories.length)render([]);
       status.textContent='LIVE FEED / FALLBACK MODE';
       aiNote.textContent='AI ASSIST / FALLBACK ACTIVE · THE RADAR REMAINS USABLE WHEN A SOURCE IS TEMPORARILY UNAVAILABLE.';
     }finally{refreshing=false;refresh.disabled=false;}
   }
-  document.querySelectorAll('.radar-filter').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.radar-filter').forEach(x=>x.classList.remove('is-active'));b.classList.add('is-active');activeFilter=b.dataset.filter;render(filtered());feed.scrollTo({top:0,behavior:'smooth'});}));
+  document.querySelectorAll('.radar-filter').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.radar-filter').forEach(x=>x.classList.remove('is-active'));b.classList.add('is-active');activeFilter=b.dataset.filter;render(filtered());window.scrollTo({top:feed.getBoundingClientRect().top+window.scrollY-80,behavior:'smooth'});}));
   refresh.addEventListener('click',()=>{batchOffset+=24;load();});
   let lastSwipe=0;
   feed.addEventListener('touchstart',e=>{
