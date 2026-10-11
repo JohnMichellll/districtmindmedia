@@ -101,7 +101,7 @@
       const photo = manifest?.photos?.[key];
 
       if (photo?.url && await imageLoads(photo.url)) {
-        applyImage(node, photo.url, photo.alt || key);
+        applyImage(node, photo.url, photo.alt || key, photo);
         return;
       }
 
