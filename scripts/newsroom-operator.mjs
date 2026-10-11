@@ -11,7 +11,9 @@ const clean=s=>String(s||"")
  .replace(/&ldquo;/gi,"“").replace(/&rdquo;/gi,"”").replace(/&ndash;/gi,"–")
  .replace(/&mdash;/gi,"—").replace(/&hellip;/gi,"…").replace(/&quot;/gi,'"')
  .replace(/&apos;/gi,"'").replace(/&lt;/gi,"<").replace(/&gt;/gi,">")
- .replace(/&amp;/gi,"&").replace(/\s+/g," ").trim();
+ .replace(/&amp;/gi,"&")
+ .replace(/â€¦/g,"…").replace(/â€™/g,"’").replace(/â€˜/g,"‘").replace(/â€œ/g,"“").replace(/â€/g,"”").replace(/â€“/g,"–").replace(/â€”/g,"—").replace(/Â /g," ")
+ .replace(/\s+/g," ").trim();
 const parse=(xml,source)=>{
   const blocks = [
     ...xml.split(/<item\b/i).slice(1).map(part => part.split(/<\/item>/i)[0]),
