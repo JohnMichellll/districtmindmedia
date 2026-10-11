@@ -22,7 +22,7 @@ export async function onRequestPost({request}){
  const plainArtistName=/^[A-Z][A-Za-z0-9.'’-]*(?:\s+[A-Z][A-Za-z0-9.'’-]*){0,4}$/.test(q);
  if(/^(?:who is|who's|tell me about|find artist|look up artist|artist profile)\s+.+/i.test(q) || plainArtistName || /^(?:drake|ray charles|louis armstrong|john michell|chief keef|kendrick lamar|beyonce|taylor swift|travis scott|doja cat|future|sza|j cole|tyler the creator|lil wayne|playboi carti|bad bunny|metro boomin)$/i.test(q)){
    const artistQ=q.replace(/^(?:who is|who's|tell me about|find artist|look up artist|artist profile)\s+/i,"").replace(/[?!.]+$/,"").trim();
-   const data=await getJson(new URL("/api/artist-intel?q="+encodeURIComponent(artistQ),new URL(request.url).origin).toString(),12000);
+   const data=await getJson(new URL("/api/artist-intel?q="+encodeURIComponent(artistQ)+"&brief=1",new URL(request.url).origin).toString(),12000);
    if(data?.ok&&data.artist){
      const artistName=data.artist;
      const cards=[{title:artistName,description:data.ai?.genre||"Music artist",image:data.artistImage||null,url:data.links?.apple||("https://music.apple.com/us/search?term="+encodeURIComponent(artistName))}];
