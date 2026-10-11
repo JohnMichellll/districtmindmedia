@@ -1,29 +1,37 @@
 (() => {
 
 
-  // Normalize the shared menu on every page: one Academy destination and one Help Center.
+  // One consistent primary navigation across every page.
   const primaryNav = document.querySelector('.primary-nav');
   if (primaryNav) {
-    primaryNav.querySelectorAll('a[href="account.html"], a[href="academy.html#account-help"]').forEach(link => link.remove());
-    const helpLinks = [...primaryNav.querySelectorAll('a[href="help.html"]')];
-    helpLinks.forEach((link, index) => {
-      if (index > 0) link.remove();
-      else link.textContent = 'Help Center';
+    primaryNav.innerHTML = [
+      ['Newsroom','/newsroom'],['Radar','/radar'],['Releases','/releases'],
+      ['Wayfinder AI','/wayfinder'],['Academy','/academy'],['Culture','/culture'],
+      ['About','/about'],['Contact','/contact']
+    ].map(([label,href]) => '<a href="' + href + '">' + label + '</a>').join('');
+  }
+
+  // Clean up internal legacy .html links and route the old Latest anchor to Newsroom.
+  document.querySelectorAll('a[href]').forEach(link => {
+    let href = link.getAttribute('href') || '';
+    if (href === 'index.html#latest' || href === '/#latest') {
+      link.setAttribute('href','/newsroom');
+      return;
+    }
+    if (/^(?:\/?[a-z0-9-]+)\.html(?:#.*)?$/i.test(href)) {
+      const match = href.match(/^(?:\/)?([a-z0-9-]+)\.html(.*)$/i);
+      if (match) link.setAttribute('href', (match[1] === 'index' ? '/' : '/' + match[1]) + (match[2] || ''));
+    }
+  });
+
+  // Help Center and My Playlists live in the footer rather than the primary menu.
+  const footerLinks = document.querySelector('.footer-links');
+  if (footerLinks) {
+    [['Help Center','/help'],['My Playlists','/playlists']].forEach(([label,href]) => {
+      if (!footerLinks.querySelector('a[href="' + href + '"]')) {
+        const link = document.createElement('a'); link.href = href; link.textContent = label; footerLinks.appendChild(link);
+      }
     });
-    const academyLink = primaryNav.querySelector('a[href="academy.html"]');
-    if (academyLink) academyLink.textContent = 'Academy & Account';
-    if (!primaryNav.querySelector('a[href="help.html"]')) {
-      const link = document.createElement('a');
-      link.href = 'help.html';
-      link.textContent = 'Help Center';
-      primaryNav.appendChild(link);
-    }
-    if (!primaryNav.querySelector('a[href="playlists.html"]')) {
-      const link = document.createElement('a');
-      link.href = 'playlists.html';
-      link.textContent = 'My Playlists';
-      primaryNav.appendChild(link);
-    }
   }
 
   // Mobile-first, high-contrast menu controls with a smooth dropdown and larger tap targets.
