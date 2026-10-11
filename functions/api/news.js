@@ -52,7 +52,7 @@ function tag(block, name) {
   return match ? clean(match[1]) : "";
 }
 function attr(block, tagName, attrName) {
-  const match = block.match(new RegExp("<" + tagName.replace(":","\\:") + "\\b[^>]*\\b" + attrName + '=["\\']([^"\\']+)["\\']', "i"));
+  const match = block.match(new RegExp("<" + tagName.replace(":","\\:") + "\\b[^>]*\\b" + attrName + "=[\"']([^\"']+)[\"']", "i"));
   return match ? match[1] : "";
 }
 function image(block) {
