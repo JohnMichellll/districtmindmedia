@@ -1,27 +1,27 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-11T07:43:14.669Z
+Generated: 2026-10-11T08:11:02.746Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 222
+Stories discovered: 223
 
 1. **Lucibela Returns to New York with Cape Verdean Flavors - World Music Central** — Google News — New Music — Sun, 11 Oct 2026 05:50:02 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxQaENHZnpJREprQW1iOXJGczhzcGpLZ3ZxcDJEM0pXM2p0c3Fic0hmaWVyLVhGdFZHY0xkeFhRSTNUcDFUdk5palg3bkhqVVRCX2w4UG5XcDk3S1ZtbWdvSHZSdXdKODNOT2J0bHhRTXhhOEI4SjkwaXJzTlVZZU9LaTd3RHlCeVdzaXRPM2VB?oc=5
 2. **Weekend festivals bring food, music and culture to New Orleans area - FOX 8 Local First** — Google News — New Music — Sun, 11 Oct 2026 04:01:00 GMT
    https://news.google.com/rss/articles/CBMinAFBVV95cUxOMkdjNS0zU0F1ZXE3R0xzYnZrZ0Y2S3NnandZRW9zd044M3BHcFJrbTMxeENuWTRXS1BmaHd4ajFYM2w4bDlWc3ZNZFRhTWYwNElBVnhmM0JXZkM5VXpVbjN0R3ozU2w2Y0xIS3A0NTU2T1k1SWpGeUoxb2xqVXZzWEtzS3FuUnZwcVdjQjVUbHk4U1BQSGlza3VVOGjSAbABQVVfeXFMTm9QcXJ4bUlFZmdEN0ZEekV2ZUprTFpWQU5rTUVjcWd6M01FaTVDZk8wSm82ay04TXk5dXpmdEZjUGU5ZkdTUWFick5aTU9nTWEwOXotS1l1dkdONjFucDhUcXlkUjdCX1lyOW5ycnBVU296QVZRQ3R6QUdGQkNKazB4Q05KTU1ycWs3WFRvZkFUUC1CU29rSU01MnVWbjRhNjcwbWRCeWdwTVhjakVJSmk?oc=5
-3. **Three more held over Rs 9.24 cr R&B funds scam in Bhubaneswar - The New Indian Express** — Google News — R&B — Sun, 11 Oct 2026 02:53:07 GMT
-   https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYTdTVERRc24yWk91Z0hPWk5wZkNfQkVqdWVGWTJHNDRxNzB2UGlZdWNTYVR6RktWUjdYZklDdXcteUtHVjNyc3VDem5ueWpUR0lFaDVZUC1sNVFFOUVRNl9jZ01DV01kb05ScjZCX0ZSbl8yenZ4eDQ5NEFiU3pwcFV6YzczSDBJTlVmTS1TcmRGTmVIVTlUTTNwQWRYUmZhaHBndkNsTnhGYWwwWFlTbjVmYkl1WXJkUEFtby1scl_SAc4BQVVfeXFMTk1GV0pESkQ0SW1ITUZkcTg1bi1vSXFBLXBJQjlnTGxyTHhJZ0FPa1RoQlNud1l2dHBaNjJOSVVaR2ZOYU1LNjZkVS1rNWxpcVYwX3BSZnVmOGdveW9iQWN1MjExUkVCcm9jLUZBbzdsUkRoZUNCV25iTHBGVVRyR1h5ZldGN2pFTHZYMUhJYWNFOV9vNWNScWhJYXJXOGJpZ01Fb1c2NWNzY1UxakZTQjVQUC1XbUJoVnVWTlRndWJWMWxGMXRxR1Y4NDlib2c?oc=5
-4. **News From Hip Hop To Hollywood! - The Hype Magazine** — Google News — Hip-Hop — Sun, 11 Oct 2026 01:43:20 GMT
+3. **News From Hip Hop To Hollywood! - The Hype Magazine** — Google News — Hip-Hop — Sat, 10 Oct 2026 23:43:37 GMT
    https://news.google.com/rss/articles/CBMikAFBVV95cUxQR0VXdndaRVBMWVBhSDExWVE1V1RxbE9sS0JCR3VPWml0TEhUa1hMUlJFa3Mwbmx1X3prNDN2NzJ2dG5nSXNBalhtdEhENHg1c0VEQ0dkMmRjSEU1OG9qaFpYS1IzeE5Fd1JNWllNOFg2bl9CZEd4QldmWkpZMTRBWjJ5blpfWXRWQ0hmU1M2Q3Y?oc=5
-5. **David Benoit brings the music of Peanuts to a new holiday symphony - Hollywood Times** — Google News — New Music — Sat, 10 Oct 2026 23:06:50 GMT
+4. **David Benoit brings the music of Peanuts to a new holiday symphony - Hollywood Times** — Google News — New Music — Sat, 10 Oct 2026 23:06:50 GMT
    https://news.google.com/rss/articles/CBMimgFBVV95cUxOQTJRWm9vR3l3R3RadElpU2gtNVNsZjFOajJGbHE4aVc1NE8wSnpoYTRNR09wVGZ4THhiMWtSSVFKTTVrSWl3OXhTb3ItdzlCZlBYTzVaYU1PR1E1aFJQUVplMjdtZmhvX3JybGlLYWpEMk9aa2l6ekJud3JsaEVTQnllbVZIWXo3eDJqSm8tbGZyVkl4TTVyU0tB?oc=5
-6. **Rihanna Reveals Just How Many Unreleased Songs She Is Sitting On as Fans Eagerly Await New Music - Just Jared** — Google News — New Music — Sat, 10 Oct 2026 22:51:12 GMT
+5. **Rihanna Reveals Just How Many Unreleased Songs She Is Sitting On as Fans Eagerly Await New Music - Just Jared** — Google News — New Music — Sat, 10 Oct 2026 22:51:12 GMT
    https://news.google.com/rss/articles/CBMizwFBVV95cUxNRG9VX3VOTTJ4SWlNV2xTN2ZqTVJSMlRqMlhkOWs2VmRpSk00YmFoWWI0Q3JJZElXYThLX19YdHMwMVhIdEZBUVBNczhhdkl6TThuUFhzZmR6ZVBYd2pRNjlTMWd5RXZlMEVVSVpINklyT09PeUtvZkRBTU9obVBNWm01MTBEbmQtdzBSMDZ2aHZVWTBDdkNBQml1MWVuYXBkMXJGQWdycE5ZTFh6emxkb2ZVYnhLbC1SQUVYRzRWUXZYNXZ2RTRVSTN1UU5KR00?oc=5
-7. **Usher and Chris Brown's 'The R&B Tour' concert at Lucas Oil Stadium canceled, Ticketmaster says - WTHR** — Google News — R&B — Sat, 10 Oct 2026 22:28:00 GMT
+6. **Usher and Chris Brown's 'The R&B Tour' concert at Lucas Oil Stadium canceled, Ticketmaster says - WTHR** — Google News — R&B — Sat, 10 Oct 2026 22:28:00 GMT
    https://news.google.com/rss/articles/CBMi_gFBVV95cUxNYnRaUms1MEVLN3lSQW1ra25MaFNFS2ctTXpLTlRXLXhwa3VsYkNYYkV0Vk9oRGZtMng4RXRZODJJYjFQMWpTQkFWajNTeTFhc2UxdnJRSHllX0h2aVBYaEkxNnJYYy03WFJTcnJoTkZCNTJNcFdPOE13LXhOeXl1U1M5SFpDd1hBQjNINTEtYkVDUGJyREdfTVlnZDB0OHZzMTlEX2FKWFgyNVB4SUVjSGhsZ19rZE5LdEdkMUtMMVMxLXI3SkZQVGdJVHBqRDZfT3Bvd193S2tRNXNpQzFvWkhTaERvUjJYLWdRQ1RpZWZTbVZJVTh5Z25xaWRDdw?oc=5
-8. **Title For LL Cool J’s “Radio” Album Has An Incredible Origin Story** — AllHipHop — Sat, 10 Oct 2026 22:01:00 +0000
+7. **Title For LL Cool J’s “Radio” Album Has An Incredible Origin Story** — AllHipHop — Sat, 10 Oct 2026 22:01:00 +0000
    https://allhiphop.com/news/title-for-ll-cool-js-radio-album-has-an-incredible-origin-story/
+8. **Alexis Aliyah Debuts With New Single and Music Video ‘Contigo’ - Tejano Nation** — Google News — New Music — Sat, 10 Oct 2026 21:52:40 GMT
+   https://news.google.com/rss/articles/CBMigwFBVV95cUxON0U5c0lwVHBHNGNTRTZ4MHgzS0p2bk55MS1iRnU3dVZ4QmJvRWt2QnYxYUdjMlZtdlU0VGJJM1BQSWc4Ry1QT1NiRTRLQzBhaG9rbXJfMVFPR25xUkVxVEw5aGhOTjlveUNKdjEydy12aF9iUEJvYzc2T0g5UXpNeEdnWQ?oc=5
 9. **SohAnika Arts in collaboration with New Jersey's leading dance & music schools presents Shri Krishna Mahima - NewJerseyStage.com** — Google News — New Music — Sat, 10 Oct 2026 21:43:33 GMT
    https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWVJLTWEyM2wxdGpKaWJPak53MHBhbk5TMDNqVzBzeHNiZXpxeWxhcUJkNTRLVVAxVFRvWkJNNG5iYjQ3WGV5N1JzOEFvd0RjUHRKcWZWWUh6Q3FDQ280WktDZ0c5NWQ1Z3RocGdQWUhIVFctdDBfUEkyU3VEdldLbDZlWDFYeE00UWVQcUp5ajRfRkRnb2lDeWkybVkxbnlkUjNXcFFjUG5RS05oZ3JfdkVMQ29FRXVwbEJtSUpLOC0xTWQyY0d0SGMyOHh3YU5wR2wxeVFXSGJ1MEo0RG02akY2dHNxdWowT2xZV3lKR2NuWGc?oc=5
 10. **Bebi Takes Hip-Hop to Another Planet With “Wake Up” - Ratings Game Music** — Google News — Hip-Hop — Sat, 10 Oct 2026 21:14:55 GMT
