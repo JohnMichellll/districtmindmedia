@@ -2722,3 +2722,5 @@ img[loading=lazy]{background:#e9e5dc}
 .wf-page .site-header .primary-nav a{color:#f7f5f1!important}
 
 .release-artwork::after,.has-release-art::after,.artist-profile-art::after,.release-art-failed::after{content:none!important}
+
+.wf-page .site-header .logo{color:#f7f5f1!important}.wf-page .site-header .logo::before{background:#f7f5f1!important}.wf-page .site-header .primary-nav a{color:#f7f5f1!important}
