@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — District Mind Media</title>
+<meta name="description" content="That page doesn't exist. Head back to the District Mind Media desk.">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#111111">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-container">
+    <a href="/" class="logo">DISTRICT MIND</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav class="primary-nav" id="primary-nav">
+      <a href="/newsroom">Newsroom</a><a href="/radar">Radar</a><a href="/releases">Releases</a><a href="/wayfinder">Wayfinder AI</a><a href="/academy">Academy</a><a href="/culture">Culture</a><a href="/about">About</a><a href="/contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="page-hero"><div class="hero-content"><p class="eyebrow">404</p><h1>Lost the signal.</h1><p class="page-lead">That page doesn't exist. Head back to the desk.</p><a class="hero-button" href="/">Back to District Mind</a></div></section>
+</main>
+<footer><div class="footer-container"><div><h3>District Mind</h3><p>Media</p></div><div class="footer-links"><a href="/help">Help Center</a><a href="/playlists">My Playlists</a><a href="/editorial-policy">Editorial Policy</a><a href="/privacy">Privacy</a></div><p>© 2026 District Mind Media. All rights reserved.</p></div></footer>
+<script>
+const menuToggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.primary-nav');
+if(menuToggle&&nav)menuToggle.addEventListener('click',()=>{const open=nav.classList.toggle('is-open');menuToggle.setAttribute('aria-expanded',String(open));});
+</script>
+</body>
+</html>
