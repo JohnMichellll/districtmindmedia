@@ -26,7 +26,7 @@ export async function onRequestGet({request}){
       if(!isPublicWebUrl(next))return json({ok:false,error:"unsafe redirect target"},400);
       current=next;
     }
-    if(!r.ok)return json({ok:false},404,"public, max-age=300");
+    if(!r.ok)return json({image:null},200,"public, max-age=300");
     const type=r.headers.get("content-type")||"";
     if(!/text\/html|application\/xhtml\+xml/i.test(type))return json({ok:false,error:"not an html page"},415,"public, max-age=300");
     const reader=r.body?.getReader();
