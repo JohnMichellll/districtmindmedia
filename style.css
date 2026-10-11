@@ -1789,21 +1789,21 @@ footer {
 .real-release-photo.two{background-image:linear-gradient(180deg,rgba(17,17,17,.04),rgba(17,17,17,.58)),url('https://upload.wikimedia.org/wikipedia/commons/b/b0/Quavo_Salute_to_Summer_Concert_2025.jpg')!important;}
 .real-release-photo.three{background-image:linear-gradient(180deg,rgba(17,17,17,.04),rgba(17,17,17,.58)),url('https://upload.wikimedia.org/wikipedia/commons/c/c2/Doja_Cat_Scarlet_Tour_Austin_2024_%2853333035306%29.jpg')!important;}
 .live-photo{position:relative;}
-.live-photo.one{background-image:linear-gradient(180deg,rgba(17,17,17,.05),rgba(17,17,17,.68)),url('/assets/hero-earl-sweatshirt-1600.webp')!important;}
+.live-photo.one{background-image:linear-gradient(180deg,rgba(17,17,17,.05),rgba(17,17,17,.68)),url('https://upload.wikimedia.org/wikipedia/commons/a/ad/Earl_Sweatshirt_2012.JPG')!important;}
 .live-photo.two{background-image:linear-gradient(180deg,rgba(17,17,17,.05),rgba(17,17,17,.68)),url('https://upload.wikimedia.org/wikipedia/commons/d/d5/JPEGMAFIA_%2848548470532%29.jpg')!important;}
 .live-photo.three{background-image:linear-gradient(180deg,rgba(17,17,17,.05),rgba(17,17,17,.68)),url('https://upload.wikimedia.org/wikipedia/commons/c/c2/Doja_Cat_Scarlet_Tour_Austin_2024_%2853333035306%29.jpg')!important;}
 .photo-credit{position:absolute;left:14px;bottom:12px;z-index:3;color:rgba(255,255,255,.78)!important;font-size:10px!important;line-height:1.25!important;font-weight:700!important;letter-spacing:.05em!important;text-transform:none!important;text-shadow:0 1px 3px rgba(0,0,0,.75);}
 .release-image .photo-credit,.editorial-image .photo-credit{margin:0!important;max-width:90%;}
 
 /* GLOBAL STOCK-IMAGE KILL SWITCH — real artist photography only */
-.hero-media{background-image:linear-gradient(90deg,rgba(17,17,17,.96) 0%,rgba(17,17,17,.72) 48%,rgba(17,17,17,.28) 100%),url('/assets/hero-earl-sweatshirt-1600.webp')!important;background-size:cover;background-position:center 32%;}
+.hero-media{background-image:linear-gradient(90deg,rgba(17,17,17,.96) 0%,rgba(17,17,17,.72) 48%,rgba(17,17,17,.28) 100%),url('https://upload.wikimedia.org/wikipedia/commons/a/ad/Earl_Sweatshirt_2012.JPG')!important;background-size:cover;background-position:center 32%;}
 .photo-1{background-image:linear-gradient(180deg,rgba(17,17,17,.1),rgba(17,17,17,.55)),url('https://upload.wikimedia.org/wikipedia/commons/1/10/Victoria_Mon%C3%A9t_WHTA_2023.png')!important;}
 .photo-2{background-image:linear-gradient(180deg,rgba(17,17,17,.1),rgba(17,17,17,.55)),url('https://upload.wikimedia.org/wikipedia/commons/b/b0/Quavo_Salute_to_Summer_Concert_2025.jpg')!important;}
 .photo-3{background-image:linear-gradient(180deg,rgba(17,17,17,.1),rgba(17,17,17,.55)),url('https://upload.wikimedia.org/wikipedia/commons/c/c2/Doja_Cat_Scarlet_Tour_Austin_2024_%2853333035306%29.jpg')!important;}
 .release-thumb.one,.story-image.one,.editorial-visual.one{background-image:linear-gradient(180deg,rgba(17,17,17,.08),rgba(17,17,17,.55)),url('https://upload.wikimedia.org/wikipedia/commons/1/10/Victoria_Mon%C3%A9t_WHTA_2023.png')!important;}
 .release-thumb.two,.story-image.two,.editorial-visual.two{background-image:linear-gradient(180deg,rgba(17,17,17,.08),rgba(17,17,17,.55)),url('https://upload.wikimedia.org/wikipedia/commons/b/b0/Quavo_Salute_to_Summer_Concert_2025.jpg')!important;}
 .release-thumb.three,.story-image.three,.editorial-visual.three{background-image:linear-gradient(180deg,rgba(17,17,17,.08),rgba(17,17,17,.55)),url('https://upload.wikimedia.org/wikipedia/commons/c/c2/Doja_Cat_Scarlet_Tour_Austin_2024_%2853333035306%29.jpg')!important;}
-.culture-photo.one,.category-visual.one{background-image:linear-gradient(180deg,rgba(17,17,17,.08),rgba(17,17,17,.68)),url('/assets/hero-earl-sweatshirt-1600.webp')!important;}
+.culture-photo.one,.category-visual.one{background-image:linear-gradient(180deg,rgba(17,17,17,.08),rgba(17,17,17,.68)),url('https://upload.wikimedia.org/wikipedia/commons/a/ad/Earl_Sweatshirt_2012.JPG')!important;}
 .culture-photo.two,.category-visual.two{background-image:linear-gradient(180deg,rgba(17,17,17,.08),rgba(17,17,17,.68)),url('https://upload.wikimedia.org/wikipedia/commons/d/d5/JPEGMAFIA_%2848548470532%29.jpg')!important;}
 .category-visual.three{background-image:linear-gradient(180deg,rgba(17,17,17,.08),rgba(17,17,17,.68)),url('https://upload.wikimedia.org/wikipedia/commons/1/10/Victoria_Mon%C3%A9t_WHTA_2023.png')!important;}
 .category-visual.four{background-image:linear-gradient(180deg,rgba(17,17,17,.08),rgba(17,17,17,.68)),url('https://upload.wikimedia.org/wikipedia/commons/c/c2/Doja_Cat_Scarlet_Tour_Austin_2024_%2853333035306%29.jpg')!important;}
@@ -2699,7 +2699,7 @@ img[loading=lazy]{background:#e9e5dc}
 /* Required visible attribution for CSS-background Commons photography. */
 .hero-media,.featured-photo,.live-photo,.real-release-photo,.photo-1,.photo-2,.photo-3,.release-thumb,.story-image,.editorial-visual,.culture-photo,.category-visual{position:relative}
 .hero-media::after,.featured-photo::after,.live-photo::after,.real-release-photo::after,.release-thumb::after,.story-image::after,.editorial-visual::after,.culture-photo::after,.category-visual::after{position:absolute;left:10px;bottom:8px;z-index:3;max-width:calc(100% - 20px);font-size:10px;line-height:1.25;color:rgba(255,255,255,.9);text-shadow:0 1px 3px #000;pointer-events:auto}
-.hero-media::after,.featured-photo::after,.live-photo.one::after,.culture-photo.one::after,.category-visual.one::after{content:"Photo: 414.Elis / Wikimedia Commons — CC BY 4.0"}
+.hero-media::after,.featured-photo::after,.live-photo.one::after,.culture-photo.one::after,.category-visual.one::after{content:"Photo: Incase / Wikimedia Commons — CC BY 2.0"}
 .live-photo.two::after,.culture-photo.two::after{content:"Photo: Levi Manchak / Wikimedia Commons — CC BY 2.0"}
 .real-release-photo.one::after,.photo-1::after,.release-thumb.one::after,.story-image.one::after,.editorial-visual.one::after,.category-visual.three::after{content:"Photo: HOTSPOTATL / Wikimedia Commons — CC BY 3.0"}
 .real-release-photo.two::after,.photo-2::after,.release-thumb.two::after,.story-image.two::after,.editorial-visual.two::after{content:"Photo: Sgt. Elisabeth Tasker / U.S. Army — Public Domain"}
@@ -2707,8 +2707,7 @@ img[loading=lazy]{background:#e9e5dc}
 .category-visual.two::after{content:"Photo: Levi Manchak / Wikimedia Commons — CC BY 2.0"}
 
 
-/* Keep the free-text support chat hidden until the API is available; guided help and FAQs remain. */
-.support-card:has(#chat-form){display:none!important}
+/* Keep the support chat visible so its configured/unconfigured status and Contact fallback are usable. */
 @media(max-width:760px){
   .radar-page .dm-guide-trigger,.wf-page .dm-guide-trigger{display:none!important}
 }
@@ -2726,3 +2725,8 @@ img[loading=lazy]{background:#e9e5dc}
 .wf-page .site-header .logo{color:#f7f5f1!important}.wf-page .site-header .logo::before{background:#f7f5f1!important}@media(min-width:761px){.wf-page .site-header .primary-nav a{color:#f7f5f1!important}}@media(max-width:760px){.wf-page .site-header .primary-nav a,.artist-desk-page .site-header .primary-nav a{color:#171715!important}}
 
 .wf-hub-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:22px 0 30px}.wf-hub-card{display:flex;flex-direction:column;justify-content:space-between;gap:12px;min-height:118px;padding:18px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.035);color:#f7f5f1;transition:background .2s ease,border-color .2s ease}.wf-hub-card strong{font-size:15px;letter-spacing:.02em}.wf-hub-card span{font-size:12px;line-height:1.5;color:rgba(247,245,241,.68)}.wf-hub-card:hover,.wf-hub-card:focus-visible{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.42)}@media(max-width:760px){.wf-hub-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.wf-hub-card{min-height:105px;padding:14px}}
+
+/* Launch blockers: attribution overlays belong only to real Commons photography, never release/artist art. */
+.release-thumb.one.release-artwork::after,.release-thumb.two.release-artwork::after,.release-thumb.three.release-artwork::after,.release-thumb.release-artwork.has-release-art::after,.release-thumb.release-artwork.artist-profile-art::after,.release-artwork.has-release-art::after,.release-artwork.artist-profile-art::after,.release-artwork.release-art-failed::after{content:none!important;display:none!important}
+/* Artist Hub and Wayfinder use dark headers on desktop; keep navigation links high-contrast. */
+@media(min-width:761px){.artist-desk-page .site-header .primary-nav a,.wf-page .site-header .primary-nav a{color:#f7f5f1!important}}

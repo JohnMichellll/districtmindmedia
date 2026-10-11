@@ -43,7 +43,7 @@
     const src=imageUrl(url);if(!src){resolve(false);return}
     const img=new Image();let done=false;
     const finish=ok=>{if(done)return;done=true;img.onload=null;img.onerror=null;clearTimeout(timer);resolve(ok)};
-    const timer=setTimeout(()=>finish(false),8000);
+    const timer=setTimeout(()=>finish(false),2500);
     img.onload=()=>finish(img.naturalWidth>0&&img.naturalHeight>0);
     img.onerror=()=>finish(false);
     img.decoding='async';img.src=src;
@@ -66,20 +66,30 @@
         return true;
       };
       for(const url of candidates){if(await tryCandidate(url))return}
-      if(articleUrl){
-        try{
-          const r=await fetch('/api/article-image?url='+encodeURIComponent(articleUrl),{signal:AbortSignal.timeout(9000),cache:'default'});
-          if(r.ok){
-            const d=await r.json(),fallback=imageUrl(d?.image);
-            if(fallback&&await tryCandidate(fallback))return;
-          }
-        }catch{}
-      }
+      // Show the designed text card immediately after the feed image fails; do not leave a blank panel while metadata is checked.
       media.style.backgroundImage='none';
       media.classList.add('radar-card-no-image');
       card.dataset.hasImage='0';
+      if(!media.querySelector('.radar-text-fallback')){
+        const fallback=document.createElement('span');
+        fallback.className='radar-text-fallback';
+        fallback.append(document.createElement('strong'),document.createElement('span'));
+        fallback.querySelector('strong').textContent='DISTRICT MIND';
+        fallback.querySelector('span').textContent='RADAR / CULTURE SIGNAL';
+        media.append(fallback);
+      }
       media.setAttribute('role','img');
-      media.setAttribute('aria-label','Article image unavailable');
+      media.setAttribute('aria-label','Article image unavailable; District Mind text fallback shown');
+      // Continue trying a verified article image in the background; success removes the fallback above.
+      if(articleUrl){
+        try{
+          const r=await fetch('/api/article-image?url='+encodeURIComponent(articleUrl),{signal:AbortSignal.timeout(4500),cache:'default'});
+          if(r.ok){
+            const d=await r.json(),fallback=imageUrl(d?.image);
+            if(fallback)await tryCandidate(fallback);
+          }
+        }catch{}
+      }
     };
     for(let i=0;i<list.length;i+=4)await Promise.all(list.slice(i,i+4).map(worker));
   };

@@ -3,7 +3,17 @@ import fs from "node:fs";
 const cfg=JSON.parse(fs.readFileSync("newsroom-config.json","utf8"));
 const out=[];
 const sourceHealth=[];
-const clean=s=>String(s||"").replace(/<[^>]+>/g," ").replace(/&amp;/g,"&").replace(/\s+/g," ").trim();
+const clean=s=>String(s||"")
+ .replace(/<[^>]+>/g," ")
+ .replace(/&#(\d+);/g,(_,n)=>{try{return String.fromCodePoint(Number(n));}catch{return " ";}})
+ .replace(/&#x([0-9a-f]+);/gi,(_,h)=>{try{return String.fromCodePoint(parseInt(h,16));}catch{return " ";}})
+ .replace(/&nbsp;/gi," ").replace(/&rsquo;/gi,"’").replace(/&lsquo;/gi,"‘")
+ .replace(/&ldquo;/gi,"“").replace(/&rdquo;/gi,"”").replace(/&ndash;/gi,"–")
+ .replace(/&mdash;/gi,"—").replace(/&hellip;/gi,"…").replace(/&quot;/gi,'"')
+ .replace(/&apos;/gi,"'").replace(/&lt;/gi,"<").replace(/&gt;/gi,">")
+ .replace(/&amp;/gi,"&")
+ .replace(/â€¦/g,"…").replace(/â€™/g,"’").replace(/â€˜/g,"‘").replace(/â€œ/g,"“").replace(/â€/g,"”").replace(/â€“/g,"–").replace(/â€”/g,"—").replace(/Â /g," ")
+ .replace(/\s+/g," ").trim();
 const parse=(xml,source)=>{
   const blocks = [
     ...xml.split(/<item\b/i).slice(1).map(part => part.split(/<\/item>/i)[0]),
@@ -17,7 +27,7 @@ const parse=(xml,source)=>{
     };
     const linkTag=get("link");
     const href=(linkTag.match(/href=["']([^"']+)["']/i)||[])[1]||linkTag.replace(/<!\[CDATA\[/gi,"").replace(/\]\]>/g,"");
-    return {title:clean(get("title")),url:clean(href),date:clean(get("pubDate")||get("published")||get("updated")),source};
+    return {title:clean(get("title")),description:clean(get("description")||get("summary")||get("content:encoded")),url:clean(href),date:clean(get("pubDate")||get("published")||get("updated")),source};
   }).filter(x=>x.title&&x.url);
 };
 const noise=t=>cfg.noise.some(n=>t.toLowerCase().includes(n));
@@ -25,15 +35,19 @@ const relevanceTerms=[
   "hip-hop","hip hop","rap","rapper","rappers","r&b","rnb","singer","singers",
   "album","single","ep","mixtape","music","musician","producer","dj","tour",
   "concert","festival","video","interview","label","record","records","artist",
-  "artists","grammy","billboard","spotify","apple music","streaming","denver",
-  "colorado","aurora","boulder","fort collins"
+  "artists","grammy","billboard","spotify","apple music","streaming","track",
+  "tracks","music video","live performance","new music","studio","vocal","beat"
 ];
-const isRelevant=(title,source)=>{
-  const t=title.toLowerCase();
-  if(source.startsWith("Google News")){
-    return relevanceTerms.some(term=>t.includes(term));
-  }
-  return true;
+const launchArtistNames=["drake","kendrick lamar","beyonce","taylor swift","john michell","chief keef","travis scott","doja cat","ray charles","louis armstrong","future","sza","j. cole","tyler the creator","lil wayne","playboi carti","bad bunny","metro boomin","earl sweatshirt","victoria monet","jpegmafia","quavo","dawn richard","danielle ponder","nicki minaj","cardi b","rihanna","the weeknd","21 savage","lil baby","megan thee stallion","ice spice"];
+const launchBlockTerms=["politics","election","trump","zelensky","war","murder","killed","mauled","mauling","tiger","zoo","nazi","nazi salute","barbie","formula 1","nfl","nba"];
+const escapeRegex=value=>String(value).split("").map(ch=>"\\^$.*+?()[]{}|".includes(ch)?"\\"+ch:ch).join("");
+const hasTerm=(text,terms)=>terms.some(term=>new RegExp("\\b"+escapeRegex(term)+"\\b","i").test(text));
+const isRelevant=item=>{
+  const title=String(item.title||"");
+  const evidence=title+" "+String(item.description||"").slice(0,200);
+  const knownArtistInTitle=hasTerm(title,launchArtistNames);
+  if(hasTerm(evidence,launchBlockTerms)&&!knownArtistInTitle)return false;
+  return hasTerm(evidence,relevanceTerms)||knownArtistInTitle;
 };
 
 for(const s of cfg.sources){
@@ -57,7 +71,7 @@ for(const s of cfg.sources){
 const seen=new Set();
 const stories=out
  .filter(x=>x.title.length>=cfg.qualityGates.minimumTitleLength&&!noise(x.title))
- .filter(x=>isRelevant(x.title,x.source))
+ .filter(isRelevant)
  .filter(x=>!cfg.qualityGates.requireSourceDate||Boolean(x.date))
  .filter(x=>!cfg.qualityGates.requireSourceUrl||Boolean(x.url))
  .filter(x=>{
