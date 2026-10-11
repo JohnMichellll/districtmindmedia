@@ -43,7 +43,7 @@
     });
   }
 
-  function applyImage(node, url, alt) {
+  function applyImage(node, url, alt, photo) {
     const safeUrl = String(url).replace(/["']/g, "");
     node.style.setProperty("background-image",
       'linear-gradient(180deg,rgba(17,17,17,.04),rgba(17,17,17,.48)),url("' + safeUrl + '")', "important");
@@ -53,6 +53,14 @@
     node.setAttribute("aria-label", alt || node.dataset.photoKey || "Editorial photo");
     node.classList.remove("photo-pending", "photo-branded-fallback", "photo-load-error");
     node.querySelector(":scope > .dm-visual-fallback")?.remove();
+    node.querySelector(':scope > .photo-credit')?.remove();
+    if (photo && photo.credit && photo.license !== 'owner-supplied') {
+      const c = document.createElement('a');
+      c.className = 'photo-credit'; c.href = photo.sourceUrl || '#';
+      c.target = '_blank'; c.rel = 'noopener nofollow';
+      c.textContent = 'Photo: ' + photo.credit;
+      node.appendChild(c);
+    }
   }
 
   function showFallback(node) {
