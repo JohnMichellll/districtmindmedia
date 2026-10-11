@@ -2724,3 +2724,5 @@ img[loading=lazy]{background:#e9e5dc}
 .release-artwork::after,.has-release-art::after,.artist-profile-art::after,.release-art-failed::after{content:none!important}
 
 .wf-page .site-header .logo{color:#f7f5f1!important}.wf-page .site-header .logo::before{background:#f7f5f1!important}.wf-page .site-header .primary-nav a{color:#f7f5f1!important}
+
+.wf-hub-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:22px 0 30px}.wf-hub-card{display:flex;flex-direction:column;justify-content:space-between;gap:12px;min-height:118px;padding:18px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.035);color:#f7f5f1;transition:background .2s ease,border-color .2s ease}.wf-hub-card strong{font-size:15px;letter-spacing:.02em}.wf-hub-card span{font-size:12px;line-height:1.5;color:rgba(247,245,241,.68)}.wf-hub-card:hover,.wf-hub-card:focus-visible{background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.42)}@media(max-width:760px){.wf-hub-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.wf-hub-card{min-height:105px;padding:14px}}
