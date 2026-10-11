@@ -1783,7 +1783,7 @@ footer {
 .category-card .category-visual{min-height:220px;background-size:cover;background-position:center}
 
 /* REAL ARTIST PHOTOGRAPHY — licensed/attributed sources, replacing stock imagery */
-.featured-photo{position:relative;min-height:500px;background:linear-gradient(180deg,rgba(17,17,17,.08),rgba(17,17,17,.65)),url('https://upload.wikimedia.org/wikipedia/commons/a/ad/Earl_Sweatshirt_2012.JPG') center 35%/cover no-repeat!important;}
+.featured-photo{position:relative;min-height:500px;background:linear-gradient(180deg,rgba(17,17,17,.08),rgba(17,17,17,.65)),url('/assets/hero-earl-sweatshirt-1600.webp') center 35%/cover no-repeat!important;}
 .real-release-photo{position:relative;overflow:hidden;}
 .real-release-photo.one{background-image:linear-gradient(180deg,rgba(17,17,17,.04),rgba(17,17,17,.58)),url('https://upload.wikimedia.org/wikipedia/commons/1/10/Victoria_Mon%C3%A9t_WHTA_2023.png')!important;}
 .real-release-photo.two{background-image:linear-gradient(180deg,rgba(17,17,17,.04),rgba(17,17,17,.58)),url('https://upload.wikimedia.org/wikipedia/commons/b/b0/Quavo_Salute_to_Summer_Concert_2025.jpg')!important;}
