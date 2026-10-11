@@ -1,37 +1,37 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-11T18:11:01.051Z
+Generated: 2026-10-11T18:46:43.978Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 226
+Stories discovered: 225
 
-1. **Erykah Badu Cancels Five European Tour Dates, Apologizes To Fans** — AllHipHop — Sun, 11 Oct 2026 18:01:00 +0000
+1. **How a Small Misunderstanding Led to One of the Most Heated Feuds in Southern Hip-Hop History - VICE** — Google News — Hip-Hop — Sun, 11 Oct 2026 18:15:14 GMT
+   https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWGd5WEwzNjExQW5Uamw4VG1DSnBsZzJiMHVrUlFKSDFKTktJc1h6TDctQ3Uxc19ONW5OOWplcTkzYnMzc1dHSGZIdFhvR3JTc3YyTlBSUk00QnlQeGNnRU0wRVo1TnJQQ3ROSHNhZ2NHbnBkaHNDMzlFUzNsSFVEbmxmWkxiUDJLSHg1eFA0Z1VTNTZfMHhJZ2czV3k0NHU5QWxVRExfdUJad21LT3F6QlNWQ2RVSUdvTnctaWpCSGpGbXc?oc=5
+2. **Erykah Badu Cancels Five European Tour Dates, Apologizes To Fans** — AllHipHop — Sun, 11 Oct 2026 18:01:00 +0000
    https://allhiphop.com/news/erykah-badu-cancels-five-european-tour-dates-apologizes-to-fans/
-2. **Resolve release new music video for ‘Godtier’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 11 Oct 2026 17:54:34 GMT
+3. **Resolve release new music video for ‘Godtier’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 11 Oct 2026 17:54:34 GMT
    https://news.google.com/rss/articles/CBMif0FVX3lxTE1sdVNSbkhBRGtPVFg2SUhUTnRCMHZCbmZiLXFRbmh6OXdoN245aTJKRjdnazMxelc3MXJPNjRXTzk4Ujd3V0NwZUhXaFQwcFpfODhtSmpILW1UeE9xR2lQbDcyVlk1bEJCSHRpZUVyVExHRHZrTjlpZ0cwcDh4QzA?oc=5
-3. **Freddie Jackson, R&B Legend, Dies at Age 69 - Yahoo** — Google News — R&B — Sun, 11 Oct 2026 17:33:00 GMT
+4. **Freddie Jackson, R&B Legend, Dies at Age 69 - Yahoo** — Google News — R&B — Sun, 11 Oct 2026 17:33:00 GMT
    https://news.google.com/rss/articles/CBMilwFBVV95cUxPZTM0RHZEZXoxQXdlNE9sZ2ZKYVVEQV8tOUEzVzdmVmd3TWhHcHFKUy1fY3M5d0gwQWhyQUFYaGFkUEZfaEdydDM5MG4tZ1FQQ2ZRaV9weWVTT19tVHdsWExlSktLOXJZcTVmNVZ5ZVkweGxyT3NWQ0taOXBkM0p6M3VTb3E5RGp2Mk9GemVLUkpua2RDMDlz?oc=5
-4. **Sleepwalk release new music video for ‘Jan 22’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 11 Oct 2026 17:30:05 GMT
+5. **Sleepwalk release new music video for ‘Jan 22’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 11 Oct 2026 17:30:05 GMT
    https://news.google.com/rss/articles/CBMigAFBVV95cUxQVkk4a1ZLeDBDYkVqb2cwU3MyZzZzeWloa2g5dEppeDVlZTFQWnRtU0ZVXzczQldpb2FtUGh3bkh2YmQxaWI3ak4yQ045UHNIUWExZ0NrUlJ3dVZWQmQzcTVIOGZjSHNjc3VjUFJVMUpaMFFtV2U4NUZHaXp4QUhZeA?oc=5
-5. **Jay-Z Makes Hip-Hop History With $42.3 Million Yankee Stadium Concerts** — AllHipHop — Sun, 11 Oct 2026 17:30:00 +0000
+6. **Jay-Z Makes Hip-Hop History With $42.3 Million Yankee Stadium Concerts** — AllHipHop — Sun, 11 Oct 2026 17:30:00 +0000
    https://allhiphop.com/news/jay-z-makes-hip-hop-history-with-42-3-million-yankee-stadium-concerts/
-6. **Cornell University Cancels Homecoming Concert Amid Fallout From Sexual Assault Case** — Billboard — Sun, 11 Oct 2026 17:26:32 +0000
+7. **Cornell University Cancels Homecoming Concert Amid Fallout From Sexual Assault Case** — Billboard — Sun, 11 Oct 2026 17:26:32 +0000
    https://www.billboard.com/music/music-news/cornell-cancels-homecoming-concert-sexual-assault-case-1236358709/
-7. **Grammy-winning Chance the Rapper celebrated 10 years of his Coloring Book mixtape with a sold-out night of music, nostalgia and reflection in the heart of the Delmar Loop. - DELUX Magazine** — Google News — Hip-Hop — Sun, 11 Oct 2026 17:25:23 GMT
+8. **Grammy-winning Chance the Rapper celebrated 10 years of his Coloring Book mixtape with a sold-out night of music, nostalgia and reflection in the heart of the Delmar Loop. - DELUX Magazine** — Google News — Hip-Hop — Sun, 11 Oct 2026 17:25:23 GMT
    https://news.google.com/rss/articles/CBMitAJBVV95cUxQZWdFMWV3WjZFSUN4Z3V3ZUVsYk54MFd0U0JOVVV6cC02c3NhamUwOGxmdmdaWkhIQ0Roa1ZaSWhmUC1mMzFNakszYmVhMVAxdVNCUWtYV2VxdkVOSE95bVU0Q1Z1dmpyV2I0aWs1Q2ZVSzU5dERnUHV0bkx2Y043dUVKQTlKMUZ2alFoSXZZOXdqU0hfZXdmVUZCbEhvTEpvbkdCVEtodnZsTmlnMGdSZjI1T090MDhhcnhPNlJaWlBSb19DZU44cmtROFdsbjBIMkthMmc3ckhTaTBvdWtrQUdwWko0ZXM1RmR5bnNrdXBlRGVDV0pRU1JITDBFMjJETDBMeEdWVy1UWHd3SnRVdG16c3BMNUlKVUNXOW5FMEhkWjctdkRLWnBMamtUd3JrZVMzVw?oc=5
-8. **Capitol Hill music journalist chronicles Seattle grunge history in new book - CHS Capitol Hill Seattle News** — Google News — New Music — Sun, 11 Oct 2026 17:03:49 GMT
+9. **Capitol Hill music journalist chronicles Seattle grunge history in new book - CHS Capitol Hill Seattle News** — Google News — New Music — Sun, 11 Oct 2026 17:03:49 GMT
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWDZvdWF2eURhSFkzazNiWVNPTTJraWlWU2VtMnZXREVFbVB5bjBiWFl6VGZOeUFRaFoyVjN3WmlPYjZEZXh1NUh0aG1oR0dNOV9HZ1ZibHdBMlBMczR2RlV2RG5meVFuWFJxb1oxTElDZGlJMzNHQU1INXp6MTNfTnlWcUlWRTlFQ201dmxSVjFjWFNNaFE0SHo3bDFDU2JqVWd6bXNnOFpXbjh6X29ULUZIakIwdllxUGxJ?oc=5
-9. **Nicki Minaj Rants About Persecuted Nigerian’s At Elon Musk’s X Takeover In Texas** — AllHipHop — Sun, 11 Oct 2026 17:02:00 +0000
+10. **Nicki Minaj Rants About Persecuted Nigerian’s At Elon Musk’s X Takeover In Texas** — AllHipHop — Sun, 11 Oct 2026 17:02:00 +0000
    https://allhiphop.com/news/nicki-minaj-rants-about-persecuted-nigerians-at-elon-musks-x-takeover-in-texas/
-10. **Azealia Banks Confirms Move to Israel, Says She’s Working on New Music - Yahoo** — Google News — New Music — Sun, 11 Oct 2026 16:59:42 GMT
+11. **Azealia Banks Confirms Move to Israel, Says She’s Working on New Music - Yahoo** — Google News — New Music — Sun, 11 Oct 2026 16:59:42 GMT
    https://news.google.com/rss/articles/CBMiogFBVV95cUxPdGIyLXVNS29TbTZjdWh1TTlralRCcDFGaHJ1MWlMSF92NmJVVmpNZlJRc0VSU0xzVzVUcnNJY3JrQnhsQS1CSXpsZXpwQlpuSENoc1FuQ3pzeDVoTUFiWDVjUTJSUXNQVk1HS1hKUjl5THh2UGRqUFhDa2t6VVJJQWExdVdjVHNsVFg3Mzc3Qkl6SG5OSjdURlpPaTVMbVhIUGc?oc=5
-11. **Against The Current release new music video for ‘White Noise’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 11 Oct 2026 16:48:45 GMT
+12. **Against The Current release new music video for ‘White Noise’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 11 Oct 2026 16:48:45 GMT
    https://news.google.com/rss/articles/CBMilAFBVV95cUxNZFZNZkhMd2cxOXR0OWNyZ3BMVFJFb2w5SWpqNkowUFRIdU5RbWJQaDBBdTY4Uktwdm9sakdlNV81ZzZJemlzM2Q0WUljNlU5c3RtQXBvd2pHTEVfeXZfTmxmTW5PaTZWU0hOck9Xb1pFemxRaVlZUnpsNjZUU3JFckVCNFdFalFHRHlvLV9YZ2VtTGFq?oc=5
-12. **Charli XCX Brings Out Tinashe at Austin City Limits Festival** — Pitchfork — Sun, 11 Oct 2026 16:30:44 +0000
+13. **Charli XCX Brings Out Tinashe at Austin City Limits Festival** — Pitchfork — Sun, 11 Oct 2026 16:30:44 +0000
    https://pitchfork.com/story/charli-xcx-brings-out-tinashe-at-austin-city-limits/
-13. **DJ Akademiks Claps Back At Tylil For Slamming Kai Cenat & Reggie Coverage - HotNewHipHop** — Google News — Hip-Hop — Sun, 11 Oct 2026 16:28:30 GMT
-   https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOHdiS2N3RU51c0RUb0oxUlBTVmFYLW5iaGphRF9uZ3pwR2hzNGgtY2hxZHZCRkM0bmljOTFDV28zNzdCMThoc2tfOWt0Ul9Cal9zX2JuQl9pRDZnSUJvTlR6XzJTbXhWU1NiU3JXUnpEMDlmT2xZdG5ZQk50QmZKcjJSU1FWempJ?oc=5
 14. **New Music Critique of Alexa Kate, score 7.6/10 - Music Connection Magazine** — Google News — New Music — Sun, 11 Oct 2026 16:04:31 GMT
    https://news.google.com/rss/articles/CBMic0FVX3lxTFBSMUVIUC1wQXlYaUNvVW45NHc2c2JwTDZfMjlrQlFnWmtWMmlsdG41WUJfRXlRc1ZDc1lZc2VxblFqeVV0S1RvNmhhTHd6TEpyNHFmTy1KNzhNWUJ2UW9hbDV4bnAzT0NzOF9VdllMamlBTkU?oc=5
 15. **Drake & Don Toliver Take “Solar Eclipse” From “FOMO” To A Full Video** — AllHipHop — Sun, 11 Oct 2026 16:01:57 +0000
