@@ -2681,3 +2681,15 @@ img[loading=lazy]{background:#e9e5dc}
 .artist-desk-page .site-header .primary-nav,
 .wf-page .site-header .primary-nav{background:transparent!important}
 .radar-page .site-header .logo::after{color:#d51f2f!important}
+
+
+/* Launch audit: keep Radar filters discoverable and mobile controls reachable. */
+@media(max-width:600px){
+  .radar-controls{flex-wrap:wrap;gap:10px}
+  .radar-filters{display:flex;flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;max-width:100%;-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent)}
+  .radar-filters::-webkit-scrollbar{display:none}
+  .radar-filter{flex:0 0 auto}
+  .radar-controls .radar-refresh,.radar-controls [data-refresh-radar]{flex-basis:100%;margin-left:0}
+}
+.footer-links a{display:inline-flex;align-items:center;min-height:44px;padding:0 6px}
+.academy-checklist input[type=checkbox],.academy-check input[type=checkbox]{width:24px;height:24px;accent-color:#d51f2f;flex:0 0 24px}
