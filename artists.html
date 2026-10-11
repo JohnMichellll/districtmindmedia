@@ -54,7 +54,7 @@ if(f)f.addEventListener('submit',async e=>{
  r.innerHTML='<div class="artist-loading"><strong>Searching…</strong><span class="artist-search-spinner" aria-hidden="true"></span><span>Checking catalog matches and current coverage</span></div>';
  try{
   const x=await fetch('/api/artist-intel?q='+encodeURIComponent(q),{cache:'no-store',headers:{'Cache-Control':'no-cache'}});
-  if(!x.ok)throw new Error('request');
+  if(!x.ok)throw new Error(x.status===502?'catalog-temporarily-unavailable':'request');
   const d=await x.json();
   if(seq!==requestSequence)return;
   if(!d.ok||!d.artist){document.body.classList.remove('artist-legacy-mode');s.textContent='NO MATCH FOUND YET.';r.innerHTML='<div class="artist-empty"><strong>No artist match yet.</strong><p>Try the artist’s full name or another spelling.</p></div>';scrollResults();return;}
@@ -69,8 +69,8 @@ if(f)f.addEventListener('submit',async e=>{
   scrollResults();
  }catch(err){
   if(seq!==requestSequence)return;
-  s.textContent='ARTIST DESK TEMPORARILY UNAVAILABLE.';
-  r.innerHTML='<div class="artist-empty"><strong>The search service did not respond.</strong><p>Refresh and try again.</p></div>';
+  s.textContent='CATALOG TEMPORARILY UNAVAILABLE.';
+  r.innerHTML='<div class="artist-empty"><strong>Catalog temporarily unavailable.</strong><p>The public music sources did not return a usable response. Try again in a moment; this is not a “no artist found” result.</p></div>';
   scrollResults();
  }finally{
   if(seq===requestSequence&&submitButton){submitButton.disabled=false;submitButton.textContent='Search Artist';}
