@@ -38,15 +38,23 @@ const knownAlbumIds={
  "danielle ponder|everything has changed":"6790523443",
  "dawn richard|creole culture":"6784811773",
  "joyce wrice|machiko":"6804892827",
- "john michell|who is you":"1837928296",
+ "john michell|who is you":"1837928295",
  "john michell|u":"1819200665",
  "john michell|eyes open":"1727068645"
 };
 async function fetchText(url,ms=6000){const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal,headers:{"Accept":"text/html"}});return r.ok?await r.text():null}catch{return null}finally{clearTimeout(t)}}
 async function applePageArt(artist,title){
- if(norm(artist)!=="john michell")return null;
- const key=norm(title),slugs={"who is you":"who-is-you-single","u":"u-single","eyes open":"eyes-open-single","drivin crazy":"drivin-crazy-single","cherrywood":"cherrywood-single"};
- const slug=slugs[key],id=johnCatalogIds[key]||knownAlbumIds["john michell|"+key];
+ const artistKey=norm(artist),key=norm(title),compound=artistKey+"|"+key;
+ const knownPageSlugs={
+  "john michell|who is you":"who-is-you-single",
+  "john michell|u":"u-single",
+  "john michell|eyes open":"eyes-open-single",
+  "john michell|drivin crazy":"drivin-crazy-single",
+  "john michell|cherrywood":"cherrywood-single",
+  "joyce wrice|machiko":"machiko"
+ };
+ const slug=knownPageSlugs[compound];
+ const id=knownAlbumIds[compound]||johnCatalogIds[key];
  if(!slug||!id)return null;
  const page="https://music.apple.com/us/album/"+slug+"/"+id,html=await fetchText(page);
  if(!html)return null;
@@ -89,6 +97,13 @@ export async function onRequestGet({request}){
   // Prefer pinned, exact catalog IDs first. The previous all-at-once fan-out called up to
   // five providers for every card, multiplying load across a release grid and triggering
   // provider timeouts/rate limits. Fall through only when the higher-confidence source misses.
+  // These releases have confirmed Apple Music collection IDs; prefer official page metadata
+  // so a track ID is never mistaken for a release-page ID.
+  if((norm(artist)==="john michell"&&norm(title)==="who is you")||
+     (norm(artist)==="joyce wrice"&&norm(title)==="machiko")){
+   const pageArt=await applePageArt(artist,title);
+   if(pageArt)return json({ok:true,artist,title,...pageArt,artistArtwork:null,verified:true});
+  }
   const pinnedTrack=await appleKnownId(artist,title);
   if(pinnedTrack)return json({ok:true,artist,title,...pinnedTrack,artistArtwork:null,verified:true});
   const pinnedAlbum=await appleKnownAlbumId(artist,title);
