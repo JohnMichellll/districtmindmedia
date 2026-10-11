@@ -23,8 +23,8 @@
   const containsRegistryArtist=text=>{const normalized=' '+normalizeArtistText(text)+' ';return registryArtistNames.some(name=>normalized.includes(' '+normalizeArtistText(name)+' '));};
   const categoryOf=s=>{
     const title=String(s.title||''),t=(title+' '+s.description).toLowerCase();
-    if(/breaking|arrest|charged|dies|death|dead|hospital|shooting|responds|response|beef|feud|controversy|apology|lawsuit|alleged/.test(t))return 'BREAKING';
     if(containsRegistryArtist(title))return 'ARTISTS';
+    if(/breaking|arrest|charged|dies|death|dead|hospital|shooting|responds|response|beef|feud|controversy|apology|lawsuit|alleged/.test(t))return 'BREAKING';
     if(/tour|concert|festival|show|arena|theatre|tickets|live/.test(t))return 'SHOWS';
     if(/album|single|ep|mixtape|release|drops|released|stream|song|track/.test(t))return 'MUSIC';
     if(/artist|rapper|singer|producer|dj|actor|celebrity/.test(t))return 'ARTISTS';
