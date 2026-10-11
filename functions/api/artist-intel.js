@@ -21,7 +21,7 @@ export async function onRequestGet({request,env}){
  if(q.length<2)return json({ok:false,error:"Search for an artist or ask a question about one."},400);
  try{
   const pinned=pinnedArtists[norm(q)];
-  const artistSearch=pinned?null:await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(q)+"&entity=musicArtist&attribute=artistTerm&limit=50&country=US");
+  const artistSearch=pinned?null:await fetchJson("https://itunes.apple.com/search?term="+encodeURIComponent(q)+"&entity=musicArtist&limit=5&country=US");
   let artists=pinned?[pinned]:(Array.isArray(artistSearch?.results)?artistSearch.results.filter(x=>x?.artistName):[]);
   if(!pinned&&!artists.length){const dz=await fetchJson("https://api.deezer.com/search/artist?q="+encodeURIComponent(q)+"&limit=5");artists=(dz?.data||[]).filter(x=>x?.name).map(x=>({artistId:x.id||null,artistName:x.name,artistLinkUrl:x.link||null,deezerImage:x.picture_xl||x.picture_big||null,primaryGenreName:""}));}
   // Second catalog route catches major artists that Apple returns inconsistently through musicArtist search.
