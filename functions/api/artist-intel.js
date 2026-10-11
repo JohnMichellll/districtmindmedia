@@ -13,7 +13,7 @@ const pinnedArtists={"drake":{artistId:"160926",artistName:"Drake",primaryGenreN
 const legacyNames=["ray charles","louis armstrong","aretha franklin","ella fitzgerald","nat king cole","sam cooke","billie holiday","nina simone","john coltrane","miles davis","duke ellington","charlie parker","frank sinatra","marvin gaye","stevie wonder","james brown","otis redding","the beatles","elvis presley","buddy holly","muddy waters","howlin wolf","chuck berry","little richard","b.b. king","bb king"];
 const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers});
 const fetchJson=async(url,ms=7000)=>{const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);try{const r=await fetch(url,{signal:c.signal,headers:{"User-Agent":"DistrictMindMedia/1.0 (artist intelligence)","Accept":"application/json"}});if(!r.ok){const body=(await r.text()).slice(0,500);console.warn("Artist intelligence upstream failure",r.status,url,body);return null;}return await r.json()}catch(e){console.warn("Artist intelligence upstream request failed",url,String(e));return null}finally{clearTimeout(t)}};
-const norm=s=>String(s||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
+const norm=s=>String(s||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
 const artistScore=(a,q)=>{const n=norm(a.artistName),x=norm(q);if(n===x)return 100;if(n.startsWith(x))return 85;if(n.includes(x))return 70;return 0};
 function artistQueryFromText(raw){
  let q=String(raw||"").trim().replace(/[?!.]+$/g,"").trim();
