@@ -1,19 +1,19 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-12T15:15:24.213Z
+Generated: 2026-10-12T15:47:52.015Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 221
+Stories discovered: 220
 
 1. **New Music Mondays: Gunna, Dawn Richard, and Ovrkast. Featured - Chicago Defender** — Google News — New Music — Mon, 12 Oct 2026 15:09:20 GMT
    https://news.google.com/rss/articles/CBMiigFBVV95cUxPcHhxQk5CSUhTWnhKa282RXFnSXBrZWh6NzFfMkY0RFBwUWp6U1lmTVU1TkI0eVBpaUk2YjdzeUxsOHNaWW5iSWRxU2RDaW5DNTZSUlAzQUhjNW42VGRYNU10UW01cENWTXlrYnkyLWZBYVY3UGo0aTVZaVFuQ0o1Vkc3a2F5bFpJLWc?oc=5
-2. **From baggy jeans to rhinestones: Southern hip-hop’s denim legacy - The Atlanta Journal-Constitution** — Google News — Hip-Hop — Mon, 12 Oct 2026 15:06:25 GMT
+2. **Grimes announces new album 'Psyopera' (featuring no Elon Musk songs) with dark and ravey single ‘Accelerando' - NME** — Google News — New Music — Mon, 12 Oct 2026 15:09:13 GMT
+   https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUDJHaTdEcXdLUnNTX252aEJPZjRPWjlndlpfX1hyUlBLRXk4SmtLZm4xV182a1Y4MzdwbmtTTk1hcEkxdGNuRXBZelRxQ3I4akQxV3lZZkNwdlFjRzBJYy1DLWtITFpjQ09wNHhHMjUyMDVoX0VfRllXTnoyRktfeTdTRHBZN3hHSHE2QUxWYzdCYmtFNkJ3ZWJ5THlmT2NaVVVDSkdBZ1h3cF80a0lJTUNfSWdNM3JGeUVkNWE4eGpxVUs2OFhpaTYydF9zYXJ6TnRIay1zVHMwUQ?oc=5
+3. **From baggy jeans to rhinestones: Southern hip-hop’s denim legacy - The Atlanta Journal-Constitution** — Google News — Hip-Hop — Mon, 12 Oct 2026 15:06:25 GMT
    https://news.google.com/rss/articles/CBMipAFBVV95cUxPbjhjNndlTDRrdkk3bzdBZUlwckVCNk1Cb2RHYWpSbzA2UWJsYm91RC02d0ZrLUF0b21hWTF5YVdxdmxobXRGdll5Z2Y4VWk0eDRZM0JlOVpydjN3ZXdsdTF0X1BJOG5VaTFLVjUyWXBvTld4SThLRzhnUzZrcFhwT2hYZlBIVElrdWVTY3BHcTZLQmRxM3A3bXN1ZkpFRmprNkpZaQ?oc=5
-3. **New Music Critique of Corey Morris, 8.2/10 - Music Connection Magazine** — Google News — New Music — Mon, 12 Oct 2026 15:05:34 GMT
+4. **New Music Critique of Corey Morris, 8.2/10 - Music Connection Magazine** — Google News — New Music — Mon, 12 Oct 2026 15:05:34 GMT
    https://news.google.com/rss/articles/CBMidkFVX3lxTE5TcVRCZ1UyN2JqYlBSYjdjQTFVSUh6dzMzTHVIUUVOQUZJSWRQaURvVGtjaW53bFhudDVwOElDNlFvOEs2VlprdlI3V0x1YklpaWVmeXN2eXp0elNHbG5FTFdLS3BxSzZ3TzFvSHN1MlZUOWFhVEE?oc=5
-4. **Ferg On How To ‘Cycle’ Hip-Hop Toward Wellness And Community - Yahoo** — Google News — Hip-Hop — Mon, 12 Oct 2026 15:00:00 GMT
-   https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ1lNOFZrWGMtT0JiUTA0SkRILTB0NDl5X0puWVlHakFHOFpiYmZsR2Iwc0hlZjlGcEY4Y0FfZDZqTnFMY2F3dzBCeXpqcllGZlVIVTVXSG5mSkx6azh3aWpORTFlQ3I1RlhxQWNyS1N2ZGRzWXZyMjhwc3BOSGZXWmoxbzgyNnFjenNFQnBnUVpWVFd0anc?oc=5
 5. **Ferg On How To ‘Cycle’ Hip-Hop Toward Wellness And Community - Forbes** — Google News — Hip-Hop — Mon, 12 Oct 2026 15:00:00 GMT
    https://news.google.com/rss/articles/CBMitAFBVV95cUxOUHcwWHc0eEZnVE9kSkNtcWpwdndMeUY5OEkzcjc2YnJnMTd1ODBPTjFtVVYyVmRNRzUxLVdNVE5iNjZ2Tlc2UWFLQ0RWcUFzX2cxOUE4SWl6NFYtVW1TVFFZM2E5VlJfb3VWQm5DTWJEUUZOLUItZlZGcjNwcXNxRl9lSjFJWTZseEttOS15SkR1MnNQeWtCS1EwSS1QdTJVT3FyTUZoMWxDZEFyeUtraXAtQlI?oc=5
 6. **The Beatles’ ‘Rubber Soul’ Is Back in the Top 10 on the Billboard 200: See What Else Was in the Top 10 When It First Appeared There in 1966** — Billboard — Mon, 12 Oct 2026 15:00:00 +0000
