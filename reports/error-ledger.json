@@ -1,44 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T18:50:36.092Z",
-  "errors": [
-    {
-      "source": "Google News — Hip-Hop",
-      "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 7920,
-      "error": "HTTP 503",
-      "workflow": "newsroom-operator"
-    },
-    {
-      "source": "Google News — R&B",
-      "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 7941,
-      "error": "HTTP 503",
-      "workflow": "newsroom-operator"
-    },
-    {
-      "source": "Google News — New Music",
-      "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 7612,
-      "error": "HTTP 503",
-      "workflow": "newsroom-operator"
-    },
-    {
-      "source": "Google News — Colorado Music",
-      "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 5170,
-      "error": "HTTP 503",
-      "workflow": "newsroom-operator"
-    }
-  ],
+  "updatedAt": "2026-10-12T19:11:43.079Z",
+  "errors": [],
   "resolved": [
     {
       "source": "TMZ",
@@ -339,6 +302,46 @@
       "error": "TIMEOUT",
       "workflow": "newsroom-operator",
       "resolvedAt": "2026-10-12T11:47:58.641Z"
+    },
+    {
+      "source": "Google News — Hip-Hop",
+      "tier": 2,
+      "status": "resolved",
+      "stories": 0,
+      "latencyMs": 7920,
+      "error": "HTTP 503",
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-12T19:11:43.079Z"
+    },
+    {
+      "source": "Google News — R&B",
+      "tier": 2,
+      "status": "resolved",
+      "stories": 0,
+      "latencyMs": 7941,
+      "error": "HTTP 503",
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-12T19:11:43.079Z"
+    },
+    {
+      "source": "Google News — New Music",
+      "tier": 2,
+      "status": "resolved",
+      "stories": 0,
+      "latencyMs": 7612,
+      "error": "HTTP 503",
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-12T19:11:43.079Z"
+    },
+    {
+      "source": "Google News — Colorado Music",
+      "tier": 2,
+      "status": "resolved",
+      "stories": 0,
+      "latencyMs": 5170,
+      "error": "HTTP 503",
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-12T19:11:43.079Z"
     }
   ]
 }
