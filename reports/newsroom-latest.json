@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-12T02:12:37.340Z",
+  "generatedAt": "2026-10-12T02:46:19.381Z",
   "operator": "District Mind AI Newsroom",
   "status": "READY_FOR_EDITOR",
-  "storyCount": 223,
+  "storyCount": 224,
   "stories": [
     {
       "title": "New Music Radar: Dirty Harry, Evan Oxford and Jamie Koul - - Happy Mag",
@@ -38,13 +38,6 @@
       "url": "https://allhiphop.com/news/bruno-mars-ties-kendrick-lamar-szas-31-week-chart-record/",
       "date": "Mon, 12 Oct 2026 01:00:52 +0000",
       "source": "AllHipHop"
-    },
-    {
-      "title": "Kim Ximya’s ‘Dogma’ Challenges Listeners with 26-Minute, No-Skip Album Experience - 조선일보",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOejZiQnQ2T0VjTlJDdzlIbGJ6QnA3REdpeEdPN1NkcUE1Vk5FZEp5TWdEMzh1eFRGZngxOWVQeUI0TV9fMkRoaFh4allYVk1MV0ZHNUJUYmIwQ2VOS2FXMkNsRXg5SU9tckJLRWV3YkNWU3o2THhSWHIzRTVUa1ZYUWNia0MyNmI2TTd3bmp3?oc=5\" target=\"_blank\">Kim Ximya’s ‘Dogma’ Challenges Listeners with 26-Minute, No-Skip Album Experience</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">조선일보</font>",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOejZiQnQ2T0VjTlJDdzlIbGJ6QnA3REdpeEdPN1NkcUE1Vk5FZEp5TWdEMzh1eFRGZngxOWVQeUI0TV9fMkRoaFh4allYVk1MV0ZHNUJUYmIwQ2VOS2FXMkNsRXg5SU9tckJLRWV3YkNWU3o2THhSWHIzRTVUa1ZYUWNia0MyNmI2TTd3bmp3?oc=5",
-      "date": "Mon, 12 Oct 2026 00:57:43 GMT",
-      "source": "Google News — Hip-Hop"
     },
     {
       "title": "News From Hip Hop To Hollywood! - The Hype Magazine",
@@ -122,6 +115,13 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY18tRVpDRGZENkh1bFY2RURKRnRPSlRVWlNQQTlFcmxhaHpuZHdFWmRNcXpEWDVIV0t5SUlsZWZWQ0VlLVpqTjRLZnItM1U2TWY1Zkt1SnFxX280WXYxeFh5RWxkMVJQbVo1dWZXN2Jhb1ZBU3k5WUpBU1llMEV4dXhsSklXd01UX2NPZWpvSXo2ZXpXUWphbzlORXRJdVhnOEZCUmJsU3pUbzlNdWttdldiRnhJNGhhc0F1U3J6VkZadw?oc=5",
       "date": "Sun, 11 Oct 2026 21:06:24 GMT",
       "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Melodic Metalcore is Back with Imminence's New Release \"Axis Mundi\" - MUSIC SCENE MEDIA",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPTmlaTEZhckxsUl8yeFloM1JoZkRGYm5CejVhUVVUaDk4emJ0Q1pkc21CeFVYSE9COXo0RjBvQUF6SGJxYTYyc2o3R3h0OFRSREpzZ3d2QnpUMmU5YWpQWUhpd3BSNE5rX2oyZDZBWGwxc0NYQmE2bDBaMWZfQzhjRG5pb3lTdUhsSk9TX0Jta2dnN3FjeWdzNEdUa1l5QQ?oc=5\" target=\"_blank\">Melodic Metalcore is Back with Imminence's New Release \"Axis Mundi\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MUSIC SCENE MEDIA</font>",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTmlaTEZhckxsUl8yeFloM1JoZkRGYm5CejVhUVVUaDk4emJ0Q1pkc21CeFVYSE9COXo0RjBvQUF6SGJxYTYyc2o3R3h0OFRSREpzZ3d2QnpUMmU5YWpQWUhpd3BSNE5rX2oyZDZBWGwxc0NYQmE2bDBaMWZfQzhjRG5pb3lTdUhsSk9TX0Jta2dnN3FjeWdzNEdUa1l5QQ?oc=5",
+      "date": "Sun, 11 Oct 2026 21:03:32 GMT",
+      "source": "Google News — New Music"
     },
     {
       "title": "Taylor Swift Spends Her 100th Week at No. 1 on the Billboard 200, as ‘Life of a Showgirl’ Stays on Top in Week 2 of ‘Encore’ Rebound",
@@ -292,11 +292,25 @@
       "source": "Google News — Hip-Hop"
     },
     {
-      "title": "North Mississippi Allstars tout 'roots music' on tour - Local Spins",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPdlZLRldHMnRpem5DYlpiV1ZwdUg4RmhOU2h1MUczOUpkNnZQMzJRbGFLTVFDcUlnS1dOSWRqTkFoa1dndDk2VTlWQ2JtS1JvRG82dXFQOUdOWVlEM2Ewa3VybFFaTE5pRGQyUlhhdVEzM0VnekNiTTZIUlYtMkU5UUl4VHdBQjFRSHBFNm5LLWFOVGtxSDBZVW52eGNEeWt2Y0xtdFBUZ3oyRl96SHJwWW9GbVU?oc=5\" target=\"_blank\">North Mississippi Allstars tout 'roots music' on tour</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Local Spins</font>",
+      "title": "North Mississippi Allstars touting ‘modern Mississippi music’ with Michigan stop ahead - Local Spins",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPdlZLRldHMnRpem5DYlpiV1ZwdUg4RmhOU2h1MUczOUpkNnZQMzJRbGFLTVFDcUlnS1dOSWRqTkFoa1dndDk2VTlWQ2JtS1JvRG82dXFQOUdOWVlEM2Ewa3VybFFaTE5pRGQyUlhhdVEzM0VnekNiTTZIUlYtMkU5UUl4VHdBQjFRSHBFNm5LLWFOVGtxSDBZVW52eGNEeWt2Y0xtdFBUZ3oyRl96SHJwWW9GbVU?oc=5\" target=\"_blank\">North Mississippi Allstars touting ‘modern Mississippi music’ with Michigan stop ahead</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Local Spins</font>",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdlZLRldHMnRpem5DYlpiV1ZwdUg4RmhOU2h1MUczOUpkNnZQMzJRbGFLTVFDcUlnS1dOSWRqTkFoa1dndDk2VTlWQ2JtS1JvRG82dXFQOUdOWVlEM2Ewa3VybFFaTE5pRGQyUlhhdVEzM0VnekNiTTZIUlYtMkU5UUl4VHdBQjFRSHBFNm5LLWFOVGtxSDBZVW52eGNEeWt2Y0xtdFBUZ3oyRl96SHJwWW9GbVU?oc=5",
       "date": "Sun, 11 Oct 2026 14:40:03 GMT",
       "source": "Google News — New Music"
+    },
+    {
+      "title": "R&B rushing attack shines again in West's 35-0 win over Northwest - Portsmouth Daily Times",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxOR2hDWU1KaXpvdkw1dDNfRVF5TkwzMW9jOWlzM2FLWm5ySS1iUnpKcnQ1TzhPNFROMXFoVDhhUWMzd2tIU1RZbEFIbGtwbmZaYUJnV1dpbldfdGRJOXhFWjc5SzVPdXhwdktiQjdteTBYRlNmWnA2Ukx4TW9yVl9CcldWVlkzd1FBX254OTZGd2JQMUc2SXVMcFVONTBFSENmRUR2R25PN3dPRnRlYnJERHlUc002cURYVkF3R2xDeXVHNHotSFhXVjRPUHhiTGhPTno1RzZwX1VDUXEyLWpid1Y1bmRYb3F6bDloVktnTi0?oc=5\" target=\"_blank\">R&B rushing attack shines again in West's 35-0 win over Northwest</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Portsmouth Daily Times</font>",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOR2hDWU1KaXpvdkw1dDNfRVF5TkwzMW9jOWlzM2FLWm5ySS1iUnpKcnQ1TzhPNFROMXFoVDhhUWMzd2tIU1RZbEFIbGtwbmZaYUJnV1dpbldfdGRJOXhFWjc5SzVPdXhwdktiQjdteTBYRlNmWnA2Ukx4TW9yVl9CcldWVlkzd1FBX254OTZGd2JQMUc2SXVMcFVONTBFSENmRUR2R25PN3dPRnRlYnJERHlUc002cURYVkF3R2xDeXVHNHotSFhXVjRPUHhiTGhPTno1RzZwX1VDUXEyLWpid1Y1bmRYb3F6bDloVktnTi0?oc=5",
+      "date": "Sun, 11 Oct 2026 14:30:53 GMT",
+      "source": "Google News — R&B"
+    },
+    {
+      "title": "Exclusive: Here’s What Students Learn at The Bronx School of Hip-Hop - The Root",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQVkt0SW9mNG1WbmFrTFJwS3BDX1JJQjVhOUNCVE9DOTU2Tm51ZVY4b3lrbkxaaUZGZHlZa3JyTk5OV2RfZmt5YmI4aTVhamhqUGVpVkNiR0dFeW1Iek5YRWxsczRJX2xZUlB4Z245aHM1eDBjbHk2THJiXzRFT25haW9GbHc3ZXp4dVNpa1BpNzNJbkk?oc=5\" target=\"_blank\">Exclusive: Here’s What Students Learn at The Bronx School of Hip-Hop</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Root</font>",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVkt0SW9mNG1WbmFrTFJwS3BDX1JJQjVhOUNCVE9DOTU2Tm51ZVY4b3lrbkxaaUZGZHlZa3JyTk5OV2RfZmt5YmI4aTVhamhqUGVpVkNiR0dFeW1Iek5YRWxsczRJX2xZUlB4Z245aHM1eDBjbHk2THJiXzRFT25haW9GbHc3ZXp4dVNpa1BpNzNJbkk?oc=5",
+      "date": "Sun, 11 Oct 2026 14:30:28 GMT",
+      "source": "Google News — Hip-Hop"
     },
     {
       "title": "MJ Lenderman Debuts New Music At Good Moon Festival - Stereogum",
@@ -304,13 +318,6 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRzJKcVlxRmkzSGR3UGp4aDFYcXVSaWZEU3doRXY2LXpBRkpnTnJCTWlwUVBhV3I5TzZQU1NOZ0lDTXZwR0RhbWVMQmxtT0xlTzNpTmJYUHl3MkhFMUw5Y3E3WW95MFR1eXQ4RE82Z0lIbWlYUXRmM1k0enRBaWJXbkNNWklvRmkyLWZDVW42cw?oc=5",
       "date": "Sun, 11 Oct 2026 14:23:00 GMT",
       "source": "Google News — New Music"
-    },
-    {
-      "title": "Jay-Z Speaks On Kanye West's \"Big Brother\" Track & Chris Martin Spat - HotNewHipHop",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQTkxaZEMxcUZXczlHVWt0WVh2MlpkOTJYd3hLdTdGVzFDUFpCWGhEMmlXbUJMYVVOV1o2OUltN1BtMEJ2MGZiSFNZeWdiWjY1UkZubElzTWtOeUlZSWFCcmJXWlUzNHp5VmUwSDYwQWxSazVRcEh2ZVhtR1J2OHBNUENzQ1U?oc=5\" target=\"_blank\">Jay-Z Speaks On Kanye West's \"Big Brother\" Track & Chris Martin Spat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HotNewHipHop</font>",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTkxaZEMxcUZXczlHVWt0WVh2MlpkOTJYd3hLdTdGVzFDUFpCWGhEMmlXbUJMYVVOV1o2OUltN1BtMEJ2MGZiSFNZeWdiWjY1UkZubElzTWtOeUlZSWFCcmJXWlUzNHp5VmUwSDYwQWxSazVRcEh2ZVhtR1J2OHBNUENzQ1U?oc=5",
-      "date": "Sun, 11 Oct 2026 14:16:30 GMT",
-      "source": "Google News — Hip-Hop"
     },
     {
       "title": "See the Raconteurs Reunite for First Time in Seven Years at Jack White’s Nashville Concert",
@@ -327,24 +334,10 @@
       "source": "Google News — New Music"
     },
     {
-      "title": "Remi Wolf Burned Out on Touring. She Prioritizes Healing on New Album ‘Mud’ - Rolling Stone",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQUnItekVVaGE0UWhmTEN0SmxlTy1Sb1doTUJTOVBOVHlmcXZ5TlJtYmhoYXhBZFlnODZRZ0dhX3VLc20wdXpxdzhUbjFlMHBpZEdaOFR6N0dMaGxZcElJRmVjMkliVmg3Sk9oLWkxd3VhNTVHNFk2NlkwQzF4M1QxNXliS2xtRW8wTGgyellubFZZRkx5UU9GNzJ3dEI4Ui1w?oc=5\" target=\"_blank\">Remi Wolf Burned Out on Touring. She Prioritizes Healing on New Album ‘Mud’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rolling Stone</font>",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUnItekVVaGE0UWhmTEN0SmxlTy1Sb1doTUJTOVBOVHlmcXZ5TlJtYmhoYXhBZFlnODZRZ0dhX3VLc20wdXpxdzhUbjFlMHBpZEdaOFR6N0dMaGxZcElJRmVjMkliVmg3Sk9oLWkxd3VhNTVHNFk2NlkwQzF4M1QxNXliS2xtRW8wTGgyellubFZZRkx5UU9GNzJ3dEI4Ui1w?oc=5",
-      "date": "Sun, 11 Oct 2026 13:00:00 GMT",
-      "source": "Google News — New Music"
-    },
-    {
       "title": "Next Week In Music | October 12-18 • 20 New Books (Part 1) - Tinnitist",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNWDU2dUpoVnRzanFfZjBTdVRxRGhVQS10N19hTkp1VkNweUZhMnBiTDdVSlYzdlVwdFE4eEw2WERoclFRanRUVS1LLWhCSU1IczFjS0ZYR3laQ2lsX0k1b1VBWUdJeUx1RlVMUGR6WklHV21WUl9WNlhobVBBRG9FS29KY0l3YXcycjFydGltWQ?oc=5\" target=\"_blank\">Next Week In Music | October 12-18 • 20 New Books (Part 1)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tinnitist</font>",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWDU2dUpoVnRzanFfZjBTdVRxRGhVQS10N19hTkp1VkNweUZhMnBiTDdVSlYzdlVwdFE4eEw2WERoclFRanRUVS1LLWhCSU1IczFjS0ZYR3laQ2lsX0k1b1VBWUdJeUx1RlVMUGR6WklHV21WUl9WNlhobVBBRG9FS29KY0l3YXcycjFydGltWQ?oc=5",
       "date": "Sun, 11 Oct 2026 12:40:08 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "Next Week In Music | October 12-18 • 20 New Books (Part 2) - Tinnitist",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOdFZ0dl9YSWVzQTRoWTNnZlhMTDl6NUVodkFpbklhSUd1cEZyX0ZNYlY3MW5iT2pFa3lWdnI0TGdGaXlOTnhBa2Z6VC1PQXpIVVFITmg5OWs1UlRYY1dSQzkwOGkzaThtQ29ZakdLLWpGaVRncmRyZndNeURDU2lyb1lKNExyRklJQm9LV2FYQQ?oc=5\" target=\"_blank\">Next Week In Music | October 12-18 • 20 New Books (Part 2)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tinnitist</font>",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdFZ0dl9YSWVzQTRoWTNnZlhMTDl6NUVodkFpbklhSUd1cEZyX0ZNYlY3MW5iT2pFa3lWdnI0TGdGaXlOTnhBa2Z6VC1PQXpIVVFITmg5OWs1UlRYY1dSQzkwOGkzaThtQ29ZakdLLWpGaVRncmRyZndNeURDU2lyb1lKNExyRklJQm9LV2FYQQ?oc=5",
-      "date": "Sun, 11 Oct 2026 12:20:40 GMT",
       "source": "Google News — New Music"
     },
     {
@@ -383,10 +376,10 @@
       "source": "Google News — R&B"
     },
     {
-      "title": "Chris Brown, Usher concert to be held in Cincinnati, canceled - WHIO TV",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPWDdLd09BT29hU0NnQ25ndExEMDNBUUVPN2dDLXdoOTk5ZGZhMlQ2VlA2cDNXdDg1WE5uVUE1U3lxYWk2bzhvYWIxSmppOFh4TWhFVjNCUzB5ODRpdTZvNG9UMVc2UWtldVB0Q2lEV24xTi1xMjYtSHVZNFEzc09hQ2pScEZkdEM1OXpDTzY4LUJNbFFCN2pwUDVFaThwS2lBQzJWaGNxUUlYa3QwcU4zaTR5QdIBxwFBVV95cUxQZC11VHRiLWlRRzdZRk1Md0xHOC1QenhXb2NOYm5zRUVyUVV5S3QyOGp0ejg0bXQzSU9sSFlJY3lrYWttZ0Q1dVVJUkRwdktHSWxWZmFabHlHVmRBaHA1R3NySUl6eEJyNVVVOTJzVjVpWk5QbVV4U2NQZHN0S3NsdkM4dm9JMjB0MUVjZ1huOEtLbkxCOENicC11NzZZdWltX1JmdXg2U0JoNkhZT2xlYlB3UHItd1BMOEtLTnU2QUhaVXR1ZlJJ?oc=5\" target=\"_blank\">Chris Brown, Usher concert to be held in Cincinnati, canceled</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WHIO TV</font>",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWDdLd09BT29hU0NnQ25ndExEMDNBUUVPN2dDLXdoOTk5ZGZhMlQ2VlA2cDNXdDg1WE5uVUE1U3lxYWk2bzhvYWIxSmppOFh4TWhFVjNCUzB5ODRpdTZvNG9UMVc2UWtldVB0Q2lEV24xTi1xMjYtSHVZNFEzc09hQ2pScEZkdEM1OXpDTzY4LUJNbFFCN2pwUDVFaThwS2lBQzJWaGNxUUlYa3QwcU4zaTR5QdIBxwFBVV95cUxQZC11VHRiLWlRRzdZRk1Md0xHOC1QenhXb2NOYm5zRUVyUVV5S3QyOGp0ejg0bXQzSU9sSFlJY3lrYWttZ0Q1dVVJUkRwdktHSWxWZmFabHlHVmRBaHA1R3NySUl6eEJyNVVVOTJzVjVpWk5QbVV4U2NQZHN0S3NsdkM4dm9JMjB0MUVjZ1huOEtLbkxCOENicC11NzZZdWltX1JmdXg2U0JoNkhZT2xlYlB3UHItd1BMOEtLTnU2QUhaVXR1ZlJJ?oc=5",
-      "date": "Sun, 11 Oct 2026 07:54:36 GMT",
+      "title": "This Day in Hip-Hop and R&B History: October 11 - WiLD 94.1",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPNkRhdnBvaThhQUVJV3V2VkU3aEJHOUtoTFhlYWF0SEVBRTRtdHh6Sk5QWnRxeXNFVGhxUHpWaEJObWZEci1vX0FQbHBkZFE3OXlWcHhkMXZ0bHdKZHdTN0t6Z3dIUkF4Sy1mM0dsU0pVbnBCX1NwWnNCbUhOUk1FZ1Zfbw?oc=5\" target=\"_blank\">This Day in Hip-Hop and R&B History: October 11</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WiLD 94.1</font>",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNkRhdnBvaThhQUVJV3V2VkU3aEJHOUtoTFhlYWF0SEVBRTRtdHh6Sk5QWnRxeXNFVGhxUHpWaEJObWZEci1vX0FQbHBkZFE3OXlWcHhkMXZ0bHdKZHdTN0t6Z3dIUkF4Sy1mM0dsU0pVbnBCX1NwWnNCbUhOUk1FZ1Zfbw?oc=5",
+      "date": "Sun, 11 Oct 2026 07:00:00 GMT",
       "source": "Google News — R&B"
     },
     {
@@ -642,6 +635,13 @@
       "source": "Google News — R&B"
     },
     {
+      "title": "New Music Friday: 5 Songs You Need to Hear This Week (10/09) - VICE",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ3hEa1I2ZnVhaDU2ZGpOeVRyRHJRclV5Wlkxa0xuSHhCX2lLTHNET3FmdGk0WVJoU2hOZldRM1pKVE5UYnUxSzlNT3dfWGZORXNwWTJERlVzREFmWlA3aDZEay1uZUExTUItTVNrbHJOa3lGR09kM1F5OHdHWDY3bjZlTmVQWi1rOUVkWGV5SWFlUERo?oc=5\" target=\"_blank\">New Music Friday: 5 Songs You Need to Hear This Week (10/09)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VICE</font>",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ3hEa1I2ZnVhaDU2ZGpOeVRyRHJRclV5Wlkxa0xuSHhCX2lLTHNET3FmdGk0WVJoU2hOZldRM1pKVE5UYnUxSzlNT3dfWGZORXNwWTJERlVzREFmWlA3aDZEay1uZUExTUItTVNrbHJOa3lGR09kM1F5OHdHWDY3bjZlTmVQWi1rOUVkWGV5SWFlUERo?oc=5",
+      "date": "Fri, 09 Oct 2026 16:21:55 GMT",
+      "source": "Google News — New Music"
+    },
+    {
       "title": "Alanis Morissette Made a Holiday Album",
       "description": "This Christmas season, expect Good Weather for Immaculate Conception",
       "url": "https://pitchfork.com/story/alanis-morissette-made-a-holiday-album/",
@@ -728,8 +728,8 @@
       "bytes": 18461,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=950e50db1eee4ea18d886726a20ff242 benchma",
-      "latencyMs": 140
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=eb40210440c849f9bef9dfa32831cce6 benchma",
+      "latencyMs": 184
     },
     {
       "source": "HipHopDX",
@@ -740,7 +740,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 115
+      "latencyMs": 137
     },
     {
       "source": "AllHipHop",
@@ -751,7 +751,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 911
+      "latencyMs": 483
     },
     {
       "source": "No Jumper",
@@ -762,62 +762,62 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 996
+      "latencyMs": 771
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 122502,
+      "bytes": 122866,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 468
+      "latencyMs": 496
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
-      "stories": 102,
-      "bytes": 130045,
+      "stories": 101,
+      "bytes": 128657,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 430
+      "latencyMs": 539
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 124950,
+      "bytes": 125378,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 435
+      "latencyMs": 418
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 123910,
+      "bytes": 123882,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 451
+      "latencyMs": 514
     },
     {
       "source": "Billboard",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 131601,
+      "bytes": 131641,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 122
+      "latencyMs": 220
     },
     {
       "source": "Pitchfork",
@@ -828,7 +828,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 57
+      "latencyMs": 121
     },
     {
       "source": "Rolling Stone — Music",
@@ -839,7 +839,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 93
+      "latencyMs": 289
     },
     {
       "source": "Variety — Music",
@@ -850,7 +850,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 52
+      "latencyMs": 518
     }
   ],
   "errorCount": 0,

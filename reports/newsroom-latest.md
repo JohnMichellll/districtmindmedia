@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-12T02:12:37.340Z
+Generated: 2026-10-12T02:46:19.381Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 223
+Stories discovered: 224
 
 1. **New Music Radar: Dirty Harry, Evan Oxford and Jamie Koul - - Happy Mag** — Google News — New Music — Mon, 12 Oct 2026 01:50:48 GMT
    https://news.google.com/rss/articles/CBMibEFVX3lxTFA0cUtWRWktZkJTV3NqclE0VmJnSmQwRXBYSldLMTlnRWI1UDdaQ2hET3JkVDYtcEx5UUdmaVNiS3JEYWdwcnFFZDM3bEVKanM0TEJ1RjNjRlVtTUJTV0tkU2lnaVJwaWlBUE1PbA?oc=5
@@ -16,30 +16,30 @@ Stories discovered: 223
    https://news.google.com/rss/articles/CBMipwFBVV95cUxQNGhMM2ZzeFlzS3NaU3FZOWVER3c4d3dxMHdBS1FvVVNrSmlUVWYtTVJ2RmkxV3BSRnZYV1NBRU42YkY5amVNWElsdlU3djZBQlN3dWFjdnNBZHdjNC1rYVhZdDhPOG92aFNld2FJTWVqbnZOS0gxWURlNzJZM2N1YnpIYVB4Ymg0eDB2YlBjMmFBd18tSFRGbm04cFlfRjZheGc0NW5Taw?oc=5
 5. **Bruno Mars Ties Kendrick Lamar & SZA’s 31-Week Chart Record** — AllHipHop — Mon, 12 Oct 2026 01:00:52 +0000
    https://allhiphop.com/news/bruno-mars-ties-kendrick-lamar-szas-31-week-chart-record/
-6. **Kim Ximya’s ‘Dogma’ Challenges Listeners with 26-Minute, No-Skip Album Experience - 조선일보** — Google News — Hip-Hop — Mon, 12 Oct 2026 00:57:43 GMT
-   https://news.google.com/rss/articles/CBMijgFBVV95cUxOejZiQnQ2T0VjTlJDdzlIbGJ6QnA3REdpeEdPN1NkcUE1Vk5FZEp5TWdEMzh1eFRGZngxOWVQeUI0TV9fMkRoaFh4allYVk1MV0ZHNUJUYmIwQ2VOS2FXMkNsRXg5SU9tckJLRWV3YkNWU3o2THhSWHIzRTVUa1ZYUWNia0MyNmI2TTd3bmp3?oc=5
-7. **News From Hip Hop To Hollywood! - The Hype Magazine** — Google News — Hip-Hop — Mon, 12 Oct 2026 00:49:31 GMT
+6. **News From Hip Hop To Hollywood! - The Hype Magazine** — Google News — Hip-Hop — Mon, 12 Oct 2026 00:49:31 GMT
    https://news.google.com/rss/articles/CBMikAFBVV95cUxQWDN4TzRsdmNVQnBuOFR5UFVmMVB4Nng1V1RRTjMxWDh3Yl82Q1dOM190X3hubkhwNWIwUFVRbnJ4Qjl0NjlmSnRmSEMyVHlvYmRJZ1JJdC1vNjBTazlwdjV5ZUNiV2ZhcVlqLUdQRVVGVkFOU0FkRXhjRndQZkx3dXlMb1YyTkp3UjZqRzZ4QWg?oc=5
-8. **Young Thug Reveals He’s Making an R&B Album: ‘Most of the Songs Are Sexual’ - Yahoo** — Google News — R&B — Sun, 11 Oct 2026 23:55:32 GMT
+7. **Young Thug Reveals He’s Making an R&B Album: ‘Most of the Songs Are Sexual’ - Yahoo** — Google News — R&B — Sun, 11 Oct 2026 23:55:32 GMT
    https://news.google.com/rss/articles/CBMimAFBVV95cUxNQndqdzV1WVowaElPdjhsUXVETUVoQ2owRWl2X3RSdTYtYXRJU3NmdUozR1RudThzQ1d2RUxDWl9zV1QzdEtXT0lwSUt1WW03MjMyMnZwcUZWVEVUaDRmSGl2cTBrWnRScDM5Vm1jc1ZIakctTEF2YWtOQzE0ZE9CT1ZfejZYcEpHd2VZanp5WHR0bkxUT2tESQ?oc=5
-9. **Cardi B Blames Unfinished Arrangements For Jamaica Show Cancellation** — AllHipHop — Sun, 11 Oct 2026 23:54:00 +0000
+8. **Cardi B Blames Unfinished Arrangements For Jamaica Show Cancellation** — AllHipHop — Sun, 11 Oct 2026 23:54:00 +0000
    https://allhiphop.com/news/cardi-b-blames-unfinished-arrangements-for-jamaica-show-cancellation/
-10. **Fans Choose Troye Sivan’s ‘She’s the Best’ as This Week’s Favorite New Music - Billboard** — Google News — New Music — Sun, 11 Oct 2026 22:42:38 GMT
+9. **Fans Choose Troye Sivan’s ‘She’s the Best’ as This Week’s Favorite New Music - Billboard** — Google News — New Music — Sun, 11 Oct 2026 22:42:38 GMT
    https://news.google.com/rss/articles/CBMipgFBVV95cUxQdXJRWXR0UFU3WU12U2NxWlFIaXVLQ3lKc240Uk9Xek92dUVnY0t6X3hxTWk3cGV4d2ZESHlzY05FTXl5ZWtTdVZGLTBOY28yWGVCcnJQcVRlWDZKbHZ5RWp1NV9aN2xzbWZtZUdoNkdrNGdPU2pDY2tDbnE2SE81U3dSOHZrajMyUE9udTVZSDJKeVZZU0tyNFdVd3hSUTVhMFJHaldB?oc=5
-11. **Fans Choose Troye Sivan’s ‘She’s the Best’ as This Week’s Favorite New Music** — Billboard — Sun, 11 Oct 2026 22:42:06 +0000
+10. **Fans Choose Troye Sivan’s ‘She’s the Best’ as This Week’s Favorite New Music** — Billboard — Sun, 11 Oct 2026 22:42:06 +0000
    https://www.billboard.com/music/music-news/troye-sivan-shes-the-best-new-music-poll-results-1236358805/
-12. **A$AP Rocky Reportedly Broke Attendance Record With Latest Fashion Show** — AllHipHop — Sun, 11 Oct 2026 22:26:00 +0000
+11. **A$AP Rocky Reportedly Broke Attendance Record With Latest Fashion Show** — AllHipHop — Sun, 11 Oct 2026 22:26:00 +0000
    https://allhiphop.com/rumors/aap-rocky-reportedly-broke-attendance-record-with-latest-fashion-show/
-13. **Album Review: Meshell Ndegeocello – Synonym - mxdwn Music** — Google News — R&B — Sun, 11 Oct 2026 22:22:11 GMT
+12. **Album Review: Meshell Ndegeocello – Synonym - mxdwn Music** — Google News — R&B — Sun, 11 Oct 2026 22:22:11 GMT
    https://news.google.com/rss/articles/CBMijAFBVV95cUxNMmhfclpqRXdnU3RWdEx6ajFQQTUxelNGai1OQmZnVFhjVXZ0TnpTSWdkck9CUVFicmxEMW5BZnNSM2t1ZDRfRkl6VTRrQk5GWWI2QjdqVlc3YjRfOVY0MU5Ba19GUC1yUHBHMWQ3cng4MUZqT25XcENKb2JvY1AzWkFWZExWQ2tBd09PStIBkgFBVV95cUxONXNrRXdEa2s0NFRYRTNrRVdvQm9aQ0lpb3ZjSTAyMWoyLXVYYl9lRFdOeWg1dzF4alhBWTFhSVo0cy1rQmd5MEVfVzVWdkQwRjROYXMxTWxpNEVjWmN6clEzRXBnaFdCOVNTQzBQWU5md2FIX05XbzdOVi01bWlIdG8yeXhFVkVCcjhiSVcyYkhpZw?oc=5
-14. **John Stamos Addresses Mike Love’s Health as Beach Boys Concert Footage Raises Concerns: ‘We Don’t Know What the Future Holds — We Have Tonight’** — Variety — Music — Sun, 11 Oct 2026 21:49:56 +0000
+13. **John Stamos Addresses Mike Love’s Health as Beach Boys Concert Footage Raises Concerns: ‘We Don’t Know What the Future Holds — We Have Tonight’** — Variety — Music — Sun, 11 Oct 2026 21:49:56 +0000
    https://variety.com/2026/music/news/mike-love-john-stamos-statement-beach-boys-health-concern-1236908432/
-15. **Cole Bennett Gives Promising Update On His Chief Keef Documentary - HotNewHipHop** — Google News — Hip-Hop — Sun, 11 Oct 2026 21:43:02 GMT
+14. **Cole Bennett Gives Promising Update On His Chief Keef Documentary - HotNewHipHop** — Google News — Hip-Hop — Sun, 11 Oct 2026 21:43:02 GMT
    https://news.google.com/rss/articles/CBMihgFBVV95cUxNZ3ZvX29VMWJleDQ2RGhFNkRkX3lQbjlockxIeDR1TlZkMlFjTjRyWi1UN19UT3FyM1JvbXRFZEtXOExIaEF4OTVMaXk0TFViR2hoaFYzeUxOdHB2ZWVRV0xPQUpWSnpMWlkzb09PanhBTFprX1I2QVVybzBaT2p0MEdSRjdSZw?oc=5
-16. **Ella Langley Addresses Bomb Threat That Led to Show Cancellation: ‘A Concert’s Not Worth a Human Life’** — Billboard — Sun, 11 Oct 2026 21:19:17 +0000
+15. **Ella Langley Addresses Bomb Threat That Led to Show Cancellation: ‘A Concert’s Not Worth a Human Life’** — Billboard — Sun, 11 Oct 2026 21:19:17 +0000
    https://www.billboard.com/music/country/ella-langley-concert-bomb-threat-stage-return-1236358808/
-17. **Chanel West Coast Trades Hip-Hop For Country Grit On New Single “Down To The Filter” - That Eric Alper** — Google News — Hip-Hop — Sun, 11 Oct 2026 21:06:24 GMT
+16. **Chanel West Coast Trades Hip-Hop For Country Grit On New Single “Down To The Filter” - That Eric Alper** — Google News — Hip-Hop — Sun, 11 Oct 2026 21:06:24 GMT
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY18tRVpDRGZENkh1bFY2RURKRnRPSlRVWlNQQTlFcmxhaHpuZHdFWmRNcXpEWDVIV0t5SUlsZWZWQ0VlLVpqTjRLZnItM1U2TWY1Zkt1SnFxX280WXYxeFh5RWxkMVJQbVo1dWZXN2Jhb1ZBU3k5WUpBU1llMEV4dXhsSklXd01UX2NPZWpvSXo2ZXpXUWphbzlORXRJdVhnOEZCUmJsU3pUbzlNdWttdldiRnhJNGhhc0F1U3J6VkZadw?oc=5
+17. **Melodic Metalcore is Back with Imminence's New Release "Axis Mundi" - MUSIC SCENE MEDIA** — Google News — New Music — Sun, 11 Oct 2026 21:03:32 GMT
+   https://news.google.com/rss/articles/CBMingFBVV95cUxPTmlaTEZhckxsUl8yeFloM1JoZkRGYm5CejVhUVVUaDk4emJ0Q1pkc21CeFVYSE9COXo0RjBvQUF6SGJxYTYyc2o3R3h0OFRSREpzZ3d2QnpUMmU5YWpQWUhpd3BSNE5rX2oyZDZBWGwxc0NYQmE2bDBaMWZfQzhjRG5pb3lTdUhsSk9TX0Jta2dnN3FjeWdzNEdUa1l5QQ?oc=5
 18. **Taylor Swift Spends Her 100th Week at No. 1 on the Billboard 200, as ‘Life of a Showgirl’ Stays on Top in Week 2 of ‘Encore’ Rebound** — Variety — Music — Sun, 11 Oct 2026 20:22:14 +0000
    https://variety.com/2026/music/news/taylor-swift-100th-week-billboard-200-number-one-beatles-1236908356/
 19. **TLC Continues Tour As Chili Shares Encouraging T-Boz Update** — AllHipHop — Sun, 11 Oct 2026 20:00:00 +0000
