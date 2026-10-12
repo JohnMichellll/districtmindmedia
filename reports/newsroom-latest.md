@@ -1,68 +1,68 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-12T17:11:49.669Z
+Generated: 2026-10-12T17:45:09.215Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 216
+Stories discovered: 218
 
-1. **Watch ’The Voice’ Singers Connor Closs & Cal Cook Have a Fierce Falsetto-Off to Sombr’s ‘Homewrecker’** — Billboard — Mon, 12 Oct 2026 17:04:26 +0000
-   https://www.billboard.com/music/pop/watch-the-voice-connor-closs-cal-cook-sombr-homewrecker-1236359117/
-2. **Taylor Swift’s ‘Patient Zero’ Spends Second Week at No. 1 on Billboard Hot 100** — Billboard — Mon, 12 Oct 2026 17:03:45 +0000
-   https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-second-week/
-3. **The Jason Show: Kelly Clarkson vs. shop, new Britney Spears music, Gadget Guy - FOX 9 Minneapolis-St. Paul** — Google News — New Music — Mon, 12 Oct 2026 16:43:40 GMT
-   https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RQ3V6NzhKNktRRnNQNlBoRXNvblBBZ1B3dEZHSEEwb25JVGZUWTU5ZHVxUmJvejFMZmVIb2liZUc4V1BfRHVGdFJZd1hmalV0X0hZMTFROGdPUEnSAWBBVV95cUxQa1pwX3AyTTlPTjdLZ1h4TlJsNUk0bGR6TW9NNXZEUUhGWlFQaDlWY2RsMy1PdmM1YUxldnp0ZUJSakp0Tzh1MEFBb3g5c0EtNV9kanZLS3VJVG1JZVBYUWw?oc=5
-4. **The Future of Pop Music Is Approaching and Black Women Are Leading the Charge — Why Aren’t They Also Leading the Charts? (Critic’s Take)** — Billboard — Mon, 12 Oct 2026 16:39:38 +0000
-   https://www.billboard.com/music/features/tinashe-ravyn-lenae-tyla-flo-black-pop-girl-renaissance-1236359009/
-5. **Tracy Morgan & Lin-Manuel Miranda Revive “Werewolf Bar Mitzvah” Rap At “30 Rock” Reunion** — AllHipHop — Mon, 12 Oct 2026 16:30:01 +0000
-   https://allhiphop.com/news/tracy-morgan-lin-manuel-miranda-revive-werewolf-bar-mitzvah-rap-at-30-rock-reunion/
-6. **BossMan Dlow, Pluto and Bellygang Kush Bring Major Hip-Hop Energy to SpelHouse Homecoming - Streetz 94.5** — Google News — Hip-Hop — Mon, 12 Oct 2026 16:28:45 GMT
-   https://news.google.com/rss/articles/CBMixAFBVV95cUxNV3RBRG4yWk92Y1VOdFlqUmdId2U4UVB4M1U2V0VsZFpraEd4QnVXaDZPenVFVGY0SndIQnkwX0xNMFprb3IzbXFDTUdMU00wR3FFdzYtNG9LT0huS1VfMnBVV0ZkV3ZZRS1MWTJjNTlMaEdzZGZuNTZCbFNGNHdNcU5XTXlkbkFSRVJ4d01tN1RPVkVoQUxvNi1oT0RFdE9kSTIxV1A1OVlLZ2JOdXVmdTc2c0U5Q3dzT0J4aW4yTEVBMldm?oc=5
-7. **LL Cool J Is Taking R&B Romance To Sea With ‘I Need Luv Cruise’ - That Eric Alper** — Google News — R&B — Mon, 12 Oct 2026 16:04:25 GMT
-   https://news.google.com/rss/articles/CBMipAFBVV95cUxNX1hJdnBWM2ZJRHI0bzFGTnlNQkZ3bkxJWlVuODBRN01ZdU84NjN0VW84TjdoNVo3R0VOWTA0SzREZmp4c01iT2RSM2ZCbEZxVS1va2FqSlpjNF9qZUxuaUg4VkpzMi1XaWd5Rm4tSGt2Zm5EMlhEVWdYMjJxNU5kN29uTkNZYUNTYzR3NWlnSUVMeUlGVTJZaENKSE9PMVN6azBmbw?oc=5
-8. **Britney Spears Just Released a 2001 Song She Wrote With Justin Timberlake** — Rolling Stone — Music — Mon, 12 Oct 2026 16:02:02 +0000
-   https://www.rollingstone.com/music/music-news/unreleased-britney-spears-song-written-justin-timberlake-1235641215/
-9. **Shyne Reveals Jay-Z Planned To Sign Him Before Hearing His Post-Prison Music** — AllHipHop — Mon, 12 Oct 2026 16:01:07 +0000
-   https://allhiphop.com/news/shyne-says-jay-z-planned-to-sign-him-before-hearing-his-post-prison-music/
-10. **R&B legend Usher visits Trill Burgers after Houston concert stop - Chron** — Google News — R&B — Mon, 12 Oct 2026 16:00:07 GMT
+1. **Muni Long’s Ex-Managers Cannot Subpoena Her Medical Records in Lawsuit, Judge Says** — Billboard — Mon, 12 Oct 2026 17:42:52 +0000
+   https://www.billboard.com/pro/muni-long-ex-managers-cant-subpoena-medical-records/
+2. **Big Draco For President?! Soulja Boy Teases 2028 White House Run - Hip-Hop Wired** — Google News — Hip-Hop — Mon, 12 Oct 2026 17:36:09 GMT
+   https://news.google.com/rss/articles/CBMieEFVX3lxTFA1OHNGRFdSTVItbkhCSE9lUjNpN2NHaDM2UFMxLWk2VmozYXd3TDhFZzlIajZMN19jeEYyTzJtWkNuZ0lxMVN3eTh1VFFPNFZXcFp4aWxrZy1BU1hGNEk0dlNVc2t3THRQSjMtTHdMQWtoSlVVTk1ueA?oc=5
+3. **Taylor Swift’s ‘Patient Zero’ Holds Steady at No. 1 for Second Week on Singles Chart** — Variety — Music — Mon, 12 Oct 2026 17:34:12 +0000
+   https://variety.com/2026/music/news/taylor-swift-patient-zero-no-1-second-week-singles-chart-1236909200/
+4. **Billboard’s Music Industry Events Calendar** — Billboard — Mon, 12 Oct 2026 17:33:00 +0000
+   https://www.billboard.com/pro/music-industry-events-calendar-festivals-awards-conferences/
+5. **Fontaines D.C. Recruit Rosalía for New Song “Where Is Gone?”** — Pitchfork — Mon, 12 Oct 2026 17:32:37 +0000
+   https://pitchfork.com/story/fontaines-dc-recruit-rosalia-for-new-song-where-is-gone/
+6. **What Does Slick Rick Know About The “Demons” Trying To Stop Hip-Hop?** — AllHipHop — Mon, 12 Oct 2026 17:30:00 +0000
+   https://allhiphop.com/rumors/what-does-slick-rick-know-about-the-demons-trying-to-stop-hip-hop/
+7. **Billboard Hot 100 Top 10 Countdown for Oct. 17, 2026 | Billboard News** — Billboard — Mon, 12 Oct 2026 17:28:01 +0000
+   https://www.billboard.com/video/billboard-hot-100-top-10-countdown-october-17-2026/
+8. **Grimes Says She’s Not Releasing Songs ‘About Elon’ on Upcoming Album ‘Psy Opera’ — Yet** — Billboard — Mon, 12 Oct 2026 17:24:18 +0000
+   https://www.billboard.com/music/music-news/grimes-new-album-psy-opera-is-it-about-elon-musk-1236358979/
+9. **D’Angelo Was 90s Fine: Remembering The R&B Icon 1 Year Later - Black America Web** — Google News — R&B — Mon, 12 Oct 2026 17:22:38 GMT
+   https://news.google.com/rss/articles/CBMibEFVX3lxTE5wOVpCbThFdzhfSWgxbUlKOVFfdWdtUFZtck1TWTJMSEhhbWExWGdCdnkxVkg2QWtta1NqZHdmX2VTVVA0QTU1ajFMc2hwSmVIRkZ1TWxzdEg4QVpoc0tVNHhsck9jcjNxNWE3OQ?oc=5
+10. **Don Cusic Traces Country Music’s Lifelong Pull on Bob Dylan in New Book - Backstage Country** — Google News — New Music — Mon, 12 Oct 2026 17:21:47 GMT
+   https://news.google.com/rss/articles/CBMisAFBVV95cUxOMG1YNXR0RFFIeDJ6Y1ZsTGUtTVVLYjhmbmo2Q0pZX0dULXFhNEhHVk1LZU1HVTdFN3lVWlRmUndzTkx2cXdwWkh0eWxxRDVFeDM2Rk5qa3JoZ3loNWJ4LVJrdlhaLXlSeE1ScEUtaTlBSEcwbmF1Vm93VGVfeUIxUDdPRVBVNnp1TkNqSHRTR3MxQ2E1cEViMmQ0cFh1MDZQNGhhZlJ1Z0MwbXRKeDRrcw?oc=5
+11. **Usher and Chris Brown cancel four R&B tour concerts; is it connected to a UK court date? What fans need to - The Economic Times** — Google News — R&B — Mon, 12 Oct 2026 17:19:44 GMT
+   https://news.google.com/rss/articles/CBMijAJBVV95cUxOaWFmWjJTZWluSlpIcVc5elBkaEM0Mzl4MW5uOTFLQTFtY2JjUXRPMEZ4ZmJjVFhySlRzOFR2U2RvMnZkRi1sRGotOEd5VURUMGpGV1ItRVliRVhzOUVnbmNFdlhIVUpRa2ZyQUQ5VENQWG5sTVJ3UEhqeGE2ZWNDc1lfNXpBejJWR09SQjZvYUFBeVd6NG5VbXV4UXdzRi1KdW1vVlIxa3BhUWJqemZBNUVZNTFlbmtvTGMwemxMN2pWczQtMTVzNVRHSGUxRGNGLW5tb0w1SktFUUpkTWl3bkNhNG9ra2pmeUN5Vy1rRFNOUXBwMlFCM3FUTy1KUm5QY25vM01DVU1tVWZp0gGSAkFVX3lxTFBTdUlhdVJVQXJ2eFpmY1hXTGJoQWxEYWhCbDZMWjllSkdkZ21lT0hscno5TDNjQXFOWWhwMkRyRy1PZ0E5YlJaNUg1WnNDdjdOWDY2SklUcnN5WkhrRVMybjFmRm1vOUd1Um0zNnhUWUJJRUxoa1pubmxmX3lxck5ZQUlZNkpvUTR4bF80ZngtSnJLeHdaQm40Z2xPUGw1Tkt3clBSNXpyWU14a0JFOVowRllQVEZvcXk4amEyNk4xQWk1bWR2djh4MWFlZnVnOGJWNjJTOVpPUGFGYnFSU1N1UjAxcExITWZIZWxXTTlfWmhaQjRJTVdYd1RmR2kyUUJmUUMtSHJ1SDZ2Qm9aUTBZa3c?oc=5
+12. **R&B legend Usher visits Trill Burgers after Houston concert stop - Chron** — Google News — R&B — Mon, 12 Oct 2026 17:08:56 GMT
    https://news.google.com/rss/articles/CBMihgFBVV95cUxQSlFPTWJoNWNvWkRMQzlseFlLYjBrRk5ab3FwN29qVkZLWU5PUTFQc2RKMUdoRUM4QklXcWlqaHktZXgzV2gtYmdUNmpTTFAxU2lMbWJncFVnRnBoQTBjS3FZckFHWDNwY01FY3BnS19GU09PcFozemQyZExITXczdU50c1BvZw?oc=5
-11. **New Music From The Dryes: “Mud Room” - WKRN News 2** — Google News — New Music — Mon, 12 Oct 2026 15:57:57 GMT
+13. **Watch ’The Voice’ Singers Connor Closs & Cal Cook Have a Fierce Falsetto-Off to Sombr’s ‘Homewrecker’** — Billboard — Mon, 12 Oct 2026 17:04:26 +0000
+   https://www.billboard.com/music/pop/watch-the-voice-connor-closs-cal-cook-sombr-homewrecker-1236359117/
+14. **Taylor Swift’s ‘Patient Zero’ Spends Second Week at No. 1 on Billboard Hot 100** — Billboard — Mon, 12 Oct 2026 17:03:45 +0000
+   https://www.billboard.com/lists/taylor-swift-patient-zero-hot-100-number-one-second-week/
+15. **The Jason Show: Kelly Clarkson vs. shop, new Britney Spears music, Gadget Guy - FOX 9 Minneapolis-St. Paul** — Google News — New Music — Mon, 12 Oct 2026 16:43:40 GMT
+   https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RQ3V6NzhKNktRRnNQNlBoRXNvblBBZ1B3dEZHSEEwb25JVGZUWTU5ZHVxUmJvejFMZmVIb2liZUc4V1BfRHVGdFJZd1hmalV0X0hZMTFROGdPUEnSAWBBVV95cUxQa1pwX3AyTTlPTjdLZ1h4TlJsNUk0bGR6TW9NNXZEUUhGWlFQaDlWY2RsMy1PdmM1YUxldnp0ZUJSakp0Tzh1MEFBb3g5c0EtNV9kanZLS3VJVG1JZVBYUWw?oc=5
+16. **The Future of Pop Music Is Approaching and Black Women Are Leading the Charge — Why Aren’t They Also Leading the Charts? (Critic’s Take)** — Billboard — Mon, 12 Oct 2026 16:39:38 +0000
+   https://www.billboard.com/music/features/tinashe-ravyn-lenae-tyla-flo-black-pop-girl-renaissance-1236359009/
+17. **Tracy Morgan & Lin-Manuel Miranda Revive “Werewolf Bar Mitzvah” Rap At “30 Rock” Reunion** — AllHipHop — Mon, 12 Oct 2026 16:30:01 +0000
+   https://allhiphop.com/news/tracy-morgan-lin-manuel-miranda-revive-werewolf-bar-mitzvah-rap-at-30-rock-reunion/
+18. **BossMan Dlow, Pluto and Bellygang Kush Bring Major Hip-Hop Energy to SpelHouse Homecoming - Streetz 94.5** — Google News — Hip-Hop — Mon, 12 Oct 2026 16:28:45 GMT
+   https://news.google.com/rss/articles/CBMixAFBVV95cUxNV3RBRG4yWk92Y1VOdFlqUmdId2U4UVB4M1U2V0VsZFpraEd4QnVXaDZPenVFVGY0SndIQnkwX0xNMFprb3IzbXFDTUdMU00wR3FFdzYtNG9LT0huS1VfMnBVV0ZkV3ZZRS1MWTJjNTlMaEdzZGZuNTZCbFNGNHdNcU5XTXlkbkFSRVJ4d01tN1RPVkVoQUxvNi1oT0RFdE9kSTIxV1A1OVlLZ2JOdXVmdTc2c0U5Q3dzT0J4aW4yTEVBMldm?oc=5
+19. **LL Cool J Is Taking R&B Romance To Sea With ‘I Need Luv Cruise’ - That Eric Alper** — Google News — R&B — Mon, 12 Oct 2026 16:04:25 GMT
+   https://news.google.com/rss/articles/CBMipAFBVV95cUxNX1hJdnBWM2ZJRHI0bzFGTnlNQkZ3bkxJWlVuODBRN01ZdU84NjN0VW84TjdoNVo3R0VOWTA0SzREZmp4c01iT2RSM2ZCbEZxVS1va2FqSlpjNF9qZUxuaUg4VkpzMi1XaWd5Rm4tSGt2Zm5EMlhEVWdYMjJxNU5kN29uTkNZYUNTYzR3NWlnSUVMeUlGVTJZaENKSE9PMVN6azBmbw?oc=5
+20. **Britney Spears Just Released a 2001 Song She Wrote With Justin Timberlake** — Rolling Stone — Music — Mon, 12 Oct 2026 16:02:02 +0000
+   https://www.rollingstone.com/music/music-news/unreleased-britney-spears-song-written-justin-timberlake-1235641215/
+21. **Shyne Reveals Jay-Z Planned To Sign Him Before Hearing His Post-Prison Music** — AllHipHop — Mon, 12 Oct 2026 16:01:07 +0000
+   https://allhiphop.com/news/shyne-says-jay-z-planned-to-sign-him-before-hearing-his-post-prison-music/
+22. **New Music From The Dryes: “Mud Room” - WKRN News 2** — Google News — New Music — Mon, 12 Oct 2026 15:57:57 GMT
    https://news.google.com/rss/articles/CBMikgFBVV95cUxQZThaeUtvdjF1WExRbmozeEcteHJZSVh0ZTc4QlJ2Vk93eG1kcnZSa3RKTGZYVldYZzU2Q1pINjB0dmNsS2FPMVpOMDNPZ2xMaFhFS2VhR2NQWjNlS0FqQWIwUTQzNGl4U0YtdV9RMUtpZHhzVTNWLXNlMnd0bXlFTnluVVlIZVR0WTVTMWhlYXY0UQ?oc=5
-12. **From baggy jeans to rhinestones: Hip-hop’s denim legacy - The Atlanta Journal-Constitution** — Google News — Hip-Hop — Mon, 12 Oct 2026 15:51:27 GMT
+23. **From baggy jeans to rhinestones: Hip-hop’s denim legacy - The Atlanta Journal-Constitution** — Google News — Hip-Hop — Mon, 12 Oct 2026 15:51:27 GMT
    https://news.google.com/rss/articles/CBMimAFBVV95cUxQRE50YmJacnhEdkdVLWxoYmtTM2RLcG9wcjBWTWlkcTg3TXNUZjJudUMxSXpjLWViUVJRc19GQTd6VWk3d0w4U0dyRUVIUXdaQzV1LUlDdVdXQ18yakZqM1pVYVBqR2U2TUNxU3NzR3NkUUhfNTBxQ2VBM3RKVTl4UFZrUlpuaWZDQks4MWFGVlV6bjZnWV9mYw?oc=5
-13. **Usher, Chris Brown cancel select tour dates. What to know - azcentral.com and The Arizona Republic** — Google News — R&B — Mon, 12 Oct 2026 15:47:47 GMT
-   https://news.google.com/rss/articles/CBMisgFBVV95cUxNNEJsRnpsYW1OdWlCdzJWLXlrM0xzMEZUMk9NYTlwTnZmZWpyVURVaXhZU3dqeXNYczBQY0ZVV05iSUdwdFpOUkhLUjNYSnRUYnpLT0FHVTRiUlNpTXhTal9UYkpleTN4eGRIbkFVb0tJazA3Zlg5Q0lFa0VRWVA4YXJwbFBzYUJtdno2ak14djEwREUyQTJjOC1lVXBWMkJFcEVqclRRbmZ2bXFqX0ZMaXRR?oc=5
-14. **Harmonie Universelle opens new Evening Music season at St. Saviour's - Mount Desert Islander** — Google News — New Music — Mon, 12 Oct 2026 15:45:00 GMT
+24. **Usher, Chris Brown cancel select tour dates. What to know - Columbus Ledger-Enquirer** — Google News — R&B — Mon, 12 Oct 2026 15:46:00 GMT
+   https://news.google.com/rss/articles/CBMidkFVX3lxTE9lRzhJRTRaWDNrak1abWpLc01nUC1FbW1Ib0hDZ0lGZXgtLWtOaC1yT3VZTFVFX1hNYldMMU1HNGNPeGJyVEJ0c0QtT1FUWXN6a0Zoc1ZNdWhaNGVKTVhlUkVJckY2RE83YkViclpxRzJRVU5aVnc?oc=5
+25. **Harmonie Universelle opens new Evening Music season at St. Saviour's - Mount Desert Islander** — Google News — New Music — Mon, 12 Oct 2026 15:45:00 GMT
    https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMXVLYnhSM3BVYUZaQ05xZU1HQUtiZHlGeERNaTY4Ykk2TkV1SlZPcHBuNjA0ZkQ2ZW9LREFONEs5ZzdMSGwyNHBtTmQxVVlKQkZvZXlLcDR5d3VNWS1qRE5XZ3p3U1lseGRPSDNaUHdoSVc5VEE3TERzU0dLTXBrRlM0d2F0eXNVZGo3bXl4RTRiOWxHalB5bXN3MEZNRnh6YU9OUEU3bWUyUlhTOGhvTExxZC1BM1ByQXpRNXlPbTBFdGVvN3RJaDItNU5xdUhWWWh4UGZCYXM3MjNzZjlEWFhfQWZNSkpmZGtvWjI5WQ?oc=5
-15. **New Music Mondays: Gunna, Dawn Richard, and Ovrkast. Featured - Chicago Defender** — Google News — New Music — Mon, 12 Oct 2026 15:09:20 GMT
+26. **New Music Mondays: Gunna, Dawn Richard, and Ovrkast. Featured - Chicago Defender** — Google News — New Music — Mon, 12 Oct 2026 15:09:20 GMT
    https://news.google.com/rss/articles/CBMiigFBVV95cUxPcHhxQk5CSUhTWnhKa282RXFnSXBrZWh6NzFfMkY0RFBwUWp6U1lmTVU1TkI0eVBpaUk2YjdzeUxsOHNaWW5iSWRxU2RDaW5DNTZSUlAzQUhjNW42VGRYNU10UW01cENWTXlrYnkyLWZBYVY3UGo0aTVZaVFuQ0o1Vkc3a2F5bFpJLWc?oc=5
-16. **Grimes announces new album 'Psyopera' (featuring no Elon Musk songs) with dark and ravey single ‘Accelerando' - NME** — Google News — New Music — Mon, 12 Oct 2026 15:09:13 GMT
+27. **Grimes announces new album 'Psyopera' (featuring no Elon Musk songs) with dark and ravey single ‘Accelerando' - NME** — Google News — New Music — Mon, 12 Oct 2026 15:09:13 GMT
    https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUDJHaTdEcXdLUnNTX252aEJPZjRPWjlndlpfX1hyUlBLRXk4SmtLZm4xV182a1Y4MzdwbmtTTk1hcEkxdGNuRXBZelRxQ3I4akQxV3lZZkNwdlFjRzBJYy1DLWtITFpjQ09wNHhHMjUyMDVoX0VfRllXTnoyRktfeTdTRHBZN3hHSHE2QUxWYzdCYmtFNkJ3ZWJ5THlmT2NaVVVDSkdBZ1h3cF80a0lJTUNfSWdNM3JGeUVkNWE4eGpxVUs2OFhpaTYydF9zYXJ6TnRIay1zVHMwUQ?oc=5
-17. **Usher and Chris Brown cancel Baltimore concert scheduled for Oct. 17 - WMAR 2 News Baltimore** — Google News — R&B — Mon, 12 Oct 2026 15:08:12 GMT
-   https://news.google.com/rss/articles/CBMiigFBVV95cUxOT2x5b0RJOWVVNHE0NjFfam1Db2Q0My1UY1NMYTZKczl4VDRVQjRmci1NZVQ3S1h2aWpEMVpCbFlEYnRkOG1STlBoRm1lblZjUkxKdTh1SUhHRTU1dVNOb3pUOFdjcTJWUlRzb256VVpJQ1RQbDJRNDhBU3hMMnZYSmtvMzZ2MC0xVmc?oc=5
-18. **New Music Critique of Corey Morris, 8.2/10 - Music Connection Magazine** — Google News — New Music — Mon, 12 Oct 2026 15:05:34 GMT
+28. **New Music Critique of Corey Morris, 8.2/10 - Music Connection Magazine** — Google News — New Music — Mon, 12 Oct 2026 15:05:34 GMT
    https://news.google.com/rss/articles/CBMidkFVX3lxTE5TcVRCZ1UyN2JqYlBSYjdjQTFVSUh6dzMzTHVIUUVOQUZJSWRQaURvVGtjaW53bFhudDVwOElDNlFvOEs2VlprdlI3V0x1YklpaWVmeXN2eXp0elNHbG5FTFdLS3BxSzZ3TzFvSHN1MlZUOWFhVEE?oc=5
-19. **Ferg On How To ‘Cycle’ Hip-Hop Toward Wellness And Community - Forbes** — Google News — Hip-Hop — Mon, 12 Oct 2026 15:00:00 GMT
+29. **Ferg On How To ‘Cycle’ Hip-Hop Toward Wellness And Community - Forbes** — Google News — Hip-Hop — Mon, 12 Oct 2026 15:00:00 GMT
    https://news.google.com/rss/articles/CBMitAFBVV95cUxOUHcwWHc0eEZnVE9kSkNtcWpwdndMeUY5OEkzcjc2YnJnMTd1ODBPTjFtVVYyVmRNRzUxLVdNVE5iNjZ2Tlc2UWFLQ0RWcUFzX2cxOUE4SWl6NFYtVW1TVFFZM2E5VlJfb3VWQm5DTWJEUUZOLUItZlZGcjNwcXNxRl9lSjFJWTZseEttOS15SkR1MnNQeWtCS1EwSS1QdTJVT3FyTUZoMWxDZEFyeUtraXAtQlI?oc=5
-20. **Listen to MJ Lenderman debut new songs at Good Moon Festival - Paste Magazine** — Google News — New Music — Mon, 12 Oct 2026 14:59:00 GMT
+30. **Listen to MJ Lenderman debut new songs at Good Moon Festival - Paste Magazine** — Google News — New Music — Mon, 12 Oct 2026 14:59:00 GMT
    https://news.google.com/rss/articles/CBMinwFBVV95cUxObElVRTBBZl92STNvdTg5RHZxZ2pjREJnSktfdXVQTE43NHJaV2ZZVVQ4Y1o2Qjd6MGxVMkFPRmhLNHVVM3hCR0ZqaTFKM1F1bGx6MGFsbFV4WXVaUGo2RXZ3Y2pJT2tBSDRvVlNTOXU5b1UxZlpJbXBXLWZVb0xVR0ZXYUFqSzkzMnlnMGZZaEVYVjlpakhqSGR5TldnT28?oc=5
-21. **Drake’s ‘HABIBTI (FOMO)’ Makes Its Way Onto The Billboard 200 - Hip-Hop Wired** — Google News — Hip-Hop — Mon, 12 Oct 2026 14:16:06 GMT
-   https://news.google.com/rss/articles/CBMikwFBVV95cUxOcnJjMW42RDU3NnppNldXejUtamloMW9JeUtRRFo2VFZiaElPVU5iU2phX0MzbGMtU1doQjhNRTllUXB3YzlWNWpZc1JwZHRJSFdfaDdwNWY1b01MZlVwMTlYUUZoLXR5Nm5jR3JsakpBMEVabVJfUWcyYkxzU2x0eElzQWFaSDB3ZjBkWThEZjdpSFE?oc=5
-22. **Johnny Marr says the death of Mani inspired his new music - Paste Magazine** — Google News — New Music — Mon, 12 Oct 2026 14:16:00 GMT
-   https://news.google.com/rss/articles/CBMimwFBVV95cUxQb2Q4SUlZaWYzaW95Y29iT3IyRWpOV1lDY1hNWDhfUjEyQVpUNlpxUTZ2ZGVIY0NVZzFmUE9tRWwtNGJjRGNrMEFYNFNnNjdja29QaTJQWWcyYlZkWDdfbEt3dTNKTk5iX09iNXR2WU5yaUdLXzhqT3RWYnhwejh3VExvRk51WEtpTXdKNEwyWVdZN0hSS3FTMDEySQ?oc=5
-23. **Can gospel music be consumed by non-religious people? - GUAP Magazine** — Google News — R&B — Mon, 12 Oct 2026 14:03:32 GMT
-   https://news.google.com/rss/articles/CBMiaEFVX3lxTE5JbzdVMElWS2dsTUtjcWt6cGszMGhIT3J4RktWdEpUWmdXZVA3cGx2QWdDR2EwRVZ3MVU0SnFEOFFDajl6dElpYi05cWxBbEJic3p2OUx0Rk5oNHFVOS02M0pqcDFZWWI5?oc=5
-24. **Brandy Headlines Flytime’s House of R&B in Lagos This December - EBONY Magazine** — Google News — R&B — Mon, 12 Oct 2026 14:01:59 GMT
-   https://news.google.com/rss/articles/CBMihwFBVV95cUxOU3Nha3htRWNHaHJzbkFIeFA4cGNibFp5Ujl1UUNPcEpkUVpEMGVNaExualc2eFRUMng2SV85ZEhqVjVuUExuVGhLUFRzQTRHLU5ONmhBNTVRYk9pOW1kcUJTT3NXWEFhemViRFkxQkFRUlk5YjdHVmFaak4talQyQld5QnNtbzg?oc=5
-25. **Brandy Set To Bring Her Iconic R&B Catalog To Lagos For Flytime’s House Of R&B - Essence** — Google News — R&B — Mon, 12 Oct 2026 13:55:57 GMT
-   https://news.google.com/rss/articles/CBMie0FVX3lxTE12Y3NBSjBEdXp6Z0RlVnVQbGdZdkhsMmFJZExQXzVEZWFrNVptVnRlSEx3Tk9CTFBTQVJWb0N6cDRySGkzZW9vRENaNzhHRHdfU2g0WXdCNUIzT0xUek9nbXJFVE9oRHBpdXNkRTk4LTNEZm9FdHFKc1dvSQ?oc=5
-26. **Gunna Launches New Label - Clash Magazine** — Google News — New Music — Mon, 12 Oct 2026 13:45:29 GMT
-   https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SdWVwdVJFT05aOWJrWUdqRWJoTkhIOFlPWGx4eUxyRGFGNFFfM3VPT29EMVZoNjU4Mjd6MmNlUVBfdnVQUHZlNHdHcVFGLWxjdENUR21CU2MwNDlXOUVtT0JPUVJGbHo1?oc=5
-27. **Sammie Continues His Musical Journey With New Single "GOYARD," Following "Old Alone" and "AYO" - PR Newswire** — Google News — R&B — Mon, 12 Oct 2026 13:38:00 GMT
-   https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZTJDS2czQzdXY0xfSDNhLTl3YzZXZ2VJdnNjQVhLZExXbVVJQkZqR2g4azhNbi1XTHh5U0RoaWFWX25fUXpMOUpPX0dUUU5qR0ozVi1CdVExX1RFRTF0b1AwdVN0enNhMktaZnJwdWxNU1lmbzZGNmJXSVZKN0JjaTVDVGhmdHF3MVFmOTNXWkU0b1BsNEg0c2dMVk5UVk5qRGkzUktxVFZRSnRlV3V6bUZKOHZOeldFRjIwMlJrUmxkTVdmTkd5VlhBWjVWUzZUOWQ5ZDJkVTc0WGM?oc=5
-28. **TTB Killa Da Goat Brings the Heat With “Freaky Slut,” a Provocative Hip-Hop Anthem Fueled by Confidence, Luxury, and Attitude The Hype Magazine: Unveiling the Pulse of Urban Culture - From Hip Hop to Hollywood! Explore a Diverse Tapestry of Stories, Int - The Hype Magazine** — Google News — Hip-Hop — Mon, 12 Oct 2026 13:34:07 GMT
-   https://news.google.com/rss/articles/CBMi9wFBVV95cUxObjBMUWc5TlVPR0dxaWJtb0ExQVlNZkM3NC1LczJ6T0Y4ajI1ek1CNGpSb0RLc1YzdlBGeEttNlp2T2NiX04tVnc5SUFGenNaTkk3MWprRG1vVVFGSWF0eWNPSVl3eE9MdlhPTzFGdndjdm81UHdhdnlUUEU4N2c1c3VBZFQySkxyem5IWjM5Z1F6S1ladHZ5V3ZEN08zM2VTOFBteTFHT0FmdlhXcWpKQ0VpdHQwMkdYTS1XTGRwcVNydmRBaEx6Q1NFLWRpSk1uYnc2YmFWVG1RV0ZkbnQ1UmJ4MmxBaXRjNnNJN29yd3YzQjExU244?oc=5
-29. **Druski Takes Gopuff Equity & Puts Coulda Been Records In The Deal** — AllHipHop — Mon, 12 Oct 2026 13:02:05 +0000
-   https://allhiphop.com/news/druski-takes-gopuff-equity-puts-coulda-been-records-in-the-deal/
-30. **Today in Hip-Hop History: Mos Def Released His Solo Debut ‘Black On Both Sides’ 27 Years Ago - The Source Magazine** — Google News — Hip-Hop — Mon, 12 Oct 2026 12:54:14 GMT
-   https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTTZqTUdxV1owSGRuazI4TEtKUjNvNjdYRGpTRllXeGNha2hCRWpFVlJvNnRRb0U1NmlVUXhyVnpSeWhDdkdPem1NZjVNR1ZhVHRxRm5tUVpxWFpsWUttbWE1QVVwdGw1NlBoSExiV25TZmNPdnV1dFJQbHpXd05wUllSXzZBZng5d25Kc1RUVTdIRG9iOXRWNGFocEdUN3VTOGQ4WDNTUG5Samk5WFVSSGhtMlZZTFpCTEpqMFV4Yk4?oc=5
