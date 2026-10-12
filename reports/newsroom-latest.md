@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-12T02:46:19.381Z
+Generated: 2026-10-12T03:12:45.941Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 224
+Stories discovered: 223
 
 1. **New Music Radar: Dirty Harry, Evan Oxford and Jamie Koul - - Happy Mag** — Google News — New Music — Mon, 12 Oct 2026 01:50:48 GMT
    https://news.google.com/rss/articles/CBMibEFVX3lxTFA0cUtWRWktZkJTV3NqclE0VmJnSmQwRXBYSldLMTlnRWI1UDdaQ2hET3JkVDYtcEx5UUdmaVNiS3JEYWdwcnFFZDM3bEVKanM0TEJ1RjNjRlVtTUJTV0tkU2lnaVJwaWlBUE1PbA?oc=5
@@ -42,27 +42,27 @@ Stories discovered: 224
    https://news.google.com/rss/articles/CBMingFBVV95cUxPTmlaTEZhckxsUl8yeFloM1JoZkRGYm5CejVhUVVUaDk4emJ0Q1pkc21CeFVYSE9COXo0RjBvQUF6SGJxYTYyc2o3R3h0OFRSREpzZ3d2QnpUMmU5YWpQWUhpd3BSNE5rX2oyZDZBWGwxc0NYQmE2bDBaMWZfQzhjRG5pb3lTdUhsSk9TX0Jta2dnN3FjeWdzNEdUa1l5QQ?oc=5
 18. **Taylor Swift Spends Her 100th Week at No. 1 on the Billboard 200, as ‘Life of a Showgirl’ Stays on Top in Week 2 of ‘Encore’ Rebound** — Variety — Music — Sun, 11 Oct 2026 20:22:14 +0000
    https://variety.com/2026/music/news/taylor-swift-100th-week-billboard-200-number-one-beatles-1236908356/
-19. **TLC Continues Tour As Chili Shares Encouraging T-Boz Update** — AllHipHop — Sun, 11 Oct 2026 20:00:00 +0000
-   https://allhiphop.com/news/tlc-continues-tour-as-chili-shares-encouraging-t-boz-update/
-20. **Chuka, The Destroyer Delivers Hypnotic Bedroom R&B With “I’s Role” - Ratings Game Music** — Google News — R&B — Sun, 11 Oct 2026 19:58:22 GMT
+19. **Chuka, The Destroyer Delivers Hypnotic Bedroom R&B With “I’s Role” - Ratings Game Music** — Google News — R&B — Sun, 11 Oct 2026 19:58:22 GMT
    https://news.google.com/rss/articles/CBMihwFBVV95cUxQSXFGc0EtYzVDLWlJWjlDWDE1Ul9rOEdES1FMbHA2RzB5UWhvczZPUXZ5ZDhISDBQMkMxSHJxVW5ISlBMLVlnNnNVbTlpa29vWnREUzN4dXJpZ0hEdVlPbkRrbnBUREFIcHRMVWF2R3VwaGdqc0t3RTV1RXVVMktFOEc1amhjWXc?oc=5
-21. **New Adds to Saving Country Music’s Top 25 Playlist (#186) - - Saving Country Music** — Google News — New Music — Sun, 11 Oct 2026 19:37:24 GMT
+20. **New Adds to Saving Country Music’s Top 25 Playlist (#186) - - Saving Country Music** — Google News — New Music — Sun, 11 Oct 2026 19:37:24 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxQTXFjXzl2U25BS1Q3dzMyOFlzZFI5aERvUGwxUHZhQi1WMFJKUkd6MHBIT2U2UkVYNlZ3dTVZNjZtaTFEbmkwRGNnb3d3TVYxX0Itd1BhTmJkN19tY2J4Sk8yQUpTX3ZQdXVZWE9PLTNjZzd1eG83V2pGS3ZneDdMNUVFYVdiRXcwRDlNQTBn?oc=5
-22. **Hangtime Music Festival brings new beginning to old tradition - Nevada Appeal** — Google News — New Music — Sun, 11 Oct 2026 19:35:16 GMT
+21. **Hangtime Music Festival brings new beginning to old tradition - Nevada Appeal** — Google News — New Music — Sun, 11 Oct 2026 19:35:16 GMT
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPaDBTZUdkN3dOZjVhaDBVUldoXzJ0TVAzSHBUZkRUUzJiUkdwc0JNS2pGNDE5TkgyTWw2VEFlb2tiTDBqRVVoQ3BXNUFjR0xubmpKWGVnSkhEVjFjTVJ4Xy12YnA3OEt1OVlzRFRRUVloMUg1Yy1Tb012aDh2OXJ0d0twbXdnSXo0cUtVX01oRGE2TWx0WGZrMXhPam1LN0pXRFNDeFJmWlpnNFBs?oc=5
-23. **Drake's "HABIBTI (FOMO)" Officially Debuts On Billboard 200 - HotNewHipHop** — Google News — Hip-Hop — Sun, 11 Oct 2026 19:30:39 GMT
+22. **Drake's "HABIBTI (FOMO)" Officially Debuts On Billboard 200 - HotNewHipHop** — Google News — Hip-Hop — Sun, 11 Oct 2026 19:30:39 GMT
    https://news.google.com/rss/articles/CBMiowFBVV95cUxOdEZhSU5EeFZoZTJQUkY2M1FLa0dzVG5qWVluSEhIV2pqYllzalh4WTVqelhOQXBFaEFfR1dwMjlVdHltRWlUNTEwalRRQ3AzWlFiM2VyeVpnbWVwNmZrRFhQOGhpdHNpTGRHYmU2c00xTktiTlE4eGE4YVNtcjdZZGxRTHk5Q0h1VDR4LWI1eGc0bkw1QkEtUUJzWGJXNTZSN2p3?oc=5
-24. **Founding member of legendary R&B group the Dells dies at 90 - South Florida Times** — Google News — R&B — Sun, 11 Oct 2026 19:15:24 GMT
+23. **Founding member of legendary R&B group the Dells dies at 90 - South Florida Times** — Google News — R&B — Sun, 11 Oct 2026 19:15:24 GMT
    https://news.google.com/rss/articles/CBMikwFBVV95cUxOMnc4bDU0aWJtR2hsSlk2OFJDbEhyVTdGUzBmd2NkVG56U1VTU3ZWV2wzWUU1dktfU1pOenJ0YXU4dkZZTUlmaGV5WDRDUVY1aC03QnR1YVVkOTNnSnVJOVN0azZvUElIcTlvVERqQVZHZFZaSTVUNzN5R1BIS2xNaEJ5bV9fRTF4YkJfdDUyUmJTYnM?oc=5
-25. **The Beatles, Drake & Taylor Swift Are Together in Top 10 on Billboard 200 for First Time** — Billboard — Sun, 11 Oct 2026 19:11:36 +0000
+24. **The Beatles, Drake & Taylor Swift Are Together in Top 10 on Billboard 200 for First Time** — Billboard — Sun, 11 Oct 2026 19:11:36 +0000
    https://www.billboard.com/music/chart-beat/beatles-drake-taylor-swift-top-ten-billboard-200-first-time-1236358742/
-26. **Taylor Swift Joins The Beatles as Only Acts With 100 Weeks at No. 1 on Billboard 200 Albums Chart** — Billboard — Sun, 11 Oct 2026 19:07:29 +0000
+25. **Taylor Swift Joins The Beatles as Only Acts With 100 Weeks at No. 1 on Billboard 200 Albums Chart** — Billboard — Sun, 11 Oct 2026 19:07:29 +0000
    https://www.billboard.com/music/chart-beat/taylor-swift-beatles-100-weeks-number-one-billboard-200-1236358736/
-27. **Taylor Swift, The Beatles, Elvis & More Artists With the Most Weeks at No. 1 on the Billboard 200: Full List** — Billboard — Sun, 11 Oct 2026 19:03:28 +0000
+26. **Taylor Swift, The Beatles, Elvis & More Artists With the Most Weeks at No. 1 on the Billboard 200: Full List** — Billboard — Sun, 11 Oct 2026 19:03:28 +0000
    https://www.billboard.com/lists/most-weeks-at-no-1-billboard-200-taylor-swift-the-beatles/
-28. **Taylor Swift’s ‘The Life of a Showgirl’ Spends 14th Week Atop Billboard 200** — Billboard — Sun, 11 Oct 2026 19:00:03 +0000
+27. **Taylor Swift’s ‘The Life of a Showgirl’ Spends 14th Week Atop Billboard 200** — Billboard — Sun, 11 Oct 2026 19:00:03 +0000
    https://www.billboard.com/music/chart-beat/taylor-swift-showgirl-14th-week-number-one-billboard-200-1236358728/
-29. **How a Small Misunderstanding Led to One of the Most Heated Feuds in Southern Hip-Hop History - VICE** — Google News — Hip-Hop — Sun, 11 Oct 2026 18:15:14 GMT
+28. **How a Small Misunderstanding Led to One of the Most Heated Feuds in Southern Hip-Hop History - VICE** — Google News — Hip-Hop — Sun, 11 Oct 2026 18:15:14 GMT
    https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWGd5WEwzNjExQW5Uamw4VG1DSnBsZzJiMHVrUlFKSDFKTktJc1h6TDctQ3Uxc19ONW5OOWplcTkzYnMzc1dHSGZIdFhvR3JTc3YyTlBSUk00QnlQeGNnRU0wRVo1TnJQQ3ROSHNhZ2NHbnBkaHNDMzlFUzNsSFVEbmxmWkxiUDJLSHg1eFA0Z1VTNTZfMHhJZ2czV3k0NHU5QWxVRExfdUJad21LT3F6QlNWQ2RVSUdvTnctaWpCSGpGbXc?oc=5
-30. **Resolve release new music video for ‘Godtier’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 11 Oct 2026 17:54:34 GMT
+29. **Resolve release new music video for ‘Godtier’ - Distorted Sound Magazine -** — Google News — New Music — Sun, 11 Oct 2026 17:54:34 GMT
    https://news.google.com/rss/articles/CBMif0FVX3lxTE1sdVNSbkhBRGtPVFg2SUhUTnRCMHZCbmZiLXFRbmh6OXdoN245aTJKRjdnazMxelc3MXJPNjRXTzk4Ujd3V0NwZUhXaFQwcFpfODhtSmpILW1UeE9xR2lQbDcyVlk1bEJCSHRpZUVyVExHRHZrTjlpZ0cwcDh4QzA?oc=5
+30. **Freddie Jackson, R&B Legend, Dies at Age 69 - Yahoo** — Google News — R&B — Sun, 11 Oct 2026 17:33:00 GMT
+   https://news.google.com/rss/articles/CBMilwFBVV95cUxPZTM0RHZEZXoxQXdlNE9sZ2ZKYVVEQV8tOUEzVzdmVmd3TWhHcHFKUy1fY3M5d0gwQWhyQUFYaGFkUEZfaEdydDM5MG4tZ1FQQ2ZRaV9weWVTT19tVHdsWExlSktLOXJZcTVmNVZ5ZVkweGxyT3NWQ0taOXBkM0p6M3VTb3E5RGp2Mk9GemVLUkpua2RDMDlz?oc=5
