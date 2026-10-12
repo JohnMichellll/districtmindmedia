@@ -1,39 +1,39 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-12T01:16:36.364Z
+Generated: 2026-10-12T01:46:38.244Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 225
+Stories discovered: 224
 
-1. **New music radar: Serenaya, Girl Venom, Blue Pwr Man, and more - - Happy Mag** — Google News — New Music — Mon, 12 Oct 2026 01:06:05 GMT
+1. **Unpeople Release Debut Album We Are Unpeople - Noise11** — Google News — New Music — Mon, 12 Oct 2026 01:23:34 GMT
+   https://news.google.com/rss/articles/CBMif0FVX3lxTE10Q3dtVWtDNzJJb3M0Q3ZfeGNDdWRkTXQ0NnpnbnhRVnJFSnJ1OU83elhBT2lrdXVhNUlrVHBhTHM3WHJKZ0NxdnBsME9iaDNIeHBVam5MNV83eTNqV1haaXczNGdodnNMaDFxQnB0c0pkRy1KWkpyNlBoelRGNm8?oc=5
+2. **New music radar: Serenaya, Girl Venom, Blue Pwr Man, and more - - Happy Mag** — Google News — New Music — Mon, 12 Oct 2026 01:06:05 GMT
    https://news.google.com/rss/articles/CBMiX0FVX3lxTE01NmRzY3RZQjl3eW91Qk9mbU0zVGJsTGF1NFkxaU5yMVFQWlF6Y195VkVvZ0Itd0t6QjNnZ3pMUmJaRXVaajR5SnU0LXh3amQxSlNXdjNMUi10SklNdkZZ?oc=5
-2. **Tacos & Tequila Festival turns Las Vegas Ballpark into a Hip-Hop destination - Vegas Sports Today |** — Google News — Hip-Hop — Mon, 12 Oct 2026 01:04:36 GMT
+3. **Tacos & Tequila Festival turns Las Vegas Ballpark into a Hip-Hop destination - Vegas Sports Today |** — Google News — Hip-Hop — Mon, 12 Oct 2026 01:04:36 GMT
    https://news.google.com/rss/articles/CBMipwFBVV95cUxQNGhMM2ZzeFlzS3NaU3FZOWVER3c4d3dxMHdBS1FvVVNrSmlUVWYtTVJ2RmkxV3BSRnZYV1NBRU42YkY5amVNWElsdlU3djZBQlN3dWFjdnNBZHdjNC1rYVhZdDhPOG92aFNld2FJTWVqbnZOS0gxWURlNzJZM2N1YnpIYVB4Ymg0eDB2YlBjMmFBd18tSFRGbm04cFlfRjZheGc0NW5Taw?oc=5
-3. **Bruno Mars Ties Kendrick Lamar & SZA’s 31-Week Chart Record** — AllHipHop — Mon, 12 Oct 2026 01:00:52 +0000
+4. **Bruno Mars Ties Kendrick Lamar & SZA’s 31-Week Chart Record** — AllHipHop — Mon, 12 Oct 2026 01:00:52 +0000
    https://allhiphop.com/news/bruno-mars-ties-kendrick-lamar-szas-31-week-chart-record/
-4. **Kim Ximya’s ‘Dogma’ Challenges Listeners with 26-Minute, No-Skip Album Experience - 조선일보** — Google News — Hip-Hop — Mon, 12 Oct 2026 00:57:43 GMT
+5. **Kim Ximya’s ‘Dogma’ Challenges Listeners with 26-Minute, No-Skip Album Experience - 조선일보** — Google News — Hip-Hop — Mon, 12 Oct 2026 00:57:43 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxOejZiQnQ2T0VjTlJDdzlIbGJ6QnA3REdpeEdPN1NkcUE1Vk5FZEp5TWdEMzh1eFRGZngxOWVQeUI0TV9fMkRoaFh4allYVk1MV0ZHNUJUYmIwQ2VOS2FXMkNsRXg5SU9tckJLRWV3YkNWU3o2THhSWHIzRTVUa1ZYUWNia0MyNmI2TTd3bmp3?oc=5
-5. **News From Hip Hop To Hollywood! - The Hype Magazine** — Google News — Hip-Hop — Mon, 12 Oct 2026 00:49:31 GMT
+6. **News From Hip Hop To Hollywood! - The Hype Magazine** — Google News — Hip-Hop — Mon, 12 Oct 2026 00:49:31 GMT
    https://news.google.com/rss/articles/CBMikAFBVV95cUxQWDN4TzRsdmNVQnBuOFR5UFVmMVB4Nng1V1RRTjMxWDh3Yl82Q1dOM190X3hubkhwNWIwUFVRbnJ4Qjl0NjlmSnRmSEMyVHlvYmRJZ1JJdC1vNjBTazlwdjV5ZUNiV2ZhcVlqLUdQRVVGVkFOU0FkRXhjRndQZkx3dXlMb1YyTkp3UjZqRzZ4QWg?oc=5
-6. **Young Thug Reveals He’s Making an R&B Album: ‘Most of the Songs Are Sexual’ - Yahoo** — Google News — R&B — Sun, 11 Oct 2026 23:55:32 GMT
+7. **Young Thug Reveals He’s Making an R&B Album: ‘Most of the Songs Are Sexual’ - Yahoo** — Google News — R&B — Sun, 11 Oct 2026 23:55:32 GMT
    https://news.google.com/rss/articles/CBMimAFBVV95cUxNQndqdzV1WVowaElPdjhsUXVETUVoQ2owRWl2X3RSdTYtYXRJU3NmdUozR1RudThzQ1d2RUxDWl9zV1QzdEtXT0lwSUt1WW03MjMyMnZwcUZWVEVUaDRmSGl2cTBrWnRScDM5Vm1jc1ZIakctTEF2YWtOQzE0ZE9CT1ZfejZYcEpHd2VZanp5WHR0bkxUT2tESQ?oc=5
-7. **Cardi B Blames Unfinished Arrangements For Jamaica Show Cancellation** — AllHipHop — Sun, 11 Oct 2026 23:54:00 +0000
+8. **Cardi B Blames Unfinished Arrangements For Jamaica Show Cancellation** — AllHipHop — Sun, 11 Oct 2026 23:54:00 +0000
    https://allhiphop.com/news/cardi-b-blames-unfinished-arrangements-for-jamaica-show-cancellation/
-8. **Fans Choose Troye Sivan’s ‘She’s the Best’ as This Week’s Favorite New Music - Billboard** — Google News — New Music — Sun, 11 Oct 2026 22:42:38 GMT
+9. **Fans Choose Troye Sivan’s ‘She’s the Best’ as This Week’s Favorite New Music - Billboard** — Google News — New Music — Sun, 11 Oct 2026 22:42:38 GMT
    https://news.google.com/rss/articles/CBMipgFBVV95cUxQdXJRWXR0UFU3WU12U2NxWlFIaXVLQ3lKc240Uk9Xek92dUVnY0t6X3hxTWk3cGV4d2ZESHlzY05FTXl5ZWtTdVZGLTBOY28yWGVCcnJQcVRlWDZKbHZ5RWp1NV9aN2xzbWZtZUdoNkdrNGdPU2pDY2tDbnE2SE81U3dSOHZrajMyUE9udTVZSDJKeVZZU0tyNFdVd3hSUTVhMFJHaldB?oc=5
-9. **Fans Choose Troye Sivan’s ‘She’s the Best’ as This Week’s Favorite New Music** — Billboard — Sun, 11 Oct 2026 22:42:06 +0000
+10. **Fans Choose Troye Sivan’s ‘She’s the Best’ as This Week’s Favorite New Music** — Billboard — Sun, 11 Oct 2026 22:42:06 +0000
    https://www.billboard.com/music/music-news/troye-sivan-shes-the-best-new-music-poll-results-1236358805/
-10. **A$AP Rocky Reportedly Broke Attendance Record With Latest Fashion Show** — AllHipHop — Sun, 11 Oct 2026 22:26:00 +0000
+11. **A$AP Rocky Reportedly Broke Attendance Record With Latest Fashion Show** — AllHipHop — Sun, 11 Oct 2026 22:26:00 +0000
    https://allhiphop.com/rumors/aap-rocky-reportedly-broke-attendance-record-with-latest-fashion-show/
-11. **Album Review: Meshell Ndegeocello – Synonym - mxdwn Music** — Google News — R&B — Sun, 11 Oct 2026 22:22:11 GMT
+12. **Album Review: Meshell Ndegeocello – Synonym - mxdwn Music** — Google News — R&B — Sun, 11 Oct 2026 22:22:11 GMT
    https://news.google.com/rss/articles/CBMijAFBVV95cUxNMmhfclpqRXdnU3RWdEx6ajFQQTUxelNGai1OQmZnVFhjVXZ0TnpTSWdkck9CUVFicmxEMW5BZnNSM2t1ZDRfRkl6VTRrQk5GWWI2QjdqVlc3YjRfOVY0MU5Ba19GUC1yUHBHMWQ3cng4MUZqT25XcENKb2JvY1AzWkFWZExWQ2tBd09PStIBkgFBVV95cUxONXNrRXdEa2s0NFRYRTNrRVdvQm9aQ0lpb3ZjSTAyMWoyLXVYYl9lRFdOeWg1dzF4alhBWTFhSVo0cy1rQmd5MEVfVzVWdkQwRjROYXMxTWxpNEVjWmN6clEzRXBnaFdCOVNTQzBQWU5md2FIX05XbzdOVi01bWlIdG8yeXhFVkVCcjhiSVcyYkhpZw?oc=5
-12. **John Stamos Addresses Mike Love’s Health as Beach Boys Concert Footage Raises Concerns: ‘We Don’t Know What the Future Holds — We Have Tonight’** — Variety — Music — Sun, 11 Oct 2026 21:49:56 +0000
+13. **John Stamos Addresses Mike Love’s Health as Beach Boys Concert Footage Raises Concerns: ‘We Don’t Know What the Future Holds — We Have Tonight’** — Variety — Music — Sun, 11 Oct 2026 21:49:56 +0000
    https://variety.com/2026/music/news/mike-love-john-stamos-statement-beach-boys-health-concern-1236908432/
-13. **Cole Bennett Gives Promising Update On His Chief Keef Documentary - HotNewHipHop** — Google News — Hip-Hop — Sun, 11 Oct 2026 21:43:02 GMT
+14. **Cole Bennett Gives Promising Update On His Chief Keef Documentary - HotNewHipHop** — Google News — Hip-Hop — Sun, 11 Oct 2026 21:43:02 GMT
    https://news.google.com/rss/articles/CBMihgFBVV95cUxNZ3ZvX29VMWJleDQ2RGhFNkRkX3lQbjlockxIeDR1TlZkMlFjTjRyWi1UN19UT3FyM1JvbXRFZEtXOExIaEF4OTVMaXk0TFViR2hoaFYzeUxOdHB2ZWVRV0xPQUpWSnpMWlkzb09PanhBTFprX1I2QVVybzBaT2p0MEdSRjdSZw?oc=5
-14. **Chris Brown & Usher Cancel Tour Dates Amid Brown's Next London Court Date - HotNewHipHop** — Google News — R&B — Sun, 11 Oct 2026 21:24:14 GMT
-   https://news.google.com/rss/articles/CBMilAFBVV95cUxNUG9OZmM2VkNFTHc1a084Y0tZOXJwc2kzM1NhX0dvaHZfTEV6Wm1PTHVwenBzYVZrYUtMbDdrMzh3dTBtbDBDanlEM3pSLS1LYlctMjhsVjNZaEJzS204eFRVaDI4U1M3SlV3UVBTVUtXU2ZIMlZTSWduanl1SkU3cXRpaEY4M05TYnhnRGJHSTZmVWst?oc=5
 15. **Ella Langley Addresses Bomb Threat That Led to Show Cancellation: ‘A Concert’s Not Worth a Human Life’** — Billboard — Sun, 11 Oct 2026 21:19:17 +0000
    https://www.billboard.com/music/country/ella-langley-concert-bomb-threat-stage-return-1236358808/
 16. **Chanel West Coast Trades Hip-Hop For Country Grit On New Single “Down To The Filter” - That Eric Alper** — Google News — Hip-Hop — Sun, 11 Oct 2026 21:06:24 GMT
