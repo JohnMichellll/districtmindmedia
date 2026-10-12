@@ -1,6 +1,6 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-12T07:21:26.570Z
+Generated: 2026-10-12T07:49:03.480Z
 
 Status: READY_FOR_EDITOR
 
@@ -8,8 +8,8 @@ Stories discovered: 222
 
 1. **Lil Wayne’s “No Ceilings” Gets First Vinyl Pressing With 5,000-Copy Run** — AllHipHop — Mon, 12 Oct 2026 07:09:15 +0000
    https://allhiphop.com/news/lil-waynes-no-ceilings-gets-first-vinyl-pressing-with-5000-copy-run/
-2. **New Music This Week: October 12, 2026 Highlights - Williamson Source** — Google News — New Music — Mon, 12 Oct 2026 06:50:56 GMT
-   https://news.google.com/rss/articles/CBMic0FVX3lxTE0teXJsQlh2WEdXeGdpMFF2TkhtTE45WWx5WF9hQmMtbnRhZmNCYmxzcFhDNEttVHpLNUNpVzVLaU9mR1ZQWllva3NRT0FNakVtMV9sbm5JaFNjT1ZjV2dyYWMyTmV1dEd5WG0zU1lSZldiSGM?oc=5
+2. **New Music This Week: October 12, 2026 Highlights - Rutherford Source** — Google News — New Music — Mon, 12 Oct 2026 06:50:56 GMT
+   https://news.google.com/rss/articles/CBMic0FVX3lxTE9PRG5UOVBxaG9ZMEVELXBzcTY1SHNURmQyMkNyV2xER3JVUlNrZEJGX0hjTUN6cC1XR0ZYdzVFQ0ZpNF8zX0Q2eTNsanNLYkl6TC1TOUZ4dmtRMldybWgtV0phQ3BBN0I5WXdaZEJoODJlNTQ?oc=5
 3. **Pine cones, glitter and a hip-hop head for sale: red-hot artists reveal their Frieze stunners - The Guardian** — Google News — Hip-Hop — Mon, 12 Oct 2026 06:46:00 GMT
    https://news.google.com/rss/articles/CBMi3AFBVV95cUxOdGZlSGZBc280NkdJeFRRQmxBMWtrbzMwUk1rbGg3cHJ0WkowQUQ0cjVnUmJqamw2blB1aXFROFA1b09RQzNUT2x4amVEUWl0SVhWRzhMNV80dk1OUHZuaVRXS25iOVhqemhvaGhGRHpfaXZqNlliTzJrbUxVd25QalpHaUVMdXYwa3lNa01QS0JPMWE2REFyTjQxaDdzVm9GRE1JSjhRektkdGVSQlZQbGk5eEZpMVo2WXRJMFdETDVvY2VrVUFRTFNsVUVCSTRvcTFJcTJwZ29mZlJX?oc=5
 4. **The Beach Boys Play Nashville’s Ryman in What John Stamos Says ‘Could Be the Last Time I Stand Behind Mike’ Love in Concert** — Variety — Music — Mon, 12 Oct 2026 05:30:12 +0000
