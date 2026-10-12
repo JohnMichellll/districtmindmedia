@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-12T04:12:56.745Z
+Generated: 2026-10-12T04:47:59.530Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 224
+Stories discovered: 223
 
 1. **Remembering Soul Man Sam Moore, The Greatest of All the R&B Singer, on His 91st Birthday: A Great Artist, Husband, Father, Friend - Showbiz411** — Google News — R&B — Mon, 12 Oct 2026 04:02:06 GMT
    https://news.google.com/rss/articles/CBMi8gFBVV95cUxNYmIzTEV3OU5RSFU2X0g0ZkNsb3dORXg3SGVGZWhYc3ltZmwxUEJYWGNxcUZidWx0Q1Rja2xsN2hsZlJESDdoR2NIaDBObk9TR2ZBTlM1cVJjZ1pTUHljcy1qSmtNZkdaY1A0bUQ0NXJvQzZZVEtiLVZUUDF2aXllVGQ2V2diMllLcEpXekk4d2lyV0NIWTRrY0JkLVlOZ2VoaEU3NGM2UDJRQ2hZdzdYMWctc1A5VjlyMVEtb3RJdHQtb0lsbjlWRVc1Y21hMjIybnpBOE5rRVdFX05VVUd0ZUdRQ2YwdlpxLVBPdm9HZkdFdw?oc=5
@@ -38,31 +38,31 @@ Stories discovered: 224
    https://allhiphop.com/rumors/aap-rocky-reportedly-broke-attendance-record-with-latest-fashion-show/
 16. **Album Review: Meshell Ndegeocello – Synonym - mxdwn Music** — Google News — R&B — Sun, 11 Oct 2026 22:22:11 GMT
    https://news.google.com/rss/articles/CBMijAFBVV95cUxNMmhfclpqRXdnU3RWdEx6ajFQQTUxelNGai1OQmZnVFhjVXZ0TnpTSWdkck9CUVFicmxEMW5BZnNSM2t1ZDRfRkl6VTRrQk5GWWI2QjdqVlc3YjRfOVY0MU5Ba19GUC1yUHBHMWQ3cng4MUZqT25XcENKb2JvY1AzWkFWZExWQ2tBd09PStIBkgFBVV95cUxONXNrRXdEa2s0NFRYRTNrRVdvQm9aQ0lpb3ZjSTAyMWoyLXVYYl9lRFdOeWg1dzF4alhBWTFhSVo0cy1rQmd5MEVfVzVWdkQwRjROYXMxTWxpNEVjWmN6clEzRXBnaFdCOVNTQzBQWU5md2FIX05XbzdOVi01bWlIdG8yeXhFVkVCcjhiSVcyYkhpZw?oc=5
-17. **Tobe Nwigwe Builds a Cultural Masterpiece With New Album 'THE BRIDGE' The Hype Magazine: Unveiling the Pulse of Urban Culture - From Hip Hop to Hollywood! Explore a Diverse Tapestry of Stories, Interviews, and Impactful Editorials Spanning Fashion, - The Hype Magazine** — Google News — Hip-Hop — Sun, 11 Oct 2026 22:09:32 GMT
-   https://news.google.com/rss/articles/CBMisAFBVV95cUxOdF9LTG1KZ29aS181a0RfZGhDQ1ZIRDR0WnJqdWlnSzYxY1NvZm84bmNDckpHU21RMl8tOHhZdFZZYXhDM3g2VE10SlpMV1pRR2h1Mmw5TWt6ZU1POGhWa2ZCZ2pkTm9DVVE3SFlpNmJMbnFRd2hlRlZfb3k3SUx0N0ZMelN0c0tRN0VTTW1JNnlyT05zdnJPU05ya3hYRkhmMmI0bU54T0tfaUpiZHpZVA?oc=5
-18. **John Stamos Addresses Mike Love’s Health as Beach Boys Concert Footage Raises Concerns: ‘We Don’t Know What the Future Holds — We Have Tonight’** — Variety — Music — Sun, 11 Oct 2026 21:49:56 +0000
+17. **John Stamos Addresses Mike Love’s Health as Beach Boys Concert Footage Raises Concerns: ‘We Don’t Know What the Future Holds — We Have Tonight’** — Variety — Music — Sun, 11 Oct 2026 21:49:56 +0000
    https://variety.com/2026/music/news/mike-love-john-stamos-statement-beach-boys-health-concern-1236908432/
-19. **Cole Bennett Gives Promising Update On His Chief Keef Documentary - HotNewHipHop** — Google News — Hip-Hop — Sun, 11 Oct 2026 21:43:02 GMT
-   https://news.google.com/rss/articles/CBMihgFBVV95cUxNZ3ZvX29VMWJleDQ2RGhFNkRkX3lQbjlockxIeDR1TlZkMlFjTjRyWi1UN19UT3FyM1JvbXRFZEtXOExIaEF4OTVMaXk0TFViR2hoaFYzeUxOdHB2ZWVRV0xPQUpWSnpMWlkzb09PanhBTFprX1I2QVVybzBaT2p0MEdSRjdSZw?oc=5
-20. **Ella Langley Addresses Bomb Threat That Led to Show Cancellation: ‘A Concert’s Not Worth a Human Life’** — Billboard — Sun, 11 Oct 2026 21:19:17 +0000
+18. **Ella Langley Addresses Bomb Threat That Led to Show Cancellation: ‘A Concert’s Not Worth a Human Life’** — Billboard — Sun, 11 Oct 2026 21:19:17 +0000
    https://www.billboard.com/music/country/ella-langley-concert-bomb-threat-stage-return-1236358808/
-21. **Chanel West Coast Trades Hip-Hop For Country Grit On New Single “Down To The Filter” - That Eric Alper** — Google News — Hip-Hop — Sun, 11 Oct 2026 21:06:24 GMT
+19. **Chanel West Coast Trades Hip-Hop For Country Grit On New Single “Down To The Filter” - That Eric Alper** — Google News — Hip-Hop — Sun, 11 Oct 2026 21:06:24 GMT
    https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY18tRVpDRGZENkh1bFY2RURKRnRPSlRVWlNQQTlFcmxhaHpuZHdFWmRNcXpEWDVIV0t5SUlsZWZWQ0VlLVpqTjRLZnItM1U2TWY1Zkt1SnFxX280WXYxeFh5RWxkMVJQbVo1dWZXN2Jhb1ZBU3k5WUpBU1llMEV4dXhsSklXd01UX2NPZWpvSXo2ZXpXUWphbzlORXRJdVhnOEZCUmJsU3pUbzlNdWttdldiRnhJNGhhc0F1U3J6VkZadw?oc=5
-22. **Melodic Metalcore is Back with Imminence's New Release "Axis Mundi" - MUSIC SCENE MEDIA** — Google News — New Music — Sun, 11 Oct 2026 21:03:32 GMT
+20. **Melodic Metalcore is Back with Imminence's New Release "Axis Mundi" - MUSIC SCENE MEDIA** — Google News — New Music — Sun, 11 Oct 2026 21:03:32 GMT
    https://news.google.com/rss/articles/CBMingFBVV95cUxPTmlaTEZhckxsUl8yeFloM1JoZkRGYm5CejVhUVVUaDk4emJ0Q1pkc21CeFVYSE9COXo0RjBvQUF6SGJxYTYyc2o3R3h0OFRSREpzZ3d2QnpUMmU5YWpQWUhpd3BSNE5rX2oyZDZBWGwxc0NYQmE2bDBaMWZfQzhjRG5pb3lTdUhsSk9TX0Jta2dnN3FjeWdzNEdUa1l5QQ?oc=5
-23. **Taylor Swift Spends Her 100th Week at No. 1 on the Billboard 200, as ‘Life of a Showgirl’ Stays on Top in Week 2 of ‘Encore’ Rebound** — Variety — Music — Sun, 11 Oct 2026 20:22:14 +0000
+21. **Taylor Swift Spends Her 100th Week at No. 1 on the Billboard 200, as ‘Life of a Showgirl’ Stays on Top in Week 2 of ‘Encore’ Rebound** — Variety — Music — Sun, 11 Oct 2026 20:22:14 +0000
    https://variety.com/2026/music/news/taylor-swift-100th-week-billboard-200-number-one-beatles-1236908356/
-24. **Chuka, The Destroyer Delivers Hypnotic Bedroom R&B With “I’s Role” - Ratings Game Music** — Google News — R&B — Sun, 11 Oct 2026 19:58:22 GMT
+22. **Chuka, The Destroyer Delivers Hypnotic Bedroom R&B With “I’s Role” - Ratings Game Music** — Google News — R&B — Sun, 11 Oct 2026 19:58:22 GMT
    https://news.google.com/rss/articles/CBMihwFBVV95cUxQSXFGc0EtYzVDLWlJWjlDWDE1Ul9rOEdES1FMbHA2RzB5UWhvczZPUXZ5ZDhISDBQMkMxSHJxVW5ISlBMLVlnNnNVbTlpa29vWnREUzN4dXJpZ0hEdVlPbkRrbnBUREFIcHRMVWF2R3VwaGdqc0t3RTV1RXVVMktFOEc1amhjWXc?oc=5
-25. **New Adds to Saving Country Music’s Top 25 Playlist (#186) - - Saving Country Music** — Google News — New Music — Sun, 11 Oct 2026 19:37:24 GMT
+23. **New Adds to Saving Country Music’s Top 25 Playlist (#186) - - Saving Country Music** — Google News — New Music — Sun, 11 Oct 2026 19:37:24 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxQTXFjXzl2U25BS1Q3dzMyOFlzZFI5aERvUGwxUHZhQi1WMFJKUkd6MHBIT2U2UkVYNlZ3dTVZNjZtaTFEbmkwRGNnb3d3TVYxX0Itd1BhTmJkN19tY2J4Sk8yQUpTX3ZQdXVZWE9PLTNjZzd1eG83V2pGS3ZneDdMNUVFYVdiRXcwRDlNQTBn?oc=5
-26. **Hangtime Music Festival brings new beginning to old tradition - Nevada Appeal** — Google News — New Music — Sun, 11 Oct 2026 19:35:16 GMT
+24. **Hangtime Music Festival brings new beginning to old tradition - Nevada Appeal** — Google News — New Music — Sun, 11 Oct 2026 19:35:16 GMT
    https://news.google.com/rss/articles/CBMirAFBVV95cUxPaDBTZUdkN3dOZjVhaDBVUldoXzJ0TVAzSHBUZkRUUzJiUkdwc0JNS2pGNDE5TkgyTWw2VEFlb2tiTDBqRVVoQ3BXNUFjR0xubmpKWGVnSkhEVjFjTVJ4Xy12YnA3OEt1OVlzRFRRUVloMUg1Yy1Tb012aDh2OXJ0d0twbXdnSXo0cUtVX01oRGE2TWx0WGZrMXhPam1LN0pXRFNDeFJmWlpnNFBs?oc=5
-27. **Founding member of legendary R&B group the Dells dies at 90 - South Florida Times** — Google News — R&B — Sun, 11 Oct 2026 19:15:24 GMT
+25. **Drake's "HABIBTI (FOMO)" Officially Debuts On Billboard 200 - HotNewHipHop** — Google News — Hip-Hop — Sun, 11 Oct 2026 19:30:39 GMT
+   https://news.google.com/rss/articles/CBMiowFBVV95cUxOdEZhSU5EeFZoZTJQUkY2M1FLa0dzVG5qWVluSEhIV2pqYllzalh4WTVqelhOQXBFaEFfR1dwMjlVdHltRWlUNTEwalRRQ3AzWlFiM2VyeVpnbWVwNmZrRFhQOGhpdHNpTGRHYmU2c00xTktiTlE4eGE4YVNtcjdZZGxRTHk5Q0h1VDR4LWI1eGc0bkw1QkEtUUJzWGJXNTZSN2p3?oc=5
+26. **Founding member of legendary R&B group the Dells dies at 90 - South Florida Times** — Google News — R&B — Sun, 11 Oct 2026 19:15:24 GMT
    https://news.google.com/rss/articles/CBMikwFBVV95cUxOMnc4bDU0aWJtR2hsSlk2OFJDbEhyVTdGUzBmd2NkVG56U1VTU3ZWV2wzWUU1dktfU1pOenJ0YXU4dkZZTUlmaGV5WDRDUVY1aC03QnR1YVVkOTNnSnVJOVN0azZvUElIcTlvVERqQVZHZFZaSTVUNzN5R1BIS2xNaEJ5bV9fRTF4YkJfdDUyUmJTYnM?oc=5
-28. **The Beatles, Drake & Taylor Swift Are Together in Top 10 on Billboard 200 for First Time** — Billboard — Sun, 11 Oct 2026 19:11:36 +0000
+27. **The Beatles, Drake & Taylor Swift Are Together in Top 10 on Billboard 200 for First Time** — Billboard — Sun, 11 Oct 2026 19:11:36 +0000
    https://www.billboard.com/music/chart-beat/beatles-drake-taylor-swift-top-ten-billboard-200-first-time-1236358742/
-29. **Taylor Swift Joins The Beatles as Only Acts With 100 Weeks at No. 1 on Billboard 200 Albums Chart** — Billboard — Sun, 11 Oct 2026 19:07:29 +0000
+28. **Taylor Swift Joins The Beatles as Only Acts With 100 Weeks at No. 1 on Billboard 200 Albums Chart** — Billboard — Sun, 11 Oct 2026 19:07:29 +0000
    https://www.billboard.com/music/chart-beat/taylor-swift-beatles-100-weeks-number-one-billboard-200-1236358736/
-30. **Taylor Swift, The Beatles, Elvis & More Artists With the Most Weeks at No. 1 on the Billboard 200: Full List** — Billboard — Sun, 11 Oct 2026 19:03:28 +0000
+29. **Taylor Swift, The Beatles, Elvis & More Artists With the Most Weeks at No. 1 on the Billboard 200: Full List** — Billboard — Sun, 11 Oct 2026 19:03:28 +0000
    https://www.billboard.com/lists/most-weeks-at-no-1-billboard-200-taylor-swift-the-beatles/
+30. **How a Small Misunderstanding Led to One of the Most Heated Feuds in Southern Hip-Hop History - VICE** — Google News — Hip-Hop — Sun, 11 Oct 2026 18:15:14 GMT
+   https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWGd5WEwzNjExQW5Uamw4VG1DSnBsZzJiMHVrUlFKSDFKTktJc1h6TDctQ3Uxc19ONW5OOWplcTkzYnMzc1dHSGZIdFhvR3JTc3YyTlBSUk00QnlQeGNnRU0wRVo1TnJQQ3ROSHNhZ2NHbnBkaHNDMzlFUzNsSFVEbmxmWkxiUDJLSHg1eFA0Z1VTNTZfMHhJZ2czV3k0NHU5QWxVRExfdUJad21LT3F6QlNWQ2RVSUdvTnctaWpCSGpGbXc?oc=5
