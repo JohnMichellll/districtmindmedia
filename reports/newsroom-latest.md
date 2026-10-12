@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-12T11:47:58.641Z
+Generated: 2026-10-12T12:20:25.420Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 226
+Stories discovered: 223
 
 1. **BNR Folk Music Orchestra to open new season with premieres and debuts - БНР Новини** — Google News — New Music — Mon, 12 Oct 2026 11:29:29 GMT
    https://news.google.com/rss/articles/CBMipgFBVV95cUxPSWRZS3I3cm1EM2xfa3lXNEMtUEdhVzZ1Zjg1aVIxb3RVVXMxZmFmMzVTQjdfZ0ZNYWRPN0lzaDBPRDZJM2NhZVc4dnQ2QURaempVaXZzV1RSdVBxYk0xSUFGUjhaM0FrX0pxNlR1TXkwRnJoVFoxd0dNMldpZG16SlNneEZCN24tbmpYb2w4aVcwTEs5ZTZhYTN5b2VjSU9welhHeG9n?oc=5
