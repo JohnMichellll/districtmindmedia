@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T10:46:52.640Z",
-  "errors": [],
+  "updatedAt": "2026-10-12T11:13:45.725Z",
+  "errors": [
+    {
+      "source": "Google News — R&B",
+      "tier": 2,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 8000,
+      "error": "TIMEOUT",
+      "workflow": "newsroom-operator"
+    }
+  ],
   "resolved": [
     {
       "source": "TMZ",
