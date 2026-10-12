@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T11:13:45.725Z",
-  "errors": [
-    {
-      "source": "Google News — R&B",
-      "tier": 2,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 8000,
-      "error": "TIMEOUT",
-      "workflow": "newsroom-operator"
-    }
-  ],
+  "updatedAt": "2026-10-12T11:47:58.641Z",
+  "errors": [],
   "resolved": [
     {
       "source": "TMZ",
@@ -302,6 +292,16 @@
       "error": "TIMEOUT",
       "workflow": "newsroom-operator",
       "resolvedAt": "2026-10-11T06:13:23.441Z"
+    },
+    {
+      "source": "Google News — R&B",
+      "tier": 2,
+      "status": "resolved",
+      "stories": 0,
+      "latencyMs": 8000,
+      "error": "TIMEOUT",
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-12T11:47:58.641Z"
     }
   ]
 }
