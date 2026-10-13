@@ -30,6 +30,7 @@
 
 <main class="home-screen">
 <section class="hero hero-media reveal is-visible">
+  <div class="hero-cover-rotator" aria-hidden="true"><div class="hero-cover-layer is-active"></div><div class="hero-cover-layer"></div></div>
   <div class="hero-content">
     <p class="eyebrow">District Mind Media / Independent Music &amp; Culture</p>
     <h1>THE CULTURE<br>IN MOTION.</h1>
@@ -47,7 +48,49 @@ body{display:flex;flex-direction:column}
 .home-screen .hero h1{font-size:clamp(52px,10vw,140px);margin-bottom:24px}
 .home-screen .hero-text{font-size:clamp(15px,1.5vw,18px);margin-bottom:24px}
 @media(max-height:650px){.nav-container{min-height:62px}.home-screen .hero{padding-top:24px;padding-bottom:24px}.home-screen .hero h1{font-size:clamp(44px,8vw,90px);margin-bottom:18px}.home-screen .hero-text{margin-bottom:18px}}
+  .home-screen .hero-media{isolation:isolate;background:#101010;}
+  .hero-cover-rotator{position:absolute;inset:0;z-index:0;overflow:hidden;background:radial-gradient(ellipse at 72% 70%,rgba(120,15,29,.42),transparent 48%),linear-gradient(120deg,#101010,#191516 58%,#080808);}
+  .hero-cover-layer{position:absolute;inset:-2%;background-position:center 42%;background-size:cover;background-repeat:no-repeat;opacity:0;filter:saturate(.72) contrast(1.08);transform:scale(1.025);transition:opacity 1.25s ease,transform 7s linear;}
+  .hero-cover-layer.is-active{opacity:.46;transform:scale(1.08);}
+  .hero-cover-rotator:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,8,8,.91) 0%,rgba(8,8,8,.68) 45%,rgba(8,8,8,.28) 100%),radial-gradient(ellipse at 78% 72%,rgba(132,10,32,.28),transparent 54%);pointer-events:none;}
+  @media(prefers-reduced-motion:reduce){.hero-cover-layer{transition:none;transform:none!important;}}
 </style>
-<script src="site-guide.js?v=20261010-menu3" defer></script>
+<script>
+(()=>{
+ const hero=document.querySelector('.hero-cover-rotator'); if(!hero)return;
+ const layers=[...hero.querySelectorAll('.hero-cover-layer')]; if(layers.length<2)return;
+ const titles=['Drivin Crazy','WHO IS YOU','U'];
+ const load=async title=>{
+  try{
+   const r=await fetch('/api/release-art?artist='+encodeURIComponent('John Michell')+'&title='+encodeURIComponent(title),{cache:'default'});
+   if(!r.ok)return null; const d=await r.json();
+   const m=d&&d.match;
+   if(!d?.verified||!d?.artwork||!m||String(m.artist||'').toLowerCase()!=='john michell')return null;
+   const actual=String(m.title||m.album||'').toLowerCase();
+   if(actual!==title.toLowerCase())return null;
+   const img=new Image(); img.referrerPolicy='no-referrer'; img.src=d.artwork;
+   await new Promise((resolve,reject)=>{img.onload=()=>img.naturalWidth?resolve():reject();img.onerror=reject;setTimeout(reject,7000)});
+   return d.artwork;
+  }catch{return null;}
+ };
+ (async()=>{
+  const found=[];
+  for(const title of titles){const url=await load(title);if(url&&!found.includes(url))found.push(url);}
+  if(!found.length){
+   try{const r=await fetch('/assets/photo-manifest.json?v=20261012-cover-rotation');const m=await r.json();const url=m?.photos?.['john-michell-drivin-crazy']?.url;if(url)found.push(url);}catch{}
+  }
+  if(!found.length)return;
+  let index=0,active=0; layers[0].style.backgroundImage='url("'+found[0].replace(/["']/g,'')+'")';
+  if(found.length===1)return;
+  setInterval(()=>{
+   const next=(index+1)%found.length, target=1-active;
+   layers[target].style.backgroundImage='url("'+found[next].replace(/["']/g,'')+'")';
+   layers[target].classList.add('is-active'); layers[active].classList.remove('is-active');
+   active=target;index=next;
+  },7000);
+ })();
+})();
+</script>
+<script src="site-guide.js?v=20261012-themes1" defer></script>
 </body>
 </html>
