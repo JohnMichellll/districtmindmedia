@@ -251,4 +251,72 @@
   // Give the guide a head start when the visitor arrives with a search query.
   const q=new URLSearchParams(location.search).get('find');
   if(q) setTimeout(()=>openGuide(q),250);
+
+  // Site-wide appearance: compact menu with Morning, Day and Night themes.
+  const root = document.documentElement;
+  const themeKey = 'district-mind-theme';
+  const allowedThemes = ['morning','day','night'];
+  let savedTheme = 'night';
+  try { const stored = localStorage.getItem(themeKey); if (allowedThemes.includes(stored)) savedTheme = stored; } catch {}
+  root.dataset.dmTheme = savedTheme;
+  if (primaryNav && !document.getElementById('dm-theme-control')) {
+    const control = document.createElement('div');
+    control.id = 'dm-theme-control';
+    control.className = 'dm-theme-control';
+    control.innerHTML = '<button class="dm-theme-trigger" type="button" aria-expanded="false" aria-haspopup="true">Theme</button><div class="dm-theme-options" hidden><button type="button" data-dm-theme="morning">Morning</button><button type="button" data-dm-theme="day">Day</button><button type="button" data-dm-theme="night">Night</button></div>';
+    primaryNav.appendChild(control);
+    const trigger = control.querySelector('.dm-theme-trigger');
+    const options = control.querySelector('.dm-theme-options');
+    trigger.addEventListener('click', () => {
+      const open = options.hidden;
+      options.hidden = !open;
+      trigger.setAttribute('aria-expanded', String(open));
+    });
+    options.querySelectorAll('[data-dm-theme]').forEach(button => button.addEventListener('click', () => {
+      const theme = button.dataset.dmTheme;
+      if (!allowedThemes.includes(theme)) return;
+      root.dataset.dmTheme = theme;
+      try { localStorage.setItem(themeKey, theme); } catch {}
+      options.hidden = true;
+      trigger.setAttribute('aria-expanded', 'false');
+      control.querySelectorAll('[data-dm-theme]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+    }));
+    document.addEventListener('pointerdown', event => {
+      if (!control.contains(event.target)) { options.hidden = true; trigger.setAttribute('aria-expanded','false'); }
+    });
+  }
+  if (!document.getElementById('dm-theme-styles')) {
+    const style = document.createElement('style');
+    style.id = 'dm-theme-styles';
+    style.textContent = `
+      :root[data-dm-theme="morning"]{--bg:#f3e9dc;--panel:#fff8ef;--panel-strong:#e9d6c2;--ink:#2a211d;--muted:#6f5b4d;--soft:#b9a28e;--line:rgba(65,43,29,.15);--dark:#2b211c;--dark-2:#392a24;--light:#fff8ef;--shadow:0 22px 60px rgba(83,49,26,.10);color-scheme:light}
+      :root[data-dm-theme="day"]{--bg:#f7f8fa;--panel:#fff;--panel-strong:#e6eaf0;--ink:#18202b;--muted:#596575;--soft:#a3adba;--line:rgba(24,32,43,.13);--dark:#17202b;--dark-2:#263345;--light:#f7f8fa;--shadow:0 22px 60px rgba(20,35,55,.09);color-scheme:light}
+      :root[data-dm-theme="night"]{--bg:#111113;--panel:#19191d;--panel-strong:#25252b;--ink:#f4f1ed;--muted:#b1adb0;--soft:#777279;--line:rgba(255,255,255,.14);--dark:#0a0a0c;--dark-2:#171216;--light:#f4f1ed;--shadow:0 25px 70px rgba(0,0,0,.32);color-scheme:dark}
+      :root[data-dm-theme="night"] body{background:radial-gradient(circle at top,rgba(90,22,37,.22),transparent 28%),var(--bg);color:var(--ink)}
+      :root[data-dm-theme="night"] .site-header{background:rgba(17,17,19,.84);border-color:var(--line)}
+      :root[data-dm-theme="night"] .logo::before{background:#f4f1ed}
+      :root[data-dm-theme="night"] .primary-nav a{color:rgba(244,241,237,.8)}
+      :root[data-dm-theme="night"] .primary-nav a:hover,:root[data-dm-theme="night"] .primary-nav a[aria-current="page"]{color:#fff}
+      :root[data-dm-theme="night"] .primary-nav a::after{background:#f4f1ed}
+      :root[data-dm-theme="night"] .menu-toggle{background:#202024;color:#f4f1ed;border-color:rgba(255,255,255,.2)}
+      :root[data-dm-theme="night"] .content-panel,:root[data-dm-theme="night"] .info-panel,:root[data-dm-theme="night"] .artist-card,:root[data-dm-theme="night"] .contact-card,:root[data-dm-theme="night"] .release-item,:root[data-dm-theme="night"] .story-card,:root[data-dm-theme="night"] .editorial-item,:root[data-dm-theme="night"] .category-card{background:#19191d;border-color:var(--line);box-shadow:none}
+      :root[data-dm-theme="night"] .info-panel strong{color:var(--ink)}
+      :root[data-dm-theme="night"] .culture-card{background:linear-gradient(135deg,#252126,#18181c);border-color:var(--line)}
+      :root[data-dm-theme="night"] .release-card{border-color:rgba(255,255,255,.55)}
+      :root[data-dm-theme="night"] .release-card>p:last-child{color:var(--muted)}
+      :root[data-dm-theme="morning"] .hero:not(.hero-media),:root[data-dm-theme="day"] .hero:not(.hero-media){background:linear-gradient(120deg,rgba(20,20,20,.93),rgba(20,20,20,.74)),#202020}
+      :root[data-dm-theme="morning"] .page-hero,:root[data-dm-theme="day"] .page-hero{background:linear-gradient(135deg,#26211f,#171717);color:#fff}
+      .dm-theme-control{position:relative;display:flex;align-items:center;flex-shrink:0;margin-left:4px}
+      .dm-theme-trigger{min-height:38px;padding:8px 12px;border:1px solid var(--line);background:transparent;color:var(--ink);font:inherit;font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;transition:background-color .16s ease,color .16s ease,border-color .16s ease}
+      .dm-theme-trigger:active,.dm-theme-trigger[aria-expanded="true"]{background:#277d3d;color:#fff;border-color:#277d3d}
+      .dm-theme-options{position:absolute;right:0;top:calc(100% + 8px);z-index:2000;min-width:138px;padding:5px;background:var(--panel);color:var(--ink);border:1px solid var(--line);box-shadow:0 14px 34px rgba(0,0,0,.16)}
+      .dm-theme-options[hidden]{display:none}
+      .dm-theme-options button{display:block;width:100%;padding:11px 12px;text-align:left;border:0;background:transparent;color:inherit;font:inherit;font-size:12px;cursor:pointer;transition:background-color .16s ease,color .16s ease}
+      .dm-theme-options button:hover,.dm-theme-options button:focus-visible,.dm-theme-options button:active{background:#277d3d;color:#fff;outline:none}
+      :root[data-dm-theme="night"] .dm-theme-options{background:#19191d;color:#f4f1ed}
+      @media(max-width:760px){.dm-theme-control{width:100%;margin:8px 0 0;padding-top:8px;border-top:1px solid var(--line)}.dm-theme-trigger{width:100%;text-align:left}.dm-theme-options{left:0;right:auto;top:calc(100% + 5px)}}
+      @media(prefers-reduced-motion:reduce){.dm-theme-trigger,.dm-theme-options button{transition:none!important}}
+    `;
+    document.head.appendChild(style);
+  }
 })();
