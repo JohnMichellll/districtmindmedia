@@ -1,39 +1,39 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-13T21:55:45.284Z
+Generated: 2026-10-13T22:20:43.565Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 216
+Stories discovered: 215
 
-1. **Tia Ray Becomes First Chinese Female Singer to Headline Grammy Museum Show** — Billboard — Tue, 13 Oct 2026 21:45:17 +0000
+1. **Lil Jon Pushes For Posthumous Grammy To Honor Late Son Nathan Smith** — AllHipHop — Tue, 13 Oct 2026 22:04:27 +0000
+   https://allhiphop.com/news/lil-jon-pushes-for-posthumous-grammy-to-honor-late-son-nathan-smith/
+2. **Tia Ray Becomes First Chinese Female Singer to Headline Grammy Museum Show** — Billboard — Tue, 13 Oct 2026 21:45:17 +0000
    https://www.billboard.com/music/music-news/tia-ray-grammy-museum-show-1236360233/
-2. **Brian Eno Calls Ed Sheeran “Weak” Over Macklemore’s Tour Removal** — AllHipHop — Tue, 13 Oct 2026 21:30:46 +0000
+3. **Brian Eno Calls Ed Sheeran “Weak” Over Macklemore’s Tour Removal** — AllHipHop — Tue, 13 Oct 2026 21:30:46 +0000
    https://allhiphop.com/news/brian-eno-calls-ed-sheeran-weak-over-macklemores-tour-removal/
-3. **Norwegian hip-hop duo that brought the immigrant experience to the fore retires - The World from PRX** — Google News — Hip-Hop — Tue, 13 Oct 2026 21:19:32 GMT
+4. **Norwegian hip-hop duo that brought the immigrant experience to the fore retires - The World from PRX** — Google News — Hip-Hop — Tue, 13 Oct 2026 21:19:32 GMT
    https://news.google.com/rss/articles/CBMivAFBVV95cUxNd2VZVUJhMDg1NjBIa1NISzRsYTRKUjJ3YXhSaFNxNHMwaTNuWTltQU5JaVpRV3p6WjQ3VTZGdnlQYUV2a295bkx3a2xwQXlrN0tLMFZuM2FvUGhDaU9ZU0RDMFBRaHNIYmFBZ3hnQzMxdWt4ZjJHWmJJX3hSNlhnWVFYVWg2N1FuOGlFRFVFcW9WQkJOM2ZrekVmaUZybE1GLU9mSWdUNzZkd2tyS1hUTjZWUEtnVm4tdUJ5Wg?oc=5
-4. **Watch Taylor Swift Laugh With Dakota Johnson & Cuddle With Travis Kelce in New ‘Patient Zero’ Footage** — Billboard — Tue, 13 Oct 2026 21:16:52 +0000
+5. **Watch Taylor Swift Laugh With Dakota Johnson & Cuddle With Travis Kelce in New ‘Patient Zero’ Footage** — Billboard — Tue, 13 Oct 2026 21:16:52 +0000
    https://www.billboard.com/music/music-news/taylor-swift-patient-zero-bts-1236360150/
-5. **Here’s What It Was Like to Walk With Shakira For the Final Night of Her Historic Madrid Residency** — Billboard — Tue, 13 Oct 2026 21:10:01 +0000
+6. **Here’s What It Was Like to Walk With Shakira For the Final Night of Her Historic Madrid Residency** — Billboard — Tue, 13 Oct 2026 21:10:01 +0000
    https://www.billboard.com/music/latin/shakira-madrid-spain-final-residency-experience-1236360135/
-6. **With ‘HABIBTI,’ Drake Sets New Record For Most No. 1 Albums on R&B/Hip-Hop Chart - Billboard** — Google News — Hip-Hop — Tue, 13 Oct 2026 21:02:02 GMT
+7. **With ‘HABIBTI,’ Drake Sets New Record For Most No. 1 Albums on R&B/Hip-Hop Chart - Billboard** — Google News — Hip-Hop — Tue, 13 Oct 2026 21:02:02 GMT
    https://news.google.com/rss/articles/CBMitAFBVV95cUxPc3ZBc1RZOC0yOFU1OGRTbWo3ZU1ucWdTcW1BWGpkNmpDMmZ6NVNhQzlwWm8wZjdqekQ4YUhRQjRRVVV5cUtwWmhRLXlhNGZLYktDWlJWdkFOb1dTbmRwSVlxU0RrOVFnd19ORUZVc0lPYVNaWGJNWmYyWS02Tm9CTTJFODk1c3VOX2M5T2pMdjhlaktyeVFpdElQMF9Xampnekl5SmVJZHpkOXVVbk9xM0xmek8?oc=5
-7. **With ‘HABIBTI,’ Drake Sets New Record For Most No. 1 Albums on R&B/Hip-Hop Chart - Yahoo** — Google News — R&B — Tue, 13 Oct 2026 21:01:32 GMT
+8. **With ‘HABIBTI,’ Drake Sets New Record For Most No. 1 Albums on R&B/Hip-Hop Chart - Yahoo** — Google News — R&B — Tue, 13 Oct 2026 21:01:32 GMT
    https://news.google.com/rss/articles/CBMinAFBVV95cUxPc0RBT0xMSTdXNDkwSnU1YjBTVXlhcHNicHU0cHlsQ19ic3NmYkdCOFlkQnZ2WUp0OHJuazQzbkJlcU1QdEhCYmNrQThGR2VrRmhkVXViaDJEbFFtZC12ZXhFTUdrRXZjRnJEYWtzbHpBbjVVdUI2bm05X0FSZDdNRU1Jc3VRYWRpS3E4ZE9SSFp0NUdPSnFMXzBHQlg?oc=5
-8. **With ‘HABIBTI,’ Drake Sets New Record For Most No. 1 Albums on R&B/Hip-Hop Chart** — Billboard — Tue, 13 Oct 2026 21:01:32 +0000
+9. **With ‘HABIBTI,’ Drake Sets New Record For Most No. 1 Albums on R&B/Hip-Hop Chart** — Billboard — Tue, 13 Oct 2026 21:01:32 +0000
    https://www.billboard.com/music/chart-beat/drake-habibti-solar-eclipse-number-1-rb-hip-hop-album-chart-1236360174/
-9. **I SWIM WITH SHARKS INC. INTRODUCES NEW ARTIST READINESS PLATFORM BUILT TO TURN INDEPENDENT TALENT INTO SUSTAINABLE BUSINESSES - 24Hip-Hop** — Google News — Hip-Hop — Tue, 13 Oct 2026 20:59:44 GMT
+10. **I SWIM WITH SHARKS INC. INTRODUCES NEW ARTIST READINESS PLATFORM BUILT TO TURN INDEPENDENT TALENT INTO SUSTAINABLE BUSINESSES - 24Hip-Hop** — Google News — Hip-Hop — Tue, 13 Oct 2026 20:59:44 GMT
    https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZjk4anRGT1hDVk9YN05IZTd3N2JoTG1rRXF1Zi1La2gxcHZEN24wVmhCZWZLOWRGMnc4aFdITTFvZ2tWclZpWC1FM3R1QWxLeVdONmllUTQ2QnJRSWJuOUZmOWdSZk92Rkx1WjE2cTBZdzM3bFMtSGdPSzJxZXBYcWl0TlU1UmVkeGdoYTZpbTZzQ3FlenVMU1d5RHdGSmVsTkZ6dHhhTEtKX3NNaGM2bm1Mcl9LNFRnWFpLeGFBWldTRWtCTHYzc0FHcEdaY2tBbzNMZ0k4azAxNFlZckVmbg?oc=5
-10. **SLASH Says GUNS N' ROSES Will Take 2027 Off From Touring To Work On New Music: 'We Have So Much Material' - BLABBERMOUTH.NET** — Google News — New Music — Tue, 13 Oct 2026 20:57:39 GMT
+11. **SLASH Says GUNS N' ROSES Will Take 2027 Off From Touring To Work On New Music: 'We Have So Much Material' - BLABBERMOUTH.NET** — Google News — New Music — Tue, 13 Oct 2026 20:57:39 GMT
    https://news.google.com/rss/articles/CBMiywFBVV95cUxOWmNjeVlQOVNhNm1hQWtyd3lEeXFycDNXTWlFU0RQZEJlNm9ZUEk4WmhVWXJXalVVeko5ckZlRkN3Y3h4SzM0OElBUTB2TlJkNWt4ZkdveDY5OVZWLWxDSy1Ib0JQeW5yZDB3VWZUV21faWtzRW1ZbkxwSmRqbjRHdlVqUURiTjczVklpb1BKOTcxcWhQZ1VWOW9DdkVIOEVJejgxRnJQQkFYb0lfYU9seDhPV2M4VGVQMnhZUGIzNzdsNlJUblZKZ19iUQ?oc=5
-11. **Extended interview: Grandmaster Flash on the creation of hip-hop, his new book and more - CBS News** — Google News — Hip-Hop — Tue, 13 Oct 2026 20:55:00 GMT
+12. **Extended interview: Grandmaster Flash on the creation of hip-hop, his new book and more - CBS News** — Google News — Hip-Hop — Tue, 13 Oct 2026 20:55:00 GMT
    https://news.google.com/rss/articles/CBMitwFBVV95cUxPeXdMdzdPNm0zcXg4NEl4OXRGNklZcnJ6NWNTWndmektVSlU5UjdjX2laLVcwRmpoZmx3ZGtsSldNTFA2ZUlDbUt1ZmhnMVM0QXZiUDBxZmdjVkJodjhNTDVkaVJlcHBPVkhxaVZKNVBJYlB6VmRPMWliYktwRGNwc0lBbkRoSWJDajVZU3BjR05LT0ZSa1FhZHFPdGgyZnRSTFhUSGRJNTlKYThqYS1yaGRDY2xEMHM?oc=5
-12. **Dance Up & Comer of the Month Tiffany Day Turned Her Worst-Streamed Song Into Her Biggest Hit** — Billboard — Tue, 13 Oct 2026 20:46:24 +0000
+13. **Dance Up & Comer of the Month Tiffany Day Turned Her Worst-Streamed Song Into Her Biggest Hit** — Billboard — Tue, 13 Oct 2026 20:46:24 +0000
    https://www.billboard.com/music/features/tiffany-day-dance-artist-halo-album-tour-interview-1236359884/
-13. **Music Industry Moves: Jesse Jo Stark Signs With WME, Rebecca Allen Steps Down at Universal Music U.K.** — Variety — Music — Tue, 13 Oct 2026 20:43:57 +0000
+14. **Music Industry Moves: Jesse Jo Stark Signs With WME, Rebecca Allen Steps Down at Universal Music U.K.** — Variety — Music — Tue, 13 Oct 2026 20:43:57 +0000
    https://variety.com/2026/music/news/jesse-jo-stark-wme-1236910696/
-14. **Country Music Association Reveals 2026 Broadcast Award Winners: Full List** — Billboard — Tue, 13 Oct 2026 20:34:33 +0000
-   https://www.billboard.com/pro/country-music-association-2026-broadcast-award-winners-list/
 15. **A Perfect Circle Share Cinematic New Video For “Starless” - mxdwn Music** — Google News — New Music — Tue, 13 Oct 2026 20:19:33 GMT
    https://news.google.com/rss/articles/CBMinAFBVV95cUxQaTFQWXlsM2x6RXhrc24tbFlZajRnOE5jOWpuQl9rS2YzeW1sWEp2bzhvVDNweC01WmtocDBvSG5DN1N3NHpOcEZPWjczUVNQbmxEZUg4M3VlRk1XZ2NBVEdjcWVlX2VJS0N0b09nVXFDVS1jN0U1U08ydVhzZjYtNkgxRk5BVXFObnJBZjZkYVJnOXM0aHJTbktra3LSAaIBQVVfeXFMTkZkakM0UGdoZEVYYm9lSEFjMXdmSy1BZ1RFNGRuMEtWb3RSYkVRTUtpTHlkSWp1NGJuTFNWaW1pb2FreWJiSURwLXFma1BtSXpDeW5IWEVWRjE1eGlZNTRJT1pFcjJnQkdSQUdSR0RoWUE0elFKQlplaVVOYXBKVmc1d1dkYXZXclRweHhCZGRUcTJuYno4YTdvSWl1MkFQLUVR?oc=5
 16. **iOS 27.2 beta 4: Apple Music goes black-and-white, Apple Health redesign pulled - AppleInsider** — Google News — New Music — Tue, 13 Oct 2026 20:12:00 GMT
