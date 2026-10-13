@@ -59,7 +59,7 @@ body{display:flex;flex-direction:column}
 (()=>{
  const hero=document.querySelector('.hero-cover-rotator'); if(!hero)return;
  const layers=[...hero.querySelectorAll('.hero-cover-layer')]; if(layers.length<2)return;
- const titles=['Drivin Crazy','WHO IS YOU','U'];
+ const titles=['WHO IS YOU','U'];
  const load=async title=>{
   try{
    const r=await fetch('/api/release-art?artist='+encodeURIComponent('John Michell')+'&title='+encodeURIComponent(title),{cache:'default'});
@@ -76,9 +76,6 @@ body{display:flex;flex-direction:column}
  (async()=>{
   const found=[];
   for(const title of titles){const url=await load(title);if(url&&!found.includes(url))found.push(url);}
-  if(!found.length){
-   try{const r=await fetch('/assets/photo-manifest.json?v=20261012-cover-rotation');const m=await r.json();const url=m?.photos?.['john-michell-drivin-crazy']?.url;if(url)found.push(url);}catch{}
-  }
   if(!found.length)return;
   let index=0,active=0; layers[0].style.backgroundImage='url("'+found[0].replace(/["']/g,'')+'")';
   if(found.length===1)return;
