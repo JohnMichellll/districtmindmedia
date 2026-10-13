@@ -59,6 +59,28 @@
           </aside>
         </div>
       </section>
+
+      <section class="page-shell reveal" aria-labelledby="dm-ecosystem-title">
+        <div class="section-heading">
+          <p class="eyebrow">District Mind</p>
+          <h2 id="dm-ecosystem-title">The ecosystem.</h2>
+          <p class="section-deck">One place for the projects connected to District Mind. Simple, direct, and built to match the rest of the site.</p>
+        </div>
+        <div class="dm-ecosystem-grid">
+          <article class="dm-ecosystem-card"><p class="eyebrow">Apparel</p><h3>District Mind Apparel</h3><p>Minimal streetwear from the District Mind brand.</p><a class="hero-button" href="https://district-mind-apparel.printify.me/" target="_blank" rel="noopener noreferrer">Shop Apparel</a></article>
+          <article class="dm-ecosystem-card"><p class="eyebrow">Records and music</p><h3>District Mind Records</h3><p>Independent music and the public John Michell artist catalog.</p><a class="hero-button" href="https://music.apple.com/us/artist/john-michell/1720482148" target="_blank" rel="noopener noreferrer">Listen to John Michell</a></article>
+          <article class="dm-ecosystem-card"><p class="eyebrow">Media</p><h3>District Mind Media</h3><p>Independent music, culture, artist, and release coverage.</p><a class="hero-button" href="/explore">Explore Media</a></article>
+          <article class="dm-ecosystem-card"><p class="eyebrow">Education</p><h3>District Mind Academy</h3><p>Learning resources and guides as the Academy grows.</p><a class="hero-button" href="/academy">Open Academy</a></article>
+        </div>
+      </section>
+      <style>
+        .dm-ecosystem-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+        .dm-ecosystem-card{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:clamp(22px,3vw,34px);border:1px solid rgba(17,17,17,.12);background:rgba(255,255,255,.22);min-height:220px}
+        .dm-ecosystem-card h3{font-size:clamp(24px,3vw,34px);line-height:1.05;letter-spacing:-.045em}
+        .dm-ecosystem-card p:not(.eyebrow){color:var(--muted);max-width:46ch}
+        .dm-ecosystem-card .hero-button{margin-top:auto;box-shadow:none;border-radius:0;letter-spacing:.08em;padding:13px 18px}
+        @media(max-width:680px){.dm-ecosystem-grid{grid-template-columns:1fr}}
+      </style>
     </main>
 
     <footer>
