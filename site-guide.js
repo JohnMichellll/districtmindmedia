@@ -178,7 +178,7 @@
           </div>
           <form class="dm-guide-form" id="dm-guide-form">
             <input id="dm-guide-input" type="search" autocomplete="off" placeholder="Try: Drake, JPEGMAFIA, Colorado story, new music…" aria-label="Search District Mind Media">
-            <button type="submit">Find It →</button>
+            <button type="submit">Find It </button>
           </form>
           <div id="dm-guide-status" class="dm-guide-status" aria-live="polite">SEARCH THE WHOLE DESK.</div>
           <div id="dm-guide-results" class="dm-guide-results"></div>
@@ -209,10 +209,10 @@
         const cards=[];
         if(artist){
           const n=artist.artist;
-          cards.push('<a class="dm-guide-result dm-guide-artist-result" href="artists.html?q='+encodeURIComponent(n)+'"><span class="dm-guide-result-type">ARTIST MATCH</span><strong>'+esc(n)+'</strong><small>Open Artist Intelligence →</small></a>');
+          cards.push('<a class="dm-guide-result dm-guide-artist-result" href="artists.html?q='+encodeURIComponent(n)+'"><span class="dm-guide-result-type">ARTIST MATCH</span><strong>'+esc(n)+'</strong><small>Open Artist Intelligence </small></a>');
         }
-        matches.forEach(x=>cards.push('<a class="dm-guide-result" href="'+esc(x.href)+'"><span class="dm-guide-result-type">'+esc(x.type)+'</span><strong>'+esc(x.title)+'</strong><small>'+esc(x.tags.split(' ').slice(0,8).join(' '))+' · Open →</small></a>'));
-        if(!cards.length) cards.push('<div class="dm-guide-no-result"><strong>We don’t have a direct match yet.</strong><p>Try the artist’s full name, a few words from the headline, or open the Newsroom to browse current coverage.</p><a href="newsroom.html">Open Newsroom →</a></div>');
+        matches.forEach(x=>cards.push('<a class="dm-guide-result" href="'+esc(x.href)+'"><span class="dm-guide-result-type">'+esc(x.type)+'</span><strong>'+esc(x.title)+'</strong><small>'+esc(x.tags.split(' ').slice(0,8).join(' '))+' · Open </small></a>'));
+        if(!cards.length) cards.push('<div class="dm-guide-no-result"><strong>We don’t have a direct match yet.</strong><p>Try the artist’s full name, a few words from the headline, or open the Newsroom to browse current coverage.</p><a href="newsroom.html">Open Newsroom </a></div>');
         results.innerHTML=cards.join('');
         status.textContent=artist ? 'ARTIST MATCH + SITE ROUTES FOUND.' : (matches.length+' ROUTES FOUND.');
       };
@@ -239,7 +239,7 @@
     const b=document.createElement('button');
     b.id='dm-guide-trigger'; b.className='dm-guide-trigger'; b.type='button';
     b.setAttribute('aria-label','Open District Mind site guide');
-    b.innerHTML='<span class="dm-guide-trigger-icon">⌕</span><span>WAYFINDER</span><kbd>/</kbd>';
+    b.textContent='WAYFINDER';
     b.addEventListener('click',()=>openGuide());
     document.body.appendChild(b);
   }
