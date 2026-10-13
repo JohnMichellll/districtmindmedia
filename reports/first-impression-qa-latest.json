@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-13T02:59:13.735Z",
+  "generatedAt": "2026-10-13T04:57:33.327Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
       "route": "/",
       "status": 200,
-      "ms": 1814,
+      "ms": 1165,
       "title": "District Mind Media — The Culture in Motion",
       "bodyChars": 240,
       "hasNav": true,
@@ -21,6 +21,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/explore",
@@ -28,12 +29,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 10
+      "internalLinkCount": 11
     },
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 1064,
+      "ms": 1059,
       "title": "Newsroom — District Mind Media",
       "bodyChars": 2252,
       "hasNav": true,
@@ -79,6 +80,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/wayfinder.html?find=local",
@@ -112,12 +114,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 16
+      "internalLinkCount": 17
     },
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1232,
+      "ms": 1300,
       "title": "District Mind Media — Artist Intelligence Hub",
       "bodyChars": 1581,
       "hasNav": true,
@@ -132,6 +134,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/wayfinder",
@@ -150,12 +153,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 17
+      "internalLinkCount": 18
     },
     {
       "route": "/releases.html",
       "status": 200,
-      "ms": 1253,
+      "ms": 1047,
       "title": "District Mind Media | Releases",
       "bodyChars": 2233,
       "hasNav": true,
@@ -257,6 +260,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://music.apple.com/us/artist/john-michell/1720482148",
@@ -268,12 +272,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 9
+      "internalLinkCount": 10
     },
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 981,
+      "ms": 1002,
       "title": "Local Watch — District Mind Media",
       "bodyChars": 886,
       "hasNav": true,
@@ -288,6 +292,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/wayfinder",
@@ -299,12 +304,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 12
+      "internalLinkCount": 13
     },
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 1039,
+      "ms": 1063,
       "title": "Wayfinder Music AI — District Mind Media",
       "bodyChars": 1566,
       "hasNav": true,
@@ -319,6 +324,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/artists",
@@ -337,12 +343,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 15
+      "internalLinkCount": 16
     },
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1048,
+      "ms": 1122,
       "title": "Radar — District Mind Media",
       "bodyChars": 567,
       "hasNav": true,
@@ -357,6 +363,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/newsroom",
@@ -368,12 +375,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 14
+      "internalLinkCount": 15
     },
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 1013,
+      "ms": 987,
       "title": "District Mind Media | Culture",
       "bodyChars": 1660,
       "hasNav": true,
@@ -419,6 +426,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://commons.wikimedia.org/wiki/File:Huncho_Jack.jpg",
@@ -430,14 +438,14 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 9
+      "internalLinkCount": 10
     },
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1026,
+      "ms": 1060,
       "title": "District Mind Media | About",
-      "bodyChars": 934,
+      "bodyChars": 1506,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -450,17 +458,22 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact"
+        "https://district-mind-media.pages.dev/contact",
+        "https://district-mind-apparel.printify.me/",
+        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://district-mind-media.pages.dev/explore",
+        "https://district-mind-media.pages.dev/academy"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 9
+      "internalLinkCount": 11
     },
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 1049,
+      "ms": 993,
       "title": "District Mind Media | Contact",
       "bodyChars": 505,
       "hasNav": true,
@@ -475,17 +488,18 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 9
+      "internalLinkCount": 10
     },
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 1005,
+      "ms": 1021,
       "title": "District Mind Academy — Class 001",
       "bodyChars": 3120,
       "hasNav": true,
@@ -500,6 +514,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/artists",
@@ -515,12 +530,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 14
+      "internalLinkCount": 15
     },
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 1174,
+      "ms": 980,
       "title": "Academy 001 — District Mind",
       "bodyChars": 935,
       "hasNav": true,
@@ -535,6 +550,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/academy#join",
@@ -547,12 +563,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 13
+      "internalLinkCount": 14
     },
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 1029,
+      "ms": 1132,
       "title": "Editorial — District Mind Media",
       "bodyChars": 1045,
       "hasNav": true,
@@ -567,6 +583,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/releases",
@@ -584,12 +601,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 16
+      "internalLinkCount": 17
     },
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1130,
+      "ms": 1000,
       "title": "Editorial Policy | District Mind Media",
       "bodyChars": 2887,
       "hasNav": true,
@@ -604,6 +621,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://commons.wikimedia.org/wiki/File:Earl_Sweatshirt.pa.amager.bio.jpg",
@@ -628,12 +646,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 9
+      "internalLinkCount": 10
     },
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1151,
+      "ms": 1065,
       "title": "Contributors — District Mind Media",
       "bodyChars": 1088,
       "hasNav": true,
@@ -648,6 +666,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/john-michell",
@@ -661,12 +680,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 14
+      "internalLinkCount": 15
     },
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 1024,
+      "ms": 1046,
       "title": "Explore — District Mind Media",
       "bodyChars": 892,
       "hasNav": true,
@@ -681,6 +700,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/newsroom",
@@ -698,12 +718,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 13
+      "internalLinkCount": 14
     },
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 1513,
+      "ms": 1196,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
       "bodyChars": 2840,
       "hasNav": true,
@@ -718,6 +738,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/newsroom",
@@ -732,12 +753,12 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 14
+      "internalLinkCount": 15
     },
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 987,
+      "ms": 1016,
       "title": "John Michell — District Mind Media",
       "bodyChars": 2091,
       "hasNav": true,
@@ -789,6 +810,7 @@
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/ecosystem",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://music.apple.com/us/artist/john-michell/1720482148",
@@ -799,7 +821,7 @@
       ],
       "badCopy": false,
       "horizontalOverflow": false,
-      "internalLinkCount": 9
+      "internalLinkCount": 10
     }
   ],
   "linkFailures": [],
