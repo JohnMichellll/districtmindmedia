@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-13T09:46:43.366Z
+Generated: 2026-10-13T10:13:46.304Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 224
+Stories discovered: 223
 
 1. **Xdinary Heroes Are "Obsessed With Youth" In New Music Video - The Nu-Metal Agenda** — Google News — New Music — Tue, 13 Oct 2026 09:32:55 GMT
    https://news.google.com/rss/articles/CBMijAFBVV95cUxQT0tKVnlsd1pucmZIRnNLR0p2UHp4UjZPMGJBNGk4Y09IRkRicWMxR1dpZDF0aE1BQ0tKMmRPaUp3Y2RPZmlXVHJFbDRWMVc3VnNRWkJvb25Sc19zSmotNDdYMm9jZ252eXp5cjI5QXdsSXE1WmdQYTJ2Z2k0OUNzMTlPaXNTRldqblRUYQ?oc=5
