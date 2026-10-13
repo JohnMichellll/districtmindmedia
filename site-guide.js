@@ -62,9 +62,21 @@
           position: absolute; top: calc(100% + 8px); right: 0;
           width: min(340px, calc(100vw - 28px)); max-height: min(72dvh, 560px);
           overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch;
-          background: #fff; color: #171715; border: 1px solid rgba(17,17,17,.12);
+          background: #fff !important; color: #171715 !important; border: 1px solid rgba(17,17,17,.12);
           border-radius: 16px; box-shadow: 0 18px 48px rgba(0,0,0,.18);
           padding: 10px; gap: 3px; align-items: stretch;
+        }
+        /* Keep dropdown readable on dark-themed pages such as Wayfinder and Artist Desk. */
+        .site-header .primary-nav.is-open {
+          background: #fff !important; color: #171715 !important;
+        }
+        .site-header .primary-nav a {
+          color: #171715 !important;
+        }
+        .site-header .primary-nav a:hover,
+        .site-header .primary-nav a:active,
+        .site-header .primary-nav a[aria-current="page"] {
+          background: #f1f0eb !important; color: #111 !important;
         }
         .primary-nav.is-open {
           visibility: visible; opacity: 1; pointer-events: auto; transform: translateY(0);
