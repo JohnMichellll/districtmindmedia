@@ -7,7 +7,7 @@
     primaryNav.innerHTML = [
       ['Newsroom','/newsroom'],['Radar','/radar'],['Releases','/releases'],
       ['Wayfinder AI','/wayfinder'],['Academy','/academy'],['Culture','/culture'],
-      ['About','/about'],['Contact','/contact']
+      ['Ecosystem','/ecosystem'],['About','/about'],['Contact','/contact']
     ].map(([label,href]) => '<a href="' + href + '">' + label + '</a>').join('');
   }
 
@@ -112,6 +112,7 @@
   }, true);
 
   const routes = [
+    {title:'District Mind Ecosystem', href:'ecosystem.html', type:'ECOSYSTEM', tags:'district mind apparel records DistroKid John Michell music youtube twitch projects all brands directory'},
     {title:'Wayfinder', href:'wayfinder.html', type:'WAYFINDER', tags:'navigation search find artist article hometown local state discovery guide concerts shows tickets events'},
     {title:'Local Watch', href:'local.html', type:'LOCAL', tags:'state city local concerts shows touring artists culture recent reports archive'} ,
     {title:'Local Watch', href:'local.html', type:'LOCAL', tags:'state city local concerts shows touring artists culture recent reports archive'} ,
