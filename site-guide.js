@@ -7,7 +7,7 @@
     primaryNav.innerHTML = [
       ['Newsroom','/newsroom'],['Radar','/radar'],['Releases','/releases'],
       ['Wayfinder AI','/wayfinder'],['Academy','/academy'],['Culture','/culture'],
-      ['Ecosystem','/ecosystem'],['About','/about'],['Contact','/contact']
+      ['About','/about'],['Contact','/contact']
     ].map(([label,href]) => '<a href="' + href + '">' + label + '</a>').join('');
   }
 
@@ -47,11 +47,11 @@
         background: #171715; color: #fff; font: inherit; font-weight: 750;
         line-height: 1; cursor: pointer; touch-action: manipulation;
         -webkit-tap-highlight-color: transparent;
-        transition: background .18s ease, transform .18s ease, box-shadow .18s ease;
+        transition: background .18s ease, color .18s ease;
       }
-      .menu-toggle::before { content: '☰'; font-size: 17px; line-height: 1; }
-      .menu-toggle:hover { background: #33332f; box-shadow: 0 5px 16px rgba(0,0,0,.12); }
-      .menu-toggle:active { transform: scale(.97); }
+      .menu-toggle::before { content: none; }
+      .menu-toggle:hover { background: #33332f; }
+      .menu-toggle:active { background: #277d3d; color: #fff; }
       .menu-toggle:focus-visible, .primary-nav a:focus-visible {
         outline: 3px solid #277d3d; outline-offset: 3px;
       }
@@ -86,6 +86,30 @@
     document.head.appendChild(style);
   }
 
+  // Quiet, consistent interaction: no decorative arrows or emoji on button controls; click feedback is color-only.
+  if (!document.getElementById('dm-button-polish')) {
+    const style = document.createElement('style');
+    style.id = 'dm-button-polish';
+    style.textContent = `
+      button, .hero-button, .submit-btn, .dm-guide-form button, .dm-guide-trigger, .dm-ecosystem-card a {
+        transition: background-color .16s ease, color .16s ease, border-color .16s ease !important;
+        transform: none !important; box-shadow: none !important;
+        -webkit-tap-highlight-color: transparent;
+      }
+      button:active, .hero-button:active, .submit-btn:active, .dm-guide-form button:active, .dm-guide-trigger:active, .dm-ecosystem-card a:active {
+        background-color: #277d3d !important; color: #fff !important; border-color: #277d3d !important;
+        transform: none !important; box-shadow: none !important;
+      }
+      .hero-button:hover, .submit-btn:hover, .dm-guide-form button:hover, .dm-guide-trigger:hover { transform:none !important; box-shadow:none !important; }
+    `;
+    document.head.appendChild(style);
+  }
+  document.querySelectorAll('button, .hero-button, .submit-btn, .dm-guide-form button, .dm-guide-trigger, .dm-ecosystem-card a').forEach(el => {
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => { node.nodeValue = node.nodeValue.replace(/[\\u2190-\\u21FF\\u25B6\\u25C0\\u27A1\\u{1F300}-\\u{1FAFF}\\u{2600}-\\u{27BF}]/gu, '').replace(/\\s{2,}/g, ' ').trim(); });
+  });
+
   // Global, delegated navigation control: works on every page, including pages with legacy inline handlers.
   // Capture and stop the legacy click handler so the menu cannot toggle open and immediately close.
   document.addEventListener('click', e => {
@@ -112,7 +136,6 @@
   }, true);
 
   const routes = [
-    {title:'District Mind Ecosystem', href:'ecosystem.html', type:'ECOSYSTEM', tags:'district mind apparel records DistroKid John Michell music youtube twitch projects all brands directory'},
     {title:'Wayfinder', href:'wayfinder.html', type:'WAYFINDER', tags:'navigation search find artist article hometown local state discovery guide concerts shows tickets events'},
     {title:'Local Watch', href:'local.html', type:'LOCAL', tags:'state city local concerts shows touring artists culture recent reports archive'} ,
     {title:'Local Watch', href:'local.html', type:'LOCAL', tags:'state city local concerts shows touring artists culture recent reports archive'} ,
