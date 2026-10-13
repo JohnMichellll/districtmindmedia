@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-13T05:13:08.430Z
+Generated: 2026-10-13T05:46:46.654Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 221
+Stories discovered: 220
 
 1. **Fuzzy Meadows: The Week's Best New Music (September 14th - September 30th) - POST-TRASH** — Google News — New Music — Tue, 13 Oct 2026 05:04:01 GMT
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ2lHbGlEamo2SDhfYm5SZ2xXNlZiVXF1NHNWX2RZMkpxTGhkYU05VTlxNk80dWVXalhvenVULUh6dmdJbVNKVnVxZV9CU21jZURfQUZ1M3I4bWhHVHJDSzZDSUpOWFVLSElzNHlpaEpXTWxoUmJabHhqbGhCUkRRQWpjX0JZNGg1V2RfaWxubksyY05RY2w0LXNoT0g4TnJOV2phSmp4OEI?oc=5
@@ -60,9 +60,9 @@ Stories discovered: 221
    https://news.google.com/rss/articles/CBMizwFBVV95cUxNVlhuSDJVeVdlMzAtU1pWZ1I5ZTlsRVJPTDBERlUwejJlbExVdjZMU29LU0pmTWYyb3ZnMTU1cHFhQmt3YnZwbUhjZHh5UGxCNWpTNkdhX0E3UUNKZzljMXp5OW5pR1RzUWhJMk50ZjFvMDMxcDlFaUgzNlRidHltV3locmNvVDRXLTNCYkFNcjBMcG92STJLYW5VRTJVOThmZ254Yy1rdXZTV2dGaHZXQWlTZlktZ0NhYWJ3YjE5cHBxNExLd182RUFSR2NsaGs?oc=5
 27. **Doechii Shares New Song & Video “Bombs” - mxdwn Music** — Google News — New Music — Mon, 12 Oct 2026 21:14:20 GMT
    https://news.google.com/rss/articles/CBMiggFBVV95cUxQR0VEUG5kZTRVZWV0X2tMalB1WHNJbl9WVDI5YkQ4dER6YzZLVkQ3VmRPYjRKcWY4OEFPbTVveWFwNlhValBjcWlIbHVUS1N1SWxQOTRvaWUwZWMtWUVaQzFVU0FxY2R4OEduWDhwUnpONWdvSUVEWUk1MTkwVlpBZWFR0gGHAUFVX3lxTE5tOExjYWVNVHFLODhIYXY3TUU5bzlaMlBjdUFZMTJrVVktSlQyWGhpYzY5RmFIV04tNG85TGo1X09NRGtvcnF0c2VHYWl2V2NndVFPMm0tc3JETEZtSERfT3AxXzV3TW1rZFFRWXBGSldaN3RrVXh6S0pGR1Rabi1LbjMxQVNtSQ?oc=5
-28. **Record and Song of the Year Grammy Predictions: With Ella Langley, Taylor Swift, the Two Olivias and Other Frontrunners in the Race, Expect a Nail-Biter** — Variety — Music — Mon, 12 Oct 2026 21:13:07 +0000
+28. **J. Cole Reportedly Declines To Submit 'The Fall-Off' To The Grammys - HotNewHipHop** — Google News — Hip-Hop — Mon, 12 Oct 2026 21:13:51 GMT
+   https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ2ljSmN1REhkd2VDNW03ODJQQUN6TEN1OWllNTdhazl5Q0E3RFF6dGFOUUpDc1ExbjMxU1Q2cnczanQ5Q3ljaC1UbTI5NmVXZm1TNzBBc19scUhqdlNyUnkybjZNX3BHNTljNjRXQ2NfOXpZdXhxbm5EVmFiVFVhWEJVOA?oc=5
+29. **Record and Song of the Year Grammy Predictions: With Ella Langley, Taylor Swift, the Two Olivias and Other Frontrunners in the Race, Expect a Nail-Biter** — Variety — Music — Mon, 12 Oct 2026 21:13:07 +0000
    https://variety.com/2026/music/news/grammy-record-of-year-predictions-2027-ella-taylor-olivia-1236909331/
-29. **James McAvoy pulls off Scottish hip-hop hoax with 'California Schemin’' - Yahoo News Canada** — Google News — Hip-Hop — Mon, 12 Oct 2026 21:11:54 GMT
+30. **James McAvoy pulls off Scottish hip-hop hoax with 'California Schemin’' - Yahoo News Canada** — Google News — Hip-Hop — Mon, 12 Oct 2026 21:11:54 GMT
    https://news.google.com/rss/articles/CBMifEFVX3lxTE1SZ1hZS056WnlBRjJoeTdwYUZRaGFSZl9ob1RtZWx3cUc3VFVEOG9sUktOR3BuVDN3Y1o4VzdMSV94Z3FPbDNqaXpjSHJqV25Sd0FWVWVwS1RHMmJZd2J5dVVCNWlIOFJjN3hYU1Y2aXA1VW5tdFZrem93bDQ?oc=5
-30. **Drake Wins Fifth Straight SOCAN Songwriter Award & Jessie Reyez Earns International Honor** — AllHipHop — Mon, 12 Oct 2026 21:02:54 +0000
-   https://allhiphop.com/news/drake-wins-fifth-straight-socan-songwriter-award-jessie-reyez-earns-international-honor/
