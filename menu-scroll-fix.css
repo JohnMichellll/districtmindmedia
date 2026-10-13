@@ -1,0 +1,14 @@
+/* District Mind mobile navigation and scroll performance patch */
+@media (max-width: 760px) {
+  html { scroll-behavior: auto !important; }
+  body { overscroll-behavior-y: auto; }
+  .site-header { -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }
+  .menu-toggle { position: relative; z-index: 1010 !important; touch-action: manipulation; }
+  .site-header, .nav-container { isolation: isolate; }
+  .site-header .primary-nav { z-index: 1020 !important; max-height: min(70vh, 520px) !important; max-height: min(70dvh, 520px) !important; overflow-y: auto !important; overscroll-behavior-y: contain; -webkit-overflow-scrolling: touch; }
+  .site-header .primary-nav.is-open { pointer-events: auto !important; visibility: visible !important; opacity: 1 !important; }
+  .explore-loader { pointer-events: none !important; }
+}
+@media (prefers-reduced-motion: reduce), (max-width: 760px) {
+  .primary-nav, .menu-toggle, .explore-loader, .explore-progress span { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}
