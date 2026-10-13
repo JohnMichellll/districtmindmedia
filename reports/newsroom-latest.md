@@ -1,68 +1,68 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-13T08:14:30.763Z
+Generated: 2026-10-13T08:48:38.793Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 221
+Stories discovered: 222
 
-1. **Doechii Shares Creative Vision for Upcoming Debut Album - The Source Magazine** — Google News — Hip-Hop — Tue, 13 Oct 2026 08:07:19 GMT
+1. **Video Luke Bryan shares his biggest critic when he releases new music - ABC News - Breaking News, Latest News and Videos** — Google News — New Music — Tue, 13 Oct 2026 08:38:36 GMT
+   https://news.google.com/rss/articles/CBMingFBVV95cUxQZ0UwR3VXcWh3REd3NXUxWDl1MDZiZUdBYndoR0I2TTFUV0xKMXJZUXFlVS1KRk5GSXhPcHhlQ2NVWXQ4Q3JSV2NwYmxYSkFReDZDVllIWmFKaUM3SW11U0FucjN6SzhHaUhJaW9Qb3B1VmRlT0FEaW9hRV95SzVaa3dRdVk1WndlTl9GYkVFRkxlLUI2bGcwWDhPMms4QQ?oc=5
+2. **Yung Lean Lands First Lead-Artist Hot 100 Hit With “Storm II”** — AllHipHop — Tue, 13 Oct 2026 08:30:00 +0000
+   https://allhiphop.com/news/yung-lean-lands-first-lead-artist-hot-100-hit-with-storm-ii/
+3. **Doechii Shares Creative Vision for Upcoming Debut Album - The Source Magazine** — Google News — Hip-Hop — Tue, 13 Oct 2026 08:08:17 GMT
    https://news.google.com/rss/articles/CBMigAFBVV95cUxQNFRURl95eTVhU2Z5RXczMGVfSDdsTXNfSDJmS09uNXVvY3ZwR04weDVpYjFoN2J5S3BQQlNjMkQxclRnNzkzeVpaWlY0VzNaaWpkdWYzZU5jR2Z6cno2aGhBeURnMFQ4cjdNMnVaOHJjM29FVlBINDh6dTU3TmhVRg?oc=5
-2. **A$AP Rocky Adds Australia & New Zealand Dates To “Don’t Be Dumb Tour”** — AllHipHop — Tue, 13 Oct 2026 08:01:00 +0000
+4. **A$AP Rocky Adds Australia & New Zealand Dates To “Don’t Be Dumb Tour”** — AllHipHop — Tue, 13 Oct 2026 08:01:00 +0000
    https://allhiphop.com/news/asap-rocky-adds-australia-new-zealand-dates-to-dont-be-dumb-tour/
-3. **Pitch Music & Arts Returns for 10th-Anniversary Edition in 2027** — Billboard — Tue, 13 Oct 2026 07:40:08 +0000
+5. **American founding history as a hip-hop musical ... ‘Hamilton’ is coming - 매일경제** — Google News — Hip-Hop — Tue, 13 Oct 2026 07:58:03 GMT
+   https://news.google.com/rss/articles/CBMiUkFVX3lxTE83NlZidnUxaHhlNTRKRzE2c1BsSmVaLVhubTVNVzMtWlBNTVdEc2lhaG5vbXRVa1VDOVdwdHIyNjhnQ1N3QXJZYWxBalhWSUhGY0E?oc=5
+6. **Pitch Music & Arts Returns for 10th-Anniversary Edition in 2027** — Billboard — Tue, 13 Oct 2026 07:40:08 +0000
    https://www.billboard.com/music/concerts/pitch-music-arts-10th-anniversary-2027-1236359631/
-4. **Álvaro Díaz Caps Mexico Run With Tainy Before U.S. Tour** — AllHipHop — Tue, 13 Oct 2026 07:30:00 +0000
+7. **Álvaro Díaz Caps Mexico Run With Tainy Before U.S. Tour** — AllHipHop — Tue, 13 Oct 2026 07:30:00 +0000
    https://allhiphop.com/news/alvaro-diaz-caps-mexico-run-with-tainy-before-u-s-tour/
-5. **RZA Reveals The Deadly Twist Behind His “V/H/S/Mixtape” Short** — AllHipHop — Tue, 13 Oct 2026 07:01:00 +0000
+8. **RZA Reveals The Deadly Twist Behind His “V/H/S/Mixtape” Short** — AllHipHop — Tue, 13 Oct 2026 07:01:00 +0000
    https://allhiphop.com/news/rza-reveals-the-deadly-twist-behind-his-v-h-s-mixtape-short/
-6. **Don Toliver Qualifies For Best New Artist Grammy After Five Top 10 Albums** — AllHipHop — Tue, 13 Oct 2026 06:02:00 +0000
+9. **Don Toliver Qualifies For Best New Artist Grammy After Five Top 10 Albums** — AllHipHop — Tue, 13 Oct 2026 06:02:00 +0000
    https://allhiphop.com/news/don-toliver-qualifies-for-best-new-artist-grammy-after-five-top-10-albums/
-7. **Fuzzy Meadows: The Week's Best New Music (September 14th - September 30th) - POST-TRASH** — Google News — New Music — Tue, 13 Oct 2026 05:04:01 GMT
+10. **Fuzzy Meadows: The Week's Best New Music (September 14th - September 30th) - POST-TRASH** — Google News — New Music — Tue, 13 Oct 2026 05:04:01 GMT
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ2lHbGlEamo2SDhfYm5SZ2xXNlZiVXF1NHNWX2RZMkpxTGhkYU05VTlxNk80dWVXalhvenVULUh6dmdJbVNKVnVxZV9CU21jZURfQUZ1M3I4bWhHVHJDSzZDSUpOWFVLSElzNHlpaEpXTWxoUmJabHhqbGhCUkRRQWpjX0JZNGg1V2RfaWxubksyY05RY2w0LXNoT0g4TnJOV2phSmp4OEI?oc=5
-8. **A$AP Rocky Announces First Australian and New Zealand Tour in Eight Years** — Billboard — Tue, 13 Oct 2026 04:20:05 +0000
+11. **A$AP Rocky Announces First Australian and New Zealand Tour in Eight Years** — Billboard — Tue, 13 Oct 2026 04:20:05 +0000
    https://www.billboard.com/music/rb-hip-hop/asap-rocky-australia-new-zealand-tour-2026-1236359625/
-9. **Grammy-Winning Hip-Hop Pioneers Arrested Development Come to Governors State University November 7 - eNews Park Forest** — Google News — Hip-Hop — Tue, 13 Oct 2026 03:55:23 GMT
+12. **Grammy-Winning Hip-Hop Pioneers Arrested Development Come to Governors State University November 7 - eNews Park Forest** — Google News — Hip-Hop — Tue, 13 Oct 2026 03:55:23 GMT
    https://news.google.com/rss/articles/CBMi7gFBVV95cUxOR3gzVm50YjBnLWJCMlRuNHJIdXF2NHE0SGZkc0RpclltLVdWZjZmZWNzWjZ2Y2VoWDJMMDZfSVczWEhqQ1o0bUJ6c2NCX1JvZGh6N1FRY2Q1MEh5N3ZXZlFEVVpNUVZBVkY2YU5BSF9SWDNVdmFHRmx1OVhYdlZKTkZ0QzVldmhKX3pLeU5GMFQxMHIyMkVQN2hENm5nVEt5Mlp1ZXNkRVlsQ1lkSWpIQUhzZTV0V2ljWXlKd1g5UkN6Y0VyOUoxNldnUkhGcnk2YUo0NENhVld2Y3BidURLYmVzYk1reDNTM0NyMlFR?oc=5
-10. **Check out a new music video for FINAL FANTASY XIV Piano Collections - Till Dawn My Tears Flow - GoNintendo** — Google News — New Music — Tue, 13 Oct 2026 03:41:22 GMT
+13. **Check out a new music video for FINAL FANTASY XIV Piano Collections - Till Dawn My Tears Flow - GoNintendo** — Google News — New Music — Tue, 13 Oct 2026 03:41:22 GMT
    https://news.google.com/rss/articles/CBMiugFBVV95cUxNaExVQVpKeWkybGtDREdoUC1sUXEyWXAtOTA3eWdrN042M1RBTXk1YmtEUUJsVVd4QkdLYkEyMU9NdzFrcGFsbkpRWXRmazBtdU9hTHVqNjBWS3BBNmpIbkxQdC1FcTI3MnR0THVlaVpfaEp6TWM3Mkt2endWOFdYOGRsb2ltSUluUjFydHNqc2gycFVZZXdkX2g0YmVHTXIxU201UHJTMm5Fa0FRcFJlYXFMUkZrd09PWnc?oc=5
-11. **Doja Cat Praises Doechii, Tells Rap Fans To Listen to Her New Track "BOMBS" - Complex** — Google News — Hip-Hop — Tue, 13 Oct 2026 02:37:18 GMT
+14. **Doja Cat Praises Doechii, Tells Rap Fans To Listen to Her New Track "BOMBS" - Complex** — Google News — Hip-Hop — Tue, 13 Oct 2026 02:37:18 GMT
    https://news.google.com/rss/articles/CBMihgFBVV95cUxNRDE3SzY0UkhvWE9tVl9vbDVmdVYtQktQcmxCSWNkVmZqTTljMWU4ODVhVWY2NWdSQzh3WGxHeHJjYVIxaENRdldZUUcyVmhSN01sWmdzTHJTMDR0cklEN202N2pzcmQ4QjlvOXFPYzcyM2lZYTVwcVVycHFTRDBIN2dWVEVHQQ?oc=5
-12. **Tobe Nwigwe Recalls Jay Electronica Bringing Two Huge Dogs To Their Studio Session** — AllHipHop — Tue, 13 Oct 2026 02:04:30 +0000
+15. **Tobe Nwigwe Recalls Jay Electronica Bringing Two Huge Dogs To Their Studio Session** — AllHipHop — Tue, 13 Oct 2026 02:04:30 +0000
    https://allhiphop.com/news/tobe-nwigwe-recalls-jay-electronica-bringing-two-huge-dogs-to-their-studio-session/
-13. **Max Caster Booted From TNA As Company Apologizes For Riyadh Rap** — AllHipHop — Tue, 13 Oct 2026 02:01:12 +0000
+16. **Max Caster Booted From TNA As Company Apologizes For Riyadh Rap** — AllHipHop — Tue, 13 Oct 2026 02:01:12 +0000
    https://allhiphop.com/news/max-caster-booted-from-tna-as-company-apologizes-for-riyadh-rap/
-14. **Brooklyn Conservatory Of Music Unveils New State Of The Art Park Slope Facility - News12 | New Jersey** — Google News — New Music — Tue, 13 Oct 2026 01:59:52 GMT
+17. **Brooklyn Conservatory Of Music Unveils New State Of The Art Park Slope Facility - News12 | New Jersey** — Google News — New Music — Tue, 13 Oct 2026 01:59:52 GMT
    https://news.google.com/rss/articles/CBMirAFBVV95cUxQcEMybDhiLWN0YklWTGRpVHdnVmpOb1luQzB4Ylh0SGE3OTAxT0FQX0JzUFdBNGVhMmo1dDF6SGNNOVZaQjlYbm1WbTY0dkpTUTZTTmloVlVDb3VIT3MwOEhlUHlyeWpLX3d1bU5TZGdWZ09yeU5UYWRsdXdnSmRoWXZxV2ZDai1qRS1zT0s0aUROV0hSNHRUdWpRY1NsU1NTcmM3N3RSZHE4VTh4?oc=5
-15. **Imperial Teen Shares New Single & Video “A Single Chair” - mxdwn Music** — Google News — New Music — Tue, 13 Oct 2026 01:41:49 GMT
+18. **Imperial Teen Shares New Single & Video “A Single Chair” - mxdwn Music** — Google News — New Music — Tue, 13 Oct 2026 01:41:49 GMT
    https://news.google.com/rss/articles/CBMimAFBVV95cUxQZ0owTjhRTmd3cERMclg4ZGM0TVJueDVBdkIzSGFqMFJ4N1FkUFlvVTJOWVVoUWlDX2JsSnM2VGRyQ0lPZWNlZUJDY2xKc1kxeDRXVzRDR3dCQ2JaVi05WHBmaXFJVXNUZnI4bEtyQlBKN1I2UDRHWmlkSnVUQlJhRXRZOWtBbzl5enNmQmk1akpUWWYtVThrUtIBngFBVV95cUxQSmRfS1k2TTM0R0w2YWFrU2xPVE5YYVA0aHUzcmVFNWNRMTNSdVlGZDF2TWFEYUJZTUZZdkRYRkNmYk1SZHV6MExXQkpMSzRYYTdlQ3BZX0o3eTFMT1BTXzJudU80WUlNM2M4UmxTeDJQNGNpd3A3TUJZNV9VbDBZbEpNYy1hWVFSLVpmVlNSaXdiYjZjMTJxa18zX2ZoZw?oc=5
-16. **Hip-Hop Artist Dallas xy Merges Horror Icons and Dark Pop Culture with a Killer Beat - HorrorFuel.com** — Google News — Hip-Hop — Tue, 13 Oct 2026 01:18:05 GMT
+19. **Hip-Hop Artist Dallas xy Merges Horror Icons and Dark Pop Culture with a Killer Beat - HorrorFuel.com** — Google News — Hip-Hop — Tue, 13 Oct 2026 01:18:05 GMT
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVk0zM3VrT2FXS0xVTnhKa1V4RWNNWWFWc1BwNkdwbGRnVWk2YXptbkNrSHlEZUg1YXZpb3owWTgzZUR1VXFqczNhTlduaU5DMHdUMS1laV9XYlEyYk9GWDBnQlhzbHpsRVpwSHdIYmZheXVMSEJ6NE1vT0xoVDc3bGF1bG9BMDhYVmR0T0dENk5nanlQZktNT1pfZXh5bW9nSTZ5bXZaWVNnMTJRVUtCWG5rLVB0VzhRNTZv?oc=5
-17. **New Music Radar: Chutes, Salt & Steel, Double Itchie and more - - Happy Mag** — Google News — New Music — Tue, 13 Oct 2026 01:02:12 GMT
+20. **New Music Radar: Chutes, Salt & Steel, Double Itchie and more - - Happy Mag** — Google News — New Music — Tue, 13 Oct 2026 01:02:12 GMT
    https://news.google.com/rss/articles/CBMid0FVX3lxTE5NUnBZZS1jTGtyR2VKdWFGaVp2RFh4b0VkcHc0OVd4LV9iWTBQcFVVLUNFMURPVGkxOXdXNlMtcmVVTGtNdUZMNzEtYzh1cHBIWlp6c2dkQ2M0Y2F5eHUxbXE2Z0N0V1lGUnVzalNfdFVJMVdXY1pn?oc=5
-18. **Taylor Swift, Meet The Beatles: How This Dynamic Duo Tells the Story of Now & Then on the Billboard Charts** — Billboard — Tue, 13 Oct 2026 00:42:05 +0000
+21. **Taylor Swift, Meet The Beatles: How This Dynamic Duo Tells the Story of Now & Then on the Billboard Charts** — Billboard — Tue, 13 Oct 2026 00:42:05 +0000
    https://www.billboard.com/media/podcasts/taylor-swift-beatles-chart-history-pop-shop-podcast-1236359335/
-19. **‘Half’ Review: Hip-Hop Beats & Brutal Beatings In Samjad’s Fast, Fun, Super-Violent Indian Vampire Horror Movie – Sitges Film Festival - IMDb** — Google News — Hip-Hop — Tue, 13 Oct 2026 00:33:11 GMT
+22. **‘Half’ Review: Hip-Hop Beats & Brutal Beatings In Samjad’s Fast, Fun, Super-Violent Indian Vampire Horror Movie – Sitges Film Festival - IMDb** — Google News — Hip-Hop — Tue, 13 Oct 2026 00:33:11 GMT
    https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DUk1tTUVmaE03LVBfZDRiQjUtTnBkT05pM193Tk1RdGsyQW9HN0xDOXF2c1lBem1NV191bHlCOVc4dkNrcDYzLUxSZVBieTM0T21Wc09KZjVDbC1GQy1yWDdyYVlqU3M?oc=5
-20. **LA Opera’s new music director talks about “Carmen” and the new season - CBS News** — Google News — New Music — Tue, 13 Oct 2026 00:19:00 GMT
+23. **LA Opera’s new music director talks about “Carmen” and the new season - CBS News** — Google News — New Music — Tue, 13 Oct 2026 00:19:00 GMT
    https://news.google.com/rss/articles/CBMirAFBVV95cUxNQmpyVGdtVmxLcHFpTkdiQVpjWWVkYnBtNW5iLWE2UUJDYldNRGhHOTBHY2xJTzNHTDR0MGRBWGs0cFFTUGNIYVZwSk92RGlpdjN3ZlpWUkVPOGJwVHFpUzVRQnkyZHhBMWs3ZW9KNE5mOUtNaVBPZnBYQ2ZseHhlZ05tUDFCS3FObVo5TU5kSVdONW12Y2dBdV9WYlBMUDFqZ05rUkFRaS1qandi?oc=5
-21. **Ye Targets Album Of The Year And More With 2027 Grammy Submissions - HotNewHipHop** — Google News — Hip-Hop — Mon, 12 Oct 2026 23:29:27 GMT
+24. **Ye Targets Album Of The Year And More With 2027 Grammy Submissions - HotNewHipHop** — Google News — Hip-Hop — Mon, 12 Oct 2026 23:29:27 GMT
    https://news.google.com/rss/articles/CBMifEFVX3lxTE5yTXdrNHdhVGdkUzRyQmxpdGF3aEdteW5hMHM5Y2NubHVicnBRNGJZRWJxc0ZKZ05OSG10a3NUTGd5QVFjRXRMc3pnY1lGT2FvaXg3d0UyQlBSSGJ3dmdySVljRWEwYWZ0amxWTE55MjJ2NWZ6dEI5MDliUXY?oc=5
-22. **Doechii Aims to Bring Black Womanhood to Hip-Hop With Debut Album - XXL Mag** — Google News — Hip-Hop — Mon, 12 Oct 2026 23:28:32 GMT
+25. **Doechii Aims to Bring Black Womanhood to Hip-Hop With Debut Album - XXL Mag** — Google News — Hip-Hop — Mon, 12 Oct 2026 23:28:32 GMT
    https://news.google.com/rss/articles/CBMidkFVX3lxTE1maUtZQUVmVUpBeE5TX212cG0wUXZLOW9GT290M0JQMU9PbFV2YmxISzJEZ25NZ01LUU1iS1JJejlvVW4zYjBSYUpDNm5aQlo3Qmx2TERIR3Vxa2dlUnQyUEM4NmY2djF2NXdwUFRIVV9JdnE1UUE?oc=5
-23. **3, 2, 1 New Music Monday: Troye Sivan, Greta Van Fleet and Sheryl Crow - ncwlife.com** — Google News — New Music — Mon, 12 Oct 2026 22:56:00 GMT
+26. **3, 2, 1 New Music Monday: Troye Sivan, Greta Van Fleet and Sheryl Crow - ncwlife.com** — Google News — New Music — Mon, 12 Oct 2026 22:56:00 GMT
    https://news.google.com/rss/articles/CBMi3gFBVV95cUxQb2dBNGZhYXVLV05Xalk5eFhOaTR2MjdpRk44V0R0MDU1cjdaa2VDaUdjVDVQUWlnRUl1THRDZk14a0Y4RVpOajFZRXJZWldFeTVZNkQ3VTIwa0Z3R0xYY2FTUTlVWDdtMlBrY3BRQmhrd012Uk93RmY2U0VEQkVQbFAxZGRHR0NKVFdiR1pxaHJGM0dhQi03c0dhQW9WdTBJeVFZd1lhR015YlZnYXE5czk5YmpXR0VOLXdUZ3Q5d2RPaXluSXgzSVpFenQ2YkdZMVRtdUJ4NGl3cWI2d2c?oc=5
-24. **Music Monday: Zyaire returns to Live in the D with new song “Cathedrals” and a show of her own - ClickOnDetroit | WDIV Local 4** — Google News — New Music — Mon, 12 Oct 2026 21:31:54 GMT
+27. **Music Monday: Zyaire returns to Live in the D with new song “Cathedrals” and a show of her own - ClickOnDetroit | WDIV Local 4** — Google News — New Music — Mon, 12 Oct 2026 21:31:54 GMT
    https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcy13LWJYOFZ1MTBjckNEVTNpcHZaWTZZVEIta0ZmdjJVY3JRSTZfSC1rYmhVNDJfLS12Vjh5ZU85dWFzcElSdjdfRnR5LVd3R3dBaGJPay1QbXI4SVZOVExRU09yR1JpbzNaM3NmbnNKc3FVWnVyb05TbEh6UG1uSWFuX2M2QllTLUp3aU9oSHJEUHdaVDZFclI0MVUyMGVrNjNnbFJaTThQNWVpM3JpUXlWM0FFRG1SUC1NVm5fWlRjOEhxLWJUZTl1ZDIyLVJRSXc4WDdvb0RCQ21ISVhpaldR?oc=5
-25. **Best New Songs: Danielle Ponder, SANA SANA MÚSICA & More - Grimy Goods** — Google News — New Music — Mon, 12 Oct 2026 21:18:30 GMT
+28. **Best New Songs: Danielle Ponder, SANA SANA MÚSICA & More - Grimy Goods** — Google News — New Music — Mon, 12 Oct 2026 21:18:30 GMT
    https://news.google.com/rss/articles/CBMinAFBVV95cUxPYU00NlNHTEYzMWUxSHU3Nmo0alRJZWRHc0tUcW1ITkJQWk1sQUZRbGxrRHJTT3gtQnFJWkRKLXhrdVZCUXpfcXpQdjU0WlYwRXJyMVBsanVuandsNnZ6MWtSTGVMa0pLdjliQldua1dvb3dMT3c4dnh5UFZtcVlKTU5WTWVSOElRc1JPay01OFFnZWFjUG5BX3Q0MGs?oc=5
-26. **DistroKid Removed Songs From Streaming Platforms in Response to UMG Copyright Suit** — Rolling Stone — Music — Mon, 12 Oct 2026 21:18:01 +0000
+29. **DistroKid Removed Songs From Streaming Platforms in Response to UMG Copyright Suit** — Rolling Stone — Music — Mon, 12 Oct 2026 21:18:01 +0000
    https://www.rollingstone.com/music/music-news/distrokid-removed-music-response-umg-lawsuit-1235641464/
-27. **En Vogue will perform at Las Vegas Pearl Concert Theater next spring - FOX5 Vegas** — Google News — R&B — Mon, 12 Oct 2026 21:18:00 GMT
+30. **En Vogue will perform at Las Vegas Pearl Concert Theater next spring - FOX5 Vegas** — Google News — R&B — Mon, 12 Oct 2026 21:18:00 GMT
    https://news.google.com/rss/articles/CBMipgFBVV95cUxNUVRVeWhibWdHRGF6TUhpM0ZsSWp6Z2J3dDZIdWFKd05URjhzMUdQWmM1X2o1RjB4Q19LZGxzdzU4TXRKa19OVFQyYmFtdWt6aHV0anRac2wyOTdWSXRmUkdaRzJEX2RZLVFVc0xUVDZmVGpaV2VuaVpUUU9vT3lIbDVhNktVRlVEMnVORWo5SkZQZVNTN2tsbWxFOGlYT1UyZHRyMnVR?oc=5
-28. **Photos: Earl Sweatshirt and MIKE bring new music and a stage full of friends to The Sylvee - The Early Registration** — Google News — New Music — Mon, 12 Oct 2026 21:15:57 GMT
-   https://news.google.com/rss/articles/CBMizwFBVV95cUxNVlhuSDJVeVdlMzAtU1pWZ1I5ZTlsRVJPTDBERlUwejJlbExVdjZMU29LU0pmTWYyb3ZnMTU1cHFhQmt3YnZwbUhjZHh5UGxCNWpTNkdhX0E3UUNKZzljMXp5OW5pR1RzUWhJMk50ZjFvMDMxcDlFaUgzNlRidHltV3locmNvVDRXLTNCYkFNcjBMcG92STJLYW5VRTJVOThmZ254Yy1rdXZTV2dGaHZXQWlTZlktZ0NhYWJ3YjE5cHBxNExLd182RUFSR2NsaGs?oc=5
-29. **Doechii Shares New Song & Video “Bombs” - mxdwn Music** — Google News — New Music — Mon, 12 Oct 2026 21:14:20 GMT
-   https://news.google.com/rss/articles/CBMiggFBVV95cUxQR0VEUG5kZTRVZWV0X2tMalB1WHNJbl9WVDI5YkQ4dER6YzZLVkQ3VmRPYjRKcWY4OEFPbTVveWFwNlhValBjcWlIbHVUS1N1SWxQOTRvaWUwZWMtWUVaQzFVU0FxY2R4OEduWDhwUnpONWdvSUVEWUk1MTkwVlpBZWFR0gGHAUFVX3lxTE5tOExjYWVNVHFLODhIYXY3TUU5bzlaMlBjdUFZMTJrVVktSlQyWGhpYzY5RmFIV04tNG85TGo1X09NRGtvcnF0c2VHYWl2V2NndVFPMm0tc3JETEZtSERfT3AxXzV3TW1rZFFRWXBGSldaN3RrVXh6S0pGR1Rabi1LbjMxQVNtSQ?oc=5
-30. **Record and Song of the Year Grammy Predictions: With Ella Langley, Taylor Swift, the Two Olivias and Other Frontrunners in the Race, Expect a Nail-Biter** — Variety — Music — Mon, 12 Oct 2026 21:13:07 +0000
-   https://variety.com/2026/music/news/grammy-record-of-year-predictions-2027-ella-taylor-olivia-1236909331/
