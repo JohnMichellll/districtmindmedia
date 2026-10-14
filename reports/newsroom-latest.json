@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-10-14T12:27:40.774Z",
+  "generatedAt": "2026-10-14T13:10:35.617Z",
   "operator": "District Mind AI Newsroom",
   "status": "READY_FOR_EDITOR",
-  "storyCount": 217,
+  "storyCount": 221,
   "stories": [
+    {
+      "title": "Watch Cameron Winter at Carnegie Hall’s First Teaser Trailer",
+      "description": "Paul Thomas Anderson’s concert film comes to theaters next month",
+      "url": "https://pitchfork.com/story/watch-cameron-winter-at-carnegie-halls-first-teaser-trailer/",
+      "date": "Wed, 14 Oct 2026 13:01:14 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "How the Internet Changed Everything for Independent Artists | Billboard On The Record",
+      "description": "",
+      "url": "https://www.billboard.com/video/cd-baby-molly-neuman-interview-evolution-independent-artist/",
+      "date": "Wed, 14 Oct 2026 13:00:00 +0000",
+      "source": "Billboard"
+    },
     {
       "title": "Al Jardine Says Watching Footage of Former Beach Boys Bandmate Mike Love at Ryman Concert Was ‘Shocking’: ‘I’m Speechless’",
       "description": "",
@@ -61,8 +75,8 @@
       "source": "Google News — New Music"
     },
     {
-      "title": "How 2 Acclaimed Writers Made Music in Their New Novels - The New York Times",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ3VieUpYYk9xMkxSNktfU0t1Tm5GN2J6bHNxT05vLTl2RGk5ZDExSU9CZU5tWmV5TFVZd0FLVExXaDc1UFFvbGNWd1QzMlhvcjdRS0Y2S0xiTmhJRWZHX1VJNWFqQTdNejE5aXVTRW5tZGRGa0NSejhydXdOc3Mwb3Q2N2JMNWNNakpQODdScUdqQXZHMFFHOHhn?oc=5\" target=\"_blank\">How 2 Acclaimed Writers Made Music in Their New Novels</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+      "title": "Acclaimed Writers Turn to Classical Music in New Novels - The New York Times",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ3VieUpYYk9xMkxSNktfU0t1Tm5GN2J6bHNxT05vLTl2RGk5ZDExSU9CZU5tWmV5TFVZd0FLVExXaDc1UFFvbGNWd1QzMlhvcjdRS0Y2S0xiTmhJRWZHX1VJNWFqQTdNejE5aXVTRW5tZGRGa0NSejhydXdOc3Mwb3Q2N2JMNWNNakpQODdScUdqQXZHMFFHOHhn?oc=5\" target=\"_blank\">Acclaimed Writers Turn to Classical Music in New Novels</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ3VieUpYYk9xMkxSNktfU0t1Tm5GN2J6bHNxT05vLTl2RGk5ZDExSU9CZU5tWmV5TFVZd0FLVExXaDc1UFFvbGNWd1QzMlhvcjdRS0Y2S0xiTmhJRWZHX1VJNWFqQTdNejE5aXVTRW5tZGRGa0NSejhydXdOc3Mwb3Q2N2JMNWNNakpQODdScUdqQXZHMFFHOHhn?oc=5",
       "date": "Wed, 14 Oct 2026 09:00:44 GMT",
       "source": "Google News — New Music"
@@ -289,7 +303,7 @@
       "description": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNc2pMVkdNNEI2aFRNdlVzX2h2SGhNWHgwdHdXamJJQjQxVG5kWGsyOE1ya2hndnVIQ0pJSklPTVBqanNNa1pVRkVhQVpNSV9XS0kwa1Rfc1lxZ1RxVEltVGZ4RGdIQ09IMy1vNkhxQzM2Y3hUbmhmcW9mOFRvV01BckhzY3dQTmtrOUhLaHJDYlB4OFd1bUE?oc=5\" target=\"_blank\">Drake sets record for most No. 1 R&B/hip-hop albums</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo</font>",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc2pMVkdNNEI2aFRNdlVzX2h2SGhNWHgwdHdXamJJQjQxVG5kWGsyOE1ya2hndnVIQ0pJSklPTVBqanNNa1pVRkVhQVpNSV9XS0kwa1Rfc1lxZ1RxVEltVGZ4RGdIQ09IMy1vNkhxQzM2Y3hUbmhmcW9mOFRvV01BckhzY3dQTmtrOUhLaHJDYlB4OFd1bUE?oc=5",
       "date": "Tue, 13 Oct 2026 23:39:42 GMT",
-      "source": "Google News — R&B"
+      "source": "Google News — Hip-Hop"
     },
     {
       "title": "Using hip-hop to open up music across the spectrum - University of Miami News",
@@ -387,6 +401,13 @@
       "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPS3hfWjhqNzI3YlJKLVVPQ1pOaUJsajRnR0NlWXFUMTRzZzNGMzFJbEhIOUhXM3p0RENpM2VhUGZVS3dqMjAtaXpGMlpBX1lYNFBMdVJXZFR4UkhTZlZmZVZYaFBTOWVRRlNmVHFXeHlocURYc3Z4VWdUa0hLRVpHV1o1U3l0QUQ4QTY4NFEzZWZSMjdOT2xtUUVqclRzSmVKNGkwNnhNakt1WHdFazFoc0VIQy1jZw?oc=5\" target=\"_blank\">Zach Bryan's New Eight-Song EP 'Young Manhood And Other Donatable Organs' Due Out Friday</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MusicRow.com</font>",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS3hfWjhqNzI3YlJKLVVPQ1pOaUJsajRnR0NlWXFUMTRzZzNGMzFJbEhIOUhXM3p0RENpM2VhUGZVS3dqMjAtaXpGMlpBX1lYNFBMdVJXZFR4UkhTZlZmZVZYaFBTOWVRRlNmVHFXeHlocURYc3Z4VWdUa0hLRVpHV1o1U3l0QUQ4QTY4NFEzZWZSMjdOT2xtUUVqclRzSmVKNGkwNnhNakt1WHdFazFoc0VIQy1jZw?oc=5",
       "date": "Tue, 13 Oct 2026 20:08:53 GMT",
+      "source": "Google News — New Music"
+    },
+    {
+      "title": "Tiffany Day & glaive Share New Single \"MEANT TO BE\": Listen - Stereogum",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE53dzNGQndLMWVVNGV6QmlrSUQ0bG9Fa21fNy13b3pEZjZvalRVUXVCNFNxYUY3Skk0NUdKM3o4ajk0YWZFQXcxQ2JEd0FGdEZwbnp2SXFSX3pMLWhaUE9zQ1R3bWVSaEY4d2FQVDVFSnNhbDkw?oc=5\" target=\"_blank\">Tiffany Day & glaive Share New Single \"MEANT TO BE\": Listen</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stereogum</font>",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53dzNGQndLMWVVNGV6QmlrSUQ0bG9Fa21fNy13b3pEZjZvalRVUXVCNFNxYUY3Skk0NUdKM3o4ajk0YWZFQXcxQ2JEd0FGdEZwbnp2SXFSX3pMLWhaUE9zQ1R3bWVSaEY4d2FQVDVFSnNhbDkw?oc=5",
+      "date": "Tue, 13 Oct 2026 20:08:00 GMT",
       "source": "Google News — New Music"
     },
     {
@@ -682,27 +703,6 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOU3Nha3htRWNHaHJzbkFIeFA4cGNibFp5Ujl1UUNPcEpkUVpEMGVNaExualc2eFRUMng2SV85ZEhqVjVuUExuVGhLUFRzQTRHLU5ONmhBNTVRYk9pOW1kcUJTT3NXWEFhemViRFkxQkFRUlk5YjdHVmFaak4talQyQld5QnNtbzg?oc=5",
       "date": "Mon, 12 Oct 2026 14:46:06 GMT",
       "source": "Google News — R&B"
-    },
-    {
-      "title": "Brandy Set To Bring Her Iconic R&B Catalog To Lagos For Flytime’s House Of R&B - Essence",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE12Y3NBSjBEdXp6Z0RlVnVQbGdZdkhsMmFJZExQXzVEZWFrNVptVnRlSEx3Tk9CTFBTQVJWb0N6cDRySGkzZW9vRENaNzhHRHdfU2g0WXdCNUIzT0xUek9nbXJFVE9oRHBpdXNkRTk4LTNEZm9FdHFKc1dvSQ?oc=5\" target=\"_blank\">Brandy Set To Bring Her Iconic R&B Catalog To Lagos For Flytime’s House Of R&B</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Essence</font>",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE12Y3NBSjBEdXp6Z0RlVnVQbGdZdkhsMmFJZExQXzVEZWFrNVptVnRlSEx3Tk9CTFBTQVJWb0N6cDRySGkzZW9vRENaNzhHRHdfU2g0WXdCNUIzT0xUek9nbXJFVE9oRHBpdXNkRTk4LTNEZm9FdHFKc1dvSQ?oc=5",
-      "date": "Mon, 12 Oct 2026 13:55:57 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "Today in Hip-Hop History: Mos Def Released His Solo Debut ‘Black On Both Sides’ 27 Years Ago - The Source Magazine",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTTZqTUdxV1owSGRuazI4TEtKUjNvNjdYRGpTRllXeGNha2hCRWpFVlJvNnRRb0U1NmlVUXhyVnpSeWhDdkdPem1NZjVNR1ZhVHRxRm5tUVpxWFpsWUttbWE1QVVwdGw1NlBoSExiV25TZmNPdnV1dFJQbHpXd05wUllSXzZBZng5d25Kc1RUVTdIRG9iOXRWNGFocEdUN3VTOGQ4WDNTUG5Samk5WFVSSGhtMlZZTFpCTEpqMFV4Yk4?oc=5\" target=\"_blank\">Today in Hip-Hop History: Mos Def Released His Solo Debut ‘Black On Both Sides’ 27 Years Ago</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Source Magazine</font>",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTTZqTUdxV1owSGRuazI4TEtKUjNvNjdYRGpTRllXeGNha2hCRWpFVlJvNnRRb0U1NmlVUXhyVnpSeWhDdkdPem1NZjVNR1ZhVHRxRm5tUVpxWFpsWUttbWE1QVVwdGw1NlBoSExiV25TZmNPdnV1dFJQbHpXd05wUllSXzZBZng5d25Kc1RUVTdIRG9iOXRWNGFocEdUN3VTOGQ4WDNTUG5Samk5WFVSSGhtMlZZTFpCTEpqMFV4Yk4?oc=5",
-      "date": "Mon, 12 Oct 2026 12:54:14 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Black Organizers Change Their Message to the Hip-Hop Generation - Yahoo",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOa2o0a1hRZEtHTTJJZTNNWTBZWEtCSzVlblVveE12VE0xYmJ1M2djb2Q5VHBOakRVdVltaDlWYkJudGR6eDV1N0U3RTRBTjRLTzdPczhKWUVCSU1sY0RyYXhSMXRkVkFXZWxUV3NwczV4RGVsY3Y1UVJpZDBNa2FMc2hTbmRYX294c08xVENwdkFRUC1jaS1SSXVkOA?oc=5\" target=\"_blank\">Black Organizers Change Their Message to the Hip-Hop Generation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo</font>",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa2o0a1hRZEtHTTJJZTNNWTBZWEtCSzVlblVveE12VE0xYmJ1M2djb2Q5VHBOakRVdVltaDlWYkJudGR6eDV1N0U3RTRBTjRLTzdPczhKWUVCSU1sY0RyYXhSMXRkVkFXZWxUV3NwczV4RGVsY3Y1UVJpZDBNa2FMc2hTbmRYX294c08xVENwdkFRUC1jaS1SSXVkOA?oc=5",
-      "date": "Mon, 12 Oct 2026 11:00:00 GMT",
-      "source": "Google News — Hip-Hop"
     }
   ],
   "sources": [
@@ -725,11 +725,11 @@
       "tier": 2,
       "status": "ok",
       "stories": 20,
-      "bytes": 19171,
+      "bytes": 19096,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=a385a6255d8b40e6809b77b579dffc6a benchma",
-      "latencyMs": 243
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=3bee1d473d754f32a987b0aff6c44abe benchma",
+      "latencyMs": 125
     },
     {
       "source": "HipHopDX",
@@ -740,7 +740,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 144
+      "latencyMs": 158
     },
     {
       "source": "AllHipHop",
@@ -751,7 +751,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 583
+      "latencyMs": 949
     },
     {
       "source": "No Jumper",
@@ -762,73 +762,73 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 728
+      "latencyMs": 551
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 124464,
+      "bytes": 125013,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 517
+      "latencyMs": 547
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 102,
-      "bytes": 132215,
+      "bytes": 131995,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 625
+      "latencyMs": 445
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 118702,
+      "bytes": 120411,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 435
+      "latencyMs": 569
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 123646,
+      "bytes": 123456,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 497
+      "latencyMs": 491
     },
     {
       "source": "Billboard",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 107260,
+      "bytes": 100518,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 425
+      "latencyMs": 167
     },
     {
       "source": "Pitchfork",
       "tier": 1,
       "status": "ok",
       "stories": 30,
-      "bytes": 22035,
+      "bytes": 22071,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 106
+      "latencyMs": 121
     },
     {
       "source": "Rolling Stone — Music",
@@ -839,7 +839,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 126
+      "latencyMs": 127
     },
     {
       "source": "Variety — Music",
@@ -850,7 +850,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 164
+      "latencyMs": 656
     }
   ],
   "errorCount": 0,
