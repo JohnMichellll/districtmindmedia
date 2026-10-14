@@ -3,3 +3,10 @@
 .radar-skeleton{min-height:70svh;position:relative;overflow:hidden;background:linear-gradient(120deg,#101010,#1a1a1a);padding:clamp(24px,6vw,80px);display:flex;flex-direction:column;justify-content:flex-end;gap:16px}.radar-skeleton-line{height:12px;max-width:280px;background:linear-gradient(90deg,#252525,#383838,#252525);background-size:200% 100%;animation:radar-shimmer 1.4s linear infinite}.radar-skeleton-line.large{height:clamp(34px,6vw,82px);max-width:760px;width:85%}.radar-skeleton-line.medium{width:62%}.radar-skeleton-line.small{width:28%}@keyframes radar-shimmer{to{background-position:-200% 0}}@media(prefers-reduced-motion:reduce){.radar-skeleton-line{animation:none}}
 
 .radar-text-fallback{display:flex;flex-direction:column;gap:10px;padding:24px;color:rgba(247,245,241,.62);font-size:clamp(12px,1.4vw,18px);letter-spacing:.24em;font-weight:800}.radar-text-fallback strong{font-size:clamp(34px,9vw,130px);line-height:.8;letter-spacing:-.08em;color:rgba(247,245,241,.22)}.radar-text-fallback span{font-size:10px;letter-spacing:.22em}
+
+/* Lightweight culture-signal motion; no external animation library required. */
+.radar-status{display:inline-flex;align-items:center;gap:8px}
+.radar-status::before{content:"";width:6px;height:6px;flex:0 0 6px;border-radius:50%;background:#69c27c;box-shadow:0 0 0 0 rgba(105,194,124,.45);animation:dm-radar-pulse 1.9s ease-out infinite}
+@keyframes dm-radar-pulse{0%{box-shadow:0 0 0 0 rgba(105,194,124,.45)}70%{box-shadow:0 0 0 7px rgba(105,194,124,0)}100%{box-shadow:0 0 0 0 rgba(105,194,124,0)}}
+@media (hover:hover) and (prefers-reduced-motion:no-preference){.radar-card-media{transition:transform .65s cubic-bezier(.2,.7,.2,1)}.radar-card:hover .radar-card-media{transform:scale(1.018)}}
+@media(prefers-reduced-motion:reduce){.radar-status::before{animation:none;box-shadow:none}.radar-card-media{transition:none}}
