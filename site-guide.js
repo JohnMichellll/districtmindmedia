@@ -463,11 +463,13 @@
   }
   // Follow the visitor's device-local clock; no server location or tracking needed.
   const updateTimeTheme = () => {
+    const previousTheme = root.dataset.dmTheme;
     if (isAfterHours()) root.dataset.dmTheme = 'after-hours';
     else if (root.dataset.dmTheme === 'after-hours' && !afterHoursManual) {
       let stored = 'night'; try { const candidate = localStorage.getItem(themeKey); if (allowedThemes.includes(candidate) && candidate !== 'after-hours') stored = candidate; } catch {}
       root.dataset.dmTheme = stored;
     }
+    if (previousTheme !== root.dataset.dmTheme) window.dispatchEvent(new Event('dm-theme-change'));
   };
   setInterval(updateTimeTheme, 60000);
 
