@@ -1,7 +1,6 @@
-/*
-  District Mind Media — baseline edge security
-  Cloudflare Pages serves this file as response headers.
-*/
+# District Mind Media — baseline edge security
+# Cloudflare Pages serves this file as response headers.
+
 X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
 Referrer-Policy: strict-origin-when-cross-origin
