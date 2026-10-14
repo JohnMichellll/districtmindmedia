@@ -32,10 +32,23 @@
     <p class="eyebrow">District Mind Media / Independent Music &amp; Culture</p>
     <h1>THE CULTURE<br>IN MOTION.</h1>
     <p class="hero-text">Music, artists, releases, and stories worth paying attention to. Independent coverage with a point of view.</p>
-    <div class="hero-actions"><a class="hero-button" href="explore.html">Explore Media</a><a class="hero-button secondary" href="radar.html">Open Radar</a></div>
+    <div class="hero-actions"><a class="hero-button" href="explore.html">Explore Media</a><a class="hero-button secondary" href="radar.html">Open Radar</a><button class="hero-button secondary" type="button" id="dm-intro-replay">Watch Intro</button></div>
   </div>
 </section>
 </main>
+<div class="dm-intro-modal" id="dm-intro-modal" hidden>
+  <div class="dm-intro-backdrop" data-dm-intro-close></div>
+  <section class="dm-intro-panel" role="dialog" aria-modal="true" aria-labelledby="dm-intro-title" aria-describedby="dm-intro-description">
+    <div class="dm-intro-heading">
+      <div><p class="dm-intro-kicker">DISTRICT MIND MEDIA</p><h2 id="dm-intro-title">The culture. The discovery. The movement.</h2><p id="dm-intro-description">A quick introduction to the platform. Press play on the original Instagram Reel when you’re ready.</p></div>
+      <button type="button" class="dm-intro-close" data-dm-intro-close aria-label="Close introduction">×</button>
+    </div>
+    <div class="dm-intro-video">
+      <iframe title="District Mind Media promotional video on Instagram" src="https://www.instagram.com/reel/DeWFo9_PxAq/embed/" loading="lazy" allow="autoplay; encrypted-media; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <div class="dm-intro-actions"><a class="hero-button" href="https://www.instagram.com/reel/DeWFo9_PxAq/" target="_blank" rel="noopener noreferrer">Open Reel on Instagram</a><button class="hero-button secondary" type="button" data-dm-intro-close>Skip intro</button></div>
+  </section>
+</div>
 <style>
 html,body{min-height:100%;height:100%;overflow:hidden}
 body{display:flex;flex-direction:column}
@@ -44,8 +57,59 @@ body{display:flex;flex-direction:column}
 .home-screen .hero-content{width:min(1200px,100%)}
 .home-screen .hero h1{font-size:clamp(52px,10vw,140px);margin-bottom:24px}
 .home-screen .hero-text{font-size:clamp(15px,1.5vw,18px);margin-bottom:24px}
-@media(max-height:650px){.nav-container{min-height:62px}.home-screen .hero{padding-top:24px;padding-bottom:24px}.home-screen .hero h1{font-size:clamp(44px,8vw,90px);margin-bottom:18px}.home-screen .hero-text{margin-bottom:18px}}
+.hero-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+button.hero-button{cursor:pointer;font:inherit}
+.dm-intro-modal[hidden]{display:none!important}
+.dm-intro-modal{position:fixed;inset:0;z-index:2000;display:grid;place-items:center;padding:18px;overflow-y:auto}
+.dm-intro-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.78);backdrop-filter:blur(8px)}
+.dm-intro-panel{position:relative;z-index:1;width:min(760px,100%);max-height:calc(100dvh - 36px);overflow:auto;background:#f4f4f0;color:#171715;border-radius:20px;padding:clamp(18px,4vw,30px);box-shadow:0 24px 90px rgba(0,0,0,.38)}
+.dm-intro-heading{display:flex;gap:16px;justify-content:space-between;align-items:flex-start;margin-bottom:18px}
+.dm-intro-kicker{font-size:11px;letter-spacing:.16em;font-weight:800;margin:0 0 8px}
+.dm-intro-heading h2{font-size:clamp(22px,4vw,34px);line-height:1.08;margin:0 0 10px}
+.dm-intro-heading p:last-child{font-size:14px;line-height:1.5;margin:0;max-width:570px}
+.dm-intro-close{flex:0 0 42px;width:42px;height:42px;border:1px solid #d4d4cd;border-radius:50%;background:#fff;color:#171715;font-size:28px;line-height:1;cursor:pointer}
+.dm-intro-video{position:relative;width:100%;max-width:400px;margin:0 auto;background:#111;border-radius:14px;overflow:hidden;aspect-ratio:9/16;max-height:52dvh}
+.dm-intro-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.dm-intro-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}
+.dm-intro-actions button{cursor:pointer;font:inherit}
+body.dm-intro-open{overflow:hidden}
+@media(max-height:650px){.nav-container{min-height:62px}.home-screen .hero{padding-top:24px;padding-bottom:24px}.home-screen .hero h1{font-size:clamp(44px,8vw,90px);margin-bottom:18px}.home-screen .hero-text{margin-bottom:18px}.dm-intro-panel{max-height:calc(100dvh - 20px);padding:16px}.dm-intro-video{max-height:40dvh}}
+@media(max-width:520px){.dm-intro-modal{padding:8px}.dm-intro-panel{max-height:calc(100dvh - 16px);border-radius:16px}.dm-intro-video{max-height:43dvh}.dm-intro-actions>*{width:100%;text-align:center;justify-content:center}}
+@media(prefers-reduced-motion:reduce){.dm-intro-modal *{scroll-behavior:auto!important;transition:none!important}}
 </style>
+<script>
+(() => {
+  const modal = document.getElementById('dm-intro-modal');
+  const replay = document.getElementById('dm-intro-replay');
+  if (!modal || !replay) return;
+  let previousFocus = null;
+  const close = () => {
+    modal.hidden = true;
+    document.body.classList.remove('dm-intro-open');
+    if (previousFocus && typeof previousFocus.focus === 'function') previousFocus.focus();
+  };
+  const open = () => {
+    previousFocus = document.activeElement;
+    modal.hidden = false;
+    document.body.classList.add('dm-intro-open');
+    const closeButton = modal.querySelector('.dm-intro-close');
+    if (closeButton) closeButton.focus();
+  };
+  replay.addEventListener('click', open);
+  modal.querySelectorAll('[data-dm-intro-close]').forEach(el => el.addEventListener('click', close));
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && !modal.hidden) close();
+  });
+  try {
+    if (!localStorage.getItem('dmMediaIntroSeenV1')) {
+      localStorage.setItem('dmMediaIntroSeenV1', '1');
+      window.setTimeout(open, 450);
+    }
+  } catch (_) {
+    // If storage is unavailable, do not repeatedly force the intro on visitors.
+  }
+})();
+</script>
 <script src="site-guide.js?v=20261013-navfix2" defer></script>
 </body>
 </html>

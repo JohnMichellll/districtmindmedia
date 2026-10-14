@@ -6,9 +6,9 @@ import {execFileSync} from "node:child_process";
 const root=process.cwd();
 const failures=[];
 const pages=fs.readdirSync(root).filter(f=>f.endsWith(".html"));
-const exists=p=>fs.existsSync(path.resolve(root,p.replace(/^\\/+/,"")));
+const exists=p=>fs.existsSync(path.resolve(root,p.replace(/^\/+/,"")));
 const localTargetExists=target=>{
- const clean=decodeURIComponent(target.split("?")[0]).replace(/^\\/+/,"");
+ const clean=decodeURIComponent(target.split("?")[0]).replace(/^\/+/,"");
  if(!clean || clean==="index.html") return exists("index.html");
  if(exists(clean)) return true;
  if(!path.extname(clean) && exists(clean+".html")) return true;
@@ -24,7 +24,7 @@ for(const file of pages){
  const src=fs.readFileSync(path.join(root,file),"utf8");
  if(!/^<!doctype html>/i.test(src.trim())) failures.push(file+": missing doctype");
  if(!/<title>[^<]+<\/title>/i.test(src)) failures.push(file+": missing title");
- if(!/<link[^>]+href=["']style\.css["']/i.test(src)) failures.push(file+": missing style.css link");
+ if(!/<link[^>]+href=["']\/?style\.css["']/i.test(src)) failures.push(file+": missing style.css link");
  const ids=[...src.matchAll(/\bid=["']([^"']+)["']/gi)].map(m=>m[1]);
  const dup=ids.filter((x,i)=>ids.indexOf(x)!==i);
  if(dup.length) failures.push(file+": duplicate ids: "+[...new Set(dup)].join(", "));
@@ -39,7 +39,7 @@ for(const file of pages){
 
 // Browser scripts are intentionally not executed in Node. Their markup is checked above;
 // Cloudflare Pages performs the actual browser runtime check in production.
-for(const file of ["functions/api/artist-intel.js","functions/api/news.js","functions/api/health.js","functions/api/news.json.js","functions/api/artist.js"]){
+for(const file of ["functions/api/artist-intel.js","functions/api/article-image.js","functions/api/help-chat.js","functions/api/news.js","functions/api/health.js","functions/api/news.json.js","functions/api/artist.js","functions/_middleware.js"]){
  const pth=path.join(root,file);
  if(!fs.existsSync(pth)) continue;
  try{execFileSync(process.execPath,["--check",pth],{stdio:"pipe"});}

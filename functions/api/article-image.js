@@ -5,15 +5,19 @@ function isPublicWebUrl(value){
     const u=new URL(value);
     if(!["http:","https:"].includes(u.protocol)||u.username||u.password)return false;
     const h=u.hostname.toLowerCase().replace(/^\[|\]$/g,"");
-    if(!h||h==="localhost"||h.endsWith(".localhost")||h.endsWith(".local")||h==="::1"||h==="::"||/^f[cd][0-9a-f]{2}:/i.test(h)||/^fe80:/i.test(h))return false;
+    if(!h||h==="localhost"||h.endsWith(".localhost")||h.endsWith(".local")||h.endsWith(".internal")||h==="metadata.google.internal"||h==="::1"||h==="::"||h.includes(":")||/^(?:\d{1,3}\.){3}\d{1,3}$/.test(h)||/^f[cd][0-9a-f]{2}:/i.test(h)||/^fe80:/i.test(h))return false;
     if(/^127\.|^10\.|^192\.168\.|^169\.254\.|^0\./.test(h))return false;
     const m=h.match(/^172\.(\d+)\./);if(m&&+m[1]>=16&&+m[1]<=31)return false;
     return true;
   }catch{return false}
 }
 export async function onRequestGet({request}){
-  const target=new URL(request.url).searchParams.get("url");
+  const requestUrl=new URL(request.url);
+  const origin=request.headers.get("Origin");
+  if(origin){try{if(new URL(origin).origin!==requestUrl.origin)return json({ok:false,error:"Origin not allowed."},403)}catch{return json({ok:false,error:"Invalid origin."},403)}}
+  const target=requestUrl.searchParams.get("url");
   if(!target)return json({ok:false,error:"missing url"},400);
+  if(target.length>2048)return json({ok:false,error:"article url is too long"},414);
   if(!isPublicWebUrl(target))return json({ok:false,error:"invalid article url"},400);
   try{
     let current=target,r;
