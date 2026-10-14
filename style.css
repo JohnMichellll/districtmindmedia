@@ -2730,3 +2730,12 @@ img[loading=lazy]{background:#e9e5dc}
 .release-thumb.one.release-artwork::after,.release-thumb.two.release-artwork::after,.release-thumb.three.release-artwork::after,.release-thumb.release-artwork.has-release-art::after,.release-thumb.release-artwork.artist-profile-art::after,.release-artwork.has-release-art::after,.release-artwork.artist-profile-art::after,.release-artwork.release-art-failed::after{content:none!important;display:none!important}
 /* Artist Hub and Wayfinder use dark headers on desktop; keep navigation links high-contrast. */
 @media(min-width:761px){.artist-desk-page .site-header .primary-nav a,.wf-page .site-header .primary-nav a{color:#f7f5f1!important}}
+
+
+/* Landing hero CTAs: keep both actions visible and clearly readable before interaction. */
+.home-screen .hero-actions{position:relative;z-index:10;display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+.home-screen .hero-actions .hero-button{position:relative;z-index:10;display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:16px 24px;background:#f4f4f0!important;color:#111!important;border:2px solid #f4f4f0!important;box-shadow:0 8px 24px rgba(0,0,0,.35)!important;text-decoration:none!important;opacity:1!important;visibility:visible!important;font-weight:850;letter-spacing:.12em;line-height:1.2;}
+.home-screen .hero-actions .hero-button.secondary{background:rgba(10,10,10,.82)!important;color:#fff!important;border:2px solid rgba(255,255,255,.9)!important;box-shadow:0 8px 24px rgba(0,0,0,.3)!important;}
+.home-screen .hero-actions .hero-button:hover,.home-screen .hero-actions .hero-button:focus-visible{transform:translateY(-2px);outline:3px solid rgba(255,255,255,.45);outline-offset:3px;}
+.home-screen .hero-actions .hero-button.secondary:hover,.home-screen .hero-actions .hero-button.secondary:focus-visible{background:#fff!important;color:#111!important;}
+@media(max-width:820px){.home-screen .hero-actions{width:100%;gap:10px}.home-screen .hero-actions .hero-button{width:100%;min-height:52px;padding:15px 18px;font-size:12px}}
