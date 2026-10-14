@@ -1,5 +1,5 @@
 # District Mind Media — baseline edge security
-# Keep the wildcard route below; indented lines are response headers.
+# Header rules are applied to static assets by Cloudflare Pages.
 
 /*
   X-Content-Type-Options: nosniff
@@ -11,3 +11,7 @@
 
 /site-guide.js
   Cache-Control: no-cache, must-revalidate
+
+/dm-coins-lab.html
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store
