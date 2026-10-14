@@ -292,6 +292,7 @@
       const theme = button.dataset.dmTheme;
       if (!allowedThemes.includes(theme)) return;
       root.dataset.dmTheme = theme;
+      window.dispatchEvent(new Event('dm-theme-change'));
       afterHoursManual = theme === 'after-hours';
       try { localStorage.setItem(themeKey, theme); } catch {}
       options.hidden = true;
@@ -359,7 +360,8 @@
     document.head.appendChild(style);
   }
 
-  // Optional generated ambient synth: browsers require a tap before audio can start.
+  // Optional generated ambient synth: distinct daytime and nighttime soundscapes.
+  // Audio starts only after a visitor taps the control; it uses no external files.
   if (!document.getElementById('dm-afterhours-audio')) {
     const audioButton = document.createElement('button');
     audioButton.id = 'dm-afterhours-audio';
@@ -367,10 +369,40 @@
     audioButton.className = 'dm-audio-toggle';
     audioButton.textContent = 'Enable ambient audio';
     audioButton.setAttribute('aria-pressed','false');
-    audioButton.setAttribute('aria-label','Enable or mute the District Mind ambient after-hours soundtrack');
+    audioButton.setAttribute('aria-label','Enable or mute District Mind day and night ambient music');
     const navContainer = document.querySelector('.nav-container');
     if (navContainer) navContainer.appendChild(audioButton);
     let audioContext = null, masterGain = null, audioNodes = [], audioTimer = null, audioOn = false, noteIndex = 0;
+    const isNightSound = () => ['night','after-hours'].includes(root.dataset.dmTheme);
+    const stopPads = () => {
+      audioNodes.forEach(node => { try { if (node.stop) node.stop(); } catch {} try { node.disconnect(); } catch {} });
+      audioNodes = [];
+    };
+    const buildSoundscape = () => {
+      if (!audioContext || !masterGain) return;
+      stopPads();
+      const night = isNightSound();
+      const filter = audioContext.createBiquadFilter();
+      filter.type = night ? 'lowpass' : 'lowpass';
+      filter.frequency.value = night ? 720 : 1700;
+      filter.Q.value = night ? .75 : .45;
+      filter.connect(masterGain);
+      audioNodes.push(filter);
+      const pad = (freq, detune, gain, type='sine') => {
+        const osc = audioContext.createOscillator(), amp = audioContext.createGain();
+        osc.type = type; osc.frequency.value = freq; osc.detune.value = detune;
+        amp.gain.value = gain; osc.connect(amp); amp.connect(filter); osc.start();
+        audioNodes.push(osc, amp);
+      };
+      if (night) {
+        // Night / After Hours: deep, spacious, slow-moving cinematic tones.
+        pad(55, -4, .23); pad(82.41, 3, .14); pad(110, 0, .085); pad(164.81, -7, .035);
+      } else {
+        // Morning / Day: warmer, brighter, gently uplifting editorial lounge tones.
+        pad(130.81, -3, .13); pad(196, 4, .095); pad(261.63, 0, .06); pad(392, -5, .025);
+      }
+      noteIndex = 0;
+    };
     const stopAudio = () => {
       audioOn = false;
       if (audioTimer) { clearInterval(audioTimer); audioTimer = null; }
@@ -386,35 +418,41 @@
         masterGain = audioContext.createGain();
         masterGain.gain.value = .0001;
         masterGain.connect(audioContext.destination);
-        const filter = audioContext.createBiquadFilter();
-        filter.type = 'lowpass'; filter.frequency.value = 950; filter.Q.value = .6;
-        filter.connect(masterGain);
-        const pad = (freq, detune, gain) => {
-          const osc = audioContext.createOscillator(), amp = audioContext.createGain();
-          osc.type = 'sine'; osc.frequency.value = freq; osc.detune.value = detune;
-          amp.gain.value = gain; osc.connect(amp); amp.connect(filter); osc.start(); audioNodes.push(osc,amp);
-        };
-        pad(110, -5, .20); pad(164.81, 4, .12); pad(220, 0, .08); pad(329.63, -7, .035);
       }
       try { await audioContext.resume(); } catch {}
-      masterGain.gain.setTargetAtTime(.14, audioContext.currentTime, .8);
+      buildSoundscape();
+      masterGain.gain.setTargetAtTime(.095, audioContext.currentTime, .8);
       audioOn = true;
       audioButton.textContent = 'Mute ambient audio';
       audioButton.setAttribute('aria-pressed','true');
       if (!audioTimer) {
-        const notes = [220,261.63,196,293.66,246.94,174.61,220,329.63];
         audioTimer = setInterval(() => {
           if (!audioOn || !audioContext) return;
+          const night = isNightSound();
+          const notes = night
+            ? [110,130.81,98,146.83,123.47,87.31,110,164.81]
+            : [261.63,329.63,392,293.66,349.23,440,329.63,392];
           const osc = audioContext.createOscillator(), gain = audioContext.createGain();
-          osc.type = 'sine'; osc.frequency.value = notes[noteIndex++ % notes.length];
+          osc.type = night ? 'sine' : 'triangle';
+          osc.frequency.value = notes[noteIndex++ % notes.length];
           gain.gain.setValueAtTime(.0001,audioContext.currentTime);
-          gain.gain.exponentialRampToValueAtTime(.022,audioContext.currentTime+.18);
-          gain.gain.exponentialRampToValueAtTime(.0001,audioContext.currentTime+2.8);
-          osc.connect(gain); gain.connect(masterGain); osc.start(); osc.stop(audioContext.currentTime+3);
-        }, 1800);
+          gain.gain.exponentialRampToValueAtTime(night ? .012 : .008,audioContext.currentTime+.22);
+          gain.gain.exponentialRampToValueAtTime(.0001,audioContext.currentTime+(night ? 3.8 : 2.4));
+          osc.connect(gain); gain.connect(masterGain); osc.start(); osc.stop(audioContext.currentTime+(night ? 4 : 2.6));
+        }, isNightSound() ? 2400 : 1500);
       }
     };
     audioButton.addEventListener('click', () => { if (audioOn) stopAudio(); else startAudio(); });
+    // When the visitor changes the theme, smoothly replace the pads while audio is active.
+    window.addEventListener('dm-theme-change', () => {
+      if (!audioOn || !audioContext || !masterGain) return;
+      masterGain.gain.setTargetAtTime(.0001, audioContext.currentTime, .12);
+      window.setTimeout(() => {
+        if (!audioOn) return;
+        buildSoundscape();
+        masterGain.gain.setTargetAtTime(.095, audioContext.currentTime, .7);
+      }, 180);
+    });
     if (!document.getElementById('dm-audio-styles')) {
       const audioStyle = document.createElement('style');
       audioStyle.id = 'dm-audio-styles';
