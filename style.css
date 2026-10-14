@@ -2739,3 +2739,7 @@ img[loading=lazy]{background:#e9e5dc}
 .home-screen .hero-actions .hero-button:hover,.home-screen .hero-actions .hero-button:focus-visible{transform:translateY(-2px);outline:3px solid rgba(255,255,255,.45);outline-offset:3px;}
 .home-screen .hero-actions .hero-button.secondary:hover,.home-screen .hero-actions .hero-button.secondary:focus-visible{background:#fff!important;color:#111!important;}
 @media(max-width:820px){.home-screen .hero-actions{width:100%;gap:10px}.home-screen .hero-actions .hero-button{width:100%;min-height:52px;padding:15px 18px;font-size:12px}}
+
+/* Landing hero: restore Earl Sweatshirt editorial photo with readable text overlay. */
+.home-screen .hero-media{background-image:linear-gradient(90deg,rgba(17,17,17,.94) 0%,rgba(17,17,17,.72) 48%,rgba(17,17,17,.34) 100%),url('https://upload.wikimedia.org/wikipedia/commons/a/ad/Earl_Sweatshirt_2012.JPG')!important;background-size:cover!important;background-position:center 35%!important;background-repeat:no-repeat!important;}
+@media(max-width:760px){.home-screen .hero-media{background-image:linear-gradient(90deg,rgba(17,17,17,.88),rgba(17,17,17,.60)),url('https://upload.wikimedia.org/wikipedia/commons/a/ad/Earl_Sweatshirt_2012.JPG')!important;background-position:center!important;}}
