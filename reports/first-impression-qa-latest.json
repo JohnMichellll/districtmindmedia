@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-14T15:53:58.193Z",
+  "generatedAt": "2026-10-14T17:24:30.948Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
       "route": "/",
       "status": 200,
-      "ms": 1443,
+      "ms": 2220,
       "title": "District Mind Media — The Culture in Motion",
       "bodyChars": 271,
       "hasNav": true,
@@ -63,9 +63,9 @@
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 1207,
+      "ms": 1280,
       "title": "Newsroom — District Mind Media",
-      "bodyChars": 2271,
+      "bodyChars": 2459,
       "hasNav": true,
       "images": [],
       "visualAssets": [
@@ -86,6 +86,11 @@
         },
         {
           "key": "quavo",
+          "status": "loaded",
+          "loader": "photo-loader"
+        },
+        {
+          "key": "john-michell",
           "status": "loaded",
           "loader": "photo-loader"
         },
@@ -119,6 +124,7 @@
         "https://commons.wikimedia.org/wiki/File:JPEGMAFIA_interview_at_NTS_Radio_with_Natalie_James.png",
         "https://district-mind-media.pages.dev/culture",
         "https://commons.wikimedia.org/wiki/File:Huncho_Jack.jpg",
+        "https://district-mind-media.pages.dev/13th-hour",
         "https://district-mind-media.pages.dev/article",
         "https://commons.wikimedia.org/wiki/File:Doja_Cat_August_2019.png",
         "https://district-mind-media.pages.dev/releases",
@@ -171,12 +177,12 @@
           "pass": true
         }
       ],
-      "internalLinkCount": 19
+      "internalLinkCount": 20
     },
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1119,
+      "ms": 1058,
       "title": "District Mind Media — Artist Intelligence Hub",
       "bodyChars": 1598,
       "hasNav": true,
@@ -243,7 +249,7 @@
     {
       "route": "/releases.html",
       "status": 200,
-      "ms": 1320,
+      "ms": 1049,
       "title": "District Mind Media | Releases",
       "bodyChars": 2252,
       "hasNav": true,
@@ -390,7 +396,7 @@
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 1116,
+      "ms": 1052,
       "title": "Local Watch — District Mind Media",
       "bodyChars": 903,
       "hasNav": true,
@@ -450,7 +456,7 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 1151,
+      "ms": 1049,
       "title": "Wayfinder Music AI — District Mind Media",
       "bodyChars": 1587,
       "hasNav": true,
@@ -517,7 +523,7 @@
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1121,
+      "ms": 1087,
       "title": "Radar — District Mind Media",
       "bodyChars": 600,
       "hasNav": true,
@@ -577,7 +583,7 @@
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 1109,
+      "ms": 1095,
       "title": "District Mind Media | Culture",
       "bodyChars": 1679,
       "hasNav": true,
@@ -668,7 +674,7 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1106,
+      "ms": 1045,
       "title": "District Mind Media | About",
       "bodyChars": 1525,
       "hasNav": true,
@@ -726,7 +732,7 @@
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 1085,
+      "ms": 1098,
       "title": "District Mind Media | Contact",
       "bodyChars": 524,
       "hasNav": true,
@@ -780,7 +786,7 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 1100,
+      "ms": 1067,
       "title": "District Mind Academy — Class 001",
       "bodyChars": 3552,
       "hasNav": true,
@@ -845,7 +851,7 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 1079,
+      "ms": 1029,
       "title": "Academy 001 — District Mind",
       "bodyChars": 955,
       "hasNav": true,
@@ -906,7 +912,7 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 1074,
+      "ms": 1062,
       "title": "Editorial — District Mind Media",
       "bodyChars": 1064,
       "hasNav": true,
@@ -972,7 +978,7 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1086,
+      "ms": 1056,
       "title": "Editorial Policy | District Mind Media",
       "bodyChars": 2911,
       "hasNav": true,
@@ -1045,7 +1051,7 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1100,
+      "ms": 1040,
       "title": "Contributors — District Mind Media",
       "bodyChars": 1107,
       "hasNav": true,
@@ -1107,7 +1113,7 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 1130,
+      "ms": 1073,
       "title": "Explore — District Mind Media",
       "bodyChars": 911,
       "hasNav": true,
@@ -1173,7 +1179,7 @@
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 1096,
+      "ms": 1029,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
       "bodyChars": 2853,
       "hasNav": true,
@@ -1236,7 +1242,7 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 1095,
+      "ms": 1058,
       "title": "John Michell — District Mind Media",
       "bodyChars": 2110,
       "hasNav": true,
