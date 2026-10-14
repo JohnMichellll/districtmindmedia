@@ -6,7 +6,14 @@ import {execFileSync} from "node:child_process";
 const root=process.cwd();
 const failures=[];
 const pages=fs.readdirSync(root).filter(f=>f.endsWith(".html"));
-const exists=p=>fs.existsSync(path.join(root,p));
+const exists=p=>fs.existsSync(path.resolve(root,p.replace(/^\\/+/,"")));
+const localTargetExists=target=>{
+ const clean=decodeURIComponent(target.split("?")[0]).replace(/^\\/+/,"");
+ if(!clean || clean==="index.html") return exists("index.html");
+ if(exists(clean)) return true;
+ if(!path.extname(clean) && exists(clean+".html")) return true;
+ return false;
+};
 
 if(!exists("index.html")) failures.push("Missing index.html");
 if(!exists("style.css")) failures.push("Missing style.css");
@@ -25,7 +32,7 @@ for(const file of pages){
   const target=m[1];
   if(!/^https?:\/\//i.test(target) && !/^mailto:/i.test(target) && !/^tel:/i.test(target) && !target.startsWith("data:")){
    const clean=decodeURIComponent(target.split("#")[0]);
-   if(clean && !clean.endsWith("/") && !exists(clean)) failures.push(file+": missing local asset "+clean);
+   if(clean && !clean.endsWith("/") && !localTargetExists(clean)) failures.push(file+": missing local target "+clean);
   }
  }
 }
@@ -49,7 +56,7 @@ const telemetry={
  failures,
  node:process.version,
  host:os.platform(),
- checks:["doctype","title","style.css","duplicate-ids","local-links","api-syntax","photo-manifest"]
+ checks:["doctype","title","style.css","duplicate-ids","clean-and-file-routes","local-assets","api-syntax","photo-manifest"]
 };
 fs.writeFileSync("reports/site-defense-latest.json",JSON.stringify(telemetry,null,2));
 
