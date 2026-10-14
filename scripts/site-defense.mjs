@@ -6,9 +6,9 @@ import {execFileSync} from "node:child_process";
 const root=process.cwd();
 const failures=[];
 const pages=fs.readdirSync(root).filter(f=>f.endsWith(".html"));
-const exists=p=>fs.existsSync(path.resolve(root,p.replace(/^\\/+/,"")));
+const exists=p=>fs.existsSync(path.resolve(root,p.replace(/^\/+/,"")));
 const localTargetExists=target=>{
- const clean=decodeURIComponent(target.split("?")[0]).replace(/^\\/+/,"");
+ const clean=decodeURIComponent(target.split("?")[0]).replace(/^\/+/,"");
  if(!clean || clean==="index.html") return exists("index.html");
  if(exists(clean)) return true;
  if(!path.extname(clean) && exists(clean+".html")) return true;
