@@ -20,7 +20,7 @@ jobs:
         run: node scripts/media-baseline-audit.mjs
       - name: Upload comparison report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: district-mind-system-a-baseline
           path: reports/media-baseline-audit.json
