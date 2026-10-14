@@ -22,6 +22,38 @@ for (const route of routes) {
       const nodes = [...document.querySelectorAll("[data-photo-key],[data-release-artist][data-release-title],[data-image-status]")];
       return nodes.length === 0 || nodes.every(n => !["loading","unreported"].includes(n.dataset.imageStatus || "unreported"));
     }, { timeout: 6500 }).catch(() => {});
+    const interactionChecks = await page.evaluate(() => {
+      const checks = [];
+      const toggle = document.querySelector(".menu-toggle");
+      const nav = document.querySelector(".primary-nav");
+      if (toggle && nav) {
+        toggle.click();
+        checks.push({name:"mobile-menu-opens",pass:nav.classList.contains("is-open") && toggle.getAttribute("aria-expanded")==="true"});
+        toggle.click();
+        checks.push({name:"mobile-menu-closes",pass:!nav.classList.contains("is-open") && toggle.getAttribute("aria-expanded")==="false"});
+      } else {
+        checks.push({name:"mobile-menu-present",pass:false});
+      }
+      const guide = document.querySelector("#dm-guide-trigger");
+      if (guide) {
+        guide.click();
+        const modal = document.querySelector("#dm-guide-modal");
+        checks.push({name:"wayfinder-opens",pass:!!modal && modal.classList.contains("is-open")});
+        document.dispatchEvent(new KeyboardEvent("keydown",{key:"Escape",bubbles:true}));
+        checks.push({name:"wayfinder-closes-with-escape",pass:!!modal && !modal.classList.contains("is-open")});
+      } else {
+        checks.push({name:"wayfinder-trigger-present",pass:false});
+      }
+      const theme = document.querySelector(".dm-theme-trigger");
+      const options = document.querySelector(".dm-theme-options");
+      if (theme && options) {
+        theme.click();
+        checks.push({name:"theme-menu-opens",pass:!options.hidden && theme.getAttribute("aria-expanded")==="true"});
+        theme.click();
+        checks.push({name:"theme-menu-closes",pass:options.hidden && theme.getAttribute("aria-expanded")==="false"});
+      }
+      return checks;
+    });
     const status = response?.status() ?? 0;
     const data = await page.evaluate(() => {
       const text = document.body?.innerText || "";
@@ -42,7 +74,7 @@ for (const route of routes) {
       };
     });
     const internalLinks = [...new Set(data.links.filter(h=>h.startsWith(BASE)))];
-    results.push({route,status,ms:Date.now()-started,...data,internalLinkCount:internalLinks.length});
+    results.push({route,status,ms:Date.now()-started,...data,interactionChecks,internalLinkCount:internalLinks.length});
   } catch (e) {
     results.push({route,error:e.message,ms:Date.now()-started});
   }
@@ -70,6 +102,8 @@ const report = {
     internalLinkFailures:linkFailures.length,
     pageErrors:results.filter(r=>r.type==="page-error").length,
     consoleErrors:results.filter(r=>r.type==="console-error").length,
+    interactionFailures:results.reduce((n,r)=>n+(r.interactionChecks||[]).filter(c=>!c.pass).length,0),
+    interactionChecks:results.reduce((n,r)=>n+(r.interactionChecks||[]).length,0),
     blankPages:results.filter(r=>r.bodyChars!==undefined && r.bodyChars<200).length,
     horizontalOverflow:results.filter(r=>r.horizontalOverflow).length,
     brokenImages:results.reduce((n,r)=>n+(r.images||[]).filter(i=>!i.loaded).length,0),
@@ -82,4 +116,4 @@ const report = {
 fs.mkdirSync("reports",{recursive:true});
 fs.writeFileSync("reports/first-impression-qa-latest.json",JSON.stringify(report,null,2));
 console.log(JSON.stringify(report.summary,null,2));
-if (report.summary.internalLinkFailures || report.summary.routeFailures || report.summary.blankPages || report.summary.horizontalOverflow || report.summary.brokenImages || report.summary.failedVisualAssets || report.summary.pendingVisualAssets || report.summary.missingImageAlt || report.summary.suspiciousCopy || report.summary.pageErrors || report.summary.consoleErrors) process.exitCode=1;
+if (report.summary.internalLinkFailures || report.summary.routeFailures || report.summary.blankPages || report.summary.horizontalOverflow || report.summary.brokenImages || report.summary.failedVisualAssets || report.summary.pendingVisualAssets || report.summary.missingImageAlt || report.summary.suspiciousCopy || report.summary.pageErrors || report.summary.consoleErrors || report.summary.interactionFailures) process.exitCode=1;
