@@ -273,6 +273,7 @@
   try { const stored = localStorage.getItem(themeKey); if (allowedThemes.includes(stored)) savedTheme = stored; } catch {}
   const localMinutes = () => { const now = new Date(); return now.getHours() * 60 + now.getMinutes(); };
   const isAfterHours = () => localMinutes() < 270;
+  let afterHoursManual = false;
   root.dataset.dmTheme = isAfterHours() ? 'after-hours' : (savedTheme === 'after-hours' ? 'night' : savedTheme);
   if (primaryNav && !document.getElementById('dm-theme-control')) {
     const control = document.createElement('div');
@@ -291,6 +292,7 @@
       const theme = button.dataset.dmTheme;
       if (!allowedThemes.includes(theme)) return;
       root.dataset.dmTheme = theme;
+      afterHoursManual = theme === 'after-hours';
       try { localStorage.setItem(themeKey, theme); } catch {}
       options.hidden = true;
       trigger.setAttribute('aria-expanded', 'false');
@@ -424,7 +426,7 @@
   // Follow the visitor's device-local clock; no server location or tracking needed.
   const updateTimeTheme = () => {
     if (isAfterHours()) root.dataset.dmTheme = 'after-hours';
-    else if (root.dataset.dmTheme === 'after-hours') {
+    else if (root.dataset.dmTheme === 'after-hours' && !afterHoursManual) {
       let stored = 'night'; try { const candidate = localStorage.getItem(themeKey); if (allowedThemes.includes(candidate) && candidate !== 'after-hours') stored = candidate; } catch {}
       root.dataset.dmTheme = stored;
     }
