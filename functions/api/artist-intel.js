@@ -1,4 +1,4 @@
-const headers={"Cache-Control":"no-store, private, max-age=0","Pragma":"no-cache","Content-Type":"application/json","Access-Control-Allow-Origin":"*"};
+const headers={"Cache-Control":"no-store, private, max-age=0","Pragma":"no-cache","Content-Type":"application/json","X-Content-Type-Options":"nosniff"};
 const clean=v=>String(v??"").replace(/<[^>]*>/g," ")
  .replace(/&#(\d+);/g,(_,n)=>{try{return String.fromCodePoint(Number(n));}catch{return " ";}})
  .replace(/&#x([0-9a-f]+);/gi,(_,h)=>{try{return String.fromCodePoint(parseInt(h,16));}catch{return " ";}})
@@ -25,7 +25,11 @@ function artistQueryFromText(raw){
  return q;
 }
 export async function onRequestGet({request,env}){
- const rawQuery=(new URL(request.url).searchParams.get("q")||"").trim();
+ const requestUrl=new URL(request.url);
+ const origin=request.headers.get("Origin");
+ if(origin){try{if(new URL(origin).origin!==requestUrl.origin)return json({ok:false,error:"Origin not allowed."},403)}catch{return json({ok:false,error:"Invalid origin."},403)}}
+ const rawQuery=(requestUrl.searchParams.get("q")||"").trim();
+ if(rawQuery.length>180)return json({ok:false,error:"Search query is too long."},400);
  const q=artistQueryFromText(rawQuery);
  if(q.length<2)return json({ok:false,error:"Search for an artist or ask a question about one."},400);
  try{
@@ -113,7 +117,7 @@ export async function onRequestGet({request,env}){
   }
   if(!ai&&env?.XAI_API_KEY){
    try{
-    const xr=await fetch("https://api.x.ai/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+env.XAI_API_KEY,"Content-Type":"application/json"},body:JSON.stringify({model:"grok-4.1-mini",temperature:0.2,messages:[{role:"system",content:"Return valid JSON only. Never invent facts; use only the supplied catalog and headlines."},{role:"user",content:prompt}]})});
+    const xr=await fetch("https://api.x.ai/v1/chat/completions",{method:"POST",headers:{"Authorization":"Bearer "+env.XAI_API_KEY,"Content-Type":"application/json"},body:JSON.stringify({model:"grok-4.1-mini",temperature:0.2,messages:[{role:"system",content:"Return valid JSON only. Never invent facts; use only the supplied catalog and headlines."},{role:"user",content:prompt}]}),signal:AbortSignal.timeout(8000)});
     if(xr.ok){
      const xd=await xr.json();
      const raw=xd?.choices?.[0]?.message?.content||"";
