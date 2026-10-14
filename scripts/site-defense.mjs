@@ -39,7 +39,7 @@ for(const file of pages){
 
 // Browser scripts are intentionally not executed in Node. Their markup is checked above;
 // Cloudflare Pages performs the actual browser runtime check in production.
-for(const file of ["functions/api/artist-intel.js","functions/api/news.js","functions/api/health.js","functions/api/news.json.js","functions/api/artist.js","functions/_middleware.js"]){
+for(const file of ["functions/api/artist-intel.js","functions/api/article-image.js","functions/api/help-chat.js","functions/api/news.js","functions/api/health.js","functions/api/news.json.js","functions/api/artist.js","functions/_middleware.js"]){
  const pth=path.join(root,file);
  if(!fs.existsSync(pth)) continue;
  try{execFileSync(process.execPath,["--check",pth],{stdio:"pipe"});}
