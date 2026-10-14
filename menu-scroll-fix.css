@@ -9,6 +9,6 @@
   .site-header .primary-nav.is-open { pointer-events: auto !important; visibility: visible !important; opacity: 1 !important; }
   .explore-loader { pointer-events: none !important; }
 }
-@media (prefers-reduced-motion: reduce), (max-width: 760px) {
+@media (prefers-reduced-motion: reduce) {
   .primary-nav, .menu-toggle, .explore-loader, .explore-progress span { transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
