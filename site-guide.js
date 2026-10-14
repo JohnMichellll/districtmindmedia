@@ -160,6 +160,7 @@
     {title:'Culture', href:'culture.html', type:'CULTURE', tags:'culture lifestyle rooms fashion moments'},
     {title:'Explore Media', href:'explore.html', type:'EXPLORE', tags:'explore discovery everything media'},
     {title:'District Mind Academy', href:'academy.html', type:'ACADEMY', tags:'learn class education start from zero'},
+    {title:'DM Coins Lab', href:'dm-coins-lab.html', type:'ACADEMY LAB', tags:'academy demo coins rewards points sandbox test learn earn'},
     {title:'John Michell', href:'john-michell.html', type:'ARTIST', tags:'john michell district mind records drivin crazy who is you'},
     {title:'About District Mind Media', href:'about.html', type:'ABOUT', tags:'about mission independent media'},
     {title:'Contact', href:'contact.html', type:'CONTACT', tags:'contact submit tip reach newsroom'},
