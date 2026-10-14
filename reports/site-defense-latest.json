@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-11T03:13:47.124Z",
+  "generatedAt": "2026-10-14T07:45:45.449Z",
   "status": "PASS",
-  "pagesChecked": 25,
+  "pagesChecked": 27,
   "failures": [],
   "node": "v22.23.3",
   "host": "linux",
@@ -10,7 +10,8 @@
     "title",
     "style.css",
     "duplicate-ids",
-    "local-links",
+    "clean-and-file-routes",
+    "local-assets",
     "api-syntax",
     "photo-manifest"
   ]
