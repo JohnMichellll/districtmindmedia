@@ -433,4 +433,89 @@
   };
   setInterval(updateTimeTheme, 60000);
 
+
+  // Site-wide button interaction sounds and contrast-safe controls.
+  // Audio is synthesized locally and only starts after a visitor clicks; no files or tracking.
+  if (!document.getElementById('dm-interaction-polish')) {
+    const style = document.createElement('style');
+    style.id = 'dm-interaction-polish';
+    style.textContent = `
+      /* Keep labels readable regardless of the active theme's text variables. */
+      .hero-button:not(.secondary), .newsletter-form button, .submit-btn,
+      .dm-guide-form button, .dm-guide-trigger, .dm-theme-trigger,
+      .dm-audio-toggle, .menu-toggle, button.primary, .button-primary {
+        background-color: #f4f4f0;
+        color: #111 !important;
+        border-color: rgba(17,17,17,.28);
+        text-shadow: none;
+      }
+      .hero-button.secondary { color: #fff !important; }
+      :root[data-dm-theme="night"] .hero-button:not(.secondary),
+      :root[data-dm-theme="night"] .newsletter-form button,
+      :root[data-dm-theme="night"] .submit-btn,
+      :root[data-dm-theme="night"] .dm-guide-form button,
+      :root[data-dm-theme="after-hours"] .newsletter-form button,
+      :root[data-dm-theme="after-hours"] .submit-btn,
+      :root[data-dm-theme="after-hours"] .dm-guide-form button {
+        background-color: #f4f4f0;
+        color: #111 !important;
+      }
+      :root[data-dm-theme="after-hours"] .hero-button:not(.secondary) {
+        background-color: #dbe7ff;
+        color: #0b1022 !important;
+      }
+      :root[data-dm-theme="after-hours"] .hero-button.secondary { color: #f0f4ff !important; }
+      button:not(:disabled), [role="button"], .hero-button, .inline-link {
+        -webkit-tap-highlight-color: transparent;
+        touch-action: manipulation;
+      }
+      button:focus-visible, [role="button"]:focus-visible, a:focus-visible {
+        outline: 3px solid #39a852 !important;
+        outline-offset: 3px;
+      }
+      button:disabled { cursor: not-allowed; opacity: .58; }
+      .dm-theme-options button { background: transparent; color: var(--ink); }
+      .dm-theme-options button:hover, .dm-theme-options button:focus-visible,
+      .dm-theme-options button:active { background: #277d3d; color: #fff !important; }
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
+  // One short, soft UI tick for navigation, buttons, tabs and other real controls.
+  // Delegation means dynamically rendered Radar/news cards receive the same feedback.
+  let dmClickAudio = null;
+  let dmLastClickSoundAt = 0;
+  document.addEventListener('click', event => {
+    const control = event.target.closest('button, [role="button"], .hero-button, .inline-link, input[type="submit"], input[type="button"]');
+    if (!control || control.disabled || control.getAttribute('aria-disabled') === 'true') return;
+    // Do not sound for clicks that merely dismiss overlays/backdrops.
+    if (control.matches('[data-dm-close], .dm-guide-backdrop')) return;
+    const now = Date.now();
+    if (now - dmLastClickSoundAt < 65) return;
+    dmLastClickSoundAt = now;
+    try {
+      const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+      if (!AudioContextClass) return;
+      if (!dmClickAudio) dmClickAudio = new AudioContextClass();
+      if (dmClickAudio.state === 'suspended') dmClickAudio.resume().catch(() => {});
+      const osc = dmClickAudio.createOscillator();
+      const gain = dmClickAudio.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(control.matches('.menu-toggle, .dm-guide-trigger') ? 740 : 920, dmClickAudio.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(620, dmClickAudio.currentTime + .045);
+      gain.gain.setValueAtTime(.0001, dmClickAudio.currentTime);
+      gain.gain.exponentialRampToValueAtTime(.025, dmClickAudio.currentTime + .006);
+      gain.gain.exponentialRampToValueAtTime(.0001, dmClickAudio.currentTime + .055);
+      osc.connect(gain);
+      gain.connect(dmClickAudio.destination);
+      osc.start();
+      osc.stop(dmClickAudio.currentTime + .06);
+    } catch (_) {
+      // Sound is enhancement only; controls continue working if audio is unavailable.
+    }
+  }, true);
+
 })();
