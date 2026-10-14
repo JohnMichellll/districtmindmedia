@@ -119,7 +119,7 @@
   document.querySelectorAll('button, .hero-button, .submit-btn, .dm-guide-form button, .dm-guide-trigger, .dm-ecosystem-card a').forEach(el => {
     const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
     const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode);
-    nodes.forEach(node => { node.nodeValue = node.nodeValue.replace(/[\\u2190-\\u21FF\\u25B6\\u25C0\\u27A1\\u{1F300}-\\u{1FAFF}\\u{2600}-\\u{27BF}]/gu, '').replace(/\\s{2,}/g, ' ').trim(); });
+    nodes.forEach(node => { node.nodeValue = node.nodeValue.replace(/[\u2190-\u21FF\u25B6\u25C0\u27A1\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '').replace(/\s{2,}/g, ' ').trim(); });
   });
 
   // Global, delegated navigation control: works on every page, including pages with legacy inline handlers.
