@@ -489,7 +489,7 @@
   let dmClickAudio = null;
   let dmLastClickSoundAt = 0;
   document.addEventListener('click', event => {
-    const control = event.target.closest('button, [role="button"], .hero-button, .inline-link, input[type="submit"], input[type="button"]');
+    const control = event.target.closest('button, [role="button"], a[href], input[type="submit"], input[type="button"]');
     if (!control || control.disabled || control.getAttribute('aria-disabled') === 'true') return;
     // Do not sound for clicks that merely dismiss overlays/backdrops.
     if (control.matches('[data-dm-close], .dm-guide-backdrop')) return;
