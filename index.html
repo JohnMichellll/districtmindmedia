@@ -78,6 +78,61 @@ body.dm-intro-open{overflow:hidden}
 @media(prefers-reduced-motion:reduce){.dm-intro-modal *{scroll-behavior:auto!important;transition:none!important}}
 </style>
 <script>
+/* Landing launch-button audio: lightweight synthesized sound, no external files. */
+(() => {
+  const buttons = document.querySelectorAll('.home-screen .hero-actions .hero-button');
+  if (!buttons.length) return;
+  let audioContext;
+  const playLaunchSound = () => {
+    try {
+      const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+      if (!AudioContextClass) return;
+      audioContext = audioContext || new AudioContextClass();
+      if (audioContext.state === 'suspended') audioContext.resume();
+      const ctx = audioContext;
+      const now = ctx.currentTime;
+      // Soft sub-bass lift + two glassy synth notes: futuristic, short, never a loud beep.
+      const bass = ctx.createOscillator();
+      const bassGain = ctx.createGain();
+      bass.type = 'sine';
+      bass.frequency.setValueAtTime(92, now);
+      bass.frequency.exponentialRampToValueAtTime(48, now + 0.16);
+      bassGain.gain.setValueAtTime(0.0001, now);
+      bassGain.gain.exponentialRampToValueAtTime(0.13, now + 0.018);
+      bassGain.gain.exponentialRampToValueAtTime(0.0001, now + 0.19);
+      bass.connect(bassGain); bassGain.connect(ctx.destination);
+      bass.start(now); bass.stop(now + 0.2);
+      [[660, 0.025], [990, 0.085]].forEach(([frequency, offset]) => {
+        const tone = ctx.createOscillator();
+        const gain = ctx.createGain();
+        tone.type = 'sine';
+        tone.frequency.setValueAtTime(frequency, now + offset);
+        tone.frequency.exponentialRampToValueAtTime(frequency * 1.22, now + offset + 0.09);
+        gain.gain.setValueAtTime(0.0001, now + offset);
+        gain.gain.exponentialRampToValueAtTime(0.045, now + offset + 0.012);
+        gain.gain.exponentialRampToValueAtTime(0.0001, now + offset + 0.12);
+        tone.connect(gain); gain.connect(ctx.destination);
+        tone.start(now + offset); tone.stop(now + offset + 0.13);
+      });
+    } catch (_) { /* Audio is optional; the buttons always work without it. */ }
+  };
+  buttons.forEach(button => {
+    button.addEventListener('click', event => {
+      playLaunchSound();
+      // Give the tiny sound a moment to begin before same-tab navigation.
+      if (button.tagName === 'A' && !event.defaultPrevented &&
+          !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey &&
+          (!button.target || button.target === '_self') &&
+          button.getAttribute('href') && !button.getAttribute('href').startsWith('#')) {
+        const href = button.href;
+        event.preventDefault();
+        window.setTimeout(() => { window.location.href = href; }, 135);
+      }
+    }, {capture: true});
+  });
+})();
+</script>
+<script>
 (() => {
   const modal = document.getElementById('dm-intro-modal');
   const replay = document.getElementById('dm-intro-replay');
