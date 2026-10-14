@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-14T05:29:28.122Z
+Generated: 2026-10-14T06:01:05.478Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 212
+Stories discovered: 214
 
 1. **Music travels everywhere: Seffarine’s new album ‘Abaraz’ - Oregon ArtsWatch** — Google News — New Music — Wed, 14 Oct 2026 05:10:00 GMT
    https://news.google.com/rss/articles/CBMihwFBVV95cUxPbDRrS3FVOExDUGdVQjNka25wbjhTa0NPYksxa1pZSlRpZUVzVmJ6NTBiSlh6c2xXZEpQQWFoMGw1SjlQc2djaXpLekVOcXdyQmlPZzVuRlJwU3dRRzdzZ00zVE4yNjA5N2lSZGdlUFh0ZHpEdHhpMk1reDR0LTBuRl85ZjhRZEE?oc=5
@@ -24,8 +24,8 @@ Stories discovered: 212
    https://news.google.com/rss/articles/CBMihgFBVV95cUxNNlc3aXhMSXljRTBXYlpLNVhTRnVoYWpFZWVTd0VlV2J6aXE2a2xyaU9mblJmSklLVXJyX1VtQ1hHcGhadjNwR0NFcHBCU0dubDVHWm5LdkpHWWFxbHpXbWxwQzlxR0FKckxOQ1UxMmVfSWU5MnhvWlpMSGRsbTNucWpRSF8tUQ?oc=5
 9. **Kelly Clarkson vs. Art of Play: Footage Revealed of Singer’s Visit to Brooklyn Novelty Store She Slammed for ‘Pretty Woman’ Treatment** — Variety — Music — Wed, 14 Oct 2026 02:00:04 +0000
    https://variety.com/2026/music/news/kelly-clarkson-art-of-play-molly-bird-footage-revealed-1236910838/
-10. **'DWTS' Week 5: Julia Stiles Throws It Back to 'Save the Last Dance' With JLo Hip Hop Jazz Routine - TheWrap** — Google News — Hip-Hop — Wed, 14 Oct 2026 01:59:58 GMT
-   https://news.google.com/rss/articles/CBMirgFBVV95cUxQc0JKck14WTVnbHVtN0tPaG9ZdGVCSUtlcUs3X2d4Mk1Rd2hMaThibUFfNGI3STBKWWk0S085ZERrN0trZFIzejhtb0xxcTVRQlByTE94SlRtTUxvTlpXbHB0cnlSN3RlZ2dOYmNiTl9uaXhIS3lOQW1tbnA3aDNWLWZOR2w5c0Q2WDRYM3JtcW94dDUyWVZoUFI0ejRIbi1CRGZjSXdTalJSbnppWlE?oc=5
+10. **‘DWTS’ Week 5: Julia Stiles Throws It Back to ‘Save the Last Dance’ With JLo Hip Hop Jazz Routine - Yahoo News Singapore** — Google News — Hip-Hop — Wed, 14 Oct 2026 01:59:00 GMT
+   https://news.google.com/rss/articles/CBMic0FVX3lxTFBkVzZZUTBTdlBZOWxuN0M3NTdyUEN1QTNUV09mYzN0MlJhcnRZR1o5VlZTdVAyaHB6cDk4T0pZdHotTjRxUTFWcmZpZ05fdkJKUXctakZBUTJzbGVsRl9STWZjUVU0LWwzdld5VUJTN21pZDA?oc=5
 11. **Up-And-Coming Aotearoa New Zealand Artists: Imani-J - Rolling Stone Australia** — Google News — New Music — Wed, 14 Oct 2026 01:48:14 GMT
    https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR2NBbzl4Ull6WmRTTW0tamhDUmJ2eVUxNDZNQlRqRExwbDIwQXVYeGlveTZzT2dMYlNzajM4cVlibTUtQmFheTVER1FGMzlxUE82b1o0ajV5Q3VlTDJqZFZpcm94OHJ2YmY4TEpHTVBvTG5uXzJudm05UUxxTTVORkRlQ0ZoMFRldHdVcjVsdTFtVkwwUk9wQkptN2J5cVN4OGZHUDJVVVdreDQ?oc=5
 12. **Watch Troye Sivan and Role Model Saddle Up and Sway to Troye’s New Track ‘Cowboy’ - Billboard** — Google News — New Music — Wed, 14 Oct 2026 01:41:51 GMT
@@ -54,15 +54,15 @@ Stories discovered: 212
    https://www.billboard.com/music/rb-hip-hop/50-cent-j-cole-kendrick-lamar-drake-battle-andrew-schulz-1236359972/
 24. **Drake sets record for most No. 1 R&B/hip-hop albums - Yahoo News UK** — Google News — Hip-Hop — Tue, 13 Oct 2026 23:39:42 GMT
    https://news.google.com/rss/articles/CBMidEFVX3lxTE0zdmZfaDN5UE1PLXRKclJuendaN1NyM1F1RFpXdDJaYW9wMDlZeWdoU0tqOTZQRlE0a0hGV3VwZ3M1OFg2X29RS2FoS1lxR09aWHlyTG5iVXdJY215XzhGckUwWFJjaGlOVTFoWENKRkRwTjJV?oc=5
-25. **Using hip-hop to open up music across the spectrum - University of Miami News** — Google News — Hip-Hop — Tue, 13 Oct 2026 23:28:40 GMT
+25. **Drake sets record for most No. 1 R&B/hip-hop albums - Yahoo** — Google News — R&B — Tue, 13 Oct 2026 23:39:42 GMT
+   https://news.google.com/rss/articles/CBMilgFBVV95cUxNc2pMVkdNNEI2aFRNdlVzX2h2SGhNWHgwdHdXamJJQjQxVG5kWGsyOE1ya2hndnVIQ0pJSklPTVBqanNNa1pVRkVhQVpNSV9XS0kwa1Rfc1lxZ1RxVEltVGZ4RGdIQ09IMy1vNkhxQzM2Y3hUbmhmcW9mOFRvV01BckhzY3dQTmtrOUhLaHJDYlB4OFd1bUE?oc=5
+26. **Using hip-hop to open up music across the spectrum - University of Miami News** — Google News — Hip-Hop — Tue, 13 Oct 2026 23:28:40 GMT
    https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR0dTaFh5SkhVUTNHTkZwZWhLYmtFTWU3NkV1Mjk2Z3ZOcXU2S19mYWdyWU9JTXZEQXlHVFNNS3hrTXJNdHQ4TEFkMnFubWJ1QVo2LWtXeDFUc2luUkFVckQ1Vlp2X3hLVDZzeURjUWl2ck4xa1Foc3ZKVFRCalVQYW1mZGstczlucVBv?oc=5
-26. **VENUS GRRRLS release new music video for ‘Carmilla’ - Distorted Sound Magazine -** — Google News — New Music — Tue, 13 Oct 2026 23:01:17 GMT
+27. **VENUS GRRRLS release new music video for ‘Carmilla’ - Distorted Sound Magazine -** — Google News — New Music — Tue, 13 Oct 2026 23:01:17 GMT
    https://news.google.com/rss/articles/CBMihwFBVV95cUxNc0pvSElCQWpmaXg5RlkwZlRqdUxLWEJWbW1ESFZYXzFFUUFvb3VDa3g2Q3NhN3RYSTdIUlhHY3pwbnFaZ2dnZ1EwZWkycmprTGpha0Q5c1MtX2lWOWltRVVwQm5JdHA0aHMzQ0IyV25aRndoZ0pleHAxVVlUdkxVcS1aM01nOFU?oc=5
-27. **Buffie The Body Claims She Was Already In Her 40s During Her Hip Hop Video Vixen Days - The Source Magazine** — Google News — Hip-Hop — Tue, 13 Oct 2026 22:57:14 GMT
+28. **Buffie The Body Claims She Was Already In Her 40s During Her Hip Hop Video Vixen Days - The Source Magazine** — Google News — Hip-Hop — Tue, 13 Oct 2026 22:57:14 GMT
    https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTXNLSE5XWTVmNHBsd0p1bUxrZHlYQmVxSW5PdEI1Qjg4MVYwQVo5OWpXLVNQVS00dGE3RjNpVDBSYWRYcUJ2ZFVqWG50MlBpUDI1d01wUzlZeV8yQzRSUDgxaHV3SlJOeEFjbkpsTTRCQVZlRzZOanUyYlAyUUptU0tfelJadVp5ZjE3VEVaQXhJT3ZUT3BvWC04cGNYQUc5LUx1dWRlUzdvSXlzaGFLZGlPWmY2OWs5ckc0?oc=5
-28. **Commoner release new music video for ‘Passerby’ - Distorted Sound Magazine -** — Google News — New Music — Tue, 13 Oct 2026 22:45:28 GMT
+29. **Commoner release new music video for ‘Passerby’ - Distorted Sound Magazine -** — Google News — New Music — Tue, 13 Oct 2026 22:45:28 GMT
    https://news.google.com/rss/articles/CBMiggFBVV95cUxPbGppSlphNnBnblAtVGNYTE5hTFQxMjJMSlNoazNlNV9vRXpfalNuOTlTcmhUZm1rQ2hZcldsODA3SF94bmVRTmpIdW50NTlLbmNUc3UtU0E2MEhjTWZTd3k0Z0N2c0xfSUxTcVlxN1JwR2hKQWJuWFA5TDFqTi1QRzlR?oc=5
-29. **Kalabrya Embraces Her Lover Girl Era With New R&B Single “Really Like That,” Arriving October 16 - EIN News** — Google News — R&B — Tue, 13 Oct 2026 22:38:00 GMT
+30. **Kalabrya Embraces Her Lover Girl Era With New R&B Single “Really Like That,” Arriving October 16 - EIN News** — Google News — R&B — Tue, 13 Oct 2026 22:38:00 GMT
    https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSG92NS00Q3JnMVI3b3hmNkxmZDBBTDhxblItelRfOHdrbWxGN0pfLXdWNWk3ZGtoc0lXYlJ0NEdQcDRXcVdFMDJLYVFudVF5UFZKOWhtMkN3V05abXhBS3NBS29Sa25tWmY2UUxJMk1ZUmF0VTdMUnl0SXpkUFkzUjRuWGpLc09kS0prUFM5anFvSG96akplQkMtOXhmNzNGcVlCNmdBTmstLTZjRVRRRG94U0pvR3RWaVVOdGk0TWM0VzhhNk9uWnJiQmF3NkZk?oc=5
-30. **Crafting a Unique Voice: How Independent Hip-Hop Artists Build Their Musical Identity - RapReviews** — Google News — Hip-Hop — Tue, 13 Oct 2026 22:35:06 GMT
-   https://news.google.com/rss/articles/CBMivAFBVV95cUxOYjBucWhyLTdWU1FjUGJhbUFzMUZQdTFKVWtvREZwRlZwTjN1a1ViaEZwUlp1WHZNQ1ZWRFVDWE9wTlVLX0lJY3NVSTFVVXhhWXV1N3F6OUVJdGp2Y2ViNkd1dk9xRThGM1FJUFZkaUVTcTFLcURjQy16OTAxck04MzNkMTBlTUtDS0J6Y19aRDRMbk5Ka29hR1RGUlhvQTZJUUswY2N6WTNQX2VJQnRzN0twYlBHalZmVnRsRw?oc=5
