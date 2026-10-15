@@ -1,35 +1,35 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-15T05:58:55.672Z
+Generated: 2026-10-15T06:37:25.346Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 225
+Stories discovered: 227
 
-1. **CAPITAL B GARY: Voting message changed to reach Hip-Hop Generation - the indiana citizen** — Google News — Hip-Hop — Thu, 15 Oct 2026 04:32:23 GMT
+1. **YouTube Music Adds AI Song Labels With Rules For Beats & Vocals** — AllHipHop — Thu, 15 Oct 2026 06:01:00 +0000
+   https://allhiphop.com/news/youtube-music-adds-ai-song-labels-with-rules-for-beats-vocals/
+2. **CAPITAL B GARY: Voting message changed to reach Hip-Hop Generation - the indiana citizen** — Google News — Hip-Hop — Thu, 15 Oct 2026 04:32:23 GMT
    https://news.google.com/rss/articles/CBMimAFBVV95cUxPc010SzFXTTEyRTN4Z0tXS0hGUXVIbzVaRVFsRzBzV1Y4SXdkdklvSzNMNUNTUkdVSUMyc3RNdlk5Rmh6dGMydGNMcU54ZHpOanA3Vk56ek1ZOEFhYkoxV1JaUGE5T3dhOC0tZ2lqcE5LV3FVc1QxLWg2WTV6bzUxNjUyaVAyQ040b0J4QUN0UVB4aEMyOGRGVg?oc=5
-2. **YSU Dana School of Music hosts open house for new students - WFMJ** — Google News — New Music — Thu, 15 Oct 2026 03:53:15 GMT
+3. **YSU Dana School of Music hosts open house for new students - WFMJ** — Google News — New Music — Thu, 15 Oct 2026 03:53:15 GMT
    https://news.google.com/rss/articles/CBMi7AFBVV95cUxOYmJqTlg1MUxyQk1jYnpZZkNoYnpvYWdJaUZVT2syWWhkMWFJOW8tRVd4eWxjZzRLX1lNeE1vd0N5QXE2Wl9oY0lZZWt1eWlTZ0YtU242ZVA2aV9hTV9iNF9PN0hqamtueGF4Vk90NWhSaE94RGxoeGoyN0lVTl9hZjR1V01XM2JhVmRZMFNxTzNqNkNsQ0J1am5wWEo1b2dMTFVSTGRldlk0WWJ4RGVrSVFJRGtabERSTkRRMHNDeU9MZmtzMU5jUDc3NkppaFJNLWxBdGp1WDlXNmtibTVKa1l1a0w5NEpjdDdHLQ?oc=5
-3. **BGSU’s 47th annual New Music Festival returns - Sent-trib** — Google News — New Music — Thu, 15 Oct 2026 03:06:21 GMT
+4. **BGSU’s 47th annual New Music Festival returns - Sent-trib** — Google News — New Music — Thu, 15 Oct 2026 03:06:21 GMT
    https://news.google.com/rss/articles/CBMiigFBVV95cUxNdnFpb0o1ZkgwNGxHZjUtdG54cmJfc18xWWlucTBPWHQ0YklqLUd0Y0t5MzNMeVl2c01YRHFOdkhTQllMWEFzdDVDc3A5SWZjajFuR2pFQUljN0lHbVZoZXBkNUg3dW50Nm9aa0Y4OGlhRF9BaTFFWTNKb09rR01tZGdQMTduS21FS3c?oc=5
-4. **Muni Long Wins Fight To Keep Medical Records From Ex-Managers** — AllHipHop — Thu, 15 Oct 2026 03:02:18 +0000
+5. **Muni Long Wins Fight To Keep Medical Records From Ex-Managers** — AllHipHop — Thu, 15 Oct 2026 03:02:18 +0000
    https://allhiphop.com/news/muni-long-wins-fight-to-keep-medical-records-from-ex-managers/
-5. **Lainey Wilson – After Music - The Hype Magazine** — Google News — Hip-Hop — Thu, 15 Oct 2026 02:54:58 GMT
+6. **Lainey Wilson – After Music - The Hype Magazine** — Google News — Hip-Hop — Thu, 15 Oct 2026 02:54:58 GMT
    https://news.google.com/rss/articles/CBMilAFBVV95cUxPUDlsZFZfNENNTWZtYTFrZEoxUm5kNk1vckRKUERBMklCTk9GdHVwd1lJV3FnNEFSdGRReWcwNmM0MDlzU2xGemtEXzVsa2drTGlCSzd5Wk9yVWRTNVQzbE1uakRMSDRabllILUZWblNEWkF5bjJXbmxzdUs1eFhyNkZnZEotUlRVTWZIUjR3UWliYW8y?oc=5
-6. **The Weekender, Oct. 15-18: Boo Bash 2026, New England Fall Craft & Artisan Show, Lowell Hip Hop Festival's Mill City Get Down + more - Nashua Ink Link** — Google News — Hip-Hop — Thu, 15 Oct 2026 02:37:02 GMT
+7. **The Weekender, Oct. 15-18: Boo Bash 2026, New England Fall Craft & Artisan Show, Lowell Hip Hop Festival's Mill City Get Down + more - Nashua Ink Link** — Google News — Hip-Hop — Thu, 15 Oct 2026 02:37:02 GMT
    https://news.google.com/rss/articles/CBMi5gFBVV95cUxObi1QZHBvb0lVTjVZZk84aG5NRHdmaVhpVXAtcHJaNzFEdUxFc3NzbXR5THNHdFZDNEF0QTVNLUNfRjZUc0g1eTBnNkJ5WVhKUjVyUmdJT0VWdzE5Y2gtU09URHUzNUJPUTBEUE1yOEQ0bWprY1NJSjdwVlRuS1ZTaDhTM2RCenhyVnllMGZJdWQxN1Q0TGhJQ0g5OVA0bXN1Z3VEUmZXRnAybUczNjFzSXFuMDc2RmQxeDZqdTdfTVBnMDVIcWhNYXVnWG5lQjlZVnpNZm1KQnZTejlxODZTMXJ0azN4dw?oc=5
-7. **Zach Bryan Announces First ‘in Depth’ Memoir To Be Released Alongside New Music - People.com** — Google News — New Music — Thu, 15 Oct 2026 02:18:28 GMT
+8. **Zach Bryan Announces First ‘in Depth’ Memoir To Be Released Alongside New Music - People.com** — Google News — New Music — Thu, 15 Oct 2026 02:18:28 GMT
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxQa3VwX000QjhtSnpnamdveGNoNG5zcTRkdFpja2tqMjQ2alV5SnZFbGFTM3BqSzdtaUE3RGR2Y0YyVWVNSnRyVXlTSHk3R3FqR2p5X2E3Y1puS2ViR1VURzBfcVh2YlFVSFc4dUNWb2VnLUNwT3RKbUhhTGFvTkhOY0pRZWVURTNpdVpBVHg5ZHZTYTE2U2d0VGtlU1Fkcm9WOF83RlZiQ3k?oc=5
-8. **Former Recognition Music CEO Ben Katovsky Leaves Catalog Fund for Top Job at Pipeline** — Billboard — Thu, 15 Oct 2026 01:40:47 +0000
+9. **Former Recognition Music CEO Ben Katovsky Leaves Catalog Fund for Top Job at Pipeline** — Billboard — Thu, 15 Oct 2026 01:40:47 +0000
    https://www.billboard.com/pro/former-recognition-music-ceo-ben-katovsky-joins-pipeline/
-9. **Red Velvet’s Wendy to release new music next month - The Korea Herald** — Google News — New Music — Thu, 15 Oct 2026 01:37:13 GMT
+10. **Red Velvet’s Wendy to release new music next month - The Korea Herald** — Google News — New Music — Thu, 15 Oct 2026 01:37:13 GMT
    https://news.google.com/rss/articles/CBMiV0FVX3lxTE5sOG5zaFVuWGdCdUNYeDdaMmZ6amZTb0tWSE9TMC1ETEx2eGI2c3R4RjM3M3NHX1k3M3BnMzIzN3VXWGJLQXJXMFQ4TU12UUtzclVYN1dSVQ?oc=5
-10. **BTS exceeds 100m views with ‘Hooligan’ music video - The Korea Herald** — Google News — Hip-Hop — Thu, 15 Oct 2026 01:32:38 GMT
+11. **BTS exceeds 100m views with ‘Hooligan’ music video - The Korea Herald** — Google News — Hip-Hop — Thu, 15 Oct 2026 01:32:38 GMT
    https://news.google.com/rss/articles/CBMiV0FVX3lxTE91aWtTYlB2X1RmWjZmeWxtSGhIRmM5TnJZbVFSVndsbkRCVHVka2UtbF90cFpFVmFkMDBjZVA1cGNmN0p1alIxX3FfZ0NOX1pJTWFRZDlGZw?oc=5
-11. **Marsha Blackburn Roasted For Kendrick Lamar AI Slop Campaign Clip** — AllHipHop — Thu, 15 Oct 2026 01:02:11 +0000
+12. **Marsha Blackburn Roasted For Kendrick Lamar AI Slop Campaign Clip** — AllHipHop — Thu, 15 Oct 2026 01:02:11 +0000
    https://allhiphop.com/news/marsha-blackburn-draws-backlash-for-kendrick-lamar-ai-campaign-clip/
-12. **Thee Sinseers blend soul, ska and r&b into a heartfelt collection of ‘Love Stories’ - Prescott Daily Courier** — Google News — R&B — Thu, 15 Oct 2026 00:45:00 GMT
-   https://news.google.com/rss/articles/CBMiigJBVV95cUxPejNvazI5TlBDeXYzb29KZ21TVlFsYUxXZ1dpcWVuSFBFTmx6TnU2bWlFSWc2eW12U1ZUSENBY2V6X1RlQ3JtS3FhYjN5ZU5yZWdaRGtfZ1VDejloV1p2WTEyZWtmdXB6dGFWT3hoU3hWSm56cFFJQ2VFZFBsTVVuM0drdzNjLXpGV2xZN0lmYzJWNjBCSmlVTGJfQlBhemJ0MExnWWl3UTBrWGFQTWNUdjZ0cnFLaHJ2Slg3M2ZINFFMV1RFWmJ6RWpSUWw1VWJfYktub3RORjNYejZsTnJMcnZVbGppRjBJYXlhRkJUWmRiNmhlek5VVHN0YW8ta3djLXFfdWdyUHlnUQ?oc=5
 13. **Yurina Kawaguchi Releases New Magic Knight Rayearth Anime Ending Song Music Video - Crunchyroll** — Google News — New Music — Thu, 15 Oct 2026 00:31:00 GMT
    https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUkNLVkEwMVlqSWFkXzFueWt4bHV3eDFxcFFldjJIOXhmNzZwcmR4T1hWQzhLcmlxeFlITFpzLW9OOUhrcndQbmhFME5UWW1HZnRWaTVFcmVIRFhBQ0cwRHRrdVFod1l2My02cU51X3dSazkzNXVqYkdmX1ZKVW51MkJjU013Rml1QVZYU3YxbjBsMHd6NDk3Ylh2aC0wNFQzUTNXZGl3QTBpd1lyd2JVQlZnZVB6TmJyUlEzVUE4MzU?oc=5
 14. **FILTH Got Time Today With New Music Video For "SHELL TOWN" - The Nu-Metal Agenda** — Google News — New Music — Thu, 15 Oct 2026 00:27:36 GMT
