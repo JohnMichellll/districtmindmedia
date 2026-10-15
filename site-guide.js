@@ -429,106 +429,75 @@
     document.head.appendChild(guideStyle);
   }
 
-  // Optional generated ambient synth: distinct daytime and nighttime soundscapes.
-  // Audio starts only after a visitor taps the control; it uses no external files.
-  if (!document.getElementById('dm-afterhours-audio')) {
-    const audioButton = document.createElement('button');
-    audioButton.id = 'dm-afterhours-audio';
-    audioButton.type = 'button';
-    audioButton.className = 'dm-audio-toggle';
-    audioButton.textContent = 'Enable ambient audio';
-    audioButton.setAttribute('aria-pressed','false');
-    audioButton.setAttribute('aria-label','Enable or mute District Mind day and night ambient music');
-    const navContainer = document.querySelector('.nav-container');
-    if (navContainer) navContainer.appendChild(audioButton);
-    let audioContext = null, masterGain = null, audioNodes = [], audioTimer = null, audioOn = false, noteIndex = 0;
-    const isNightSound = () => ['night','after-hours'].includes(root.dataset.dmTheme);
-    const stopPads = () => {
-      audioNodes.forEach(node => { try { if (node.stop) node.stop(); } catch {} try { node.disconnect(); } catch {} });
-      audioNodes = [];
+  // District Mind Radio: official Apple Music catalog embed, no uploaded audio files.
+  // Apple controls playback and any shuffle/subscription requirements inside the embed.
+  if (!document.getElementById('dm-radio-control')) {
+    const radioControl = document.createElement('div');
+    radioControl.id = 'dm-radio-control';
+    radioControl.className = 'dm-radio-control';
+    radioControl.innerHTML = `
+      <button type="button" class="dm-radio-trigger" aria-expanded="false" aria-controls="dm-radio-panel">
+        <span class="dm-radio-live-dot" aria-hidden="true"></span>
+        <span><strong>DISTRICT MIND RADIO</strong><small>John Michell · Official catalog</small></span>
+        <span class="dm-radio-trigger-icon" aria-hidden="true">♫</span>
+      </button>
+      <section id="dm-radio-panel" class="dm-radio-panel" hidden aria-label="District Mind Radio player">
+        <div class="dm-radio-heading">
+          <div><p class="dm-radio-kicker">DISTRICT MIND RECORDS</p><h2>District Mind Radio</h2><p>Start with John Michell’s catalog. Use the Apple Music player to choose available tracks.</p></div>
+          <button type="button" class="dm-radio-close" aria-label="Close District Mind Radio">×</button>
+        </div>
+        <div class="dm-radio-embed">
+          <iframe title="John Michell official Apple Music catalog" src="https://embed.music.apple.com/us/artist/john-michell/1720482148" loading="lazy" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <div class="dm-radio-footer">
+          <span>Shuffle and playback options depend on Apple Music availability.</span>
+          <a href="https://music.apple.com/us/artist/john-michell/1720482148" target="_blank" rel="noopener noreferrer">Open full catalog ↗</a>
+        </div>
+      </section>`;
+    document.body.appendChild(radioControl);
+    const radioTrigger = radioControl.querySelector('.dm-radio-trigger');
+    const radioPanel = radioControl.querySelector('.dm-radio-panel');
+    const radioClose = radioControl.querySelector('.dm-radio-close');
+    const setRadioOpen = (open) => {
+      radioPanel.hidden = !open;
+      radioTrigger.setAttribute('aria-expanded', String(open));
+      radioTrigger.querySelector('strong').textContent = open ? 'DISTRICT MIND RADIO' : 'DISTRICT MIND RADIO';
+      if (open) radioClose.focus({preventScroll:true});
     };
-    const buildSoundscape = () => {
-      if (!audioContext || !masterGain) return;
-      stopPads();
-      const night = isNightSound();
-      const filter = audioContext.createBiquadFilter();
-      filter.type = night ? 'lowpass' : 'lowpass';
-      filter.frequency.value = night ? 720 : 1700;
-      filter.Q.value = night ? .75 : .45;
-      filter.connect(masterGain);
-      audioNodes.push(filter);
-      const pad = (freq, detune, gain, type='sine') => {
-        const osc = audioContext.createOscillator(), amp = audioContext.createGain();
-        osc.type = type; osc.frequency.value = freq; osc.detune.value = detune;
-        amp.gain.value = gain; osc.connect(amp); amp.connect(filter); osc.start();
-        audioNodes.push(osc, amp);
-      };
-      if (night) {
-        // Night / After Hours: deep, spacious, slow-moving cinematic tones.
-        pad(55, -4, .23); pad(82.41, 3, .14); pad(110, 0, .085); pad(164.81, -7, .035);
-      } else {
-        // Morning / Day: warmer, brighter, gently uplifting editorial lounge tones.
-        pad(130.81, -3, .13); pad(196, 4, .095); pad(261.63, 0, .06); pad(392, -5, .025);
-      }
-      noteIndex = 0;
-    };
-    const stopAudio = () => {
-      audioOn = false;
-      if (audioTimer) { clearInterval(audioTimer); audioTimer = null; }
-      if (masterGain && audioContext) { try { masterGain.gain.setTargetAtTime(0, audioContext.currentTime, .12); } catch {} }
-      audioButton.textContent = 'Enable ambient audio';
-      audioButton.setAttribute('aria-pressed','false');
-    };
-    const startAudio = async () => {
-      const AudioCtx = window.AudioContext || window.webkitAudioContext;
-      if (!AudioCtx) { audioButton.textContent = 'Audio unavailable'; return; }
-      if (!audioContext) {
-        audioContext = new AudioCtx();
-        masterGain = audioContext.createGain();
-        masterGain.gain.value = .0001;
-        masterGain.connect(audioContext.destination);
-      }
-      try { await audioContext.resume(); } catch {}
-      buildSoundscape();
-      masterGain.gain.setTargetAtTime(.095, audioContext.currentTime, .8);
-      audioOn = true;
-      audioButton.textContent = 'Mute ambient audio';
-      audioButton.setAttribute('aria-pressed','true');
-      if (!audioTimer) {
-        audioTimer = setInterval(() => {
-          if (!audioOn || !audioContext) return;
-          const night = isNightSound();
-          const notes = night
-            ? [110,130.81,98,146.83,123.47,87.31,110,164.81]
-            : [261.63,329.63,392,293.66,349.23,440,329.63,392];
-          const osc = audioContext.createOscillator(), gain = audioContext.createGain();
-          osc.type = night ? 'sine' : 'triangle';
-          osc.frequency.value = notes[noteIndex++ % notes.length];
-          gain.gain.setValueAtTime(.0001,audioContext.currentTime);
-          gain.gain.exponentialRampToValueAtTime(night ? .012 : .008,audioContext.currentTime+.22);
-          gain.gain.exponentialRampToValueAtTime(.0001,audioContext.currentTime+(night ? 3.8 : 2.4));
-          osc.connect(gain); gain.connect(masterGain); osc.start(); osc.stop(audioContext.currentTime+(night ? 4 : 2.6));
-        }, isNightSound() ? 2400 : 1500);
-      }
-    };
-    audioButton.addEventListener('click', () => { if (audioOn) stopAudio(); else startAudio(); });
-    // When the visitor changes the theme, smoothly replace the pads while audio is active.
-    window.addEventListener('dm-theme-change', () => {
-      if (!audioOn || !audioContext || !masterGain) return;
-      masterGain.gain.setTargetAtTime(.0001, audioContext.currentTime, .12);
-      window.setTimeout(() => {
-        if (!audioOn) return;
-        buildSoundscape();
-        masterGain.gain.setTargetAtTime(.095, audioContext.currentTime, .7);
-      }, 180);
+    radioTrigger.addEventListener('click', () => setRadioOpen(radioPanel.hidden));
+    radioClose.addEventListener('click', () => { setRadioOpen(false); radioTrigger.focus({preventScroll:true}); });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && !radioPanel.hidden) { setRadioOpen(false); radioTrigger.focus({preventScroll:true}); }
     });
-    if (!document.getElementById('dm-audio-styles')) {
-      const audioStyle = document.createElement('style');
-      audioStyle.id = 'dm-audio-styles';
-      audioStyle.textContent = '.dm-audio-toggle{min-height:38px;padding:8px 12px;margin-left:8px;border:1px solid var(--line);background:transparent;color:var(--ink);font:inherit;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;touch-action:manipulation}.dm-audio-toggle[aria-pressed="true"]{border-color:#8faeff;background:#152247;color:#eef3ff}@media(max-width:760px){.nav-container{flex-wrap:wrap;padding:10px 0}.dm-audio-toggle{margin:8px 0 0;width:100%}.dm-theme-control{order:5}.dm-audio-toggle{order:6}}@media(prefers-reduced-motion:reduce){:root[data-dm-theme="after-hours"] body::before{animation:none}}';
-      document.head.appendChild(audioStyle);
+    if (!document.getElementById('dm-radio-styles')) {
+      const radioStyle = document.createElement('style');
+      radioStyle.id = 'dm-radio-styles';
+      radioStyle.textContent = `
+        .dm-radio-control{position:fixed;right:16px;bottom:16px;z-index:1400;font-family:inherit;color:var(--ink,#171715)}
+        .dm-radio-trigger{display:flex;align-items:center;gap:10px;min-height:54px;padding:9px 14px;border:1px solid rgba(46,125,78,.45);border-radius:999px;background:#10271d;color:#f5fff7;box-shadow:0 8px 28px rgba(0,0,0,.22);cursor:pointer;text-align:left}
+        .dm-radio-trigger strong{display:block;font-size:10px;letter-spacing:.1em;line-height:1.4}
+        .dm-radio-trigger small{display:block;font-size:11px;opacity:.78;margin-top:2px}
+        .dm-radio-live-dot{width:9px;height:9px;flex:0 0 9px;border-radius:50%;background:#52df8b;box-shadow:0 0 0 4px rgba(82,223,139,.14)}
+        .dm-radio-trigger-icon{font-size:23px;margin-left:3px}
+        .dm-radio-panel{position:absolute;right:0;bottom:66px;width:min(390px,calc(100vw - 24px));max-height:calc(100dvh - 100px);overflow:auto;padding:16px;border:1px solid var(--line,#d9d9d1);border-radius:18px;background:var(--surface,#f4f4f0);color:var(--ink,#171715);box-shadow:0 18px 55px rgba(0,0,0,.28)}
+        .dm-radio-panel[hidden]{display:none!important}
+        .dm-radio-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:12px}
+        .dm-radio-heading h2{font-size:23px;line-height:1.1;margin:0 0 7px;color:var(--ink,#171715)}
+        .dm-radio-heading p:last-child{font-size:12px;line-height:1.45;margin:0;color:var(--muted,#555)}
+        .dm-radio-kicker{font-size:9px;letter-spacing:.15em;font-weight:800;margin:0 0 6px;color:#287849}
+        .dm-radio-close{flex:0 0 38px;width:38px;height:38px;border-radius:50%;border:1px solid var(--line,#d9d9d1);background:var(--panel,#fff);color:var(--ink,#171715);font-size:25px;line-height:1;cursor:pointer}
+        .dm-radio-embed{width:100%;height:clamp(290px,48dvh,480px);border-radius:12px;overflow:hidden;background:#fff}
+        .dm-radio-embed iframe{display:block;width:100%;height:100%;border:0}
+        .dm-radio-footer{display:flex;flex-direction:column;gap:8px;margin-top:12px;font-size:11px;line-height:1.45;color:var(--muted,#555)}
+        .dm-radio-footer a{font-weight:800;color:var(--ink,#171715);text-decoration:underline;text-underline-offset:3px}
+        :root[data-dm-theme="after-hours"] .dm-radio-panel{background:#10172d;color:#f0f4ff;border-color:rgba(168,199,255,.28)}
+        :root[data-dm-theme="after-hours"] .dm-radio-heading h2,:root[data-dm-theme="after-hours"] .dm-radio-close,:root[data-dm-theme="after-hours"] .dm-radio-footer a{color:#f0f4ff}
+        :root[data-dm-theme="after-hours"] .dm-radio-close{background:#182344;border-color:#34436a}
+        @media(max-width:520px){.dm-radio-control{right:10px;bottom:10px}.dm-radio-trigger{min-height:48px;padding:8px 12px}.dm-radio-panel{right:-2px;bottom:58px;width:calc(100vw - 20px);max-height:calc(100dvh - 78px);padding:12px}.dm-radio-embed{height:clamp(280px,48dvh,420px)}}
+        @media(prefers-reduced-motion:reduce){.dm-radio-control *{transition:none!important;animation:none!important}}
+      `;
+      document.head.appendChild(radioStyle);
     }
-    document.addEventListener('visibilitychange', () => { if (document.hidden && audioOn) stopAudio(); });
   }
   // Follow the visitor's device-local clock; no server location or tracking needed.
   const updateTimeTheme = () => {
