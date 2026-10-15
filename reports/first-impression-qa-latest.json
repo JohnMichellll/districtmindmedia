@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-15T04:03:29.506Z",
+  "generatedAt": "2026-10-15T05:43:05.509Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
       "route": "/",
       "status": 200,
-      "ms": 1642,
+      "ms": 1491,
       "title": "District Mind Media — The Culture in Motion",
       "bodyChars": 315,
       "hasNav": true,
@@ -64,7 +64,7 @@
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 1358,
+      "ms": 1154,
       "title": "Newsroom — District Mind Media",
       "bodyChars": 2503,
       "hasNav": true,
@@ -184,7 +184,7 @@
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1120,
+      "ms": 1085,
       "title": "District Mind Media — Artist Intelligence Hub",
       "bodyChars": 1642,
       "hasNav": true,
@@ -252,7 +252,7 @@
     {
       "route": "/releases.html",
       "status": 200,
-      "ms": 1534,
+      "ms": 1012,
       "title": "District Mind Media | Releases",
       "bodyChars": 2296,
       "hasNav": true,
@@ -400,7 +400,7 @@
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 1128,
+      "ms": 992,
       "title": "Local Watch — District Mind Media",
       "bodyChars": 947,
       "hasNav": true,
@@ -461,7 +461,7 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 1327,
+      "ms": 990,
       "title": "Wayfinder Music AI — District Mind Media",
       "bodyChars": 1631,
       "hasNav": true,
@@ -529,7 +529,7 @@
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1357,
+      "ms": 1018,
       "title": "Radar — District Mind Media",
       "bodyChars": 645,
       "hasNav": true,
@@ -590,7 +590,7 @@
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 1305,
+      "ms": 1065,
       "title": "District Mind Media | Culture",
       "bodyChars": 1723,
       "hasNav": true,
@@ -682,9 +682,9 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1165,
+      "ms": 1212,
       "title": "District Mind Media | About",
-      "bodyChars": 1569,
+      "bodyChars": 1565,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -703,7 +703,8 @@
         "https://music.apple.com/us/artist/john-michell/1720482148",
         "https://district-mind-media.pages.dev/explore",
         "https://district-mind-media.pages.dev/academy",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://youtu.be/Ytt_s7M9TeQ",
+        "https://www.youtube.com/results?search_query=John+Michell+official+music",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
@@ -741,9 +742,9 @@
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 1115,
+      "ms": 1096,
       "title": "District Mind Media | Contact",
-      "bodyChars": 568,
+      "bodyChars": 564,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -758,7 +759,8 @@
         "https://district-mind-media.pages.dev/culture",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://youtu.be/Ytt_s7M9TeQ",
+        "https://www.youtube.com/results?search_query=John+Michell+official+music",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
@@ -796,9 +798,9 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 1261,
+      "ms": 1027,
       "title": "District Mind Academy — Class 001",
-      "bodyChars": 3596,
+      "bodyChars": 3592,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -824,7 +826,8 @@
         "https://district-mind-media.pages.dev/feed.xml",
         "https://district-mind-media.pages.dev/help",
         "https://district-mind-media.pages.dev/playlists",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://youtu.be/Ytt_s7M9TeQ",
+        "https://www.youtube.com/results?search_query=John+Michell+official+music",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
@@ -862,9 +865,9 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 1095,
+      "ms": 1105,
       "title": "Academy 001 — District Mind",
-      "bodyChars": 999,
+      "bodyChars": 995,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -886,7 +889,8 @@
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/help",
         "https://district-mind-media.pages.dev/playlists",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://youtu.be/Ytt_s7M9TeQ",
+        "https://www.youtube.com/results?search_query=John+Michell+official+music",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
@@ -924,9 +928,9 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 1097,
+      "ms": 1101,
       "title": "Editorial — District Mind Media",
-      "bodyChars": 1108,
+      "bodyChars": 1104,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -953,7 +957,8 @@
         "https://district-mind-media.pages.dev/feed.xml",
         "https://district-mind-media.pages.dev/help",
         "https://district-mind-media.pages.dev/playlists",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://youtu.be/Ytt_s7M9TeQ",
+        "https://www.youtube.com/results?search_query=John+Michell+official+music",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
@@ -991,9 +996,9 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1098,
+      "ms": 1004,
       "title": "Editorial Policy | District Mind Media",
-      "bodyChars": 2955,
+      "bodyChars": 2951,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -1027,7 +1032,8 @@
         "https://commons.wikimedia.org/wiki/File:Quavo_Salute_to_Summer_Concert_2025.jpg",
         "https://commons.wikimedia.org/",
         "https://commons.wikimedia.org/",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://youtu.be/Ytt_s7M9TeQ",
+        "https://www.youtube.com/results?search_query=John+Michell+official+music",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
@@ -1065,9 +1071,9 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1066,
+      "ms": 1097,
       "title": "Contributors — District Mind Media",
-      "bodyChars": 1151,
+      "bodyChars": 1147,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -1090,7 +1096,8 @@
         "https://district-mind-media.pages.dev/feed.xml",
         "https://district-mind-media.pages.dev/help",
         "https://district-mind-media.pages.dev/playlists",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://youtu.be/Ytt_s7M9TeQ",
+        "https://www.youtube.com/results?search_query=John+Michell+official+music",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
@@ -1128,9 +1135,9 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 1192,
+      "ms": 1043,
       "title": "Explore — District Mind Media",
-      "bodyChars": 955,
+      "bodyChars": 951,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -1157,7 +1164,8 @@
         "https://district-mind-media.pages.dev/feed.xml",
         "https://district-mind-media.pages.dev/help",
         "https://district-mind-media.pages.dev/playlists",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://youtu.be/Ytt_s7M9TeQ",
+        "https://www.youtube.com/results?search_query=John+Michell+official+music",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
@@ -1195,9 +1203,9 @@
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 1056,
+      "ms": 1085,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
-      "bodyChars": 2897,
+      "bodyChars": 2893,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -1221,7 +1229,8 @@
         "https://district-mind-media.pages.dev/feed.xml",
         "https://district-mind-media.pages.dev/help",
         "https://district-mind-media.pages.dev/playlists",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://youtu.be/Ytt_s7M9TeQ",
+        "https://www.youtube.com/results?search_query=John+Michell+official+music",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
@@ -1259,9 +1268,9 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 1199,
+      "ms": 1035,
       "title": "John Michell — District Mind Media",
-      "bodyChars": 2154,
+      "bodyChars": 2150,
       "hasNav": true,
       "images": [
         {
@@ -1318,7 +1327,8 @@
         "https://music.apple.com/us/artist/john-michell/1720482148",
         "https://music.apple.com/us/album/eyes-open-single/1727068645",
         "https://music.apple.com/us/artist/john-michell/1720482148",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://youtu.be/Ytt_s7M9TeQ",
+        "https://www.youtube.com/results?search_query=John+Michell+official+music",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
