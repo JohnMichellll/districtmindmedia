@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-15T07:34:36.955Z",
-  "errors": [
-    {
-      "source": "AllHipHop",
-      "tier": 1,
-      "status": "error",
-      "stories": 0,
-      "latencyMs": 8001,
-      "error": "TIMEOUT",
-      "workflow": "newsroom-operator"
-    }
-  ],
+  "updatedAt": "2026-10-15T08:25:01.182Z",
+  "errors": [],
   "resolved": [
     {
       "source": "TMZ",
@@ -392,6 +382,16 @@
       "error": "TIMEOUT",
       "workflow": "newsroom-operator",
       "resolvedAt": "2026-10-15T01:58:01.780Z"
+    },
+    {
+      "source": "AllHipHop",
+      "tier": 1,
+      "status": "resolved",
+      "stories": 0,
+      "latencyMs": 8001,
+      "error": "TIMEOUT",
+      "workflow": "newsroom-operator",
+      "resolvedAt": "2026-10-15T08:25:01.182Z"
     }
   ]
 }
