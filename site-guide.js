@@ -442,14 +442,14 @@
           <button type="button" class="dm-radio-close" aria-label="Close radio details">×</button>
         </div>
         <div class="dm-radio-embed"><div id="dm-radio-youtube-player"></div></div>
-        <div class="dm-radio-footer"><span>Free YouTube playback. YouTube may show ads.</span><a href="https://youtu.be/Ytt_s7M9TeQ" target="_blank" rel="noopener noreferrer">Open track on YouTube ↗</a></div>
+        <div class="dm-radio-footer"><span>Free YouTube playback. YouTube may show ads.</span><a href="https://youtu.be/Ytt_s7M9TeQ" target="_blank" rel="noopener noreferrer">Open track on YouTube</a></div>
       </section>
       <div class="dm-radio-dock" role="group" aria-label="District Mind Radio controls">
         <span class="dm-radio-live-dot" aria-hidden="true"></span>
         <button type="button" class="dm-radio-track" aria-label="Open radio details" aria-expanded="false"><strong>DISTRICT MIND RADIO</strong><small>Drivin Crazy · John Michell</small></button>
-        <button type="button" class="dm-radio-control-btn dm-radio-play" aria-label="Play music" title="Play music">▶</button>
-        <button type="button" class="dm-radio-control-btn dm-radio-stop" aria-label="Stop music" title="Stop music">■</button>
-        <button type="button" class="dm-radio-control-btn dm-radio-next" aria-label="Next track" title="Next track" disabled>»</button>
+        <button type="button" class="dm-radio-control-btn dm-radio-play" aria-label="Play music" title="Play music">Play</button>
+        <button type="button" class="dm-radio-control-btn dm-radio-stop" aria-label="Stop music" title="Stop music">Stop</button>
+        <button type="button" class="dm-radio-control-btn dm-radio-next" aria-label="Next track" title="Next track" disabled>Next</button>
       </div>`;
     document.body.appendChild(radioControl);
     const radioPanel = radioControl.querySelector('.dm-radio-panel');
@@ -469,7 +469,7 @@
     };
     const updateRadioPlayButton = playing => {
       radioPlaying = playing;
-      playButton.textContent = playing ? 'Ⅱ' : '▶';
+      playButton.textContent = playing ? 'Pause' : 'Play';
       playButton.setAttribute('aria-label', playing ? 'Pause music' : 'Play music');
       playButton.title = playing ? 'Pause music' : 'Play music';
       radioControl.classList.toggle('is-playing', playing);
@@ -481,7 +481,7 @@
       setRadioDetailsOpen(true);
       if (!radioReady || !radioPlayer) {
         radioPlayRequested = true;
-        playButton.textContent = '…';
+        playButton.textContent = 'Loading';
         playButton.title = 'Loading music';
         playButton.setAttribute('aria-label', 'Loading music');
         return;
@@ -540,7 +540,7 @@
         events: {
           onReady: () => {
             radioReady = true;
-            playButton.textContent = '▶';
+            playButton.textContent = 'Play';
             playButton.title = 'Play music';
             playButton.setAttribute('aria-label', 'Play music');
             if (radioPlayRequested) {
