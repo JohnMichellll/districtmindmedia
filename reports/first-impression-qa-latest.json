@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-15T05:43:05.509Z",
+  "generatedAt": "2026-10-15T05:46:55.613Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
       "route": "/",
       "status": 200,
-      "ms": 1491,
+      "ms": 1385,
       "title": "District Mind Media — The Culture in Motion",
-      "bodyChars": 315,
+      "bodyChars": 311,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -26,7 +26,8 @@
         "https://district-mind-media.pages.dev/explore",
         "https://district-mind-media.pages.dev/radar",
         "https://www.instagram.com/reel/DeWFo9_PxAq/",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
+        "https://youtu.be/Ytt_s7M9TeQ",
+        "https://www.youtube.com/results?search_query=John+Michell+official+music",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
@@ -62,11 +63,16 @@
       "internalLinkCount": 13
     },
     {
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/newsroom"
+    },
+    {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 1154,
+      "ms": 1182,
       "title": "Newsroom — District Mind Media",
-      "bodyChars": 2503,
+      "bodyChars": 2402,
       "hasNav": true,
       "images": [],
       "visualAssets": [
@@ -108,48 +114,42 @@
       ],
       "missingImageAlt": 0,
       "links": [
-        "https://district-mind-media.pages.dev/",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/radar",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/wayfinder",
-        "https://district-mind-media.pages.dev/academy",
-        "https://district-mind-media.pages.dev/culture",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/help.html",
         "https://district-mind-media.pages.dev/wayfinder.html?find=local",
         "https://commons.wikimedia.org/wiki/File:Earl_Sweatshirt_2012.JPG",
-        "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/releases.html",
         "https://commons.wikimedia.org/wiki/File:Victoria_Mon%C3%A9t1.jpg",
-        "https://district-mind-media.pages.dev/artists",
-        "https://commons.wikimedia.org/wiki/File:JPEGMAFIA_interview_at_NTS_Radio_with_Natalie_James.png",
-        "https://district-mind-media.pages.dev/culture",
-        "https://commons.wikimedia.org/wiki/File:Huncho_Jack.jpg",
-        "https://district-mind-media.pages.dev/13th-hour",
-        "https://district-mind-media.pages.dev/article",
-        "https://commons.wikimedia.org/wiki/File:Doja_Cat_August_2019.png",
-        "https://district-mind-media.pages.dev/releases",
-        "https://commons.wikimedia.org/wiki/File:Victoria_Mon%C3%A9t1.jpg",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/artists",
-        "https://district-mind-media.pages.dev/artists",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/artists",
-        "https://district-mind-media.pages.dev/wayfinder.html?find=local",
-        "https://district-mind-media.pages.dev/culture",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/editorial-policy",
-        "https://district-mind-media.pages.dev/feed.xml",
-        "https://district-mind-media.pages.dev/help",
-        "https://district-mind-media.pages.dev/playlists",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
         "https://district-mind-media.pages.dev/artists.html",
+        "https://commons.wikimedia.org/wiki/File:JPEGMAFIA_interview_at_NTS_Radio_with_Natalie_James.png",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://commons.wikimedia.org/wiki/File:Huncho_Jack.jpg",
+        "https://district-mind-media.pages.dev/13th-hour.html",
+        "https://district-mind-media.pages.dev/article.html",
+        "https://commons.wikimedia.org/wiki/File:Doja_Cat_August_2019.png",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://commons.wikimedia.org/wiki/File:Victoria_Mon%C3%A9t1.jpg",
         "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/wayfinder.html?find=local",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
@@ -163,61 +163,50 @@
           "pass": true
         },
         {
-          "name": "wayfinder-opens",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
+          "name": "wayfinder-trigger-present",
+          "pass": false
         }
       ],
-      "internalLinkCount": 20
+      "internalLinkCount": 15
+    },
+    {
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/artists"
     },
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1085,
+      "ms": 1127,
       "title": "District Mind Media — Artist Intelligence Hub",
-      "bodyChars": 1642,
+      "bodyChars": 1555,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
       "missingImageAlt": 0,
       "links": [
-        "https://district-mind-media.pages.dev/",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/radar",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/wayfinder",
-        "https://district-mind-media.pages.dev/academy",
-        "https://district-mind-media.pages.dev/culture",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/wayfinder",
-        "https://district-mind-media.pages.dev/artists#artist-desk",
-        "https://district-mind-media.pages.dev/john-michell",
-        "https://district-mind-media.pages.dev/academy",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/editorial",
-        "https://district-mind-media.pages.dev/contributors",
-        "https://district-mind-media.pages.dev/editorial-policy",
-        "https://district-mind-media.pages.dev/feed.xml",
-        "https://district-mind-media.pages.dev/academy",
-        "https://district-mind-media.pages.dev/help",
-        "https://district-mind-media.pages.dev/playlists",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
-        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/index.html",
         "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/playlists.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/help.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/artists#artist-desk",
+        "https://district-mind-media.pages.dev/john-michell.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial.html",
+        "https://district-mind-media.pages.dev/contributors.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/help.html"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
@@ -231,30 +220,23 @@
           "pass": true
         },
         {
-          "name": "wayfinder-opens",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
+          "name": "wayfinder-trigger-present",
+          "pass": false
         }
       ],
-      "internalLinkCount": 20
+      "internalLinkCount": 16
+    },
+    {
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/releases"
     },
     {
       "route": "/releases.html",
       "status": 200,
-      "ms": 1012,
+      "ms": 1122,
       "title": "District Mind Media | Releases",
-      "bodyChars": 2296,
+      "bodyChars": 2220,
       "hasNav": true,
       "images": [
         {
@@ -347,25 +329,21 @@
       ],
       "missingImageAlt": 0,
       "links": [
-        "https://district-mind-media.pages.dev/",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/radar",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/wayfinder",
-        "https://district-mind-media.pages.dev/academy",
-        "https://district-mind-media.pages.dev/culture",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/index.html#latest",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/help.html",
         "https://music.apple.com/us/artist/john-michell/1720482148",
         "https://music.apple.com/us/artist/john-michell/1720482148",
         "https://music.apple.com/us/album/u-single/1819200665",
         "https://music.apple.com/us/artist/john-michell/1720482148",
         "https://music.apple.com/us/album/eyes-open-single/1727068645",
-        "https://music.apple.com/au/album/cherrywood-single/1720659104",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
-        "https://district-mind-media.pages.dev/artists.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
+        "https://music.apple.com/au/album/cherrywood-single/1720659104"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
@@ -379,183 +357,144 @@
           "pass": true
         },
         {
-          "name": "wayfinder-opens",
+          "name": "wayfinder-trigger-present",
+          "pass": false
+        }
+      ],
+      "internalLinkCount": 9
+    },
+    {
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/local"
+    },
+    {
+      "route": "/local.html",
+      "status": 200,
+      "ms": 1082,
+      "title": "Local Watch — District Mind Media",
+      "bodyChars": 848,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/radar.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/help.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/contact.html"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "interactionChecks": [
+        {
+          "name": "mobile-menu-opens",
+          "pass": false
+        },
+        {
+          "name": "mobile-menu-closes",
           "pass": true
         },
         {
-          "name": "wayfinder-closes-with-escape",
+          "name": "wayfinder-trigger-present",
+          "pass": false
+        }
+      ],
+      "internalLinkCount": 11
+    },
+    {
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/wayfinder"
+    },
+    {
+      "route": "/wayfinder.html",
+      "status": 200,
+      "ms": 1014,
+      "title": "Wayfinder Music AI — District Mind Media",
+      "bodyChars": 1566,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/help.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/artist-registry.html",
+        "https://district-mind-media.pages.dev/local.html",
+        "https://district-mind-media.pages.dev/concerts.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/artist-registry.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://www.bandsintown.com/",
+        "https://www.songkick.com/",
+        "https://www.ticketmaster.com/discover/concerts",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/help.html"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "interactionChecks": [
+        {
+          "name": "mobile-menu-opens",
           "pass": true
         },
         {
-          "name": "theme-menu-opens",
+          "name": "mobile-menu-closes",
           "pass": true
         },
         {
-          "name": "theme-menu-closes",
-          "pass": true
+          "name": "wayfinder-trigger-present",
+          "pass": false
         }
       ],
       "internalLinkCount": 12
     },
     {
-      "route": "/local.html",
-      "status": 200,
-      "ms": 992,
-      "title": "Local Watch — District Mind Media",
-      "bodyChars": 947,
-      "hasNav": true,
-      "images": [],
-      "visualAssets": [],
-      "missingImageAlt": 0,
-      "links": [
-        "https://district-mind-media.pages.dev/",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/radar",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/wayfinder",
-        "https://district-mind-media.pages.dev/academy",
-        "https://district-mind-media.pages.dev/culture",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/wayfinder",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/editorial-policy",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/help",
-        "https://district-mind-media.pages.dev/playlists",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
-        "https://district-mind-media.pages.dev/artists.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
-      ],
-      "badCopy": false,
-      "horizontalOverflow": false,
-      "interactionChecks": [
-        {
-          "name": "mobile-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "mobile-menu-closes",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-opens",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
-        }
-      ],
-      "internalLinkCount": 15
-    },
-    {
-      "route": "/wayfinder.html",
-      "status": 200,
-      "ms": 990,
-      "title": "Wayfinder Music AI — District Mind Media",
-      "bodyChars": 1631,
-      "hasNav": true,
-      "images": [],
-      "visualAssets": [],
-      "missingImageAlt": 0,
-      "links": [
-        "https://district-mind-media.pages.dev/",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/radar",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/wayfinder",
-        "https://district-mind-media.pages.dev/academy",
-        "https://district-mind-media.pages.dev/culture",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/artists",
-        "https://district-mind-media.pages.dev/artist-registry",
-        "https://district-mind-media.pages.dev/local",
-        "https://district-mind-media.pages.dev/concerts",
-        "https://district-mind-media.pages.dev/artists",
-        "https://district-mind-media.pages.dev/artist-registry",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://www.bandsintown.com/",
-        "https://www.songkick.com/",
-        "https://www.ticketmaster.com/discover/concerts",
-        "https://district-mind-media.pages.dev/editorial-policy",
-        "https://district-mind-media.pages.dev/help",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
-        "https://district-mind-media.pages.dev/artists.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
-      ],
-      "badCopy": false,
-      "horizontalOverflow": false,
-      "interactionChecks": [
-        {
-          "name": "mobile-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "mobile-menu-closes",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-opens",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
-        }
-      ],
-      "internalLinkCount": 18
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/radar"
     },
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1018,
+      "ms": 1081,
       "title": "Radar — District Mind Media",
-      "bodyChars": 645,
+      "bodyChars": 556,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
       "missingImageAlt": 0,
       "links": [
-        "https://district-mind-media.pages.dev/",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/radar",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/wayfinder",
-        "https://district-mind-media.pages.dev/academy",
-        "https://district-mind-media.pages.dev/culture",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/artists",
-        "https://district-mind-media.pages.dev/editorial-policy",
-        "https://district-mind-media.pages.dev/feed.xml",
-        "https://district-mind-media.pages.dev/help",
-        "https://district-mind-media.pages.dev/playlists",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
-        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/index.html",
         "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
+        "https://district-mind-media.pages.dev/radar.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/help.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
@@ -569,30 +508,23 @@
           "pass": true
         },
         {
-          "name": "wayfinder-opens",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
+          "name": "wayfinder-trigger-present",
+          "pass": false
         }
       ],
-      "internalLinkCount": 17
+      "internalLinkCount": 13
+    },
+    {
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/culture"
     },
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 1065,
+      "ms": 1009,
       "title": "District Mind Media | Culture",
-      "bodyChars": 1723,
+      "bodyChars": 1647,
       "hasNav": true,
       "images": [],
       "visualAssets": [
@@ -629,7 +561,7 @@
       ],
       "missingImageAlt": 0,
       "links": [
-        "https://district-mind-media.pages.dev/",
+        "https://district-mind-media.pages.dev/index.html",
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
@@ -643,11 +575,7 @@
         "https://commons.wikimedia.org/wiki/File:JPEGMAFIA_interview_at_NTS_Radio_with_Natalie_James.png",
         "https://commons.wikimedia.org/wiki/File:Earl_Sweatshirt_2012.JPG",
         "https://commons.wikimedia.org/wiki/File:Doja_Cat_August_2019.png",
-        "https://commons.wikimedia.org/wiki/File:Huncho_Jack.jpg",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
-        "https://district-mind-media.pages.dev/artists.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
+        "https://commons.wikimedia.org/wiki/File:Huncho_Jack.jpg"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
@@ -661,30 +589,23 @@
           "pass": true
         },
         {
-          "name": "wayfinder-opens",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
+          "name": "wayfinder-trigger-present",
+          "pass": false
         }
       ],
-      "internalLinkCount": 12
+      "internalLinkCount": 9
+    },
+    {
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/about"
     },
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1212,
+      "ms": 1026,
       "title": "District Mind Media | About",
-      "bodyChars": 1565,
+      "bodyChars": 1493,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -702,12 +623,7 @@
         "https://district-mind-apparel.printify.me/",
         "https://music.apple.com/us/artist/john-michell/1720482148",
         "https://district-mind-media.pages.dev/explore",
-        "https://district-mind-media.pages.dev/academy",
-        "https://youtu.be/Ytt_s7M9TeQ",
-        "https://www.youtube.com/results?search_query=John+Michell+official+music",
-        "https://district-mind-media.pages.dev/artists.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
+        "https://district-mind-media.pages.dev/academy"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
@@ -721,30 +637,23 @@
           "pass": true
         },
         {
-          "name": "wayfinder-opens",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
+          "name": "wayfinder-trigger-present",
+          "pass": false
         }
       ],
-      "internalLinkCount": 13
+      "internalLinkCount": 10
+    },
+    {
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/contact"
     },
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 1096,
+      "ms": 1025,
       "title": "District Mind Media | Contact",
-      "bodyChars": 564,
+      "bodyChars": 492,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -758,12 +667,7 @@
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
         "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://youtu.be/Ytt_s7M9TeQ",
-        "https://www.youtube.com/results?search_query=John+Michell+official+music",
-        "https://district-mind-media.pages.dev/artists.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
+        "https://district-mind-media.pages.dev/contact"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
@@ -777,30 +681,23 @@
           "pass": true
         },
         {
-          "name": "wayfinder-opens",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
+          "name": "wayfinder-trigger-present",
+          "pass": false
         }
       ],
-      "internalLinkCount": 12
+      "internalLinkCount": 9
+    },
+    {
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/academy"
     },
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 1027,
+      "ms": 1041,
       "title": "District Mind Academy — Class 001",
-      "bodyChars": 3592,
+      "bodyChars": 3495,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -818,19 +715,12 @@
         "https://district-mind-media.pages.dev/artists",
         "https://district-mind-media.pages.dev/playlists",
         "https://district-mind-media.pages.dev/help",
-        "https://district-mind-media.pages.dev/dm-coins-lab",
+        "https://district-mind-media.pages.dev/dm-coins-lab.html",
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
         "https://district-mind-media.pages.dev/editorial",
-        "https://district-mind-media.pages.dev/feed.xml",
-        "https://district-mind-media.pages.dev/help",
-        "https://district-mind-media.pages.dev/playlists",
-        "https://youtu.be/Ytt_s7M9TeQ",
-        "https://www.youtube.com/results?search_query=John+Michell+official+music",
-        "https://district-mind-media.pages.dev/artists.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
+        "https://district-mind-media.pages.dev/feed.xml"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
@@ -844,167 +734,129 @@
           "pass": true
         },
         {
-          "name": "wayfinder-opens",
+          "name": "wayfinder-trigger-present",
+          "pass": false
+        }
+      ],
+      "internalLinkCount": 15
+    },
+    {
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/academy-001"
+    },
+    {
+      "route": "/academy-001.html",
+      "status": 200,
+      "ms": 1007,
+      "title": "Academy 001 — District Mind",
+      "bodyChars": 902,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/help.html",
+        "https://district-mind-media.pages.dev/academy.html#join",
+        "https://district-mind-media.pages.dev/explore.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "interactionChecks": [
+        {
+          "name": "mobile-menu-opens",
+          "pass": false
+        },
+        {
+          "name": "mobile-menu-closes",
           "pass": true
         },
         {
-          "name": "wayfinder-closes-with-escape",
+          "name": "wayfinder-trigger-present",
+          "pass": false
+        }
+      ],
+      "internalLinkCount": 10
+    },
+    {
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/editorial"
+    },
+    {
+      "route": "/editorial.html",
+      "status": 200,
+      "ms": 1010,
+      "title": "Editorial — District Mind Media",
+      "bodyChars": 1007,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom",
+        "https://district-mind-media.pages.dev/radar",
+        "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/wayfinder",
+        "https://district-mind-media.pages.dev/academy",
+        "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/about",
+        "https://district-mind-media.pages.dev/contact",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/article.html",
+        "https://district-mind-media.pages.dev/artists.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/contributors.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "interactionChecks": [
+        {
+          "name": "mobile-menu-opens",
           "pass": true
         },
         {
-          "name": "theme-menu-opens",
+          "name": "mobile-menu-closes",
           "pass": true
         },
         {
-          "name": "theme-menu-closes",
-          "pass": true
+          "name": "wayfinder-trigger-present",
+          "pass": false
         }
       ],
       "internalLinkCount": 18
     },
     {
-      "route": "/academy-001.html",
-      "status": 200,
-      "ms": 1105,
-      "title": "Academy 001 — District Mind",
-      "bodyChars": 995,
-      "hasNav": true,
-      "images": [],
-      "visualAssets": [],
-      "missingImageAlt": 0,
-      "links": [
-        "https://district-mind-media.pages.dev/",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/radar",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/wayfinder",
-        "https://district-mind-media.pages.dev/academy",
-        "https://district-mind-media.pages.dev/culture",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/academy#join",
-        "https://district-mind-media.pages.dev/explore",
-        "https://district-mind-media.pages.dev/academy",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/help",
-        "https://district-mind-media.pages.dev/playlists",
-        "https://youtu.be/Ytt_s7M9TeQ",
-        "https://www.youtube.com/results?search_query=John+Michell+official+music",
-        "https://district-mind-media.pages.dev/artists.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
-      ],
-      "badCopy": false,
-      "horizontalOverflow": false,
-      "interactionChecks": [
-        {
-          "name": "mobile-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "mobile-menu-closes",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-opens",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
-        }
-      ],
-      "internalLinkCount": 16
-    },
-    {
-      "route": "/editorial.html",
-      "status": 200,
-      "ms": 1101,
-      "title": "Editorial — District Mind Media",
-      "bodyChars": 1104,
-      "hasNav": true,
-      "images": [],
-      "visualAssets": [],
-      "missingImageAlt": 0,
-      "links": [
-        "https://district-mind-media.pages.dev/",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/radar",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/wayfinder",
-        "https://district-mind-media.pages.dev/academy",
-        "https://district-mind-media.pages.dev/culture",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/article",
-        "https://district-mind-media.pages.dev/artists",
-        "https://district-mind-media.pages.dev/culture",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/contributors",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/editorial-policy",
-        "https://district-mind-media.pages.dev/feed.xml",
-        "https://district-mind-media.pages.dev/help",
-        "https://district-mind-media.pages.dev/playlists",
-        "https://youtu.be/Ytt_s7M9TeQ",
-        "https://www.youtube.com/results?search_query=John+Michell+official+music",
-        "https://district-mind-media.pages.dev/artists.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
-      ],
-      "badCopy": false,
-      "horizontalOverflow": false,
-      "interactionChecks": [
-        {
-          "name": "mobile-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "mobile-menu-closes",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-opens",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
-        }
-      ],
-      "internalLinkCount": 19
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/editorial-policy"
     },
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1004,
+      "ms": 995,
       "title": "Editorial Policy | District Mind Media",
-      "bodyChars": 2951,
+      "bodyChars": 2879,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
       "missingImageAlt": 0,
       "links": [
-        "https://district-mind-media.pages.dev/",
+        "https://district-mind-media.pages.dev/index.html",
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
@@ -1031,55 +883,43 @@
         "https://commons.wikimedia.org/wiki/File:JPEGMAFIA_(48548470532).jpg",
         "https://commons.wikimedia.org/wiki/File:Quavo_Salute_to_Summer_Concert_2025.jpg",
         "https://commons.wikimedia.org/",
-        "https://commons.wikimedia.org/",
-        "https://youtu.be/Ytt_s7M9TeQ",
-        "https://www.youtube.com/results?search_query=John+Michell+official+music",
-        "https://district-mind-media.pages.dev/artists.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
+        "https://commons.wikimedia.org/"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
       "interactionChecks": [
         {
           "name": "mobile-menu-opens",
-          "pass": true
+          "pass": false
         },
         {
           "name": "mobile-menu-closes",
           "pass": true
         },
         {
-          "name": "wayfinder-opens",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
+          "name": "wayfinder-trigger-present",
+          "pass": false
         }
       ],
-      "internalLinkCount": 12
+      "internalLinkCount": 9
+    },
+    {
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/contributors"
     },
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1097,
+      "ms": 1028,
       "title": "Contributors — District Mind Media",
-      "bodyChars": 1147,
+      "bodyChars": 1050,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
       "missingImageAlt": 0,
       "links": [
-        "https://district-mind-media.pages.dev/",
+        "https://district-mind-media.pages.dev/index.html",
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
@@ -1088,19 +928,12 @@
         "https://district-mind-media.pages.dev/culture",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/john-michell",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/editorial-policy",
-        "https://district-mind-media.pages.dev/feed.xml",
-        "https://district-mind-media.pages.dev/help",
-        "https://district-mind-media.pages.dev/playlists",
-        "https://youtu.be/Ytt_s7M9TeQ",
-        "https://www.youtube.com/results?search_query=John+Michell+official+music",
-        "https://district-mind-media.pages.dev/artists.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
+        "https://district-mind-media.pages.dev/john-michell.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
@@ -1114,36 +947,83 @@
           "pass": true
         },
         {
-          "name": "wayfinder-opens",
+          "name": "wayfinder-trigger-present",
+          "pass": false
+        }
+      ],
+      "internalLinkCount": 14
+    },
+    {
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/explore"
+    },
+    {
+      "route": "/explore.html",
+      "status": 200,
+      "ms": 1042,
+      "title": "Explore — District Mind Media",
+      "bodyChars": 854,
+      "hasNav": true,
+      "images": [],
+      "visualAssets": [],
+      "missingImageAlt": 0,
+      "links": [
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/newsroom",
+        "https://district-mind-media.pages.dev/radar",
+        "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/wayfinder",
+        "https://district-mind-media.pages.dev/academy",
+        "https://district-mind-media.pages.dev/culture",
+        "https://district-mind-media.pages.dev/about",
+        "https://district-mind-media.pages.dev/contact",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/newsroom.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
+      ],
+      "badCopy": false,
+      "horizontalOverflow": false,
+      "interactionChecks": [
+        {
+          "name": "mobile-menu-opens",
+          "pass": false
+        },
+        {
+          "name": "mobile-menu-closes",
           "pass": true
         },
         {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
+          "name": "wayfinder-trigger-present",
+          "pass": false
         }
       ],
       "internalLinkCount": 17
     },
     {
-      "route": "/explore.html",
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/article"
+    },
+    {
+      "route": "/article.html",
       "status": 200,
-      "ms": 1043,
-      "title": "Explore — District Mind Media",
-      "bodyChars": 951,
+      "ms": 1009,
+      "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
+      "bodyChars": 2802,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
       "missingImageAlt": 0,
       "links": [
-        "https://district-mind-media.pages.dev/",
+        "https://district-mind-media.pages.dev/index.html",
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
@@ -1152,23 +1032,13 @@
         "https://district-mind-media.pages.dev/culture",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/wayfinder",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/wayfinder",
-        "https://district-mind-media.pages.dev/culture",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/editorial-policy",
-        "https://district-mind-media.pages.dev/feed.xml",
-        "https://district-mind-media.pages.dev/help",
-        "https://district-mind-media.pages.dev/playlists",
-        "https://youtu.be/Ytt_s7M9TeQ",
-        "https://www.youtube.com/results?search_query=John+Michell+official+music",
-        "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
+        "https://district-mind-media.pages.dev/local.html",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/editorial-policy.html",
+        "https://district-mind-media.pages.dev/feed.xml"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
@@ -1182,95 +1052,23 @@
           "pass": true
         },
         {
-          "name": "wayfinder-opens",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
+          "name": "wayfinder-trigger-present",
+          "pass": false
         }
       ],
       "internalLinkCount": 16
     },
     {
-      "route": "/article.html",
-      "status": 200,
-      "ms": 1085,
-      "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
-      "bodyChars": 2893,
-      "hasNav": true,
-      "images": [],
-      "visualAssets": [],
-      "missingImageAlt": 0,
-      "links": [
-        "https://district-mind-media.pages.dev/",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/radar",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/wayfinder",
-        "https://district-mind-media.pages.dev/academy",
-        "https://district-mind-media.pages.dev/culture",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/local",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
-        "https://district-mind-media.pages.dev/editorial-policy",
-        "https://district-mind-media.pages.dev/feed.xml",
-        "https://district-mind-media.pages.dev/help",
-        "https://district-mind-media.pages.dev/playlists",
-        "https://youtu.be/Ytt_s7M9TeQ",
-        "https://www.youtube.com/results?search_query=John+Michell+official+music",
-        "https://district-mind-media.pages.dev/artists.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
-      ],
-      "badCopy": false,
-      "horizontalOverflow": false,
-      "interactionChecks": [
-        {
-          "name": "mobile-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "mobile-menu-closes",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-opens",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
-        }
-      ],
-      "internalLinkCount": 17
+      "type": "page-error",
+      "text": "Invalid or unexpected token",
+      "url": "https://district-mind-media.pages.dev/john-michell"
     },
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 1035,
+      "ms": 1032,
       "title": "John Michell — District Mind Media",
-      "bodyChars": 2150,
+      "bodyChars": 2078,
       "hasNav": true,
       "images": [
         {
@@ -1313,25 +1111,20 @@
       ],
       "missingImageAlt": 0,
       "links": [
-        "https://district-mind-media.pages.dev/",
-        "https://district-mind-media.pages.dev/newsroom",
-        "https://district-mind-media.pages.dev/radar",
-        "https://district-mind-media.pages.dev/releases",
-        "https://district-mind-media.pages.dev/wayfinder",
-        "https://district-mind-media.pages.dev/academy",
-        "https://district-mind-media.pages.dev/culture",
-        "https://district-mind-media.pages.dev/about",
-        "https://district-mind-media.pages.dev/contact",
+        "https://district-mind-media.pages.dev/index.html",
+        "https://district-mind-media.pages.dev/index.html#latest",
+        "https://district-mind-media.pages.dev/releases.html",
+        "https://district-mind-media.pages.dev/wayfinder.html",
+        "https://district-mind-media.pages.dev/academy.html",
+        "https://district-mind-media.pages.dev/culture.html",
+        "https://district-mind-media.pages.dev/about.html",
+        "https://district-mind-media.pages.dev/contact.html",
+        "https://district-mind-media.pages.dev/help.html",
         "https://music.apple.com/us/artist/john-michell/1720482148",
         "https://music.apple.com/us/artist/john-michell/1720482148",
         "https://music.apple.com/us/artist/john-michell/1720482148",
         "https://music.apple.com/us/album/eyes-open-single/1727068645",
-        "https://music.apple.com/us/artist/john-michell/1720482148",
-        "https://youtu.be/Ytt_s7M9TeQ",
-        "https://www.youtube.com/results?search_query=John+Michell+official+music",
-        "https://district-mind-media.pages.dev/artists.html",
-        "https://district-mind-media.pages.dev/newsroom.html",
-        "https://district-mind-media.pages.dev/releases.html"
+        "https://music.apple.com/us/artist/john-michell/1720482148"
       ],
       "badCopy": false,
       "horizontalOverflow": false,
@@ -1345,33 +1138,21 @@
           "pass": true
         },
         {
-          "name": "wayfinder-opens",
-          "pass": true
-        },
-        {
-          "name": "wayfinder-closes-with-escape",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-opens",
-          "pass": true
-        },
-        {
-          "name": "theme-menu-closes",
-          "pass": true
+          "name": "wayfinder-trigger-present",
+          "pass": false
         }
       ],
-      "internalLinkCount": 12
+      "internalLinkCount": 9
     }
   ],
   "linkFailures": [],
   "summary": {
     "routeFailures": 0,
     "internalLinkFailures": 0,
-    "pageErrors": 0,
+    "pageErrors": 17,
     "consoleErrors": 0,
-    "interactionFailures": 0,
-    "interactionChecks": 108,
+    "interactionFailures": 21,
+    "interactionChecks": 57,
     "blankPages": 0,
     "horizontalOverflow": 0,
     "brokenImages": 0,
