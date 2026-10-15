@@ -1,36 +1,22 @@
 {
-  "generatedAt": "2026-10-15T00:22:53.230Z",
+  "generatedAt": "2026-10-15T01:08:05.149Z",
   "operator": "District Mind AI Newsroom",
-  "status": "READY_FOR_EDITOR",
-  "storyCount": 224,
+  "status": "DEGRADED",
+  "storyCount": 87,
   "stories": [
+    {
+      "title": "Drakeo the Ruler’s Mom Settles With Live Nation Over Rapper’s Killing at Music Festival",
+      "description": "",
+      "url": "https://www.rollingstone.com/music/music-news/drakeo-the-ruler-mom-settles-live-nation-wrongful-death-1235642809/",
+      "date": "Thu, 15 Oct 2026 00:26:23 +0000",
+      "source": "Rolling Stone — Music"
+    },
     {
       "title": "Music-Related Legislation Before Congress Right Now: Full List of Bills (UPDATING)",
       "description": "Billboard is keeping track of all the bills that could impact the music industry during the 119th Congress. ]]>",
       "url": "https://www.billboard.com/lists/music-related-bills-congress-now-list-legislation/",
       "date": "Thu, 15 Oct 2026 00:17:00 +0000",
       "source": "Billboard"
-    },
-    {
-      "title": "Stevie Wonder Kicks Off Songs In The Key Of Life 50th Anniversary Tour - KRNB Smooth R&B 105.7",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxONk0wS2hXVmdoNTFvd0xCWnFOVmdrSXZDQlV2RHFLNGR5NW9acGIzUVhpajRGQUJQZ3FwamgzXzJGMF9rLUtySE8zYzQxRUpKcFhxMFZsNXlDWFdGOEZybF9tVUYwZUJ0dGtEcVFOaDhuaHNzZDIwOTdDMk1JTkhjcmdObXBGd2w3Rm0zSjZZN1BKRUN5Z3Q4TmQ3c0c?oc=5\" target=\"_blank\">Stevie Wonder Kicks Off Songs In The Key Of Life 50th Anniversary Tour</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KRNB Smooth R&B 105.7</font>",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONk0wS2hXVmdoNTFvd0xCWnFOVmdrSXZDQlV2RHFLNGR5NW9acGIzUVhpajRGQUJQZ3FwamgzXzJGMF9rLUtySE8zYzQxRUpKcFhxMFZsNXlDWFdGOEZybF9tVUYwZUJ0dGtEcVFOaDhuaHNzZDIwOTdDMk1JTkhjcmdObXBGd2w3Rm0zSjZZN1BKRUN5Z3Q4TmQ3c0c?oc=5",
-      "date": "Thu, 15 Oct 2026 00:02:17 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "New book chronicles how grunge music changed the world - New Day NW - KING5.com",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMilAJBVV95cUxNVFNYU0FoRnhfMHhsYkVJZW9IUE91UFBVTjZFRjBuYVIxd2ZrcW0zY25IdFBmaEs0ek9ua011Y0NvdWNoc1ZWNXBpNzlTYnFKNS0wZ3pIaTRpRVplN0U3VTRla0xMQXBSUjRIMnR1LW1tWXBzb012dDJ0bHdmd1pQMGZkcUNHLVdmWmRMYzRhdjlfNk9Lclk2Z3kxbTg4OU8wZklzeHFKS1VjWkxzTjRPWkhENkZkZnZfa09OY2Y3aHB3a0xxbHJMQzVxTmdzTXJMal9jRmY3ejJGWHR3bGxPWGVqNzloRXJyQ1hMQWN2dkVvTVo0ZW0wOWYxcEIwN1l3elkxLVRKejd2Z0xPY0JGSHlPSTQ?oc=5\" target=\"_blank\">New book chronicles how grunge music changed the world - New Day NW</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KING5.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNVFNYU0FoRnhfMHhsYkVJZW9IUE91UFBVTjZFRjBuYVIxd2ZrcW0zY25IdFBmaEs0ek9ua011Y0NvdWNoc1ZWNXBpNzlTYnFKNS0wZ3pIaTRpRVplN0U3VTRla0xMQXBSUjRIMnR1LW1tWXBzb012dDJ0bHdmd1pQMGZkcUNHLVdmWmRMYzRhdjlfNk9Lclk2Z3kxbTg4OU8wZklzeHFKS1VjWkxzTjRPWkhENkZkZnZfa09OY2Y3aHB3a0xxbHJMQzVxTmdzTXJMal9jRmY3ejJGWHR3bGxPWGVqNzloRXJyQ1hMQWN2dkVvTVo0ZW0wOWYxcEIwN1l3elkxLVRKejd2Z0xPY0JGSHlPSTQ?oc=5",
-      "date": "Wed, 14 Oct 2026 23:54:00 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "YouTube Rolls Out New Labeling System for AI-Generated Music - CNET",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOdUpWMFFKZ2p6dFlKV2Jia0I0ZHN6WVk0eFMzWEFqblVIc0FPaEFaLWpuaGpYT2wtQkk4QVd4NFl2Mnl4SnBsUm1tQVE5a0Zld0xhM2hfUEYxOVFjc05CSTdPLVNEZDJGZ3puQ3UyZm9EUnBvQjV5Ym5taDRiME13M3VEcGdNbFRJUmc?oc=5\" target=\"_blank\">YouTube Rolls Out New Labeling System for AI-Generated Music</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNET</font>",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdUpWMFFKZ2p6dFlKV2Jia0I0ZHN6WVk0eFMzWEFqblVIc0FPaEFaLWpuaGpYT2wtQkk4QVd4NFl2Mnl4SnBsUm1tQVE5a0Zld0xhM2hfUEYxOVFjc05CSTdPLVNEZDJGZ3puQ3UyZm9EUnBvQjV5Ym5taDRiME13M3VEcGdNbFRJUmc?oc=5",
-      "date": "Wed, 14 Oct 2026 23:18:38 GMT",
-      "source": "Google News — New Music"
     },
     {
       "title": "YouTube Music Rolls Out Labels for AI-Generated Content",
@@ -40,25 +26,11 @@
       "source": "Billboard"
     },
     {
-      "title": "Music Academy Breaks Ground on New Downtown Education Center in Santa Barbara - News Channel 3-12",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxQaElVaGw5dmRzMVpJNGc3cFlSam5paHF1amo1aEpxTVlsSmg5UTdVeHltWVpXY0VCSk42alVhN2Ewc2xaVHlhZ0VHVVNJcHl2RmJCU0NvdHRZb0IxakZqNWgyejhUTXZQbXVhUjBnVnJQRy0wSlVSdkQxdzJZcTFNTS1ualk0cjY3XzZUT09WQm8xRnU5VHZNc0VNdk80YkNJczRBeU83b2R4NGJwSUFnUUxrUmNjQTdDek9RUmdGLXhuVVJVTVJEbFdJN2trWXM?oc=5\" target=\"_blank\">Music Academy Breaks Ground on New Downtown Education Center in Santa Barbara</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News Channel 3-12</font>",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaElVaGw5dmRzMVpJNGc3cFlSam5paHF1amo1aEpxTVlsSmg5UTdVeHltWVpXY0VCSk42alVhN2Ewc2xaVHlhZ0VHVVNJcHl2RmJCU0NvdHRZb0IxakZqNWgyejhUTXZQbXVhUjBnVnJQRy0wSlVSdkQxdzJZcTFNTS1ualk0cjY3XzZUT09WQm8xRnU5VHZNc0VNdk80YkNJczRBeU83b2R4NGJwSUFnUUxrUmNjQTdDek9RUmdGLXhuVVJVTVJEbFdJN2trWXM?oc=5",
-      "date": "Wed, 14 Oct 2026 22:42:48 GMT",
-      "source": "Google News — New Music"
-    },
-    {
       "title": "Drakeo the Ruler’s Estate Settles With Live Nation, Others Over Fatal Festival Stabbing",
       "description": "",
       "url": "https://www.billboard.com/pro/drakeo-the-ruler-settles-live-nation-lawsuit-stabbing/",
       "date": "Wed, 14 Oct 2026 22:37:55 +0000",
       "source": "Billboard"
-    },
-    {
-      "title": "Dana School of Music hosts new student open house - WFMJ",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZpSzFXSXF1V1lFbl8taV9Kay16eUhQSnlDd1BnbkJTTTZvUzJVcDY5LXo5ZUw3VndNQkl4MnZHSnVEVnNuZmc3dTQ4N1NNcU9RYVJRTnZSZ0NSVU1aRXNZTFJqY2w1RkJLVmFlNHRTWW5CZFFJamJlckVOOGZyTWNXNXVsNklLbmZwRUU0cWtHcUxHN3ZfUXpraFlpZ1B1eWc4TVZZMUlkR2dsWE9GY1BSM2ZpUEx3UDFLYkE3SnlqX2pBX2NZUg?oc=5\" target=\"_blank\">Dana School of Music hosts new student open house</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WFMJ</font>",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZpSzFXSXF1V1lFbl8taV9Kay16eUhQSnlDd1BnbkJTTTZvUzJVcDY5LXo5ZUw3VndNQkl4MnZHSnVEVnNuZmc3dTQ4N1NNcU9RYVJRTnZSZ0NSVU1aRXNZTFJqY2w1RkJLVmFlNHRTWW5CZFFJamJlckVOOGZyTWNXNXVsNklLbmZwRUU0cWtHcUxHN3ZfUXpraFlpZ1B1eWc4TVZZMUlkR2dsWE9GY1BSM2ZpUEx3UDFLYkE3SnlqX2pBX2NZUg?oc=5",
-      "date": "Wed, 14 Oct 2026 22:28:00 GMT",
-      "source": "Google News — New Music"
     },
     {
       "title": "Chance the Rapper Wins Lingering Legal Fight With Ex-Manager: ‘Owed Him Loyalty’",
@@ -68,39 +40,11 @@
       "source": "Rolling Stone — Music"
     },
     {
-      "title": "YouTube Music and Deezer add new AI music controls - Mashable",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1XaGl2SkVoTmpLWE8tVVBOb1RNX3hFT3JhcFlxcXc3b1BtRUVGYzhfOTF5dkdBZ2JMbGRiaVhPcXFKRXJnbWpkZEo5RjE4WV9tdDFvVXhlNjRhZWJPcXMyWXM1R1VUUVZ3RWZoTjVNRGNGVkJGUU9GNg?oc=5\" target=\"_blank\">YouTube Music and Deezer add new AI music controls</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mashable</font>",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XaGl2SkVoTmpLWE8tVVBOb1RNX3hFT3JhcFlxcXc3b1BtRUVGYzhfOTF5dkdBZ2JMbGRiaVhPcXFKRXJnbWpkZEo5RjE4WV9tdDFvVXhlNjRhZWJPcXMyWXM1R1VUUVZ3RWZoTjVNRGNGVkJGUU9GNg?oc=5",
-      "date": "Wed, 14 Oct 2026 22:25:13 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "ASAP Rocky Calls Playboi Carti the 'Godfather' of New Rage-Vamp Music - Complex",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPVkJOSUxjOFJKOFZwTUZNUUVyOURuWXI0MWRmVE0tSHNoY0hRME4tMnpBRDhTLUxQbjVrVkdyekxkdXRhODNBd3BteklNYllmZmJ6bmtvYWlRU3NEeGFiSnY3anRsWWdVNkZwbDZhOEY0cTF6cEtudEotR3BKVnVodDNtQWUzVW9KdVdnX1RvUQ?oc=5\" target=\"_blank\">ASAP Rocky Calls Playboi Carti the 'Godfather' of New Rage-Vamp Music</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Complex</font>",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVkJOSUxjOFJKOFZwTUZNUUVyOURuWXI0MWRmVE0tSHNoY0hRME4tMnpBRDhTLUxQbjVrVkdyekxkdXRhODNBd3BteklNYllmZmJ6bmtvYWlRU3NEeGFiSnY3anRsWWdVNkZwbDZhOEY0cTF6cEtudEotR3BKVnVodDNtQWUzVW9KdVdnX1RvUQ?oc=5",
-      "date": "Wed, 14 Oct 2026 22:23:09 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
       "title": "Zach Bryan Announces ‘Young Manhood and Other Donatable Organs’ Tour Across North America and Australia",
       "description": "",
       "url": "https://www.rollingstone.com/music/music-news/zach-bryan-young-manhood-and-other-donatable-organs-tour-1235642872/",
       "date": "Wed, 14 Oct 2026 22:14:37 +0000",
       "source": "Rolling Stone — Music"
-    },
-    {
-      "title": "Local hip-hop artist hones his craft through personal storytelling and polished flows - capradio.org",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPSmUyYWRqX1ZsRGtUR280QmMyOXBNNHRxcEVoMnR4WFNwTFI2a3BDa2ZaS0FjeWRzY3JIMzVJSGJTTkNiS0dxSzRlcU9tYVE4QzUxRm56aFVWVXBDcWdYZUFzQnZFbm5ONzN2N0h2c0hBc1A5U0lyX1NSRnV1OHZ4UVdYRWRCS0VzZDkxZFZLbVl3WUloS25MT3hoN2xQeDViNTYtTURxUjRhM3A1cE5LY2JQVWtsRy13VTZPUDY1T29ReVpQSVZxeDNidw?oc=5\" target=\"_blank\">Local hip-hop artist hones his craft through personal storytelling and polished flows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">capradio.org</font>",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSmUyYWRqX1ZsRGtUR280QmMyOXBNNHRxcEVoMnR4WFNwTFI2a3BDa2ZaS0FjeWRzY3JIMzVJSGJTTkNiS0dxSzRlcU9tYVE4QzUxRm56aFVWVXBDcWdYZUFzQnZFbm5ONzN2N0h2c0hBc1A5U0lyX1NSRnV1OHZ4UVdYRWRCS0VzZDkxZFZLbVl3WUloS25MT3hoN2xQeDViNTYtTURxUjRhM3A1cE5LY2JQVWtsRy13VTZPUDY1T29ReVpQSVZxeDNidw?oc=5",
-      "date": "Wed, 14 Oct 2026 22:10:29 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "PJ Lucid Unleashes Unfiltered Aggression on Explosive New Single “KAIJU” - buzzmusic",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNSGFuNGlicm9jNHNqdkpBUDhwdE1aU25TQzY5SzJFTFIzVW5JZ18wYmpGMzhsZFprN3F6M3J4VFBkLXY5LTdGTG9qTnI5dzYxa2E2cVdsbkM4UEw4WXF0emxncnRNN3VhS3JsSUJ5UUFwbUlyTEMzT0Z5M0M3WjNvTmw2TUp3cXYtTklNNU5DTjhKWUp0VW5sbHJHd09ZN2ZIYkllUQ?oc=5\" target=\"_blank\">PJ Lucid Unleashes Unfiltered Aggression on Explosive New Single “KAIJU”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">buzzmusic</font>",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSGFuNGlicm9jNHNqdkpBUDhwdE1aU25TQzY5SzJFTFIzVW5JZ18wYmpGMzhsZFprN3F6M3J4VFBkLXY5LTdGTG9qTnI5dzYxa2E2cVdsbkM4UEw4WXF0emxncnRNN3VhS3JsSUJ5UUFwbUlyTEMzT0Z5M0M3WjNvTmw2TUp3cXYtTklNNU5DTjhKWUp0VW5sbHJHd09ZN2ZIYkllUQ?oc=5",
-      "date": "Wed, 14 Oct 2026 21:59:03 GMT",
-      "source": "Google News — New Music"
     },
     {
       "title": "Woman Accusing Geordie Greep of Sexual Assault Alleges Singer Kissed Her While She Slept",
@@ -117,20 +61,6 @@
       "source": "Billboard"
     },
     {
-      "title": "Meet Hugel: the French DJ Taking Electronic Music to New Heights (Exclusive) - People.com",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQU0lHNWZqTTNLRHV5WjVla2g3Z2Y1VWVsMHItNGY0V3NEMlJoQ3VyMUxqZFhUYnVPTlVsaGgyVnRBNjlueWtWTVBuaWZVY2EwWXdEUE5xYk1rTk10c2ZhSHk3Ri1FT1B4aVZtNWpwUUJrR1VJZ2JFWkZWeUN4REV0bUY1bjJPbE5xSW44eWRLV29XQ0gzQmhjcXBBSUt0QQ?oc=5\" target=\"_blank\">Meet Hugel: the French DJ Taking Electronic Music to New Heights (Exclusive)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">People.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU0lHNWZqTTNLRHV5WjVla2g3Z2Y1VWVsMHItNGY0V3NEMlJoQ3VyMUxqZFhUYnVPTlVsaGgyVnRBNjlueWtWTVBuaWZVY2EwWXdEUE5xYk1rTk10c2ZhSHk3Ri1FT1B4aVZtNWpwUUJrR1VJZ2JFWkZWeUN4REV0bUY1bjJPbE5xSW44eWRLV29XQ0gzQmhjcXBBSUt0QQ?oc=5",
-      "date": "Wed, 14 Oct 2026 21:30:00 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "‘We Aren’t Just Kids Playing Music and Floating Around Anymore’: San Cisco Are All Grown Up - Rolling Stone Australia",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPWjZ2bmhGUWZpNk94bTF6RkJhX3lsLUpld0FDdEFHVlR3UG5YY1hfYl93SHZjSDdjQ2F0UF82U3JuVkw4RFpJNi0yRW5LOFBfR1hCbHp2MldjeVhLc2dvZlM5MmJEeXEtUmVpdU5JRkdBSzBFbEppVUJ0YVJxeXFOZVhIcWF1b29ZVXVXUExVTk1CSGg0M3Jmb0txNGJ3aVQxQVVSbmJPS3I3bzdPTzhrcTFB?oc=5\" target=\"_blank\">‘We Aren’t Just Kids Playing Music and Floating Around Anymore’: San Cisco Are All Grown Up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rolling Stone Australia</font>",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWjZ2bmhGUWZpNk94bTF6RkJhX3lsLUpld0FDdEFHVlR3UG5YY1hfYl93SHZjSDdjQ2F0UF82U3JuVkw4RFpJNi0yRW5LOFBfR1hCbHp2MldjeVhLc2dvZlM5MmJEeXEtUmVpdU5JRkdBSzBFbEppVUJ0YVJxeXFOZVhIcWF1b29ZVXVXUExVTk1CSGg0M3Jmb0txNGJ3aVQxQVVSbmJPS3I3bzdPTzhrcTFB?oc=5",
-      "date": "Wed, 14 Oct 2026 21:28:07 GMT",
-      "source": "Google News — New Music"
-    },
-    {
       "title": "Zach Bryan Announces 2027 Stadium Tour Dates, John Fogerty, Ryan Bingham, More to Support",
       "description": "",
       "url": "https://variety.com/2026/music/news/zach-bryan-2027-stadium-tour-dates-1236912502/",
@@ -138,25 +68,11 @@
       "source": "Variety — Music"
     },
     {
-      "title": "Zach Bryan's tour includes stop at Nashville's new Nissan Stadium - The Tennessean",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPU3I2cDJuV2tVRXZMQ2hLRjZaQklZbDh4ZV9vU2MzSjFwRmtJeVZkbmZET2s2ZFVUbnlTbWNhTXNjQTBpLV8ySG9fTG8ydDRFTndkR2ZPS2hISnZ5SUFxc2dNRUhwZHpETXJvcWp6VzBjbGFrYjdPRHJVSkhkdzZWMDBWYXdVRmEtY005N2ZuV1dMTEtpTXczWEpWaVl2VVNPMXZjMXdzZmpkeVQydXhJ?oc=5\" target=\"_blank\">Zach Bryan's tour includes stop at Nashville's new Nissan Stadium</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Tennessean</font>",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU3I2cDJuV2tVRXZMQ2hLRjZaQklZbDh4ZV9vU2MzSjFwRmtJeVZkbmZET2s2ZFVUbnlTbWNhTXNjQTBpLV8ySG9fTG8ydDRFTndkR2ZPS2hISnZ5SUFxc2dNRUhwZHpETXJvcWp6VzBjbGFrYjdPRHJVSkhkdzZWMDBWYXdVRmEtY005N2ZuV1dMTEtpTXczWEpWaVl2VVNPMXZjMXdzZmpkeVQydXhJ?oc=5",
-      "date": "Wed, 14 Oct 2026 21:13:00 GMT",
-      "source": "Google News — New Music"
-    },
-    {
       "title": "Zach Bryan Sets His ‘Manhood’ Tour for 2027",
       "description": "",
       "url": "https://www.billboard.com/music/country/zach-bryan-2027-tour-dates-1236360907/",
       "date": "Wed, 14 Oct 2026 21:02:57 +0000",
       "source": "Billboard"
-    },
-    {
-      "title": "PVAMU alumna blends Southern hip-hop, Panther pride in 150th anniversary apparel collection - Prairie View A&M University",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPUVhQQjhwM0hndXZZc2ZPSzd2WlNzSnNHd0FfVlZNeFFuN0R1SGtBTlpaYnVLTmptcENtRU9NRVJoS3ZKenJHTlZJYW5SMVpYZXJRdG5ZcHJMLVAtRDhjdDRtUGpmdGd6M1ZjaEJma09LeG1VbHNWT3RxLW5PbHkwSmlkaGVNUUJ4WEhWUHRuR0JEOENGeDhkaTJwN2o2VWs1YzJlejFMR0ZuN29EbTUtNzRsU2pOYlpqemc?oc=5\" target=\"_blank\">PVAMU alumna blends Southern hip-hop, Panther pride in 150th anniversary apparel collection</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Prairie View A&M University</font>",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUVhQQjhwM0hndXZZc2ZPSzd2WlNzSnNHd0FfVlZNeFFuN0R1SGtBTlpaYnVLTmptcENtRU9NRVJoS3ZKenJHTlZJYW5SMVpYZXJRdG5ZcHJMLVAtRDhjdDRtUGpmdGd6M1ZjaEJma09LeG1VbHNWT3RxLW5PbHkwSmlkaGVNUUJ4WEhWUHRuR0JEOENGeDhkaTJwN2o2VWs1YzJlejFMR0ZuN29EbTUtNzRsU2pOYlpqemc?oc=5",
-      "date": "Wed, 14 Oct 2026 20:46:27 GMT",
-      "source": "Google News — Hip-Hop"
     },
     {
       "title": "Da Baby & Fetty Wap Join SpinKing In The Visual For “Beat Go”",
@@ -173,25 +89,11 @@
       "source": "Variety — Music"
     },
     {
-      "title": "From Hip-Hop to West African Dance: Stockton Workshop Invites Everyone to Find Their Rhythm - Caravan News",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxORVFDRDJCX2NkQm9ZeC1wMzlEZEFLcTl2MlYyaFRNUjVlTWNDSjVnUVJ4TU1yS1ZrWWI4QTEzNm8wUFNxankzT1l2b3Y2Q3EwZnpjVlFoMWtkSENBT2wtaGZyWDk4M2t1TmhYM2ZvTkFNRFlpOWJta1pUdVotVmdzZVF0dVU3WmlZc2VHNFU5UkZack9wd1daV0xMYk10d2t5WkgzX1pQbU83bjZjM21qbVo5eUxGTy1wTU9RS1UwZlA?oc=5\" target=\"_blank\">From Hip-Hop to West African Dance: Stockton Workshop Invites Everyone to Find Their Rhythm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Caravan News</font>",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORVFDRDJCX2NkQm9ZeC1wMzlEZEFLcTl2MlYyaFRNUjVlTWNDSjVnUVJ4TU1yS1ZrWWI4QTEzNm8wUFNxankzT1l2b3Y2Q3EwZnpjVlFoMWtkSENBT2wtaGZyWDk4M2t1TmhYM2ZvTkFNRFlpOWJta1pUdVotVmdzZVF0dVU3WmlZc2VHNFU5UkZack9wd1daV0xMYk10d2t5WkgzX1pQbU83bjZjM21qbVo5eUxGTy1wTU9RS1UwZlA?oc=5",
-      "date": "Wed, 14 Oct 2026 20:27:50 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
       "title": "How Much Did Turnstile & Rosalía’s ‘SNL’ Appearances Help Their Streaming Numbers?",
       "description": "",
       "url": "https://www.billboard.com/music/chart-beat/turnstile-rosalia-snl-live-streaming-gains-trending-up-1236360772/",
       "date": "Wed, 14 Oct 2026 20:21:47 +0000",
       "source": "Billboard"
-    },
-    {
-      "title": "Shulamit Ran, guest composer of New Music Festival - Smile Politely",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOWW90TEpxYUJPNUtZUDRWczk4Sk1wNHAwN2hSR1J5Y0h2MzdYSVBZQXZyM3dCcVNMTF93ZzBzdkR6TWo3UVRad1VuN0ZpOVktRG1aSTd1LTluZENqajBZc1czbjlULWUydWpMZXBMcVhjY21QT2JvRUI2eGMyZ3lOYnh1Nm9fVmc0ZThHRHFoMA?oc=5\" target=\"_blank\">Shulamit Ran, guest composer of New Music Festival</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Smile Politely</font>",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWW90TEpxYUJPNUtZUDRWczk4Sk1wNHAwN2hSR1J5Y0h2MzdYSVBZQXZyM3dCcVNMTF93ZzBzdkR6TWo3UVRad1VuN0ZpOVktRG1aSTd1LTluZENqajBZc1czbjlULWUydWpMZXBMcVhjY21QT2JvRUI2eGMyZ3lOYnh1Nm9fVmc0ZThHRHFoMA?oc=5",
-      "date": "Wed, 14 Oct 2026 20:04:36 GMT",
-      "source": "Google News — New Music"
     },
     {
       "title": "Feds Leave Kanye West Interview Counts Out Of Reworked Journalist Case",
@@ -201,48 +103,6 @@
       "source": "AllHipHop"
     },
     {
-      "title": "Tank Earns 12th No. 1 on Billboard’s Adult R&B Airplay Chart With ‘Yes’ - Rated R&B",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOb1JmbTlncTJSZDcxUjZCZ0luMFNJQlpaTEZaUmUtblIzMjZYXzI4Z1pWa0ZFVE9mZjhvWk1NMnBUalhoeGJMWUpJdkxCNzlXSk45UWlLRGlORFJsaExFbEU2TXVVUmpDWVJQMkZQVXhYT2NsRjVUT3VfVzNfMTNRZ1h3?oc=5\" target=\"_blank\">Tank Earns 12th No. 1 on Billboard’s Adult R&B Airplay Chart With ‘Yes’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rated R&B</font>",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOb1JmbTlncTJSZDcxUjZCZ0luMFNJQlpaTEZaUmUtblIzMjZYXzI4Z1pWa0ZFVE9mZjhvWk1NMnBUalhoeGJMWUpJdkxCNzlXSk45UWlLRGlORFJsaExFbEU2TXVVUmpDWVJQMkZQVXhYT2NsRjVUT3VfVzNfMTNRZ1h3?oc=5",
-      "date": "Wed, 14 Oct 2026 19:58:43 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "Hip-hop legends Scarface, Too Short and Do or Die coming to Gary - nwitimes.com",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWlUtZ2hTNFoyYTJvd3hUcTJtWjJNcTZVN2VyUXhZXy0ycnJkaDNzQlA1YWlfLVAyYS01MzRtMVFnZy1pV0lFYWliemxmZTVNLXU2Y0VMWXhBbF85SWJBVGRPbjBDbGdLa0VZOEVGTkZwRTRra2wyQVExWUFDanFBNmRTM2tLRDY4?oc=5\" target=\"_blank\">Hip-hop legends Scarface, Too Short and Do or Die coming to Gary</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nwitimes.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWlUtZ2hTNFoyYTJvd3hUcTJtWjJNcTZVN2VyUXhZXy0ycnJkaDNzQlA1YWlfLVAyYS01MzRtMVFnZy1pV0lFYWliemxmZTVNLXU2Y0VMWXhBbF85SWJBVGRPbjBDbGdLa0VZOEVGTkZwRTRra2wyQVExWUFDanFBNmRTM2tLRDY4?oc=5",
-      "date": "Wed, 14 Oct 2026 19:45:00 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Music News: Beach Weather Launch into a New Era with a Brand New Song, \"New Aesthetic\" - Rock DNA Magazine",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE1qM1lGVFo2MTV4OWFwU1EzTGJRUElSczMyOXFFSDBsSV9MY0lqd3hjY3pMZXdScUtqcVdGa0pNQWkwa3hvUjFyR20wbzlYUXZzM1VYNHVuY3dBbDNfSHR6SVFGVm9qUDkzSFo4U0F1TDFRUUtHWU41Ul83OU1Ldw?oc=5\" target=\"_blank\">Music News: Beach Weather Launch into a New Era with a Brand New Song, \"New Aesthetic\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rock DNA Magazine</font>",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qM1lGVFo2MTV4OWFwU1EzTGJRUElSczMyOXFFSDBsSV9MY0lqd3hjY3pMZXdScUtqcVdGa0pNQWkwa3hvUjFyR20wbzlYUXZzM1VYNHVuY3dBbDNfSHR6SVFGVm9qUDkzSFo4U0F1TDFRUUtHWU41Ul83OU1Ldw?oc=5",
-      "date": "Wed, 14 Oct 2026 19:43:21 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "40 Years Ago: Ricky Van Shelton Records a New Hit with a Very Old Song - - Saving Country Music",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOU2x2YWlfR2hCSDc1ZTlELWstMlhYRnVEX1h1TG5WSlZPdGVGTXNTSU5xTG1jaGNUOTF0c1ZHaHNYbXFuOHhlaFFQRW9pdndHSVhlUFdsSGFjX1hvU3dhN1lGQld0U1h5VmlUM2ZvbGVEYlRYeTZjbmxiclEwTVRKMGI4VFBIdkUyR0hOVkR5bW85NHpQSFNQQXpFY1ZoRnoyMmE4?oc=5\" target=\"_blank\">40 Years Ago: Ricky Van Shelton Records a New Hit with a Very Old Song</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">- Saving Country Music</font>",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOU2x2YWlfR2hCSDc1ZTlELWstMlhYRnVEX1h1TG5WSlZPdGVGTXNTSU5xTG1jaGNUOTF0c1ZHaHNYbXFuOHhlaFFQRW9pdndHSVhlUFdsSGFjX1hvU3dhN1lGQld0U1h5VmlUM2ZvbGVEYlRYeTZjbmxiclEwTVRKMGI4VFBIdkUyR0hOVkR5bW85NHpQSFNQQXpFY1ZoRnoyMmE4?oc=5",
-      "date": "Wed, 14 Oct 2026 19:37:24 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "A$AP Rocky Shares Why He Feels ‘Somewhat Responsible’ for the Current State (and Future) of Hip-Hop - VICE",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOdktZZDFpZGctSmRfV3V3Y1lteWFXZGF4cG5DYTZ3dXhwMjFOQmktelU4NVIwVEZzQjNLM0FLamxqZHJvTldzOEFNNmgyOHhCN3RaRWs0UFlMT0ZTVVRIWkpLR21VWHlmQktVM2ltY0V0dGhJRzdadklPaTV5SDdxUkJWc3NSdzcxc1ZxYXRPTkJKODNKOUE1bnlQWHF1M042bGFIaTBFdjVlaVFUNGNqWkNuT3REcGFsSGstNmpQTm5kWnpBTXc?oc=5\" target=\"_blank\">A$AP Rocky Shares Why He Feels ‘Somewhat Responsible’ for the Current State (and Future) of Hip-Hop</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VICE</font>",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdktZZDFpZGctSmRfV3V3Y1lteWFXZGF4cG5DYTZ3dXhwMjFOQmktelU4NVIwVEZzQjNLM0FLamxqZHJvTldzOEFNNmgyOHhCN3RaRWs0UFlMT0ZTVVRIWkpLR21VWHlmQktVM2ltY0V0dGhJRzdadklPaTV5SDdxUkJWc3NSdzcxc1ZxYXRPTkJKODNKOUE1bnlQWHF1M042bGFIaTBFdjVlaVFUNGNqWkNuT3REcGFsSGstNmpQTm5kWnpBTXc?oc=5",
-      "date": "Wed, 14 Oct 2026 19:36:53 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Mob Ties: A$AP Rocky Offers To Help Distribute Ferg’s New Album - Hip-Hop Wired",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE5qR0tYbjQyYXkzc21WZWlHRTRvZ3d5Y0QwZ0J5Mm1Yakdqc00xMWZfR3Y1dzZ4ZXBOSUNxWUJnS3VrUTdBUkF2RHczc3l6Sld4RURGdkhwczRJUnV6ZFBpR2x4NHZLdkhfNjMwUU9nR1M?oc=5\" target=\"_blank\">Mob Ties: A$AP Rocky Offers To Help Distribute Ferg’s New Album</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hip-Hop Wired</font>",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5qR0tYbjQyYXkzc21WZWlHRTRvZ3d5Y0QwZ0J5Mm1Yakdqc00xMWZfR3Y1dzZ4ZXBOSUNxWUJnS3VrUTdBUkF2RHczc3l6Sld4RURGdkhwczRJUnV6ZFBpR2x4NHZLdkhfNjMwUU9nR1M?oc=5",
-      "date": "Wed, 14 Oct 2026 19:27:38 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
       "title": "Dijon and Mk.gee Are a Wedding Band Now",
       "description": "The duo covered Cat Stevens, Wings, and more at Absolutely producer Jack Karaszewski’s wedding",
       "url": "https://pitchfork.com/story/dijon-and-mkgee-are-a-wedding-band-now/",
@@ -250,74 +110,11 @@
       "source": "Pitchfork"
     },
     {
-      "title": "Caribou Ranch: Boulder County’s Legendary Recording Studio - aboutboulder.com",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQbVI0R2dVMk1WUERMbE94WlR5YlpNWDJheWNmX2JFWHNCN1hHN0pucjJRX2xqQzBCYmZjV0VmV1owRUlHN2RKMEstcjY0MlBxWDJNRWs3YU5pSlNjU1pxS2lIeEE0VHJxRGREME5GalFDcGphamN3OG1uNzJFVnYzTHQxandCZzdTdkVoMlRNM1Y?oc=5\" target=\"_blank\">Caribou Ranch: Boulder County’s Legendary Recording Studio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">aboutboulder.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbVI0R2dVMk1WUERMbE94WlR5YlpNWDJheWNmX2JFWHNCN1hHN0pucjJRX2xqQzBCYmZjV0VmV1owRUlHN2RKMEstcjY0MlBxWDJNRWs3YU5pSlNjU1pxS2lIeEE0VHJxRGREME5GalFDcGphamN3OG1uNzJFVnYzTHQxandCZzdTdkVoMlRNM1Y?oc=5",
-      "date": "Wed, 14 Oct 2026 19:18:45 GMT",
-      "source": "Google News — Colorado Music"
-    },
-    {
-      "title": "Twin Cities couple draws on rich choral music scene to help composers distribute new works - MPR News",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNRTYteWswVWtzeVBZXzB0LUhZbWloaHJqd2hQeG1oZ1VmcER6YXhDR0JLWXcyWUVnZFVCS1VOY25qb0hUcEZRRGtWR3VpeG50LU9rRWUxZ05raHJvNXVLZERpbWRZd3lXaDR6VFZxdnNUQmxTUHM5RWxDczFsLS0xRW1QMldyd2ZJTW5NYmJwOFRFblVjcWpZbXpPaVB0WTUzQXd4cTEzVzdnWFljMlR1Q200UkNxVnpQX0h1Z1N4SHhvMmpJeUtvU3JQWjlSZw?oc=5\" target=\"_blank\">Twin Cities couple draws on rich choral music scene to help composers distribute new works</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MPR News</font>",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRTYteWswVWtzeVBZXzB0LUhZbWloaHJqd2hQeG1oZ1VmcER6YXhDR0JLWXcyWUVnZFVCS1VOY25qb0hUcEZRRGtWR3VpeG50LU9rRWUxZ05raHJvNXVLZERpbWRZd3lXaDR6VFZxdnNUQmxTUHM5RWxDczFsLS0xRW1QMldyd2ZJTW5NYmJwOFRFblVjcWpZbXpPaVB0WTUzQXd4cTEzVzdnWFljMlR1Q200UkNxVnpQX0h1Z1N4SHhvMmpJeUtvU3JQWjlSZw?oc=5",
-      "date": "Wed, 14 Oct 2026 19:13:00 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "Kanye West named among hip-hop artists who remain relevant - The News International",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPZzhhLUtGamxYOG9WY2FaODZUVTlSTHROQm9saE5xSWRHRll1Qk1obUFMb3NsXy1mTkJCVWItclp5dDVoRXNrbkRLbHlzcTh2OTVQbVkyd3Rua3pUX19WU1VUQlZYTkoyWGc4azdnUEhFRzJna1ZEY01ncmtJbXlwcVRhSUdVV0VGdVhBS0lfTmpHcVhZR25RLXpHUnNhNzgyOEHSAZ4BQVVfeXFMUGg0dngzUGVDVS0xZ3hfMU9jYi1hZWwtaWRIVW1lTkhxM2RxVk1vTnhrWS1NSFlqUTRnT0xXVXRZUGFPSmVxWTVaT0NGbFpReDJhcEM1MFU2dUJYT0VjYUwxTjM2aTNKSjFKR1MyUU9hejVzeVFvUTJOM1ZhQ1o0OGxYMVo2VmVFT1Y1NThjQkdod2kwbFd4MnR0a0lXTEE?oc=5\" target=\"_blank\">Kanye West named among hip-hop artists who remain relevant</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The News International</font>",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZzhhLUtGamxYOG9WY2FaODZUVTlSTHROQm9saE5xSWRHRll1Qk1obUFMb3NsXy1mTkJCVWItclp5dDVoRXNrbkRLbHlzcTh2OTVQbVkyd3Rua3pUX19WU1VUQlZYTkoyWGc4azdnUEhFRzJna1ZEY01ncmtJbXlwcVRhSUdVV0VGdVhBS0lfTmpHcVhZR25RLXpHUnNhNzgyOEHSAZ4BQVVfeXFMUGg0dngzUGVDVS0xZ3hfMU9jYi1hZWwtaWRIVW1lTkhxM2RxVk1vTnhrWS1NSFlqUTRnT0xXVXRZUGFPSmVxWTVaT0NGbFpReDJhcEM1MFU2dUJYT0VjYUwxTjM2aTNKSjFKR1MyUU9hejVzeVFvUTJOM1ZhQ1o0OGxYMVo2VmVFT1Y1NThjQkdod2kwbFd4MnR0a0lXTEE?oc=5",
-      "date": "Wed, 14 Oct 2026 18:59:00 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Remembering legendary R&B singer Freddie Jackson - The Bay State Banner",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQSTFqbFRWZnY1TVIyY3RvTTF4NjZwSkcyWUZ3MVh6VGE5ZXJieDV3Y2FWWkwzTUNWYWpsVXJhbUdPb041VThXQS1CdE15VS1HaEwxdjhHZmgwZjNuMUNRYXZwVzR5NGRycU81VXo1X2diMFktaHhDN1ozVTFjbU4yZ2ZsUWhrTXk2di1idFRkMA?oc=5\" target=\"_blank\">Remembering legendary R&B singer Freddie Jackson</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Bay State Banner</font>",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSTFqbFRWZnY1TVIyY3RvTTF4NjZwSkcyWUZ3MVh6VGE5ZXJieDV3Y2FWWkwzTUNWYWpsVXJhbUdPb041VThXQS1CdE15VS1HaEwxdjhHZmgwZjNuMUNRYXZwVzR5NGRycU81VXo1X2diMFktaHhDN1ozVTFjbU4yZ2ZsUWhrTXk2di1idFRkMA?oc=5",
-      "date": "Wed, 14 Oct 2026 18:51:34 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "From TLC To SWV: The 10 Greatest R&B Groups Of All Time — And Yes, We're Ready For The Debate - MadameNoire",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9wMHQxUnk0NXZZWk52SWxrZTc3M01wRV81Qk9FVktEaEdMMDFwaExxMzIwQjBaMDdHU0V2SG9ORUxPdXdBM3lYOUZvUy1NeFRsNTd5c0t2Rkk2QWlaek1nTGFYMnFnSWxiLURnNTM4cVowdw?oc=5\" target=\"_blank\">From TLC To SWV: The 10 Greatest R&B Groups Of All Time — And Yes, We're Ready For The Debate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MadameNoire</font>",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wMHQxUnk0NXZZWk52SWxrZTc3M01wRV81Qk9FVktEaEdMMDFwaExxMzIwQjBaMDdHU0V2SG9ORUxPdXdBM3lYOUZvUy1NeFRsNTd5c0t2Rkk2QWlaek1nTGFYMnFnSWxiLURnNTM4cVowdw?oc=5",
-      "date": "Wed, 14 Oct 2026 18:46:28 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "50 Cent Calls Cardi B a 'Hit,' Says She Escaped the 'Dead Hip-Hop Section' - Complex",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNdE05cnVLUno3a3dCOWI5aG5jeUZZUVcyM0d6dU9PT0ZqUEhRRGhLdnpjQ3gyYVNmLXRJRkt2dGRBN3RDRUNSOW50WTRpbHpPLVpHMmRmWjFuTTZldHNCaXJSUlpCeGswM3VDTHJZWkRJLURjdDZnUjlJZ1EzbmVGelJCSWxQNm9Bc0swZUdybHcxck5FanUw?oc=5\" target=\"_blank\">50 Cent Calls Cardi B a 'Hit,' Says She Escaped the 'Dead Hip-Hop Section'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Complex</font>",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdE05cnVLUno3a3dCOWI5aG5jeUZZUVcyM0d6dU9PT0ZqUEhRRGhLdnpjQ3gyYVNmLXRJRkt2dGRBN3RDRUNSOW50WTRpbHpPLVpHMmRmWjFuTTZldHNCaXJSUlpCeGswM3VDTHJZWkRJLURjdDZnUjlJZ1EzbmVGelJCSWxQNm9Bc0swZUdybHcxck5FanUw?oc=5",
-      "date": "Wed, 14 Oct 2026 18:45:23 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
       "title": "Warner Records Names Jim Roppo Vice Chairman",
       "description": "",
       "url": "https://variety.com/2026/music/news/warner-records-jim-roppo-vice-chairman-1236912271/",
       "date": "Wed, 14 Oct 2026 18:33:55 +0000",
       "source": "Variety — Music"
-    },
-    {
-      "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms - TechCrunch",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTi1KZWlGSVZxaDVoZU9sNHpSczlKdFJTLXNGd3AyaUFfcmFnbnpxVnVOMml2V1VzUS11cFRfMmxvWVVtMU11ZmNjYWhnU1pBMXNFZlZBRWdsSnh0bW5EWUJXdUVQX293Q2FUaEIzSWdkazFvWlBCUy1vNkV3MWVRZVgzQlZsNkNwcFdzUkZZQTdtTTZ2Umc1M0hJZGl1ZWlueEVjaXlVR0RKUXNLS2RxNElucjh4emhv?oc=5\" target=\"_blank\">YouTube Music launches new labels as AI-generated music floods streaming platforms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechCrunch</font>",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTi1KZWlGSVZxaDVoZU9sNHpSczlKdFJTLXNGd3AyaUFfcmFnbnpxVnVOMml2V1VzUS11cFRfMmxvWVVtMU11ZmNjYWhnU1pBMXNFZlZBRWdsSnh0bW5EWUJXdUVQX293Q2FUaEIzSWdkazFvWlBCUy1vNkV3MWVRZVgzQlZsNkNwcFdzUkZZQTdtTTZ2Umc1M0hJZGl1ZWlueEVjaXlVR0RKUXNLS2RxNElucjh4emhv?oc=5",
-      "date": "Wed, 14 Oct 2026 18:23:46 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "Rapper Papoose Talks ‘Bars on Wheels: A Journey to Save Hip Hop’ - Atlanta News First",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPM1NiYUxKQXhUTnhPQVJyV21tdTZ5S1RKc3A3QWppeGZkNTZScWpRT2JwYjBLNHppTHh3QTM4ckJYaVhlYjdIU0VYTDZTanhkVElZbFlNb1VXRkxJR2RxS1g2aG1Rc2F3Mms2OXVwYnhhWXJoOFpWOWs0LXJhLVFTWW0tbzFRUFR3Q1ZNSzVPQXE1UDdjVkFmalZHTExQZTjSAbMBQVVfeXFMTnhhaV94YWlld2dKeWdqM1YwYzd4V3VvT252R2xXSVVyRDEzSWhqMl9kcDM0ZjdQanBlaVlRTk9wcmtEaXh3QmJVNjV1cXBWMWc4ZFlBTmlmeHQ0VDQxRkw2TGd4cVRXUHpxNFlIUkFPaWxPQVMyUUFXUU5sdEJUSnR2LW9VLWdQaFE4M2pBNmZXcWJtSno3MTFOdko0dTBoTncwNkk5Z1cya0tQN1A3eW5ORWs?oc=5\" target=\"_blank\">Rapper Papoose Talks ‘Bars on Wheels: A Journey to Save Hip Hop’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Atlanta News First</font>",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM1NiYUxKQXhUTnhPQVJyV21tdTZ5S1RKc3A3QWppeGZkNTZScWpRT2JwYjBLNHppTHh3QTM4ckJYaVhlYjdIU0VYTDZTanhkVElZbFlNb1VXRkxJR2RxS1g2aG1Rc2F3Mms2OXVwYnhhWXJoOFpWOWs0LXJhLVFTWW0tbzFRUFR3Q1ZNSzVPQXE1UDdjVkFmalZHTExQZTjSAbMBQVVfeXFMTnhhaV94YWlld2dKeWdqM1YwYzd4V3VvT252R2xXSVVyRDEzSWhqMl9kcDM0ZjdQanBlaVlRTk9wcmtEaXh3QmJVNjV1cXBWMWc4ZFlBTmlmeHQ0VDQxRkw2TGd4cVRXUHpxNFlIUkFPaWxPQVMyUUFXUU5sdEJUSnR2LW9VLWdQaFE4M2pBNmZXcWJtSno3MTFOdko0dTBoTncwNkk5Z1cya0tQN1A3eW5ORWs?oc=5",
-      "date": "Wed, 14 Oct 2026 18:09:00 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Bars On Wheels: A Journey To Save Hip Hop - Atlanta News First",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNclZETTZ2R3AySUhYckxTU2NOQlRfMlYtclh0WnpaLTN1bmNGSVBRRWladnYyUWVYOWk2bVZLSWdmcUxQNURIQ01Jd21RVUg4RU94eFB0QUxzQTI4eFdQTXlnOFhXMlg5cFk2UDNobHQ2dzBNcGtjUDcxTWpXamwzdXF4d1BEby1weHBF?oc=5\" target=\"_blank\">Bars On Wheels: A Journey To Save Hip Hop</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Atlanta News First</font>",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNclZETTZ2R3AySUhYckxTU2NOQlRfMlYtclh0WnpaLTN1bmNGSVBRRWladnYyUWVYOWk2bVZLSWdmcUxQNURIQ01Jd21RVUg4RU94eFB0QUxzQTI4eFdQTXlnOFhXMlg5cFk2UDNobHQ2dzBNcGtjUDcxTWpXamwzdXF4d1BEby1weHBF?oc=5",
-      "date": "Wed, 14 Oct 2026 18:08:00 GMT",
-      "source": "Google News — Hip-Hop"
     },
     {
       "title": "“Hamilton” Reaches 500 No. 1 Weeks On Billboard’s Cast Albums Chart",
@@ -341,95 +138,11 @@
       "source": "Variety — Music"
     },
     {
-      "title": "Slash: Guns N’ Roses Taking 2027 Off from Touring with Hopes of Working on New Music - Consequence of Sound",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9HZFNIMjNqRXN6RUduS1RFTy1obmZqd3hEV1F0eFUtQXFDSWMzaVZkZEtQa3RYSlYySFdSaHY2WGJwaTFyV2JHVkxBN3IzRmd3c0FLX2tVcGN5ZmwtcVVHX1FpUEVRVWVOOEdqYUVtc0IwTFJ0ZGNiN3VjNGVyNlU?oc=5\" target=\"_blank\">Slash: Guns N’ Roses Taking 2027 Off from Touring with Hopes of Working on New Music</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Consequence of Sound</font>",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HZFNIMjNqRXN6RUduS1RFTy1obmZqd3hEV1F0eFUtQXFDSWMzaVZkZEtQa3RYSlYySFdSaHY2WGJwaTFyV2JHVkxBN3IzRmd3c0FLX2tVcGN5ZmwtcVVHX1FpUEVRVWVOOEdqYUVtc0IwTFJ0ZGNiN3VjNGVyNlU?oc=5",
-      "date": "Wed, 14 Oct 2026 17:24:01 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "50 Cent Reveals New Eminem Album In The Works - Hip-Hop Wired",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQZmVQeS0xdks5clZhZWEyX0l4bUpQWDIzc1NkZUNXRm9xSmdJUjY1d05aMUlmWHUxNTZZZFliMTRqUGFWdzlJU1dQaXM5RFV0S1J2TFh4U0ZwYmoyclB6elRCVGhaODZ2MFVudDRDS2F3ZTNoMmtjaENBNGpxN2ZZbEpMWGY?oc=5\" target=\"_blank\">50 Cent Reveals New Eminem Album In The Works</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hip-Hop Wired</font>",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZmVQeS0xdks5clZhZWEyX0l4bUpQWDIzc1NkZUNXRm9xSmdJUjY1d05aMUlmWHUxNTZZZFliMTRqUGFWdzlJU1dQaXM5RFV0S1J2TFh4U0ZwYmoyclB6elRCVGhaODZ2MFVudDRDS2F3ZTNoMmtjaENBNGpxN2ZZbEpMWGY?oc=5",
-      "date": "Wed, 14 Oct 2026 17:19:47 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "New music – Joseph McGann: Old Wounds (Young Echo Records) - Arcana.fm",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE5mMFZNTjNhVkFBRktrNEhhcFpNeTJ6ZjBIejE2Y0lCV1ZxMlB0Z3lhV3JUdVFWZU1lcVJuRU4xZE9XQVdBUWZwNVRmcklEMnVMelp3QUFR?oc=5\" target=\"_blank\">New music – Joseph McGann: Old Wounds (Young Echo Records)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Arcana.fm</font>",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5mMFZNTjNhVkFBRktrNEhhcFpNeTJ6ZjBIejE2Y0lCV1ZxMlB0Z3lhV3JUdVFWZU1lcVJuRU4xZE9XQVdBUWZwNVRmcklEMnVMelp3QUFR?oc=5",
-      "date": "Wed, 14 Oct 2026 17:18:57 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "The Breakfast Club Posts First Full-Length Interview On YouTube Since Netflix Deal - HotNewHipHop",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOa3RGeWs4WFluTG9HdTJhUnU4enUxTVlwQWFSZGQtTS1TR2VHeVdRSUYwYkNremNTakp1c1VWSkE3bkdyZWFkbmhWYmZSR0s4eGxqdmNhSGRHbTZMcGJWSmtJRGQwUHlEX1ZNeGdMakQ4bGlqM2d5LTBGT2stRlJZdWlnUm1GV0swODlZMlAyMzRwN3dWYW9N?oc=5\" target=\"_blank\">The Breakfast Club Posts First Full-Length Interview On YouTube Since Netflix Deal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HotNewHipHop</font>",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa3RGeWs4WFluTG9HdTJhUnU4enUxTVlwQWFSZGQtTS1TR2VHeVdRSUYwYkNremNTakp1c1VWSkE3bkdyZWFkbmhWYmZSR0s4eGxqdmNhSGRHbTZMcGJWSmtJRGQwUHlEX1ZNeGdMakQ4bGlqM2d5LTBGT2stRlJZdWlnUm1GV0swODlZMlAyMzRwN3dWYW9N?oc=5",
-      "date": "Wed, 14 Oct 2026 17:16:53 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Vince Staples Releases Single “Tulsa, OK” on Streaming Platforms - V13 Media",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPVGFyY01YV1lsV3ZTbzUyam85OWNtb1k1NlNWQVM5MWxSZXczaVpTNUdvUDhvMFlpX24xOGYtbjF0Vmw3RVF1Yy12aVlEODhKRWhrWi1hVFkwNFdGelJXQWF1VnJmalNsek85N0FGaTdsXzliTFpGYmFsQTVkV0I3NHN6OUZRVnMxbGZMZEdXNA?oc=5\" target=\"_blank\">Vince Staples Releases Single “Tulsa, OK” on Streaming Platforms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">V13 Media</font>",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVGFyY01YV1lsV3ZTbzUyam85OWNtb1k1NlNWQVM5MWxSZXczaVpTNUdvUDhvMFlpX24xOGYtbjF0Vmw3RVF1Yy12aVlEODhKRWhrWi1hVFkwNFdGelJXQWF1VnJmalNsek85N0FGaTdsXzliTFpGYmFsQTVkV0I3NHN6OUZRVnMxbGZMZEdXNA?oc=5",
-      "date": "Wed, 14 Oct 2026 17:16:23 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Sandro Mamukelashvili Has Close Relationship With Hip-Hop Icon Flavor Flav - Lakers Nation",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQZ1ItdGdKMnRXYjhnOU5fcDFHa1dOeTNobFRXbG5xdURLMXUtUE1VZDdkRGtiMjhqSTNhZU12d3RuZnk5VnZIQl9QVWkxUExidENXSVFEcFUtSHFDMGhtcW8yN0tCbE1WVi1hdWZtdlduc0pPQ1NhWFY1RGhlZTNYSjNISVhWcERHdnQteklNYXJNeGkxZUxWRkxGbl9oZlkzckE?oc=5\" target=\"_blank\">Sandro Mamukelashvili Has Close Relationship With Hip-Hop Icon Flavor Flav</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lakers Nation</font>",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZ1ItdGdKMnRXYjhnOU5fcDFHa1dOeTNobFRXbG5xdURLMXUtUE1VZDdkRGtiMjhqSTNhZU12d3RuZnk5VnZIQl9QVWkxUExidENXSVFEcFUtSHFDMGhtcW8yN0tCbE1WVi1hdWZtdlduc0pPQ1NhWFY1RGhlZTNYSjNISVhWcERHdnQteklNYXJNeGkxZUxWRkxGbl9oZlkzckE?oc=5",
-      "date": "Wed, 14 Oct 2026 17:15:59 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
       "title": "Summer Walker Sues Label and Management for Fraud",
       "description": "Walker, who is facing her own $50 million lawsuit from Interscope, accuses LVRN of fraud and breach of contract",
       "url": "https://pitchfork.com/story/summer-walker-sues-label-and-management-for-fraud/",
       "date": "Wed, 14 Oct 2026 17:09:49 +0000",
       "source": "Pitchfork"
-    },
-    {
-      "title": "YouTube Music Adds New Labels For AI-Generated Content - Engadget",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQdFV4Yk80Um5UV1FZcmxxb2RjWmFVQ1BpQzdnRG9BMEVSNnU1amgwNjlBbmx6Vk9lNDlrbDZPcEZYekxlZ3pRUkQwTU1OTTlPYV9qU21SVVQzcFA1bkdMUndVMnRFeTRBMWlnQU9oczgzN0pLUjBmU1IxcDlnZnM2M1BLTVNCR0dKbjRWMzlrdUpYUQ?oc=5\" target=\"_blank\">YouTube Music Adds New Labels For AI-Generated Content</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Engadget</font>",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdFV4Yk80Um5UV1FZcmxxb2RjWmFVQ1BpQzdnRG9BMEVSNnU1amgwNjlBbmx6Vk9lNDlrbDZPcEZYekxlZ3pRUkQwTU1OTTlPYV9qU21SVVQzcFA1bkdMUndVMnRFeTRBMWlnQU9oczgzN0pLUjBmU1IxcDlnZnM2M1BLTVNCR0dKbjRWMzlrdUpYUQ?oc=5",
-      "date": "Wed, 14 Oct 2026 17:01:12 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "Tank, Mýa, Eric Benét & More to Perform on Rock The Bells’ Inaugural ‘I Need Luv Cruise’ - Rated R&B",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9mZzRWb29tMTdNRnZIeW1pbHQ4bGhqTVc4Rld6b0tlUWRGVnk4Q1loMGZpcUQ1b25yZWk2ZVpMcHJISmstT0pHbnlHcFBtOGVMVE1IbFpYTlB4cm9iNThYMUZxZThDUmNGSExhQ1A3Q3lvTkFyVlM4Vw?oc=5\" target=\"_blank\">Tank, Mýa, Eric Benét & More to Perform on Rock The Bells’ Inaugural ‘I Need Luv Cruise’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rated R&B</font>",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9mZzRWb29tMTdNRnZIeW1pbHQ4bGhqTVc4Rld6b0tlUWRGVnk4Q1loMGZpcUQ1b25yZWk2ZVpMcHJISmstT0pHbnlHcFBtOGVMVE1IbFpYTlB4cm9iNThYMUZxZThDUmNGSExhQ1A3Q3lvTkFyVlM4Vw?oc=5",
-      "date": "Wed, 14 Oct 2026 16:53:43 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "Phoenix Symphony forced to cancel hip-hop concert. Here's what we know - azcentral.com and The Arizona Republic",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOE8tY2pwTzB5Yi1PSFB3ZjFUb09tUWNEdFVVbWpiRXdEMHRSZWhWckFMbUdqQ24xaUVVdEFVWjBSZXU0Q0g2dmtVRFdwYU42dWJGQzVJci1vSDVLUk1MUkMwY2ZKMmh2V1JzeDZjUXlwT1RKdm1zaFpaSGxpOXI0d1RyZzBGdUU5dmZDbVctYThRQVZMZkFyVHNqeUgtR2l3a3VYblNzd3RpQ3RpTXR3dXhkSnZHRV9QSHFLMWozTnhlS0g5X25xd0ZKdVpfNkluak53?oc=5\" target=\"_blank\">Phoenix Symphony forced to cancel hip-hop concert. Here's what we know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">azcentral.com and The Arizona Republic</font>",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOE8tY2pwTzB5Yi1PSFB3ZjFUb09tUWNEdFVVbWpiRXdEMHRSZWhWckFMbUdqQ24xaUVVdEFVWjBSZXU0Q0g2dmtVRFdwYU42dWJGQzVJci1vSDVLUk1MUkMwY2ZKMmh2V1JzeDZjUXlwT1RKdm1zaFpaSGxpOXI0d1RyZzBGdUU5dmZDbVctYThRQVZMZkFyVHNqeUgtR2l3a3VYblNzd3RpQ3RpTXR3dXhkSnZHRV9QSHFLMWozTnhlS0g5X25xd0ZKdVpfNkluak53?oc=5",
-      "date": "Wed, 14 Oct 2026 16:36:00 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Drake sets record for most No. 1 R&B/hip-hop albums - The Beat 92.5",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNSjJYVkN4cXB5a3llSkFxQ05zT2VhbVhmRjhvcEhiUi1ta2dWQlF3azhmeENTUnM5RWFGSk1tWW5uZjJYUGF1dmhzTnFieGNaa0Q5bTAwMFhFVG10U2FmZVhlSGRhR3d4UDZzc3FDM0JhNnByWkZQbTAxTmlwTmtHLTRicTBWcFNaVFVCRGl1SGMzZw?oc=5\" target=\"_blank\">Drake sets record for most No. 1 R&B/hip-hop albums</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Beat 92.5</font>",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSjJYVkN4cXB5a3llSkFxQ05zT2VhbVhmRjhvcEhiUi1ta2dWQlF3azhmeENTUnM5RWFGSk1tWW5uZjJYUGF1dmhzTnFieGNaa0Q5bTAwMFhFVG10U2FmZVhlSGRhR3d4UDZzc3FDM0JhNnByWkZQbTAxTmlwTmtHLTRicTBWcFNaVFVCRGl1SGMzZw?oc=5",
-      "date": "Wed, 14 Oct 2026 16:36:00 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Tank Sets New Adult R&B Airplay Record: ‘Being No. 1 … Is Just Something Different’ - Billboard",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS1Z4T3RVTGVMRHVQUU1tZ0dIVGxnejJHenNXS2w5ZTJDVkNMbzZlSE5qcTFWcDQ0ZVIwcVRRdTE4NXprTUREQXhQTzFURFZDM3FGMHRiV0Y1VENOYkNDTzlWNVlIRnQ3YWVXYVVISHVlZy1XRllhT1FMZDJzSUFNNklVYThzT1ZESWZzRnFqSTBqSW0xTU1GNUR5Vy1Dck5EdkVtNS1HaGFndw?oc=5\" target=\"_blank\">Tank Sets New Adult R&B Airplay Record: ‘Being No. 1 … Is Just Something Different’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Billboard</font>",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS1Z4T3RVTGVMRHVQUU1tZ0dIVGxnejJHenNXS2w5ZTJDVkNMbzZlSE5qcTFWcDQ0ZVIwcVRRdTE4NXprTUREQXhQTzFURFZDM3FGMHRiV0Y1VENOYkNDTzlWNVlIRnQ3YWVXYVVISHVlZy1XRllhT1FMZDJzSUFNNklVYThzT1ZESWZzRnFqSTBqSW0xTU1GNUR5Vy1Dck5EdkVtNS1HaGFndw?oc=5",
-      "date": "Wed, 14 Oct 2026 16:28:17 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "Tank Sets New Adult R&B Airplay Record: ‘Being No. 1 … Is Just Something Different’ - Yahoo",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPV1lZM0lSQUFHUU9VaVZwdWtrVXFzTjI5RFZRR0IzZTd1OEpoUkZTZjJfT0pGMlBzbVFmTlNpNjEtNnRYRFp4Y3NORjRfc29ub3ZoMkJZV0NMWV9BVVBYQVFxbzlZQ2hQUjZZVkxEQkUteUVKSVZ0eEI5SHBNRnFBbDU1OGdCMEJXYWFRT2dR?oc=5\" target=\"_blank\">Tank Sets New Adult R&B Airplay Record: ‘Being No. 1 … Is Just Something Different’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo</font>",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPV1lZM0lSQUFHUU9VaVZwdWtrVXFzTjI5RFZRR0IzZTd1OEpoUkZTZjJfT0pGMlBzbVFmTlNpNjEtNnRYRFp4Y3NORjRfc29ub3ZoMkJZV0NMWV9BVVBYQVFxbzlZQ2hQUjZZVkxEQkUteUVKSVZ0eEI5SHBNRnFBbDU1OGdCMEJXYWFRT2dR?oc=5",
-      "date": "Wed, 14 Oct 2026 16:26:29 GMT",
-      "source": "Google News — R&B"
     },
     {
       "title": "Universal Music Group Hit With Layoffs, Several Senior Execs to Leave Company",
@@ -439,144 +152,11 @@
       "source": "Variety — Music"
     },
     {
-      "title": "Drake Makes Billboard History With 18th No. 1 R&B/Hip-Hop Album - Rolling Stone Canada",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQYmEtSG00TXJMTXlvczhhQVEtMjhMWE1TZmJIekQyazA2ck5iVkg2UDRZNURjRDBYNWcwTkpRYlc0V01ZaEFOTHNhT1VEd0E1QzdxRmNHNkkwQnlsNlZxeXJMa1RKRWdWZ2U2RmZrcHRoTnNvcUF6cnNUdVBjTndVUg?oc=5\" target=\"_blank\">Drake Makes Billboard History With 18th No. 1 R&B/Hip-Hop Album</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rolling Stone Canada</font>",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYmEtSG00TXJMTXlvczhhQVEtMjhMWE1TZmJIekQyazA2ck5iVkg2UDRZNURjRDBYNWcwTkpRYlc0V01ZaEFOTHNhT1VEd0E1QzdxRmNHNkkwQnlsNlZxeXJMa1RKRWdWZ2U2RmZrcHRoTnNvcUF6cnNUdVBjTndVUg?oc=5",
-      "date": "Wed, 14 Oct 2026 16:09:58 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "UJAM Introduces Beatmaker BOUNCE and Usynth BOUNCE for Y2K-Inspired R&B, Hip-Hop, and Club Music - Mixonline",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxOemdYcGlqemJFNF9FTDYtYkJKQU1NZEkwTElINzI4cWRmNE05b2NVaDVHNlNCYmFKcnM2cVAzUTBXWkVfQmFMbGZSdTVWUEJNT1dQQS1Ob3F0YzdKMFozcDNOZzNwdWNza2FtUjZoQ0lqUmhHRUh2Z0lPTlgwaENSNVJKaVBpcVN4VFRWLUE2Z0hWcW1jRndzdllvbkN0TDNfX2VOMmJhcHYxcVExNjI4WDg5RWZYclFtZmpQWnJjRTZrS3JVSTdv?oc=5\" target=\"_blank\">UJAM Introduces Beatmaker BOUNCE and Usynth BOUNCE for Y2K-Inspired R&B, Hip-Hop, and Club Music</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mixonline</font>",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOemdYcGlqemJFNF9FTDYtYkJKQU1NZEkwTElINzI4cWRmNE05b2NVaDVHNlNCYmFKcnM2cVAzUTBXWkVfQmFMbGZSdTVWUEJNT1dQQS1Ob3F0YzdKMFozcDNOZzNwdWNza2FtUjZoQ0lqUmhHRUh2Z0lPTlgwaENSNVJKaVBpcVN4VFRWLUE2Z0hWcW1jRndzdllvbkN0TDNfX2VOMmJhcHYxcVExNjI4WDg5RWZYclFtZmpQWnJjRTZrS3JVSTdv?oc=5",
-      "date": "Wed, 14 Oct 2026 16:04:36 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "UM Music Ed Student a First for New Statewide Partnership - University of Montana",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLZVNrUW9VQUdWdWFHZW5YYTNNR0t5VGpGRm5xOUZOZkJXSFMxSHNTOWYzX0dpdTk5WktYc3Q2dFoxMjBtSmN2U2NtNGE1Vy1LQkd4QlBiWmRFLWM?oc=5\" target=\"_blank\">UM Music Ed Student a First for New Statewide Partnership</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Montana</font>",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLZVNrUW9VQUdWdWFHZW5YYTNNR0t5VGpGRm5xOUZOZkJXSFMxSHNTOWYzX0dpdTk5WktYc3Q2dFoxMjBtSmN2U2NtNGE1Vy1LQkd4QlBiWmRFLWM?oc=5",
-      "date": "Wed, 14 Oct 2026 15:43:04 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "Why This R&B Legend Believes That Lady Gaga Is a ‘Culture Vulture’ - VICE",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQeF8wZWFxX09xR0ZxeUNGc0JsaG00bzQxN2o4ZldFdGVqbjd1aU1xbW05Skg1ZERldGthWEdBVEkyMHdsNW5qMTNjLVc3WEJLZnZNUWFTdF9CLXBPbXpVZmxnSXdWaDJlZ0xGZ0dpZ3UzTkp4clk0VldzTGJnb05qWlVEM2VWQThmbmtBM2l4d0JWX2ttSktjWFNBY2o?oc=5\" target=\"_blank\">Why This R&B Legend Believes That Lady Gaga Is a ‘Culture Vulture’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VICE</font>",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeF8wZWFxX09xR0ZxeUNGc0JsaG00bzQxN2o4ZldFdGVqbjd1aU1xbW05Skg1ZERldGthWEdBVEkyMHdsNW5qMTNjLVc3WEJLZnZNUWFTdF9CLXBPbXpVZmxnSXdWaDJlZ0xGZ0dpZ3UzTkp4clk0VldzTGJnb05qWlVEM2VWQThmbmtBM2l4d0JWX2ttSktjWFNBY2o?oc=5",
-      "date": "Wed, 14 Oct 2026 15:31:01 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "Does Hip Hop Music In 2026 Give You That Feel,Is There A Disconnect Within The Music - YouTube",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE5DRG1IUzNBVndXNWJmaVFLaUg4NjlEbkdUQlp4c0pzTE9zSWlnVnVFZFhpalJYUmYwVmJVYmlBTVNka09VV1U2eEdHNHowUjVxamQ3dzZDMXF3QXY4?oc=5\" target=\"_blank\">Does Hip Hop Music In 2026 Give You That Feel,Is There A Disconnect Within The Music</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YouTube</font>",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5DRG1IUzNBVndXNWJmaVFLaUg4NjlEbkdUQlp4c0pzTE9zSWlnVnVFZFhpalJYUmYwVmJVYmlBTVNka09VV1U2eEdHNHowUjVxamQ3dzZDMXF3QXY4?oc=5",
-      "date": "Wed, 14 Oct 2026 15:28:23 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Slash Reveals Guns N’ Roses’ Big Plan for 2027: New Music Over More Touring - 102.9 WMGK",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQU28tZjBaMlVjTngwc3hzUmlVMzI3SVBqMTdwMnZwU0xBelBHMWZPcGIzanU4Q3BCSzhVQksxN1JLNnZFeDFhMzFueXhldGZZd0xWVVlXbmJZSDhaTC1HbTZYWDhtTUFXVFFQOFNpcm10clZvd3RFbEJzX0YwQ2RJLXhYWmdOWkhPUUZwQ20wVE1SVmFVdG5SYlc3R1VrRGxqbGhr?oc=5\" target=\"_blank\">Slash Reveals Guns N’ Roses’ Big Plan for 2027: New Music Over More Touring</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">102.9 WMGK</font>",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU28tZjBaMlVjTngwc3hzUmlVMzI3SVBqMTdwMnZwU0xBelBHMWZPcGIzanU4Q3BCSzhVQksxN1JLNnZFeDFhMzFueXhldGZZd0xWVVlXbmJZSDhaTC1HbTZYWDhtTUFXVFFQOFNpcm10clZvd3RFbEJzX0YwQ2RJLXhYWmdOWkhPUUZwQ20wVE1SVmFVdG5SYlc3R1VrRGxqbGhr?oc=5",
-      "date": "Wed, 14 Oct 2026 15:25:55 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "Why some Usher & Chris Brown tour dates were canceled abruptly - FOX19 | Cincinnati",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQb2ZSRmw1blBtSlFsc1NVOWdYcnpwZFJHSExlRVR3Vkx6NnoyVFZhZjNVRGJpRmpfWmFwU0gyMFBTenNBSGdQXzdpaXpLZ1dtcjdxbWlVZ1JFOUpmNnU5QTFqLWZ3amI5M0RIaGk2Q1JjT3JBUGpkVHVLclVxMGZtQkxOYkkxMktwTnZSa3FKcGZFSl9NZFFSYzJn?oc=5\" target=\"_blank\">Why some Usher & Chris Brown tour dates were canceled abruptly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX19 | Cincinnati</font>",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb2ZSRmw1blBtSlFsc1NVOWdYcnpwZFJHSExlRVR3Vkx6NnoyVFZhZjNVRGJpRmpfWmFwU0gyMFBTenNBSGdQXzdpaXpLZ1dtcjdxbWlVZ1JFOUpmNnU5QTFqLWZ3amI5M0RIaGk2Q1JjT3JBUGpkVHVLclVxMGZtQkxOYkkxMktwTnZSa3FKcGZFSl9NZFFSYzJn?oc=5",
-      "date": "Wed, 14 Oct 2026 15:15:00 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "Watch Trev Lukather and Levara's New 'Underneath It All' Video - Ultimate Classic Rock",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE1oVm82RVpPMXNmZ3U0TEVaTS1qdFdVSFNuVXpkcnk2RmxEZkZSWDVDeFZmMnZQYk9rTEY3Q2VERHhfODJ6eWhkeW8weUNRQmh1RmNFdjBqQ25CWnQ4MmJJdTlNQU9qV1V5c09jeWd4R2lsX2ZpQTJ4M0hMMl8xQQ?oc=5\" target=\"_blank\">Watch Trev Lukather and Levara's New 'Underneath It All' Video</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ultimate Classic Rock</font>",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1oVm82RVpPMXNmZ3U0TEVaTS1qdFdVSFNuVXpkcnk2RmxEZkZSWDVDeFZmMnZQYk9rTEY3Q2VERHhfODJ6eWhkeW8weUNRQmh1RmNFdjBqQ25CWnQ4MmJJdTlNQU9qV1V5c09jeWd4R2lsX2ZpQTJ4M0hMMl8xQQ?oc=5",
-      "date": "Wed, 14 Oct 2026 15:11:59 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "YouTube Music adds new labels for AI music - YouTube Official Blog",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE1PbHpyRUp2ZWhpMVJHQmt0V2FaenBJWUdOd0drX3dNRHcxcDNFUVhUblFaVkQ2R0RtR183bk9salktQzN3YU1kUk05MmVFaFZsQ0JhLThXbXNCdlpMZzdtS0VuWFdnYkU5TjAtZzF3?oc=5\" target=\"_blank\">YouTube Music adds new labels for AI music</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YouTube Official Blog</font>",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1PbHpyRUp2ZWhpMVJHQmt0V2FaenBJWUdOd0drX3dNRHcxcDNFUVhUblFaVkQ2R0RtR183bk9salktQzN3YU1kUk05MmVFaFZsQ0JhLThXbXNCdlpMZzdtS0VuWFdnYkU5TjAtZzF3?oc=5",
-      "date": "Wed, 14 Oct 2026 14:47:33 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "SIRPREME & Duka – “One&Done” Blends R&B and Soul - Bong Mines Entertainment",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1RWHVFYU5RZmJueFYzUExLbVpZMDhfc0o1SWg4MkNCZm1vMXlsM0ZMeEEteEpFOEVmWXhURHowSG04R3d1SU5jLTNDYnprekV0ZTlnZjlJRmJBejBhQlVWU0xBbTVOVGJnRWtKdVRnWQ?oc=5\" target=\"_blank\">SIRPREME & Duka – “One&Done” Blends R&B and Soul</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bong Mines Entertainment</font>",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RWHVFYU5RZmJueFYzUExLbVpZMDhfc0o1SWg4MkNCZm1vMXlsM0ZMeEEteEpFOEVmWXhURHowSG04R3d1SU5jLTNDYnprekV0ZTlnZjlJRmJBejBhQlVWU0xBbTVOVGJnRWtKdVRnWQ?oc=5",
-      "date": "Wed, 14 Oct 2026 14:47:09 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "WATCH: Staind Release Music Video for New Single “Ghosts” - The Rock Revival",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNY24tWXdERW1uYTB3QlQzdXFjakF5T2htVmRheUk1VVNqTk9zY0RtX296UklkN0JCZER1QVlMcVVnWFNOR21GTE14V2h3aVpqYzZRclU5anAxamVweDUwMUcyN1EtUlVmRXZtT1BCZlpoekhFYkNVWllyZTlzalAtT0JYc0RyZWlZa2JhTlAweUpuZ29KWkEw?oc=5\" target=\"_blank\">WATCH: Staind Release Music Video for New Single “Ghosts”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Rock Revival</font>",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNY24tWXdERW1uYTB3QlQzdXFjakF5T2htVmRheUk1VVNqTk9zY0RtX296UklkN0JCZER1QVlMcVVnWFNOR21GTE14V2h3aVpqYzZRclU5anAxamVweDUwMUcyN1EtUlVmRXZtT1BCZlpoekhFYkNVWllyZTlzalAtT0JYc0RyZWlZa2JhTlAweUpuZ29KWkEw?oc=5",
-      "date": "Wed, 14 Oct 2026 14:42:57 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "R&B Singer Nearly Dies After Heart Attack on Stage, Gets Cleared to Perform Again Days Later - VICE",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQak0tWlNIMFlOVWpQVWNWTlV2dUZWLVR2bWlKTnd6anFfYVdiUVc0TUxucmhzVS04a0lHY2lNQW5PNHJ4ZXFJUzVJV1RrTmtkS3JUV25DcUJqNi1xM05WZkRSbjlROXI0dFFBdHVhaC1TWGpsNmxpZXJpOEgxaDBHR3VMWE9Bb3ZjUXR0X1dfdXAxcWJrUE93Q0IzRUYyOGY4QnlScHhmTEFCZUIzUmd3OGJrdXMtOEwwWUpoQkFIVUQ?oc=5\" target=\"_blank\">R&B Singer Nearly Dies After Heart Attack on Stage, Gets Cleared to Perform Again Days Later</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VICE</font>",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQak0tWlNIMFlOVWpQVWNWTlV2dUZWLVR2bWlKTnd6anFfYVdiUVc0TUxucmhzVS04a0lHY2lNQW5PNHJ4ZXFJUzVJV1RrTmtkS3JUV25DcUJqNi1xM05WZkRSbjlROXI0dFFBdHVhaC1TWGpsNmxpZXJpOEgxaDBHR3VMWE9Bb3ZjUXR0X1dfdXAxcWJrUE93Q0IzRUYyOGY4QnlScHhmTEFCZUIzUmd3OGJrdXMtOEwwWUpoQkFIVUQ?oc=5",
-      "date": "Wed, 14 Oct 2026 14:31:34 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "Summer Walker Wants Out Of LVRN Deal, Accuses Label Of Financial Misconduct - Hip-Hop Wired",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYUpjUTRPX0tub29OZEpVNjJkSkRUTzJJWlhRZDM1R0VQdE1MVDFhWXNNdDNMT1B4RjNOWG5SQ1JTTUM5SndpUGloaTlvR1E1UHpZRm8tdzdmTEM1bXdBZUVsTC12bk8xT3RHQ3I2eUVXV0JLUWVfRklNbUZGdWlBZExFMXJwLWdVVlZrVnBvNTVOTTQ5bDlELXN6OWZtMDlZV21yekhjOWVNOWs?oc=5\" target=\"_blank\">Summer Walker Wants Out Of LVRN Deal, Accuses Label Of Financial Misconduct</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hip-Hop Wired</font>",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYUpjUTRPX0tub29OZEpVNjJkSkRUTzJJWlhRZDM1R0VQdE1MVDFhWXNNdDNMT1B4RjNOWG5SQ1JTTUM5SndpUGloaTlvR1E1UHpZRm8tdzdmTEM1bXdBZUVsTC12bk8xT3RHQ3I2eUVXV0JLUWVfRklNbUZGdWlBZExFMXJwLWdVVlZrVnBvNTVOTTQ5bDlELXN6OWZtMDlZV21yekhjOWVNOWs?oc=5",
-      "date": "Wed, 14 Oct 2026 14:21:37 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
       "title": "Big Thief Launch Free Concert Archive",
       "description": "The Big Thief Live Archive includes 10 fully mixed shows, with plans to add new sets each month",
       "url": "https://pitchfork.com/story/big-thief-launch-free-concert-archive/",
       "date": "Wed, 14 Oct 2026 14:10:23 +0000",
       "source": "Pitchfork"
-    },
-    {
-      "title": "How Palestinian Rapper MC Abdul Rose from Gaza’s Refugee Camps to the World Stage - KQED",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa3lyOVFoU2RfSVd3YnYzdGVsMDRiTy1xZGRMUmxNRXBBNmJ1UE9pSXk0cDFSaVpJY05XQWNCRkF0WnNCYXBITzlrb3NISjZ2RmVtbDJQUDJhQ21Ra0tUc3phVXFyNXFpbG1sa2lyQU1FdGVjb0ZJRnliSDRtVzV1a0txZkw5b204Ykd4d2xXT1FxdmFQVHEwSWYwT3lVMHJ5QXllWDBqSmRIQQ?oc=5\" target=\"_blank\">How Palestinian Rapper MC Abdul Rose from Gaza’s Refugee Camps to the World Stage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KQED</font>",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa3lyOVFoU2RfSVd3YnYzdGVsMDRiTy1xZGRMUmxNRXBBNmJ1UE9pSXk0cDFSaVpJY05XQWNCRkF0WnNCYXBITzlrb3NISjZ2RmVtbDJQUDJhQ21Ra0tUc3phVXFyNXFpbG1sa2lyQU1FdGVjb0ZJRnliSDRtVzV1a0txZkw5b204Ykd4d2xXT1FxdmFQVHEwSWYwT3lVMHJ5QXllWDBqSmRIQQ?oc=5",
-      "date": "Wed, 14 Oct 2026 14:00:00 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Album Reviews: Six New Records From Vermont Artists - Seven Days Vermont",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNLVhjS0RET2daaXlDMldlYmJQcktmRGoxa3o0NWVFTE1DWllXLXdGY25MNkk1bXl2c2NrX01kSmRlRndXMTI2bXRQSjFqaHNVblBCQ0ZRRGd3TFlrWGp3Um1uMDF6bGtyVlNEUnhPZlRnd3RWaXY2bDRKdTE3Y2dTWmRQNzVOdlpzMWRIV2ZHZUQ4U1hQUEZxU1VB?oc=5\" target=\"_blank\">Album Reviews: Six New Records From Vermont Artists</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seven Days Vermont</font>",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLVhjS0RET2daaXlDMldlYmJQcktmRGoxa3o0NWVFTE1DWllXLXdGY25MNkk1bXl2c2NrX01kSmRlRndXMTI2bXRQSjFqaHNVblBCQ0ZRRGd3TFlrWGp3Um1uMDF6bGtyVlNEUnhPZlRnd3RWaXY2bDRKdTE3Y2dTWmRQNzVOdlpzMWRIV2ZHZUQ4U1hQUEZxU1VB?oc=5",
-      "date": "Wed, 14 Oct 2026 13:33:00 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "Tems Says Her Second Album Is ‘More R&B Leaning’ and ‘Melancholic’ - DancehallMag",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNNlZldXhiU0R0blFvYVowUXpMQm5CV010S0hPTFMzVjQ1TnVHMUxpMEstVi1vREk0VkRaTmhXd1pSQmFfWE9wSjhJUHZhcW5rT1d4dDlCeXl6M1VhZXd6SUE4MGZ5dnJURWNTdkNiMEJTZnNfblJkMXlWSEJrVkNCU1lBcTdZZnRTOEhSSXpJLUhxTDlhNFpJZVFwN0w5REFnSldnU1YtdkRKZXJrT2JTNw?oc=5\" target=\"_blank\">Tems Says Her Second Album Is ‘More R&B Leaning’ and ‘Melancholic’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DancehallMag</font>",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNlZldXhiU0R0blFvYVowUXpMQm5CV010S0hPTFMzVjQ1TnVHMUxpMEstVi1vREk0VkRaTmhXd1pSQmFfWE9wSjhJUHZhcW5rT1d4dDlCeXl6M1VhZXd6SUE4MGZ5dnJURWNTdkNiMEJTZnNfblJkMXlWSEJrVkNCU1lBcTdZZnRTOEhSSXpJLUhxTDlhNFpJZVFwN0w5REFnSldnU1YtdkRKZXJrT2JTNw?oc=5",
-      "date": "Wed, 14 Oct 2026 13:19:55 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "Today In Hip Hop History: LL Cool J Dropped His 7th LP ‘Phenomenon’ 29 Years Ago - The Source Magazine",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQVmZlYUptUTd5VmZxdlRWc2Q1cHlHVjZpc3Q2UHl2M3k0NHdCekxhSjNTaXFBYWtUMjBoUjRIblFiU0s1eUhuenNSSjdCSUZnb2FOS3JlbU5rS0g1dlo2VzJPandyNk4zV1gybTZDZ3lIN2FvRTlWcEhFWGNDNlJzNHdHNGFxWUdkNFFxc3o2WUxnVTd5Vi1aeE54b01VWkUzekRnYWtTcUpOUDVLVmdWbQ?oc=5\" target=\"_blank\">Today In Hip Hop History: LL Cool J Dropped His 7th LP ‘Phenomenon’ 29 Years Ago</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Source Magazine</font>",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVmZlYUptUTd5VmZxdlRWc2Q1cHlHVjZpc3Q2UHl2M3k0NHdCekxhSjNTaXFBYWtUMjBoUjRIblFiU0s1eUhuenNSSjdCSUZnb2FOS3JlbU5rS0g1dlo2VzJPandyNk4zV1gybTZDZ3lIN2FvRTlWcEhFWGNDNlJzNHdHNGFxWUdkNFFxc3o2WUxnVTd5Vi1aeE54b01VWkUzekRnYWtTcUpOUDVLVmdWbQ?oc=5",
-      "date": "Wed, 14 Oct 2026 13:19:45 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "GROTESQQQUE Anime Anthology Film Previews New Song “TERASE” in Collab Music Video - Crunchyroll",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQWjRvRnFSSmY2QnJ6eUwtSlVkbGpMUFlNNEZubGNyaXFMaDJqeW1sdW5OWUo0dFBtcUpnajEwdzlmdEs3blh3S2d5dkIyY3FGelA5UExxYjk0MTNzTE9ZWVJ6MloyRElwSW5lUTNkaThjMnFLRjUzZnF0RTVBeFNsSWhEdzlhUDNiaUlYaTBHYlZ0b1ZYMHhyQ0FtYXM0ektjcUt4Y3ZwTXczcTREZHZvNGJ4U21iNFloeXNtTE5YOVBoR1NBTk4xelZR?oc=5\" target=\"_blank\">GROTESQQQUE Anime Anthology Film Previews New Song “TERASE” in Collab Music Video</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crunchyroll</font>",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWjRvRnFSSmY2QnJ6eUwtSlVkbGpMUFlNNEZubGNyaXFMaDJqeW1sdW5OWUo0dFBtcUpnajEwdzlmdEs3blh3S2d5dkIyY3FGelA5UExxYjk0MTNzTE9ZWVJ6MloyRElwSW5lUTNkaThjMnFLRjUzZnF0RTVBeFNsSWhEdzlhUDNiaUlYaTBHYlZ0b1ZYMHhyQ0FtYXM0ektjcUt4Y3ZwTXczcTREZHZvNGJ4U21iNFloeXNtTE5YOVBoR1NBTk4xelZR?oc=5",
-      "date": "Wed, 14 Oct 2026 13:16:00 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "MARTY FRIEDMAN: 'I Have Been Writing New Music For The Next Album' - BLABBERMOUTH.NET",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQaF9jQm5aWFRFeUlUQVVrTmh2RU1SMW1aU0dTRmhCUUpkMUtETDZDamdjdGFIaFUzclVKQ2VzMUhNQXNUTm5aZGlJRE9KYzE3NVl4MXlLZkV5UFFiTVRtMThQbTVvNGdUajNYSFdPZHo3aThiR0o1bzdJbjI4ZjRWeGVTLW1scXpyZGQ1TGtEWjk4MUJFVU9lQQ?oc=5\" target=\"_blank\">MARTY FRIEDMAN: 'I Have Been Writing New Music For The Next Album'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BLABBERMOUTH.NET</font>",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaF9jQm5aWFRFeUlUQVVrTmh2RU1SMW1aU0dTRmhCUUpkMUtETDZDamdjdGFIaFUzclVKQ2VzMUhNQXNUTm5aZGlJRE9KYzE3NVl4MXlLZkV5UFFiTVRtMThQbTVvNGdUajNYSFdPZHo3aThiR0o1bzdJbjI4ZjRWeGVTLW1scXpyZGQ1TGtEWjk4MUJFVU9lQQ?oc=5",
-      "date": "Wed, 14 Oct 2026 13:08:56 GMT",
-      "source": "Google News — New Music"
     },
     {
       "title": "Watch Cameron Winter at Carnegie Hall’s First Teaser Trailer",
@@ -586,55 +166,6 @@
       "source": "Pitchfork"
     },
     {
-      "title": "Sounds Local: New music keeps coming in the Pioneer Valley - Greenfield Recorder",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1pdklfZGExbk9vQ2ZKckljM29BNU52WG5jMDRJUEc0WEUwQTYybm5GUGpHYzFCb2ltZ0hsZGpxLV9tMThCYmpCZWF5aEpFNGZ2WF9GR2xpR2x6TWlETU1DcjNMNW90a0k4YnVHeGxuM292OGl0OVdabQ?oc=5\" target=\"_blank\">Sounds Local: New music keeps coming in the Pioneer Valley</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Greenfield Recorder</font>",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1pdklfZGExbk9vQ2ZKckljM29BNU52WG5jMDRJUEc0WEUwQTYybm5GUGpHYzFCb2ltZ0hsZGpxLV9tMThCYmpCZWF5aEpFNGZ2WF9GR2xpR2x6TWlETU1DcjNMNW90a0k4YnVHeGxuM292OGl0OVdabQ?oc=5",
-      "date": "Wed, 14 Oct 2026 13:00:00 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "Tank Makes History With 12th No. 1 on Adult R&B Airplay Charts - The Source Magazine",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQYXhCMUMwcUozVHZJMlh0bUF6SkNlSW1yMVltZ2hqa20yWkxud0NENGUweDRIY3lGOS1RbE45TkF6eXZwek9BclZZZ1gwZ2ZMSHhfaDZSZ3g0TlJCOF9iUmotSlN2WXcwb3d2dEd5SVJSaFUtejQyREdOc1pYNTlIV190ZWZVVXROeEE?oc=5\" target=\"_blank\">Tank Makes History With 12th No. 1 on Adult R&B Airplay Charts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Source Magazine</font>",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYXhCMUMwcUozVHZJMlh0bUF6SkNlSW1yMVltZ2hqa20yWkxud0NENGUweDRIY3lGOS1RbE45TkF6eXZwek9BclZZZ1gwZ2ZMSHhfaDZSZ3g0TlJCOF9iUmotSlN2WXcwb3d2dEd5SVJSaFUtejQyREdOc1pYNTlIV190ZWZVVXROeEE?oc=5",
-      "date": "Wed, 14 Oct 2026 11:29:56 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "Rapper Chuck D is coming to Delaware hip-hop summit at crucial time - Delawareonline.com",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcGhEOGluOVR0N1JVZjRJMHR3ajA0cHlpT3ZEVS1rNENINFM0S2Z4andfd2ZjMi1XUi1mWmNOMkNWMWRqRDZTcHdnQTRnZ1Boc3RZZDlSdlAtNnNIdjhfOHBvaENadVByYkFrcE8zdzI5czNCbUtVMjh0N19CbFRsdVlBTEtmdXViWXYtNXNDcnhlOVM5SE00bk9yOEplcTYtZkVWdV9FS1dCd0xIOEhqOVV6aVpKVlBqam5vVlgwRUttMzZscFRKUTlNOE1XTklP?oc=5\" target=\"_blank\">Rapper Chuck D is coming to Delaware hip-hop summit at crucial time</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Delawareonline.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcGhEOGluOVR0N1JVZjRJMHR3ajA0cHlpT3ZEVS1rNENINFM0S2Z4andfd2ZjMi1XUi1mWmNOMkNWMWRqRDZTcHdnQTRnZ1Boc3RZZDlSdlAtNnNIdjhfOHBvaENadVByYkFrcE8zdzI5czNCbUtVMjh0N19CbFRsdVlBTEtmdXViWXYtNXNDcnhlOVM5SE00bk9yOEplcTYtZkVWdV9FS1dCd0xIOEhqOVV6aVpKVlBqam5vVlgwRUttMzZscFRKUTlNOE1XTklP?oc=5",
-      "date": "Wed, 14 Oct 2026 10:47:00 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Acclaimed Writers Turn to Classical Music in New Novels - The New York Times",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ3VieUpYYk9xMkxSNktfU0t1Tm5GN2J6bHNxT05vLTl2RGk5ZDExSU9CZU5tWmV5TFVZd0FLVExXaDc1UFFvbGNWd1QzMlhvcjdRS0Y2S0xiTmhJRWZHX1VJNWFqQTdNejE5aXVTRW5tZGRGa0NSejhydXdOc3Mwb3Q2N2JMNWNNakpQODdScUdqQXZHMFFHOHhn?oc=5\" target=\"_blank\">Acclaimed Writers Turn to Classical Music in New Novels</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ3VieUpYYk9xMkxSNktfU0t1Tm5GN2J6bHNxT05vLTl2RGk5ZDExSU9CZU5tWmV5TFVZd0FLVExXaDc1UFFvbGNWd1QzMlhvcjdRS0Y2S0xiTmhJRWZHX1VJNWFqQTdNejE5aXVTRW5tZGRGa0NSejhydXdOc3Mwb3Q2N2JMNWNNakpQODdScUdqQXZHMFFHOHhn?oc=5",
-      "date": "Wed, 14 Oct 2026 09:00:45 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "Where Does Usher Live? A Look Inside the R&B Icon’s Multi-City Homes - AD Middle East",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNUEt3RG9WaTAzY1E4WW5xLWkwcWFqQWdCM19vc3VJdG1JNU1peFNrQmZwVHk4TW9Pa0hkUnEzODVwWUpqa2gycEkxVERQQXFCdGpnZlZ4dUdLZHBDMU1oSjRONFlVUi0tRVVHcVJRNVJsakxSUnQzUk5NS2FMaUFjdHBlZmxuVEpjSHNrem9aSURnZk9rTk9BTHA1VGdkcENWT0U5elpn?oc=5\" target=\"_blank\">Where Does Usher Live? A Look Inside the R&B Icon’s Multi-City Homes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AD Middle East</font>",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUEt3RG9WaTAzY1E4WW5xLWkwcWFqQWdCM19vc3VJdG1JNU1peFNrQmZwVHk4TW9Pa0hkUnEzODVwWUpqa2gycEkxVERQQXFCdGpnZlZ4dUdLZHBDMU1oSjRONFlVUi0tRVVHcVJRNVJsakxSUnQzUk5NS2FMaUFjdHBlZmxuVEpjSHNrem9aSURnZk9rTk9BTHA1VGdkcENWT0U5elpn?oc=5",
-      "date": "Wed, 14 Oct 2026 08:00:00 GMT",
-      "source": "Google News — R&B"
-    },
-    {
-      "title": "Forenzik Styles steps beyond hip hop on new album Paris In Winter - - Happy Mag",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTFBzSUlscGNWWDBTYW54NlBTcnoxQkJXckpXbHBYRTliODctRkgzMmVwV1pVQmxDMnFTdjF6XzFwbFRXUjRMaWxpc1R6WkFncjVlN0F4WmlodmNSMWU3eTdVT2pfcW1CdDdqa09VZG1qb1V1aHJsbDZwOG9TX1hEdw?oc=5\" target=\"_blank\">Forenzik Styles steps beyond hip hop on new album Paris In Winter -</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Happy Mag</font>",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBzSUlscGNWWDBTYW54NlBTcnoxQkJXckpXbHBYRTliODctRkgzMmVwV1pVQmxDMnFTdjF6XzFwbFRXUjRMaWxpc1R6WkFncjVlN0F4WmlodmNSMWU3eTdVT2pfcW1CdDdqa09VZG1qb1V1aHJsbDZwOG9TX1hEdw?oc=5",
-      "date": "Wed, 14 Oct 2026 06:31:17 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Majid Jordan on the Neo Trapsoul Tour: Dates & Tickets - Ones To Watch",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE1IRHdQWjVzYXBrV3BSY05CdGF1SHBWeDNPWjRwMG9zOXRDRnBDcXdGVFc5LU9nYko4a19TTDBoU3c4TTdlbXJQak5fM3kwbTFmanZsc3F4M1dVWVRnV1FjU1Z1MS1YSWpJMnFkdnlR?oc=5\" target=\"_blank\">Majid Jordan on the Neo Trapsoul Tour: Dates & Tickets</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ones To Watch</font>",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1IRHdQWjVzYXBrV3BSY05CdGF1SHBWeDNPWjRwMG9zOXRDRnBDcXdGVFc5LU9nYko4a19TTDBoU3c4TTdlbXJQak5fM3kwbTFmanZsc3F4M1dVWVRnV1FjU1Z1MS1YSWpJMnFkdnlR?oc=5",
-      "date": "Wed, 14 Oct 2026 05:13:24 GMT",
-      "source": "Google News — R&B"
-    },
-    {
       "title": "Kelly Clarkson vs. Art of Play: Footage Revealed of Singer’s Visit to Brooklyn Novelty Store She Slammed for ‘Pretty Woman’ Treatment",
       "description": "",
       "url": "https://variety.com/2026/music/news/kelly-clarkson-art-of-play-molly-bird-footage-revealed-1236910838/",
@@ -642,67 +173,445 @@
       "source": "Variety — Music"
     },
     {
-      "title": "50 Cent Says J. Cole ‘Paid the Most’ By Opting Out of Kendrick Lamar vs. Drake Battle: ‘It’s a Part of Hip-Hop Culture to Compete’ - Yahoo",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQNzBjbE9jQTFYTzdIQ0prNDFGVW5FRk9RcURRcENFLU90Y3EwbWFCRkZLVVlGVk91VWE4VjBSNy1TV0lYTXRjMXBWM1l4WC1TNngzVkFiQ3RPWHQxMDVZVXZJMzNUX0RmNWpiaW1xQ3dFanRlYlVMOWdjVVBNekhrVHNxbXlzYnJmdW9VWjVn?oc=5\" target=\"_blank\">50 Cent Says J. Cole ‘Paid the Most’ By Opting Out of Kendrick Lamar vs. Drake Battle: ‘It’s a Part of Hip-Hop Culture to Compete’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo</font>",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNzBjbE9jQTFYTzdIQ0prNDFGVW5FRk9RcURRcENFLU90Y3EwbWFCRkZLVVlGVk91VWE4VjBSNy1TV0lYTXRjMXBWM1l4WC1TNngzVkFiQ3RPWHQxMDVZVXZJMzNUX0RmNWpiaW1xQ3dFanRlYlVMOWdjVVBNekhrVHNxbXlzYnJmdW9VWjVn?oc=5",
-      "date": "Tue, 13 Oct 2026 23:57:59 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Using hip-hop to open up music across the spectrum - University of Miami News",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR0dTaFh5SkhVUTNHTkZwZWhLYmtFTWU3NkV1Mjk2Z3ZOcXU2S19mYWdyWU9JTXZEQXlHVFNNS3hrTXJNdHQ4TEFkMnFubWJ1QVo2LWtXeDFUc2luUkFVckQ1Vlp2X3hLVDZzeURjUWl2ck4xa1Foc3ZKVFRCalVQYW1mZGstczlucVBv?oc=5\" target=\"_blank\">Using hip-hop to open up music across the spectrum</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Miami News</font>",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR0dTaFh5SkhVUTNHTkZwZWhLYmtFTWU3NkV1Mjk2Z3ZOcXU2S19mYWdyWU9JTXZEQXlHVFNNS3hrTXJNdHQ4TEFkMnFubWJ1QVo2LWtXeDFUc2luUkFVckQ1Vlp2X3hLVDZzeURjUWl2ck4xa1Foc3ZKVFRCalVQYW1mZGstczlucVBv?oc=5",
-      "date": "Tue, 13 Oct 2026 23:28:40 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Norwegian hip-hop duo that brought the immigrant experience to the fore retires - The World from PRX",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNd2VZVUJhMDg1NjBIa1NISzRsYTRKUjJ3YXhSaFNxNHMwaTNuWTltQU5JaVpRV3p6WjQ3VTZGdnlQYUV2a295bkx3a2xwQXlrN0tLMFZuM2FvUGhDaU9ZU0RDMFBRaHNIYmFBZ3hnQzMxdWt4ZjJHWmJJX3hSNlhnWVFYVWg2N1FuOGlFRFVFcW9WQkJOM2ZrekVmaUZybE1GLU9mSWdUNzZkd2tyS1hUTjZWUEtnVm4tdUJ5Wg?oc=5\" target=\"_blank\">Norwegian hip-hop duo that brought the immigrant experience to the fore retires</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The World from PRX</font>",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd2VZVUJhMDg1NjBIa1NISzRsYTRKUjJ3YXhSaFNxNHMwaTNuWTltQU5JaVpRV3p6WjQ3VTZGdnlQYUV2a295bkx3a2xwQXlrN0tLMFZuM2FvUGhDaU9ZU0RDMFBRaHNIYmFBZ3hnQzMxdWt4ZjJHWmJJX3hSNlhnWVFYVWg2N1FuOGlFRFVFcW9WQkJOM2ZrekVmaUZybE1GLU9mSWdUNzZkd2tyS1hUTjZWUEtnVm4tdUJ5Wg?oc=5",
-      "date": "Tue, 13 Oct 2026 21:17:14 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "With ‘HABIBTI,’ Drake Sets New Record For Most No. 1 Albums on R&B/Hip-Hop Chart - Billboard",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPc3ZBc1RZOC0yOFU1OGRTbWo3ZU1ucWdTcW1BWGpkNmpDMmZ6NVNhQzlwWm8wZjdqekQ4YUhRQjRRVVV5cUtwWmhRLXlhNGZLYktDWlJWdkFOb1dTbmRwSVlxU0RrOVFnd19ORUZVc0lPYVNaWGJNWmYyWS02Tm9CTTJFODk1c3VOX2M5T2pMdjhlaktyeVFpdElQMF9Xampnekl5SmVJZHpkOXVVbk9xM0xmek8?oc=5\" target=\"_blank\">With ‘HABIBTI,’ Drake Sets New Record For Most No. 1 Albums on R&B/Hip-Hop Chart</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Billboard</font>",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc3ZBc1RZOC0yOFU1OGRTbWo3ZU1ucWdTcW1BWGpkNmpDMmZ6NVNhQzlwWm8wZjdqekQ4YUhRQjRRVVV5cUtwWmhRLXlhNGZLYktDWlJWdkFOb1dTbmRwSVlxU0RrOVFnd19ORUZVc0lPYVNaWGJNWmYyWS02Tm9CTTJFODk1c3VOX2M5T2pMdjhlaktyeVFpdElQMF9Xampnekl5SmVJZHpkOXVVbk9xM0xmek8?oc=5",
-      "date": "Tue, 13 Oct 2026 21:02:02 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Extended interview: Grandmaster Flash on the creation of hip-hop, his new book and more - CBS News",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPeXdMdzdPNm0zcXg4NEl4OXRGNklZcnJ6NWNTWndmektVSlU5UjdjX2laLVcwRmpoZmx3ZGtsSldNTFA2ZUlDbUt1ZmhnMVM0QXZiUDBxZmdjVkJodjhNTDVkaVJlcHBPVkhxaVZKNVBJYlB6VmRPMWliYktwRGNwc0lBbkRoSWJDajVZU3BjR05LT0ZSa1FhZHFPdGgyZnRSTFhUSGRJNTlKYThqYS1yaGRDY2xEMHM?oc=5\" target=\"_blank\">Extended interview: Grandmaster Flash on the creation of hip-hop, his new book and more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeXdMdzdPNm0zcXg4NEl4OXRGNklZcnJ6NWNTWndmektVSlU5UjdjX2laLVcwRmpoZmx3ZGtsSldNTFA2ZUlDbUt1ZmhnMVM0QXZiUDBxZmdjVkJodjhNTDVkaVJlcHBPVkhxaVZKNVBJYlB6VmRPMWliYktwRGNwc0lBbkRoSWJDajVZU3BjR05LT0ZSa1FhZHFPdGgyZnRSTFhUSGRJNTlKYThqYS1yaGRDY2xEMHM?oc=5",
-      "date": "Tue, 13 Oct 2026 20:55:00 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "18 Hip Hop Albums From The Late ’80s That Were All About Having Fun - Hip Hop Golden Age",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNd05YNmtxRVdfOWxjTnFMY2JTYmlBM3JqNVFheU9oUHN1NkxFTlYxbTFfeFRMMmFmSzY0YnNtUk5FYVg3Q0dMN1RwemtleTVHRTgydm9QR1dtX1NGTDhIMTFfM3U1N1ZaSHN1ZXpZX0xMTHZMWkZvUjRIakEzWDc0OU9GaGMtZHFpUmg5QXZGazh1LUx3Y1pubV9fWjdvaDJ2Q0E?oc=5\" target=\"_blank\">18 Hip Hop Albums From The Late ’80s That Were All About Having Fun</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hip Hop Golden Age</font>",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd05YNmtxRVdfOWxjTnFMY2JTYmlBM3JqNVFheU9oUHN1NkxFTlYxbTFfeFRMMmFmSzY0YnNtUk5FYVg3Q0dMN1RwemtleTVHRTgydm9QR1dtX1NGTDhIMTFfM3U1N1ZaSHN1ZXpZX0xMTHZMWkZvUjRIakEzWDc0OU9GaGMtZHFpUmg5QXZGazh1LUx3Y1pubV9fWjdvaDJ2Q0E?oc=5",
-      "date": "Tue, 13 Oct 2026 20:02:31 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Yes, Grimes' New Music Video Used AI — and Lots of Humans - Business Insider",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNN0phdXdCWkF1U3A4NlVaSGo3X0pobFpDUmwtVUdGREVxeHNSak1HQVAxOWs3U3NNeVRCRTI1cFk2LXFXUEhycl9PbVU2OGVKREFLczBKcVV2RG1LTU1EVHIwaXFnRXBIMU1zWG0yZzJaWFFoUU9SWnZhSmx4UjROS0ktRXlGcy1EdEh2NTN3?oc=5\" target=\"_blank\">Yes, Grimes' New Music Video Used AI — and Lots of Humans</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Insider</font>",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN0phdXdCWkF1U3A4NlVaSGo3X0pobFpDUmwtVUdGREVxeHNSak1HQVAxOWs3U3NNeVRCRTI1cFk2LXFXUEhycl9PbVU2OGVKREFLczBKcVV2RG1LTU1EVHIwaXFnRXBIMU1zWG0yZzJaWFFoUU9SWnZhSmx4UjROS0ktRXlGcy1EdEh2NTN3?oc=5",
-      "date": "Tue, 13 Oct 2026 19:49:00 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "Other Minds Festival Samples New Electronic Music - San Francisco Classical Voice",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxONXhXWjNsRXdSYUZiT2p2ekcxN1N1SktvbnhBSmxCY1VsVHl4ekZFVTdscTREazZoSWxJUDFWTFNLSTY3NlFfdlZhcndtSTV6NTB2aHFwUFdiMnU5clBseUtGS2RudGgwRXU2eUlkSW1GbkVXRHFwcy01VG1MeGpydFJQSEVUX1NoWXhpSkI4SQ?oc=5\" target=\"_blank\">Other Minds Festival Samples New Electronic Music</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">San Francisco Classical Voice</font>",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONXhXWjNsRXdSYUZiT2p2ekcxN1N1SktvbnhBSmxCY1VsVHl4ekZFVTdscTREazZoSWxJUDFWTFNLSTY3NlFfdlZhcndtSTV6NTB2aHFwUFdiMnU5clBseUtGS2RudGgwRXU2eUlkSW1GbkVXRHFwcy01VG1MeGpydFJQSEVUX1NoWXhpSkI4SQ?oc=5",
-      "date": "Tue, 13 Oct 2026 19:36:49 GMT",
-      "source": "Google News — New Music"
-    },
-    {
       "title": "Shygirl Lines Up 2027 Full-Band Tour",
       "description": "She’s also shared “Mantra,” another taste of her forthcoming album Swallow!",
       "url": "https://pitchfork.com/story/shygirl-lines-up-2027-full-band-tour/",
       "date": "Tue, 13 Oct 2026 19:14:13 +0000",
       "source": "Pitchfork"
+    },
+    {
+      "title": "Michael Stipe’s Debut Solo Album Almost Has a Release Date",
+      "description": "The lead single is dropping New Year’s Eve but you’ll have to wait until 2027 to hear the whole project",
+      "url": "https://pitchfork.com/story/michael-stipe-reveals-debut-solo-album-release-date/",
+      "date": "Tue, 13 Oct 2026 16:42:26 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "Doechii Revives Her “Swamp Sessions” Series With New Song “Bombs”",
+      "description": "“A mission is brewing inside of me,” the rapper wrote in a letter to fans, “to see Black Womanhood exist at the center of Hip-Hop AND Pop”",
+      "url": "https://pitchfork.com/story/doechii-revives-her-swamp-sessions-series-with-new-song-bombs/",
+      "date": "Mon, 12 Oct 2026 18:38:25 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "Fontaines D.C. Recruit Rosalía for New Song “Where Is Gone?”",
+      "description": "“She was keeping a Spanish tradition of music alive, which in a spiritual way felt akin to what we’ve tried to do with Irish music,” says the band’s Carlos O’Connell",
+      "url": "https://pitchfork.com/story/fontaines-dc-recruit-rosalia-for-new-song-where-is-gone/",
+      "date": "Mon, 12 Oct 2026 17:32:37 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "Charli XCX Brings Out Tinashe at Austin City Limits Festival",
+      "description": "The Popstar mastermind gave “Nobody Wanna Dance Anymore\" and “Melatonin” live debuts",
+      "url": "https://pitchfork.com/story/charli-xcx-brings-out-tinashe-at-austin-city-limits/",
+      "date": "Sun, 11 Oct 2026 16:30:44 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "Geordie Greep Shows Canceled Following Sexual Misconduct Allegation",
+      "description": "The singer, who has denied the allegation, is no longer performing in Boise, Salt Lake City, Boulder, Denver, and Omaha",
+      "url": "https://pitchfork.com/story/geordie-greep-shows-cancelled-following-sexual-misconduct-allegations/",
+      "date": "Sat, 10 Oct 2026 16:10:30 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "Willie Nelson, Yo La Tengo Endorse James Talarico",
+      "description": "YLT will play a benefit concert for the Texas Senate hopeful in Austin on October 27",
+      "url": "https://pitchfork.com/story/willie-nelson-yo-la-tengo-endorse-james-talarico/",
+      "date": "Fri, 09 Oct 2026 21:54:32 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "Remi Wolf Announces 2027 North America Tour",
+      "description": "The singer will hit New York, Los Angeles, Chicago, Toronto, and more",
+      "url": "https://pitchfork.com/story/remi-wolf-announces-north-america-tour/",
+      "date": "Fri, 09 Oct 2026 19:29:28 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "Alanis Morissette Made a Holiday Album",
+      "description": "This Christmas season, expect Good Weather for Immaculate Conception",
+      "url": "https://pitchfork.com/story/alanis-morissette-made-a-holiday-album/",
+      "date": "Fri, 09 Oct 2026 16:10:23 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "9 New Albums You Should Listen to Now: Cameron Winter, Deafheaven, Dawn Richard, and More",
+      "description": "Stream new releases from Cameron Winter, Deafheaven, Dawn Richard, Troye Sivan, and more",
+      "url": "https://pitchfork.com/story/9-new-albums-you-should-listen-to-now-cameron-winter-deafheaven-dawn-richard/",
+      "date": "Fri, 09 Oct 2026 14:11:08 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "Watch Slayyyter Rock a Raccoon Pelt in “I Think He’s Got a Girl” Video",
+      "description": "The next single from Wor$t Man in America comes with a video she directed herself",
+      "url": "https://pitchfork.com/story/slayyyter-i-think-hes-got-a-girl-video/",
+      "date": "Fri, 09 Oct 2026 04:39:53 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "Troye Sivan Shares His “Gayest Music Video” for “FF”",
+      "description": "“Like this is GAY gay,” the Aussie pop star said of the clip, which accompanies the release of his new album She’s the Best",
+      "url": "https://pitchfork.com/story/troye-sivan-shares-his-gayest-music-video-for-ff/",
+      "date": "Fri, 09 Oct 2026 04:20:34 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "Deafheaven Surprise Release New EP At Work in the Fields of the Bomb",
+      "description": "The three-tracker comes with a short film for “Hunter”",
+      "url": "https://pitchfork.com/story/deafheaven-surprise-release-new-ep-at-work-in-the-fields-of-the-bomb/",
+      "date": "Fri, 09 Oct 2026 04:11:14 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "Grimes Shares First Song From AI-Inspired Album Psy Opera",
+      "description": "The album promises to cover everything the singer “witnessed as a woman of history during her hiatus from pop music”",
+      "url": "https://pitchfork.com/story/grimes-shares-first-song-from-ai-inspired-album-psy-opera/",
+      "date": "Fri, 09 Oct 2026 04:08:07 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "Loretta Lynn’s Van Lear Rose Is Returning to Streaming",
+      "description": "Third Man will reissue Lynn’s 2004 comeback album, which was mysteriously pulled from DSPs in 2021",
+      "url": "https://pitchfork.com/story/loretta-lynns-van-lear-rose-is-returning-to-streaming/",
+      "date": "Thu, 08 Oct 2026 17:21:59 +0000",
+      "source": "Pitchfork"
+    },
+    {
+      "title": "Drake Reveals ‘Iceman’ Release Date After Epic Ice Structure Stunt",
+      "description": "The long wait for Drake‘s Iceman album will soon be over. The OVO Sound superstar has announced that his eagerly anticipated ninth LP — and first solo project since his high-profile rap battle with Kendrick Lamar — will be released on May 15. The release date was revealed on Tuesday (April 21) after fans successfully... The post Drake Reveals ‘Iceman’ Release Date After Epic Ice Structure Stunt appeared first on HipHopDX . ]]>",
+      "url": "https://hiphopdx.com/news/drake-iceman-release-date/",
+      "date": "Wed, 22 Apr 2026 07:58:51 +0000",
+      "source": "HipHopDX"
+    },
+    {
+      "title": "Drake Hides ‘Iceman’ Release Date In Huge Toronto Ice Structure",
+      "description": "Drake has ramped up his Iceman rollout in spectacular fashion by hiding the album’s release date in a huge ice structure in Toronto. On Monday (April 20), the Canadian hitmaker announced on Instagram that he had erected an enormous ice installation in the parking lot of the Bond Hotel in downtown Toronto housing the release... The post Drake Hides ‘Iceman’ Release Date In Huge Toronto Ice Structure appeared first on HipHopDX . ]]>",
+      "url": "https://hiphopdx.com/news/drake-iceman-release-date-ice-sculpture-toronto/",
+      "date": "Tue, 21 Apr 2026 09:20:15 +0000",
+      "source": "HipHopDX"
+    },
+    {
+      "title": "New Music Friday: Ludacris, 6LACK & 2 Chainz, Sexyy Red, Yasiin Bey & More",
+      "description": "There may be no major rap album this week, but there’s still plenty of great music worth checking out in this week’s New Music Friday. Ludacris, who hasn’t released an album in over a decade, returns with a playful new single called “Pull Over” which boasts some trunk-rattling production from fellow Southern rap legend DJ... The post New Music Friday: Ludacris, 6LACK & 2 Chainz, Sexyy Red, Yasiin Bey & More appeared first on HipHopDX . ]]>",
+      "url": "https://hiphopdx.com/news/new-music-friday-ludacris-6lack-2-chainz-sexyy-red-yasiin-bey/",
+      "date": "Fri, 17 Apr 2026 12:48:14 +0000",
+      "source": "HipHopDX"
+    },
+    {
+      "title": "Isaiah Rashad Reveals ‘It’s Been Awful’ Tracklist Feat. SZA & More",
+      "description": "Isaiah Rashad has revealed the tracklist and artwork for his new album It’s Been Awful ahead of its release next month. The project, which serves as the long-awaited follow-up to 2021’s The House is Burning, clocks in at 16 songs and includes the recently released single “Same Sh!t.” It also boasts a small but star-studded... The post Isaiah Rashad Reveals ‘It’s Been Awful’ Tracklist Feat. SZA & More appeared first on HipHopDX . ]]>",
+      "url": "https://hiphopdx.com/news/isaiah-rashad-its-been-awful-tracklist-features/",
+      "date": "Wed, 15 Apr 2026 09:21:03 +0000",
+      "source": "HipHopDX"
+    },
+    {
+      "title": "Afrika Bambaataa Dies At 68",
+      "description": "Afrika Bambaataa, the hip-hop pioneer with a checkered past of sexual abuse allegations, has died at the age of 68. The visionary rapper, DJ and producer (real name Lance Taylor) died on Thursday (April 9) in Pennsylvania, according to TMZ. Bambaataa’s lawyer confirmed to the Associated Press that his cause of death was prostate cancer.... The post Afrika Bambaataa Dies At 68 appeared first on HipHopDX . ]]>",
+      "url": "https://hiphopdx.com/news/afrika-bambaataa-dead-cancer/",
+      "date": "Fri, 10 Apr 2026 14:19:19 +0000",
+      "source": "HipHopDX"
+    },
+    {
+      "title": "New Music Friday: Isaiah Rashad, Gucci Mane, Doechii, Snoop Dogg, DJ Khaled & More",
+      "description": "This week’s New Music Friday marks the beginning of a new chapter for multiple artists. After a five-year hiatus, Isaiah Rashad returns to kickstart the rollout for his new album with “Same Sh!t,” a southern-fried trunk-rattler that captures the feeling of being stuck in Groundhog Day. The TDE rapper’s third LP It’s Been Awful drops... The post New Music Friday: Isaiah Rashad, Gucci Mane, Doechii, Snoop Dogg, DJ Khaled & More appeared first on HipHopDX . ]]>",
+      "url": "https://hiphopdx.com/news/new-music-friday-isaiah-rashad-gucci-mane-doechii-snoop-dogg-dj-khaled-more/",
+      "date": "Fri, 10 Apr 2026 12:36:03 +0000",
+      "source": "HipHopDX"
+    },
+    {
+      "title": "Kanye West Claims Nobody Can Beat Him In A Verzuz Battle",
+      "description": "Kanye West has weighed in on the age-old debate over who (if anybody) could beat him in a Verzuz battle — and his answer is the most Kanye answer ever. The Chicago rap icon made a surprise appearance at Deon Cole’s comedy show at Hollywood Improv on Tuesday (April 7), where he hung out on... The post Kanye West Claims Nobody Can Beat Him In A Verzuz Battle appeared first on HipHopDX . ]]>",
+      "url": "https://hiphopdx.com/news/kanye-west-verzuz-battle-nobody-beats-him/",
+      "date": "Wed, 08 Apr 2026 12:28:06 +0000",
+      "source": "HipHopDX"
+    },
+    {
+      "title": "Isaiah Rashad Announces New Album ‘It’s Been Awful’",
+      "description": "Isaiah Rashad is making his long-awaited return next month with his first album in five years. The Tennessee native has announced his new album It’s Been Awful, which will be released on May 1 via Top Dawg Entertainment and Warner Records. Along with a cinematic trailer for the project, which depicts Rashad limping across a... The post Isaiah Rashad Announces New Album ‘It’s Been Awful’ appeared first on HipHopDX . ]]>",
+      "url": "https://hiphopdx.com/news/isaiah-rashad-its-been-awful-new-album/",
+      "date": "Tue, 07 Apr 2026 17:46:25 +0000",
+      "source": "HipHopDX"
+    },
+    {
+      "title": "Kanye West Banned From UK, Forcing Wireless Festival To Cancel",
+      "description": "Wireless Festival has been canceled after its headliner, Kanye West, was denied entry into the UK. The London-based rap and R&B festival announced in a statement on Tuesday (April 7): “As a result of the Home Office banning YE from entering the United Kingdom, Wireless Festival has been forced to cancel. All ticket holders will... The post Kanye West Banned From UK, Forcing Wireless Festival To Cancel appeared first on HipHopDX . ]]>",
+      "url": "https://hiphopdx.com/news/kanye-west-uk-ban-wireless-festival-canceled/",
+      "date": "Tue, 07 Apr 2026 14:36:05 +0000",
+      "source": "HipHopDX"
+    },
+    {
+      "title": "Jay Electronica Jumps Into Crowd & Confronts Fans For Booing Him At L.A. Show: “They P*ssy!”",
+      "description": "Jay Electronica did not take kindly to being booed at his show in Los Angeles over the weekend as he jumped into the crowd to confront the hecklers. The Roc Nation rapper’s concert at The Compound on Saturday (April 4) went south when some attendees began booing him for performing “Exhibit C” acapella instead of... The post Jay Electronica Jumps Into Crowd & Confronts Fans For Booing Him At L.A. Show: “They P*ssy!” appeared first on HipHopDX . ]]>",
+      "url": "https://hiphopdx.com/news/jay-electronica-jumps-crowd-booed-la-show/",
+      "date": "Mon, 06 Apr 2026 16:19:28 +0000",
+      "source": "HipHopDX"
+    },
+    {
+      "title": "Kanye West’s ‘Bully’ First-Week Sales Are In As Deluxe Edition Nears",
+      "description": "Kanye West‘s Bully has made a decent splash on the Billboard 200 despite the whirlwind of controversy leading up to its release. The album has debuted at number two on the chart after earning 152,000 equivalent units in its first week, according to Billboard. Of that figure, 96,000 came from streaming (98.43 million on-demand official... The post Kanye West’s ‘Bully’ First-Week Sales Are In As Deluxe Edition Nears appeared first on HipHopDX . ]]>",
+      "url": "https://hiphopdx.com/news/kanye-west-bully-sales-billboard-chart/",
+      "date": "Mon, 06 Apr 2026 14:25:24 +0000",
+      "source": "HipHopDX"
+    },
+    {
+      "title": "Pooh Shiesty Arrested For Allegedy Robbing & Kidnapping Gucci Mane At Gunpoint",
+      "description": "Pooh Shiesty, along with his father Lontrell Williams Sr. and fellow rapper Big30, has been arrested for allegedy robbing and kidnapping at gunpoint Gucci Mane and two others earlier this year. Shiesty (real name Lontrell Williams. Jr.) is one of eight defendants who were taken into custody by federal authorities this week in connection with... The post Pooh Shiesty Arrested For Allegedy Robbing & Kidnapping Gucci Mane At Gunpoint appeared first on HipHopDX . ]]>",
+      "url": "https://hiphopdx.com/news/pooh-shiesty-arrested-gucci-mane-robbery-kidnap/",
+      "date": "Fri, 03 Apr 2026 12:39:51 +0000",
+      "source": "HipHopDX"
+    },
+    {
+      "title": "The Lil Mouse Interview: Being the “King Of Drill”, Lil Durk Beef?, Getting Shot & More",
+      "description": "Lil Mouse talks about being one of the very first drill rapper in 2012, establishing his legacy despite his young age, Drake S/O, Meek using his bar without the S/O, relationships with Lil Durk and more! https://www.instagram.com/tdgmouse/ ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5tesvmDS8h50LkjnSAWMOs?si=j6sJD6DkR4mk5NZZWnlK7g FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_Jumper/4874336901 CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/no-jumper/id1001659715?mt=2 Follow us on Social Media: https://www.snapchat.com/discover/No_Jumper/4874336901 http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFICIAL http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-lil-mouse-interview-being-the-king-of-drill-lil-durk-beef-getting-shot-more",
+      "date": "Fri, 13 Aug 2021 20:06:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Wallie The Sensei Interview: Bompton to Balabasas, 03 Greedo Influence, Karate & More",
+      "description": "Wallie The Sensei talks about singing vs rapping, his Boosie and Wayne influences, working with 42Dugg, having a solid team, karate vs jiu jitsu, wants to work with Missy Elliott, Kendrick, T Pain, and more! https://www.instagram.com/walliethese... ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5te... FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_... CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/n... Follow us on Social Media: https://www.snapchat.com/discover/No_... http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFI... http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-wallie-the-sensei-interview-bompton-to-balabasas-03-greedo-influence-karate-more",
+      "date": "Thu, 12 Aug 2021 19:51:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "At The End of The Day Ep. 45",
+      "description": "At The End of The Day Ep. 45 by No Jumper Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/at-the-end-of-the-day-ep-45",
+      "date": "Thu, 12 Aug 2021 17:51:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Jap5 Interview: Growing up Hoover, Prison Time, Crip Mac Beef & More",
+      "description": "Jap5 talks about his upbringing, heavily influenced by the streets, his environment, doing time, taking music seriously and more! https://www.instagram.com/japanese5_/ ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5te... FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_... CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/n... Follow us on Social Media: https://www.snapchat.com/discover/No_... http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFI... http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-jap5-interview-growing-up-hoover-prison-time-crip-mac-beef-more",
+      "date": "Wed, 11 Aug 2021 19:59:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The No Jumper Show Ep. 107",
+      "description": "The No Jumper Show Ep. 107 by No Jumper Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-no-jumper-show-ep-107",
+      "date": "Wed, 11 Aug 2021 07:46:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Suga Sean O'Malley Interview: UFC, Weed, SteveWillDoIt, Influencer Boxing & More",
+      "description": "Suga Sean talks about never losing a fight, training camps being the best to get ready mentally, fatherhood, relationship with Dana White, fighting Petr Yan as a goal, partying and smoking between fights and more! https://www.instagram.com/sugaseanmma/ https://twitter.com/SugaSeanMMA Get free access to Bellesa Plus the Netflix of P*rn: https://bit.ly/2W2LL4i ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5te... FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_... CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/n... Follow us on Social Media: https://www.snapchat.com/discover/No_... http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFI... http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-suga-sean-omalley-interview-ufc-weed-stevewilldoit-influencer-boxing-more",
+      "date": "Thu, 05 Aug 2021 20:10:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "At The End of The Day Ep. 44",
+      "description": "At The End of The Day Ep. 44 by No Jumper Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/at-the-end-of-the-day-ep-44",
+      "date": "Thu, 05 Aug 2021 08:08:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Lou Ratchett Interview: Hood Comedy, Having a Hot Mom, Pittsburgh Crippin & More",
+      "description": "Lou Ratchett is making waves in the comedy world, talks about his come up, his most known skits, Lil Uzi showing love and what he has in the works. https://www.instagram.com/lou_ratchett/ ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5te... FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_... CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/n... Follow us on Social Media: https://www.snapchat.com/discover/No_... http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFI... http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-lou-ratchett-interview-hood-comedy-having-a-hot-mom-pittsburgh-crippin-more",
+      "date": "Wed, 04 Aug 2021 18:50:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The No Jumper Show Ep. 106",
+      "description": "The No Jumper Show Ep. 106 by No Jumper Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-no-jumper-show-ep-106",
+      "date": "Wed, 04 Aug 2021 18:04:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Sharp Interview: Soft White Underbelly, Pimping, Simps, Onlyfans & More",
+      "description": "Sharp is such a character! Orator, motivational speaker, been through a lot, and now has movie deals on the table off his Soft White Underbelly interviews! Sharp sits down with Adam for one of the realest interviews! https://www.instagram.com/tha_sharp_one/ ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5te... FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_... CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/n... Follow us on Social Media: https://www.snapchat.com/discover/No_... http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFI... http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-sharp-interview-soft-white-underbelly-pimping-simps-onlyfans-more",
+      "date": "Tue, 03 Aug 2021 21:12:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Bricc Baby Interview: 4 Years in LA County Jail, Rolling' 60s, Starting MPA & More",
+      "description": "Bricc Baby talks about recently being home, why he did time, his come up, relationship with Young Thug, Lil Debbie and more! https://www.instagram.com/briccbaby/ https://twitter.com/briccbaby60 ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5te... FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_... CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/n... Follow us on Social Media: https://www.snapchat.com/discover/No_... http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFI... http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-bricc-baby-interview-4-years-in-la-county-jail-rolling-60s-starting-mpa-more",
+      "date": "Mon, 02 Aug 2021 19:56:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The ENRGY Beats Interview: Creating the Flint Sound, Rio Da Yung OG, EST Gee & More",
+      "description": "Producer Energy Beats talks about his come up, crafting his sound, the explosion of Flint/Detroit rap scene, people copying his style, influences and more! https://www.instagram.com/enrgybeats/ Stamps by https://www.instagram.com/nicholasosp... ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5te... FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_... CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/n... Follow us on Social Media: https://www.snapchat.com/discover/No_... http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFI... http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-enrgy-beats-interview-creating-the-flint-sound-rio-da-yung-og-est-gee-more",
+      "date": "Fri, 30 Jul 2021 20:31:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "At The End of The Day Ep. 43",
+      "description": "At The End of The Day Ep. 43 by No Jumper Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/at-the-end-of-the-day-ep-43",
+      "date": "Thu, 29 Jul 2021 08:09:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The No Jumper Show Ep. 105",
+      "description": "The No Jumper Show Ep. 105 by No Jumper Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-no-jumper-show-ep-105",
+      "date": "Wed, 28 Jul 2021 15:55:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Lil Scrappy Interview: Fatherhood, Life Changing Car Accident, BMF, COVID & More",
+      "description": "ATL legend Scrappy, sits down with Adam for a casual convo with a little help from Hennessy! They talk about his come up, Trillville, Boosie, the new ATL scene and more! https://twitter.com/reallilscrappy ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5te... FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_... CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/n... Follow us on Social Media: https://www.snapchat.com/discover/No_... http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFI... http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-lil-scrappy-interview-fatherhood-life-changing-car-accident-bmf-covid-more",
+      "date": "Tue, 27 Jul 2021 19:57:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Ally Lotti interview",
+      "description": "Ally Lotti shares about her passionate and deep relationship with Juice Wrld, their dynamic and how they were there for each other at all times. https://www.instagram.com/allylotti/ https://twitter.com/highimallyy ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5tesvmDS8h50LkjnSAWMOs?si=j6sJD6DkR4mk5NZZWnlK7g FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_Jumper/4874336901 CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/no-jumper/id1001659715?mt=2 Follow us on Social Media: https://www.snapchat.com/discover/No_Jumper/4874336901 http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFICIAL http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-ally-lotti-interview",
+      "date": "Mon, 26 Jul 2021 19:11:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Lexy Panterra Interview: Twerking, Being from Mozzy's Hood, Dating Alex Wassabi & More",
+      "description": "Lexy Panterra talks about her come up, growing up in Sacramento, going to LA to be a star, twerk videos, never want to date a rapper ever again, supports Britney, new song with Trina and more! https://www.instagram.com/lexypanterra/ https://twitter.com/LexyPanterra ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5tesvmDS8h50LkjnSAWMOs?si=j6sJD6DkR4mk5NZZWnlK7g FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_Jumper/4874336901 CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/no-jumper/id1001659715?mt=2 Follow us on Social Media: https://www.snapchat.com/discover/No_Jumper/4874336901 http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFICIAL http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-lexy-panterra-interview-twerking-being-from-mozzys-hood-dating-alex-wassabi-more",
+      "date": "Fri, 23 Jul 2021 21:39:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The GaTa Interview: Early Days with Tyga, Falling Off, Lil Dicky, Getting into Acting & More",
+      "description": "Gata shares his come up story with Adam! Growing up in LA, supporting his friends and their dreams, waiting for his moment, making waves, falling off, and making waves again now with Lil Dicky! https://www.instagram.com/gedgata/ https://twitter.com/GaTaGED ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5tesvmDS8h50LkjnSAWMOs?si=j6sJD6DkR4mk5NZZWnlK7g FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_Jumper/4874336901 CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/no-jumper/id1001659715?mt=2 Follow us on Social Media: https://www.snapchat.com/discover/No_Jumper/4874336901 http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFICIAL http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-gata-interview-early-days-with-tyga-falling-off-lil-dicky-getting-into-acting-more",
+      "date": "Thu, 22 Jul 2021 23:01:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "At The End of The Day Ep. 42",
+      "description": "At The End of The Day Ep. 42 by No Jumper Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/at-the-end-of-the-day-ep-42",
+      "date": "Thu, 22 Jul 2021 09:39:14 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Bas Interview: Dreamville, J Cole, Street Rap vs Conscious Rap, Fashion & More",
+      "description": "Bas talks about his latest single, working on a new album, working with Gunna, taking notes from J Cole, Dreamville dynamic, moving to LA and more! https://www.instagram.com/bas/ https://twitter.com/Bas ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5tesvmDS8h50LkjnSAWMOs?si=j6sJD6DkR4mk5NZZWnlK7g FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_Jumper/4874336901 CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/no-jumper/id1001659715?mt=2 Follow us on Social Media: https://www.snapchat.com/discover/No_Jumper/4874336901 http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFICIAL http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-bas-interview-dreamville-j-cole-street-rap-vs-conscious-rap-fashion-more",
+      "date": "Wed, 21 Jul 2021 21:21:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The No Jumper Show Ep. 104",
+      "description": "The No Jumper Show Ep. 104 by No Jumper Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-no-jumper-show-ep-104",
+      "date": "Wed, 21 Jul 2021 08:21:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The RXK Nephew Interview: Growing Up Incarcerated, Lil Reese, Hennessy, Rochester Upbringing",
+      "description": "RXK Nephew gets super real and candid about growing up in the prison life, his come up, his love for Lil B, why he doesn't like Will Smith, Murda Mook, Lil Reese and so much more! https://www.instagram.com/rxk_nephew/ https://twitter.com/nephew_rx Stamps by https://www.instagram.com/eli518mcfly/ ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5tesvmDS8h50LkjnSAWMOs?si=j6sJD6DkR4mk5NZZWnlK7g FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_Jumper/4874336901 CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/no-jumper/id1001659715?mt=2 Follow us on Social Media: https://www.snapchat.com/discover/No_Jumper/4874336901 http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFICIAL http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-rxk-nephew-interview-growing-up-incarcerated-lil-reese-hennessy-rochester-upbringing",
+      "date": "Tue, 20 Jul 2021 22:11:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Central Cee Interview: Blowing Up During COVID, West London Upbringing, Drake & Big Sean CoSigns",
+      "description": "Central Cee sits down with Adam for his very first official interview! Cee talks about his come up, the UK, connection with Drake, Big Sean cosign and more! || https://www.instagram.com/centralcee/ ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5te... FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_... CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/n... Follow us on Social Media: https://www.snapchat.com/discover/No_... http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFI... http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-central-cee-interview-blowing-up-during-covid-west-london-upbringing-drake-big-sean-cosigns",
+      "date": "Mon, 19 Jul 2021 23:41:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Danii Banks Interview: Stripping, Getting Rich Off Onlyfans, Surgery & More",
+      "description": "Danni Banks talks about catfish using her photos, making money on OF, cheating ex boyfriend, illegal surgery and more! https://www.instagram.com/danii.banks/ ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5tesvmDS8h50LkjnSAWMOs?si=j6sJD6DkR4mk5NZZWnlK7g FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_Jumper/4874336901 CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/no-jumper/id1001659715?mt=2 Follow us on Social Media: https://www.snapchat.com/discover/No_Jumper/4874336901 http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFICIAL http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-danii-banks-interview-stripping-getting-rich-off-onlyfans-surgery-more",
+      "date": "Mon, 19 Jul 2021 23:30:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "At The End of The Day Ep. 41",
+      "description": "At The End of The Day Ep. 41 by No Jumper Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/at-the-end-of-the-day-ep-41",
+      "date": "Thu, 15 Jul 2021 19:39:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The No Jumper Show Ep. 103",
+      "description": "The No Jumper Show Ep. 103 by No Jumper Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-no-jumper-show-ep-103",
+      "date": "Wed, 14 Jul 2021 08:17:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Lil Sodi Interview: Gangbanging, Beefing with Nipsey, Jeezy vs Gucci, Afroman & More",
+      "description": "Lil Sodi talks about jail life, relationship with Afroman, Young Jeezy, Gucci, Nipsey and more! https://www.instagram.com/lilsodiofficial/ Stamps by https://www.instagram.com/eli518mcfly/ ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5tesvmDS8h50LkjnSAWMOs?si=j6sJD6DkR4mk5NZZWnlK7g FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_Jumper/4874336901 CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/no-jumper/id1001659715?mt=2 Follow us on Social Media: https://www.snapchat.com/discover/No_Jumper/4874336901 http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFICIAL http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-lil-sodi-interview-gangbanging-beefing-with-nipsey-jeezy-vs-gucci-afroman-more",
+      "date": "Wed, 14 Jul 2021 00:13:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Yungeen Ace Interview: Why He Left Jacksonville, “Who I Smoke”, Vanessa Carlton & More",
+      "description": "Yungeen Ace is back on the program to talk about his amazing ascension to stardom! New album, \"Who I Smoke\", relationship with Vanessa Carlton, Spinabenz, Goon, Kodak, moving out of Jacksonville, Yungeen Ace tells us everything he's been up to! https://www.instagram.com/yungeenace/ https://twitter.com/YungeenAce ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5tesvmDS8h50LkjnSAWMOs?si=j6sJD6DkR4mk5NZZWnlK7g FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_Jumper/4874336901 CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/no-jumper/id1001659715?mt=2 Follow us on Social Media: https://www.snapchat.com/discover/No_Jumper/4874336901 http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFICIAL http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-yungeen-ace-interview-why-he-left-jacksonville-who-i-smoke-vanessa-carlton-more",
+      "date": "Mon, 12 Jul 2021 18:56:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Steve Rifkind Interview: DMX, Dead Prez, Akon & Why He Doesn't Need Labels Anymore",
+      "description": "Steve Rifkind, founder of Loud Records, first home of the legendary Wu-Tang, Mobb Deep, M.O.P., Big Pun, and more, tells classic hip hop stories and presents his new label Spring Sound. Steve was also DMX last manager until his untimely passing, and shares sweet stories about Dark Man X. https://www.instagram.com/steverifkind/ https://www.instagram.com/springsound/ https://spring-sound.com/ ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5tesvmDS8h50LkjnSAWMOs?si=j6sJD6DkR4mk5NZZWnlK7g FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_Jumper/4874336901 CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/no-jumper/id1001659715?mt=2 Follow us on Social Media: https://www.snapchat.com/discover/No_Jumper/4874336901 http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFICIAL http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-steve-rifkind-interview-dmx-dead-prez-akon-why-he-doesnt-need-labels-anymore",
+      "date": "Sat, 10 Jul 2021 03:52:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Chet Hanx Interview: Beef with DJ Vlad, Cancel Culture, White Boy Summer & More",
+      "description": "Chet Hanx talks about his new music, not growing up spoiled, wants to fight DJ Vlad, goes in on Wendy Williams and Howard Stern, and more! https://www.instagram.com/chethanx/ ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5tesvmDS8h50LkjnSAWMOs?si=j6sJD6DkR4mk5NZZWnlK7g FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_Jumper/4874336901 CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/no-jumper/id1001659715?mt=2 Follow us on Social Media: https://www.snapchat.com/discover/No_Jumper/4874336901 http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFICIAL http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-chet-hanx-interview-beef-with-dj-vlad-cancel-culture-white-boy-summer-more",
+      "date": "Fri, 09 Jul 2021 02:23:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The WeezyWTF Interview: TI & Tiny, Tory Lanez, JBP Break Up, Hiring Black People & More",
+      "description": "Podcast and TV personality #WeezyWTF keeps making waves since the start of #WHOREibleDecisions with cohost Mandii B. She talks about the podcast blueprint, creating her podcast studio imprint in New York, relationship with Rory and Mal, her show on Fuse, working with #KenyaBarris and more. https://www.instagram.com/weezywtf/ https://twitter.com/WeezyWTF https://www.instagram.com/whoreible_decisions/ https://www.instagram.com/wtfmediastudios/ ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5tesvmDS8h50LkjnSAWMOs?si=j6sJD6DkR4mk5NZZWnlK7g FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_Jumper/4874336901 CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/no-jumper/id1001659715?mt=2 Follow us on Social Media: https://www.snapchat.com/discover/No_Jumper/4874336901 http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFICIAL http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-weezywtf-interview-ti-tiny-tory-lanez-jbp-break-up-hiring-black-people-more",
+      "date": "Thu, 08 Jul 2021 16:05:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "At The End of The Day Ep. 40",
+      "description": "At The End of The Day Ep. 40 by No Jumper Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/at-the-end-of-the-day-ep-40",
+      "date": "Thu, 08 Jul 2021 07:23:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The No Jumper Show Ep. 102 w/ Joey Fatts",
+      "description": "The No Jumper Show Ep. 102 w/ Joey Fatts by No Jumper Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-no-jumper-show-ep-102-w-joey-fatts",
+      "date": "Wed, 07 Jul 2021 18:38:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Harry Jowsey Interview: 1 Million Followers in a Day, Julia Rose Break Up, Blocked by Joe Exotic",
+      "description": "Harry Jowsey, Netflix' Too Hot To Handle winner, talks to Adam about moving to LA from Australia, relations with Justin Bieber, relationship with costar Francesca Farago, cried for not being allowed to have sex during the taping of show, goals, Australian girls vs US girls and more! https://www.instagram.com/harryjowsey/ ----- NO JUMPER PATREON http://www.patreon.com/nojumper CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5tesvmDS8h50LkjnSAWMOs?si=j6sJD6DkR4mk5NZZWnlK7g FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_Jumper/4874336901 CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/no-jumper/id1001659715?mt=2 Follow us on Social Media: https://www.snapchat.com/discover/No_Jumper/4874336901 http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFICIAL http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-harry-jowsey-interview-1-million-followers-in-a-day-julia-rose-break-up-blocked-by-joe-exotic",
+      "date": "Tue, 06 Jul 2021 18:28:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "The Hopsin Interview: How To Be a Ninja, Getting Stuck in Thailand During COVID, Dax, NF & More",
+      "description": "Hopsin is back on No Jumper for a delightful and in depth interview, where he talks about protecting his happiness at all times, dropping singles instead of albums, longevity in the game, Eminem influence, working with NF, Dax and more! https://www.instagram.com/hopsin/ https://twitter.com/hopsin https://www.facebook.com/hellohopsin/ https://www.youtube.com/c/hopsin/videos ----- CHECK OUT OUR NEW SPOTIFY PLAYLIST https://open.spotify.com/playlist/5tesvmDS8h50LkjnSAWMOs?si=j6sJD6DkR4mk5NZZWnlK7g FOLLOW US ON SNAPCHAT FOR THE LATEST NEWS & UPDATES https://www.snapchat.com/discover/No_Jumper/4874336901 CHECK OUT OUR ONLINE STORE!!! http://www.nojumper.com/ SUBSCRIBE for new interviews (and more) weekly: http://bit.ly/nastymondayz Follow us on Soundcloud: https://soundcloud.com/nojumper iTunes: https://itunes.apple.com/us/podcast/no-jumper/id1001659715?mt=2 Follow us on Social Media: https://www.snapchat.com/discover/No_Jumper/4874336901 http://www.twitter.com/nojumper http://www.instagram.com/nojumper https://www.facebook.com/NOJUMPEROFFICIAL http://www.reddit.com/r/nojumper JOIN THE DISCORD: https://discord.gg/Q3XPfBm Follow Adam22: https://www.tiktok.com/@adam22 http://www.twitter.com/adam22 http://www.instagram.com/adam22 adam22hoe on Snapchat Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/the-hopsin-interview-how-to-be-a-ninja-getting-stuck-in-thailand-during-covid-dax-nf-more",
+      "date": "Tue, 06 Jul 2021 18:17:00 -0000",
+      "source": "No Jumper"
+    },
+    {
+      "title": "At The End of The Day Ep. 39",
+      "description": "At The End of The Day Ep. 39 by No Jumper Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "url": "https://soundcloud.com/nojumper/at-the-end-of-the-day-ep-39",
+      "date": "Fri, 02 Jul 2021 03:02:00 -0000",
+      "source": "No Jumper"
     }
   ],
   "sources": [
@@ -725,11 +634,11 @@
       "tier": 2,
       "status": "ok",
       "stories": 20,
-      "bytes": 18960,
+      "bytes": 19068,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=21c030e727b944c493b862b64cc4ba16 benchma",
-      "latencyMs": 268
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=950e50db1eee4ea18d886726a20ff242 benchma",
+      "latencyMs": 516
     },
     {
       "source": "HipHopDX",
@@ -740,7 +649,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 143
+      "latencyMs": 121
     },
     {
       "source": "AllHipHop",
@@ -751,7 +660,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 817
+      "latencyMs": 700
     },
     {
       "source": "No Jumper",
@@ -762,51 +671,39 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 661
+      "latencyMs": 565
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
-      "status": "ok",
-      "stories": 100,
-      "bytes": 128093,
-      "hasItemTag": true,
-      "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 448
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 8002,
+      "error": "TIMEOUT"
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
-      "status": "ok",
-      "stories": 103,
-      "bytes": 132375,
-      "hasItemTag": true,
-      "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 539
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 5140,
+      "error": "HTTP 503"
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
-      "status": "ok",
-      "stories": 100,
-      "bytes": 119241,
-      "hasItemTag": true,
-      "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 419
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 5537,
+      "error": "HTTP 503"
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
-      "status": "ok",
-      "stories": 100,
-      "bytes": 123316,
-      "hasItemTag": true,
-      "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 394
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 8001,
+      "error": "TIMEOUT"
     },
     {
       "source": "Billboard",
@@ -817,7 +714,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 178
+      "latencyMs": 283
     },
     {
       "source": "Pitchfork",
@@ -828,18 +725,18 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 26
+      "latencyMs": 82
     },
     {
       "source": "Rolling Stone — Music",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 9818,
+      "bytes": 10030,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 127
+      "latencyMs": 91
     },
     {
       "source": "Variety — Music",
@@ -850,19 +747,19 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 62
+      "latencyMs": 52
     }
   ],
-  "errorCount": 0,
+  "errorCount": 4,
   "acceptedBySource": {
     "TMZ": 20,
     "HipHopDX": 16,
     "AllHipHop": 10,
     "No Jumper": 40,
-    "Google News — Hip-Hop": 40,
-    "Google News — R&B": 40,
-    "Google News — New Music": 40,
-    "Google News — Colorado Music": 40,
+    "Google News — Hip-Hop": 0,
+    "Google News — R&B": 0,
+    "Google News — New Music": 0,
+    "Google News — Colorado Music": 0,
     "Billboard": 10,
     "Pitchfork": 30,
     "Rolling Stone — Music": 10,

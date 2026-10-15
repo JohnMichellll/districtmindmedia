@@ -1,7 +1,44 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-15T00:22:53.230Z",
-  "errors": [],
+  "updatedAt": "2026-10-15T01:08:05.149Z",
+  "errors": [
+    {
+      "source": "Google News — Hip-Hop",
+      "tier": 2,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 8002,
+      "error": "TIMEOUT",
+      "workflow": "newsroom-operator"
+    },
+    {
+      "source": "Google News — R&B",
+      "tier": 2,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 5140,
+      "error": "HTTP 503",
+      "workflow": "newsroom-operator"
+    },
+    {
+      "source": "Google News — New Music",
+      "tier": 2,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 5537,
+      "error": "HTTP 503",
+      "workflow": "newsroom-operator"
+    },
+    {
+      "source": "Google News — Colorado Music",
+      "tier": 2,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 8001,
+      "error": "TIMEOUT",
+      "workflow": "newsroom-operator"
+    }
+  ],
   "resolved": [
     {
       "source": "TMZ",
