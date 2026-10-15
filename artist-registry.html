@@ -121,6 +121,6 @@ form.addEventListener('submit',e=>{e.preventDefault();search(input.value);});
 document.querySelectorAll('[data-registry-filter]').forEach(btn=>btn.addEventListener('click',()=>{activeFilter=btn.dataset.registryFilter;document.querySelectorAll('[data-registry-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));applyingQuickFilter=true;if(activeFilter==='distribution'){distribution.value='unknown';}else if(activeFilter==='active'){activity.value='active';}else if(activeFilter==='archive'){activity.value='archive';}else if(activeFilter==='catalog'){count.value='11+';}applyingQuickFilter=false;document.getElementById('registry-search').scrollIntoView({behavior:'smooth',block:'start'});input.focus({preventScroll:true});if(input.value.trim().length>=2){const list=cache.get(input.value.trim().toLowerCase());if(list)render(list.artists||[]);else search(input.value); }else status.textContent='Step selected. Search an artist above to apply this filter to real catalog results.';}));
 })();
 </script>
-<script src="site-guide.js?v=20261010-menu3" defer></script>
+<script src="site-guide.js?v=20261014-appearance" defer></script>
 <script>const b=document.querySelector('.menu-toggle'),n=document.querySelector('.primary-nav');if(b&&n)b.onclick=()=>{const o=n.classList.toggle('is-open');b.setAttribute('aria-expanded',String(o));};</script>
 </body></html>
