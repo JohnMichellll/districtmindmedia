@@ -429,8 +429,8 @@
     document.head.appendChild(guideStyle);
   }
 
-  // District Mind Radio: official Apple Music catalog embed, no uploaded audio files.
-  // Apple controls playback and any shuffle/subscription requirements inside the embed.
+  // District Mind Radio: start with John's publicly available YouTube upload.
+  // YouTube handles playback; no Apple Music login or audio upload is required.
   if (!document.getElementById('dm-radio-control')) {
     const radioControl = document.createElement('div');
     radioControl.id = 'dm-radio-control';
@@ -438,20 +438,21 @@
     radioControl.innerHTML = `
       <button type="button" class="dm-radio-trigger" aria-expanded="false" aria-controls="dm-radio-panel">
         <span class="dm-radio-live-dot" aria-hidden="true"></span>
-        <span><strong>DISTRICT MIND RADIO</strong><small>John Michell · Official catalog</small></span>
+        <span><strong>DISTRICT MIND RADIO</strong><small>John Michell · Drivin Crazy</small></span>
         <span class="dm-radio-trigger-icon" aria-hidden="true">♫</span>
       </button>
       <section id="dm-radio-panel" class="dm-radio-panel" hidden aria-label="District Mind Radio player">
         <div class="dm-radio-heading">
-          <div><p class="dm-radio-kicker">DISTRICT MIND RECORDS</p><h2>District Mind Radio</h2><p>Start with John Michell’s catalog. Use the Apple Music player to choose available tracks.</p></div>
+          <div><p class="dm-radio-kicker">DISTRICT MIND RECORDS</p><h2>District Mind Radio</h2><p>Now playing: John Michell — Drivin Crazy. Press play below to listen free through YouTube.</p></div>
           <button type="button" class="dm-radio-close" aria-label="Close District Mind Radio">×</button>
         </div>
         <div class="dm-radio-embed">
-          <iframe title="John Michell official Apple Music catalog" src="https://embed.music.apple.com/us/artist/john-michell/1720482148" loading="lazy" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          <iframe title="John Michell — Drivin Crazy on YouTube" src="https://www.youtube-nocookie.com/embed/Ytt_s7M9TeQ?rel=0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div class="dm-radio-footer">
-          <span>Shuffle and playback options depend on Apple Music availability.</span>
-          <a href="https://music.apple.com/us/artist/john-michell/1720482148" target="_blank" rel="noopener noreferrer">Open full catalog ↗</a>
+          <span>No Apple Music subscription is needed. YouTube may show ads, and playback availability is controlled by YouTube.</span>
+          <a href="https://youtu.be/Ytt_s7M9TeQ" target="_blank" rel="noopener noreferrer">Open track on YouTube ↗</a>
+          <a href="https://www.youtube.com/results?search_query=John+Michell+official+music" target="_blank" rel="noopener noreferrer">Find more John Michell music ↗</a>
         </div>
       </section>`;
     document.body.appendChild(radioControl);
