@@ -435,7 +435,7 @@
     const radioControl = document.createElement('div');
     radioControl.id = 'dm-radio-control';
     radioControl.className = 'dm-radio-control';
-    radioControl.innerHTML = \`
+    radioControl.innerHTML = `
       <section id="dm-radio-panel" class="dm-radio-panel" aria-label="District Mind Radio player" aria-hidden="true">
         <div class="dm-radio-heading">
           <div><p class="dm-radio-kicker">DISTRICT MIND RECORDS</p><h2>District Mind Radio</h2><p>John Michell — Drivin Crazy</p></div>
@@ -450,7 +450,7 @@
         <button type="button" class="dm-radio-control-btn dm-radio-play" aria-label="Play music" title="Play music">▶</button>
         <button type="button" class="dm-radio-control-btn dm-radio-stop" aria-label="Stop music" title="Stop music">■</button>
         <button type="button" class="dm-radio-control-btn dm-radio-next" aria-label="Next track" title="Next track" disabled>»</button>
-      </div>\`;
+      </div>`;
     document.body.appendChild(radioControl);
     const radioPanel = radioControl.querySelector('.dm-radio-panel');
     const radioClose = radioControl.querySelector('.dm-radio-close');
@@ -489,7 +489,7 @@
     if (!document.getElementById('dm-radio-styles')) {
       const radioStyle = document.createElement('style');
       radioStyle.id = 'dm-radio-styles';
-      radioStyle.textContent = \`
+      radioStyle.textContent = `
         .dm-radio-control{position:fixed;right:14px;bottom:14px;z-index:1400;font-family:inherit;color:var(--ink,#171715);max-width:calc(100vw - 20px)}
         .dm-radio-dock{display:flex;align-items:center;gap:8px;min-height:54px;padding:7px 9px;border:1px solid rgba(46,125,78,.45);border-radius:18px;background:#10271d;color:#f5fff7;box-shadow:0 8px 28px rgba(0,0,0,.22)}
         .dm-radio-live-dot{width:8px;height:8px;flex:0 0 8px;border-radius:50%;background:#7a8a80}
@@ -517,7 +517,7 @@
         @keyframes dm-radio-pulse{0%,100%{box-shadow:0 0 0 3px rgba(82,223,139,.1)}50%{box-shadow:0 0 0 5px rgba(82,223,139,.22)}}
         @media(max-width:520px){.dm-radio-control{right:8px;bottom:8px;max-width:calc(100vw - 16px)}.dm-radio-dock{gap:6px;min-height:48px;padding:6px 7px;border-radius:16px}.dm-radio-track strong{font-size:8px}.dm-radio-track small{font-size:9px}.dm-radio-control-btn{width:30px;height:30px;flex-basis:30px}.dm-radio-panel{bottom:58px;width:calc(100vw - 16px);padding:10px}.dm-radio-embed{min-height:170px}}
         @media(prefers-reduced-motion:reduce){.dm-radio-control *{transition:none!important;animation:none!important}}
-      \`;
+      `;
       document.head.appendChild(radioStyle);
     }
     const createRadioPlayer = () => {
