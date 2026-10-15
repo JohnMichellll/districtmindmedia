@@ -275,19 +275,35 @@
   const isAfterHours = () => localMinutes() < 270;
   let afterHoursManual = false;
   root.dataset.dmTheme = isAfterHours() ? 'after-hours' : (savedTheme === 'after-hours' ? 'night' : savedTheme);
-  if (primaryNav && !document.getElementById('dm-theme-control')) {
+  if (!document.getElementById('dm-theme-control')) {
     const control = document.createElement('div');
     control.id = 'dm-theme-control';
     control.className = 'dm-theme-control';
-    control.innerHTML = '<button class="dm-theme-trigger" type="button" aria-expanded="false" aria-haspopup="true">Theme</button><div class="dm-theme-options" hidden><button type="button" data-dm-theme="morning">Morning</button><button type="button" data-dm-theme="day">Day</button><button type="button" data-dm-theme="night">Night</button><button type="button" data-dm-theme="after-hours">After Hours · 12–4:30</button><p class="dm-theme-note">After Hours switches on automatically from midnight to 4:30 AM local time.</p></div>';
-    primaryNav.appendChild(control);
+    control.innerHTML = '<button class="dm-theme-trigger" type="button" aria-expanded="false" aria-haspopup="dialog">Appearance</button><section class="dm-theme-options dm-theme-guide" role="dialog" aria-modal="false" aria-labelledby="dm-theme-guide-title" hidden><div class="dm-theme-guide-head"><div><p class="dm-theme-kicker">MAKE IT YOURS</p><h2 id="dm-theme-guide-title">Choose your look</h2><p class="dm-theme-intro">Three quick steps: pick a style, tap a card, and keep browsing. Your choice is saved on this device.</p></div><button class="dm-theme-guide-close" type="button" aria-label="Close appearance settings">×</button></div><div class="dm-theme-steps"><span><b>1</b> Choose a vibe</span><span><b>2</b> Tap a look</span><span><b>3</b> Keep exploring</span></div><div class="dm-theme-choice-grid"><button type="button" class="dm-theme-choice" data-dm-theme="morning"><span class="dm-theme-swatch dm-swatch-morning"></span><span class="dm-theme-choice-copy"><strong>Morning</strong><small>Warm cream · relaxed editorial</small></span><span class="dm-theme-check" aria-hidden="true">✓</span></button><button type="button" class="dm-theme-choice" data-dm-theme="day"><span class="dm-theme-swatch dm-swatch-day"></span><span class="dm-theme-choice-copy"><strong>Day</strong><small>Clean light · crisp and clear</small></span><span class="dm-theme-check" aria-hidden="true">✓</span></button><button type="button" class="dm-theme-choice" data-dm-theme="night"><span class="dm-theme-swatch dm-swatch-night"></span><span class="dm-theme-choice-copy"><strong>Night</strong><small>Charcoal · premium after-dark</small></span><span class="dm-theme-check" aria-hidden="true">✓</span></button><button type="button" class="dm-theme-choice" data-dm-theme="after-hours"><span class="dm-theme-swatch dm-swatch-space"></span><span class="dm-theme-choice-copy"><strong>After Hours</strong><small>Midnight space · 12–4:30 AM</small></span><span class="dm-theme-check" aria-hidden="true">✓</span></button></div><p class="dm-theme-note">After Hours also switches on automatically from midnight to 4:30 AM local time.</p><p class="dm-theme-saved" aria-live="polite">Current look: <strong></strong></p></section>';
+    const nav = document.querySelector('.nav-container');
+    if (nav) nav.appendChild(control);
     const trigger = control.querySelector('.dm-theme-trigger');
     const options = control.querySelector('.dm-theme-options');
-    trigger.addEventListener('click', () => {
-      const open = options.hidden;
+    const closeButton = control.querySelector('.dm-theme-guide-close');
+    const savedLabel = control.querySelector('.dm-theme-saved strong');
+    const labels = {morning:'Morning',day:'Day',night:'Night', 'after-hours':'After Hours'};
+    const syncThemeChoices = () => {
+      const current = root.dataset.dmTheme || 'night';
+      control.querySelectorAll('[data-dm-theme]').forEach(button => {
+        const selected = button.dataset.dmTheme === current;
+        button.setAttribute('aria-pressed', String(selected));
+        button.classList.toggle('is-selected', selected);
+      });
+      if (savedLabel) savedLabel.textContent = labels[current] || 'Night';
+    };
+    const setOpen = open => {
       options.hidden = !open;
       trigger.setAttribute('aria-expanded', String(open));
-    });
+      if (open) closeButton.focus();
+      else trigger.focus();
+    };
+    trigger.addEventListener('click', () => setOpen(options.hidden));
+    closeButton.addEventListener('click', () => setOpen(false));
     options.querySelectorAll('[data-dm-theme]').forEach(button => button.addEventListener('click', () => {
       const theme = button.dataset.dmTheme;
       if (!allowedThemes.includes(theme)) return;
@@ -295,21 +311,26 @@
       window.dispatchEvent(new Event('dm-theme-change'));
       afterHoursManual = theme === 'after-hours';
       try { localStorage.setItem(themeKey, theme); } catch {}
-      options.hidden = true;
+      syncThemeChoices();
       trigger.setAttribute('aria-expanded', 'false');
-      control.querySelectorAll('[data-dm-theme]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+      options.hidden = true;
+      trigger.focus();
     }));
     document.addEventListener('pointerdown', event => {
       if (!control.contains(event.target)) { options.hidden = true; trigger.setAttribute('aria-expanded','false'); }
     });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && !options.hidden) { options.hidden = true; trigger.setAttribute('aria-expanded','false'); trigger.focus(); }
+    });
+    syncThemeChoices();
   }
   if (!document.getElementById('dm-theme-styles')) {
     const style = document.createElement('style');
     style.id = 'dm-theme-styles';
     style.textContent = `
-      :root[data-dm-theme="morning"]{--bg:#f3e9dc;--panel:#fff8ef;--panel-strong:#e9d6c2;--ink:#2a211d;--muted:#6f5b4d;--soft:#b9a28e;--line:rgba(65,43,29,.15);--dark:#2b211c;--dark-2:#392a24;--light:#fff8ef;--shadow:0 22px 60px rgba(83,49,26,.10);color-scheme:light}
-      :root[data-dm-theme="day"]{--bg:#f7f8fa;--panel:#fff;--panel-strong:#e6eaf0;--ink:#18202b;--muted:#596575;--soft:#a3adba;--line:rgba(24,32,43,.13);--dark:#17202b;--dark-2:#263345;--light:#f7f8fa;--shadow:0 22px 60px rgba(20,35,55,.09);color-scheme:light}
-      :root[data-dm-theme="night"]{--bg:#111113;--panel:#19191d;--panel-strong:#25252b;--ink:#f4f1ed;--muted:#b1adb0;--soft:#777279;--line:rgba(255,255,255,.14);--dark:#0a0a0c;--dark-2:#171216;--light:#f4f1ed;--shadow:0 25px 70px rgba(0,0,0,.32);color-scheme:dark}
+      :root[data-dm-theme="morning"]{--bg:#f2e9de;--panel:#fffaf3;--panel-strong:#e8d9c9;--ink:#29221d;--muted:#68584d;--soft:#b7a18e;--line:rgba(65,43,29,.16);--dark:#2b211c;--dark-2:#392a24;--light:#fffaf3;--shadow:0 22px 60px rgba(83,49,26,.10);color-scheme:light}
+      :root[data-dm-theme="day"]{--bg:#f3f6f8;--panel:#ffffff;--panel-strong:#e2e9ef;--ink:#182432;--muted:#536273;--soft:#9aa9b7;--line:rgba(24,36,50,.14);--dark:#17202b;--dark-2:#263345;--light:#f3f6f8;--shadow:0 22px 60px rgba(20,35,55,.09);color-scheme:light}
+      :root[data-dm-theme="night"]{--bg:#111216;--panel:#1b1d23;--panel-strong:#292c35;--ink:#f4f3f0;--muted:#b7bbc4;--soft:#818794;--line:rgba(255,255,255,.14);--dark:#0b0d12;--dark-2:#1a1c24;--light:#f4f3f0;--shadow:0 25px 70px rgba(0,0,0,.32);color-scheme:dark}
       :root[data-dm-theme="after-hours"]{--bg:#070b1b;--panel:#10172b;--panel-strong:#192442;--ink:#f0f4ff;--muted:#aebbd8;--soft:#66759c;--line:rgba(156,185,255,.2);--dark:#050817;--dark-2:#10152b;--light:#f0f4ff;--shadow:0 25px 70px rgba(0,0,0,.42);color-scheme:dark}
       :root[data-dm-theme="after-hours"] body{background:radial-gradient(ellipse at 18% 8%,rgba(57,84,181,.22),transparent 36%),radial-gradient(ellipse at 82% 28%,rgba(130,54,190,.16),transparent 32%),#070b1b;color:var(--ink)}
       :root[data-dm-theme="after-hours"] body>*{position:relative;z-index:1}
@@ -358,6 +379,55 @@
       @media(prefers-reduced-motion:reduce){.dm-theme-trigger,.dm-theme-options button{transition:none!important}}
     `;
     document.head.appendChild(style);
+  }
+
+  // Visitor-friendly appearance guide: visible on every page, readable in every theme, and mobile-safe.
+  if (!document.getElementById('dm-theme-guide-styles')) {
+    const guideStyle = document.createElement('style');
+    guideStyle.id = 'dm-theme-guide-styles';
+    guideStyle.textContent = `
+      .dm-theme-control{position:fixed!important;left:16px;bottom:18px;z-index:1400;display:block!important;margin:0!important;width:auto!important;padding:0!important;border:0!important}
+      .dm-theme-trigger{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:0 17px;border:1px solid rgba(255,255,255,.18);border-radius:999px;background:#17191f;color:#fff!important;box-shadow:0 8px 28px rgba(0,0,0,.2);font-size:12px;letter-spacing:.04em;text-transform:none}
+      .dm-theme-trigger::before{content:'◐';font-size:15px;line-height:1}
+      .dm-theme-trigger:hover,.dm-theme-trigger:focus-visible{background:#2c5144;color:#fff!important}
+      .dm-theme-guide{position:fixed!important;left:16px!important;bottom:74px!important;top:auto!important;right:auto!important;width:min(420px,calc(100vw - 32px));max-height:min(78dvh,650px);overflow:auto;padding:20px!important;border:1px solid var(--line)!important;border-radius:20px!important;background:var(--panel)!important;color:var(--ink)!important;box-shadow:0 24px 80px rgba(0,0,0,.28)!important}
+      .dm-theme-guide[hidden]{display:none!important}
+      .dm-theme-guide-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:14px}
+      .dm-theme-kicker{font-size:10px;font-weight:850;letter-spacing:.16em;color:var(--muted);margin:0 0 7px}
+      .dm-theme-guide-head h2{font-size:clamp(24px,5vw,32px);line-height:1.05;letter-spacing:-.045em;margin:0 0 8px;color:var(--ink)}
+      .dm-theme-intro{max-width:290px;font-size:13px;line-height:1.5;color:var(--muted);margin:0}
+      .dm-theme-guide-close{width:38px;height:38px;flex:0 0 38px;border:1px solid var(--line);border-radius:50%;background:var(--panel-strong);color:var(--ink);font-size:24px;cursor:pointer}
+      .dm-theme-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:16px 0}
+      .dm-theme-steps span{display:flex;align-items:center;gap:6px;padding:8px 7px;border:1px solid var(--line);border-radius:10px;color:var(--muted);font-size:10px;line-height:1.25}
+      .dm-theme-steps b{display:grid;place-items:center;flex:0 0 20px;width:20px;height:20px;border-radius:50%;background:#2c5144;color:#fff;font-size:11px}
+      .dm-theme-choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+      .dm-theme-choice{position:relative;display:flex;align-items:center;gap:10px;min-width:0;min-height:78px;padding:11px;text-align:left;border:1px solid var(--line);border-radius:13px;background:var(--bg);color:var(--ink);cursor:pointer;transition:border-color .16s,background-color .16s}
+      .dm-theme-choice:hover,.dm-theme-choice:focus-visible{border-color:#47866b;outline:2px solid rgba(71,134,107,.25);outline-offset:1px}
+      .dm-theme-choice.is-selected{border-color:#47866b;box-shadow:inset 0 0 0 1px #47866b}
+      .dm-theme-swatch{display:block;flex:0 0 38px;width:38px;height:48px;border-radius:8px;border:1px solid rgba(127,127,127,.25);background:#f0e4d5;position:relative;overflow:hidden}
+      .dm-theme-swatch::before,.dm-theme-swatch::after{content:'';position:absolute;left:6px;right:6px;height:4px;border-radius:3px;background:rgba(45,37,31,.55)}
+      .dm-theme-swatch::before{top:10px}.dm-theme-swatch::after{top:20px;right:13px}
+      .dm-swatch-morning{background:linear-gradient(145deg,#f8efe2,#e4cdb6)}
+      .dm-swatch-day{background:linear-gradient(145deg,#f8fafc,#dce6ef)}
+      .dm-swatch-night{background:linear-gradient(145deg,#24242b,#111116)}
+      .dm-swatch-night::before,.dm-swatch-night::after,.dm-swatch-space::before,.dm-swatch-space::after{background:rgba(235,238,255,.7)}
+      .dm-swatch-space{background:radial-gradient(circle at 70% 20%,#8a7ce0 0 2px,transparent 3px),linear-gradient(145deg,#111a38,#080b1b)}
+      .dm-theme-choice-copy{display:flex;flex-direction:column;gap:4px;min-width:0}
+      .dm-theme-choice-copy strong{font-size:13px;line-height:1.2;color:var(--ink)}
+      .dm-theme-choice-copy small{font-size:10px;line-height:1.35;color:var(--muted)}
+      .dm-theme-check{display:none;position:absolute;top:7px;right:8px;color:#2c7653;font-size:13px;font-weight:900}
+      .dm-theme-choice.is-selected .dm-theme-check{display:block}
+      .dm-theme-note{padding:12px 0 0!important;margin:0!important;max-width:none!important;font-size:11px!important;line-height:1.5!important;color:var(--muted)!important}
+      .dm-theme-saved{margin:12px 0 0;padding:10px 12px;border-radius:10px;background:var(--panel-strong);color:var(--muted);font-size:12px}
+      .dm-theme-saved strong{color:var(--ink)}
+      :root[data-dm-theme="morning"] .dm-theme-trigger{background:#49372b;color:#fff!important}
+      :root[data-dm-theme="day"] .dm-theme-trigger{background:#263b50;color:#fff!important}
+      :root[data-dm-theme="night"] .dm-theme-trigger{background:#29252d;color:#fff!important}
+      :root[data-dm-theme="after-hours"] .dm-theme-trigger{background:#19264d;color:#f0f4ff!important;border-color:rgba(168,199,255,.4)}
+      @media(max-width:520px){.dm-theme-control{left:12px;bottom:12px}.dm-theme-trigger{min-height:44px;padding:0 14px}.dm-theme-guide{left:8px!important;bottom:66px!important;width:calc(100vw - 16px);max-height:calc(100dvh - 84px);padding:16px!important}.dm-theme-steps{gap:4px}.dm-theme-steps span{font-size:9px;padding:7px 5px;gap:4px}.dm-theme-choice{padding:9px;gap:8px;min-height:74px}.dm-theme-swatch{flex-basis:30px;width:30px;height:42px}.dm-theme-choice-copy small{font-size:9px}}
+      @media(prefers-reduced-motion:reduce){.dm-theme-choice,.dm-theme-trigger{transition:none!important}}
+    `;
+    document.head.appendChild(guideStyle);
   }
 
   // Optional generated ambient synth: distinct daytime and nighttime soundscapes.
