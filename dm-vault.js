@@ -23,8 +23,9 @@
     dot.setAttribute('role','button');
     dot.setAttribute('tabindex','0');
     dot.setAttribute('aria-label','Check for a hidden frequency');
-    dot.title = 'Check for a hidden frequency';
+    dot.title = 'Some frequencies answer after five quick taps';
     dot.style.cursor = 'pointer';
+    trackButton.title = 'Some sessions answer after seven quick taps';
     const node = document.createElement('section');
     node.id = 'dm-vault-panel';
     node.className = 'dm-vault-panel';
