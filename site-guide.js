@@ -449,7 +449,6 @@
         <button type="button" class="dm-radio-track" aria-label="Open radio details" aria-expanded="false"><strong>DISTRICT MIND RADIO</strong><small>Drivin Crazy · John Michell</small></button>
         <button type="button" class="dm-radio-control-btn dm-radio-play" aria-label="Play music" title="Play music">Play</button>
         <button type="button" class="dm-radio-control-btn dm-radio-stop" aria-label="Stop music" title="Stop music">Stop</button>
-        <button type="button" class="dm-radio-control-btn dm-radio-next" aria-label="Next track" title="Next track" disabled>Next</button>
       </div>`;
     document.body.appendChild(radioControl);
     const radioPanel = radioControl.querySelector('.dm-radio-panel');
@@ -457,7 +456,6 @@
     const radioTrack = radioControl.querySelector('.dm-radio-track');
     const playButton = radioControl.querySelector('.dm-radio-play');
     const stopButton = radioControl.querySelector('.dm-radio-stop');
-    const nextButton = radioControl.querySelector('.dm-radio-next');
     const radioStatus = radioControl.querySelector('.dm-radio-footer span');
     let radioPlayer = null;
     let radioReady = false;
@@ -494,7 +492,6 @@
     });
     stopButton.addEventListener('click', () => { if (radioReady && radioPlayer) { radioPlayer.stopVideo(); updateRadioPlayButton(false); } });
     // Only one exact John Michell YouTube upload is verified so far; don't skip to an unrelated song.
-    nextButton.disabled = true;
     document.addEventListener('keydown', event => {
       if (event.key === 'Escape' && radioPanel.classList.contains('is-open')) setRadioDetailsOpen(false);
     });
