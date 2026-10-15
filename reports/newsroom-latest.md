@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-15T03:30:07.835Z
+Generated: 2026-10-15T04:04:55.362Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 231
+Stories discovered: 228
 
 1. **BGSU’s 47th annual New Music Festival returns - Sent-trib** — Google News — New Music — Thu, 15 Oct 2026 03:06:21 GMT
    https://news.google.com/rss/articles/CBMiigFBVV95cUxNdnFpb0o1ZkgwNGxHZjUtdG54cmJfc18xWWlucTBPWHQ0YklqLUd0Y0t5MzNMeVl2c01YRHFOdkhTQllMWEFzdDVDc3A5SWZjajFuR2pFQUljN0lHbVZoZXBkNUg3dW50Nm9aa0Y4OGlhRF9BaTFFWTNKb09rR01tZGdQMTduS21FS3c?oc=5
@@ -52,17 +52,17 @@ Stories discovered: 231
    https://www.billboard.com/pro/drakeo-the-ruler-settles-live-nation-lawsuit-stabbing/
 23. **Outkast sued a rapper for having a ‘nearly identical’ name. Was it necessary? - The Atlanta Journal-Constitution** — Google News — Hip-Hop — Wed, 14 Oct 2026 22:34:23 GMT
    https://news.google.com/rss/articles/CBMihgFBVV95cUxOeWkyMTBoLXpxWWZwbTJMTm45cDFTLVMxLWxHWFY4VHZJMnFYWE5LSTM4Z1RwaU1LVW9JMERiZ3Y5Nk9YQWZLa1Q3TDdkcFYzNDJaMWdKQzBLY2JySzZ6N0NYVEtwTG5CeFdKcmI0UFhkMHB1YXZIekNkdy1tUmxWNUwxS1B2dw?oc=5
-24. **Dana School of Music hosts new student open house - WFMJ** — Google News — New Music — Wed, 14 Oct 2026 22:28:00 GMT
-   https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazZpSzFXSXF1V1lFbl8taV9Kay16eUhQSnlDd1BnbkJTTTZvUzJVcDY5LXo5ZUw3VndNQkl4MnZHSnVEVnNuZmc3dTQ4N1NNcU9RYVJRTnZSZ0NSVU1aRXNZTFJqY2w1RkJLVmFlNHRTWW5CZFFJamJlckVOOGZyTWNXNXVsNklLbmZwRUU0cWtHcUxHN3ZfUXpraFlpZ1B1eWc4TVZZMUlkR2dsWE9GY1BSM2ZpUEx3UDFLYkE3SnlqX2pBX2NZUg?oc=5
-25. **Chance the Rapper Wins Lingering Legal Fight With Ex-Manager: ‘Owed Him Loyalty’** — Rolling Stone — Music — Wed, 14 Oct 2026 22:27:15 +0000
+24. **Chance the Rapper Wins Lingering Legal Fight With Ex-Manager: ‘Owed Him Loyalty’** — Rolling Stone — Music — Wed, 14 Oct 2026 22:27:15 +0000
    https://www.rollingstone.com/music/music-news/chance-the-rapper-legal-fight-manager-pat-corcoran-1235642805/
-26. **YouTube Music and Deezer add new AI music controls - Mashable** — Google News — New Music — Wed, 14 Oct 2026 22:25:13 GMT
+25. **YouTube Music and Deezer add new AI music controls - Mashable** — Google News — New Music — Wed, 14 Oct 2026 22:25:13 GMT
    https://news.google.com/rss/articles/CBMieEFVX3lxTE1XaGl2SkVoTmpLWE8tVVBOb1RNX3hFT3JhcFlxcXc3b1BtRUVGYzhfOTF5dkdBZ2JMbGRiaVhPcXFKRXJnbWpkZEo5RjE4WV9tdDFvVXhlNjRhZWJPcXMyWXM1R1VUUVZ3RWZoTjVNRGNGVkJGUU9GNg?oc=5
-27. **ASAP Rocky Calls Playboi Carti the 'Godfather' of New Rage-Vamp Music - Complex** — Google News — Hip-Hop — Wed, 14 Oct 2026 22:23:09 GMT
+26. **ASAP Rocky Calls Playboi Carti the 'Godfather' of New Rage-Vamp Music - Complex** — Google News — Hip-Hop — Wed, 14 Oct 2026 22:23:09 GMT
    https://news.google.com/rss/articles/CBMijwFBVV95cUxPVkJOSUxjOFJKOFZwTUZNUUVyOURuWXI0MWRmVE0tSHNoY0hRME4tMnpBRDhTLUxQbjVrVkdyekxkdXRhODNBd3BteklNYllmZmJ6bmtvYWlRU3NEeGFiSnY3anRsWWdVNkZwbDZhOEY0cTF6cEtudEotR3BKVnVodDNtQWUzVW9KdVdnX1RvUQ?oc=5
-28. **Zach Bryan Announces ‘Young Manhood and Other Donatable Organs’ Tour Across North America and Australia** — Rolling Stone — Music — Wed, 14 Oct 2026 22:14:37 +0000
+27. **Zach Bryan Announces ‘Young Manhood and Other Donatable Organs’ Tour Across North America and Australia** — Rolling Stone — Music — Wed, 14 Oct 2026 22:14:37 +0000
    https://www.rollingstone.com/music/music-news/zach-bryan-young-manhood-and-other-donatable-organs-tour-1235642872/
-29. **Local hip-hop artist hones his craft through personal storytelling and polished flows - capradio.org** — Google News — Hip-Hop — Wed, 14 Oct 2026 22:10:29 GMT
+28. **Local hip-hop artist hones his craft through personal storytelling and polished flows - capradio.org** — Google News — Hip-Hop — Wed, 14 Oct 2026 22:10:29 GMT
    https://news.google.com/rss/articles/CBMiywFBVV95cUxPSmUyYWRqX1ZsRGtUR280QmMyOXBNNHRxcEVoMnR4WFNwTFI2a3BDa2ZaS0FjeWRzY3JIMzVJSGJTTkNiS0dxSzRlcU9tYVE4QzUxRm56aFVWVXBDcWdYZUFzQnZFbm5ONzN2N0h2c0hBc1A5U0lyX1NSRnV1OHZ4UVdYRWRCS0VzZDkxZFZLbVl3WUloS25MT3hoN2xQeDViNTYtTURxUjRhM3A1cE5LY2JQVWtsRy13VTZPUDY1T29ReVpQSVZxeDNidw?oc=5
-30. **Woman Accusing Geordie Greep of Sexual Assault Alleges Singer Kissed Her While She Slept** — Rolling Stone — Music — Wed, 14 Oct 2026 21:53:17 +0000
+29. **Woman Accusing Geordie Greep of Sexual Assault Alleges Singer Kissed Her While She Slept** — Rolling Stone — Music — Wed, 14 Oct 2026 21:53:17 +0000
    https://www.rollingstone.com/music/music-news/geordie-greep-sexual-assault-allegations-detailed-victim-1235642784/
+30. **Meet Hugel: the French DJ Taking Electronic Music to New Heights (Exclusive) - People.com** — Google News — New Music — Wed, 14 Oct 2026 21:30:00 GMT
+   https://news.google.com/rss/articles/CBMingFBVV95cUxQU0lHNWZqTTNLRHV5WjVla2g3Z2Y1VWVsMHItNGY0V3NEMlJoQ3VyMUxqZFhUYnVPTlVsaGgyVnRBNjlueWtWTVBuaWZVY2EwWXdEUE5xYk1rTk10c2ZhSHk3Ri1FT1B4aVZtNWpwUUJrR1VJZ2JFWkZWeUN4REV0bUY1bjJPbE5xSW44eWRLV29XQ0gzQmhjcXBBSUt0QQ?oc=5
