@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-15T04:58:01.329Z
+Generated: 2026-10-15T05:27:03.856Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 229
+Stories discovered: 225
 
 1. **CAPITAL B GARY: Voting message changed to reach Hip-Hop Generation - the indiana citizen** — Google News — Hip-Hop — Thu, 15 Oct 2026 04:32:23 GMT
    https://news.google.com/rss/articles/CBMimAFBVV95cUxPc010SzFXTTEyRTN4Z0tXS0hGUXVIbzVaRVFsRzBzV1Y4SXdkdklvSzNMNUNTUkdVSUMyc3RNdlk5Rmh6dGMydGNMcU54ZHpOanA3Vk56ek1ZOEFhYkoxV1JaUGE5T3dhOC0tZ2lqcE5LV3FVc1QxLWg2WTV6bzUxNjUyaVAyQ040b0J4QUN0UVB4aEMyOGRGVg?oc=5
@@ -20,26 +20,26 @@ Stories discovered: 229
    https://news.google.com/rss/articles/CBMi5gFBVV95cUxObi1QZHBvb0lVTjVZZk84aG5NRHdmaVhpVXAtcHJaNzFEdUxFc3NzbXR5THNHdFZDNEF0QTVNLUNfRjZUc0g1eTBnNkJ5WVhKUjVyUmdJT0VWdzE5Y2gtU09URHUzNUJPUTBEUE1yOEQ0bWprY1NJSjdwVlRuS1ZTaDhTM2RCenhyVnllMGZJdWQxN1Q0TGhJQ0g5OVA0bXN1Z3VEUmZXRnAybUczNjFzSXFuMDc2RmQxeDZqdTdfTVBnMDVIcWhNYXVnWG5lQjlZVnpNZm1KQnZTejlxODZTMXJ0azN4dw?oc=5
 7. **Zach Bryan Announces First ‘in Depth’ Memoir To Be Released Alongside New Music - People.com** — Google News — New Music — Thu, 15 Oct 2026 02:18:28 GMT
    https://news.google.com/rss/articles/CBMiqAFBVV95cUxQa3VwX000QjhtSnpnamdveGNoNG5zcTRkdFpja2tqMjQ2alV5SnZFbGFTM3BqSzdtaUE3RGR2Y0YyVWVNSnRyVXlTSHk3R3FqR2p5X2E3Y1puS2ViR1VURzBfcVh2YlFVSFc4dUNWb2VnLUNwT3RKbUhhTGFvTkhOY0pRZWVURTNpdVpBVHg5ZHZTYTE2U2d0VGtlU1Fkcm9WOF83RlZiQ3k?oc=5
-8. **New Music Radar: PRETTY TALKS, Starleen and Spencer Rick - - Happy Mag** — Google News — New Music — Thu, 15 Oct 2026 01:45:32 GMT
-   https://news.google.com/rss/articles/CBMiakFVX3lxTE05Mkg4aFdSYVBwZWxKYTJlZ0Y2WFpheFNwZThNRlBWdWZBZ2NKVzBGUnpZUGc0OHJ6Zk5NQ1YxOWl6UG9hVE5HRHJ4QmZVeVJhbVVNWG4tQU9GQ3JZNHNSVkd2MWxtMXZ4dnc?oc=5
-9. **Former Recognition Music CEO Ben Katovsky Leaves Catalog Fund for Top Job at Pipeline** — Billboard — Thu, 15 Oct 2026 01:40:47 +0000
+8. **Former Recognition Music CEO Ben Katovsky Leaves Catalog Fund for Top Job at Pipeline** — Billboard — Thu, 15 Oct 2026 01:40:47 +0000
    https://www.billboard.com/pro/former-recognition-music-ceo-ben-katovsky-joins-pipeline/
-10. **Red Velvet’s Wendy to release new music next month - The Korea Herald** — Google News — New Music — Thu, 15 Oct 2026 01:37:13 GMT
+9. **Red Velvet’s Wendy to release new music next month - The Korea Herald** — Google News — New Music — Thu, 15 Oct 2026 01:37:13 GMT
    https://news.google.com/rss/articles/CBMiV0FVX3lxTE5sOG5zaFVuWGdCdUNYeDdaMmZ6amZTb0tWSE9TMC1ETEx2eGI2c3R4RjM3M3NHX1k3M3BnMzIzN3VXWGJLQXJXMFQ4TU12UUtzclVYN1dSVQ?oc=5
-11. **BTS exceeds 100m views with ‘Hooligan’ music video - The Korea Herald** — Google News — Hip-Hop — Thu, 15 Oct 2026 01:32:38 GMT
+10. **BTS exceeds 100m views with ‘Hooligan’ music video - The Korea Herald** — Google News — Hip-Hop — Thu, 15 Oct 2026 01:32:38 GMT
    https://news.google.com/rss/articles/CBMiV0FVX3lxTE91aWtTYlB2X1RmWjZmeWxtSGhIRmM5TnJZbVFSVndsbkRCVHVka2UtbF90cFpFVmFkMDBjZVA1cGNmN0p1alIxX3FfZ0NOX1pJTWFRZDlGZw?oc=5
-12. **Marsha Blackburn Roasted For Kendrick Lamar AI Slop Campaign Clip** — AllHipHop — Thu, 15 Oct 2026 01:02:11 +0000
+11. **Marsha Blackburn Roasted For Kendrick Lamar AI Slop Campaign Clip** — AllHipHop — Thu, 15 Oct 2026 01:02:11 +0000
    https://allhiphop.com/news/marsha-blackburn-draws-backlash-for-kendrick-lamar-ai-campaign-clip/
-13. **Thee Sinseers blend soul, ska and r&b into a heartfelt collection of ‘Love Stories’ - Prescott Daily Courier** — Google News — R&B — Thu, 15 Oct 2026 00:45:00 GMT
+12. **Thee Sinseers blend soul, ska and r&b into a heartfelt collection of ‘Love Stories’ - Prescott Daily Courier** — Google News — R&B — Thu, 15 Oct 2026 00:45:00 GMT
    https://news.google.com/rss/articles/CBMiigJBVV95cUxPejNvazI5TlBDeXYzb29KZ21TVlFsYUxXZ1dpcWVuSFBFTmx6TnU2bWlFSWc2eW12U1ZUSENBY2V6X1RlQ3JtS3FhYjN5ZU5yZWdaRGtfZ1VDejloV1p2WTEyZWtmdXB6dGFWT3hoU3hWSm56cFFJQ2VFZFBsTVVuM0drdzNjLXpGV2xZN0lmYzJWNjBCSmlVTGJfQlBhemJ0MExnWWl3UTBrWGFQTWNUdjZ0cnFLaHJ2Slg3M2ZINFFMV1RFWmJ6RWpSUWw1VWJfYktub3RORjNYejZsTnJMcnZVbGppRjBJYXlhRkJUWmRiNmhlek5VVHN0YW8ta3djLXFfdWdyUHlnUQ?oc=5
-14. **Yurina Kawaguchi Releases New Magic Knight Rayearth Anime Ending Song Music Video - Crunchyroll** — Google News — New Music — Thu, 15 Oct 2026 00:31:00 GMT
+13. **Yurina Kawaguchi Releases New Magic Knight Rayearth Anime Ending Song Music Video - Crunchyroll** — Google News — New Music — Thu, 15 Oct 2026 00:31:00 GMT
    https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUkNLVkEwMVlqSWFkXzFueWt4bHV3eDFxcFFldjJIOXhmNzZwcmR4T1hWQzhLcmlxeFlITFpzLW9OOUhrcndQbmhFME5UWW1HZnRWaTVFcmVIRFhBQ0cwRHRrdVFod1l2My02cU51X3dSazkzNXVqYkdmX1ZKVW51MkJjU013Rml1QVZYU3YxbjBsMHd6NDk3Ylh2aC0wNFQzUTNXZGl3QTBpd1lyd2JVQlZnZVB6TmJyUlEzVUE4MzU?oc=5
-15. **FILTH Got Time Today With New Music Video For "SHELL TOWN" - The Nu-Metal Agenda** — Google News — New Music — Thu, 15 Oct 2026 00:27:36 GMT
+14. **FILTH Got Time Today With New Music Video For "SHELL TOWN" - The Nu-Metal Agenda** — Google News — New Music — Thu, 15 Oct 2026 00:27:36 GMT
    https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNUY4Mnp4QUFmUTRnVDdsZDRSd3ota0VVYThXTFVkeEU4NWswMkM5RlE0TmNyZXhqQ0dVa0J5cEY0bGFVc2JWZ3pJQUlhRE1LSngwOExhUHZGUnY1VTVKRXFRLWdoQ0V1WVJiaGw4TDJGQ1VVVVo5RFJJUW9qbUtuaXRnZlNpekJjengw?oc=5
-16. **Drakeo the Ruler’s Mom Settles With Live Nation Over Rapper’s Killing at Music Festival** — Rolling Stone — Music — Thu, 15 Oct 2026 00:26:23 +0000
+15. **Drakeo the Ruler’s Mom Settles With Live Nation Over Rapper’s Killing at Music Festival** — Rolling Stone — Music — Thu, 15 Oct 2026 00:26:23 +0000
    https://www.rollingstone.com/music/music-news/drakeo-the-ruler-mom-settles-live-nation-wrongful-death-1235642809/
-17. **Music-Related Legislation Before Congress Right Now: Full List of Bills (UPDATING)** — Billboard — Thu, 15 Oct 2026 00:17:00 +0000
+16. **Music-Related Legislation Before Congress Right Now: Full List of Bills (UPDATING)** — Billboard — Thu, 15 Oct 2026 00:17:00 +0000
    https://www.billboard.com/lists/music-related-bills-congress-now-list-legislation/
+17. **Major Shakeup at Universal Music Group with New Wave of Layoffs - Digital Music News** — Google News — New Music — Wed, 14 Oct 2026 23:51:36 GMT
+   https://news.google.com/rss/articles/CBMikAFBVV95cUxQLXJRVXhBZlh6SDIzai1nSWVteUZvendJVklvbGJURl93OTdTLTQzZjBYTGVnY3ZFOTBZbTBBVXhIc3B1TGhRd0FGc00waU5sbDFIVC11S3RVODNrQzZtRGJaaXYxMjZjM2s5ZnpMVjNMQVR3bWZtOVJwNEZKeVVOWktjb3ZOTUxScFVmcXRTdkM?oc=5
 18. **Best Bets: Potrero Hill R&B Fest, Julian Lage, Judy Collins, Telegraph Quartet, Kent Nagano - Local News Matters** — Google News — R&B — Wed, 14 Oct 2026 23:40:59 GMT
    https://news.google.com/rss/articles/CBMixAFBVV95cUxPOEVZdzdaV0pMWktVaUgzU1d2YWdfREN0eFhER1hfRWVaYnVYVXJheVZYdFlpcDRBVmNLc0ZfTEM1YlZVVERPSHdoRHRGX3lkVVFPN1BqclVVai1LblNJTmFGbmRrTFJjTzFMdEplVVlVdFNjcjVya0tNaTlCTkJ4MFF3M2tBdk0zWXdIUHJuZ21aUmNSUGdrTlNaaFAwRkZDUkN6akNIQ25OTDFEQkg4TWlocWdlazVHUVhYbDh3ZWdILVF4?oc=5
 19. **YouTube Rolls Out New Labeling System for AI-Generated Music - CNET** — Google News — New Music — Wed, 14 Oct 2026 23:18:38 GMT
