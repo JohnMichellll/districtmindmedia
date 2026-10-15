@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-15T06:37:25.346Z",
-  "errors": [],
+  "updatedAt": "2026-10-15T07:34:36.955Z",
+  "errors": [
+    {
+      "source": "AllHipHop",
+      "tier": 1,
+      "status": "error",
+      "stories": 0,
+      "latencyMs": 8001,
+      "error": "TIMEOUT",
+      "workflow": "newsroom-operator"
+    }
+  ],
   "resolved": [
     {
       "source": "TMZ",
