@@ -673,4 +673,13 @@
     }
   }, true);
 
+  // Load the optional two-track Vault Easter egg on every page.
+  if (!document.getElementById('dm-vault-script')) {
+    const vaultScript = document.createElement('script');
+    vaultScript.id = 'dm-vault-script';
+    vaultScript.src = '/dm-vault.js?v=20261015-vault';
+    vaultScript.defer = true;
+    document.head.appendChild(vaultScript);
+  }
+
 })();
