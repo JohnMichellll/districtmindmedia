@@ -458,6 +458,7 @@
     const playButton = radioControl.querySelector('.dm-radio-play');
     const stopButton = radioControl.querySelector('.dm-radio-stop');
     const nextButton = radioControl.querySelector('.dm-radio-next');
+    const radioStatus = radioControl.querySelector('.dm-radio-footer span');
     let radioPlayer = null;
     let radioReady = false;
     let radioPlaying = false;
@@ -475,10 +476,21 @@
     };
     radioTrack.addEventListener('click', () => setRadioDetailsOpen(!radioPanel.classList.contains('is-open')));
     radioClose.addEventListener('click', () => setRadioDetailsOpen(false));
+    let radioPlayRequested = false;
     playButton.addEventListener('click', () => {
-      if (!radioReady || !radioPlayer) { setRadioDetailsOpen(true); return; }
+      setRadioDetailsOpen(true);
+      if (!radioReady || !radioPlayer) {
+        radioPlayRequested = true;
+        playButton.textContent = '…';
+        playButton.title = 'Loading music';
+        playButton.setAttribute('aria-label', 'Loading music');
+        return;
+      }
       if (radioPlaying) radioPlayer.pauseVideo();
-      else { setRadioDetailsOpen(true); radioPlayer.playVideo(); }
+      else {
+        try { radioPlayer.playVideo(); }
+        catch (_) { radioStatus.textContent = 'Playback could not start. Try opening the track on YouTube.'; }
+      }
     });
     stopButton.addEventListener('click', () => { if (radioReady && radioPlayer) { radioPlayer.stopVideo(); updateRadioPlayButton(false); } });
     // Only one exact John Michell YouTube upload is verified so far; don't skip to an unrelated song.
@@ -500,14 +512,14 @@
         .dm-radio-control-btn{width:32px;height:32px;flex:0 0 32px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.2);border-radius:50%;background:rgba(255,255,255,.08);color:#fff;font-size:14px;cursor:pointer;touch-action:manipulation}
         .dm-radio-control-btn:hover:not(:disabled),.dm-radio-control-btn:focus-visible{background:#277d49;outline:2px solid #52df8b;outline-offset:2px}
         .dm-radio-control-btn:disabled{opacity:.35;cursor:not-allowed}
-        .dm-radio-panel{position:absolute;right:0;bottom:64px;width:min(320px,calc(100vw - 24px));padding:12px;border:1px solid var(--line,#d9d9d1);border-radius:16px;background:var(--surface,#f4f4f0);color:var(--ink,#171715);box-shadow:0 18px 45px rgba(0,0,0,.25);opacity:0;visibility:hidden;transform:translateY(8px) scale(.98);pointer-events:none;transition:opacity .18s ease,transform .18s ease,visibility .18s}
+        .dm-radio-panel{position:absolute;right:0;bottom:58px;width:min(260px,calc(100vw - 24px));padding:10px;border:1px solid var(--line,#d9d9d1);border-radius:16px;background:var(--surface,#f4f4f0);color:var(--ink,#171715);box-shadow:0 18px 45px rgba(0,0,0,.25);opacity:0;visibility:hidden;transform:translateY(8px) scale(.98);pointer-events:none;transition:opacity .18s ease,transform .18s ease,visibility .18s}
         .dm-radio-panel.is-open{opacity:1;visibility:visible;transform:translateY(0) scale(1);pointer-events:auto}
         .dm-radio-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:10px}
-        .dm-radio-heading h2{font-size:17px;line-height:1.15;margin:0 0 5px;color:var(--ink,#171715)}
+        .dm-radio-heading h2{font-size:14px;line-height:1.15;margin:0 0 5px;color:var(--ink,#171715)}
         .dm-radio-heading p:last-child{font-size:11px;line-height:1.4;margin:0;color:var(--muted,#555)}
         .dm-radio-kicker{font-size:8px;letter-spacing:.14em;font-weight:800;margin:0 0 5px;color:#287849}
         .dm-radio-close{flex:0 0 30px;width:30px;height:30px;border-radius:50%;border:1px solid var(--line,#d9d9d1);background:var(--panel,#fff);color:var(--ink,#171715);font-size:21px;line-height:1;cursor:pointer}
-        .dm-radio-embed{width:100%;aspect-ratio:16/9;min-height:180px;border-radius:10px;overflow:hidden;background:#000}
+        .dm-radio-embed{width:100%;aspect-ratio:16/9;min-height:120px;border-radius:10px;overflow:hidden;background:#000}
         .dm-radio-embed iframe{display:block;width:100%;height:100%;border:0}
         .dm-radio-footer{display:flex;flex-direction:column;gap:7px;margin-top:9px;font-size:10px;line-height:1.4;color:var(--muted,#555)}
         .dm-radio-footer a{font-weight:800;color:var(--ink,#171715);text-decoration:underline;text-underline-offset:3px}
@@ -515,7 +527,7 @@
         :root[data-dm-theme="after-hours"] .dm-radio-heading h2,:root[data-dm-theme="after-hours"] .dm-radio-close,:root[data-dm-theme="after-hours"] .dm-radio-footer a{color:#f0f4ff}
         :root[data-dm-theme="after-hours"] .dm-radio-close{background:#182344;border-color:#34436a}
         @keyframes dm-radio-pulse{0%,100%{box-shadow:0 0 0 3px rgba(82,223,139,.1)}50%{box-shadow:0 0 0 5px rgba(82,223,139,.22)}}
-        @media(max-width:520px){.dm-radio-control{right:8px;bottom:8px;max-width:calc(100vw - 16px)}.dm-radio-dock{gap:6px;min-height:48px;padding:6px 7px;border-radius:16px}.dm-radio-track strong{font-size:8px}.dm-radio-track small{font-size:9px}.dm-radio-control-btn{width:30px;height:30px;flex-basis:30px}.dm-radio-panel{bottom:58px;width:calc(100vw - 16px);padding:10px}.dm-radio-embed{min-height:170px}}
+        @media(max-width:520px){.dm-radio-control{right:8px;bottom:8px;max-width:calc(100vw - 16px)}.dm-radio-dock{gap:6px;min-height:48px;padding:6px 7px;border-radius:16px}.dm-radio-track strong{font-size:8px}.dm-radio-track small{font-size:9px}.dm-radio-control-btn{width:30px;height:30px;flex-basis:30px}.dm-radio-panel{bottom:58px;width:calc(100vw - 16px);padding:10px}.dm-radio-embed{min-height:120px}}
         @media(prefers-reduced-motion:reduce){.dm-radio-control *{transition:none!important;animation:none!important}}
       `;
       document.head.appendChild(radioStyle);
@@ -523,13 +535,28 @@
     const createRadioPlayer = () => {
       if (!window.YT || !window.YT.Player || radioPlayer) return;
       radioPlayer = new window.YT.Player('dm-radio-youtube-player', {
-        width: '320', height: '180', videoId: 'Ytt_s7M9TeQ',
+        width: '260', height: '146', videoId: 'Ytt_s7M9TeQ',
         playerVars: {playsinline:1, rel:0, origin:window.location.origin},
         events: {
-          onReady: () => { radioReady = true; },
+          onReady: () => {
+            radioReady = true;
+            playButton.textContent = '▶';
+            playButton.title = 'Play music';
+            playButton.setAttribute('aria-label', 'Play music');
+            if (radioPlayRequested) {
+              radioPlayRequested = false;
+              try { radioPlayer.playVideo(); }
+              catch (_) { if (radioStatus) radioStatus.textContent = 'Playback could not start. Open the track on YouTube.'; }
+            }
+          },
           onStateChange: event => {
             if (event.data === window.YT.PlayerState.PLAYING) updateRadioPlayButton(true);
             if ([window.YT.PlayerState.PAUSED, window.YT.PlayerState.ENDED, window.YT.PlayerState.CUED].includes(event.data)) updateRadioPlayButton(false);
+          },
+          onError: () => {
+            radioPlayRequested = false;
+            updateRadioPlayButton(false);
+            if (radioStatus) radioStatus.textContent = 'This track could not play here. Open it on YouTube or use the Apple Music catalog.';
           }
         }
       });
