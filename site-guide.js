@@ -400,9 +400,9 @@
       .dm-theme-steps span{display:flex;align-items:center;gap:6px;padding:8px 7px;border:1px solid var(--line);border-radius:10px;color:var(--muted);font-size:10px;line-height:1.25}
       .dm-theme-steps b{display:grid;place-items:center;flex:0 0 20px;width:20px;height:20px;border-radius:50%;background:#2c5144;color:#fff;font-size:11px}
       .dm-theme-choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
-      .dm-theme-choice{position:relative;display:flex;align-items:center;gap:10px;min-width:0;min-height:78px;padding:11px;text-align:left;border:1px solid var(--line);border-radius:13px;background:var(--bg);color:var(--ink);cursor:pointer;transition:border-color .16s,background-color .16s}
-      .dm-theme-choice:hover,.dm-theme-choice:focus-visible{border-color:#47866b;outline:2px solid rgba(71,134,107,.25);outline-offset:1px}
-      .dm-theme-choice.is-selected{border-color:#47866b;box-shadow:inset 0 0 0 1px #47866b}
+      .dm-theme-options .dm-theme-choice{position:relative;display:flex;width:auto;align-items:center;gap:10px;min-width:0;min-height:78px;padding:11px;text-align:left;border:1px solid var(--line);border-radius:13px;background:var(--bg);color:var(--ink);cursor:pointer;transition:border-color .16s,background-color .16s}
+      .dm-theme-options .dm-theme-choice:hover,.dm-theme-options .dm-theme-choice:focus-visible{background:var(--panel-strong);color:var(--ink);border-color:#47866b;outline:2px solid rgba(71,134,107,.25);outline-offset:1px}
+      .dm-theme-options .dm-theme-choice.is-selected{background:var(--bg);color:var(--ink);border-color:#47866b;box-shadow:inset 0 0 0 1px #47866b}
       .dm-theme-swatch{display:block;flex:0 0 38px;width:38px;height:48px;border-radius:8px;border:1px solid rgba(127,127,127,.25);background:#f0e4d5;position:relative;overflow:hidden}
       .dm-theme-swatch::before,.dm-theme-swatch::after{content:'';position:absolute;left:6px;right:6px;height:4px;border-radius:3px;background:rgba(45,37,31,.55)}
       .dm-theme-swatch::before{top:10px}.dm-theme-swatch::after{top:20px;right:13px}
