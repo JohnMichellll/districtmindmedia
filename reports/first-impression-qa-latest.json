@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T22:44:07.985Z",
+  "generatedAt": "2026-10-16T04:33:25.737Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
@@ -12,7 +12,7 @@
     {
       "route": "/",
       "status": 200,
-      "ms": 1341,
+      "ms": 1372,
       "title": "District Mind Media — The Culture in Motion",
       "bodyChars": 319,
       "hasNav": true,
@@ -76,7 +76,7 @@
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 1157,
+      "ms": 1107,
       "title": "Newsroom — District Mind Media",
       "bodyChars": 2507,
       "hasNav": true,
@@ -202,7 +202,7 @@
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1098,
+      "ms": 1087,
       "title": "District Mind Media — Artist Intelligence Hub",
       "bodyChars": 1646,
       "hasNav": true,
@@ -276,7 +276,7 @@
     {
       "route": "/releases.html",
       "status": 200,
-      "ms": 1031,
+      "ms": 1052,
       "title": "District Mind Media | Releases",
       "bodyChars": 2300,
       "hasNav": true,
@@ -430,7 +430,7 @@
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 1025,
+      "ms": 1032,
       "title": "Local Watch — District Mind Media",
       "bodyChars": 951,
       "hasNav": true,
@@ -497,7 +497,7 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 1068,
+      "ms": 1039,
       "title": "Wayfinder Music AI — District Mind Media",
       "bodyChars": 1635,
       "hasNav": true,
@@ -571,9 +571,9 @@
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1065,
+      "ms": 1201,
       "title": "Radar — District Mind Media",
-      "bodyChars": 649,
+      "bodyChars": 792,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -583,6 +583,7 @@
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/radio",
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
@@ -627,7 +628,7 @@
           "pass": true
         }
       ],
-      "internalLinkCount": 17
+      "internalLinkCount": 18
     },
     {
       "type": "console-error",
@@ -640,7 +641,7 @@
       "status": 200,
       "ms": 1039,
       "title": "District Mind Media | Culture",
-      "bodyChars": 1727,
+      "bodyChars": 1870,
       "hasNav": true,
       "images": [],
       "visualAssets": [
@@ -681,6 +682,7 @@
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/radio",
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
@@ -725,7 +727,7 @@
           "pass": true
         }
       ],
-      "internalLinkCount": 12
+      "internalLinkCount": 13
     },
     {
       "type": "console-error",
@@ -736,9 +738,9 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1007,
+      "ms": 1030,
       "title": "District Mind Media | About",
-      "bodyChars": 1573,
+      "bodyChars": 1716,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -748,6 +750,7 @@
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/radio",
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
@@ -790,7 +793,7 @@
           "pass": true
         }
       ],
-      "internalLinkCount": 13
+      "internalLinkCount": 14
     },
     {
       "type": "console-error",
@@ -801,9 +804,9 @@
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 1002,
+      "ms": 1034,
       "title": "District Mind Media | Contact",
-      "bodyChars": 572,
+      "bodyChars": 715,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -813,6 +816,7 @@
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/radio",
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
@@ -851,7 +855,7 @@
           "pass": true
         }
       ],
-      "internalLinkCount": 12
+      "internalLinkCount": 13
     },
     {
       "type": "console-error",
@@ -862,9 +866,9 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 1039,
+      "ms": 1050,
       "title": "District Mind Academy — Class 001",
-      "bodyChars": 3600,
+      "bodyChars": 3743,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -874,6 +878,7 @@
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/radio",
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
@@ -923,7 +928,7 @@
           "pass": true
         }
       ],
-      "internalLinkCount": 18
+      "internalLinkCount": 19
     },
     {
       "type": "console-error",
@@ -934,9 +939,9 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 997,
+      "ms": 1016,
       "title": "Academy 001 — District Mind",
-      "bodyChars": 1003,
+      "bodyChars": 1146,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -946,6 +951,7 @@
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/radio",
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
@@ -991,7 +997,7 @@
           "pass": true
         }
       ],
-      "internalLinkCount": 16
+      "internalLinkCount": 17
     },
     {
       "type": "console-error",
@@ -1002,9 +1008,9 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 1010,
+      "ms": 1020,
       "title": "Editorial — District Mind Media",
-      "bodyChars": 1112,
+      "bodyChars": 1255,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -1014,6 +1020,7 @@
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/radio",
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
@@ -1064,7 +1071,7 @@
           "pass": true
         }
       ],
-      "internalLinkCount": 19
+      "internalLinkCount": 20
     },
     {
       "type": "console-error",
@@ -1075,9 +1082,9 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1065,
+      "ms": 1037,
       "title": "Editorial Policy | District Mind Media",
-      "bodyChars": 2959,
+      "bodyChars": 3102,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -1087,6 +1094,7 @@
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/radio",
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
@@ -1144,7 +1152,7 @@
           "pass": true
         }
       ],
-      "internalLinkCount": 12
+      "internalLinkCount": 13
     },
     {
       "type": "console-error",
@@ -1155,9 +1163,9 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1046,
+      "ms": 1041,
       "title": "Contributors — District Mind Media",
-      "bodyChars": 1155,
+      "bodyChars": 1298,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -1167,6 +1175,7 @@
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/radio",
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
@@ -1213,7 +1222,7 @@
           "pass": true
         }
       ],
-      "internalLinkCount": 17
+      "internalLinkCount": 18
     },
     {
       "type": "console-error",
@@ -1224,9 +1233,9 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 1055,
+      "ms": 1038,
       "title": "Explore — District Mind Media",
-      "bodyChars": 959,
+      "bodyChars": 1199,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -1236,6 +1245,7 @@
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/radio",
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
@@ -1246,6 +1256,7 @@
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/releases",
         "https://district-mind-media.pages.dev/wayfinder",
+        "https://district-mind-media.pages.dev/radio",
         "https://district-mind-media.pages.dev/culture",
         "https://district-mind-media.pages.dev/about",
         "https://district-mind-media.pages.dev/contact",
@@ -1286,7 +1297,7 @@
           "pass": true
         }
       ],
-      "internalLinkCount": 16
+      "internalLinkCount": 17
     },
     {
       "type": "console-error",
@@ -1297,9 +1308,9 @@
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 1011,
+      "ms": 1015,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
-      "bodyChars": 2901,
+      "bodyChars": 3044,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -1309,6 +1320,7 @@
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/radio",
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
@@ -1356,7 +1368,7 @@
           "pass": true
         }
       ],
-      "internalLinkCount": 17
+      "internalLinkCount": 18
     },
     {
       "type": "console-error",
@@ -1367,9 +1379,9 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 1028,
+      "ms": 1060,
       "title": "John Michell — District Mind Media",
-      "bodyChars": 2158,
+      "bodyChars": 2301,
       "hasNav": true,
       "images": [
         {
@@ -1416,6 +1428,7 @@
         "https://district-mind-media.pages.dev/newsroom",
         "https://district-mind-media.pages.dev/radar",
         "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/radio",
         "https://district-mind-media.pages.dev/wayfinder",
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/culture",
@@ -1459,7 +1472,7 @@
           "pass": true
         }
       ],
-      "internalLinkCount": 12
+      "internalLinkCount": 13
     }
   ],
   "linkFailures": [],
