@@ -1,9 +1,51 @@
 {
-  "generatedAt": "2026-10-16T19:22:05.934Z",
+  "generatedAt": "2026-10-16T19:53:42.631Z",
   "operator": "District Mind AI Newsroom",
   "status": "READY_FOR_EDITOR",
-  "storyCount": 222,
+  "storyCount": 224,
   "stories": [
+    {
+      "title": "Billboard’s Music Industry Events Calendar",
+      "description": "",
+      "url": "https://www.billboard.com/pro/music-industry-events-calendar-festivals-awards-conferences/",
+      "date": "Fri, 16 Oct 2026 19:44:00 +0000",
+      "source": "Billboard"
+    },
+    {
+      "title": "Bogota’s Hip Hop al Parque 2026: Dates, Lineup and What to Expect - ColombiaOne.com",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9ubE9Xcm10US1qeF8zeDItV0xUMWdFR0VRbDE5bVlNOVhzMXZzc3FQMFVLc21Xandpd0RkMS1ubHA0WmpkZV9TbGFHX2hHQ0djSzh5eHRrSlM0WklFdVRVZkl6NE1YN0phTWtzaw?oc=5\" target=\"_blank\">Bogota’s Hip Hop al Parque 2026: Dates, Lineup and What to Expect</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ColombiaOne.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ubE9Xcm10US1qeF8zeDItV0xUMWdFR0VRbDE5bVlNOVhzMXZzc3FQMFVLc21Xandpd0RkMS1ubHA0WmpkZV9TbGFHX2hHQ0djSzh5eHRrSlM0WklFdVRVZkl6NE1YN0phTWtzaw?oc=5",
+      "date": "Fri, 16 Oct 2026 19:40:00 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Nas urges music industry to honor and pay the Black artists who shaped generations - TheGrio",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxNSkRvUkQxN2llWTVsMl9BZU1IN1hLRktnWlZzalN0WDZMekxNSXVmb1ZVTzQ1blBfS3l4V1dmRElWeTBkWjZ1elJrM0QzV3pNbnZpM1pxYVoySWd4YkE4SzlHQ241ZjVGa2w5VlZoaE9GYVExWmNocVNEenRTeVlPUEhvQUI?oc=5\" target=\"_blank\">Nas urges music industry to honor and pay the Black artists who shaped generations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TheGrio</font>",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSkRvUkQxN2llWTVsMl9BZU1IN1hLRktnWlZzalN0WDZMekxNSXVmb1ZVTzQ1blBfS3l4V1dmRElWeTBkWjZ1elJrM0QzV3pNbnZpM1pxYVoySWd4YkE4SzlHQ241ZjVGa2w5VlZoaE9GYVExWmNocVNEenRTeVlPUEhvQUI?oc=5",
+      "date": "Fri, 16 Oct 2026 19:34:52 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
+      "title": "Olivia Rodrigo Says This Kendrick Lamar Song Inspired Her When Writing ‘Expectations’: ‘It’s a Mantra’",
+      "description": "",
+      "url": "https://www.billboard.com/music/pop/olivia-rodrigo-kendrick-lamar-expecations-chappell-roan-1236362012/",
+      "date": "Fri, 16 Oct 2026 19:34:42 +0000",
+      "source": "Billboard"
+    },
+    {
+      "title": "MEOVV on How Music Can Help You ‘Gaslight Yourself’ Into Feeling Confident",
+      "description": "",
+      "url": "https://www.billboard.com/music/pop/meovv-tima-interview-1236362123/",
+      "date": "Fri, 16 Oct 2026 19:22:04 +0000",
+      "source": "Billboard"
+    },
+    {
+      "title": "Hand of Giants armed with new energetic music - Local Spins",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSTdVQXFKdUMtSnFxN3BUV2NVS1JWQVhXVkNRajJSTDNhc1pWNVlMc29WRGhPbUVjNWpNcG1SbFZXT2swb0puRTlhclBsc0l6dGdjSUd0ZEt3RDdySTNWZ3BuS0lMWWVvRnV6WW9udW5LU0cyTzhuYU9fWVo4NURYREQ0UmkxTzVZ?oc=5\" target=\"_blank\">Hand of Giants armed with new energetic music</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Local Spins</font>",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSTdVQXFKdUMtSnFxN3BUV2NVS1JWQVhXVkNRajJSTDNhc1pWNVlMc29WRGhPbUVjNWpNcG1SbFZXT2swb0puRTlhclBsc0l6dGdjSUd0ZEt3RDdySTNWZ3BuS0lMWWVvRnV6WW9udW5LU0cyTzhuYU9fWVo4NURYREQ0UmkxTzVZ?oc=5",
+      "date": "Fri, 16 Oct 2026 19:21:30 GMT",
+      "source": "Google News — New Music"
+    },
     {
       "title": "Jawan Channels Outkast on Seductive New Single “Fresher Than Us” - YouKnowIGotSoul.com",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOSENBSDNjcTRGbHFMSHh4SVhFQWk5LUFISzV6UU0zanBPMUpjOEkxc1NuamF1anp1TVlrTnA0eUpvSUVYMnI3QUJPOTlTMXdtbG15d25rbGZiRWRvbmx4T05kQ21tVHZsbnhWNmJmX1N4TmRfaHMyRmtCR0R2dVBlNW0tZm1JQlZLSVJaeGJ1RDFzVVNR?oc=5\" target=\"_blank\">Jawan Channels Outkast on Seductive New Single “Fresher Than Us”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YouKnowIGotSoul.com</font>",
@@ -17,6 +59,13 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY1hTVHZHbG43bjQwRTdDUmNvcjRfZDV6c2JhZl9jN3ZqeTJaM0hyVTh3VE1DZzJRTHcxb2thekt2bGxIY3lXOU5pMnNHUUZEU3hPWkNLb1RTMjhUemJkcGdSX2N0SkhnX2tkQUlpRERKMktFeW1MQXZuemItalVXSw?oc=5",
       "date": "Fri, 16 Oct 2026 19:06:08 GMT",
       "source": "Google News — New Music"
+    },
+    {
+      "title": "Rising Girl Group H3RIZON Flips the Romantic Script With Playful New Single “Arm Candy” - YouKnowIGotSoul.com",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNT2taVldhOXBCcGlucHRiUWR1WU84dVBXSVVhOFRBX1kyaWRfVktkVkJCVmtMOU52Y2pFWFczc2FreU1wNWpEV2F0dk1OMzcteGhrQ2JDc1YwRm9zNlUtdjhLUnNmOVA4VWJZVUJ0OUlJQUliYkZKYkwyYVNMaHBOWmp3Y1c4aFh4QVlMYno3aHBDWmRBeTBLa3RnaEZqdkhuR2h0V0VZQl9EYlhFQW55OEk5OA?oc=5\" target=\"_blank\">Rising Girl Group H3RIZON Flips the Romantic Script With Playful New Single “Arm Candy”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YouKnowIGotSoul.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT2taVldhOXBCcGlucHRiUWR1WU84dVBXSVVhOFRBX1kyaWRfVktkVkJCVmtMOU52Y2pFWFczc2FreU1wNWpEV2F0dk1OMzcteGhrQ2JDc1YwRm9zNlUtdjhLUnNmOVA4VWJZVUJ0OUlJQUliYkZKYkwyYVNMaHBOWmp3Y1c4aFh4QVlMYno3aHBDWmRBeTBLa3RnaEZqdkhuR2h0V0VZQl9EYlhFQW55OEk5OA?oc=5",
+      "date": "Fri, 16 Oct 2026 19:02:33 GMT",
+      "source": "Google News — R&B"
     },
     {
       "title": "Slick Rick Warns of ‘Demons’ Threatening Hip-Hop - EURweb",
@@ -58,20 +107,6 @@
       "description": "",
       "url": "https://www.billboard.com/pro/apple-music-head-trip-livestream-fest-global-how/",
       "date": "Fri, 16 Oct 2026 18:39:54 +0000",
-      "source": "Billboard"
-    },
-    {
-      "title": "Watch Leyla Ebrahimi’s New Music Video For ‘star’ - uDiscoverMusic",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1kQVlJX0gxVVZZalJReWo5QklzUGN0dmZyVkp2Z1M0S2JjSTl1amgxNTB0RnI0OERRTmZQZGZIWUFUaWlVR3FacVBNSC04bVlOYzVCRlI1dlpLUjhPVG5Qd0VpNkJpMXFRTHdSUmhfQQ?oc=5\" target=\"_blank\">Watch Leyla Ebrahimi’s New Music Video For ‘star’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">uDiscoverMusic</font>",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kQVlJX0gxVVZZalJReWo5QklzUGN0dmZyVkp2Z1M0S2JjSTl1amgxNTB0RnI0OERRTmZQZGZIWUFUaWlVR3FacVBNSC04bVlOYzVCRlI1dlpLUjhPVG5Qd0VpNkJpMXFRTHdSUmhfQQ?oc=5",
-      "date": "Fri, 16 Oct 2026 18:25:00 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "TOMORROW X TOGETHER, aespa, RIIZE, MEOVV & More Hang Out With Billboard at TIMA 2026 | All Access",
-      "description": "",
-      "url": "https://www.billboard.com/video/billboard-tima-2026-all-access/",
-      "date": "Fri, 16 Oct 2026 18:17:49 +0000",
       "source": "Billboard"
     },
     {
@@ -236,13 +271,6 @@
       "source": "AllHipHop"
     },
     {
-      "title": "Tyla Is Investing in the Next Generation of Music Stars With New Scholarship - foxy99.com",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMFdOZ0ZCdHJaODVpWk1wWU5XVXNSZDkyQjdGU2pJYmtSWFZrVHhxbmk3ZnItbXBtblVtMEIzWUpJSFJST2NyQXdzQ0lKSm1GY2lSLXAxSlJ3NWZCdFdzVmJTWDFYU2stMVBuZ0xUaTJ2VkJsaWxIdXBGVkV1aVBvclZZR0lMVmdHY1NyUml3SWYyWjBpUWV2UTJERVQxcE5BN0czM19xYWZCYUE?oc=5\" target=\"_blank\">Tyla Is Investing in the Next Generation of Music Stars With New Scholarship</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">foxy99.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMFdOZ0ZCdHJaODVpWk1wWU5XVXNSZDkyQjdGU2pJYmtSWFZrVHhxbmk3ZnItbXBtblVtMEIzWUpJSFJST2NyQXdzQ0lKSm1GY2lSLXAxSlJ3NWZCdFdzVmJTWDFYU2stMVBuZ0xUaTJ2VkJsaWxIdXBGVkV1aVBvclZZR0lMVmdHY1NyUml3SWYyWjBpUWV2UTJERVQxcE5BN0czM19xYWZCYUE?oc=5",
-      "date": "Fri, 16 Oct 2026 15:51:35 GMT",
-      "source": "Google News — New Music"
-    },
-    {
       "title": "Andy Grammer, Aubrie Sellers Release New Music Friday - BroadwayWorld",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQWEJHN3B6bmVxYldNb3QyQkR0dUxOUklhcVpkTnRIZlBzZTJjclNiV0lRT2ZzY1ZZTnRHUUxqcWN3VGNwbXIydUhwdXJac0htUVc2czgtc0ZLU0gyUk1WcnV6cTZWTmdlZXlRV1hxOU02MTVTRkdZS1UtUlBUNjhyb3AxeUhmWWdQZ3JvR2xUaDVSVDhfY1piaTZiT1c2T2Z6cU5GaWY1UkV5UjNx?oc=5\" target=\"_blank\">Andy Grammer, Aubrie Sellers Release New Music Friday</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BroadwayWorld</font>",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWEJHN3B6bmVxYldNb3QyQkR0dUxOUklhcVpkTnRIZlBzZTJjclNiV0lRT2ZzY1ZZTnRHUUxqcWN3VGNwbXIydUhwdXJac0htUVc2czgtc0ZLU0gyUk1WcnV6cTZWTmdlZXlRV1hxOU02MTVTRkdZS1UtUlBUNjhyb3AxeUhmWWdQZ3JvR2xUaDVSVDhfY1piaTZiT1c2T2Z6cU5GaWY1UkV5UjNx?oc=5",
@@ -257,13 +285,6 @@
       "source": "Google News — New Music"
     },
     {
-      "title": "Wu-Tang Clan’s ‘C.R.E.A.M.’ Gets Korean Hip-Hop Remix for ‘Call of Duty: Modern Warfare 4’ - famemagazine.co.uk",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQeGg1R3VtTmFnTVlRRkVZQXVWcFAya1VwUUdKZXNhZTVGaTdNZm44aTBEXzRLVjlPTjVwdGpJbDBJVU5SWGM3TktqODVLdWRvNUJ6cjljV3FheERobWZEZWlRdXpkV1p3aE5JTVhKajVEOVFGUG52ZDVxUFVGVC0xekdKeUFncmdVYjJKZlY4V1dEVFM2X3ZCRkJydDRyeW9PN09aOW5EbFFWejZ4Z2tGdGZMS2czdw?oc=5\" target=\"_blank\">Wu-Tang Clan’s ‘C.R.E.A.M.’ Gets Korean Hip-Hop Remix for ‘Call of Duty: Modern Warfare 4’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">famemagazine.co.uk</font>",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeGg1R3VtTmFnTVlRRkVZQXVWcFAya1VwUUdKZXNhZTVGaTdNZm44aTBEXzRLVjlPTjVwdGpJbDBJVU5SWGM3TktqODVLdWRvNUJ6cjljV3FheERobWZEZWlRdXpkV1p3aE5JTVhKajVEOVFGUG52ZDVxUFVGVC0xekdKeUFncmdVYjJKZlY4V1dEVFM2X3ZCRkJydDRyeW9PN09aOW5EbFFWejZ4Z2tGdGZMS2czdw?oc=5",
-      "date": "Fri, 16 Oct 2026 15:43:27 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
       "title": "Case, Carl Thomas set for Verzuz showdown celebrating classic R&B - TheGrio",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNRVRrUE1tclNhLUQxWUw3bGwwUW9VTXJnREtKRUo3Q0JxNWtHWUI3V0l1YVZNb1cyVXh2aDhjRUppZUVfYWFfdUhNc2xxZTZwS01Qb2pBZTRtX3VtVEh5NldRM1FRUnZ0SE5ZcVBWYzhpXzhZc3dCYUhrUTVzRVlCVG9MNENpQU1IZHJVTHlKc01FVGs4YlZJVTVMcw?oc=5\" target=\"_blank\">Case, Carl Thomas set for Verzuz showdown celebrating classic R&B</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TheGrio</font>",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRVRrUE1tclNhLUQxWUw3bGwwUW9VTXJnREtKRUo3Q0JxNWtHWUI3V0l1YVZNb1cyVXh2aDhjRUppZUVfYWFfdUhNc2xxZTZwS01Qb2pBZTRtX3VtVEh5NldRM1FRUnZ0SE5ZcVBWYzhpXzhZc3dCYUhrUTVzRVlCVG9MNENpQU1IZHJVTHlKc01FVGs4YlZJVTVMcw?oc=5",
@@ -276,6 +297,13 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeGdMaTROSU80ZGNTOTd0a2hfQzFDTmttWUJKMG5xOFdBbFloQkRNcFQwb3FlV3lvaUNWaDRYZVV1RnlidWJnanlfSEQ2Mkkxd0hpWVlONUs1NG5ENUV3ejMzTXRaRWI3TV81VEF1VTdwTTVDZWdPUDVHZEM4VjgybUpPblFQRUFtbzNuREQ0RmFLN20xMXh4Mg?oc=5",
       "date": "Fri, 16 Oct 2026 15:31:37 GMT",
       "source": "Google News — R&B"
+    },
+    {
+      "title": "Derrick Milano Steps Into the Spotlight with New Single “Send Her My Direction” - V13 Media",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9UREV0eUNFSHZ6U1RSLTZfTDNZLXBXb3dxMjdTNDNEUERTWGhqdEU0Z2FybVA0VmRpcFV6U0p0SjB6ZmJfNzBRdWFEclZCVGF2YkdRdDRiWFpaVEJ2eDMweWpld0hHbFE2bFZZN3V1XzRsLVBoV2c1dzIzWHQ?oc=5\" target=\"_blank\">Derrick Milano Steps Into the Spotlight with New Single “Send Her My Direction”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">V13 Media</font>",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UREV0eUNFSHZ6U1RSLTZfTDNZLXBXb3dxMjdTNDNEUERTWGhqdEU0Z2FybVA0VmRpcFV6U0p0SjB6ZmJfNzBRdWFEclZCVGF2YkdRdDRiWFpaVEJ2eDMweWpld0hHbFE2bFZZN3V1XzRsLVBoV2c1dzIzWHQ?oc=5",
+      "date": "Fri, 16 Oct 2026 15:23:44 GMT",
+      "source": "Google News — Hip-Hop"
     },
     {
       "title": "New Music From Ever More Nest - WWLTV.com",
@@ -327,20 +355,6 @@
       "source": "Variety — Music"
     },
     {
-      "title": "Jacqie Rivera Breaks Down 5 Essential Songs From Her New Album, ‘Corazón Desnudo’: ‘A Very Healing Process’ - Billboard",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcExfaU9oTHRfRF9FVFRrck1WUFhMZWZtNDBnQ1VPSGhIVDF4cmJBb1NhUDV5SjBMZmZLU1R6aExHYVpJM0VIZFk5SEdGVUpPZTFpbktRblloanNrdGcxN3V6WDNjM19WYkY5bEdWWkdXUjRiWUZnc1RSQ1lEbS1jRk15dHYzYjVGZnZn?oc=5\" target=\"_blank\">Jacqie Rivera Breaks Down 5 Essential Songs From Her New Album, ‘Corazón Desnudo’: ‘A Very Healing Process’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Billboard</font>",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcExfaU9oTHRfRF9FVFRrck1WUFhMZWZtNDBnQ1VPSGhIVDF4cmJBb1NhUDV5SjBMZmZLU1R6aExHYVpJM0VIZFk5SEdGVUpPZTFpbktRblloanNrdGcxN3V6WDNjM19WYkY5bEdWWkdXUjRiWUZnc1RSQ1lEbS1jRk15dHYzYjVGZnZn?oc=5",
-      "date": "Fri, 16 Oct 2026 14:54:57 GMT",
-      "source": "Google News — New Music"
-    },
-    {
-      "title": "WHO ON EARTH UNLEASH NEW MUSIC VIDEO FOR “DOUBLE OR NOTHING” - Metalheads Forever Magazine",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxObFZhZmItSmlEUWRaanVtTGtKdmc1RFpHTlJvczBSZ25BUXBRMmk5LUR1RlM2N3dvT2s3Z0VyZ2N5NXVxdHFaOTFKQ05DbGhlRU1MSjByQm5NazVaY0NYckg0dE9tRE04VUI0ektIbkppUTNjMlJGUVdNMTEzbzVwcGlINFBvQQ?oc=5\" target=\"_blank\">WHO ON EARTH UNLEASH NEW MUSIC VIDEO FOR “DOUBLE OR NOTHING”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Metalheads Forever Magazine</font>",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObFZhZmItSmlEUWRaanVtTGtKdmc1RFpHTlJvczBSZ25BUXBRMmk5LUR1RlM2N3dvT2s3Z0VyZ2N5NXVxdHFaOTFKQ05DbGhlRU1MSjByQm5NazVaY0NYckg0dE9tRE04VUI0ektIbkppUTNjMlJGUVdNMTEzbzVwcGlINFBvQQ?oc=5",
-      "date": "Fri, 16 Oct 2026 14:50:21 GMT",
-      "source": "Google News — New Music"
-    },
-    {
       "title": "Inside K. Michelle's new country album 'Jesus and Whiskey' | Exclusive - The Tennessean",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxOb3VWRHlmRnhFSkt0UnJST195R1AtVDZEeXpPZXhyZWxlNTM0aDlwLW96djd6NHNBelJWbk44cDhHUVJyTnhrcUc5MXhYaXVnTFN6WnVMd28tcU04T3VhRTFkX1Q2NEtQWFB3cnZpelJEOEQ1Tm0yWTJjWm9vUllLVERyR2hrbS1Hd1F5Tk5Ybl9aNVlwcy1ndE5CWktfamRTem84elkwTWl1VjNqSWdBSER0UGktNWtkZzlLUlROMzREVVNKaFZSMS1BNUVlc0V5?oc=5\" target=\"_blank\">Inside K. Michelle's new country album 'Jesus and Whiskey' | Exclusive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Tennessean</font>",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOb3VWRHlmRnhFSkt0UnJST195R1AtVDZEeXpPZXhyZWxlNTM0aDlwLW96djd6NHNBelJWbk44cDhHUVJyTnhrcUc5MXhYaXVnTFN6WnVMd28tcU04T3VhRTFkX1Q2NEtQWFB3cnZpelJEOEQ1Tm0yWTJjWm9vUllLVERyR2hrbS1Hd1F5Tk5Ybl9aNVlwcy1ndE5CWktfamRTem84elkwTWl1VjNqSWdBSER0UGktNWtkZzlLUlROMzREVVNKaFZSMS1BNUVlc0V5?oc=5",
@@ -363,8 +377,8 @@
     },
     {
       "title": "Hollywood to Hip-Hop, The Stars Celebrating October 17 Birthdays! - Yahoo",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPSHA5VS1YZ3licU9ZOF9FcnFWTlF1SGdJRjNuaVRIU0FNamg1S3lJbXRsZHBacjJpMTg4TVI3ZHd6d3FNYkcxd1ZvWGlKSkJfbkRTMkxESllvMExwMlBqYmJBTGNQV29Gc0NfZ2xsYllSaEhzZVFRbkoySzkwa0c0b3ZXdU9Nc2JMaXpYZmJIYlkzYXQyZi13UQ?oc=5\" target=\"_blank\">Hollywood to Hip-Hop, The Stars Celebrating October 17 Birthdays!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo</font>",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSHA5VS1YZ3licU9ZOF9FcnFWTlF1SGdJRjNuaVRIU0FNamg1S3lJbXRsZHBacjJpMTg4TVI3ZHd6d3FNYkcxd1ZvWGlKSkJfbkRTMkxESllvMExwMlBqYmJBTGNQV29Gc0NfZ2xsYllSaEhzZVFRbkoySzkwa0c0b3ZXdU9Nc2JMaXpYZmJIYlkzYXQyZi13UQ?oc=5",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQSkFaZk5XcnhRa0ZWZUVWanBheFBDeEpkQjlRX1dxdjd4TGx0bzNtN2lhdUdzRlV6M0dyWnY1OVQ0OXd5dW0wSGJEWlp0c3lvd1ZuczJ5b1dhM0VfODMwQ1dtNmFtOEpVY3YzYXpYMGR0aUh5UHp3ekxiQ2c4dDhaeExkTVppR0ZnZjhKQS0tb2pTV01RbW9zMQ?oc=5\" target=\"_blank\">Hollywood to Hip-Hop, The Stars Celebrating October 17 Birthdays!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yahoo</font>",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSkFaZk5XcnhRa0ZWZUVWanBheFBDeEpkQjlRX1dxdjd4TGx0bzNtN2lhdUdzRlV6M0dyWnY1OVQ0OXd5dW0wSGJEWlp0c3lvd1ZuczJ5b1dhM0VfODMwQ1dtNmFtOEpVY3YzYXpYMGR0aUh5UHp3ekxiQ2c4dDhaeExkTVppR0ZnZjhKQS0tb2pTV01RbW9zMQ?oc=5",
       "date": "Fri, 16 Oct 2026 14:01:47 GMT",
       "source": "Google News — Hip-Hop"
     },
@@ -428,7 +442,7 @@
       "title": "K. Michelle, Atlanta reality TV vet and R&B diva, goes country — finally - The Atlanta Journal-Constitution",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9vLWJVd0p5aGdZaC1Zei1PYTRNVXdmM0FLRXNiRlJDN19ROXBkN1dkcWc2SDBwY0pwWDhSQUpBMDlzVzZfalpSWmxmSk5fdmk5OEdUZXExeWV4aldHb3Y1OVBTMmhRVjNBTXJTUFZrbG5HbmNUOFdQVzhjOHQ?oc=5\" target=\"_blank\">K. Michelle, Atlanta reality TV vet and R&B diva, goes country — finally</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Atlanta Journal-Constitution</font>",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vLWJVd0p5aGdZaC1Zei1PYTRNVXdmM0FLRXNiRlJDN19ROXBkN1dkcWc2SDBwY0pwWDhSQUpBMDlzVzZfalpSWmxmSk5fdmk5OEdUZXExeWV4aldHb3Y1OVBTMmhRVjNBTXJTUFZrbG5HbmNUOFdQVzhjOHQ?oc=5",
-      "date": "Fri, 16 Oct 2026 10:29:31 GMT",
+      "date": "Fri, 16 Oct 2026 10:45:02 GMT",
       "source": "Google News — R&B"
     },
     {
@@ -600,20 +614,6 @@
       "source": "Google News — Hip-Hop"
     },
     {
-      "title": "How Netflix’s ‘A Different World’ Found the Perfect Soundtrack in Hip-Hop and R&B - VIBE.com",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQeDRJSlFRTEV6NFpHLXdFUlNhNUJXY0ZrQ09DSk1rZl8tbHZKcDhVZnowX2tsU3pybEpUQUR6T3M2X3dNcDJPV3diLWg3bXVZaTVyZkFIS0pCbHNBTzJnTEpha0lWa1hlWktlN3Q1eEMyWElaZDU4ZG5xdEtSeG15Q3R3eHNCdWJCXy1PdncweXBBdmhXcFpoYXpINTI0MldoMzZ5WXBsbmcwMENIMGc?oc=5\" target=\"_blank\">How Netflix’s ‘A Different World’ Found the Perfect Soundtrack in Hip-Hop and R&B</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VIBE.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeDRJSlFRTEV6NFpHLXdFUlNhNUJXY0ZrQ09DSk1rZl8tbHZKcDhVZnowX2tsU3pybEpUQUR6T3M2X3dNcDJPV3diLWg3bXVZaTVyZkFIS0pCbHNBTzJnTEpha0lWa1hlWktlN3Q1eEMyWElaZDU4ZG5xdEtSeG15Q3R3eHNCdWJCXy1PdncweXBBdmhXcFpoYXpINTI0MldoMzZ5WXBsbmcwMENIMGc?oc=5",
-      "date": "Thu, 15 Oct 2026 22:15:00 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Rapper Yo-Yo Brings Hip-Hop and Scholarships to Dallas - KRNB Smooth R&B 105.7",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNQVhjenA5RWozXy0xd25HSEZmb2xUNExIaEZLQ2hkaTZOTjJkcUxnUGdTNlJDaEdqTy1Oam9DM3E0VGRWQXktREhQTlhTNnc0Tm5KY2RCQWJhXzZFdnJfREU2VjZBMXJGaHVtLUVqUXBZTUlnLTVPNGg2a0VWVDk3WFRkZUdnQzg?oc=5\" target=\"_blank\">Rapper Yo-Yo Brings Hip-Hop and Scholarships to Dallas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KRNB Smooth R&B 105.7</font>",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQVhjenA5RWozXy0xd25HSEZmb2xUNExIaEZLQ2hkaTZOTjJkcUxnUGdTNlJDaEdqTy1Oam9DM3E0VGRWQXktREhQTlhTNnc0Tm5KY2RCQWJhXzZFdnJfREU2VjZBMXJGaHVtLUVqUXBZTUlnLTVPNGg2a0VWVDk3WFRkZUdnQzg?oc=5",
-      "date": "Thu, 15 Oct 2026 21:42:41 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
       "title": "Corre de Quebrada: one year of the project that united Hip-Hop and climate justice in Brazil - Greenpeace",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbmdDTlYtVnhDTExyWkRBTzZyVTdxTmVrYjJxM1NUZUtnbHRJeXBSYkxYNlBJcEtsaHhzRldyVWtxb0lKQmFjQVNTNEEweVVzbnFuNDdoWjNCX292LTlNMnMxazFDSDNMMTlPbWgxU1h1NldKMnJvSlMzX0Q0Q1dtdks5YkVBeHJnSXJsVzJEdVo3MEFXT3lGRTVHNldBcmo0TEt3R2g1NEYtaThVSmROaG1HdVNEanlJSW9HTGhpLVpLM25vSEN3eS11MnROUzQ1NWFoV2o5bmtBVWc?oc=5\" target=\"_blank\">Corre de Quebrada: one year of the project that united Hip-Hop and climate justice in Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Greenpeace</font>",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbmdDTlYtVnhDTExyWkRBTzZyVTdxTmVrYjJxM1NUZUtnbHRJeXBSYkxYNlBJcEtsaHhzRldyVWtxb0lKQmFjQVNTNEEweVVzbnFuNDdoWjNCX292LTlNMnMxazFDSDNMMTlPbWgxU1h1NldKMnJvSlMzX0Q0Q1dtdks5YkVBeHJnSXJsVzJEdVo3MEFXT3lGRTVHNldBcmo0TEt3R2g1NEYtaThVSmROaG1HdVNEanlJSW9HTGhpLVpLM25vSEN3eS11MnROUzQ1NWFoV2o5bmtBVWc?oc=5",
@@ -642,13 +642,6 @@
       "source": "Pitchfork"
     },
     {
-      "title": "Grammy-Winning Icon Stephanie Mills Blasts ‘Disrespectful’ Lady Gaga - The Daily Beast",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLW9Qc3cwV292VHRKcTc1dUpLNURUeXV5cERweTJWc0llTWx2akNjNWdEX1FtMkJNT0RFM3ZVUTB1ZjdhcDNGZFU2VVVaVUR2ZlAzZS1TaEdCTklBYXdRSG1uR3V5bXNLbzA2YkJJaUM3clhqcG53TnVBaXN1T1YwdjBybjctVEMwN01GQVMxb0hfdWxfOEZEVGVITDNZaUhrQkJ5cWNVRTI?oc=5\" target=\"_blank\">Grammy-Winning Icon Stephanie Mills Blasts ‘Disrespectful’ Lady Gaga</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Daily Beast</font>",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLW9Qc3cwV292VHRKcTc1dUpLNURUeXV5cERweTJWc0llTWx2akNjNWdEX1FtMkJNT0RFM3ZVUTB1ZjdhcDNGZFU2VVVaVUR2ZlAzZS1TaEdCTklBYXdRSG1uR3V5bXNLbzA2YkJJaUM3clhqcG53TnVBaXN1T1YwdjBybjctVEMwN01GQVMxb0hfdWxfOEZEVGVITDNZaUhrQkJ5cWNVRTI?oc=5",
-      "date": "Thu, 15 Oct 2026 19:00:05 GMT",
-      "source": "Google News — R&B"
-    },
-    {
       "title": "The Underground Hip-Hop Legend That Quietly Inspired Radiohead for Years - VICE",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRFpFYkVmd0ltSFIyd3ZOcG02bVBmRnREU21ZdzZWck9VYXhfRkFYdUMwczBjT215QklsUHZFUndLazRwWTQtTmlMNmZxS3VXUGs2amJYOUhvUHJMSnlWNS0ydGFwSXhhY0lrcDFQWlc1aUZYZFhQLVNiSG1XNGJjMG1YMEl0djZUQ3J6bmVaYm04b2llYUZIaV82UlB6WU1jLVlKMlFQRG0?oc=5\" target=\"_blank\">The Underground Hip-Hop Legend That Quietly Inspired Radiohead for Years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VICE</font>",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRFpFYkVmd0ltSFIyd3ZOcG02bVBmRnREU21ZdzZWck9VYXhfRkFYdUMwczBjT215QklsUHZFUndLazRwWTQtTmlMNmZxS3VXUGs2amJYOUhvUHJMSnlWNS0ydGFwSXhhY0lrcDFQWlc1aUZYZFhQLVNiSG1XNGJjMG1YMEl0djZUQ3J6bmVaYm04b2llYUZIaV82UlB6WU1jLVlKMlFQRG0?oc=5",
@@ -660,13 +653,6 @@
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQjZURnhGRXYtVnNNTEZqTkJvNGR5eGF5NlVmZ0IwQmw0MXJwV0pzZG1RRzV1YXRvbk5jY0NFZlI4dUlDVGNPSGhlemI5aDV3M3RtUnVxczJ6QVFPTWUtZkg4QVd6cHVSS2h5UW1GWWg1ZDRqTUIwMS1wZkgyMHpuZlpya2VwWGVDZi0w?oc=5\" target=\"_blank\">A$AP Rocky Has a Very Diplomatic Stance on AI in Music: ‘Who Am I to Say What’s Standard’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Billboard</font>",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQjZURnhGRXYtVnNNTEZqTkJvNGR5eGF5NlVmZ0IwQmw0MXJwV0pzZG1RRzV1YXRvbk5jY0NFZlI4dUlDVGNPSGhlemI5aDV3M3RtUnVxczJ6QVFPTWUtZkg4QVd6cHVSS2h5UW1GWWg1ZDRqTUIwMS1wZkgyMHpuZlpya2VwWGVDZi0w?oc=5",
       "date": "Thu, 15 Oct 2026 16:35:05 GMT",
-      "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "Hip-Hop Up & Comer Noodah05 Is Ready to Conquer the Rap Game: ‘I’m Like Thanos. Just Stay Tuned and Watch’ - Billboard",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbmgxNUpBYjMwZG10am82RENld2F0dTRuLVlmbmhKLWZGeU44TXhTOF9pdk80ZnJxZUdlbkpvVExrTllSTEFZMDhIU2NoSFRUbUk5VEt1bGl6RElpOWdRSUxQb0RINGZHOXFSUzAyaTFvMXloQVh3LVllV2VrSkZKUVpLQjdlVUxBRjJsRnczSWF2Z0hDakItT3RBUlgyeVRhZE5reXRiLU5qU28?oc=5\" target=\"_blank\">Hip-Hop Up & Comer Noodah05 Is Ready to Conquer the Rap Game: ‘I’m Like Thanos. Just Stay Tuned and Watch’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Billboard</font>",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbmgxNUpBYjMwZG10am82RENld2F0dTRuLVlmbmhKLWZGeU44TXhTOF9pdk80ZnJxZUdlbkpvVExrTllSTEFZMDhIU2NoSFRUbUk5VEt1bGl6RElpOWdRSUxQb0RINGZHOXFSUzAyaTFvMXloQVh3LVllV2VrSkZKUVpLQjdlVUxBRjJsRnczSWF2Z0hDakItT3RBUlgyeVRhZE5reXRiLU5qU28?oc=5",
-      "date": "Thu, 15 Oct 2026 16:33:24 GMT",
       "source": "Google News — Hip-Hop"
     },
     {
@@ -691,6 +677,13 @@
       "source": "Google News — Hip-Hop"
     },
     {
+      "title": "New Music Friday: Fontaines D.C., Olivia Rodrigo & Chappell Roan, Rachel Chinouriri, Max Richter, Ashe, and more - Official Charts",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ20xTm5YMzRNT09MRXN2Sm5EbDJLNHRBRVhCQlpKZTVzakMtb0NQMWh6dHdoM2Z5cko2ckFFNEVaN3hVbDNaYjIzdmtXd1o3bFFucnptS28td2lLOGZUbWdFT0ZBdmpzeldjWXNEckxrM1hXTFJfV3BPSVdKNUdibA?oc=5\" target=\"_blank\">New Music Friday: Fontaines D.C., Olivia Rodrigo & Chappell Roan, Rachel Chinouriri, Max Richter, Ashe, and more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Official Charts</font>",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ20xTm5YMzRNT09MRXN2Sm5EbDJLNHRBRVhCQlpKZTVzakMtb0NQMWh6dHdoM2Z5cko2ckFFNEVaN3hVbDNaYjIzdmtXd1o3bFFucnptS28td2lLOGZUbWdFT0ZBdmpzeldjWXNEckxrM1hXTFJfV3BPSVdKNUdibA?oc=5",
+      "date": "Thu, 15 Oct 2026 15:35:25 GMT",
+      "source": "Google News — New Music"
+    },
+    {
       "title": "Orlando hip-hop supergroup Resident Strangers electrify on debut album - Orlando Weekly",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQbHZEc1BfVnloeXZQeGp4bU02TjV3Ujh0OUkwMXY3SEptNDBRelRNQzNIVDFzQ1BBaWVFU1FKOS1uVmJyWnIzR0RCMU5hMEtIRU5WUEVGQjhFYUxnVEtid2k2ZzQ3QkJEdDdGM1Q2WGp2VjRWQmhZdzl6aGZsZDBGUUUyVHVmV05OQjE5V2haaXpNeWNuVTFiUXhsbW1NYTV4VzdPWllFdThFUXpMa1RsWjN4eWt4RTFmdmxpdTZlM1ltUU1FR215bXFicw?oc=5\" target=\"_blank\">Orlando hip-hop supergroup Resident Strangers electrify on debut album</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Orlando Weekly</font>",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbHZEc1BfVnloeXZQeGp4bU02TjV3Ujh0OUkwMXY3SEptNDBRelRNQzNIVDFzQ1BBaWVFU1FKOS1uVmJyWnIzR0RCMU5hMEtIRU5WUEVGQjhFYUxnVEtid2k2ZzQ3QkJEdDdGM1Q2WGp2VjRWQmhZdzl6aGZsZDBGUUUyVHVmV05OQjE5V2haaXpNeWNuVTFiUXhsbW1NYTV4VzdPWllFdThFUXpMa1RsWjN4eWt4RTFmdmxpdTZlM1ltUU1FR215bXFicw?oc=5",
@@ -703,6 +696,13 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWnE0N05UN1MyLVNnWmZ5ZHB5QXB0NVIwX3J5TTY3ZVdBeW9tTjZadHNEaXVHdU5xOXRTdFdWZEF1SHN1VU1lb2o4UjBsVDdGRTJ6OEJlNXlnRjVfSDgyQm0tR3FCMFV6QzhIbmZTek94UWxhUjVlOW9DVEJxS3IzcHlnYkI1U1FRUENPOUtqUU4?oc=5",
       "date": "Thu, 15 Oct 2026 15:30:00 GMT",
       "source": "Google News — New Music"
+    },
+    {
+      "title": "Skrillex and Ring Noord Remix Danny L Harle and PinkPantheress’ “Starlight”",
+      "description": "Fixing up the Cerulean single with a heavy new undercarriage",
+      "url": "https://pitchfork.com/story/skrillex-and-ring-noord-remix-danny-l-harle-and-pinkpantheress-starlight/",
+      "date": "Thu, 15 Oct 2026 15:05:10 +0000",
+      "source": "Pitchfork"
     }
   ],
   "sources": [
@@ -725,11 +725,11 @@
       "tier": 2,
       "status": "ok",
       "stories": 20,
-      "bytes": 18880,
+      "bytes": 18901,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=b51fb320b68d413fa678ddebdb50c527 benchma",
-      "latencyMs": 188
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=7afd6e61108a4feea5b77f21720098ea benchma",
+      "latencyMs": 140
     },
     {
       "source": "HipHopDX",
@@ -740,7 +740,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 100
+      "latencyMs": 162
     },
     {
       "source": "AllHipHop",
@@ -751,7 +751,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 660
+      "latencyMs": 685
     },
     {
       "source": "No Jumper",
@@ -762,62 +762,62 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 606
+      "latencyMs": 722
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 124871,
+      "bytes": 123835,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 671
+      "latencyMs": 440
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 129196,
+      "bytes": 129016,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 407
+      "latencyMs": 485
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
-      "stories": 100,
-      "bytes": 129761,
+      "stories": 102,
+      "bytes": 131549,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 530
+      "latencyMs": 437
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 124212,
+      "bytes": 124188,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 486
+      "latencyMs": 419
     },
     {
       "source": "Billboard",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 113025,
+      "bytes": 127836,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 111
+      "latencyMs": 101
     },
     {
       "source": "Pitchfork",
@@ -828,7 +828,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 128
+      "latencyMs": 84
     },
     {
       "source": "Rolling Stone — Music",
@@ -839,7 +839,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 107
+      "latencyMs": 58
     },
     {
       "source": "Variety — Music",
@@ -850,7 +850,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 85
+      "latencyMs": 73
     }
   ],
   "errorCount": 0,
