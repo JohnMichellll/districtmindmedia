@@ -1,0 +1,105 @@
+name: Prepare District Mind Radio audio
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/deploy-radio-audio.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  prepare-audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Install audio tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade gdown
+
+      - name: Retrieve the shared audio ZIPs
+        run: |
+          mkdir -p /tmp/dm-radio-downloads /tmp/dm-radio-work
+          gdown --folder "https://drive.google.com/drive/folders/1rR7vQ-8CHg2Aj_ero-A6ISPtxui0bCFE" \
+            --output /tmp/dm-radio-downloads --remaining-ok
+          find /tmp/dm-radio-downloads -type f -iname '*.zip' -print
+          test "$(find /tmp/dm-radio-downloads -type f -iname '*.zip' | wc -l)" -gt 0
+
+      - name: Convert the nine regular tracks and stage the two vault tracks
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r -d '' archive; do
+            unzip -oq "$archive" -d /tmp/dm-radio-work
+          done < <(find /tmp/dm-radio-downloads -type f -iname '*.zip' -print0)
+
+          mkdir -p assets/audio/13th-hour assets/audio/vault
+          python - <<'PY'
+          import pathlib, subprocess, shutil, sys
+          root = pathlib.Path('/tmp/dm-radio-work')
+          normal = {
+              'og_dance': 'OG_DANCE.mp3',
+              'freeze': 'Freeze.mp3',
+              'turn_up': 'TURN_UP.mp3',
+              'idk_yet_ring': 'Idk_yet_ring.mp3',
+              'what_if': 'What_If.mp3',
+              '5': '5.mp3',
+              'unfinished': 'Unfinished.mp3',
+              'rivers': 'Rivers.mp3',
+              'like_u': 'Like_U.mp3',
+          }
+          files = [p for p in root.rglob('*') if p.is_file() and p.suffix.lower() in {'.wav', '.m4a', '.mp3', '.aac', '.flac'}]
+          by_stem = {}
+          for p in files:
+              by_stem.setdefault(p.stem.lower().replace(' ', '').replace('-', '_'), p)
+          out = pathlib.Path('assets/audio/13th-hour')
+          missing = []
+          for stem, filename in normal.items():
+              source = by_stem.get(stem.replace('_', ''))
+              if source is None:
+                  source = next((p for p in files if p.stem.lower().replace(' ', '').replace('-', '_') == stem), None)
+              if source is None:
+                  missing.append(stem)
+                  continue
+              subprocess.run(['ffmpeg', '-y', '-i', str(source), '-vn', '-codec:a', 'libmp3lame', '-b:a', '128k', str(out / filename)], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+          if missing:
+              print('Missing expected regular tracks:', ', '.join(missing), file=sys.stderr)
+              sys.exit(2)
+
+          vault = pathlib.Path('assets/audio/vault')
+          vault_sources = {
+              'fuma': ('fuma.mp3', ('fuma',)),
+              'tropical-breeze': ('tropical-breeze.mp3', ('tropical_breeze', 'tropical-breeze')),
+          }
+          for destination, (filename, candidates) in vault_sources.items():
+              source = next((p for p in files if any(c in p.stem.lower().replace(' ', '').replace('-', '_') for c in candidates)), None)
+              if source is None:
+                  print('Missing vault audio source:', destination, file=sys.stderr)
+                  sys.exit(2)
+              target = vault / filename
+              if source.suffix.lower() == '.mp3':
+                  shutil.copy2(source, target)
+              else:
+                  subprocess.run(['ffmpeg', '-y', '-i', str(source), '-vn', '-codec:a', 'libmp3lame', '-b:a', '128k', str(target)], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+          print('Prepared 9 regular tracks and 2 separate vault tracks.')
+          PY
+
+      - name: Commit prepared audio assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/audio/13th-hour assets/audio/vault
+          if git diff --cached --quiet; then
+            echo "Audio assets are already current."
+            exit 0
+          fi
+          git commit -m "feat(radio): deploy 13th Hour audio masters"
+          git push origin HEAD:main
