@@ -5,7 +5,7 @@
   const primaryNav = document.querySelector('.primary-nav');
   if (primaryNav) {
     primaryNav.innerHTML = [
-      ['Newsroom','/newsroom'],['Radar','/radar'],['Releases','/releases'],
+      ['Newsroom','/newsroom'],['Radar','/radar'],['Releases','/releases'],['Radio','/radio.html'],
       ['Wayfinder AI','/wayfinder'],['Academy','/academy'],['Culture','/culture'],
       ['About','/about'],['Contact','/contact']
     ].map(([label,href]) => '<a href="' + href + '">' + label + '</a>').join('');
@@ -429,7 +429,7 @@
     document.head.appendChild(guideStyle);
   }
 
-  // District Mind Radio: compact controls with a persistent YouTube player instance.
+  // District Mind Radio: compact controls; no large pop-up. Audio remains opt-in.
   // Playback starts only after the visitor presses Play (browser autoplay policy).
   if (!document.getElementById('dm-radio-control')) {
     const radioControl = document.createElement('div');
@@ -472,11 +472,10 @@
       playButton.title = playing ? 'Pause music' : 'Play music';
       radioControl.classList.toggle('is-playing', playing);
     };
-    radioTrack.addEventListener('click', () => setRadioDetailsOpen(!radioPanel.classList.contains('is-open')));
+    radioTrack.addEventListener('click', () => { window.location.href = '/radio.html'; });
     radioClose.addEventListener('click', () => setRadioDetailsOpen(false));
     let radioPlayRequested = false;
     playButton.addEventListener('click', () => {
-      setRadioDetailsOpen(true);
       if (!radioReady || !radioPlayer) {
         radioPlayRequested = true;
         playButton.textContent = 'Loading';
@@ -509,8 +508,9 @@
         .dm-radio-control-btn{min-width:48px;height:32px;flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;padding:0 10px;border:1px solid rgba(255,255,255,.2);border-radius:999px;background:rgba(255,255,255,.08);color:#fff;font-size:9px;font-weight:800;letter-spacing:.04em;cursor:pointer;touch-action:manipulation}
         .dm-radio-control-btn:hover:not(:disabled),.dm-radio-control-btn:focus-visible{background:#277d49;outline:2px solid #52df8b;outline-offset:2px}
         .dm-radio-control-btn:disabled{opacity:.35;cursor:not-allowed}
-        .dm-radio-panel{position:absolute;right:0;bottom:58px;width:min(260px,calc(100vw - 24px));padding:10px;border:1px solid var(--line,#d9d9d1);border-radius:16px;background:var(--surface,#f4f4f0);color:var(--ink,#171715);box-shadow:0 18px 45px rgba(0,0,0,.25);opacity:0;visibility:hidden;transform:translateY(8px) scale(.98);pointer-events:none;transition:opacity .18s ease,transform .18s ease,visibility .18s}
-        .dm-radio-panel.is-open{opacity:1;visibility:visible;transform:translateY(0) scale(1);pointer-events:auto}
+        .dm-radio-panel{position:fixed!important;left:-4px!important;top:0!important;width:1px!important;height:1px!important;min-height:0!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;opacity:.01!important;visibility:visible!important;pointer-events:none!important;transform:none!important;box-shadow:none!important}
+        .dm-radio-embed{width:1px!important;height:1px!important;min-height:0!important;aspect-ratio:auto!important;overflow:hidden!important}
+        .dm-radio-embed iframe{width:1px!important;height:1px!important}
         .dm-radio-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:10px}
         .dm-radio-heading h2{font-size:14px;line-height:1.15;margin:0 0 5px;color:var(--ink,#171715)}
         .dm-radio-heading p:last-child{font-size:11px;line-height:1.4;margin:0;color:var(--muted,#555)}
