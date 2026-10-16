@@ -429,148 +429,105 @@
     document.head.appendChild(guideStyle);
   }
 
-  // District Mind Radio: compact controls; no large pop-up. Audio remains opt-in.
-  // Playback starts only after the visitor presses Play (browser autoplay policy).
+  // District Mind Radio: native HTML audio only. No YouTube API, iframe, popup, or third-party player.
+  // Playlist sources are converted masters under /assets/audio/13th-hour/. Playback is opt-in.
   if (!document.getElementById('dm-radio-control')) {
+    const tracks = [
+      { title: 'OG Dance', src: '/assets/audio/13th-hour/OG_DANCE.mp3' },
+      { title: 'Freeze', src: '/assets/audio/13th-hour/Freeze.mp3' },
+      { title: 'Turn Up', src: '/assets/audio/13th-hour/TURN_UP.mp3' },
+      { title: 'IDK Yet Ring', src: '/assets/audio/13th-hour/Idk_yet_ring.mp3' },
+      { title: 'What If', src: '/assets/audio/13th-hour/What_If.mp3' },
+      { title: '5', src: '/assets/audio/13th-hour/5.mp3' },
+      { title: 'Unfinished', src: '/assets/audio/13th-hour/Unfinished.mp3' },
+      { title: 'Rivers', src: '/assets/audio/13th-hour/Rivers.mp3' },
+      { title: 'Like U', src: '/assets/audio/13th-hour/Like_U.mp3' }
+    ];
     const radioControl = document.createElement('div');
     radioControl.id = 'dm-radio-control';
     radioControl.className = 'dm-radio-control';
     radioControl.innerHTML = `
-      <section id="dm-radio-panel" class="dm-radio-panel" aria-label="District Mind Radio player" aria-hidden="true">
-        <div class="dm-radio-heading">
-          <div><p class="dm-radio-kicker">DISTRICT MIND RECORDS</p><h2>District Mind Radio</h2><p>John Michell — Drivin Crazy</p></div>
-          <button type="button" class="dm-radio-close" aria-label="Close radio details">×</button>
-        </div>
-        <div class="dm-radio-embed"><div id="dm-radio-youtube-player"></div></div>
-        <div class="dm-radio-footer"><span>Free YouTube playback. YouTube may show ads.</span><a href="https://youtu.be/Ytt_s7M9TeQ" target="_blank" rel="noopener noreferrer">Open track on YouTube</a></div>
-      </section>
       <div class="dm-radio-dock" role="group" aria-label="District Mind Radio controls">
         <span class="dm-radio-live-dot" aria-hidden="true"></span>
-        <button type="button" class="dm-radio-track" aria-label="Open radio details" aria-expanded="false"><strong>DISTRICT MIND RADIO</strong><small>Drivin Crazy · John Michell</small></button>
-        <button type="button" class="dm-radio-control-btn dm-radio-play" aria-label="Play music" title="Play music">Play</button>
-        <button type="button" class="dm-radio-control-btn dm-radio-stop" aria-label="Stop music" title="Stop music">Stop</button>
-      </div>`;
+        <button type="button" class="dm-radio-track" aria-label="Open District Mind Radio page">
+          <strong>DISTRICT MIND RADIO</strong><small class="dm-radio-current">13TH HOUR · Ready to play</small>
+        </button>
+        <button type="button" class="dm-radio-control-btn dm-radio-play" aria-label="Play music">Play</button>
+        <button type="button" class="dm-radio-control-btn dm-radio-next" aria-label="Play next track">Next</button>
+        <button type="button" class="dm-radio-control-btn dm-radio-stop" aria-label="Stop music">Stop</button>
+      </div>
+      <p class="dm-radio-status" role="status" aria-live="polite">District Mind Radio is ready.</p>
+      <audio class="dm-radio-audio" preload="none" playsinline></audio>`;
     document.body.appendChild(radioControl);
-    const radioPanel = radioControl.querySelector('.dm-radio-panel');
-    const radioClose = radioControl.querySelector('.dm-radio-close');
-    const radioTrack = radioControl.querySelector('.dm-radio-track');
+    const audio = radioControl.querySelector('.dm-radio-audio');
     const playButton = radioControl.querySelector('.dm-radio-play');
+    const nextButton = radioControl.querySelector('.dm-radio-next');
     const stopButton = radioControl.querySelector('.dm-radio-stop');
-    const radioStatus = radioControl.querySelector('.dm-radio-footer span');
-    let radioPlayer = null;
-    let radioReady = false;
-    let radioPlaying = false;
-    const setRadioDetailsOpen = open => {
-      radioPanel.classList.toggle('is-open', open);
-      radioPanel.setAttribute('aria-hidden', String(!open));
-      radioTrack.setAttribute('aria-expanded', String(open));
-    };
-    const updateRadioPlayButton = playing => {
-      radioPlaying = playing;
+    const currentLabel = radioControl.querySelector('.dm-radio-current');
+    const status = radioControl.querySelector('.dm-radio-status');
+    let index = 0;
+    const order = tracks.map((_, n) => n);
+    const currentTrack = () => tracks[order[index]];
+    const say = message => { status.textContent = message; };
+    const setPlayState = playing => {
       playButton.textContent = playing ? 'Pause' : 'Play';
       playButton.setAttribute('aria-label', playing ? 'Pause music' : 'Play music');
-      playButton.title = playing ? 'Pause music' : 'Play music';
       radioControl.classList.toggle('is-playing', playing);
     };
-    radioTrack.addEventListener('click', () => { window.location.href = '/radio.html'; });
-    radioClose.addEventListener('click', () => setRadioDetailsOpen(false));
-    let radioPlayRequested = false;
-    playButton.addEventListener('click', () => {
-      if (!radioReady || !radioPlayer) {
-        radioPlayRequested = true;
-        playButton.textContent = 'Loading';
-        playButton.title = 'Loading music';
-        playButton.setAttribute('aria-label', 'Loading music');
-        return;
-      }
-      if (radioPlaying) radioPlayer.pauseVideo();
-      else {
-        try { radioPlayer.playVideo(); }
-        catch (_) { radioStatus.textContent = 'Playback could not start. Try opening the track on YouTube.'; }
-      }
-    });
-    stopButton.addEventListener('click', () => { if (radioReady && radioPlayer) { radioPlayer.stopVideo(); updateRadioPlayButton(false); } });
-    // Only one exact John Michell YouTube upload is verified so far; don't skip to an unrelated song.
-    document.addEventListener('keydown', event => {
-      if (event.key === 'Escape' && radioPanel.classList.contains('is-open')) setRadioDetailsOpen(false);
-    });
-    if (!document.getElementById('dm-radio-styles')) {
-      const radioStyle = document.createElement('style');
-      radioStyle.id = 'dm-radio-styles';
-      radioStyle.textContent = `
-        .dm-radio-control{position:fixed;right:14px;bottom:14px;z-index:1400;font-family:inherit;color:var(--ink,#171715);max-width:calc(100vw - 20px)}
-        .dm-radio-dock{display:flex;align-items:center;gap:8px;min-height:54px;padding:7px 9px;border:1px solid rgba(46,125,78,.45);border-radius:18px;background:#10271d;color:#f5fff7;box-shadow:0 8px 28px rgba(0,0,0,.22)}
-        .dm-radio-live-dot{width:8px;height:8px;flex:0 0 8px;border-radius:50%;background:#7a8a80}
-        .dm-radio-control.is-playing .dm-radio-live-dot{background:#52df8b;box-shadow:0 0 0 4px rgba(82,223,139,.14);animation:dm-radio-pulse 2s ease-in-out infinite}
-        .dm-radio-track{min-width:0;flex:1;border:0;background:transparent;color:inherit;text-align:left;cursor:pointer;padding:3px 2px}
-        .dm-radio-track strong{display:block;font-size:9px;letter-spacing:.09em;line-height:1.4;white-space:nowrap}
-        .dm-radio-track small{display:block;font-size:10px;opacity:.78;margin-top:2px;white-space:nowrap}
-        .dm-radio-control-btn{min-width:48px;height:32px;flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;padding:0 10px;border:1px solid rgba(255,255,255,.2);border-radius:999px;background:rgba(255,255,255,.08);color:#fff;font-size:9px;font-weight:800;letter-spacing:.04em;cursor:pointer;touch-action:manipulation}
-        .dm-radio-control-btn:hover:not(:disabled),.dm-radio-control-btn:focus-visible{background:#277d49;outline:2px solid #52df8b;outline-offset:2px}
-        .dm-radio-control-btn:disabled{opacity:.35;cursor:not-allowed}
-        .dm-radio-panel{position:fixed!important;left:-4px!important;top:0!important;width:1px!important;height:1px!important;min-height:0!important;padding:0!important;margin:0!important;border:0!important;overflow:hidden!important;opacity:.01!important;visibility:visible!important;pointer-events:none!important;transform:none!important;box-shadow:none!important}
-        .dm-radio-embed{width:1px!important;height:1px!important;min-height:0!important;aspect-ratio:auto!important;overflow:hidden!important}
-        .dm-radio-embed iframe{width:1px!important;height:1px!important}
-        .dm-radio-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;margin-bottom:10px}
-        .dm-radio-heading h2{font-size:14px;line-height:1.15;margin:0 0 5px;color:var(--ink,#171715)}
-        .dm-radio-heading p:last-child{font-size:11px;line-height:1.4;margin:0;color:var(--muted,#555)}
-        .dm-radio-kicker{font-size:8px;letter-spacing:.14em;font-weight:800;margin:0 0 5px;color:#287849}
-        .dm-radio-close{flex:0 0 30px;width:30px;height:30px;border-radius:50%;border:1px solid var(--line,#d9d9d1);background:var(--panel,#fff);color:var(--ink,#171715);font-size:21px;line-height:1;cursor:pointer}
-        .dm-radio-embed{width:100%;aspect-ratio:16/9;min-height:120px;border-radius:10px;overflow:hidden;background:#000}
-        .dm-radio-embed iframe{display:block;width:100%;height:100%;border:0}
-        .dm-radio-footer{display:flex;flex-direction:column;gap:7px;margin-top:9px;font-size:10px;line-height:1.4;color:var(--muted,#555)}
-        .dm-radio-footer a{font-weight:800;color:var(--ink,#171715);text-decoration:underline;text-underline-offset:3px}
-        :root[data-dm-theme="after-hours"] .dm-radio-panel{background:#10172d;color:#f0f4ff;border-color:rgba(168,199,255,.28)}
-        :root[data-dm-theme="after-hours"] .dm-radio-heading h2,:root[data-dm-theme="after-hours"] .dm-radio-close,:root[data-dm-theme="after-hours"] .dm-radio-footer a{color:#f0f4ff}
-        :root[data-dm-theme="after-hours"] .dm-radio-close{background:#182344;border-color:#34436a}
-        @keyframes dm-radio-pulse{0%,100%{box-shadow:0 0 0 3px rgba(82,223,139,.1)}50%{box-shadow:0 0 0 5px rgba(82,223,139,.22)}}
-        @media(max-width:520px){.dm-radio-control{right:8px;bottom:8px;max-width:calc(100vw - 16px)}.dm-radio-dock{gap:6px;min-height:48px;padding:6px 7px;border-radius:16px}.dm-radio-track strong{font-size:8px}.dm-radio-track small{font-size:9px}.dm-radio-control-btn{min-width:44px;height:30px;padding:0 8px}.dm-radio-panel{bottom:58px;width:calc(100vw - 16px);padding:10px}.dm-radio-embed{min-height:120px}}
-        @media(prefers-reduced-motion:reduce){.dm-radio-control *{transition:none!important;animation:none!important}}
-      `;
-      document.head.appendChild(radioStyle);
-    }
-    const createRadioPlayer = () => {
-      if (!window.YT || !window.YT.Player || radioPlayer) return;
-      radioPlayer = new window.YT.Player('dm-radio-youtube-player', {
-        width: '260', height: '146', videoId: 'Ytt_s7M9TeQ',
-        playerVars: {playsinline:1, rel:0, origin:window.location.origin},
-        events: {
-          onReady: () => {
-            radioReady = true;
-            playButton.textContent = 'Play';
-            playButton.title = 'Play music';
-            playButton.setAttribute('aria-label', 'Play music');
-            if (radioPlayRequested) {
-              radioPlayRequested = false;
-              try { radioPlayer.playVideo(); }
-              catch (_) { if (radioStatus) radioStatus.textContent = 'Playback could not start. Open the track on YouTube.'; }
-            }
-          },
-          onStateChange: event => {
-            if (event.data === window.YT.PlayerState.PLAYING) updateRadioPlayButton(true);
-            if ([window.YT.PlayerState.PAUSED, window.YT.PlayerState.ENDED, window.YT.PlayerState.CUED].includes(event.data)) updateRadioPlayButton(false);
-          },
-          onError: () => {
-            radioPlayRequested = false;
-            updateRadioPlayButton(false);
-            if (radioStatus) radioStatus.textContent = 'This track could not play here. Open it on YouTube or use the Apple Music catalog.';
-          }
-        }
+    const setTrack = (n, autoplay) => {
+      index = (n + order.length) % order.length;
+      const track = currentTrack();
+      audio.src = track.src;
+      currentLabel.textContent = track.title + ' · John Michell';
+      if (autoplay) audio.play().then(() => {
+        setPlayState(true); say('Now playing ' + track.title + '.');
+      }).catch(() => {
+        setPlayState(false); say('Track file is not deployed yet: ' + track.title + '.');
       });
     };
-    if (window.YT && window.YT.Player) createRadioPlayer();
-    else {
-      const previousYouTubeReady = window.onYouTubeIframeAPIReady;
-      window.onYouTubeIframeAPIReady = () => {
-        if (typeof previousYouTubeReady === 'function') previousYouTubeReady();
-        createRadioPlayer();
-      };
-      if (!document.querySelector('script[src="https://www.youtube.com/iframe_api"]')) {
-        const apiScript = document.createElement('script');
-        apiScript.src = 'https://www.youtube.com/iframe_api';
-        apiScript.async = true;
-        document.head.appendChild(apiScript);
-      }
+    const nextTrack = () => {
+      if (order.length > 1) {
+        let next = index;
+        while (next === index) next = Math.floor(Math.random() * order.length);
+        setTrack(next, true);
+      } else setTrack(index + 1, true);
+    };
+    radioControl.querySelector('.dm-radio-track').addEventListener('click', () => { window.location.href = '/radio.html'; });
+    playButton.addEventListener('click', () => {
+      if (!audio.src) setTrack(index, false);
+      if (!audio.paused) { audio.pause(); setPlayState(false); say('Playback paused.'); return; }
+      audio.play().then(() => { setPlayState(true); say('Now playing ' + currentTrack().title + '.'); })
+        .catch(() => { setPlayState(false); say('MP3 files must be deployed before this track can play.'); });
+    });
+    nextButton.addEventListener('click', nextTrack);
+    stopButton.addEventListener('click', () => {
+      audio.pause(); audio.currentTime = 0; setPlayState(false); say('Playback stopped.');
+    });
+    audio.addEventListener('play', () => setPlayState(true));
+    audio.addEventListener('pause', () => setPlayState(false));
+    audio.addEventListener('ended', nextTrack);
+    audio.addEventListener('error', () => {
+      setPlayState(false); say('Track file could not load. The MP3 asset deployment is still required.');
+    });
+    if (!document.getElementById('dm-radio-styles')) {
+      const style = document.createElement('style');
+      style.id = 'dm-radio-styles';
+      style.textContent = `
+        .dm-radio-control{position:fixed;right:14px;bottom:14px;z-index:1400;max-width:calc(100vw - 20px);font-family:inherit}
+        .dm-radio-dock{display:flex;align-items:center;gap:7px;min-height:54px;padding:7px 9px;border:1px solid rgba(46,125,78,.45);border-radius:16px;background:#10271d;color:#f5fff7;box-shadow:0 8px 28px rgba(0,0,0,.22)}
+        .dm-radio-live-dot{width:8px;height:8px;flex:0 0 8px;border-radius:50%;background:#7a8a80}
+        .dm-radio-control.is-playing .dm-radio-live-dot{background:#52df8b;box-shadow:0 0 0 4px rgba(82,223,139,.14)}
+        .dm-radio-track{min-width:0;flex:1;border:0;background:transparent;color:inherit;text-align:left;cursor:pointer;padding:3px 2px}
+        .dm-radio-track strong{display:block;font-size:9px;letter-spacing:.09em;line-height:1.4;white-space:nowrap}
+        .dm-radio-track small{display:block;font-size:10px;opacity:.82;margin-top:2px;white-space:nowrap}
+        .dm-radio-control-btn{min-width:44px;height:34px;flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;padding:0 9px;border:1px solid rgba(255,255,255,.2);border-radius:999px;background:rgba(255,255,255,.08);color:#fff;font-size:10px;font-weight:800;cursor:pointer;touch-action:manipulation}
+        .dm-radio-control-btn:hover,.dm-radio-control-btn:focus-visible,.dm-radio-control-btn:active{background:#277d49;color:#fff;outline-offset:2px}
+        .dm-radio-status{margin:5px 4px 0;text-align:right;font-size:10px;line-height:1.4;color:var(--muted,#777);max-width:100%;overflow-wrap:anywhere}
+        .dm-radio-audio{display:none}
+        @media(max-width:520px){.dm-radio-control{right:8px;bottom:8px;max-width:calc(100vw - 16px)}.dm-radio-dock{gap:5px;min-height:48px;padding:6px;border-radius:14px}.dm-radio-track strong{font-size:8px}.dm-radio-track small{font-size:9px}.dm-radio-control-btn{min-width:39px;height:31px;padding:0 7px;font-size:9px}.dm-radio-status{font-size:9px}}
+        @media(prefers-reduced-motion:reduce){.dm-radio-control *{transition:none!important;animation:none!important}}
+      `;
+      document.head.appendChild(style);
     }
   }
   // Follow the visitor's device-local clock; no server location or tracking needed.
