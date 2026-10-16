@@ -453,6 +453,7 @@
           <strong>DISTRICT MIND RADIO</strong><small class="dm-radio-current">13TH HOUR · Ready to play</small>
         </button>
         <button type="button" class="dm-radio-control-btn dm-radio-play" aria-label="Play music">Play</button>
+        <button type="button" class="dm-radio-control-btn dm-radio-shuffle" aria-label="Shuffle playlist">Shuffle</button>
         <button type="button" class="dm-radio-control-btn dm-radio-next" aria-label="Play next track">Next</button>
         <button type="button" class="dm-radio-control-btn dm-radio-stop" aria-label="Stop music">Stop</button>
       </div>
@@ -462,6 +463,7 @@
     const audio = radioControl.querySelector('.dm-radio-audio');
     const playButton = radioControl.querySelector('.dm-radio-play');
     const nextButton = radioControl.querySelector('.dm-radio-next');
+    const shuffleButton = radioControl.querySelector('.dm-radio-shuffle');
     const stopButton = radioControl.querySelector('.dm-radio-stop');
     const currentLabel = radioControl.querySelector('.dm-radio-current');
     const status = radioControl.querySelector('.dm-radio-status');
@@ -485,13 +487,16 @@
         setPlayState(false); say('Track file is not deployed yet: ' + track.title + '.');
       });
     };
-    const nextTrack = () => {
-      if (order.length > 1) {
-        let next = index;
-        while (next === index) next = Math.floor(Math.random() * order.length);
-        setTrack(next, true);
-      } else setTrack(index + 1, true);
-    };
+    const nextTrack = () => setTrack(index + 1, true);
+    shuffleButton.addEventListener('click', () => {
+      for (let n = order.length - 1; n > 0; n--) {
+        const k = Math.floor(Math.random() * (n + 1));
+        [order[n], order[k]] = [order[k], order[n]];
+      }
+      index = 0;
+      setTrack(index, true);
+      say('Shuffled playlist started.');
+    });
     radioControl.querySelector('.dm-radio-track').addEventListener('click', () => { window.location.href = '/radio.html'; });
     playButton.addEventListener('click', () => {
       if (!audio.src) setTrack(index, false);
