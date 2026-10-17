@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-17T02:57:11.373Z
+Generated: 2026-10-17T03:23:35.626Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 223
+Stories discovered: 220
 
 1. **B2K Sets Release Date for New Album ‘Eclipse,’ Shares ‘Lil Freak’ - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 00:48:29 GMT
    https://news.google.com/rss/articles/CBMie0FVX3lxTE9aNE1jZWRjaUYtWG0xR3VzM0xhS3hOU2k0ZS1zVG9Pd3FhNkQ1WC01TVBuSlUtOWxwY3BzTEZ4WTFUMlFuWjd3eFQ2VkFCYUlPRTFNS2h0a29qS2EyekpyS1pHSEJ0a0xRUGZEeXNLWEhxNGlKMmwzWjZmRQ?oc=5
@@ -60,9 +60,9 @@ Stories discovered: 223
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQaU1FVDVUenNwdWZPSDJnOVYwVk5xM1pwMHZDYkp6bVVjdURSeW9iWjFFN0V4Yml2TnA5YjVPQ3BkWWxNZXFQaTI3dkhDNGRlc3VMQW55QlVLMTJOLWdLRVdEbXFXbzFqZlQ4YUtZbmZKYl9GR3pZNWl6T2R4NWYwcUFHQzRYaHhZWTN2QlhOX3FpWElyd0VGc3FuSTBrbTBfTjFoNmZ3OERFeHBJeXFSemw1Y0labWJ0ems0TU93?oc=5
 27. **Nas Teases New Music & Voices Disgust Over Current State of Music Industry: ‘We Gotta Take a Stand as One’ - Billboard** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:34:07 GMT
    https://news.google.com/rss/articles/CBMifkFVX3lxTE9KRVREWHhVQTFUTUtBdHRNaXlISnpFbUdGTnZ6Vm16YkF3T0ZQdEszbVFFSjRyX1dtakN6c1NBTWg1a3daTmJGMWwxaFFrTTgxa29ma2xmSWppSXNHeEI5UllSR2pIVzBGRVBzdGF5TGlINjlseWhCOUtJVnYxdw?oc=5
-28. **Case and Carl Thomas Set for Classic R&B ‘Verzuz’ - HOT 97** — Google News — R&B — Fri, 16 Oct 2026 20:33:14 GMT
+28. **Nas Teases New Music & Voices Disgust Over Current State of Music Industry: ‘We Gotta Take a Stand as One’ - Yahoo** — Google News — New Music — Fri, 16 Oct 2026 20:34:01 GMT
+   https://news.google.com/rss/articles/CBMingFBVV95cUxNQVNUcHZxZFcwOVZQN2Z4eGdrelVTWjJqYzNqNV9rYmdRUVFVT0tlUFQ3R1lrSzdBQkZnZDh5cno4T1ppR0RRa0t3OUl3aG1VLW1WLVN6VzhFa3BaQUZkemJHU2RsWF9ZMFdCTG84OHVOdTJublNCOXBZMUdPY19DQmc3M0Mzc0xDR0h0Tm14OXlhUEFka3pzRWVrTmFXZw?oc=5
+29. **Case and Carl Thomas Set for Classic R&B ‘Verzuz’ - HOT 97** — Google News — R&B — Fri, 16 Oct 2026 20:33:14 GMT
    https://news.google.com/rss/articles/CBMif0FVX3lxTE1YaFdVdWRsdjRsOF9DQ09tQ3l5dEZsUmVyRUJJcEFmRzhTSDNDVTlfaVQwck51WDB3Q09UVjJvbV91U1V0N3JJYTRGWXRWYmVvYTZUMEh5dl9sb0xLQS04NWhpX3ZOUVI2YzdyVjNMLTgwX25ETU81cF9DV0ExYzQ?oc=5
-29. **Britney Spears Reveals the R&B Icon She Admires Most: ‘She Has Always Been God to Me’ - VICE** — Google News — R&B — Fri, 16 Oct 2026 20:20:27 GMT
+30. **Britney Spears Reveals the R&B Icon She Admires Most: ‘She Has Always Been God to Me’ - VICE** — Google News — R&B — Fri, 16 Oct 2026 20:20:27 GMT
    https://news.google.com/rss/articles/CBMitAFBVV95cUxOLVBsaWI3bzJpeUV4OV9uY3pkTF9ITUc4M3lTUThDQklzUlcyVE9lLVN4US1qUkhiMi02VTVldlFhbXh6N2FkdHJaLUNVSFEyTUk3WVI0Vnl3X2JmNkFDUTE5SHEwaWNWaFZiSDFqaXZUTmF5aXB3aUt1SVVnYUpya2tVaVhMYnpiTHFWdTB1V1g2V1hpaGpILW1HUGlWbW95QkxQSGNpa0VkeVowNG1td0E3VEo?oc=5
-30. **A$AP Rocky Chases First Grammy With “Don’t Be Dumb”** — AllHipHop — Fri, 16 Oct 2026 20:00:45 +0000
-   https://allhiphop.com/news/aap-rocky-chases-first-grammy-with-dont-be-dumb/
