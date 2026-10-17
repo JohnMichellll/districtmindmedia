@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-17T11:50:56.350Z
+Generated: 2026-10-17T12:18:57.550Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 216
+Stories discovered: 217
 
 1. **Musician Lee Bains III details his hiatus from music and new poetry book 'Work Lunch' - NPR** — Google News — New Music — Sat, 17 Oct 2026 11:43:06 GMT
    https://news.google.com/rss/articles/CBMixwFBVV95cUxPcFZpbEtFdXVIZ3JiUmVET0hQa1BqeUJVa0JxdS1wbjNpNHA2cXNnajY5OVA0dGVtZDl2eW1PRlB1TUt4cVpDOGNFVGdEU2tweWdZRDZCX1RBaFg4M3htOTlfOGVuLVdQc3RfaDllMEsyZXpDcWtFV1FPTnlHS0tnMlBxaklIeFBtTzVLZ0hxZlJBbEY0bi1VV3NqMFdyS0xHaEpqOEU1Y3RCRzJyUlpLc242QnVEeEdrV3pqalNYYll6SmppMmdB?oc=5
@@ -18,7 +18,7 @@ Stories discovered: 216
    https://variety.com/2026/music/news/miley-cyrus-bass-persuades-hollywood-bowl-concert-review-1236914661/
 6. **This Day in Hip-Hop and R&B History: October 17 - foxy99.com** — Google News — Hip-Hop — Sat, 17 Oct 2026 07:00:00 GMT
    https://news.google.com/rss/articles/CBMiggFBVV95cUxNdzQzVDVlSGx6TlkyRmZXb0lqbHBzOVhzeWFMd04xOTFVcDg5QVZ4OHN0WlBFcVJBcGdWay0wOFVDeVE3UC0yMWxQZ0lLeDV4Ti11WjFhTWZsZXZZNlRUS1RtRUhoNkxsYjI4X01RcGZRUi1aV0hLb1dwV3JkMDhqeDhB?oc=5
-7. **Destiny Stone-King releases new album - Salisbury Post** — Google News — New Music — Sat, 17 Oct 2026 06:01:01 GMT
+7. **Destiny Stone-King releases new album - Salisbury Post** — Google News — New Music — Sat, 17 Oct 2026 06:03:30 GMT
    https://news.google.com/rss/articles/CBMipgFBVV95cUxOSlkySjBVTWt0NktZcHlCWnRiN1J6WXYtVXhmNXYwYTRsODM0RUE3Nm9MM24zQUIxV2NwVWtXVlQtNUlaRlQwWjhTLUJxcm0yWTk5ODdmNk9PeXFmYzVEMGsyTDdhOGY1WGR3SGp6Wk9SbnBTWFNLUldBdThMZUw2eVd1RVRveEZBM084NWUyYm1ZUFltM2VjVllCR2IzN1M4c3hYQnFn?oc=5
 8. **10 Essential New R&B Releases: Snoh Aalegra, Lucky Daye, Jawan & More - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 03:54:26 GMT
    https://news.google.com/rss/articles/CBMifEFVX3lxTFA1WEc1SW4wb2l2MU5lREhqeWhfb0RrLWp4Z05Tc1ZFWERmcUUxM180RnphbnE0b2N3LUhVN2hPbUFDY3NwaU82LWhUcjY1NE1rX1JWaUItVGNsOS1rWlZHVTduRWU0MVRiYmd2Tlk1bnlicmxhNi1HR19reDY?oc=5
