@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-17T01:56:48.422Z",
+  "generatedAt": "2026-10-17T02:23:50.295Z",
   "operator": "District Mind AI Newsroom",
   "status": "READY_FOR_EDITOR",
-  "storyCount": 226,
+  "storyCount": 221,
   "stories": [
     {
       "title": "B2K Sets Release Date for New Album ‘Eclipse,’ Shares ‘Lil Freak’ - Rated R&B",
@@ -108,13 +108,6 @@
       "url": "https://allhiphop.com/music/star2-drops-new-concept-album-20-something-in-love-ft-young-henny-chinatown-runner-ler-mu-dex-lil-bk-seko/",
       "date": "Fri, 16 Oct 2026 22:33:30 +0000",
       "source": "AllHipHop"
-    },
-    {
-      "title": "Beneath the Balconies set to fill New Iberia streets with music - KATC",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPdUFpNjZURm4xS2lPU3htcFRQZHU0VFhVYWsydkRlLTdxaTJMYlhKTGFiVjRtc0FmLXM4R1VpdzZYT2FCejJ6MzNDZEt4TTFLbmRYb09wdUJXMEtHNUNkaWptRkhnMTZsMjJDV2VkUHhEUnFqaW1oUVQ5ZGVLRWRKX2o4Nm1aamJUTWFDcTBlN0hhT2NRUGdabWhFd1dnd0Z3dGxOWQ?oc=5\" target=\"_blank\">Beneath the Balconies set to fill New Iberia streets with music</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KATC</font>",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdUFpNjZURm4xS2lPU3htcFRQZHU0VFhVYWsydkRlLTdxaTJMYlhKTGFiVjRtc0FmLXM4R1VpdzZYT2FCejJ6MzNDZEt4TTFLbmRYb09wdUJXMEtHNUNkaWptRkhnMTZsMjJDV2VkUHhEUnFqaW1oUVQ5ZGVLRWRKX2o4Nm1aamJUTWFDcTBlN0hhT2NRUGdabWhFd1dnd0Z3dGxOWQ?oc=5",
-      "date": "Fri, 16 Oct 2026 22:27:00 GMT",
-      "source": "Google News — New Music"
     },
     {
       "title": "Drake Sued Over ‘Janice STFU’: Songwriter Claims Chorus Is ‘Literally Identical’ to His Demo",
@@ -271,6 +264,13 @@
       "source": "Google News — R&B"
     },
     {
+      "title": "Slick Rick Warns of ‘Demons’ Threatening Hip-Hop - EURweb",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ILWo1Rm5qajNIa01xTEpmcjNwN0hHNVJMQ3RINjlGa1FPTmFSUDM3am1Ld1N4TGh1eGxjRElmY3JwZjgwSFF2cGM1ZWcxMDgwVDRLUjRqeXRvZw?oc=5\" target=\"_blank\">Slick Rick Warns of ‘Demons’ Threatening Hip-Hop</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EURweb</font>",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ILWo1Rm5qajNIa01xTEpmcjNwN0hHNVJMQ3RINjlGa1FPTmFSUDM3am1Ld1N4TGh1eGxjRElmY3JwZjgwSFF2cGM1ZWcxMDgwVDRLUjRqeXRvZw?oc=5",
+      "date": "Fri, 16 Oct 2026 18:59:42 GMT",
+      "source": "Google News — Hip-Hop"
+    },
+    {
       "title": "Lucky Daye Releases New Album ‘ALOUD!’ (Stream) - YouKnowIGotSoul.com",
       "description": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE82Y3pPWHprREZrcXNjYkUxX0ttY0ZQZFJEQ1RrdmEzb0V3OEFNc2ZEV29HV3NaWHVuNk52UW8zaFlzNVQ4UUNjU05WYUZ3WF92UXdZUnZaLThmQkM1N2lVT3RZeExVcGh0RWRvZ2VieEJmVGU4Vk8tZG1n?oc=5\" target=\"_blank\">Lucky Daye Releases New Album ‘ALOUD!’ (Stream)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YouKnowIGotSoul.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE82Y3pPWHprREZrcXNjYkUxX0ttY0ZQZFJEQ1RrdmEzb0V3OEFNc2ZEV29HV3NaWHVuNk52UW8zaFlzNVQ4UUNjU05WYUZ3WF92UXdZUnZaLThmQkM1N2lVT3RZeExVcGh0RWRvZ2VieEJmVGU4Vk8tZG1n?oc=5",
@@ -367,13 +367,6 @@
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObjBxenU4YWRJNmxuTzFIT3FpbUN4OVJfYkhIZi15WjlZOEtYNktqeEM1aE9ZTDRLSDMwMklveFRCcGRWc1ZoSU94N2RRMVVxSzRUNnI3MkJodWdDYnpTX0VsU2trTHV6aldVWVUzN2tuVGNwTk9oUTFtbXRhT3RBb1pIclNsc2F6d1VuZjA1Q09TMks0Nlh3b3NuTFFzUVRKcXdWc3NHekJmVlBLZlg1Y3dqRDd4TUp4STZOQWN3RnVyNkdkbHZiZHpqVzJBQTdlREYyX05acUtWdGFP?oc=5",
       "date": "Fri, 16 Oct 2026 16:59:55 GMT",
       "source": "Google News — Hip-Hop"
-    },
-    {
-      "title": "This week's new music: Rustie, Corridos Ketamina, Mia Koden · News ⟋ RA - Resident Advisor",
-      "description": "<a href=\"https://news.google.com/rss/articles/CBMiPEFVX3lxTE02OWZpQllYWFJxZUs4bjBBVU80VnUxYnY3aG9nWkh5V09XMnZ4UjJUWjJpbVNLR0xhNXNlOA?oc=5\" target=\"_blank\">This week's new music: Rustie, Corridos Ketamina, Mia Koden · News ⟋ RA</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Resident Advisor</font>",
-      "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE02OWZpQllYWFJxZUs4bjBBVU80VnUxYnY3aG9nWkh5V09XMnZ4UjJUWjJpbVNLR0xhNXNlOA?oc=5",
-      "date": "Fri, 16 Oct 2026 16:52:07 GMT",
-      "source": "Google News — New Music"
     },
     {
       "title": "Musician Creates Catchy Hip-Hop Beats by Remixing Bird Calls - Laughing Squid",
@@ -628,6 +621,13 @@
       "source": "Google News — New Music"
     },
     {
+      "title": "'Ghost' city's revamp could include new music venue - BBC",
+      "description": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JbElxbkozU3lEX21DZW1XUDBjc1lJS0ZvanBzR25SQmhCbjc1N2QwOENvOElwR213RXhIQzhjN1RLV0hlb2FRWTFuN0hac3dKd1hWNWZmelJCckU?oc=5\" target=\"_blank\">'Ghost' city's revamp could include new music venue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JbElxbkozU3lEX21DZW1XUDBjc1lJS0ZvanBzR25SQmhCbjc1N2QwOENvOElwR213RXhIQzhjN1RLV0hlb2FRWTFuN0hac3dKd1hWNWZmelJCckU?oc=5",
+      "date": "Fri, 16 Oct 2026 05:19:28 GMT",
+      "source": "Google News — New Music"
+    },
+    {
       "title": "Zach Bryan Links Up With Lana Del Rey for Delicate Duet ‘Lies’",
       "description": "Young Manhood and Other Donatable Organs Tour ]]>",
       "url": "https://www.rollingstone.com/music/music-news/zach-bryan-lana-del-rey-lies-1235642159/",
@@ -728,8 +728,8 @@
       "bytes": 18472,
       "hasItemTag": true,
       "hasEntryTag": false,
-      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=8f575f204b2a41e5a6b590a087e6c0f2 benchma",
-      "latencyMs": 170
+      "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!-- app_env=prod app_vendor=tmz app_name=web app_version=3.60.1 app_build=bf67165 app_deployment_id=4e335ed1b2054739b30069fa7e2074a5 benchma",
+      "latencyMs": 126
     },
     {
       "source": "HipHopDX",
@@ -740,18 +740,18 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 250
+      "latencyMs": 115
     },
     {
       "source": "AllHipHop",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 63898,
+      "bytes": 63974,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 579
+      "latencyMs": 436
     },
     {
       "source": "No Jumper",
@@ -762,62 +762,62 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <rss version=\"2.0\" xmlns:itunes=\"http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:googleplay=\"http://www.google.com/schemas/play-podcasts/1.",
-      "latencyMs": 697
+      "latencyMs": 585
     },
     {
       "source": "Google News — Hip-Hop",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 127839,
+      "bytes": 127073,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"hip-hop\" - Goog",
-      "latencyMs": 549
+      "latencyMs": 470
     },
     {
       "source": "Google News — R&B",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 127093,
+      "bytes": 127308,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"R&amp;B\" - Goog",
-      "latencyMs": 376
+      "latencyMs": 442
     },
     {
       "source": "Google News — New Music",
       "tier": 2,
       "status": "ok",
       "stories": 102,
-      "bytes": 131875,
+      "bytes": 131285,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"new music\" - Go",
-      "latencyMs": 443
+      "latencyMs": 514
     },
     {
       "source": "Google News — Colorado Music",
       "tier": 2,
       "status": "ok",
       "stories": 100,
-      "bytes": 123984,
+      "bytes": 124568,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\"><channel><generator>NFE/5.0</generator><title>\"Colorado music\"",
-      "latencyMs": 403
+      "latencyMs": 508
     },
     {
       "source": "Billboard",
       "tier": 1,
       "status": "ok",
       "stories": 10,
-      "bytes": 130476,
+      "bytes": 131157,
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 206
+      "latencyMs": 67
     },
     {
       "source": "Pitchfork",
@@ -828,7 +828,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?><rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:media=\"http://search.yahoo.com/mrss/\" version=",
-      "latencyMs": 136
+      "latencyMs": 53
     },
     {
       "source": "Rolling Stone — Music",
@@ -839,7 +839,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 189
+      "latencyMs": 109
     },
     {
       "source": "Variety — Music",
@@ -850,7 +850,7 @@
       "hasItemTag": true,
       "hasEntryTag": false,
       "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http",
-      "latencyMs": 174
+      "latencyMs": 419
     }
   ],
   "errorCount": 0,
