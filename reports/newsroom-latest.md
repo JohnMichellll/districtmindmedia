@@ -1,15 +1,15 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-17T07:55:14.043Z
+Generated: 2026-10-17T08:18:20.084Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 218
+Stories discovered: 217
 
-1. **Miley Cyrus Embraces Being the Anti-Pop Pop Star With Her First ‘Bass Persuades’ Concert at Hollywood Bowl: Concert Review** — Variety — Music — Sat, 17 Oct 2026 07:53:16 +0000
+1. **Olivia Rodrigo, Tate McRae and Zach Bryan Lead a Packed New Music Friday - Effingham Radio** — Google News — New Music — Sat, 17 Oct 2026 08:14:57 GMT
+   https://news.google.com/rss/articles/CBMitAFBVV95cUxQWXViOHEzdUp3V1ZiSklYQkZBSWt1YXpjOEItQ010X0pVZEFHN2xvd2ZmTmotVmRNMXFZYU5SSC15d3NlODZUcmpFTnBRbW5pR1pBeEdkY3dQX2dpbDc0R2FjazF1bGxPaUFLejkwNWVxajRndDNQek9mcE1WN05VVjktQ2V3aFItUmFTRFN5bmpielMtTTVJRkRJV3RxOWRvSDhRRVV2RWxQajFmb0lHbVkwV1U?oc=5
+2. **Miley Cyrus Embraces Being the Anti-Pop Pop Star With Her First ‘Bass Persuades’ Concert at Hollywood Bowl: Concert Review** — Variety — Music — Sat, 17 Oct 2026 07:53:16 +0000
    https://variety.com/2026/music/news/miley-cyrus-bass-persuades-hollywood-bowl-concert-review-1236914661/
-2. **Olivia Rodrigo, Tate McRae and Zach Bryan Lead a Packed New Music Friday - 95.5 WFMS** — Google News — New Music — Sat, 17 Oct 2026 07:49:42 GMT
-   https://news.google.com/rss/articles/CBMipwFBVV95cUxPUHZiREtScnc4enRQNFdNa2FfZ0R4STI0Si1YdmJ1WERRTHlrdHZzaFA1bXJKRnVVM0wzQ2RDT2NRdTZaODdPRmZYYXNuTjhHQlprSHdfWUhidHBTeWlFUzhiYlgzOG95OGRyVVU2dmt5SEFrUEZ5YkdxZ3UwaFNqd2JMNm85dGtYUjEzbE42aVNuT2VRYmN5ckE4M3loeGpybnR3WDl4RQ?oc=5
 3. **This Day in Hip-Hop and R&B History: October 17 - foxy99.com** — Google News — Hip-Hop — Sat, 17 Oct 2026 07:00:00 GMT
    https://news.google.com/rss/articles/CBMiggFBVV95cUxNdzQzVDVlSGx6TlkyRmZXb0lqbHBzOVhzeWFMd04xOTFVcDg5QVZ4OHN0WlBFcVJBcGdWay0wOFVDeVE3UC0yMWxQZ0lLeDV4Ti11WjFhTWZsZXZZNlRUS1RtRUhoNkxsYjI4X01RcGZRUi1aV0hLb1dwV3JkMDhqeDhB?oc=5
 4. **Destiny Stone-King releases new album - Salisbury Post** — Google News — New Music — Sat, 17 Oct 2026 06:01:01 GMT
@@ -62,7 +62,7 @@ Stories discovered: 218
    https://variety.com/2026/music/concert-reviews/ella-langley-concert-review-greek-theatre-tour-1236914594/
 28. **New Music Friday: Silvana Estrada, OHGEESY ft Big Sean, Eddie Santiago, Ryan Castro, Olivia Rodrigo, and more - HOLA** — Google News — New Music — Fri, 16 Oct 2026 21:24:33 GMT
    https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQTFGQm1DODN1OXZMdUV2aTgzVllCaTkydXhJLVJTMzJoaUJxWnl6ckhCWWhvTDVTaVI0RkRjRzMxbFNRTUE5aEc4UGVib1BPakJNbXp4RGF5azZuWll0ZGFNelF0aGFzRUkxZkVVbmhnVVhaMHBrX2Z0ektSRUpsVjNxcGFxSGN1?oc=5
-29. **Hall of Fame Basketball Coach Recalls Being Too ‘Embarrassed’ to Talk to Taylor Swift at Knicks Game: ‘I Acted Like I Was on My Phone’** — Billboard — Fri, 16 Oct 2026 21:22:51 +0000
-   https://www.billboard.com/music/pop/taylor-swift-intimidated-basketball-coach-cal-knicks-game-1236362225/
-30. **Megan Thee Stallion Revives Tina Snow Ahead Of New Album And Victoria’s Secret Show - Hip-Hop Wired** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:57:52 GMT
+29. **Megan Thee Stallion Revives Tina Snow Ahead Of New Album And Victoria’s Secret Show - Hip-Hop Wired** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:57:52 GMT
    https://news.google.com/rss/articles/CBMiekFVX3lxTE1YaDZmOHQwNkUxbVF3NENFWUFjTGZZcy16dzR4aU56eUF3SWlPWjI5ZFlxWkJLbmVsZlJwV29mWHI4TWs5amNDQmJ5Q2NhNjBEM3RmUmNJOXhoM1BzTmRTa25zUnh0THZHU2dTRkpuS0EwdWZIVHRuSjhB?oc=5
+30. **A Gentleman Never Tells: Meet Delonte West’s Wife, Melissa Anaya [Photos] - Hip-Hop Wired** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:57:52 GMT
+   https://news.google.com/rss/articles/CBMie0FVX3lxTE5oRnRmc3hGTHluSE1yNE9adDQ4TDYtM29yaWFOOXBUQUVjTnBrZUttZ3JWaGhJVkNoeEFaLUtxaXNYSHpOQi1BTXF5UEFZOGF3aDNGVTIzMGk0RDNMR1NiT0ZzUW00Vkc3RDJPaEh4amthVzRyY05wWkx6dw?oc=5
