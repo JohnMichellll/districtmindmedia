@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-17T03:57:34.490Z
+Generated: 2026-10-17T04:24:18.010Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 221
+Stories discovered: 220
 
 1. **10 Essential New R&B Releases: Snoh Aalegra, Lucky Daye, Jawan & More - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 03:54:26 GMT
    https://news.google.com/rss/articles/CBMifEFVX3lxTFA1WEc1SW4wb2l2MU5lREhqeWhfb0RrLWp4Z05Tc1ZFWERmcUUxM180RnphbnE0b2N3LUhVN2hPbUFDY3NwaU82LWhUcjY1NE1rX1JWaUItVGNsOS1rWlZHVTduRWU0MVRiYmd2Tlk1bnlicmxhNi1HR19reDY?oc=5
@@ -54,15 +54,15 @@ Stories discovered: 221
    https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQTFGQm1DODN1OXZMdUV2aTgzVllCaTkydXhJLVJTMzJoaUJxWnl6ckhCWWhvTDVTaVI0RkRjRzMxbFNRTUE5aEc4UGVib1BPakJNbXp4RGF5azZuWll0ZGFNelF0aGFzRUkxZkVVbmhnVVhaMHBrX2Z0ektSRUpsVjNxcGFxSGN1?oc=5
 24. **Hall of Fame Basketball Coach Recalls Being Too ‘Embarrassed’ to Talk to Taylor Swift at Knicks Game: ‘I Acted Like I Was on My Phone’** — Billboard — Fri, 16 Oct 2026 21:22:51 +0000
    https://www.billboard.com/music/pop/taylor-swift-intimidated-basketball-coach-cal-knicks-game-1236362225/
-25. **New Music Friday: Olivia Rodrigo, Fontaines D.C. and KATSEYE - Sweety High** — Google News — New Music — Fri, 16 Oct 2026 21:19:48 GMT
-   https://news.google.com/rss/articles/CBMigAFBVV95cUxNY1hTVHZHbG43bjQwRTdDUmNvcjRfZDV6c2JhZl9jN3ZqeTJaM0hyVTh3VE1DZzJRTHcxb2thekt2bGxIY3lXOU5pMnNHUUZEU3hPWkNLb1RTMjhUemJkcGdSX2N0SkhnX2tkQUlpRERKMktFeW1MQXZuemItalVXSw?oc=5
-26. **Megan Thee Stallion Revives Tina Snow Ahead Of New Album And Victoria’s Secret Show - Hip-Hop Wired** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:57:52 GMT
+25. **Megan Thee Stallion Revives Tina Snow Ahead Of New Album And Victoria’s Secret Show - Hip-Hop Wired** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:57:52 GMT
    https://news.google.com/rss/articles/CBMiekFVX3lxTE1YaDZmOHQwNkUxbVF3NENFWUFjTGZZcy16dzR4aU56eUF3SWlPWjI5ZFlxWkJLbmVsZlJwV29mWHI4TWs5amNDQmJ5Q2NhNjBEM3RmUmNJOXhoM1BzTmRTa25zUnh0THZHU2dTRkpuS0EwdWZIVHRuSjhB?oc=5
-27. **A Gentleman Never Tells: Meet Delonte West’s Wife, Melissa Anaya [Photos] - Hip-Hop Wired** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:57:52 GMT
+26. **A Gentleman Never Tells: Meet Delonte West’s Wife, Melissa Anaya [Photos] - Hip-Hop Wired** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:57:52 GMT
    https://news.google.com/rss/articles/CBMie0FVX3lxTE5oRnRmc3hGTHluSE1yNE9adDQ4TDYtM29yaWFOOXBUQUVjTnBrZUttZ3JWaGhJVkNoeEFaLUtxaXNYSHpOQi1BTXF5UEFZOGF3aDNGVTIzMGk0RDNMR1NiT0ZzUW00Vkc3RDJPaEh4amthVzRyY05wWkx6dw?oc=5
-28. **Brooklyn Punk Duo Venus Twins Tell Us How They Ended Up in Olivia Rodrigo's New Music Video - Rolling Stone** — Google News — New Music — Fri, 16 Oct 2026 20:51:24 GMT
+27. **Brooklyn Punk Duo Venus Twins Tell Us How They Ended Up in Olivia Rodrigo's New Music Video - Rolling Stone** — Google News — New Music — Fri, 16 Oct 2026 20:51:24 GMT
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQaU1FVDVUenNwdWZPSDJnOVYwVk5xM1pwMHZDYkp6bVVjdURSeW9iWjFFN0V4Yml2TnA5YjVPQ3BkWWxNZXFQaTI3dkhDNGRlc3VMQW55QlVLMTJOLWdLRVdEbXFXbzFqZlQ4YUtZbmZKYl9GR3pZNWl6T2R4NWYwcUFHQzRYaHhZWTN2QlhOX3FpWElyd0VGc3FuSTBrbTBfTjFoNmZ3OERFeHBJeXFSemw1Y0labWJ0ems0TU93?oc=5
-29. **Nas Teases New Music & Voices Disgust Over Current State of Music Industry: ‘We Gotta Take a Stand as One’ - Billboard** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:34:07 GMT
+28. **Nas Teases New Music & Voices Disgust Over Current State of Music Industry: ‘We Gotta Take a Stand as One’ - Billboard** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:34:07 GMT
    https://news.google.com/rss/articles/CBMifkFVX3lxTE9KRVREWHhVQTFUTUtBdHRNaXlISnpFbUdGTnZ6Vm16YkF3T0ZQdEszbVFFSjRyX1dtakN6c1NBTWg1a3daTmJGMWwxaFFrTTgxa29ma2xmSWppSXNHeEI5UllSR2pIVzBGRVBzdGF5TGlINjlseWhCOUtJVnYxdw?oc=5
-30. **Nas Teases New Music & Voices Disgust Over Current State of Music Industry: ‘We Gotta Take a Stand as One’ - Yahoo** — Google News — New Music — Fri, 16 Oct 2026 20:34:01 GMT
-   https://news.google.com/rss/articles/CBMingFBVV95cUxNQVNUcHZxZFcwOVZQN2Z4eGdrelVTWjJqYzNqNV9rYmdRUVFVT0tlUFQ3R1lrSzdBQkZnZDh5cno4T1ppR0RRa0t3OUl3aG1VLW1WLVN6VzhFa3BaQUZkemJHU2RsWF9ZMFdCTG84OHVOdTJublNCOXBZMUdPY19DQmc3M0Mzc0xDR0h0Tm14OXlhUEFka3pzRWVrTmFXZw?oc=5
+29. **Case and Carl Thomas Set for Classic R&B ‘Verzuz’ - HOT 97** — Google News — R&B — Fri, 16 Oct 2026 20:33:14 GMT
+   https://news.google.com/rss/articles/CBMif0FVX3lxTE1YaFdVdWRsdjRsOF9DQ09tQ3l5dEZsUmVyRUJJcEFmRzhTSDNDVTlfaVQwck51WDB3Q09UVjJvbV91U1V0N3JJYTRGWXRWYmVvYTZUMEh5dl9sb0xLQS04NWhpX3ZOUVI2YzdyVjNMLTgwX25ETU81cF9DV0ExYzQ?oc=5
+30. **Britney Spears Reveals the R&B Icon She Admires Most: ‘She Has Always Been God to Me’ - VICE** — Google News — R&B — Fri, 16 Oct 2026 20:20:27 GMT
+   https://news.google.com/rss/articles/CBMitAFBVV95cUxOLVBsaWI3bzJpeUV4OV9uY3pkTF9ITUc4M3lTUThDQklzUlcyVE9lLVN4US1qUkhiMi02VTVldlFhbXh6N2FkdHJaLUNVSFEyTUk3WVI0Vnl3X2JmNkFDUTE5SHEwaWNWaFZiSDFqaXZUTmF5aXB3aUt1SVVnYUpya2tVaVhMYnpiTHFWdTB1V1g2V1hpaGpILW1HUGlWbW95QkxQSGNpa0VkeVowNG1td0E3VEo?oc=5
