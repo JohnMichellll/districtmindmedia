@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-17T10:17:44.421Z
+Generated: 2026-10-17T10:52:15.799Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 216
+Stories discovered: 215
 
 1. **Olivia Rodrigo, Tate McRae and Zach Bryan Lead a Packed New Music Friday - WBWN** — Google News — New Music — Sat, 17 Oct 2026 09:13:25 GMT
    https://news.google.com/rss/articles/CBMipwFBVV95cUxOcm1BTno0UlVDc3R6aUJsYk5ZenRrUllSa2s3NmJ3MFBVcnhkclpYS1hSU2lxMlFrV1BwZDF4ZWlOOXY1N3M4dmNmY0F5ZnRKbG5NX1p6ZEY3eHF5UVJkV09JeUtRMDNpZTJsdk01OHJQOW5XdS12UHJFc1gyS29aMTBVZm1OYms2bExLOGpFSnJZbUp5bTd4U2hJS1RmXzBwZ0ZDQ29zOA?oc=5
@@ -60,9 +60,9 @@ Stories discovered: 216
    https://variety.com/2026/music/concert-reviews/ella-langley-concert-review-greek-theatre-tour-1236914594/
 27. **New Music Friday: Silvana Estrada, OHGEESY ft Big Sean, Eddie Santiago, Ryan Castro, Olivia Rodrigo, and more - HOLA** — Google News — New Music — Fri, 16 Oct 2026 21:24:33 GMT
    https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQTFGQm1DODN1OXZMdUV2aTgzVllCaTkydXhJLVJTMzJoaUJxWnl6ckhCWWhvTDVTaVI0RkRjRzMxbFNRTUE5aEc4UGVib1BPakJNbXp4RGF5azZuWll0ZGFNelF0aGFzRUkxZkVVbmhnVVhaMHBrX2Z0ektSRUpsVjNxcGFxSGN1?oc=5
-28. **Megan Thee Stallion Revives Tina Snow Ahead Of New Album And Victoria’s Secret Show - Hip-Hop Wired** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:57:52 GMT
-   https://news.google.com/rss/articles/CBMiekFVX3lxTE1YaDZmOHQwNkUxbVF3NENFWUFjTGZZcy16dzR4aU56eUF3SWlPWjI5ZFlxWkJLbmVsZlJwV29mWHI4TWs5amNDQmJ5Q2NhNjBEM3RmUmNJOXhoM1BzTmRTa25zUnh0THZHU2dTRkpuS0EwdWZIVHRuSjhB?oc=5
-29. **A Gentleman Never Tells: Meet Delonte West’s Wife, Melissa Anaya [Photos] - Hip-Hop Wired** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:57:52 GMT
+28. **A Gentleman Never Tells: Meet Delonte West’s Wife, Melissa Anaya [Photos] - Hip-Hop Wired** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:57:52 GMT
    https://news.google.com/rss/articles/CBMie0FVX3lxTE5oRnRmc3hGTHluSE1yNE9adDQ4TDYtM29yaWFOOXBUQUVjTnBrZUttZ3JWaGhJVkNoeEFaLUtxaXNYSHpOQi1BTXF5UEFZOGF3aDNGVTIzMGk0RDNMR1NiT0ZzUW00Vkc3RDJPaEh4amthVzRyY05wWkx6dw?oc=5
+29. **Megan Thee Stallion Revives Tina Snow Ahead Of New Album And Victoria’s Secret Show - Hip-Hop Wired** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:57:52 GMT
+   https://news.google.com/rss/articles/CBMiekFVX3lxTE1YaDZmOHQwNkUxbVF3NENFWUFjTGZZcy16dzR4aU56eUF3SWlPWjI5ZFlxWkJLbmVsZlJwV29mWHI4TWs5amNDQmJ5Q2NhNjBEM3RmUmNJOXhoM1BzTmRTa25zUnh0THZHU2dTRkpuS0EwdWZIVHRuSjhB?oc=5
 30. **Brooklyn Punk Duo Venus Twins Tell Us How They Ended Up in Olivia Rodrigo's New Music Video - Rolling Stone** — Google News — New Music — Fri, 16 Oct 2026 20:51:24 GMT
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQaU1FVDVUenNwdWZPSDJnOVYwVk5xM1pwMHZDYkp6bVVjdURSeW9iWjFFN0V4Yml2TnA5YjVPQ3BkWWxNZXFQaTI3dkhDNGRlc3VMQW55QlVLMTJOLWdLRVdEbXFXbzFqZlQ4YUtZbmZKYl9GR3pZNWl6T2R4NWYwcUFHQzRYaHhZWTN2QlhOX3FpWElyd0VGc3FuSTBrbTBfTjFoNmZ3OERFeHBJeXFSemw1Y0labWJ0ems0TU93?oc=5
