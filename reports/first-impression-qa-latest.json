@@ -1,20 +1,14 @@
 {
-  "generatedAt": "2026-10-16T04:38:05.206Z",
+  "generatedAt": "2026-10-17T02:34:52.617Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
-      "type": "console-error",
-      "text": "Refused to load the script 'https://www.youtube.com/iframe_api' because it violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-inline'\". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.\n",
-      "url": "https://district-mind-media.pages.dev/site-guide.js?v=20261014-radio",
-      "page": "https://district-mind-media.pages.dev/"
-    },
-    {
       "route": "/",
       "status": 200,
-      "ms": 2042,
+      "ms": 1384,
       "title": "District Mind Media — The Culture in Motion",
-      "bodyChars": 462,
+      "bodyChars": 361,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -33,7 +27,6 @@
         "https://district-mind-media.pages.dev/explore",
         "https://district-mind-media.pages.dev/radar",
         "https://www.instagram.com/reel/DeWFo9_PxAq/",
-        "https://youtu.be/Ytt_s7M9TeQ",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
@@ -69,17 +62,11 @@
       "internalLinkCount": 14
     },
     {
-      "type": "console-error",
-      "text": "Refused to load the script 'https://www.youtube.com/iframe_api' because it violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-inline'\". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.\n",
-      "url": "https://district-mind-media.pages.dev/site-guide.js?v=20261014-radio",
-      "page": "https://district-mind-media.pages.dev/newsroom"
-    },
-    {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 1211,
+      "ms": 1221,
       "title": "Newsroom — District Mind Media",
-      "bodyChars": 2650,
+      "bodyChars": 2549,
       "hasNav": true,
       "images": [],
       "visualAssets": [
@@ -160,7 +147,6 @@
         "https://district-mind-media.pages.dev/feed.xml",
         "https://district-mind-media.pages.dev/help",
         "https://district-mind-media.pages.dev/playlists",
-        "https://youtu.be/Ytt_s7M9TeQ",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
@@ -196,17 +182,11 @@
       "internalLinkCount": 21
     },
     {
-      "type": "console-error",
-      "text": "Refused to load the script 'https://www.youtube.com/iframe_api' because it violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-inline'\". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.\n",
-      "url": "https://district-mind-media.pages.dev/site-guide.js?v=20261014-appearance",
-      "page": "https://district-mind-media.pages.dev/artists"
-    },
-    {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1102,
+      "ms": 1098,
       "title": "District Mind Media — Artist Intelligence Hub",
-      "bodyChars": 1789,
+      "bodyChars": 1688,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -235,7 +215,6 @@
         "https://district-mind-media.pages.dev/academy",
         "https://district-mind-media.pages.dev/help",
         "https://district-mind-media.pages.dev/playlists",
-        "https://youtu.be/Ytt_s7M9TeQ",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
@@ -271,17 +250,11 @@
       "internalLinkCount": 21
     },
     {
-      "type": "console-error",
-      "text": "Refused to load the script 'https://www.youtube.com/iframe_api' because it violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-inline'\". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.\n",
-      "url": "https://district-mind-media.pages.dev/site-guide.js?v=20261014-radio",
-      "page": "https://district-mind-media.pages.dev/releases"
-    },
-    {
       "route": "/releases.html",
       "status": 200,
-      "ms": 1175,
+      "ms": 1066,
       "title": "District Mind Media | Releases",
-      "bodyChars": 2443,
+      "bodyChars": 2342,
       "hasNav": true,
       "images": [
         {
@@ -390,7 +363,6 @@
         "https://music.apple.com/us/artist/john-michell/1720482148",
         "https://music.apple.com/us/album/eyes-open-single/1727068645",
         "https://music.apple.com/au/album/cherrywood-single/1720659104",
-        "https://youtu.be/Ytt_s7M9TeQ",
         "https://district-mind-media.pages.dev/artists.html",
         "https://district-mind-media.pages.dev/newsroom.html",
         "https://district-mind-media.pages.dev/releases.html"
@@ -428,9 +400,9 @@
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 1170,
+      "ms": 1021,
       "title": "Local Watch — District Mind Media",
-      "bodyChars": 985,
+      "bodyChars": 993,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -489,9 +461,9 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 1246,
+      "ms": 1049,
       "title": "Wayfinder Music AI — District Mind Media",
-      "bodyChars": 1669,
+      "bodyChars": 1677,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -557,9 +529,9 @@
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1101,
+      "ms": 1087,
       "title": "Radar — District Mind Media",
-      "bodyChars": 683,
+      "bodyChars": 691,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -618,9 +590,9 @@
     {
       "route": "/culture.html",
       "status": 200,
-      "ms": 1150,
+      "ms": 1071,
       "title": "District Mind Media | Culture",
-      "bodyChars": 1761,
+      "bodyChars": 1769,
       "hasNav": true,
       "images": [],
       "visualAssets": [
@@ -710,9 +682,9 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1112,
+      "ms": 1119,
       "title": "District Mind Media | About",
-      "bodyChars": 1607,
+      "bodyChars": 1615,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -769,9 +741,9 @@
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 1048,
+      "ms": 1083,
       "title": "District Mind Media | Contact",
-      "bodyChars": 606,
+      "bodyChars": 614,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -824,9 +796,9 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 1083,
+      "ms": 1162,
       "title": "District Mind Academy — Class 001",
-      "bodyChars": 3634,
+      "bodyChars": 3642,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -890,9 +862,9 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 1052,
+      "ms": 1086,
       "title": "Academy 001 — District Mind",
-      "bodyChars": 1037,
+      "bodyChars": 1045,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -952,9 +924,9 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 1041,
+      "ms": 1074,
       "title": "Editorial — District Mind Media",
-      "bodyChars": 1146,
+      "bodyChars": 1154,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -1019,9 +991,9 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1040,
+      "ms": 1108,
       "title": "Editorial Policy | District Mind Media",
-      "bodyChars": 2993,
+      "bodyChars": 3001,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -1093,9 +1065,9 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1029,
+      "ms": 1086,
       "title": "Contributors — District Mind Media",
-      "bodyChars": 1189,
+      "bodyChars": 1197,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -1156,9 +1128,9 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 1123,
+      "ms": 1257,
       "title": "Explore — District Mind Media",
-      "bodyChars": 1090,
+      "bodyChars": 1056,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -1224,9 +1196,9 @@
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 1046,
+      "ms": 1185,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
-      "bodyChars": 2935,
+      "bodyChars": 2943,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -1288,9 +1260,9 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 1073,
+      "ms": 1034,
       "title": "John Michell — District Mind Media",
-      "bodyChars": 2192,
+      "bodyChars": 2200,
       "hasNav": true,
       "images": [
         {
@@ -1388,7 +1360,7 @@
     "routeFailures": 0,
     "internalLinkFailures": 0,
     "pageErrors": 0,
-    "consoleErrors": 4,
+    "consoleErrors": 0,
     "interactionFailures": 0,
     "interactionChecks": 108,
     "blankPages": 0,
