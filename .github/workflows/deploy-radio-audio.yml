@@ -30,8 +30,8 @@ jobs:
           mkdir -p /tmp/dm-radio-downloads /tmp/dm-radio-work
           gdown --folder "https://drive.google.com/drive/folders/1rR7vQ-8CHg2Aj_ero-A6ISPtxui0bCFE" \
             -O /tmp/dm-radio-downloads
-          find /tmp/dm-radio-downloads -type f -iname '*.zip' -print
-          test "$(find /tmp/dm-radio-downloads -type f -iname '*.zip' | wc -l)" -gt 0
+          find /tmp/dm-radio-downloads -type f \( -iname '*.zip' -o -iname '*.wav' -o -iname '*.m4a' -o -iname '*.mp3' \) -print
+          test "$(find /tmp/dm-radio-downloads -type f \( -iname '*.zip' -o -iname '*.wav' -o -iname '*.m4a' -o -iname '*.mp3' \) | wc -l)" -gt 0
 
       - name: Convert the nine regular tracks and stage the two vault tracks
         shell: bash
@@ -40,6 +40,7 @@ jobs:
           while IFS= read -r -d '' archive; do
             unzip -oq "$archive" -d /tmp/dm-radio-work
           done < <(find /tmp/dm-radio-downloads -type f -iname '*.zip' -print0)
+          find /tmp/dm-radio-downloads -type f \( -iname '*.wav' -o -iname '*.m4a' -o -iname '*.mp3' -o -iname '*.aac' -o -iname '*.flac' \) -exec cp -n {} /tmp/dm-radio-work/ \;
 
           mkdir -p assets/audio/13th-hour assets/audio/vault
           python - <<'PY'
