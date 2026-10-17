@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>System Status — District Mind Media</title>
+<meta name="description" content="Live operational checks for District Mind Media pages and services.">
+<meta name="robots" content="noindex,follow">
+<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/menu-scroll-fix.css">
+<meta name="theme-color" content="#111111">
+<style>
+.status-page{min-height:70vh;background:#111;color:#f7f5f1;padding:clamp(30px,6vw,76px) 0 80px}
+.status-wrap{width:min(1120px,92%);margin:auto}
+.status-kicker{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:#d7ff64}
+.status-title{font-size:clamp(44px,8vw,92px);line-height:.95;letter-spacing:-.07em;margin:18px 0}
+.status-lead{max-width:660px;color:#c3c3bd;line-height:1.7}
+.status-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:28px 0}
+.status-button{min-height:44px;padding:0 18px;border:1px solid #f7f5f1;background:#f7f5f1;color:#111;font-weight:800;cursor:pointer}
+.status-button:active{background:#277d3d;color:#fff;border-color:#277d3d}
+.status-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.status-card{padding:20px;border:1px solid #383838;background:#191919;min-width:0}
+.status-card h2{font-size:17px;margin-bottom:8px}
+.status-card p{font-size:13px;color:#bdbdb6;line-height:1.6;overflow-wrap:anywhere}
+.status-line{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+.status-pill{display:inline-flex;align-items:center;gap:7px;border:1px solid #454545;border-radius:999px;padding:5px 9px;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+.status-pill:before{content:"";width:7px;height:7px;border-radius:50%;background:#888}
+.status-pill.ok{color:#d7ff64;border-color:#53612e}.status-pill.ok:before{background:#d7ff64}
+.status-pill.bad{color:#ffaaa4;border-color:#713d3a}.status-pill.bad:before{background:#ff7770}
+.status-pill.wait{color:#d0d0ca}
+.status-meta{font-size:11px!important;margin-top:12px;color:#8e8e87!important}
+.status-foot{color:#a5a59e;font-size:12px;line-height:1.7;margin-top:24px}
+@media(max-width:620px){.status-grid{grid-template-columns:1fr}.status-card{padding:16px}.status-title{font-size:clamp(42px,14vw,68px)}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="nav-container"><a href="/" class="logo">DISTRICT MIND</a><button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button><nav class="primary-nav" id="primary-nav"><a href="/newsroom">Newsroom</a><a href="/radar">Radar</a><a href="/releases">Releases</a><a href="/radio.html">Radio</a><a href="/wayfinder">Wayfinder AI</a><a href="/academy">Academy</a><a href="/culture">Culture</a><a href="/about">About</a><a href="/contact">Contact</a></nav></div></header>
+<main class="status-page"><div class="status-wrap">
+<p class="status-kicker">District Mind Media / Operations</p><h1 class="status-title">SYSTEM<br>STATUS.</h1>
+<p class="status-lead">Live checks against the production website and its public service endpoints. This dashboard reports what it can verify from your browser; it does not invent visitor counts or claim to measure services it cannot reach.</p>
+<div class="status-toolbar"><p id="updated" aria-live="polite">Starting first check…</p><button id="refresh" class="status-button" type="button">Refresh checks</button></div>
+<section id="checks" class="status-grid" aria-live="polite"><article class="status-card"><h2>Running checks</h2><p>Contacting production endpoints…</p></article></section>
+<p class="status-foot">Checks refresh automatically every 30 seconds. Response time is measured from this browser and may vary by connection. Audience analytics require a separately configured analytics provider; no audience numbers are fabricated here.</p>
+</div></main>
+<footer><div class="footer-container"><div><h3>District Mind</h3><p>Media</p></div><div class="footer-links"><a href="/about">About</a><a href="/contact">Contact</a><a href="/privacy">Privacy</a></div><p>© 2026 District Mind Media. All rights reserved.</p></div></footer>
+<script>
+(() => {
+ const targets = [
+  {name:"Homepage",url:"/",kind:"page",detail:"Main landing page"},
+  {name:"Newsroom",url:"/newsroom",kind:"page",detail:"Editorial entry point"},
+  {name:"Radar",url:"/radar",kind:"page",detail:"Culture and trending feed"},
+  {name:"District Mind Radio",url:"/radio.html",kind:"page",detail:"Radio interface loads"},
+  {name:"Wayfinder AI",url:"/wayfinder",kind:"page",detail:"Discovery interface loads"},
+  {name:"Academy",url:"/academy",kind:"page",detail:"Learning hub loads"},
+  {name:"News desk API",url:"/api/health",kind:"json",detail:"Backend health endpoint"},
+  {name:"Radio API",url:"/api/radio",kind:"json",detail:"Shared station data endpoint"}
+ ];
+ const $=s=>document.querySelector(s);
+ const escapeHtml=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+ async function check(t){
+  const start=performance.now();
+  try{
+   const response=await fetch(t.url,{cache:"no-store",credentials:"same-origin"});
+   const ms=Math.round(performance.now()-start);
+   let note=t.detail;
+   if(t.kind==="json"){
+    const data=await response.json();
+    if(data && data.service) note=data.service+" · "+(data.mode||"health response");
+    else if(data && data.message) note=data.message;
+    else if(data && data.code) note=data.message||data.code;
+    else if(t.url==="/api/radio" && data && Array.isArray(data.tracks)) note=data.tracks.length+" tracks returned · "+(data.settings?.is_open?"voting open":"voting not open");
+   }
+   return {...t,ok:response.ok,code:response.status,ms,note};
+  }catch(error){return {...t,ok:false,code:"ERR",ms:Math.round(performance.now()-start),note:"Could not reach endpoint from this browser."};}
+ }
+ function card(x){
+  const state=x.ok?"ok":"bad",label=x.ok?"Responding":"Check failed";
+  return '<article class="status-card"><div class="status-line"><h2>'+escapeHtml(x.name)+'</h2><span class="status-pill '+state+'">'+label+'</span></div><p>'+escapeHtml(x.note)+'</p><p class="status-meta">HTTP '+escapeHtml(x.code)+' · '+x.ms+' ms · '+escapeHtml(x.url)+'</p></article>';
+ }
+ async function run(){
+  $("#refresh").disabled=true;$("#updated").textContent="Checking production…";
+  const results=await Promise.all(targets.map(check));
+  $("#checks").innerHTML=results.map(card).join("");
+  const failed=results.filter(x=>!x.ok).length;
+  $("#updated").textContent=new Date().toLocaleString()+" · "+(results.length-failed)+"/"+results.length+" checks responding";
+  $("#refresh").disabled=false;
+ }
+ $("#refresh").addEventListener("click",run);
+ run();setInterval(run,30000);
+})();
+</script>
+<script src="/site-guide.js?v=20261016-status" defer></script>
+</body></html>
