@@ -1,27 +1,27 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-17T08:54:43.184Z
+Generated: 2026-10-17T09:19:05.577Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 216
+Stories discovered: 214
 
-1. **Olivia Rodrigo, Tate McRae and Zach Bryan Lead a Packed New Music Friday - MyRadioLink.com** — Google News — New Music — Sat, 17 Oct 2026 08:22:35 GMT
-   https://news.google.com/rss/articles/CBMisAFBVV95cUxQQUtzWUwtekhlZm51eVFNUVpsQUxrSHd5MGxuYmFvRVdEWWNWd0JTZUhhbGpKU3ptai11cnZ3XzdpZExrVlRPVS1iYkF5aFgzMXJUZG1RYUdsejNybEhrNnpYSmtEU25VTnVnZ094aGlfd0x5M3VhN3ByWWdteDEwUTVnbkhMMjlGTzNVSlZtVHZobnhEU1E2eUtzNGs1N2JmeXJ6dHlIUWNlck5DSEtXdA?oc=5
-2. **Miley Cyrus Embraces Being the Anti-Pop Pop Star With Her First ‘Bass Persuades’ Concert at Hollywood Bowl: Concert Review** — Variety — Music — Sat, 17 Oct 2026 07:53:16 +0000
+1. **Olivia Rodrigo, Tate McRae and Zach Bryan Lead a Packed New Music Friday - WBWN** — Google News — New Music — Sat, 17 Oct 2026 09:13:25 GMT
+   https://news.google.com/rss/articles/CBMipwFBVV95cUxOcm1BTno0UlVDc3R6aUJsYk5ZenRrUllSa2s3NmJ3MFBVcnhkclpYS1hSU2lxMlFrV1BwZDF4ZWlOOXY1N3M4dmNmY0F5ZnRKbG5NX1p6ZEY3eHF5UVJkV09JeUtRMDNpZTJsdk01OHJQOW5XdS12UHJFc1gyS29aMTBVZm1OYms2bExLOGpFSnJZbUp5bTd4U2hJS1RmXzBwZ0ZDQ29zOA?oc=5
+2. **Eylsia Nicolas's "What Will Become of Me" Reaches #1 on Groover Hip Hop Charts in the U.S. - Black Hills Pioneer** — Google News — Hip-Hop — Sat, 17 Oct 2026 09:00:00 GMT
+   https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRXc1dmFfZzgwU25tQlVPc1pPVVV5ZXZuOXdSdDdUdkZ6bmlaTEJQOUhpcVBRNHZvNUcyeXctMk9IQVNjeUlkOTEtQXc0Sm02MGlmUU5PbVdqWDhYTHJ5Y0tXd0dnSUlEbWFQZy1RQkJpNGUySTh3cHRyd3Rfbldxbms5a2xJQWNhTUJpdnd6QjZmc3VKSFlaTlB2SjZoNXBTVDlvMl9NZGNzaFRxNGdwd05FN3BmZDFTZFBuMng2RG5tazJNWGVGTHdmUEpoQ1VYVkQ1NWktTTdtMlJLbmtuUTRybmxxdllDckFzVURjVkZCRDA?oc=5
+3. **Miley Cyrus Embraces Being the Anti-Pop Pop Star With Her First ‘Bass Persuades’ Concert at Hollywood Bowl: Concert Review** — Variety — Music — Sat, 17 Oct 2026 07:53:16 +0000
    https://variety.com/2026/music/news/miley-cyrus-bass-persuades-hollywood-bowl-concert-review-1236914661/
-3. **This Day in Hip-Hop and R&B History: October 17 - foxy99.com** — Google News — Hip-Hop — Sat, 17 Oct 2026 07:00:00 GMT
+4. **This Day in Hip-Hop and R&B History: October 17 - foxy99.com** — Google News — Hip-Hop — Sat, 17 Oct 2026 07:00:00 GMT
    https://news.google.com/rss/articles/CBMiggFBVV95cUxNdzQzVDVlSGx6TlkyRmZXb0lqbHBzOVhzeWFMd04xOTFVcDg5QVZ4OHN0WlBFcVJBcGdWay0wOFVDeVE3UC0yMWxQZ0lLeDV4Ti11WjFhTWZsZXZZNlRUS1RtRUhoNkxsYjI4X01RcGZRUi1aV0hLb1dwV3JkMDhqeDhB?oc=5
-4. **Destiny Stone-King releases new album - Salisbury Post** — Google News — New Music — Sat, 17 Oct 2026 06:01:01 GMT
+5. **Destiny Stone-King releases new album - Salisbury Post** — Google News — New Music — Sat, 17 Oct 2026 06:01:01 GMT
    https://news.google.com/rss/articles/CBMipgFBVV95cUxOSlkySjBVTWt0NktZcHlCWnRiN1J6WXYtVXhmNXYwYTRsODM0RUE3Nm9MM24zQUIxV2NwVWtXVlQtNUlaRlQwWjhTLUJxcm0yWTk5ODdmNk9PeXFmYzVEMGsyTDdhOGY1WGR3SGp6Wk9SbnBTWFNLUldBdThMZUw2eVd1RVRveEZBM084NWUyYm1ZUFltM2VjVllCR2IzN1M4c3hYQnFn?oc=5
-5. **10 Essential New R&B Releases: Snoh Aalegra, Lucky Daye, Jawan & More - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 03:54:26 GMT
+6. **10 Essential New R&B Releases: Snoh Aalegra, Lucky Daye, Jawan & More - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 03:54:26 GMT
    https://news.google.com/rss/articles/CBMifEFVX3lxTFA1WEc1SW4wb2l2MU5lREhqeWhfb0RrLWp4Z05Tc1ZFWERmcUUxM180RnphbnE0b2N3LUhVN2hPbUFDY3NwaU82LWhUcjY1NE1rX1JWaUItVGNsOS1rWlZHVTduRWU0MVRiYmd2Tlk1bnlicmxhNi1HR19reDY?oc=5
-6. **B2K Sets Release Date for New Album ‘Eclipse,’ Shares ‘Lil Freak’ - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 03:54:26 GMT
+7. **B2K Sets Release Date for New Album ‘Eclipse,’ Shares ‘Lil Freak’ - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 03:54:26 GMT
    https://news.google.com/rss/articles/CBMie0FVX3lxTE9aNE1jZWRjaUYtWG0xR3VzM0xhS3hOU2k0ZS1zVG9Pd3FhNkQ1WC01TVBuSlUtOWxwY3BzTEZ4WTFUMlFuWjd3eFQ2VkFCYUlPRTFNS2h0a29qS2EyekpyS1pHSEJ0a0xRUGZEeXNLWEhxNGlKMmwzWjZmRQ?oc=5
-7. **DaBaby Turns A Skating Rink Into A Hip-Hop Party With GloRilla, Yung Miami And Ykniece - That Eric Alper** — Google News — Hip-Hop — Sat, 17 Oct 2026 03:41:03 GMT
+8. **DaBaby Turns A Skating Rink Into A Hip-Hop Party With GloRilla, Yung Miami And Ykniece - That Eric Alper** — Google News — Hip-Hop — Sat, 17 Oct 2026 03:41:03 GMT
    https://news.google.com/rss/articles/CBMixgFBVV95cUxQNEZ6WG5Bd242Nzd1X3Z0aTdBTVY3VTJEYkVKR3R2eVhxNUZtX3VINVYyV0ZkT1NLV0FaV09iQVBnaWZnMVEzQkI1V3NlZHE0dnphREtPeVl4S3QzSkhJSVBTUVhuUHZHUGtyMERCSExreDNFSU5ndlRWX3M1SXVPZzdOR283WnNjdkdsZ3VfYXhGazUxWHoxNjV4QmpJbm5XM0FIOFZZZWtWZTFyNnlXOFlLazFxRFh5N3ZVeEhjZUdWc3N1R2c?oc=5
-8. **Eylsia Nicolas's "What Will Become of Me" Reaches #1 on Groover Hip Hop Charts in the U.S. - StreetInsider** — Google News — Hip-Hop — Sat, 17 Oct 2026 01:20:49 GMT
-   https://news.google.com/rss/articles/CBMi6wFBVV95cUxONUNmY0JRcHh6UmhGb3hNUVR0N3BmZzR0VEl2U2laU2VtcjAtaXdIQmFFaXpvYzl6YlRPdFZ1cC1lb1BCb0lFMzVSdldIRWhmYldvZm1sMzR6UDZ6UUhLVWltOFMtV0t0MkVrekpNT3Fad0tfZ2RIbDhKQTJlaDM3YmNZYnlkdFJmNUc0V0FHeXktNjRjTGVudVJmbERWRFY2NFN2ZGl3a0xHSFBVZDhTMDRwWndBcGVsamVwVE5heTlyS1pRVkJ3WjI3NHFWWWNrQTNtVWtKOEwtZUhFbnMtVnplci1kcUJmcHM0?oc=5
 9. **50 Cent Trolls Diddy’s Allenwood Move With Outrageous Baby-Oil Toy Video** — AllHipHop — Sat, 17 Oct 2026 00:31:58 +0000
    https://allhiphop.com/news/50-cent-trolls-diddys-allenwood-move-with-outrageous-baby-oil-toy-video/
 10. **Pharrell Trying to ‘Rewrite History’ and ‘Erase’ Chad Hugo from Neptunes, Producer Claims** — Rolling Stone — Music — Sat, 17 Oct 2026 00:27:38 +0000
