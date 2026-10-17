@@ -29,7 +29,7 @@ jobs:
         run: |
           mkdir -p /tmp/dm-radio-downloads /tmp/dm-radio-work
           gdown --folder "https://drive.google.com/drive/folders/1rR7vQ-8CHg2Aj_ero-A6ISPtxui0bCFE" \
-            --output /tmp/dm-radio-downloads --remaining-ok
+            -O /tmp/dm-radio-downloads
           find /tmp/dm-radio-downloads -type f -iname '*.zip' -print
           test "$(find /tmp/dm-radio-downloads -type f -iname '*.zip' | wc -l)" -gt 0
 
