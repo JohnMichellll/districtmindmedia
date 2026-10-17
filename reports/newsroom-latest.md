@@ -1,25 +1,25 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-17T05:53:35.782Z
+Generated: 2026-10-17T06:21:56.993Z
 
 Status: READY_FOR_EDITOR
 
 Stories discovered: 219
 
-1. **10 Essential New R&B Releases: Snoh Aalegra, Lucky Daye, Jawan & More - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 03:54:26 GMT
+1. **Destiny Stone-King releases new album - Salisbury Post** — Google News — New Music — Sat, 17 Oct 2026 06:01:01 GMT
+   https://news.google.com/rss/articles/CBMipgFBVV95cUxOSlkySjBVTWt0NktZcHlCWnRiN1J6WXYtVXhmNXYwYTRsODM0RUE3Nm9MM24zQUIxV2NwVWtXVlQtNUlaRlQwWjhTLUJxcm0yWTk5ODdmNk9PeXFmYzVEMGsyTDdhOGY1WGR3SGp6Wk9SbnBTWFNLUldBdThMZUw2eVd1RVRveEZBM084NWUyYm1ZUFltM2VjVllCR2IzN1M4c3hYQnFn?oc=5
+2. **10 Essential New R&B Releases: Snoh Aalegra, Lucky Daye, Jawan & More - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 03:54:26 GMT
    https://news.google.com/rss/articles/CBMifEFVX3lxTFA1WEc1SW4wb2l2MU5lREhqeWhfb0RrLWp4Z05Tc1ZFWERmcUUxM180RnphbnE0b2N3LUhVN2hPbUFDY3NwaU82LWhUcjY1NE1rX1JWaUItVGNsOS1rWlZHVTduRWU0MVRiYmd2Tlk1bnlicmxhNi1HR19reDY?oc=5
-2. **DaBaby Turns A Skating Rink Into A Hip-Hop Party With GloRilla, Yung Miami And Ykniece - That Eric Alper** — Google News — Hip-Hop — Sat, 17 Oct 2026 03:41:03 GMT
+3. **DaBaby Turns A Skating Rink Into A Hip-Hop Party With GloRilla, Yung Miami And Ykniece - That Eric Alper** — Google News — Hip-Hop — Sat, 17 Oct 2026 03:41:03 GMT
    https://news.google.com/rss/articles/CBMixgFBVV95cUxQNEZ6WG5Bd242Nzd1X3Z0aTdBTVY3VTJEYkVKR3R2eVhxNUZtX3VINVYyV0ZkT1NLV0FaV09iQVBnaWZnMVEzQkI1V3NlZHE0dnphREtPeVl4S3QzSkhJSVBTUVhuUHZHUGtyMERCSExreDNFSU5ndlRWX3M1SXVPZzdOR283WnNjdkdsZ3VfYXhGazUxWHoxNjV4QmpJbm5XM0FIOFZZZWtWZTFyNnlXOFlLazFxRFh5N3ZVeEhjZUdWc3N1R2c?oc=5
-3. **Fall festivals bring food, music and fun to New Orleans and surrounding parishes - WWLTV.com** — Google News — New Music — Sat, 17 Oct 2026 03:29:00 GMT
-   https://news.google.com/rss/articles/CBMiiwJBVV95cUxNYWVwd09ZQmF6ZFVsNDBDckUwMk1sdjEwdEpwVmg5c0k4RFhsVERuRi0tWW95eTlYLTNack5YOFFHeHE1Y0Q4WGdKaFRMYWMyNUJQRlpKME9mc2F2TU9VODJRSElwQ2NJSDdPYWJvZlBaZXdYUEotb2NaMnB4Q1RUbEZrekZGYld1c0ctZGJYOXE3WXBhMmxtMU1GaV9QODNxVl9KbW9YSjh1QWF6WUNXaVkxM0trQVAyUkxOUVYxWE5mZ08ySGRadmw3ZktFcmxGeG9VMjdyR09RRGVkRFdyZC1ET1BxaU1hbzRCa3dfcWVxUzk2aHJaaF9ySHRleW1jZ2YwcWFfU1VVY0k?oc=5
-4. **B2K Sets Release Date for New Album ‘Eclipse,’ Shares ‘Lil Freak’ - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 00:48:29 GMT
-   https://news.google.com/rss/articles/CBMie0FVX3lxTE9aNE1jZWRjaUYtWG0xR3VzM0xhS3hOU2k0ZS1zVG9Pd3FhNkQ1WC01TVBuSlUtOWxwY3BzTEZ4WTFUMlFuWjd3eFQ2VkFCYUlPRTFNS2h0a29qS2EyekpyS1pHSEJ0a0xRUGZEeXNLWEhxNGlKMmwzWjZmRQ?oc=5
-5. **50 Cent Trolls Diddy’s Allenwood Move With Outrageous Baby-Oil Toy Video** — AllHipHop — Sat, 17 Oct 2026 00:31:58 +0000
-   https://allhiphop.com/news/50-cent-trolls-diddys-allenwood-move-with-outrageous-baby-oil-toy-video/
-6. **Pharrell Trying to ‘Rewrite History’ and ‘Erase’ Chad Hugo from Neptunes, Producer Claims** — Rolling Stone — Music — Sat, 17 Oct 2026 00:27:38 +0000
-   https://www.rollingstone.com/music/music-news/pharrell-chad-hugo-neptunes-copyright-infringement-lawsuit-1235644309/
-7. **Eylsia Nicolas's "What Will Become of Me" Reaches #1 on Groover Hip Hop Charts in the U.S. - StreetInsider** — Google News — Hip-Hop — Sat, 17 Oct 2026 00:17:12 GMT
+4. **Eylsia Nicolas's "What Will Become of Me" Reaches #1 on Groover Hip Hop Charts in the U.S. - StreetInsider** — Google News — Hip-Hop — Sat, 17 Oct 2026 01:20:49 GMT
    https://news.google.com/rss/articles/CBMi6wFBVV95cUxONUNmY0JRcHh6UmhGb3hNUVR0N3BmZzR0VEl2U2laU2VtcjAtaXdIQmFFaXpvYzl6YlRPdFZ1cC1lb1BCb0lFMzVSdldIRWhmYldvZm1sMzR6UDZ6UUhLVWltOFMtV0t0MkVrekpNT3Fad0tfZ2RIbDhKQTJlaDM3YmNZYnlkdFJmNUc0V0FHeXktNjRjTGVudVJmbERWRFY2NFN2ZGl3a0xHSFBVZDhTMDRwWndBcGVsamVwVE5heTlyS1pRVkJ3WjI3NHFWWWNrQTNtVWtKOEwtZUhFbnMtVnplci1kcUJmcHM0?oc=5
+5. **B2K Sets Release Date for New Album ‘Eclipse,’ Shares ‘Lil Freak’ - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 00:48:29 GMT
+   https://news.google.com/rss/articles/CBMie0FVX3lxTE9aNE1jZWRjaUYtWG0xR3VzM0xhS3hOU2k0ZS1zVG9Pd3FhNkQ1WC01TVBuSlUtOWxwY3BzTEZ4WTFUMlFuWjd3eFQ2VkFCYUlPRTFNS2h0a29qS2EyekpyS1pHSEJ0a0xRUGZEeXNLWEhxNGlKMmwzWjZmRQ?oc=5
+6. **50 Cent Trolls Diddy’s Allenwood Move With Outrageous Baby-Oil Toy Video** — AllHipHop — Sat, 17 Oct 2026 00:31:58 +0000
+   https://allhiphop.com/news/50-cent-trolls-diddys-allenwood-move-with-outrageous-baby-oil-toy-video/
+7. **Pharrell Trying to ‘Rewrite History’ and ‘Erase’ Chad Hugo from Neptunes, Producer Claims** — Rolling Stone — Music — Sat, 17 Oct 2026 00:27:38 +0000
+   https://www.rollingstone.com/music/music-news/pharrell-chad-hugo-neptunes-copyright-infringement-lawsuit-1235644309/
 8. **Eylsia Nicolas's "What Will Become of Me" Reaches #1 on Groover Hip Hop Charts in the U.S. - The Killeen Daily Herald** — Google News — Hip-Hop — Sat, 17 Oct 2026 00:15:00 GMT
    https://news.google.com/rss/articles/CBMiigJBVV95cUxPNVJEUVdjeFZ3WEpoMThDWGVBWXZoV3A1YmNJaHE5UnRiZ3FlQ1B0Sl9sRloweDhSUGhaUmpaQ3ZKdXJsSnJRMzdpbVdUSGExZlNhUVUzQ0t4NzZpMVlZYXpqUk5IUVBaWXRldFBBdXZTZ2pRdGRkRUtLLXV5OTdRcndEbjRPWWJVQThpbGFLTVB1T2djSnAxWk9UNkR6WERwVTllRDc3YS1FeE1Mb2VEZ1U3ZVVRelJnY1QxN1JfZzd1MTREbEgzeWpDTi1LRjY3b3NLR2xTRElKOVV2cWVkN2tpUU1PYmM3dEN1ZVB4V016b0tHVTNoSE0wMW5HLXMyLTNTYlBnTDUzZw?oc=5
 9. **Eric Benét Announces New Album ‘We Need Everybody,’ Shares ‘Heaven’ - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 00:14:20 GMT
