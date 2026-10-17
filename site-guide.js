@@ -27,7 +27,7 @@
   // Help Center and My Playlists live in the footer rather than the primary menu.
   const footerLinks = document.querySelector('.footer-links');
   if (footerLinks) {
-    [['Help Center','/help'],['My Playlists','/playlists']].forEach(([label,href]) => {
+    [['Help Center','/help'],['My Playlists','/playlists'],['System Status','/operations.html']].forEach(([label,href]) => {
       if (!footerLinks.querySelector('a[href="' + href + '"]')) {
         const link = document.createElement('a'); link.href = href; link.textContent = label; footerLinks.appendChild(link);
       }
