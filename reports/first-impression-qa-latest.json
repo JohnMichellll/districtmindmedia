@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-17T04:25:36.147Z",
+  "generatedAt": "2026-10-17T04:28:55.219Z",
   "target": "https://district-mind-media.pages.dev",
   "viewport": "390x844",
   "routes": [
     {
       "route": "/",
       "status": 200,
-      "ms": 1477,
+      "ms": 1383,
       "title": "District Mind Media — The Culture in Motion",
       "bodyChars": 361,
       "hasNav": true,
@@ -64,9 +64,9 @@
     {
       "route": "/newsroom.html",
       "status": 200,
-      "ms": 1113,
+      "ms": 1265,
       "title": "Newsroom — District Mind Media",
-      "bodyChars": 5168,
+      "bodyChars": 2563,
       "hasNav": true,
       "images": [],
       "visualAssets": [
@@ -131,18 +131,12 @@
         "https://commons.wikimedia.org/wiki/File:Doja_Cat_August_2019.png",
         "https://district-mind-media.pages.dev/releases",
         "https://commons.wikimedia.org/wiki/File:Victoria_Mon%C3%A9t1.jpg",
-        "https://allhiphop.com/music/star2-drops-new-concept-album-20-something-in-love-ft-young-henny-chinatown-runner-ler-mu-dex-lil-bk-seko/",
-        "https://news.google.com/rss/articles/CBMie0FVX3lxTE9aNE1jZWRjaUYtWG0xR3VzM0xhS3hOU2k0ZS1zVG9Pd3FhNkQ1WC01TVBuSlUtOWxwY3BzTEZ4WTFUMlFuWjd3eFQ2VkFCYUlPRTFNS2h0a29qS2EyekpyS1pHSEJ0a0xRUGZEeXNLWEhxNGlKMmwzWjZmRQ?oc=5",
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdnYtQmhrTHdZTGdIbC0zS1k0VmcwckRvQjlKUmpGVXBLOEp6eXpfNi0tVVVUX2x4cm1WZTdfeHZ5SVk3TjVyNzJaVVNSR2VuTjctMFItdU40SGU3MmEyM2tlT3RXczQzWnpXLW83WS0yOTdES1VyclVpc1RQUVphQ2xHNC1iUktxU2xVVi1pLUIzTzExMF9TWTdnR3pobTFuUzVxT28xSEhfX25nbnctTzFBbzhGWlJBNnFMaQ?oc=5",
-        "https://news.google.com/rss/articles/CBMizAFBVV95cUxOX29GeU4xbjZ3aS0zTThYeEx4bXExbUJUeWJsellzdXNZX1BpeVFndm03bUZwZHotUVEySnNWN29tOElfb3NrUWhUWkJySHdmTHBsTW5YcDM1MWZDdnV5bWJVSF9VX2I5QjNfajN5RS1yWm9jYXVJZXdfWGlPZzAyTGpKX3ZLbl9kVUMtVmZZNmRUTnNjTWp5a1JjdXQ4eXpnQnBoWGN5N3dZTExTbVpHZE1jeXBSLXRIYmtVdmhGckp2SG1JR0FDRjRKTGs?oc=5",
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRV9FRl94UUZmbkI2cFExN29DWVVXS2ZmLW5BOVBiR09NZ19ScWN4cDlNemZhdHFzRzNvdDA2dGU3bmNHeGY0dFdFX2tSb0J3b2l0NHYwbldZV1RvS09Qc1ltaHkzSk5EcXprbTRBU3NFT21hSEstNWNUS2xwSV9FSlhlbzdwRjB5RHFjNGR5cDZ6dw?oc=5",
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRDd5OUVWdUR3dHpaRFhZM0k1TW9admNoZk93Q1Z3TEY2eTNLREtkejRaMC1vVEQ2TEhfUjY2b01yallYNmJwai12M2w1WWxvQmE1cXlTOU12ZGF3RmY4Z3dubVN4M1MwaC14SjdkekxxSW1PcEd6RWwwdVgyeUl3WGZEVFR3S0J5bVJMWjhmS3ZxWDBzNnV5SnhGajN6bk4zUjJ3c1JyQdIBrAFBVV95cUxQbm9tZUtsQ2RpWmx2MXJKQy0wWjU4a1NfSHg1SENoQjF0MWpKUHpINWRVUnlybGdVcWFpa1lULUxsZDl3TWwyZTZ2V0tqNG1SWGdqa1JvYzVsYlMyeExydllCc19MVWNzUERUelk3T2M1amNRanYxSU1aTjRCZUd6amRoLWxycmFDdTdaYkJELUF0eDdLcHRCYlZNeVBlN0p5V2VVTkpmU3dQVkMz?oc=5",
-        "https://allhiphop.com/music-news/v-i-the-boss-talks-pain-through-hold-me-close-as-charting-accolades-add-up/",
-        "https://variety.com/2026/music/news/lucky-daye-on-creating-new-album-aloud-pusha-t-muni-long-1236913298/",
-        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdEhTdHhRbTBxejBDek1uRHJMTXRCUnh2UGtJWEM1YnhraFVEaUlGTmgtQ3gtb3F6aUdXVzdiZEZ2TDVZR1pQMUZqVEFQVm1oMGxpWEJuNFZYX3RXYm5nTHc1Rjg0RnBtMFJ1TVNjck9jdjRkTWk5VkRybU8xTXRnWVI2UGhJSWJOcF9J?oc=5",
-        "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUVlmZUZmWU1SVjFVN25SOG45VDd1YUJWVE8ybFEtbS1haHlkSXdwX3VtNzVCcFRob2Z1Y0hkNzJGUy1zb2JuRTlDZXNNdXU5SnE1SHNOdlhQU1Boa0cxaGVrV0dRS0xveG5tSGdYNW1fNFdKUHo3Y0lqd2kxeXVCY1Mxa1NORk0taGYwZFpUZ2w4VlByY1VHbHFZZjlSMVN3cWduS2pialVwQ2MxVmZXcHRLTEtEekYxbHc?oc=5",
-        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc3NqdWNFUXVKcUR6c0tEOWlaanZjaGxaLS1xY2xrUjZLd05id0pkeFRtdF9nalRkemk5bnNuaE00YUt5WUxZcm8wbzFBTjVkZFBTdm5iV3RSVzg4VEp1cFVHOXFDWWRucDRPNThxUENWbU5zVGpFS0k4bDlpTWRkQmdXRTRybURl?oc=5",
-        "https://news.google.com/rss/articles/CBMixAFBVV95cUxON3B0X1J3eTFxcE1qQjlWVkZ5MlFpRmdKMV9HNTRaUGJRWWhBSm5IR2xmeEUyUFFFTHFlQmxta1BUZXRsNm5NQl9aVDdmaGJaUWk2TXhOQ203YTRKMEluQS1jSzR2a0E4SkVwdXJPdU5xM0hxU2xpWE56MjVqOG1GajR5SVJ4cy1qelJ2SUxHWElzakxtdG1EZjJOR2tLcG5KVXIydVJDVHYxeVVGazVWZWhKN2cyNGs2bXdsWWRqNGZ0SFdy?oc=5",
+        "https://district-mind-media.pages.dev/newsroom",
+        "https://district-mind-media.pages.dev/newsroom",
+        "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/releases",
+        "https://district-mind-media.pages.dev/artists",
+        "https://district-mind-media.pages.dev/artists",
         "https://district-mind-media.pages.dev/releases",
         "https://district-mind-media.pages.dev/artists",
         "https://district-mind-media.pages.dev/wayfinder.html?find=local",
@@ -191,7 +185,7 @@
     {
       "route": "/artists.html",
       "status": 200,
-      "ms": 1062,
+      "ms": 1109,
       "title": "District Mind Media — Artist Intelligence Hub",
       "bodyChars": 1702,
       "hasNav": true,
@@ -260,7 +254,7 @@
     {
       "route": "/releases.html",
       "status": 200,
-      "ms": 1373,
+      "ms": 1143,
       "title": "District Mind Media | Releases",
       "bodyChars": 2342,
       "hasNav": true,
@@ -408,7 +402,7 @@
     {
       "route": "/local.html",
       "status": 200,
-      "ms": 1098,
+      "ms": 1126,
       "title": "Local Watch — District Mind Media",
       "bodyChars": 1007,
       "hasNav": true,
@@ -470,7 +464,7 @@
     {
       "route": "/wayfinder.html",
       "status": 200,
-      "ms": 1053,
+      "ms": 1125,
       "title": "Wayfinder Music AI — District Mind Media",
       "bodyChars": 1677,
       "hasNav": true,
@@ -538,9 +532,9 @@
     {
       "route": "/radar.html",
       "status": 200,
-      "ms": 1078,
+      "ms": 1144,
       "title": "Radar — District Mind Media",
-      "bodyChars": 8115,
+      "bodyChars": 705,
       "hasNav": true,
       "images": [],
       "visualAssets": [],
@@ -598,15 +592,9 @@
       "internalLinkCount": 19
     },
     {
-      "type": "console-error",
-      "text": "Failed to load resource: the server responded with a status of 404 ()",
-      "url": "https://district-mind-media.pages.dev/api/article-image?url=https%3A%2F%2Fnews.google.com%2Frss%2Farticles%2FCBMiggFBVV95cUxQOWZWMHZZb0lRSjhQZTd6WnlXNE5lRzh4dUk4clh1MEdBU0J1S1pPUC1VZUcybmtQdE1yN3E4RGFNV2JwR2txTGExeTJZOTBCa2lsSEFaTG1GQ3ZkLWFGYUNxNWJ3ZEFpX2otSzUyakJnbWxOUENPQlg0U2gxZkxDc1RR%3Foc%3D5",
-      "page": "https://district-mind-media.pages.dev/radar"
-    },
-    {
       "route": "/culture.html",
       "status": 200,
-      "ms": 1094,
+      "ms": 1151,
       "title": "District Mind Media | Culture",
       "bodyChars": 1769,
       "hasNav": true,
@@ -698,7 +686,7 @@
     {
       "route": "/about.html",
       "status": 200,
-      "ms": 1078,
+      "ms": 1089,
       "title": "District Mind Media | About",
       "bodyChars": 1615,
       "hasNav": true,
@@ -757,7 +745,7 @@
     {
       "route": "/contact.html",
       "status": 200,
-      "ms": 1060,
+      "ms": 1143,
       "title": "District Mind Media | Contact",
       "bodyChars": 614,
       "hasNav": true,
@@ -812,7 +800,7 @@
     {
       "route": "/academy.html",
       "status": 200,
-      "ms": 1072,
+      "ms": 1039,
       "title": "District Mind Academy — Class 001",
       "bodyChars": 3656,
       "hasNav": true,
@@ -879,7 +867,7 @@
     {
       "route": "/academy-001.html",
       "status": 200,
-      "ms": 1086,
+      "ms": 1018,
       "title": "Academy 001 — District Mind",
       "bodyChars": 1059,
       "hasNav": true,
@@ -942,7 +930,7 @@
     {
       "route": "/editorial.html",
       "status": 200,
-      "ms": 1058,
+      "ms": 1072,
       "title": "Editorial — District Mind Media",
       "bodyChars": 1168,
       "hasNav": true,
@@ -1010,7 +998,7 @@
     {
       "route": "/editorial-policy.html",
       "status": 200,
-      "ms": 1104,
+      "ms": 1027,
       "title": "Editorial Policy | District Mind Media",
       "bodyChars": 3001,
       "hasNav": true,
@@ -1084,7 +1072,7 @@
     {
       "route": "/contributors.html",
       "status": 200,
-      "ms": 1082,
+      "ms": 1014,
       "title": "Contributors — District Mind Media",
       "bodyChars": 1211,
       "hasNav": true,
@@ -1148,7 +1136,7 @@
     {
       "route": "/explore.html",
       "status": 200,
-      "ms": 1289,
+      "ms": 1054,
       "title": "Explore — District Mind Media",
       "bodyChars": 1070,
       "hasNav": true,
@@ -1217,7 +1205,7 @@
     {
       "route": "/article.html",
       "status": 200,
-      "ms": 1051,
+      "ms": 1034,
       "title": "Who's Coming to Colorado: The Artists We're Watching — District Mind Media",
       "bodyChars": 2957,
       "hasNav": true,
@@ -1282,7 +1270,7 @@
     {
       "route": "/john-michell.html",
       "status": 200,
-      "ms": 1089,
+      "ms": 1031,
       "title": "John Michell — District Mind Media",
       "bodyChars": 2200,
       "hasNav": true,
@@ -1382,7 +1370,7 @@
     "routeFailures": 0,
     "internalLinkFailures": 0,
     "pageErrors": 0,
-    "consoleErrors": 1,
+    "consoleErrors": 0,
     "interactionFailures": 0,
     "interactionChecks": 108,
     "blankPages": 0,
