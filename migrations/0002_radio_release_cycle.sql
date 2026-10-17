@@ -1,5 +1,5 @@
 -- District Mind Radio: seed the approved 13th Hour lineup and the Oct. 23, 2026 release cycle.
--- Release time is midnight Mountain Daylight Time (UTC-06:00) on Friday, Oct. 23.
+-- Shared cutoff instant is 2026-10-23T06:00:00Z; the site displays this instant in each listener's local time zone.
 -- The API opens the round exactly seven days before closes_at and closes it automatically at the cutoff.
 INSERT OR IGNORE INTO radio_tracks (id, title, artist, audio_url, artwork_url, sort_order, is_active) VALUES
 ('dm_track_og_dance', 'OG Dance', 'John Michell', '/assets/audio/13th-hour/OG_DANCE.mp3', NULL, 1, 1),
