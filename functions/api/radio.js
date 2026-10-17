@@ -1,6 +1,17 @@
 const json = (data, status = 200) => Response.json(data, { status, headers: { "Cache-Control": "no-store" } });
 const validId = (v) => typeof v === "string" && /^[a-zA-Z0-9_-]{8,80}$/.test(v);
 const currentWeek = () => new Date().toISOString().slice(0, 10);
+const effectiveSettings = async (db, settings) => {
+  if (!settings) return { week_key: currentWeek(), is_open: 0, closes_at: null };
+  const closeMs = settings.closes_at ? Date.parse(settings.closes_at) : NaN;
+  const openMs = Number.isFinite(closeMs) ? closeMs - 7 * 24 * 60 * 60 * 1000 : NaN;
+  const inWindow = Number.isFinite(closeMs) && Date.now() >= openMs && Date.now() < closeMs;
+  const isOpen = Number(settings.is_open) === 1 && (Number.isFinite(closeMs) ? inWindow : true);
+  if (Number(settings.is_open) === 1 && Number.isFinite(closeMs) && Date.now() >= closeMs) {
+    await db.prepare("UPDATE radio_config SET is_open = 0 WHERE id = 1 AND is_open = 1").run();
+  }
+  return { ...settings, is_open: isOpen ? 1 : 0, mode: isOpen ? "voting" : "submissions" };
+};
 
 // Static playback lineup lets the station play even before Cloudflare D1 voting is configured.
 // Voting remains closed until the shared database is connected and explicitly opened.
@@ -22,7 +33,9 @@ export async function onRequest({ request, env }) {
       return json({
         ok: true,
         code: "RADIO_PLAYBACK_ONLY",
-        message: "Playback is available. Shared voting will open when the Radio database is connected.",
+        message: "Shared voting is offline until the Radio database is connected.",
+        mode: "setup",
+        submit_url: "/contact.html?subject=Radio%20submission",
         settings: { week_key: "13th-hour-launch-week", is_open: 0, closes_at: null },
         tracks: localTracks,
         total_votes: 0,
@@ -33,13 +46,16 @@ export async function onRequest({ request, env }) {
   }
   const db = env.DB;
   if (request.method === "GET") {
-    const settings = await db.prepare("SELECT week_key, is_open, closes_at FROM radio_config WHERE id = 1").first();
+    const rawSettings = await db.prepare("SELECT week_key, is_open, closes_at FROM radio_config WHERE id = 1").first();
+    const settings = await effectiveSettings(db, rawSettings);
     const { results: tracks } = await db.prepare("SELECT t.id, t.title, t.artist, t.audio_url, t.artwork_url, COALESCE(v.total, 0) AS votes FROM radio_tracks t LEFT JOIN (SELECT track_id, COUNT(*) AS total FROM radio_votes WHERE week_key = ? GROUP BY track_id) v ON v.track_id = t.id WHERE t.is_active = 1 ORDER BY t.sort_order, t.id").bind(settings?.week_key || currentWeek()).all();
     if (!tracks.length) {
       return json({
         ok: true,
         code: "RADIO_PLAYBACK_ONLY",
-        message: "The audio lineup is ready. Shared voting will open after the station tracks are configured.",
+        message: "No approved tracks are configured for this round. Submit your music for consideration.",
+        mode: "submissions",
+        submit_url: "/contact.html?subject=Radio%20submission",
         settings: { week_key: settings?.week_key || currentWeek(), is_open: 0, closes_at: settings?.closes_at || null },
         tracks: localTracks,
         total_votes: 0,
@@ -53,13 +69,14 @@ export async function onRequest({ request, env }) {
     }));
     const total = playableTracks.reduce((n, t) => n + Number(t.votes || 0), 0);
     const sorted = [...playableTracks].sort((a, b) => Number(b.votes) - Number(a.votes));
-    return json({ ok: true, settings: settings || { week_key: currentWeek(), is_open: 0, closes_at: null }, tracks: playableTracks, total_votes: total, leader_track_id: sorted[0]?.votes > 0 ? sorted[0].id : null });
+    return json({ ok: true, mode: settings?.is_open ? "voting" : "submissions", submit_url: "/contact.html?subject=Radio%20submission", settings: settings || { week_key: currentWeek(), is_open: 0, closes_at: null }, tracks: playableTracks, total_votes: total, leader_track_id: sorted[0]?.votes > 0 ? sorted[0].id : null });
   }
   if (request.method !== "POST") return json({ ok: false, message: "Method not allowed." }, 405);
   let body;
   try { body = await request.json(); } catch { return json({ ok: false, message: "Invalid request." }, 400); }
-  const settings = await db.prepare("SELECT week_key, is_open, closes_at FROM radio_config WHERE id = 1").first();
-  if (!settings || !settings.is_open) return json({ ok: false, message: "Voting is currently closed." }, 409);
+  const rawSettings = await db.prepare("SELECT week_key, is_open, closes_at FROM radio_config WHERE id = 1").first();
+  const settings = await effectiveSettings(db, rawSettings);
+  if (!settings || !settings.is_open) return json({ ok: false, message: "Voting is closed for this release cycle. Submit your music for a future Radio round." }, 409);
   if (body.action === "vote") {
     if (!validId(body.voter_id) || !validId(body.track_id)) return json({ ok: false, message: "Invalid vote details." }, 400);
     const track = await db.prepare("SELECT id FROM radio_tracks WHERE id = ? AND is_active = 1").bind(body.track_id).first();
