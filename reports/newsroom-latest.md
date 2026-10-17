@@ -1,25 +1,25 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-17T14:51:38.555Z
+Generated: 2026-10-17T15:16:48.544Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 220
+Stories discovered: 221
 
-1. **Slipknot’s Eloy Casagrande confirms band is recording ‘many, many songs’ for new album - Chaoszine** — Google News — New Music — Sat, 17 Oct 2026 14:04:57 GMT
-   https://news.google.com/rss/articles/CBMioAFBVV95cUxNM3FXaS1oaEZndmQ5TEtiQTdhbXVBZWs4cDlnOTU1OTBqanJlT0JVOHU3QUw4bWRKSmpwOXdBbVdRVTB3WV93MWthbEFUN3hLT2hlSEp4Z1dvYldQTDJBZDNZMGdzUVBLYjVRcjhQcnRmRnpoR2tZUElSWW9QaUhDVlB5UUFZOG1HWW91MjR0VFNpaTFLM0xPNVVDSnVLQmQw?oc=5
-2. **Becky G Brings World Mental Health Day Festival to a Powerful Close in NYC & More Uplifting Moments - Billboard** — Google News — New Music — Sat, 17 Oct 2026 14:00:46 GMT
+1. **Roger Taylor Has Bad News for Fans Wanting New Queen Music With Adam Lambert - American Songwriter** — Google News — New Music — Sat, 17 Oct 2026 14:55:43 GMT
+   https://news.google.com/rss/articles/CBMirAFBVV95cUxOOE1Ya0hfeFpraFExRXQyRXI2REJWOGVQTDlWRnNaQUhFbzhCQXNtcVBsV0hSTE1aZDYzcjNZcE45elBfX3drTnZrNEhnT2FWSXRWZGhXUUdMbnF0c1hzUXAwdWxXOEJpSE9PdHFTeElIb2l3SUV6MFk5UnlkQWtwQm8zVWJ4R3hhWG9yaXhxZGpwSUFRdTlaQUE1Qy1DLS1vRXhSZ243X1lZWUZ6?oc=5
+2. **1991 Hip-Hop Party Jam From Black Sheep Remains Popular to This Day, Thanks to a Famous Car Commercial - Parade Magazine** — Google News — Hip-Hop — Sat, 17 Oct 2026 14:30:00 GMT
+   https://news.google.com/rss/articles/CBMizwFBVV95cUxNZUtOeHdpZzhoQVl4UC15RkFDSjgtaVlyOC1xWjZtWmJQWVBSTGJsempIQTMxSWdCRHNPRkpMdnZISUk5NGViTzBHOUZUMVp6Njc0UHhKRklMclgxOXJNazF5QUVfN1JLQ1RqcUd4dWc5ZkpuWk1HU1pQX2hwRXJvaDcxRUdQVHdGLTFWVnFrUW5sQnhwTl9EOTZKUW9YcTgwZi1Pc3RFWnZHcVMzNkZfYmpEUGgtR2N3QU84LUN1TW4wLW82cER1UFFhMDY5QWc?oc=5
+3. **Becky G Brings World Mental Health Day Festival to a Powerful Close in NYC & More Uplifting Moments - Billboard** — Google News — New Music — Sat, 17 Oct 2026 14:00:46 GMT
    https://news.google.com/rss/articles/CBMirwFBVV95cUxPVzM4b1d1RXZTLTN2c1lkekZvT2pzcFNKZHQ0MG1UYm8xaWRKSENFU1Qyb3M1S2YtT1daVEdyc0hTT2pjcmQyQmo4NWdkVlItejZKYTIyUXBGTjRTX0Vsd3RCcUxJb0ZOei1QSUZ1TVB5OWRaTkZhMlZScVNfLTM2aEpFTERfMGpEVzk4TlgwaVNpTTB2bHNDbFRlQ1ktTHlFbklVT3Z5UVBLR2NvRlh3?oc=5
-3. **Becky G Brings World Mental Health Day Festival to a Powerful Close in NYC & More Uplifting Moments** — Billboard — Sat, 17 Oct 2026 14:00:00 +0000
+4. **Becky G Brings World Mental Health Day Festival to a Powerful Close in NYC & More Uplifting Moments** — Billboard — Sat, 17 Oct 2026 14:00:00 +0000
    https://www.billboard.com/music/latin/becky-g-world-mental-health-day-latin-grammys-leading-ladies-1236360559/
-4. **Say Now Aren’t Flirting on New Single, They’re Just ‘Hot and Talking’** — Rolling Stone — Music — Sat, 17 Oct 2026 14:00:00 +0000
+5. **Say Now Aren’t Flirting on New Single, They’re Just ‘Hot and Talking’** — Rolling Stone — Music — Sat, 17 Oct 2026 14:00:00 +0000
    https://www.rollingstone.com/music/music-news/say-now-new-single-hot-and-talking-1235642594/
-5. **25 Hip Hop Albums That Explore The Human Condition - Hip Hop Golden Age** — Google News — Hip-Hop — Sat, 17 Oct 2026 13:18:19 GMT
+6. **25 Hip Hop Albums That Explore The Human Condition - Hip Hop Golden Age** — Google News — Hip-Hop — Sat, 17 Oct 2026 13:18:19 GMT
    https://news.google.com/rss/articles/CBMijAFBVV95cUxNRzNLdExBWE1DRXVXY2prdEVmajJRSXVNQjcxSUlvYmhJZHpoS1p3RXBFWWI2OGdyMXNsSkJCYy16TmxjNlBNVGV4QllTc0ZSMEV6MXRCbnRmWmFnQkRzQXk0YUkwc200SXk2TjVVajZmSTBlNjFncFNMTVFIY2MzNktnSHNpMEt1N2YzSg?oc=5
-6. **Musician Lee Bains III details his hiatus from music and new poetry book 'Work Lunch' - NPR** — Google News — New Music — Sat, 17 Oct 2026 11:43:06 GMT
+7. **Musician Lee Bains III details his hiatus from music and new poetry book 'Work Lunch' - NPR** — Google News — New Music — Sat, 17 Oct 2026 11:43:06 GMT
    https://news.google.com/rss/articles/CBMixwFBVV95cUxPcFZpbEtFdXVIZ3JiUmVET0hQa1BqeUJVa0JxdS1wbjNpNHA2cXNnajY5OVA0dGVtZDl2eW1PRlB1TUt4cVpDOGNFVGdEU2tweWdZRDZCX1RBaFg4M3htOTlfOGVuLVdQc3RfaDllMEsyZXpDcWtFV1FPTnlHS0tnMlBxaklIeFBtTzVLZ0hxZlJBbEY0bi1VV3NqMFdyS0xHaEpqOEU1Y3RCRzJyUlpLc242QnVEeEdrV3pqalNYYll6SmppMmdB?oc=5
-7. **New law aims to boost music tourism across the country - WBIR** — Google News — New Music — Sat, 17 Oct 2026 11:37:00 GMT
-   https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMHlKSFZ4WHVjcFkzZzVndzZGajBSdnU4TG1xZlBGR1A2ZlJGVDJyc291VEJ6OWhUZ1IzbUx3ejUtRk1xXzJ2UEdabHYxVEt1dXZiN1AzazRHeVB3US1oQlRlSmNWNkk2VVNJVnY3YTRkWjROYjBVTVRyZFhpVkYwRVN4eTVtaWpyN2VHdF9wRGgwQUJDRXVHVFlQOV9XR184WWVNY24zLThxTHc0NEdsbXN3V05Ma1U4Q2xoWEtkZWtybXpmRnYxWXY4OGIwN1Y2Rzl1WXJldkU?oc=5
 8. **Eylsia Nicolas's "What Will Become of Me" Reaches #1 on Groover Hip Hop Charts in the U.S. - Black Hills Pioneer** — Google News — Hip-Hop — Sat, 17 Oct 2026 09:00:00 GMT
    https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRXc1dmFfZzgwU25tQlVPc1pPVVV5ZXZuOXdSdDdUdkZ6bmlaTEJQOUhpcVBRNHZvNUcyeXctMk9IQVNjeUlkOTEtQXc0Sm02MGlmUU5PbVdqWDhYTHJ5Y0tXd0dnSUlEbWFQZy1RQkJpNGUySTh3cHRyd3Rfbldxbms5a2xJQWNhTUJpdnd6QjZmc3VKSFlaTlB2SjZoNXBTVDlvMl9NZGNzaFRxNGdwd05FN3BmZDFTZFBuMng2RG5tazJNWGVGTHdmUEpoQ1VYVkQ1NWktTTdtMlJLbmtuUTRybmxxdllDckFzVURjVkZCRDA?oc=5
 9. **Metal Hammer's tracks of the week: October 16 2026 - Louder** — Google News — New Music — Sat, 17 Oct 2026 08:00:00 GMT
@@ -54,15 +54,15 @@ Stories discovered: 220
    https://news.google.com/rss/articles/CBMitgFBVV95cUxQc1VZYmI3N3BETXg0OTE0MzkyQTlEU1VVT0VZcDJSOHVrQWZCLXg3eG5PUTJsdXp0YVJOMFBMVUdtdHFJemxieU5rY28zZTlTaENVdjRITE9CMXdUYk5nc0hMR1MxenNBYV95RlFHdmV0UDRkSmNiMF9ZWkFtYTVZemxFLVB3V0tGVTVmaUp4NHZaU3BTVnlrekh6V3dBRlg2UDBRSF93dXpaVWlIc1ZvVm9UNmVkUQ?oc=5
 24. **Jawan Flips OutKast Classic on 'Fresher Than Us': Listen - Rated R&B** — Google News — R&B — Fri, 16 Oct 2026 23:28:49 GMT
    https://news.google.com/rss/articles/CBMiYEFVX3lxTE01UHdnU3hQb1liSEhTX25kMmNPNnJJUWRORzJpREMxek5SeUJ0cnBPRmVpMTB4WUpPWTVXa1R1SG8zbXhqYTBYczNfeEZSdkVNLTNWV3JORzlka2l4bjFuYQ?oc=5
-25. **Drake Makes Billboard History With 18th No. 1 Album as 3 Records Lead R&B/Hip-Hop Charts - The Source Magazine** — Google News — Hip-Hop — Fri, 16 Oct 2026 23:28:11 GMT
+25. **Drake Makes Billboard History With 18th No. 1 Album as 3 Records Lead R&B/Hip-Hop Charts - The Source Magazine** — Google News — R&B — Fri, 16 Oct 2026 23:28:11 GMT
    https://news.google.com/rss/articles/CBMivAFBVV95cUxOdnYtQmhrTHdZTGdIbC0zS1k0VmcwckRvQjlKUmpGVXBLOEp6eXpfNi0tVVVUX2x4cm1WZTdfeHZ5SVk3TjVyNzJaVVNSR2VuTjctMFItdU40SGU3MmEyM2tlT3RXczQzWnpXLW83WS0yOTdES1VyclVpc1RQUVphQ2xHNC1iUktxU2xVVi1pLUIzTzExMF9TWTdnR3pobTFuUzVxT28xSEhfX25nbnctTzFBbzhGWlJBNnFMaQ?oc=5
 26. **Mark Pucci, Veteran Music Publicist & Recognized Blues Advocate, Dies at 79** — Billboard — Fri, 16 Oct 2026 23:12:14 +0000
    https://www.billboard.com/pro/mark-pucci-death-publicist-lynyrd-skynyrd-johnny-cash-dead/
 27. **3 90s R&B Hits That Taught Millennials How to Love, Even if It Hurt Sometimes - VICE** — Google News — R&B — Fri, 16 Oct 2026 22:59:17 GMT
    https://news.google.com/rss/articles/CBMirAFBVV95cUxNTTFJMHk4Y0lQOTNEeHM4dXFUaXNVTFFnUmI5eUhVOGxiU2tHaE1Gb2REdjM2V2tDNWdxVVdHVXlMRlFJNnRnRENzb0pFX0NxS0RzMlZ4U3FySFJ2Qkt5VHdrdXhpOWRWR3pEdDFGYmswUzNPUmNrVGc3UmJwbDhXcXFGZHBCNzQyVDItXzYxNUJIaS1QREJMdzRWTmtiSDRVRjJvRnlRcHk0RjRZ?oc=5
-28. **Star2 Drops New Concept Album 20-Something (In Love) ft. Young Henny Chinatown Runner, Ler Mu Dex, Lil BK & Seko** — AllHipHop — Fri, 16 Oct 2026 22:33:30 +0000
+28. **Yandy Smith Says She Should Have Made 'Hundreds Of Millions' For Co-Creating 'Love & Hip-Hop' - Black America Web** — Google News — Hip-Hop — Fri, 16 Oct 2026 22:44:49 GMT
+   https://news.google.com/rss/articles/CBMipAFBVV95cUxPTE9aNk1yS3U3dWVFNm5rOGRILVhfSVlLZnkxX0c1RTEwOUFCREcyakRYTEItcXh4djlxeEcyWnZ5MU9vSXM0ZDhwNGRIOGs2cng3bkdDMVE0b1VaQm1YV25NUDVjUWJCajdGSllKMTFTelczbVhMbFg0Y2MtOGlEQ0NWY1FBRndSTzU2OERNLUxENFo3OENRM3JkTTl3NUpYdDhWNQ?oc=5
+29. **Star2 Drops New Concept Album 20-Something (In Love) ft. Young Henny Chinatown Runner, Ler Mu Dex, Lil BK & Seko** — AllHipHop — Fri, 16 Oct 2026 22:33:30 +0000
    https://allhiphop.com/music/star2-drops-new-concept-album-20-something-in-love-ft-young-henny-chinatown-runner-ler-mu-dex-lil-bk-seko/
-29. **Beneath the Balconies set to fill New Iberia streets with music - KATC** — Google News — New Music — Fri, 16 Oct 2026 22:27:00 GMT
+30. **Beneath the Balconies set to fill New Iberia streets with music - KATC** — Google News — New Music — Fri, 16 Oct 2026 22:27:00 GMT
    https://news.google.com/rss/articles/CBMipAFBVV95cUxPdUFpNjZURm4xS2lPU3htcFRQZHU0VFhVYWsydkRlLTdxaTJMYlhKTGFiVjRtc0FmLXM4R1VpdzZYT2FCejJ6MzNDZEt4TTFLbmRYb09wdUJXMEtHNUNkaWptRkhnMTZsMjJDV2VkUHhEUnFqaW1oUVQ5ZGVLRWRKX2o4Nm1aamJUTWFDcTBlN0hhT2NRUGdabWhFd1dnd0Z3dGxOWQ?oc=5
-30. **Drake Sued Over ‘Janice STFU’: Songwriter Claims Chorus Is ‘Literally Identical’ to His Demo** — Billboard — Fri, 16 Oct 2026 22:05:19 +0000
-   https://www.billboard.com/pro/drake-janice-stfu-lawsuit-songwriter-sues-copied-demo/
