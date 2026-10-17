@@ -1,13 +1,13 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-17T11:17:01.402Z
+Generated: 2026-10-17T11:50:56.350Z
 
 Status: READY_FOR_EDITOR
 
 Stories discovered: 216
 
-1. **Westminster Music Centre to showcase new facility at Music on Main - upstatetoday.com** — Google News — New Music — Sat, 17 Oct 2026 09:52:09 GMT
-   https://news.google.com/rss/articles/CBMi5gFBVV95cUxNdi1wRnRUbnpjZ2RZeWtQRzVEZTFFNF9ReFFYcVdJV0JTeWkxUTY2bklXbk90eXdNSEVmd2NIUktvY3FjVEpHS0ZuRWFmSHdsQ25iTWt3M2cxbTEwaG0wcEZCWjd0RWdwckZQdWZpcHNSaE1LY1VKTUxTakE1aXlxd0JONXpobzdDNG1lR296eDZGcGdRZkZYeXdKaEx2WnFrZWV0Zm4tRl9Kb3VuWFN5blhxMmtPdmdMNWNnOGlQeUlUOGlvaHViWENsenNyOEJac0wzVVE1dVJxekJfbFh5VXEzdGRfQQ?oc=5
+1. **Musician Lee Bains III details his hiatus from music and new poetry book 'Work Lunch' - NPR** — Google News — New Music — Sat, 17 Oct 2026 11:43:06 GMT
+   https://news.google.com/rss/articles/CBMixwFBVV95cUxPcFZpbEtFdXVIZ3JiUmVET0hQa1BqeUJVa0JxdS1wbjNpNHA2cXNnajY5OVA0dGVtZDl2eW1PRlB1TUt4cVpDOGNFVGdEU2tweWdZRDZCX1RBaFg4M3htOTlfOGVuLVdQc3RfaDllMEsyZXpDcWtFV1FPTnlHS0tnMlBxaklIeFBtTzVLZ0hxZlJBbEY0bi1VV3NqMFdyS0xHaEpqOEU1Y3RCRzJyUlpLc242QnVEeEdrV3pqalNYYll6SmppMmdB?oc=5
 2. **Olivia Rodrigo, Tate McRae and Zach Bryan Lead a Packed New Music Friday - WBWN** — Google News — New Music — Sat, 17 Oct 2026 09:13:25 GMT
    https://news.google.com/rss/articles/CBMipwFBVV95cUxOcm1BTno0UlVDc3R6aUJsYk5ZenRrUllSa2s3NmJ3MFBVcnhkclpYS1hSU2lxMlFrV1BwZDF4ZWlOOXY1N3M4dmNmY0F5ZnRKbG5NX1p6ZEY3eHF5UVJkV09JeUtRMDNpZTJsdk01OHJQOW5XdS12UHJFc1gyS29aMTBVZm1OYms2bExLOGpFSnJZbUp5bTd4U2hJS1RmXzBwZ0ZDQ29zOA?oc=5
 3. **Eylsia Nicolas's "What Will Become of Me" Reaches #1 on Groover Hip Hop Charts in the U.S. - Black Hills Pioneer** — Google News — Hip-Hop — Sat, 17 Oct 2026 09:00:00 GMT
