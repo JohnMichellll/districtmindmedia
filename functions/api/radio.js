@@ -2,8 +2,35 @@ const json = (data, status = 200) => Response.json(data, { status, headers: { "C
 const validId = (v) => typeof v === "string" && /^[a-zA-Z0-9_-]{8,80}$/.test(v);
 const currentWeek = () => new Date().toISOString().slice(0, 10);
 
+// Static playback lineup lets the station play even before Cloudflare D1 voting is configured.
+// Voting remains closed until the shared database is connected and explicitly opened.
+const localTracks = [
+  { id: "dm_track_og_dance", title: "OG Dance", artist: "John Michell", audio_url: "/assets/audio/13th-hour/OG_DANCE.mp3", artwork_url: null, sort_order: 1, votes: 0 },
+  { id: "dm_track_freeze", title: "Freeze", artist: "John Michell", audio_url: "/assets/audio/13th-hour/Freeze.mp3", artwork_url: null, sort_order: 2, votes: 0 },
+  { id: "dm_track_turn_up", title: "Turn Up", artist: "John Michell", audio_url: "/assets/audio/13th-hour/TURN_UP.mp3", artwork_url: null, sort_order: 3, votes: 0 },
+  { id: "dm_track_idk_yet_ring", title: "Idk Yet Ring", artist: "John Michell", audio_url: "/assets/audio/13th-hour/Idk_yet_ring.mp3", artwork_url: null, sort_order: 4, votes: 0 },
+  { id: "dm_track_what_if", title: "What If", artist: "John Michell", audio_url: "/assets/audio/13th-hour/What_If.mp3", artwork_url: null, sort_order: 5, votes: 0 },
+  { id: "dm_track_5", title: "5", artist: "John Michell", audio_url: "/assets/audio/13th-hour/5.mp3", artwork_url: null, sort_order: 6, votes: 0 },
+  { id: "dm_track_unfinished", title: "Unfinished", artist: "John Michell", audio_url: "/assets/audio/13th-hour/Unfinished.mp3", artwork_url: null, sort_order: 7, votes: 0 },
+  { id: "dm_track_rivers", title: "Rivers", artist: "John Michell", audio_url: "/assets/audio/13th-hour/Rivers.mp3", artwork_url: null, sort_order: 8, votes: 0 },
+  { id: "dm_track_like_u", title: "Like U", artist: "John Michell", audio_url: "/assets/audio/13th-hour/Like_U.mp3", artwork_url: null, sort_order: 9, votes: 0 }
+];
+
 export async function onRequest({ request, env }) {
-  if (!env.DB) return json({ ok: false, code: "RADIO_STORAGE_NOT_CONFIGURED", message: "Radio voting is being prepared. Shared voting will open once the station database is connected." }, 503);
+  if (!env.DB) {
+    if (request.method === "GET") {
+      return json({
+        ok: true,
+        code: "RADIO_PLAYBACK_ONLY",
+        message: "Playback is available. Shared voting will open when the Radio database is connected.",
+        settings: { week_key: "13th-hour-launch-week", is_open: 0, closes_at: null },
+        tracks: localTracks,
+        total_votes: 0,
+        leader_track_id: null
+      });
+    }
+    return json({ ok: false, code: "RADIO_STORAGE_NOT_CONFIGURED", message: "Playback is available, but shared voting and reward entries are offline until the station database is connected." }, 503);
+  }
   const db = env.DB;
   if (request.method === "GET") {
     const settings = await db.prepare("SELECT week_key, is_open, closes_at FROM radio_config WHERE id = 1").first();
