@@ -35,9 +35,25 @@ export async function onRequest({ request, env }) {
   if (request.method === "GET") {
     const settings = await db.prepare("SELECT week_key, is_open, closes_at FROM radio_config WHERE id = 1").first();
     const { results: tracks } = await db.prepare("SELECT t.id, t.title, t.artist, t.audio_url, t.artwork_url, COALESCE(v.total, 0) AS votes FROM radio_tracks t LEFT JOIN (SELECT track_id, COUNT(*) AS total FROM radio_votes WHERE week_key = ? GROUP BY track_id) v ON v.track_id = t.id WHERE t.is_active = 1 ORDER BY t.sort_order, t.id").bind(settings?.week_key || currentWeek()).all();
-    const total = tracks.reduce((n, t) => n + Number(t.votes || 0), 0);
-    const sorted = [...tracks].sort((a, b) => Number(b.votes) - Number(a.votes));
-    return json({ ok: true, settings: settings || { week_key: currentWeek(), is_open: 0, closes_at: null }, tracks, total_votes: total, leader_track_id: sorted[0]?.votes > 0 ? sorted[0].id : null });
+    if (!tracks.length) {
+      return json({
+        ok: true,
+        code: "RADIO_PLAYBACK_ONLY",
+        message: "The audio lineup is ready. Shared voting will open after the station tracks are configured.",
+        settings: { week_key: settings?.week_key || currentWeek(), is_open: 0, closes_at: settings?.closes_at || null },
+        tracks: localTracks,
+        total_votes: 0,
+        leader_track_id: null
+      });
+    }
+    const audioByTitle = new Map(localTracks.map(t => [t.title.toLowerCase().replace(/[^a-z0-9]/g, ""), t.audio_url]));
+    const playableTracks = tracks.map(t => ({
+      ...t,
+      audio_url: audioByTitle.get(String(t.title || "").toLowerCase().replace(/[^a-z0-9]/g, "")) || t.audio_url
+    }));
+    const total = playableTracks.reduce((n, t) => n + Number(t.votes || 0), 0);
+    const sorted = [...playableTracks].sort((a, b) => Number(b.votes) - Number(a.votes));
+    return json({ ok: true, settings: settings || { week_key: currentWeek(), is_open: 0, closes_at: null }, tracks: playableTracks, total_votes: total, leader_track_id: sorted[0]?.votes > 0 ? sorted[0].id : null });
   }
   if (request.method !== "POST") return json({ ok: false, message: "Method not allowed." }, 405);
   let body;
