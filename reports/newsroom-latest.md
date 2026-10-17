@@ -1,10 +1,10 @@
 # District Mind Newsroom Report
 
-Generated: 2026-10-17T02:23:50.295Z
+Generated: 2026-10-17T02:57:11.373Z
 
 Status: READY_FOR_EDITOR
 
-Stories discovered: 221
+Stories discovered: 223
 
 1. **B2K Sets Release Date for New Album ‘Eclipse,’ Shares ‘Lil Freak’ - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 00:48:29 GMT
    https://news.google.com/rss/articles/CBMie0FVX3lxTE9aNE1jZWRjaUYtWG0xR3VzM0xhS3hOU2k0ZS1zVG9Pd3FhNkQ1WC01TVBuSlUtOWxwY3BzTEZ4WTFUMlFuWjd3eFQ2VkFCYUlPRTFNS2h0a29qS2EyekpyS1pHSEJ0a0xRUGZEeXNLWEhxNGlKMmwzWjZmRQ?oc=5
@@ -16,35 +16,35 @@ Stories discovered: 221
    https://news.google.com/rss/articles/CBMi6wFBVV95cUxONUNmY0JRcHh6UmhGb3hNUVR0N3BmZzR0VEl2U2laU2VtcjAtaXdIQmFFaXpvYzl6YlRPdFZ1cC1lb1BCb0lFMzVSdldIRWhmYldvZm1sMzR6UDZ6UUhLVWltOFMtV0t0MkVrekpNT3Fad0tfZ2RIbDhKQTJlaDM3YmNZYnlkdFJmNUc0V0FHeXktNjRjTGVudVJmbERWRFY2NFN2ZGl3a0xHSFBVZDhTMDRwWndBcGVsamVwVE5heTlyS1pRVkJ3WjI3NHFWWWNrQTNtVWtKOEwtZUhFbnMtVnplci1kcUJmcHM0?oc=5
 5. **Eylsia Nicolas's "What Will Become of Me" Reaches #1 on Groover Hip Hop Charts in the U.S. - The Killeen Daily Herald** — Google News — Hip-Hop — Sat, 17 Oct 2026 00:15:00 GMT
    https://news.google.com/rss/articles/CBMiigJBVV95cUxPNVJEUVdjeFZ3WEpoMThDWGVBWXZoV3A1YmNJaHE5UnRiZ3FlQ1B0Sl9sRloweDhSUGhaUmpaQ3ZKdXJsSnJRMzdpbVdUSGExZlNhUVUzQ0t4NzZpMVlZYXpqUk5IUVBaWXRldFBBdXZTZ2pRdGRkRUtLLXV5OTdRcndEbjRPWWJVQThpbGFLTVB1T2djSnAxWk9UNkR6WERwVTllRDc3YS1FeE1Mb2VEZ1U3ZVVRelJnY1QxN1JfZzd1MTREbEgzeWpDTi1LRjY3b3NLR2xTRElKOVV2cWVkN2tpUU1PYmM3dEN1ZVB4V016b0tHVTNoSE0wMW5HLXMyLTNTYlBnTDUzZw?oc=5
-6. **Eylsia Nicolas's "What Will Become of Me" Reaches #1 on Groover Hip Hop Charts in the U.S. - lincolnjournal.com** — Google News — Hip-Hop — Sat, 17 Oct 2026 00:15:00 GMT
-   https://news.google.com/rss/articles/CBMimAJBVV95cUxQTDU1QVYzOHlILW8tZExiZlpKS0FONVNuUlJlcDgzdEkyRDRYYlBrSFpyYkozVDJBdE1kSnNRZ2FDcUQySXhNZ3JkeEdrZHBTMmlsc3pHZm0wN2ZETHZlOWdzbXQ0X3hDVHZhZmYxRzF3RGpUOVBVcWJBcUV0NUdLR0s1eU5FejBfR1JRWnItVW5xX0VxRHlzTDZORWlMemZtOFhkeTZWS0NXZWpCSHIzTUZIeDloWmhJNWx1N0MyVENOSExFSDNoT1JDcElYSUNHb3V6NzlONklRelZsWXcyUjFHTDZyUWo5R3BqVzl5WkJBYTk2UmVvWW5zYXlDcTZiUGVGZ05rTVFfQk1GaGtnbUV5dkhuXy1N?oc=5
-7. **Eric Benét Announces New Album ‘We Need Everybody,’ Shares ‘Heaven’ - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 00:14:20 GMT
+6. **Eric Benét Announces New Album ‘We Need Everybody,’ Shares ‘Heaven’ - Rated R&B** — Google News — R&B — Sat, 17 Oct 2026 00:14:20 GMT
    https://news.google.com/rss/articles/CBMiigFBVV95cUxQZ2J1bVVqaHVoYzNGOVVTa2pCaW9Md1B3cGZqbWN3TzNaWlFlVHlkLUs0V2pQTnYzQVFHU3ZBUkM5TUEtbkVSZWRRMFcyNk9KRnVhb2JwaExMQThrZkFaRGlOU1FnaUNjYU9uamNrQ0QyNTluS3V4ZUJiWkh4Q19ERXV0VEgtbnM2TEE?oc=5
-8. **Billboard’s Music Industry Events Calendar** — Billboard — Sat, 17 Oct 2026 00:02:00 +0000
+7. **Billboard’s Music Industry Events Calendar** — Billboard — Sat, 17 Oct 2026 00:02:00 +0000
    https://www.billboard.com/pro/music-industry-events-calendar-festivals-awards-conferences/
-9. **John Mayer Officially Announces New Single "Tom and Jerry," Thanks Fans for Waiting - Complex** — Google News — New Music — Fri, 16 Oct 2026 23:48:59 GMT
+8. **John Mayer Officially Announces New Single "Tom and Jerry," Thanks Fans for Waiting - Complex** — Google News — New Music — Fri, 16 Oct 2026 23:48:59 GMT
    https://news.google.com/rss/articles/CBMilwFBVV95cUxQSjdad1pKZG84TFlEanlUQXMyc1l0ak5ESXZtaWNpQlpQMGtwc0RIRFRCVWFyR2ZSWWc2RVZzSXJaTGR1TVpoRGZ6WkVtSEhfX1JHWWFOZHN4NFROZDNFNC1TSk1ZTkNPSHFLcUtiMG14bFhsNmJRNnM2NmpIbzl5bF9zbmxVUmhUMl9OZW0zdXVNdkllWGx3?oc=5
-10. **Jawan Flips OutKast Classic on 'Fresher Than Us': Listen - Rated R&B** — Google News — R&B — Fri, 16 Oct 2026 23:28:49 GMT
+9. **Jawan Flips OutKast Classic on 'Fresher Than Us': Listen - Rated R&B** — Google News — R&B — Fri, 16 Oct 2026 23:28:49 GMT
    https://news.google.com/rss/articles/CBMiYEFVX3lxTE01UHdnU3hQb1liSEhTX25kMmNPNnJJUWRORzJpREMxek5SeUJ0cnBPRmVpMTB4WUpPWTVXa1R1SG8zbXhqYTBYczNfeEZSdkVNLTNWV3JORzlka2l4bjFuYQ?oc=5
-11. **Drake Makes Billboard History With 18th No. 1 Album as 3 Records Lead R&B/Hip-Hop Charts - The Source Magazine** — Google News — R&B — Fri, 16 Oct 2026 23:28:11 GMT
+10. **Drake Makes Billboard History With 18th No. 1 Album as 3 Records Lead R&B/Hip-Hop Charts - The Source Magazine** — Google News — R&B — Fri, 16 Oct 2026 23:28:11 GMT
    https://news.google.com/rss/articles/CBMivAFBVV95cUxOdnYtQmhrTHdZTGdIbC0zS1k0VmcwckRvQjlKUmpGVXBLOEp6eXpfNi0tVVVUX2x4cm1WZTdfeHZ5SVk3TjVyNzJaVVNSR2VuTjctMFItdU40SGU3MmEyM2tlT3RXczQzWnpXLW83WS0yOTdES1VyclVpc1RQUVphQ2xHNC1iUktxU2xVVi1pLUIzTzExMF9TWTdnR3pobTFuUzVxT28xSEhfX25nbnctTzFBbzhGWlJBNnFMaQ?oc=5
-12. **Mark Pucci, Veteran Music Publicist & Recognized Blues Advocate, Dies at 79** — Billboard — Fri, 16 Oct 2026 23:12:14 +0000
+11. **Mark Pucci, Veteran Music Publicist & Recognized Blues Advocate, Dies at 79** — Billboard — Fri, 16 Oct 2026 23:12:14 +0000
    https://www.billboard.com/pro/mark-pucci-death-publicist-lynyrd-skynyrd-johnny-cash-dead/
-13. **3 90s R&B Hits That Taught Millennials How to Love, Even if It Hurt Sometimes - VICE** — Google News — R&B — Fri, 16 Oct 2026 22:59:17 GMT
+12. **3 90s R&B Hits That Taught Millennials How to Love, Even if It Hurt Sometimes - VICE** — Google News — R&B — Fri, 16 Oct 2026 22:59:17 GMT
    https://news.google.com/rss/articles/CBMirAFBVV95cUxNTTFJMHk4Y0lQOTNEeHM4dXFUaXNVTFFnUmI5eUhVOGxiU2tHaE1Gb2REdjM2V2tDNWdxVVdHVXlMRlFJNnRnRENzb0pFX0NxS0RzMlZ4U3FySFJ2Qkt5VHdrdXhpOWRWR3pEdDFGYmswUzNPUmNrVGc3UmJwbDhXcXFGZHBCNzQyVDItXzYxNUJIaS1QREJMdzRWTmtiSDRVRjJvRnlRcHk0RjRZ?oc=5
-14. **Gladson Trio – a new generation of Appalachian music at WOB - Bluegrass Today** — Google News — New Music — Fri, 16 Oct 2026 22:38:09 GMT
+13. **Gladson Trio – a new generation of Appalachian music at WOB - Bluegrass Today** — Google News — New Music — Fri, 16 Oct 2026 22:38:09 GMT
    https://news.google.com/rss/articles/CBMijgFBVV95cUxOS2pLN0hGd0ViUElmZlM0SG55VHNTTHd4RVNEN2N1Vm5TRklDeEo1bnlmdkhURmtBcDh1eklmRTVrbEpRRDZEekZ5aXZVVGJ6MVdTN01Obk8tWHdZSVM0VDNhM2ducTVqMWlJVzFvM2RRZ215Ylhld19kV3RVOVV3djBTb01CVjBYR0lsOWVR?oc=5
-15. **Star2 Drops New Concept Album 20-Something (In Love) ft. Young Henny Chinatown Runner, Ler Mu Dex, Lil BK & Seko** — AllHipHop — Fri, 16 Oct 2026 22:33:30 +0000
+14. **Star2 Drops New Concept Album 20-Something (In Love) ft. Young Henny Chinatown Runner, Ler Mu Dex, Lil BK & Seko** — AllHipHop — Fri, 16 Oct 2026 22:33:30 +0000
    https://allhiphop.com/music/star2-drops-new-concept-album-20-something-in-love-ft-young-henny-chinatown-runner-ler-mu-dex-lil-bk-seko/
-16. **Drake Sued Over ‘Janice STFU’: Songwriter Claims Chorus Is ‘Literally Identical’ to His Demo** — Billboard — Fri, 16 Oct 2026 22:05:19 +0000
+15. **Drake Sued Over ‘Janice STFU’: Songwriter Claims Chorus Is ‘Literally Identical’ to His Demo** — Billboard — Fri, 16 Oct 2026 22:05:19 +0000
    https://www.billboard.com/pro/drake-janice-stfu-lawsuit-songwriter-sues-copied-demo/
-17. **Toronto Hip-Hop Artist Skip Waiters Explores Self-Belief And Reinvention On New Album 'Piks.' - That Eric Alper** — Google News — Hip-Hop — Fri, 16 Oct 2026 22:05:13 GMT
+16. **Toronto Hip-Hop Artist Skip Waiters Explores Self-Belief And Reinvention On New Album 'Piks.' - That Eric Alper** — Google News — Hip-Hop — Fri, 16 Oct 2026 22:05:13 GMT
    https://news.google.com/rss/articles/CBMizAFBVV95cUxOX29GeU4xbjZ3aS0zTThYeEx4bXExbUJUeWJsellzdXNZX1BpeVFndm03bUZwZHotUVEySnNWN29tOElfb3NrUWhUWkJySHdmTHBsTW5YcDM1MWZDdnV5bWJVSF9VX2I5QjNfajN5RS1yWm9jYXVJZXdfWGlPZzAyTGpKX3ZLbl9kVUMtVmZZNmRUTnNjTWp5a1JjdXQ4eXpnQnBoWGN5N3dZTExTbVpHZE1jeXBSLXRIYmtVdmhGckp2SG1JR0FDRjRKTGs?oc=5
+17. **Video: Karri Is Making Hits With Drake's Old Playbook - The New York Times** — Google News — R&B — Fri, 16 Oct 2026 21:55:27 GMT
+   https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV0x4TWN5cDZaYW1lZm81bGhKZDdXYkdsY1lyS212NjcwcS1mcEotNnJwQURJOU94WFVPUWxUdGxTUW5xTVVfdmQ3MFRKbjZyNXJSTmM0dHV2R051RUx5ajA3d2VvWi1yTWw3bGcxWjV6cEJ0WHRkeDVBLXQ5Y1d1cGZ6VDFWYlNNdzMzajF1OWlrOGlTVHF6UjFqSWpyWGtQQXgtWWZuQl8?oc=5
 18. **In Canada: Cardi B Named First-Ever Global Woman of the Year at Billboard Canada Women in Music 2026** — Billboard — Fri, 16 Oct 2026 21:42:52 +0000
    https://www.billboard.com/pro/cardi-b-billboard-canada-women-in-music-2026-award-news/
 19. **Music Industry Moves: My Chemical Romance Signs With Warner Chappell** — Variety — Music — Fri, 16 Oct 2026 21:35:00 +0000
    https://variety.com/2026/music/news/jesse-jo-stark-wme-1236910696/
-20. **Ella Langley Shows Winsomeness Can Win the Night, Just Like It’s Won the Year for Her, in a Stellar Turn at L.A.’s Greek: Concert Review** — Variety — Music — Fri, 16 Oct 2026 21:30:00 +0000
+20. **For Ella Langley, Winsomeness Wins the Night, Just Like It’s Won the Year for Her, in a Stellar Turn at L.A.’s Greek: Concert Review** — Variety — Music — Fri, 16 Oct 2026 21:30:00 +0000
    https://variety.com/2026/music/concert-reviews/ella-langley-concert-review-greek-theatre-tour-1236914594/
 21. **New Music Friday: Silvana Estrada, OHGEESY ft Big Sean, Eddie Santiago, Ryan Castro, Olivia Rodrigo, and more - HOLA** — Google News — New Music — Fri, 16 Oct 2026 21:24:33 GMT
    https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQTFGQm1DODN1OXZMdUV2aTgzVllCaTkydXhJLVJTMzJoaUJxWnl6ckhCWWhvTDVTaVI0RkRjRzMxbFNRTUE5aEc4UGVib1BPakJNbXp4RGF5azZuWll0ZGFNelF0aGFzRUkxZkVVbmhnVVhaMHBrX2Z0ektSRUpsVjNxcGFxSGN1?oc=5
@@ -60,9 +60,9 @@ Stories discovered: 221
    https://news.google.com/rss/articles/CBMivgFBVV95cUxQaU1FVDVUenNwdWZPSDJnOVYwVk5xM1pwMHZDYkp6bVVjdURSeW9iWjFFN0V4Yml2TnA5YjVPQ3BkWWxNZXFQaTI3dkhDNGRlc3VMQW55QlVLMTJOLWdLRVdEbXFXbzFqZlQ4YUtZbmZKYl9GR3pZNWl6T2R4NWYwcUFHQzRYaHhZWTN2QlhOX3FpWElyd0VGc3FuSTBrbTBfTjFoNmZ3OERFeHBJeXFSemw1Y0labWJ0ems0TU93?oc=5
 27. **Nas Teases New Music & Voices Disgust Over Current State of Music Industry: ‘We Gotta Take a Stand as One’ - Billboard** — Google News — Hip-Hop — Fri, 16 Oct 2026 20:34:07 GMT
    https://news.google.com/rss/articles/CBMifkFVX3lxTE9KRVREWHhVQTFUTUtBdHRNaXlISnpFbUdGTnZ6Vm16YkF3T0ZQdEszbVFFSjRyX1dtakN6c1NBTWg1a3daTmJGMWwxaFFrTTgxa29ma2xmSWppSXNHeEI5UllSR2pIVzBGRVBzdGF5TGlINjlseWhCOUtJVnYxdw?oc=5
-28. **Nas Teases New Music & Voices Disgust Over Current State of Music Industry: ‘We Gotta Take a Stand as One’ - Yahoo** — Google News — New Music — Fri, 16 Oct 2026 20:34:01 GMT
-   https://news.google.com/rss/articles/CBMingFBVV95cUxNQVNUcHZxZFcwOVZQN2Z4eGdrelVTWjJqYzNqNV9rYmdRUVFVT0tlUFQ3R1lrSzdBQkZnZDh5cno4T1ppR0RRa0t3OUl3aG1VLW1WLVN6VzhFa3BaQUZkemJHU2RsWF9ZMFdCTG84OHVOdTJublNCOXBZMUdPY19DQmc3M0Mzc0xDR0h0Tm14OXlhUEFka3pzRWVrTmFXZw?oc=5
-29. **Case and Carl Thomas Set for Classic R&B ‘Verzuz’ - HOT 97** — Google News — R&B — Fri, 16 Oct 2026 20:33:14 GMT
+28. **Case and Carl Thomas Set for Classic R&B ‘Verzuz’ - HOT 97** — Google News — R&B — Fri, 16 Oct 2026 20:33:14 GMT
    https://news.google.com/rss/articles/CBMif0FVX3lxTE1YaFdVdWRsdjRsOF9DQ09tQ3l5dEZsUmVyRUJJcEFmRzhTSDNDVTlfaVQwck51WDB3Q09UVjJvbV91U1V0N3JJYTRGWXRWYmVvYTZUMEh5dl9sb0xLQS04NWhpX3ZOUVI2YzdyVjNMLTgwX25ETU81cF9DV0ExYzQ?oc=5
-30. **Britney Spears Reveals the R&B Icon She Admires Most: ‘She Has Always Been God to Me’ - VICE** — Google News — R&B — Fri, 16 Oct 2026 20:20:27 GMT
+29. **Britney Spears Reveals the R&B Icon She Admires Most: ‘She Has Always Been God to Me’ - VICE** — Google News — R&B — Fri, 16 Oct 2026 20:20:27 GMT
    https://news.google.com/rss/articles/CBMitAFBVV95cUxOLVBsaWI3bzJpeUV4OV9uY3pkTF9ITUc4M3lTUThDQklzUlcyVE9lLVN4US1qUkhiMi02VTVldlFhbXh6N2FkdHJaLUNVSFEyTUk3WVI0Vnl3X2JmNkFDUTE5SHEwaWNWaFZiSDFqaXZUTmF5aXB3aUt1SVVnYUpya2tVaVhMYnpiTHFWdTB1V1g2V1hpaGpILW1HUGlWbW95QkxQSGNpa0VkeVowNG1td0E3VEo?oc=5
+30. **A$AP Rocky Chases First Grammy With “Don’t Be Dumb”** — AllHipHop — Fri, 16 Oct 2026 20:00:45 +0000
+   https://allhiphop.com/news/aap-rocky-chases-first-grammy-with-dont-be-dumb/
