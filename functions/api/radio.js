@@ -33,10 +33,11 @@ export async function onRequest({ request, env }) {
       return json({
         ok: true,
         code: "RADIO_PLAYBACK_ONLY",
-        message: "Shared voting is offline until the Radio database is connected.",
+        message: "Playback is available. Shared voting opens when the Radio database is connected.",
         mode: "setup",
+        playback_open: Date.now() < Date.parse("2026-10-23T06:00:00.000Z"),
         submit_url: "/contact.html?subject=Radio%20submission",
-        settings: { week_key: "13th-hour-launch-week", is_open: 0, closes_at: null },
+        settings: { week_key: "13th-hour-release-2026-10-23", is_open: 0, closes_at: "2026-10-23T06:00:00.000Z" },
         tracks: localTracks,
         total_votes: 0,
         leader_track_id: null
